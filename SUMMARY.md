@@ -11,4 +11,12 @@
   * [Brush-Editing](experimental-builds/brush-editing.md)
   * [Downloads](experimental-builds/downloads.md)
 * [Final Tilt Brush Release Notes](untitled.md)
+* [Existing Wiki](untitled-1/README.md)
+  * [Brushes](untitled-1/brushes.md)
+  * [BuildingOpenBrush](untitled-1/buildingopenbrush.md)
+  * [BurstCompiler](untitled-1/burstcompiler.md)
+  * [Comparison](untitled-1/comparison.md)
+  * [MonoscopicMode](untitled-1/monoscopicmode.md)
+  * [PseudoCode](untitled-1/pseudocode.md)
+  * [UserInterface](untitled-1/userinterface.md)
 
