@@ -4,23 +4,30 @@
 
 **Tutorials and Write ups for Modifying Tilt Brush**
 
-* [Customizing Tilt Brush - Part One: Introduction and Custom Brushes](https://lachlansleight.medium.com/customizing-tilt-brush-6e9a63bd5425)
-* [Customising Tilt Brush - Part Two: Adding Flight](https://lachlansleight.medium.com/customizing-tilt-brush-3407f5ceb4ea)
-* [Scobot - How I change the look of Tilt Brush brushes in Unity3D](https://www.youtube.com/watch?v=38LSpe-2eIU)
-* [Enabling FBX output.](https://wiki.thakyuu.invr.chat/TiltBrush/Tips_how_to_support_fbx_en)
-* [Update Python support scripts to Python 3.8 from Python 2.](https://github.com/billyquith/tilt-brush/commit/f0810efebbbd2969ffa8fee095659b17c0a60696)
+[Customizing Tilt Brush - Part One: Introduction and Custom Brushes](https://lachlansleight.medium.com/customizing-tilt-brush-6e9a63bd5425)
+
+[Customising Tilt Brush - Part Two: Adding Flight](https://lachlansleight.medium.com/customizing-tilt-brush-3407f5ceb4ea)
+
+[Scobot - How I change the look of Tilt Brush brushes in Unity3D](https://www.youtube.com/watch?v=38LSpe-2eIU)
+
+[Enabling FBX output.](https://wiki.thakyuu.invr.chat/TiltBrush/Tips_how_to_support_fbx_en)  
+[Update Python support scripts to Python 3.8 from Python 2.](https://github.com/billyquith/tilt-brush/commit/f0810efebbbd2969ffa8fee095659b17c0a60696)
 
 ## Tilt Brush Developer Documentation
 
-* [General Notes and Resources](https://docs.google.com/document/d/1gjoYp4y-1qlE3a7fvXVxGR3ioj3nMfgprmTHQ-bpq0k/)
-* [Discord Logs \(up to 2021/2/14\)](https://docs.google.com/spreadsheets/d/1H51LAme4S71jA4KydurUsEXp1Ym1R8K2oHfaMRQGhbo/edit#gid=287762688)
-* [General notes by Bill](https://github.com/billyquith/tilt-brush/wiki)
+[General Notes and Resources](https://docs.google.com/document/d/1gjoYp4y-1qlE3a7fvXVxGR3ioj3nMfgprmTHQ-bpq0k/)
+
+[Discord Logs \(up to 2021/2/14\)](https://docs.google.com/spreadsheets/d/1H51LAme4S71jA4KydurUsEXp1Ym1R8K2oHfaMRQGhbo/edit#gid=287762688)
+
+[General notes by Bill](https://github.com/billyquith/tilt-brush/wiki)
 
 **Spreadsheets with some useful info:**
 
-* [Open Brush: Brushes, Materials and Shaders](https://docs.google.com/spreadsheets/d/12fHPnMNhpGGdR1mzFeCjXbg1Nv1PO1LZGcHwgp3S1Og/edit#gid=0)
-* [Open Brush: Panels, Popups and UI Classes](https://docs.google.com/spreadsheets/d/1G0drrmswg4rs46wUQ2iDw_vP8sLEy99p-CXyDTihCiE/edit#gid=1192181253)
-* [Open Brush: Keyboard Controls and VR Input](https://docs.google.com/spreadsheets/d/1D7vIerfSz1vtyDS_dPdvHiANluEr60VFrxhzE7ZbfAU/edit#gid=1073965238)
+[Open Brush: Brushes, Materials and Shaders](https://docs.google.com/spreadsheets/d/12fHPnMNhpGGdR1mzFeCjXbg1Nv1PO1LZGcHwgp3S1Og/edit#gid=0)
+
+[Open Brush: Panels, Popups and UI Classes](https://docs.google.com/spreadsheets/d/1G0drrmswg4rs46wUQ2iDw_vP8sLEy99p-CXyDTihCiE/edit#gid=1192181253)
+
+[Open Brush: Keyboard Controls and VR Input](https://docs.google.com/spreadsheets/d/1D7vIerfSz1vtyDS_dPdvHiANluEr60VFrxhzE7ZbfAU/edit#gid=1073965238)
 
 ## Enums
 
