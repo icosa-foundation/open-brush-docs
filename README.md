@@ -1,16 +1,38 @@
 # General Resources
 
+Icosa and Open Brush Resources
+
 **Who is this for?**
 
 This document lists various useful sources of information for using or tinkering with Icosa Gallery and Open Brush and about the community around them both.
 
-If you’re mainly interested in getting into the actual Open Brush codebase then you probably want to look at the [Developer Notes](developer-notes.md) as well.
+If you’re mainly interested in getting into the actual Open Brush codebase then you probably want to look at [Open Brush Developer Notes](https://docs.google.com/document/d/1BLKHNDjp-hZ8Ju03PhdU1crLOxURB14BtId8YKCp3tk/edit#) as well.
 
 There’s some really useful info in the last [_**TIlt Brush release notes**_](https://docs.google.com/document/d/11ZsHozYn9FnWG7y3s3WAyKIACfbfwb4PbaS8cZ_xjvo/preview#) that isn’t included here.
 
+**What’s in this document?**
+
+[Developer Resources:]()
+
+[Other Resources:]()
+
+[Community Creations:]()
+
+[Usage & Policy Guidelines]()
+
+[Contribute by Supporting Us or Getting Involved]()
+
+[Command Line Arguments]()
+
+[Using Tilt Brush without a headset: “Monoscopic mode”]()
+
+[Exporting a Tilt File from Unity Play mode]()
+
+[Creating your own brushes]()
+
 ## Developer Resources:
 
-[Developer Notes](developer-notes.md)
+[Open Brush Developer Notes](https://docs.google.com/document/d/1BLKHNDjp-hZ8Ju03PhdU1crLOxURB14BtId8YKCp3tk/edit#)
 
 [Open Brush Feature Tracking](https://docs.google.com/spreadsheets/d/1MNqrgnUdM-g5qbW_-rWgnLqqK2WJSSb51y4NTq-ooh0/edit?usp=sharing) \(known forks and features\)
 
@@ -20,7 +42,8 @@ A good explanation for non technical people about “Open source and Tilt Brush�
 
 [Shameless Mayhem - Teaching Tilt Brush: Going Open Source](https://www.youtube.com/watch?v=LNFl_G1OXIw)
 
-Unity Downloads:[ Download Unity - Personal Use](https://store.unity.com/download?ref=personal)
+Unity Downloads:  
+[Download Unity - Personal Use](https://store.unity.com/download?ref=personal)
 
 [Download Unity - Business Use](https://store.unity.com/#plans-business)
 
