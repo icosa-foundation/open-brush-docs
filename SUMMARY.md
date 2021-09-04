@@ -1,4 +1,5 @@
 # Table of contents
 
-* [Open Brush Developer Notes](README.md)
+* [Open Brush Documentation](README.md)
+* [Developer Notes](developer-notes.md)
 
