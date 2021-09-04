@@ -2,8 +2,6 @@
 
 ## Developer Resources
 
-We plan to put some more polished documentation here: [https://tiltbrushdocs.netlify.app/](https://tiltbrushdocs.netlify.app/)
-
 **Tutorials and Write ups for Modifying Tilt Brush**
 
 [Customizing Tilt Brush - Part One: Introduction and Custom Brushes](https://lachlansleight.medium.com/customizing-tilt-brush-6e9a63bd5425)
