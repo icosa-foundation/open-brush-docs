@@ -14,7 +14,7 @@ On to the features.
 
 This is basically my other project Polyhydra \( [https://andybak.net/polyhydra](https://andybak.net/polyhydra) \) smushed together with Tilt Brush. Create a wide range of geometric forms and use them as the basis for complex mirroring of your brush strokes.
 
-![](.gitbook/assets/polyhedra_tool.png)
+![](../.gitbook/assets/polyhedra_tool.png)
 
 ## [2. Open Brush API](https://github.com/IxxyXR/open-brush/wiki/Open-Brush-API)
 
@@ -26,7 +26,7 @@ It doesn't even need VR. You can create 3D works of art on a desktop machine and
 
 Contains some cool example scripts showing what's possible.
 
-![](.gitbook/assets/parametric1.png)
+![](../.gitbook/assets/parametric1.png)
 
 ## [3. Color Jitter](https://github.com/IxxyXR/open-brush/wiki/Color-Jitter)
 
