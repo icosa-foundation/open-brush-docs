@@ -1,6 +1,8 @@
 # Table of contents
 
 * [General Resources](README.md)
+* [Brushes](brushes/README.md)
+  * [Brush List](brushes/brush-list.md)
 * [Developer Notes](developer-notes.md)
 * [Experimental Builds](experimental-builds/README.md)
   * [Polyhedra-and-Symmetry](experimental-builds/polyhedra-and-symmetry.md)
