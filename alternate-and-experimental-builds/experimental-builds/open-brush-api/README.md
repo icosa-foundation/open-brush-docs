@@ -14,17 +14,17 @@ It even works on computers that don't support VR. You can create Tilt Brush sket
 
 Example of a script that uses a web form for input:
 
-![](../../.gitbook/assets/buildings_ui.png)
+![](../../../.gitbook/assets/buildings_ui.png)
 
 Example output from the form shown above:
 
-![](../../.gitbook/assets/buildings.png)
+![](../../../.gitbook/assets/buildings.png)
 
 Some output from other example scripts that are included:
 
-![](../../.gitbook/assets/parametric1.png)
+![](../../../.gitbook/assets/parametric1.png)
 
-![](../../.gitbook/assets/parametric1.gif)
+![](../../../.gitbook/assets/parametric1.gif)
 
 ### What's it good for?
 

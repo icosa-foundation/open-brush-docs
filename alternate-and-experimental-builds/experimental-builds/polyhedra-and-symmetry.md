@@ -6,9 +6,9 @@ Downloads: [https://github.com/IxxyXR/open-brush/wiki/Downloads](https://github.
 
 ### What does it do?
 
-![Polyhedra Tool](../.gitbook/assets/polyhedra_tool.png)
+![Polyhedra Tool](../../.gitbook/assets/polyhedra_tool.png)
 
-![Custom Symmetry](../.gitbook/assets/custom_symmetry.png)
+![Custom Symmetry](../../.gitbook/assets/custom_symmetry.png)
 
 Mainly two related things:
 

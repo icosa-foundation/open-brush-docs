@@ -19,7 +19,7 @@ If you just want to play with new features generally click on the download link 
 
 When you've decided on a feature and clicked on the download link you'll come to a download page similar to this:
 
-![](../.gitbook/assets/downloads%20%281%29.png)
+![](../../.gitbook/assets/downloads%20%281%29.png)
 
 Each line of text is a link to a particular build.
 
