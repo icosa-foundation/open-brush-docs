@@ -12,7 +12,7 @@
   * [Grid-and-Angle-Snapping](experimental-builds/grid-and-angle-snapping.md)
   * [Brush-Editing](experimental-builds/brush-editing.md)
   * [Downloads](experimental-builds/downloads.md)
-* [Final Tilt Brush Release Notes](untitled.md)
+* [Final Tilt Brush Release Notes](tilt-brush-release-notes.md)
 * [Existing Wiki](untitled-1/README.md)
   * [Brushes](untitled-1/brushes.md)
   * [BuildingOpenBrush](untitled-1/buildingopenbrush.md)
