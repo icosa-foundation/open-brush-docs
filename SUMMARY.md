@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Home](README.md)
+* [User Guide](user-guide.md)
 * [Resources](resources.md)
 * [Brushes](brushes/README.md)
   * [Custom Brushes](brushes/custom-brushes.md)
