@@ -1,6 +1,4 @@
-# Resources
-
-
+# Other Resources
 
 **Who is this for?**
 
@@ -8,7 +6,7 @@ This document lists various useful sources of information for using or tinkering
 
 If you’re mainly interested in getting into the actual Open Brush codebase then you probably want to look at the [Developer Notes](developer-notes/) as well.
 
-There’s some really useful info in the last [_**TIlt Brush release notes**_](https://docs.google.com/document/d/11ZsHozYn9FnWG7y3s3WAyKIACfbfwb4PbaS8cZ_xjvo/preview#) that isn’t included here.
+There’s some really useful info in the last [_**TIlt Brush release notes**_](tilt-brush-release-notes.md) that isn’t included here.
 
 ## Developer Resources:
 
@@ -21,7 +19,7 @@ There’s some really useful info in the last [_**TIlt Brush release notes**_](h
 * Unity Downloads:[ Download Unity - Personal Use](https://store.unity.com/download?ref=personal)
 * [Download Unity - Business Use](https://store.unity.com/#plans-business)
 * Our Discord Bots: [Time Zone Conversion](https://top.gg/bot/471091072546766849) Bot
-* [Tilt Brush Release Notes](https://docs.google.com/document/d/11ZsHozYn9FnWG7y3s3WAyKIACfbfwb4PbaS8cZ_xjvo/edit) Google’s last docs for Tilt Brush
+* [Tilt Brush Release Notes](tilt-brush-release-notes.md) Google’s last docs for Tilt Brush
 * [Tilt Brush Unity SDK: Using Tilt Brush with Unity](https://docs.google.com/document/d/1YID89te9oDjinCkJ9R65bLZ3PpJk1W4S1SM2Ccc6-9w/edit) Tilt Brush Toolkit docs
 * [Open Tilt Brush Documentation](https://docs.google.com/spreadsheets/d/1exi7irQ35e8A9LZ6-ujVpLCF_vwBRclM1-iHBYenwBs/edit#gid=0) \(big list of tutorials, tweets, videos, ideas etc\)
 * [Open Brush Trello](https://trello.com/b/jItetqYe/open-brush)

@@ -119,7 +119,7 @@ Additionally, you can find the **Brush, Dropper, re-color, Selection, Model Pin,
 
 You can choose a number of different virtual environments to paint in. For example, you can paint in Studio, Night Sky, Space or on a Dress Form. The lighting in the environment will affect the color of the brush stroke, but switching environments will not affect your existing brush strokes.
 
-### ![](.gitbook/assets/1%20%282%29.png) **Dropper**
+### ![](.gitbook/assets/1%20%283%29.png) **Dropper**
 
 To select the brush and color used for a stroke or the color in a reference image:
 
@@ -138,7 +138,7 @@ You can use the eraser tool to erase entire brush strokes. To select the tool:
 
 Note: To erase your last brush stroke quickly, you can also use Undo. To use Undo, press the left side of the palette controller’s disk. You can also use Undo if you accidentally erase a brush stroke.
 
-### ![](.gitbook/assets/3%20%282%29.png) **Teleport**
+### ![](.gitbook/assets/3%20%283%29.png) **Teleport**
 
 To virtually hop to a different spot in your environment, use Teleport.
 
