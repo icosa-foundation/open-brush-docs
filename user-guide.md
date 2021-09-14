@@ -4,51 +4,51 @@
 
 Paint in 3D with Open Brush, an app that runs on the [HTC Vive](http://www.htcvive.com/) , [Valve Index](https://store.steampowered.com/valveindex) , [Oculus Rift](https://www.oculus.com/rift/) , [Oculus Quest](https://www.oculus.com/quest/), and [Windows Mixed Reality](https://www.microsoft.com/en-us/windows/windows-mixed-reality) virtual reality systems. You can use different brushes, effects, and tools to paint your virtual creations. 
 
-### **How to get Tilt Brush**
+### **How to get Open Brush**
 
-To paint in 3D with Tilt Brush, you’ll need to have a VR headset that supports SteamVR or any Oculus headset.
+To paint in 3D with Open Brush, you’ll need to have a VR headset that supports SteamVR or any Oculus headset.
 
 **HTC Vive / Valve Index**
 
 1. Set up your [HTC Vive](http://www.htc.com/managed-assets/shared/desktop/vive/Vive_PRE_User_Guide.pdf) or [Valve Index](https://support.steampowered.com/kb_article.php?ref=9140-EYIL-0086).
 2. If you haven't already, [install Steam](http://store.steampowered.com/).
-3. Download the [Tilt Brush](http://store.steampowered.com/app/327140/) app.
-4. To open Tilt Brush, open the Steam Library &gt; select **Games** &gt; **Tilt Brush**.
+3. Download the [Open Brush](http://store.steampowered.com/app/327140/) app.
+4. To open Open Brush, open the Steam Library &gt; select **Games** &gt; **Open Brush**.
 
-The system requirements for running Tilt Brush are the same system requirements for the [HTC Vive](https://www.vive.com/us/support/vive/category_howto/system-requirements.html) and [Valve Index](https://store.steampowered.com/app/1070910/Are_you_ready_for_Valve_Index/).
+The system requirements for running Open Brush are the same system requirements for the [HTC Vive](https://www.vive.com/us/support/vive/category_howto/system-requirements.html) and [Valve Index](https://store.steampowered.com/app/1070910/Are_you_ready_for_Valve_Index/).
 
 **Oculus Rift**
 
 1. Set up your [Oculus Rift](https://www3.oculus.com/en-us/setup/).
-2. Download the [Tilt Brush](https://www.oculus.com/experiences/rift/1111640318951750/) app.
-3. To open Tilt Brush, open the **Oculus Home Library** &gt; **Tilt Brush.**
+2. Download the [Open Brush](https://www.oculus.com/experiences/rift/1111640318951750/) app.
+3. To open Open Brush, open the **Oculus Home Library** &gt; **Open Brush.**
 
-The system requirements for running Tilt Brush are the same system requirements for the [Oculus Rift](https://www3.oculus.com/en-us/oculus-ready-pcs/).
+The system requirements for running Open Brush are the same system requirements for the [Oculus Rift](https://www3.oculus.com/en-us/oculus-ready-pcs/).
 
 **Oculus Quest**
 
 1. Set up your [Oculus Quest.](https://www.oculus.com/setup/#quest-setup)
-2. Download the [Tilt Brush](https://www.oculus.com/experiences/rift/1111640318951750/) app.
-3. To open Tilt Brush, open the **Oculus Home Library** &gt; **Tilt Brush.**
+2. Download the [Open Brush](https://www.oculus.com/experiences/rift/1111640318951750/) app.
+3. To open Open Brush, open the **Oculus Home Library** &gt; **Open Brush.**
 
 **Windows Mixed Reality**
 
 1. Set up your [Windows Mixed Reality headset](https://support.microsoft.com/en-us/help/4043101/windows-10-set-up-windows-mixed-reality).
 2. If you haven't already, [install Steam](http://store.steampowered.com/).
-3. Download the [Tilt Brush](http://store.steampowered.com/app/327140/) app.
-4. To open Tilt Brush, open the Steam Library &gt; select **Games** &gt; **Tilt Brush**.
+3. Download the [Open Brush](http://store.steampowered.com/app/327140/) app.
+4. To open Open Brush, open the Steam Library &gt; select **Games** &gt; **Open Brush**.
 
-The system requirements for running Tilt Brush are the same system requirements for the [Windows Mixed Reality headsets](https://docs.microsoft.com/en-us/windows/mixed-reality/enthusiast-guide/windows-mixed-reality-minimum-pc-hardware-compatibility-guidelines).
+The system requirements for running Open Brush are the same system requirements for the [Windows Mixed Reality headsets](https://docs.microsoft.com/en-us/windows/mixed-reality/enthusiast-guide/windows-mixed-reality-minimum-pc-hardware-compatibility-guidelines).
 
 ### **For a quick tutorial**
 
 1. Make sure you are in [Advanced Mode](https://support.google.com/tiltbrush/answer/6389712?hl=en&ref_topic=7074683). 
 2. On your palette, go to **Tools &gt;** **More** &gt; **Tips ‘N Tricks.** 
-3. This will run you through an overview of your Tilt Brush controllers and where the various buttons are.
+3. This will run you through an overview of your Open Brush controllers and where the various buttons are.
 
 ### **View featured sketches**
 
-When you run Tilt Brush for the very first time, you'll be shown an introductory tutorial teaching you how to paint and use the palette.
+When you run Open Brush for the very first time, you'll be shown an introductory tutorial teaching you how to paint and use the palette.
 
 Every time the app is started after that initial run, your palette hand will by default open to the Sketchbook. In the Sketchbook, you can choose between viewing featured sketches from [Poly](https://poly.google.com/), sketches you liked on Poly, and your own saved sketches. You can also choose to start a new sketch.
 
@@ -56,11 +56,11 @@ We regularly feature new sketches from Poly, so keep checking back to see new co
 
 ### **For Advanced Features**
 
-For additional technical information or advanced features, check out the Tilt Brush team's [Release Notes](https://docs.google.com/document/d/11ZsHozYn9FnWG7y3s3WAyKIACfbfwb4PbaS8cZ_xjvo/preview#).
+For additional technical information or advanced features, check out the Open Brush team's [Release Notes](https://docs.google.com/document/d/11ZsHozYn9FnWG7y3s3WAyKIACfbfwb4PbaS8cZ_xjvo/preview#).
 
-## **Painting with Tilt Brush**
+## **Painting with Open Brush**
 
-### **Paint with Tilt Brush**
+### **Paint with Open Brush**
 
 1. On your painting controller, use your index finger to pull the trigger.
 2. Hold the trigger down and move the controller to paint.
@@ -101,9 +101,9 @@ To quickly undo or redo, press and hold the controller button specified above.
 
 To scale, rotate, or move your sketch, you can hold down both of the grip buttons on the sides of your controllers to grab the sketch. Then, move your hands to shrink, enlarge, or spin the sketch.
 
-## **Using the Tilt Brush Tools, Quick Tools, and Menu panels**
+## **Using the Open Brush Tools, Quick Tools, and Menu panels**
 
-On your Tilt Brush panels, you’ll see a number of different options and features. Learn more about them below.
+On your Open Brush panels, you’ll see a number of different options and features. Learn more about them below.
 
 **Eraser, Dropper, Re-Color, Camera, Teleport, Selection, Mirror,** and **Straight Edge** are all on the top level of the Tools panel. on the "More..." panel, which is originally below the Tools panel, you can access **Environment, Lights, Backdrop, Guides, and Poly Library**.
 
@@ -249,8 +249,8 @@ Use the Poly panel to import remixable \(CC-BY\) objects and Blocks models uploa
 
 * Any CC-BY Blocks model or .obj you like on Poly will appear on that panel \(assuming you are signed-in with the same account\).
 * Featured Poly creations will also be accessible on the panel, whether you are signed-in or not.
-* You can remix Blocks models and uploaded .objs in your Tilt Brush sketches, and share remixed sketches back to Poly.
-* Note: you cannot import published Tilt Brush sketches into Tilt Brush sketches at this time.
+* You can remix Blocks models and uploaded .objs in your Open Brush sketches, and share remixed sketches back to Poly.
+* Note: you cannot import published Open Brush sketches into Open Brush sketches at this time.
 
 ### ![](.gitbook/assets/20.png) **Lights**
 
@@ -272,9 +272,9 @@ Use Lights to modify your scene's primary and secondary lighting colors and posi
 * Guides are moved and scaled similar to other widgets, using the Grip buttons.
 * You can pin Guides in your scene, as you can models.
 
-## **Saving and sharing your Tilt Brush sketches**
+## **Saving and sharing your Open Brush sketches**
 
-When you are finished with your 3D creation, you can save your Tilt Brush sketch to your computer, or share it to [Poly](https://poly.google.com/). You can also take snapshot, GIFs or videos of your art to send to friends or post online.
+When you are finished with your 3D creation, you can save your Open Brush sketch to your computer, or share it to [Poly](https://poly.google.com/). You can also take snapshot, GIFs or videos of your art to send to friends or post online.
 
 ### **Saving a sketch**
 
@@ -283,15 +283,15 @@ While painting, you can save your sketch to avoid losing changes.
 1. Navigate to the Tools panel in the palette, and select the **Save** icon: ![](.gitbook/assets/22.png)
 2. Take a snapshot of your sketch to use as a thumbnail image.
 3. Your sketch is now added to your Sketchbook.
-4. Your sketch file is saved to your computer at **Documents/Tilt Brush/Sketches**.
+4. Your sketch file is saved to your computer at **Documents/Open Brush/Sketches**.
 
 ### **Trouble saving sketches**
 
 If you're having issues saving your sketch, check that you have administration privileges on your machine. Antivirus software can also sometimes interfere with the ability to save sketches.
 
-### **Sharing your Tilt Brush sketches**
+### **Sharing your Open Brush sketches**
 
-To share your creations outside of Tilt Brush, click **Upload** ![](.gitbook/assets/23.png) to publish your sketch to [Poly](https://poly.google.com/). Once you have published your sketch, you can share the link to your sketch on social networks like Facebook, Twitter, and Google+.
+To share your creations outside of Open Brush, click **Upload** ![](.gitbook/assets/23.png) to publish your sketch to [Poly](https://poly.google.com/). Once you have published your sketch, you can share the link to your sketch on social networks like Facebook, Twitter, and Google+.
 
 ### **Save in various file formats using Cameras**
 
@@ -306,13 +306,13 @@ Note: Using Cameras will not save the sketch file to gallery.
 
 1. Select **5-second GIF** from the Cameras menu.
 2. On your painting controller, hold down the trigger to start recording. You can release the trigger to reposition or paint, then hold down the trigger again to continue recording.
-3. When the recording hits 5-seconds, the GIF will be saved to your desktop under **Documents/Tilt Brush/Snapshots**.
+3. When the recording hits 5-seconds, the GIF will be saved to your desktop under **Documents/Open Brush/Snapshots**.
 
 ### **Take a video**
 
 1. Select **Video** from the Cameras menu.
 2. On your painting controller, tap the trigger to start recording. Tap the trigger again to stop.
-3. Your captured video will be saved to your desktop under **Documents/Tilt Brush/Videos**
+3. Your captured video will be saved to your desktop under **Documents/Open Brush/Videos**
 
 If you are an advanced user, you can also generate a high resolution video using offline rendering. Detailed instructions can be found in our [release notes.](https://docs.google.com/document/d/11ZsHozYn9FnWG7y3s3WAyKIACfbfwb4PbaS8cZ_xjvo/preview#)
 
@@ -329,51 +329,51 @@ If you are an advanced user, you can also generate a high resolution video using
 .fbx is a popular format for 3D modeling, and can be used in applications like Blender and Maya.
 
 1. From the Tools panel, select "**More Options..."** &gt; **Labs** &gt; **Export**.
-2. An .fbx file, brush texture, and geometry will be saved to Tilt Brush/exports.
+2. An .fbx file, brush texture, and geometry will be saved to Open Brush/exports.
 
 ### **Create a 360 video**
 
 To create a 360 video, follow the instructions in the [release notes](https://docs.google.com/document/d/11ZsHozYn9FnWG7y3s3WAyKIACfbfwb4PbaS8cZ_xjvo/preview#). Note: this is an advanced feature, and requires some working knowledge of the command line.
 
-## **Troubleshooting issues with Tilt Brush**
+## **Troubleshooting issues with Open Brush**
 
-If you are having issues using Tilt Brush, check out your options below.
+If you are having issues using Open Brush, check out your options below.
 
-### **Use our Tilt Brush product forum**
+### **Use our Open Brush product forum**
 
-For most issues with Tilt Brush, you can find your answer using the [Product Forum](https://productforums.google.com/forum/#!forum/tilt-brush)
+For most issues with Open Brush, you can find your answer using the [Product Forum](https://productforums.google.com/forum/#!forum/tilt-brush)
 
 ### **Common issues**
 
 #### **Looking for saved files**
 
-If you have tried to export or save a file but you don’t see anything in Tilt Brush, the file has probably saved to your computer. Flip over your painting controller and check the history panel. It will display a list of all of your most recent actions or exports.
+If you have tried to export or save a file but you don’t see anything in Open Brush, the file has probably saved to your computer. Flip over your painting controller and check the history panel. It will display a list of all of your most recent actions or exports.
 
 #### **Lost artwork**
 
-Tilt Brush makes saves of your work in Documents\Tilt Brush\Sketches\Autosave. Each new sketch you create will have a separate autosave file, and Tilt Brush will store autosaves from your last five sketches. If you need to access an autosave, just drag it into the Sketches folder using Windows Explorer - it will have a Tilt Brush logo as its thumbnail in the Sketchbook.
+Open Brush makes saves of your work in Documents\Open Brush\Sketches\Autosave. Each new sketch you create will have a separate autosave file, and Open Brush will store autosaves from your last five sketches. If you need to access an autosave, just drag it into the Sketches folder using Windows Explorer - it will have a Open Brush logo as its thumbnail in the Sketchbook.
 
-#### **After I launch Tilt Brush, a sad Tiltasaurus appears**
+#### **After I launch Open Brush, a sad Tiltasaurus appears**
 
 This means your Head Mounted Display is not detected, and you'll need troubleshoot your HMD. [Learn to troubleshoot your HTC Vive](http://www.htc.com/managed-assets/shared/desktop/vive/Vive_PRE_User_Guide.pdf) or your [Oculus Rift.](https://product-guides.oculus.com/en-us/documentation/rift/latest/concepts/rgsg-3-ts-setup-troubleshooting/)
 
-#### **Pink screen when starting Tilt Brush**
+#### **Pink screen when starting Open Brush**
 
-This is commonly an issue with using an out-of-date version of DirectX. Make sure you're on the latest version of DirectX, and that you're running Tilt Brush on a PC that matches the minimum specs of the VR device you're using.
+This is commonly an issue with using an out-of-date version of DirectX. Make sure you're on the latest version of DirectX, and that you're running Open Brush on a PC that matches the minimum specs of the VR device you're using.
 
-#### **Tilt Brush crashing or freezing**
+#### **Open Brush crashing or freezing**
 
-Antivirus software can sometimes interfere with Tilt Brush. Try disabling any AV or Firewall software you're running, and try starting Tilt Brush again.
+Antivirus software can sometimes interfere with Open Brush. Try disabling any AV or Firewall software you're running, and try starting Open Brush again.
 
-If you downloaded Tilt Brush through Steam, try refreshing the cache by choosing to "Verify Integrity of Game Files..." for Tilt Brush through the Properties window.
+If you downloaded Open Brush through Steam, try refreshing the cache by choosing to "Verify Integrity of Game Files..." for Open Brush through the Properties window.
 
 ### **Finding your log files**
 
-Every time Tilt Brush is run, a log file is generated "output\_log.txt". That log file can typically be found at: C:\Users\&lt;your name&gt;\AppData\LocalLow\Google\Tilt Brush
+Every time Open Brush is run, a log file is generated "output\_log.txt". That log file can typically be found at: C:\Users\&lt;your name&gt;\AppData\LocalLow\Google\Open Brush
 
 ## **Check out Labs or experimental features**
 
-To try out new or experimental features, you can open up the Labs panel. Here you will find some of the latest additions to Tilt Brush.
+To try out new or experimental features, you can open up the Labs panel. Here you will find some of the latest additions to Open Brush.
 
 ### **Accessing the Labs panel**
 
@@ -385,19 +385,19 @@ To try out new or experimental features, you can open up the Labs panel. Here yo
 
 ### **Add a reference image or 3D model**
 
-If you want to see an image or 3D model while you paint in Tilt Brush, you can add it to your scene. You can move, change, or delete reference images.
+If you want to see an image or 3D model while you paint in Open Brush, you can add it to your scene. You can move, change, or delete reference images.
 
 #### **Add a reference image**
 
-1. On a computer, copy a PNG or JPG file to Documents/Tilt Brush/Media Library/Images.
-2. In Tilt Brush, make sure you are in Advanced Mode.
+1. On a computer, copy a PNG or JPG file to Documents/Open Brush/Media Library/Images.
+2. In Open Brush, make sure you are in Advanced Mode.
 3. Go to the Menu panel \(below your palette\) and select **"More Options..."** **&gt;** **Labs &gt; Local Media Library &gt; Local Images**.
 4. Switch between selecting images and models using the icons in the top left.
 
 **Add a 3D model**
 
-1. On a computer, copy .obj files to Documents/Tilt Brush/Media Library/Models.
-2. In Tilt Brush, make sure you are in Advanced Mode.
+1. On a computer, copy .obj files to Documents/Open Brush/Media Library/Models.
+2. In Open Brush, make sure you are in Advanced Mode.
 3. Go to the Menu panel \(below your palette\) and select **"More Options..."** **&gt; Labs &gt; Local Media Library &gt; Local Models**.
 4. Switch between selecting images and models using the icons in the top left.
 
@@ -411,15 +411,15 @@ If you want to see an image or 3D model while you paint in Tilt Brush, you can a
 
 ### **Play Tiltasaurus with your friends**
 
-Tiltasaurus is a virtual reality game where your friends can guess what you're drawing in Tilt Brush. To play Tiltasaurus:
+Tiltasaurus is a virtual reality game where your friends can guess what you're drawing in Open Brush. To play Tiltasaurus:
 
-1. In Tilt Brush, make sure you are in Advanced Mode.
+1. In Open Brush, make sure you are in Advanced Mode.
 2. Go to the Menu panel \(below your palette\) and select "**More Options...**" &gt; **Labs** &gt; **Tiltasaurus.**
 3. The player wearing the headset will see a card with a word or phrase to draw.
 4. The player who is not wearing the headset will see a category displayed on the computer desktop, but will not see the word or phrase on the card.
 5. As the player in the headset begins to draw, the player looking at the desktop can guess the word or phrase.
 6. Once they guess correctly, you can switch and start again. Clear the current drawing and get a new word or phrase by hitting **Refresh** on the card.
-7. Adding Tiltasaurus.json to the Documents/Tilt Brush folder will let you add your own list of words.
+7. Adding Tiltasaurus.json to the Documents/Open Brush folder will let you add your own list of words.
 
 ## **Make moving creations using audio reactive brushes**
 
@@ -429,7 +429,7 @@ You may notice a number of brush stroke options are labeled as audio reactive. T
 
 1. Begin playing audio from your computer desktop.
 2. Point your painting controller on Brushes page and click the wavy audio reactive icon.
-3. You will see a message that Tilt Brush is listening for audio.
+3. You will see a message that Open Brush is listening for audio.
 4. Once audio is detected, press the trigger on your painting controller and begin to lay down your brush strokes.
 5. Different types of audio reactive brush strokes react to music in various ways - like pulsing, bouncing, or lighting up. You can use them to create an audio visualizer within your artwork.
 
@@ -439,7 +439,7 @@ Remixing allows others to download, edit, and republish your sketch. If you allo
 
 ### **Creative Commons**
 
-[Creative Commons](https://creativecommons.org/) licenses provide a standard way for content creators to grant someone else permission to use their work. If you allow remixing, your content will be published under a [CC BY](https://creativecommons.org/licenses/by/3.0/legalcode) license. These sketches are then accessible to other Tilt Brush Sketches users for use, even commercially, in their own sketches.
+[Creative Commons](https://creativecommons.org/) licenses provide a standard way for content creators to grant someone else permission to use their work. If you allow remixing, your content will be published under a [CC BY](https://creativecommons.org/licenses/by/3.0/legalcode) license. These sketches are then accessible to other Open Brush Sketches users for use, even commercially, in their own sketches.
 
 ### **Turning off remixing for your content**
 
@@ -464,7 +464,7 @@ Please understand that you may only mark your published sketches as remixable if
 
 ## **Using Reference Images on Oculus Quest**
 
-Reference Images allow you to view image files inside your Tilt Brush sketch. This can be useful for getting inspiration while drawing, or to incorporate as media in your sketch.
+Reference Images allow you to view image files inside your Open Brush sketch. This can be useful for getting inspiration while drawing, or to incorporate as media in your sketch.
 
 Reference Images are in version 21.0+ on Oculus Quest.
 
@@ -487,12 +487,12 @@ On the Reference Images Panel, click any thumbnail to load the image. After it l
 To add more images to the Reference Images Panel, you need to connect your Oculus Quest to a PC. Use [these steps](https://support.oculus.com/855551644803876/#faq_2255729571307786) to learn how to do that.
 
 1. Once connected to a PC, look for, 'Quest' in Windows Explorer. Click this.
-2. Navigate to '..Quest\Internal shared storage\Tilt Brush\Media Library\Images\'
+2. Navigate to '..Quest\Internal shared storage\Open Brush\Media Library\Images\'
 3. Copy image files \(.jpg or .png\) into this folder.
 
 ### **Supported image files**
 
-Images take up video memory inside Tilt Brush and including too many will cause Tilt Brush to crash. There are some restrictions on image files.
+Images take up video memory inside Open Brush and including too many will cause Open Brush to crash. There are some restrictions on image files.
 
 1. Only .jpg and .png file types.
 2. Max image file size is 10Mb.
