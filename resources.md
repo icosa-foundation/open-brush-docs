@@ -19,12 +19,9 @@ There’s some really useful info in the last [_**TIlt Brush release notes**_](t
 * Unity Downloads:[ Download Unity - Personal Use](https://store.unity.com/download?ref=personal)
 * [Download Unity - Business Use](https://store.unity.com/#plans-business)
 * Our Discord Bots: [Time Zone Conversion](https://top.gg/bot/471091072546766849) Bot
-* [Tilt Brush Release Notes](tilt-brush-release-notes.md) Google’s last docs for Tilt Brush
-* [Tilt Brush Unity SDK: Using Tilt Brush with Unity](https://docs.google.com/document/d/1YID89te9oDjinCkJ9R65bLZ3PpJk1W4S1SM2Ccc6-9w/edit) Tilt Brush Toolkit docs
 * [Open Tilt Brush Documentation](https://docs.google.com/spreadsheets/d/1exi7irQ35e8A9LZ6-ujVpLCF_vwBRclM1-iHBYenwBs/edit#gid=0) \(big list of tutorials, tweets, videos, ideas etc\)
 * [Open Brush Trello](https://trello.com/b/jItetqYe/open-brush)
 * [@andybak's personal open brush trello](https://trello.com/b/KYdM1ffh/open-brush-experimental-features)
-* [Wiki for andybak's experimental branches](https://github.com/IxxyXR/open-brush/wiki)
 
 ## Community Creations:
 
