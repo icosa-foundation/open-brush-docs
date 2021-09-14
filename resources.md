@@ -8,6 +8,8 @@ If you’re mainly interested in getting into the actual Open Brush codebase the
 
 There’s some really useful info in the last [_**TIlt Brush release notes**_](tilt-brush-release-notes.md) that isn’t included here.
 
+Join our [Discord](https://discord.gg/NQv6QPus)
+
 ## Developer Resources:
 
 * [Developer Notes](developer-notes/)
