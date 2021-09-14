@@ -1,4 +1,4 @@
-# Other Resources
+# Resources
 
 **Who is this for?**
 

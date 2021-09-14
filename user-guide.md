@@ -1,12 +1,12 @@
 # User Guide
 
-## **Get started with Tilt Brush**
+## **Get started with Open Brush**
 
-Paint in 3D with Tilt Brush, an app that runs on the [HTC Vive](http://www.htcvive.com/) , [Valve Index](https://store.steampowered.com/valveindex) , [Oculus Rift](https://www.oculus.com/rift/) , [Oculus Quest](https://www.oculus.com/quest/), and [Windows Mixed Reality](https://www.microsoft.com/en-us/windows/windows-mixed-reality) virtual reality systems. You can use different brushes, effects, and tools to paint your virtual creations. To learn more about Tilt Brush, go to [tiltbrush.com](https://www.tiltbrush.com/).
+Paint in 3D with Open Brush, an app that runs on the [HTC Vive](http://www.htcvive.com/) , [Valve Index](https://store.steampowered.com/valveindex) , [Oculus Rift](https://www.oculus.com/rift/) , [Oculus Quest](https://www.oculus.com/quest/), and [Windows Mixed Reality](https://www.microsoft.com/en-us/windows/windows-mixed-reality) virtual reality systems. You can use different brushes, effects, and tools to paint your virtual creations. 
 
 ### **How to get Tilt Brush**
 
-To paint in 3D with Tilt Brush, you’ll need to have an HTC Vive, an Oculus Rift, or a Windows Mixed Reality headset with Touch controllers. Then, follow the steps below.
+To paint in 3D with Tilt Brush, you’ll need to have a VR headset that supports SteamVR or any Oculus headset.
 
 **HTC Vive / Valve Index**
 
