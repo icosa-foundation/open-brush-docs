@@ -6,13 +6,13 @@
 
 This document lists various useful sources of information for using or tinkering with Icosa Gallery and Open Brush and about the community around them both.
 
-If you’re mainly interested in getting into the actual Open Brush codebase then you probably want to look at the [Developer Notes](developer-notes.md) as well.
+If you’re mainly interested in getting into the actual Open Brush codebase then you probably want to look at the [Developer Notes](developer-notes/) as well.
 
 There’s some really useful info in the last [_**TIlt Brush release notes**_](https://docs.google.com/document/d/11ZsHozYn9FnWG7y3s3WAyKIACfbfwb4PbaS8cZ_xjvo/preview#) that isn’t included here.
 
 ## Developer Resources:
 
-* [Developer Notes](developer-notes.md)
+* [Developer Notes](developer-notes/)
 * [Open Brush Feature Tracking](https://docs.google.com/spreadsheets/d/1MNqrgnUdM-g5qbW_-rWgnLqqK2WJSSb51y4NTq-ooh0/edit?usp=sharing) \(known forks and features\)
 
 ## Other Resources

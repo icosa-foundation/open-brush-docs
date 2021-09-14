@@ -119,17 +119,17 @@ By @moat
 
 For the input system there's this one scene Gameobject called a SketchControls:
 
-![](.gitbook/assets/0.png)
+![](../.gitbook/assets/0.png)
 
 This whole chungus of a gameobject sits in the scene and it's got like, nearly every bit of UI and management and widgety stuff.
 
 It's like the player is already instantiated within the game to start with when you load the Main scene. There's a gameobject called the PointerManager:
 
-![](.gitbook/assets/1.png)
+![](../.gitbook/assets/1.png)
 
 This thing manages up to 10 cursors at once \(although it can be set to handle more\):
 
-![](.gitbook/assets/2.png)
+![](../.gitbook/assets/2.png)
 
 Brushes are attached to cursors, and when you do anything with your controllers, it drives the Main Pointer Prefab.
 
@@ -137,23 +137,23 @@ The reason they have multiple cursors is for things like multibrushes that make 
 
 Pretty much every tool you switch between is sitting on a script within one of these gameobjects parented to SketchSurface:
 
-![](.gitbook/assets/3.png)
+![](../.gitbook/assets/3.png)
 
 When you switch tools, it activates one of these objects and deactivates the others
 
 Much of the magic occurs within the FreePaintTool
 
-![](.gitbook/assets/4.png)
+![](../.gitbook/assets/4.png)
 
 It's the star of the show, being the thing that makes happy little trees appear and happy little clouds.
 
 What most tools have in common is UpdateTool\(\)
 
-![](.gitbook/assets/5.png)
+![](../.gitbook/assets/5.png)
 
 This is like their main interaction loop. At the start, the inputmanager states are captured into variables to be used throughout the rest of the update loop:
 
-![](.gitbook/assets/6.png)
+![](../.gitbook/assets/6.png)
 
 \(rather than re-calling the same inputmanager functions again and again and again\)
 
@@ -161,7 +161,7 @@ The Wand is your non-dominant hand, the Brush is your dominant hand controller a
 
 This BrushTrigger bit handles the actual trigger press:
 
-![](.gitbook/assets/7.png)
+![](../.gitbook/assets/7.png)
 
 m\_brushTrigger is just a boolean that becomes TRUE when the trigger is pressed beyond the threshold while the BrushTriggerDown variable becomes true only during the update tic when the trigger has been pressed and brushTriggerRatio is a value mapped from 0-&gt;1 depending on how far that analog trigger has been pulled.
 
@@ -469,7 +469,7 @@ Key Classes involved
 Creating a new Stencil / Guide
 
 1. Make a copy of one of the stencil prefabs and rename it for your shape. The sphere is the easiest to work with in many cases.
-2. Add your shape name to the end of the StencilType Enum in WidgetManager.cs. You may need to follow the recommendations about [Enums](./).
+2. Add your shape name to the end of the StencilType Enum in WidgetManager.cs. You may need to follow the recommendations about [Enums](../).
 3. Add your prefab and shape type \(Enum\) to the WidgetManager Stencil Map in the inspector.
 4. Make a duplicate of the stencil script you used in \#1 and rename it myNameStencil.cs
 5. Replace the stencil script on your prefab to use the one you just created.
