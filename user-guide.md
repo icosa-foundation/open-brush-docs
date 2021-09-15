@@ -2,7 +2,7 @@
 
 ## **Get started with Open Brush**
 
-Paint in 3D with Open Brush, an app that runs on the [HTC Vive](http://www.htcvive.com/) , [Valve Index](https://store.steampowered.com/valveindex) , [Oculus Rift](https://www.oculus.com/rift/) , [Oculus Quest](https://www.oculus.com/quest/), and [Windows Mixed Reality](https://www.microsoft.com/en-us/windows/windows-mixed-reality) virtual reality systems. You can use different brushes, effects, and tools to paint your virtual creations. 
+Paint in 3D with Open Brush, an app that runs on the [HTC Vive](http://www.htcvive.com/) , [Valve Index](https://store.steampowered.com/valveindex) , [Oculus Rift](https://www.oculus.com/rift/) , [Oculus Quest](https://www.oculus.com/quest/), and [Windows Mixed Reality](https://www.microsoft.com/en-us/windows/windows-mixed-reality) virtual reality systems. You can use different brushes, effects, and tools to paint your virtual creations.
 
 ### **How to get Open Brush**
 
