@@ -1,9 +1,5 @@
 # Final Tilt Brush Release Notes
 
-![](.gitbook/assets/0%20%281%29.png)
-
-\*\*\*\*
-
 ## Tilt Brush Release Notes
 
 ### Version 23
