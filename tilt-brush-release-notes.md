@@ -125,11 +125,13 @@ Sample contents of a _Tilt Brush.cfg_ with various fields filled in:
 
 Any of the above settings in the Tilt Brush.cfg file can also be specified on the command line. The format is --Section.Setting &lt;value&gt;. For example:
 
+```text
 --Flags.ShowWatermark true
 
 --Video.CameraSmoothing 0.99
 
 --User.Author "Captain Tilt Brush"
+```
 
 ### Exporting Tilt Brush Sketches
 
@@ -174,7 +176,9 @@ You can override the destination folder of exports using the --exportPath flag.
 
 We suggest you also specify the -batchmode option if you don’t want the Tilt Brush window to appear.
 
-TiltBrush.exe --export Untitled\_15.tilt Untitled\_2\*.tilt C:\Downloads\downloaded.tilt --exportPath C:\Temp -batchmode
+```text
+TiltBrush.exe --export Untitled_15.tilt Untitled_2*.tilt C:\Downloads\downloaded.tilt --exportPath C:\Temp -batchmode
+```
 
 ### Rendering ‘Offline’ videos
 
@@ -198,7 +202,9 @@ Rendering offline videos is achieved by saving off the path the camera took when
 
 If you want to render a camera path from the command line directly, rather than using the batch file detailed above, you can use the following:
 
-Tiltbrush.exe --renderCameraPath &lt;path/to/camerpath.usda&gt; &lt;path/to/sketchfile.tilt&gt;
+```text
+Tiltbrush.exe --renderCameraPath <path/to/camerpath.usda> <path/to/sketchfile.tilt>
+```
 
 ### Changing Eye Scale on ODS 360 videos
 
@@ -208,11 +214,15 @@ The reason this happens is that it’s often easier to scale down your sketch to
 
 To fix this, you can change a value in the .usda file. Open it up in your favorite text editor and look at around line 30 for:
 
+```text
 uniform float eyeScale = 1
+```
 
 If you reduce this value, the render will feel bigger, and the camera is less likely to clip with parts of your sketch. A good value to try out is:
 
+```text
 uniform float eyeScale = 0.1
+```
 
 Then you can just try re-rendering with the batch file.
 
@@ -257,175 +267,128 @@ Use these with geometry you export from Tilt Brush and import into Unity. Howeve
 
 #### Opaque shader
 
-Shader "Brush/Standard" {
+```text
+Shader "Brush/Standard"
+{
+    Properties
+    {
+        _Color ("Main Color", Color) = (1,1,1,1)
+        _SpecColor ("Specular Color", Color) = (0.5, 0.5, 0.5, 0)
+        _Shininess ("Shininess", Range (0.01, 1)) = 0.078125
+        _MainTex ("Base (RGBA)", 2D) = "white" {}
+        _BumpMap ("Normalmap", 2D) = "bump" {}
+        _Cutoff ("Alpha cutoff", Range(0,1)) = 0.5
+    }
+    SubShader
+    {
+        Tags
+        {
+            "Queue"="AlphaTest" "IgnoreProjector"="True" "RenderType"="TransparentCutout"
+        }
+        LOD 400
+        CGPROGRAM
+        #pragma target 3.0
+        #pragma surface surf StandardSpecular vertex:vert alphatest:_Cutoff addshadow
+        struct Input
+        {
+            float2 uv_MainTex;
+            float2 uv_BumpMap;
+            float4 color : Color;
+        };
 
- Properties {
+        sampler2D _MainTex;
+        sampler2D _BumpMap;
+        fixed4 _Color;
+        half _Shininess;
 
- \_Color \("Main Color", Color\) = \(1,1,1,1\)
+        void vert(inout appdata_full i)
+        {
+        }
 
- \_SpecColor \("Specular Color", Color\) = \(0.5, 0.5, 0.5, 0\)
-
- \_Shininess \("Shininess", Range \(0.01, 1\)\) = 0.078125
-
- \_MainTex \("Base \(RGBA\)", 2D\) = "white" {}
-
- \_BumpMap \("Normalmap", 2D\) = "bump" {}
-
- \_Cutoff \("Alpha cutoff", Range\(0,1\)\) = 0.5
-
- }
-
- SubShader {
-
- Tags {"Queue"="AlphaTest" "IgnoreProjector"="True" "RenderType"="TransparentCutout"}
-
- LOD 400
-
- CGPROGRAM
-
- \#pragma target 3.0
-
- \#pragma surface surf StandardSpecular vertex:vert alphatest:\_Cutoff addshadow
-
- struct Input {
-
- float2 uv\_MainTex;
-
- float2 uv\_BumpMap;
-
- float4 color : Color;
-
- };
-
- sampler2D \_MainTex;
-
- sampler2D \_BumpMap;
-
- fixed4 \_Color;
-
- half \_Shininess;
-
- void vert \(inout appdata\_full i\) { }
-
- void surf \(Input IN, inout SurfaceOutputStandardSpecular o\) {
-
- fixed4 tex = tex2D\(\_MainTex, IN.uv\_MainTex\);
-
- o.Albedo = tex.rgb \* \_Color.rgb \* IN.color.rgb;
-
- o.Smoothness = \_Shininess;
-
- o.Specular = \_SpecColor;
-
- o.Normal = UnpackNormal\(tex2D\(\_BumpMap, IN.uv\_BumpMap\)\);
-
- o.Alpha = tex.a \* IN.color.a;
-
- }
-
- ENDCG
-
- }
-
- FallBack "Transparent/Cutout/VertexLit"
-
+        void surf(Input IN, inout SurfaceOutputStandardSpecular o)
+        {
+            fixed4 tex = tex2D(_MainTex, IN.uv_MainTex);
+            o.Albedo = tex.rgb * _Color.rgb * IN.color.rgb;
+            o.Smoothness = _Shininess;
+            o.Specular = _SpecColor;
+            o.Normal = UnpackNormal(tex2D(_BumpMap, IN.uv_BumpMap));
+            o.Alpha = tex.a * IN.color.a;
+        }
+        ENDCG
+    }
+    FallBack "Transparent/Cutout/VertexLit"
 }
+```
 
 #### Additive shader
 
-Shader "Brush/Additive" {
+```text
+Shader "Brush/Additive"
+{
+    Properties
+    {
+        _MainTex ("Texture", 2D) = "white" {}
+    }
+    Category
+    {
+        Tags
+        {
+            "Queue"="Transparent" "IgnoreProjector"="True" "RenderType"="Transparent"
+        }
+        Blend SrcAlpha One
+        AlphaTest Greater .01
+        ColorMask RGB
+        Cull Off Lighting Off ZWrite Off Fog
+        {
+            Color (0,0,0,0)
+        }
+        SubShader
+        {
+            Pass
+            {
+                CGPROGRAM
+                #pragma vertex vert
+                #pragma fragment frag
+                #include "UnityCG.cginc"
+                sampler2D _MainTex;
 
- Properties {
+                struct appdata_t
+                {
+                    float4 vertex : POSITION;
+                    fixed4 color : COLOR;
+                    float3 normal : NORMAL;
+                    float2 texcoord : TEXCOORD0;
+                };
 
- \_MainTex \("Texture", 2D\) = "white" {}
+                struct v2f
+                {
+                    float4 vertex : POSITION;
+                    fixed4 color : COLOR;
+                    float2 texcoord : TEXCOORD0;
+                };
 
- }
+                float4 _MainTex_ST;
 
- Category {
+                v2f vert(appdata_t v)
+                {
+                    v2f o;
+                    o.vertex = mul(UNITY_MATRIX_MVP, v.vertex);
+                    o.texcoord = TRANSFORM_TEX(v.texcoord, _MainTex);
+                    o.color = v.color;
+                    return o;
+                }
 
- Tags { "Queue"="Transparent" "IgnoreProjector"="True" "RenderType"="Transparent" }
-
- Blend SrcAlpha One
-
- AlphaTest Greater .01
-
- ColorMask RGB
-
- Cull Off Lighting Off ZWrite Off Fog { Color \(0,0,0,0\) }
-
- SubShader {
-
- Pass {
-
- CGPROGRAM
-
- \#pragma vertex vert
-
- \#pragma fragment frag
-
- \#include "UnityCG.cginc"
-
- sampler2D \_MainTex;
-
- struct appdata\_t {
-
- float4 vertex : POSITION;
-
- fixed4 color : COLOR;
-
- float3 normal : NORMAL;
-
- float2 texcoord : TEXCOORD0;
-
- };
-
- struct v2f {
-
- float4 vertex : POSITION;
-
- fixed4 color : COLOR;
-
- float2 texcoord : TEXCOORD0;
-
- };
-
- float4 \_MainTex\_ST;
-
- v2f vert \(appdata\_t v\)
-
- {
-
- v2f o;
-
- o.vertex = mul\(UNITY\_MATRIX\_MVP, v.vertex\);
-
- o.texcoord = TRANSFORM\_TEX\(v.texcoord, \_MainTex\);
-
- o.color = v.color;
-
- return o;
-
- }
-
- fixed4 frag \(v2f i\) : COLOR
-
- {
-
- half4 c = tex2D\(\_MainTex, i.texcoord\);
-
- return i.color \* c;
-
- }
-
- ENDCG
-
- }
-
- }
-
- }
-
+                fixed4 frag(v2f i) : COLOR
+                {
+                    half4 c = tex2D(_MainTex, i.texcoord);
+                    return i.color * c;
+                }
+                ENDCG
+            }
+        }
+    }
 }
+```
 
 ### Tilt Brush File Format
 
@@ -433,57 +396,38 @@ The .tilt file format can also be parsed by the [Tilt Brush Toolkit](http://gith
 
 A .tilt is a zip-format file with a prepended header:
 
- uint32 sentinel \('tilT'\)
-
- uint16 header\_size \(currently 16\)
-
- uint16 header\_version \(currently 1\)
-
- uint32 reserved
-
- uint32 reserved
+```text
+uint32 sentinel ('tilT')
+uint16 header_size (currently 16)
+uint16 header_version (currently 1)
+uint32 reserved
+uint32 reserved
+```
 
 Inside the zip, the strokes are stored in a custom binary format in a file, "data.sketch":
 
- uint32 sentinel
-
- uint32 version
-
- uint32 reserved \(must be 0\)
-
- \[ uint32 size + &lt;size&gt; bytes of additional header data \]
-
- int32 num\_strokes
-
- num\_strokes \* {
-
- int32 brush\_index
-
- float32x4 brush\_color
-
- float32 brush\_size
-
- uint32 stroke\_extension\_mask
-
- uint32 controlpoint\_extension\_mask
-
- \[ int32/float32 for each set bit in stroke\_extension\_mask & ffff \]
-
- \[ uint32 size + &lt;size&gt; bytes for each set bit in stroke\_extension\_mask & ~ffff \]
-
- int32 num\_control\_points
-
- num\_control\_points \* {
-
- float32x3 position
-
- float32x4 orientation \(quat\)
-
- \[ int32/float32 for each set bit in controlpoint\_extension\_mask \]
-
- }
-
- }
+```text
+uint32 sentinel
+uint32 version
+uint32 reserved (must be 0)
+[ uint32 size + <size> bytes of additional header data ]
+int32 num_strokes
+num_strokes * {
+    int32 brush_index
+    float32x4 brush_color
+    float32 brush_size
+    uint32 stroke_extension_mask
+    uint32 controlpoint_extension_mask
+    [ int32/float32 for each set bit in stroke_extension_mask & ffff ]
+    [ uint32 size + <size> bytes for each set bit in stroke_extension_mask & ~ffff ]
+    int32 num_control_points
+    num_control_points * {
+        float32x3 position
+        float32x4 orientation (quat)
+        [ int32/float32 for each set bit in controlpoint_extension_mask ]
+    }
+}
+```
 
 The orientation is that of the controller. Curve and surface frames must be reconstructed.
 
@@ -918,45 +862,28 @@ Also inside the zip is "metadata.json", the metadata for the sketch in json form
   * Adding _Tiltasaurus.json_ to the **Documents/Tilt Brush** folder will let you add your own list of words.
   * Format:
 
+```text
 {
-
- "Categories": \[
-
- {
-
- "Name": "Action",
-
- "Words": \[
-
- "Applause",
-
- "Arguing",
-
- "Ballet"
-
- \]
-
- },
-
- {
-
- "Name": "Animal",
-
- "Words": \[
-
- "Butterfly ",
-
- "Cat",
-
- "Chicken"
-
- \]
-
- }
-
- \]
-
- }
+   "Categories":[
+      {
+         "Name":"Action",
+         "Words":[
+            "Applause",
+            "Arguing",
+            "Ballet"
+         ]
+      },
+      {
+         "Name":"Animal",
+         "Words":[
+            "Butterfly ",
+            "Cat",
+            "Chicken"
+         ]
+      }
+   ]
+}
+```
 
 * Controller Swapping
   * Point the controllers away from each other and tap the bottoms to swap the palette and paint brush.
@@ -1038,15 +965,13 @@ Also inside the zip is "metadata.json", the metadata for the sketch in json form
   * Requires “Tilt Brush.cfg”, stored in: **Documents/Tilt Brush**
   * Format:
 
+```text
 {
-
  "YouTube": {
-
  "ChannelID": "UCabcdefghijklmnopqrstuv",
-
  },
-
 }
+```
 
 * * Note: [How to find your YouTube Channel ID.](https://support.google.com/youtube/answer/3250431)
   * [How to use the Tilt Brush config file.]()
@@ -1057,19 +982,15 @@ Also inside the zip is "metadata.json", the metadata for the sketch in json form
   * Requires “Tilt Brush.cfg”, stored in: **Documents/Tilt Brush**
   * Format:
 
+```text
 {
-
  "Twitch": {
-
  "Username": "TiltBrushStreamer",
-
  "OAuth": "oauth:abcdefghijklmnopqrstuvwxyz0123",
-
- "Channel": "\#tiltbrushchannel",
-
+ "Channel": "#tiltbrushchannel",
  },
-
 }
+```
 
 * * Note: [How to get an OAuth key for Twitch.](https://twitchapps.com/tokengen/)
   * [How to use the Tilt Brush config file.]()
@@ -1113,21 +1034,17 @@ Also inside the zip is "metadata.json", the metadata for the sketch in json form
   * Requires “Tilt Brush.cfg”, stored in: **Documents/Tilt Brush**
   * Format:
 
+```text
 {
-
- "IRC": {
-
- "ServerName": "irc.twitch.tv",
-
- "ServerPort": 6667,
-
- "Username": "TiltBrushStreamer",
-
- "OAuth": "oauth:abcdefghijklmnopqrstuvwxyz0123",
-
- "Channel": "\#tiltbrushchannel",
-
- },
+   "IRC":{
+      "ServerName":"irc.twitch.tv",
+      "ServerPort":6667,
+      "Username":"TiltBrushStreamer",
+      "OAuth":"oauth:abcdefghijklmnopqrstuvwxyz0123",
+      "Channel":"#tiltbrushchannel"
+   }
+}
+```
 
 }
 
@@ -1138,6 +1055,17 @@ Note: [How to get an OAuth key for Twitch.](http://help.twitch.tv/customer/porta
   * Use both Grip buttons to scale chat widget.
   * Toss the widget to dismiss it.
 * Watermark
-  * The Tilt Brush logo watermark can be disabled. This also requires a "Tilt Brush.cfg" file, stored in **Documents/Tilt Brush**. The format is: {  "Flags": {  "ShowWatermark": false,  }, }
-  * [How to use the Tilt Brush config file.]()
+  * The Tilt Brush logo watermark can be disabled. This also requires a "Tilt Brush.cfg" file, stored in **Documents/Tilt Brush**. The format is
+
+```text
+{
+ "Flags": {
+ "ShowWatermark": false,
+ },
+}
+```
+
+
+
+*  * [How to use the Tilt Brush config file.]()
 
