@@ -2,91 +2,7 @@
 
 ![](.gitbook/assets/0%20%281%29.png)
 
-**For general questions:**
-
-[**Official Tilt Brush Help Center**](https://support.google.com/tiltbrush)
-
-[**Tilt Brush Release Notes**]() **2**
-
-[Version 23]() 2
-
-[Accessing Autosave Files]() 3
-
-[Using the Tilt Brush.cfg File]() 3
-
-[Config file valid values]() 4
-
-[Setting config values from the command line]() 5
-
-[Exporting Tilt Brush Sketches]() 5
-
-[Maya]() 6
-
-[Sketchfab]() 6
-
-[Unity]() 6
-
-[Command-line Exporting]() 6
-
-[Rendering ‘Offline’ videos]() 7
-
-[Video Camera Paths]() 7
-
-[Changing Eye Scale on ODS 360 videos]() 8
-
-[Exporting 360 videos / Offline Video Rendering]() 8
-
-[Tilt Brush Unity Shader Examples]() 11
-
-[Opaque shader]() 11
-
-[Additive shader]() 12
-
-[Tilt Brush File Format]() 13
-
-[Previous Releases]() 14
-
-[Version 22]() 14
-
-[Version 21]() 15
-
-[Version 20]() 16
-
-[Version 19]() 16
-
-[Version 18]() 17
-
-[Version 17]() 17
-
-[Version 16]() 17
-
-[Version 15]() 18
-
-[Version 14]() 19
-
-[Version 13]() 20
-
-[Version 12]() 20
-
-[Version 11]() 20
-
-[Version 10]() 21
-
-[Version 9]() 22
-
-[Version 8]() 22
-
-[Version 7.5]() 23
-
-[Version 7]() 24
-
-[Version 6]() 25
-
-[Version 5]() 26
-
-[Version 1.4]() 26
-
-[Version 1.3]() 27
+\*\*\*\*
 
 ## Tilt Brush Release Notes
 
@@ -128,102 +44,66 @@ Example path: **C:\Users\**_&lt;username&gt;_**\Documents\Tilt Brush\Tilt Brush.
 
 Contents of the default _Tilt Brush.cfg:_
 
+```text
 {
-
- "User": {
-
- },
-
- "Video": {
-
- },
-
- "Flags": {
-
- },
-
- "Export": {
-
- },
-
+   "User":{
+      
+   },
+   "Video":{
+      
+   },
+   "Flags":{
+      
+   },
+   "Export":{
+      
+   }
 }
+```
 
 Sample contents of a _Tilt Brush.cfg_ with various fields filled in:
 
-{  
- "User": {  
- "Author": "Tiltasaurus",  
- },
-
- "Twitch": {
-
- "Username": "TiltBrushStreamer",
-
- "OAuth": "oauth:abcdefghijklmnopqrstuvwxyz0123",
-
- "Channel": "\#tiltbrushchannel",
-
- },
-
- "YouTube": {
-
- "ChannelID": "abcdefghijklmnopqrstuvwx",
-
- },
-
- "Video": {
-
- "Resolution": 1280,
-
- "OfflineResolution": 1920,
-
- "FPS": 30,
-
- "OfflineFPS": 60,
-
- "ContainerType": "mp4",
-
- "CameraSmoothing": 0.98,
-
- "Encoder": "h.264",
-
- "SaveCameraPath": true,
-
- "FOV": 80,
-
- },
-
- "Flags": {
-
- "PostEffectsOnCapture" : true,
-
- "ShowWatermark": true,
-
- "ShowHeadset": true,
-
- "ShowControllers": true,
-
- "SnapshotWidth": 1920,
-
- "SnapshotHeight": 1080,
-
- "FOV": 80,
-
- "DisableAudio": false,
-
- "UnlockScale": false,
-
- },
-
- "Export": {
-
- "ExportBinaryFbx": true,
-
- "ExportFbxVersion": "FBX201400",
-
- },
-
+```text
+{
+   "User":{
+      "Author":"Tiltasaurus"
+   },
+   "Twitch":{
+      "Username":"TiltBrushStreamer",
+      "OAuth":"oauth:abcdefghijklmnopqrstuvwxyz0123",
+      "Channel":"#tiltbrushchannel"
+   },
+   "YouTube":{
+      "ChannelID":"abcdefghijklmnopqrstuvwx"
+   },
+   "Video":{
+      "Resolution":1280,
+      "OfflineResolution":1920,
+      "FPS":30,
+      "OfflineFPS":60,
+      "ContainerType":"mp4",
+      "CameraSmoothing":0.98,
+      "Encoder":"h.264",
+      "SaveCameraPath":true,
+      "FOV":80
+   },
+   "Flags":{
+      "PostEffectsOnCapture":true,
+      "ShowWatermark":true,
+      "ShowHeadset":true,
+      "ShowControllers":true,
+      "SnapshotWidth":1920,
+      "SnapshotHeight":1080,
+      "FOV":80,
+      "DisableAudio":false,
+      "UnlockScale":false
+   },
+   "Export":{
+      "ExportBinaryFbx":true,
+      "ExportFbxVersion":"FBX201400"
+   }
 }
+```
 
 ### Config file valid values
 
