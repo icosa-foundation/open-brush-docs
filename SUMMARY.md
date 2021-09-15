@@ -21,7 +21,7 @@
   * [XR Framework Experimental Build](alternate-and-experimental-builds/xr-framework-experimental-build.md)
   * [Multibrush](alternate-and-experimental-builds/multibrush.md)
   * [Silk Brush](alternate-and-experimental-builds/silk-brush.md)
-* [Final Tilt Brush Release Notes](tilt-brush-release-notes.md)
+* [Tilt Brush Version 23 Release Notes](tilt-brush-release-notes.md)
 * [Open Brush Unity SDK](untitled.md)
 * [Developer Notes](developer-notes/README.md)
   * [Existing Wiki](developer-notes/existing-wiki/README.md)

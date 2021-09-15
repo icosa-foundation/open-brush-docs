@@ -1,4 +1,10 @@
-# Final Tilt Brush Release Notes
+---
+description: >-
+  These were the last release notes that were put out by Google and contain some
+  useful information not found elsewhere
+---
+
+# Tilt Brush Version 23 Release Notes
 
 ## Tilt Brush Release Notes
 
