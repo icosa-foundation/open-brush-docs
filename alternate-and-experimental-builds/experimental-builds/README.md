@@ -50,5 +50,7 @@ And an entirely new feature is snapping to a grid so you can create regularly sp
 
 Edit brushes directly in VR. Change textures, shininess and other parameters
 
-[https://www.youtube.com/watch?v=G3LN3OEPqKQ](https://www.youtube.com/watch?v=G3LN3OEPqKQ)
+{% embed url="https://www.youtube.com/watch?v=G3LN3OEPqKQ" %}
+
+
 
