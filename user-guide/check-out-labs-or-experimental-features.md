@@ -1,6 +1,8 @@
-# Check out Labs or experimental features
+# Check out Labs features
 
-To try out new or experimental features, you can open up the Labs panel. Here you will find some of the latest additions to Open Brush.
+To try out newer features, you can open up the Labs panel. Here you will find some of the latest additions to Open Brush.
+
+If you're really interested in cutting edge features then you might also want to look at installing [alternate or experimental builds](../alternate-and-experimental-builds/).
 
 ### **Accessing the Labs panel**
 

@@ -8,7 +8,7 @@
   * [Using the Open Brush Tools, Quick Tools, and Menu panels](user-guide/using-the-open-brush-tools-quick-tools-and-menu-panels.md)
   * [Saving and sharing your Open Brush sketches](user-guide/saving-and-sharing-your-open-brush-sketches.md)
   * [Troubleshooting issues with Open Brush](user-guide/troubleshooting-issues-with-open-brush.md)
-  * [Check out Labs or experimental features](user-guide/check-out-labs-or-experimental-features.md)
+  * [Check out Labs features](user-guide/check-out-labs-or-experimental-features.md)
   * [Make moving creations using audio reactive brushes](user-guide/make-moving-creations-using-audio-reactive-brushes.md)
   * [Remixing and Creative Commons](user-guide/remixing-and-creative-commons.md)
   * [Using Reference Images on Oculus Quest](user-guide/using-reference-images-on-oculus-quest.md)
