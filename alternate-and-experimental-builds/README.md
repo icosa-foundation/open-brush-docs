@@ -26,7 +26,11 @@ The original VR framework in Unity is deprecated and all new apps are built usin
 
 ## Multibrush
 
-Sadly no longer being developed \(as far as we can tell\) and not open source - this is the standard experimental build but with two exciting features: some interesting post-processing effects but probably more importantly - multiple people can paint at the same time along with audio chat.
+Sadly no longer being developed \(as far as we can tell\) and not open source - this is the same as the [Main Experimental Build](main-experimental-build.md) but with two cool extra features:
+
+1. Post-processing effects that change the appearance of your entire scene. 2. Multiuser support: multiple people can paint at the same time and use voice chat in realtime.
+
+\(Note we want to support multiuser in the official Open Brush release in a way that fits well with our open source approuch. Get in touch if you'd like to help in anyway\)
 
 [Read More](multibrush.md)
 
