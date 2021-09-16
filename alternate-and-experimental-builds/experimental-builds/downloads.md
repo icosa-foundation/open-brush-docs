@@ -35,37 +35,31 @@ The only exception is if you're interested in using the API without being in VR.
 * PC - just unzip and run the exe that's called "OpenBrush-\(something\)". The something will depend on which build you downloaded.
 * Quest - Unzip and install the apk file using [SideQuest](https://sidequestvr.com/setup-howto) 
 
-## All Features in one: the "Kitchen Sink" Build
+## All Features in one \(the "Kitchen Sink" Build\):
 
 Downloads: [https://github.com/IxxyXR/open-brush/actions/runs/1142329940\#artifacts](https://github.com/IxxyXR/open-brush/actions/runs/1142329940#artifacts) \(login to Github first\)
 
 ## Feature Build 1: Polyhedra and Symmetry
 
-[More info](https://github.com/IxxyXR/open-brush/wiki/Polyhedra-and-Symmetry)
+[More info](polyhedra-and-symmetry.md)
 
 Downloads: [https://github.com/IxxyXR/open-brush/actions/runs/1033562436\#artifacts](https://github.com/IxxyXR/open-brush/actions/runs/1033562436#artifacts) \(login to Github first\)
 
 ## Feature Build 2: Open Brush API
 
-[More info](https://github.com/IxxyXR/open-brush/wiki/Open-Brush-API)
+[More info](open-brush-api/)
 
 Downloads: [https://github.com/IxxyXR/open-brush/actions/runs/1198476034\#artifacts](https://github.com/IxxyXR/open-brush/actions/runs/1198476034#artifacts) \(login to Github first\)
 
-## Feature Build 3: Color Jitter
+## Feature Build 3: Grid and Angle Snapping
 
-[More info](https://github.com/IxxyXR/open-brush/wiki/Color-Jitter)
-
-Downloads: [https://github.com/IxxyXR/open-brush/actions/runs/1033557821\#artifactsa](https://github.com/IxxyXR/open-brush/actions/runs/1033557821#artifactsa) \(login to Github first\)
-
-## Feature Build 4: Grid and Angle Snapping
-
-[More info](https://github.com/IxxyXR/open-brush/wiki/Grid-and-Angle-Snapping)
+[More info](grid-and-angle-snapping.md)
 
 Downloads: [https://github.com/IxxyXR/open-brush/actions/runs/1033562436\#artifacts](https://github.com/IxxyXR/open-brush/actions/runs/1033562436#artifacts) \(login to Github first\)
 
-## Feature Build 5: Brush Editing
+## Feature Build 4: Brush Editing
 
-[More info](https://github.com/IxxyXR/open-brush/wiki/Brush-Editing)
+[More info](brush-editing.md)
 
 Downloads: [https://github.com/IxxyXR/open-brush/actions/runs/1142388521\#artifacts](https://github.com/IxxyXR/open-brush/actions/runs/1142388521#artifacts) \(login to Github first\)
 
