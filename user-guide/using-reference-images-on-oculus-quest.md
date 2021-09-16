@@ -1,7 +1,5 @@
 # Using Reference Images on Oculus Quest
 
-
-
 Reference Images allow you to view image files inside your Open Brush sketch. This can be useful for getting inspiration while drawing, or to incorporate as media in your sketch.
 
 Reference Images are in version 21.0+ on Oculus Quest.
