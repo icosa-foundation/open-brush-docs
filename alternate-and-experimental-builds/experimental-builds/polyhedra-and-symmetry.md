@@ -2,7 +2,7 @@
 
 ## Experimental Build 1: Symmetry
 
-Downloads
+[Downloads](downloads.md)
 
 ### What does it do?
 
@@ -60,9 +60,23 @@ I'm on UK time \(currently UTC+1\) but I check in fairly regularly.
 
 ### Can I see it in action?
 
-Here's an earlier version of the polyhedra tool: [https://www.youtube.com/watch?v=HRrJWFB11IU](https://www.youtube.com/watch?v=HRrJWFB11IU)
+Here's an earlier version of the polyhedra tool:
 
-Here's a video with terrible audio showing the symmetry tool: [https://www.youtube.com/watch?v=Lnf6mS8xNIg](https://www.youtube.com/watch?v=Lnf6mS8xNIg) and another without any audio: [https://www.youtube.com/watch?v=xrsxaVxNMvY](https://www.youtube.com/watch?v=xrsxaVxNMvY)
+{% embed url="https://www.youtube.com/watch?v=HRrJWFB11IU" %}
+
+
+
+Here's a video with terrible audio showing the symmetry tool:
+
+{% embed url="https://www.youtube.com/watch?v=Lnf6mS8xNIg" %}
+
+
+
+and another without any audio:
+
+{% embed url="https://www.youtube.com/watch?v=xrsxaVxNMvY" %}
+
+
 
 Yeah. I really need to do better videos. Please share anything you make that I can use to show off the features.
 
