@@ -2,7 +2,7 @@
 
 ## Experimental Build 1: Symmetry
 
-Downloads: [https://github.com/IxxyXR/open-brush/wiki/Downloads](https://github.com/IxxyXR/open-brush/wiki/Downloads)
+Downloads
 
 ### What does it do?
 

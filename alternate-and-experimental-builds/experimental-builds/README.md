@@ -6,19 +6,19 @@ However - if you want the kitchen sink version with everything included you can 
 
 That contains all the features mentioned below. In some cases they might intefere with each other to some degree but I'll fix those issues as soon as I spot them.
 
-On to the features.
+On to the features...
 
-## [1. Polyhedra and Symmetry](https://github.com/IxxyXR/open-brush/wiki/Polyhedra-and-Symmetry)
+## [1. Polyhedra and Symmetry](polyhedra-and-symmetry.md)
 
-[more info and download](https://github.com/IxxyXR/open-brush/wiki/Polyhedra-and-Symmetry)
+[more info and download](polyhedra-and-symmetry.md)
 
 This is basically my other project Polyhydra \( [https://andybak.net/polyhydra](https://andybak.net/polyhydra) \) smushed together with Tilt Brush. Create a wide range of geometric forms and use them as the basis for complex mirroring of your brush strokes.
 
 ![](../../.gitbook/assets/polyhedra_tool.png)
 
-## [2. Open Brush API](https://github.com/IxxyXR/open-brush/wiki/Open-Brush-API)
+## [2. Open Brush API](open-brush-api/)
 
-[more info and download](https://github.com/IxxyXR/open-brush/wiki/Open-Brush-API)
+[more info and download](open-brush-api/)
 
 Create Tilt Brush sketches by sending simple commands from a web browser. Works with any language that can send http requests - including via simple HTML forms. You can even use it without any programming at all by just typing urls into the browser address bar.
 
@@ -28,15 +28,11 @@ Contains some cool example scripts showing what's possible.
 
 ![](../../.gitbook/assets/parametric1.png)
 
-## [3. Color Jitter](https://github.com/IxxyXR/open-brush/wiki/Color-Jitter)
 
-[more info and download](https://github.com/IxxyXR/open-brush/wiki/Color-Jitter)
 
-A simple yet powerful feature. Adds a small random change to hue, saturation or value every time you paint a stroke. Great for getting a more varied, natural look when you build up forms from lots of brush strokes.
+## [3. Grid and Angle Snapping](grid-and-angle-snapping.md)
 
-## [4. Grid and Angle Snapping](https://github.com/IxxyXR/open-brush/wiki/Grid-and-Angle-Snapping)
-
-[more info and download](https://github.com/IxxyXR/open-brush/wiki/Grid-and-Angle-Snapping)
+[more info and download](grid-and-angle-snapping.md)
 
 Selecting and duplicating brush strokes currently doesn't support snapping. This changes that. It also allows snapping to angles other than 90 degrees.
 
@@ -44,9 +40,9 @@ And an entirely new feature is snapping to a grid so you can create regularly sp
 
 ![](https://media.discordapp.net/attachments/804251582715265034/846812293177933894/2021-05-25_19-06-31.gif)
 
-## [5. Brush Editing](https://github.com/IxxyXR/open-brush/wiki/Brush-Editing)
+## [4. Brush Editing](brush-editing.md)
 
-[more info and download](https://github.com/IxxyXR/open-brush/wiki/Brush-Editing)
+[more info and download](brush-editing.md)
 
 Edit brushes directly in VR. Change textures, shininess and other parameters
 
