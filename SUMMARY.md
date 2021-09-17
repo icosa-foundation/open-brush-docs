@@ -12,6 +12,7 @@
   * [Make moving creations using audio reactive brushes](user-guide/make-moving-creations-using-audio-reactive-brushes.md)
   * [Remixing and Creative Commons](user-guide/remixing-and-creative-commons.md)
   * [Using Reference Images on Oculus Quest](user-guide/using-reference-images-on-oculus-quest.md)
+  * [Accessing Autosave Files](user-guide/accessing-autosave-files.md)
   * [The Open Brush config file](user-guide/the-open-brush-config-file.md)
   * [Exporting Open Brush Sketches to Other Apps](user-guide/exporting-open-brush-sketches-to-other-apps.md)
   * [Exporting Videos](user-guide/exporting-videos.md)
@@ -37,6 +38,7 @@
 * [Tilt Brush Version 23 Release Notes](tilt-brush-release-notes.md)
 * [Other Resources](resources.md)
 * [Developer Notes](developer-notes/README.md)
+  * [Building Open Brush using Github CI](developer-notes/building-open-brush-using-github-ci.md)
   * [Open Brush File Format](developer-notes/open-brush-file-format.md)
   * [Previous Github Wiki](developer-notes/github-wiki/README.md)
     * [Brushes](developer-notes/github-wiki/brushes.md)
@@ -46,5 +48,4 @@
     * [MonoscopicMode](developer-notes/github-wiki/monoscopicmode.md)
     * [PseudoCode](developer-notes/github-wiki/pseudocode.md)
     * [UserInterface](developer-notes/github-wiki/userinterface.md)
-  * [Building Open Brush using Github CI](developer-notes/building-open-brush-using-github-ci.md)
 
