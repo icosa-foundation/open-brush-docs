@@ -133,7 +133,7 @@ Any of the above settings in the Tilt Brush.cfg file can also be specified on th
 --User.Author "Captain Tilt Brush"
 ```
 
-### Exporting Tilt Brush Sketches
+## Exporting Tilt Brush Sketches
 
 Tilt Brush sketches can be exported by clicking the ‘Export’ button found on the Labs panel. The Labs panel can be found under ‘More…’ on the Tools panel.
 
