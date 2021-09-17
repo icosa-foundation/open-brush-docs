@@ -37,6 +37,7 @@
 * [Tilt Brush Version 23 Release Notes](tilt-brush-release-notes.md)
 * [Other Resources](resources.md)
 * [Developer Notes](developer-notes/README.md)
+  * [Open Brush File Format](developer-notes/open-brush-file-format.md)
   * [Previous Github Wiki](developer-notes/github-wiki/README.md)
     * [Brushes](developer-notes/github-wiki/brushes.md)
     * [BuildingOpenBrush](developer-notes/github-wiki/buildingopenbrush.md)
