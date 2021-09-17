@@ -48,10 +48,6 @@ To virtually hop to a different spot in your environment, use Teleport.
 
 Note: The distance which you can teleport varies in each environment.
 
-
-
-
-
 ### ![](../.gitbook/assets/4%20%282%29.png) **Undo & Redo**
 
 #### **Undo** ![](../.gitbook/assets/5%20%281%29.png)

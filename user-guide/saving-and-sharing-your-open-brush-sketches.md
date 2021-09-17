@@ -1,6 +1,6 @@
 # Saving and sharing your Open Brush sketches
 
-When you are finished with your 3D creation, you can save your Open Brush sketch to your computer, or share it to [Poly](https://poly.google.com/). You can also take snapshot, GIFs or videos of your art to send to friends or post online.
+When you are finished with your 3D creation, you can save your Open Brush sketch to your computer, or share it to [Icosa](https://beta.icosa.gallery/) or [Sketchfab](https://sketchfab.com). You can also take snapshot, GIFs or videos of your art to send to friends or post online.
 
 ### **Saving a sketch**
 
@@ -50,14 +50,14 @@ If you are an advanced user, you can also generate a high resolution video using
 4. If you like the video you’ve captured, hold down the checkmark to upload.
 5. If you haven't already, you will need to sign-into your YouTube account in your default desktop browser.
 
-### **Export your sketch file to .fbx**
+### **Export your sketch file to .fbx, .obj, .gltf and other formats**
 
 .fbx is a popular format for 3D modeling, and can be used in applications like Blender and Maya.
 
 1. From the Tools panel, select "**More Options..."** &gt; **Labs** &gt; **Export**.
-2. An .fbx file, brush texture, and geometry will be saved to Open Brush/exports.
+2. A folder will be created in Open Brush/exports that contains subfolders for each 3d file format currently supported. Each folder may also contain brush textures
 
 ### **Create a 360 video**
 
-To create a 360 video, follow the instructions in the [release notes](https://docs.google.com/document/d/11ZsHozYn9FnWG7y3s3WAyKIACfbfwb4PbaS8cZ_xjvo/preview#). Note: this is an advanced feature, and requires some working knowledge of the command line.
+To create a 360 video, follow the instructions in the [release notes](../tilt-brush-release-notes.md). Note: this is an advanced feature, and requires some working knowledge of the command line.
 
