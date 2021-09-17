@@ -1,4 +1,4 @@
-# Existing Wiki
+# Previous Github Wiki
 
 This wiki contains various information about [Tilt Brush](https://www.tiltbrush.com/), and [Open Brush](https://github.com/icosa-gallery/open-brush). It is collated from discussions with the TB dev team and delving into the source code. If you would like to contribute information please add an issue to this project.
 
