@@ -12,20 +12,21 @@ We don't currently publish the monoscopic version alongside other releases but o
 
 \(Note that you'll need to be logged in to Github to download files\)
 
-Go to this page: [https://github.com/icosa-gallery/open-brush/actions](https://github.com/icosa-gallery/open-brush/actions) and look through the list of builds until you see one with "main" in the middle column:
+1. Go to this page: [https://github.com/icosa-gallery/open-brush/actions](https://github.com/icosa-gallery/open-brush/actions) and look through the list of builds until you see one with "main" in the middle column:
 
 ![](.gitbook/assets/image.png)
 
-Once you've found one then click on the first column \("Builds" in this case but that might differ\) and you'll see something similar to this:
+2. Once you've found one then click on the first column \("Builds" in this case but that might differ\) and you'll see something similar to this:
 
 ![](.gitbook/assets/image%20%281%29.png)
 
-The number underneath "Artifacts" on the right takes you to the list of downloads at the bottom of the page:  
-
+3. The number underneath "Artifacts" on the right takes you to the list of downloads at the bottom of the page:
 
 ![](.gitbook/assets/image%20%282%29.png)
 
-Assuming you're logged in, the text on the left of any of the rows will start a download. In this case you want one with "Monoscopic" in the name - for example "Windows Monoscopic Experimental"
+4. Assuming you're logged in, the text on the left of any of the rows will start a download. In this case you want one with "Monoscopic" in the name - for example "Windows Monoscopic Experimental"
+
+5. When the download is complete unzip it and look for an executable file. There will probably be two executables one folder deep. One will be called "UnityCrashHandler64" - **you want the other one!**
 
 ## Controlling Monoscopic mode
 
