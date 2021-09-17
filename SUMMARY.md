@@ -12,6 +12,7 @@
   * [Make moving creations using audio reactive brushes](user-guide/make-moving-creations-using-audio-reactive-brushes.md)
   * [Remixing and Creative Commons](user-guide/remixing-and-creative-commons.md)
   * [Using Reference Images on Oculus Quest](user-guide/using-reference-images-on-oculus-quest.md)
+  * [The Open Brush config file](user-guide/the-open-brush-config-file.md)
 * [Brushes](brushes/README.md)
   * [Brush List](brushes/brush-list.md)
 * [Using Open Brush on PC or Mac without a VR headset: “Monoscopic mode”](monoscopic-mode.md)
