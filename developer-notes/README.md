@@ -12,10 +12,6 @@
 
 ## Tilt Brush Developer Documentation
 
-* [General Notes and Resources](https://docs.google.com/document/d/1gjoYp4y-1qlE3a7fvXVxGR3ioj3nMfgprmTHQ-bpq0k/)
-* [Discord Logs \(up to 2021/2/14\)](https://docs.google.com/spreadsheets/d/1H51LAme4S71jA4KydurUsEXp1Ym1R8K2oHfaMRQGhbo/edit#gid=287762688)
-* [General notes by Bill](https://github.com/billyquith/tilt-brush/wiki)
-
 **Spreadsheets with some useful info:**
 
 * [Open Brush: Brushes, Materials and Shaders](https://docs.google.com/spreadsheets/d/12fHPnMNhpGGdR1mzFeCjXbg1Nv1PO1LZGcHwgp3S1Og/edit#gid=0)
