@@ -1,8 +1,33 @@
 # Using Open Brush without a VR headset: “Monoscopic mode”
 
+Open Brush has got a secret mode where it can be used without a VR headset - and even works on Mac! This mode was never released to the public and is clunky in places.
+
+@rapka is currently working on some major enhancements which will hopefully make this mode more generally useful: [https://github.com/rapka/open-brush/tree/monoscopic-controls](https://github.com/rapka/open-brush/tree/monoscopic-controls)
+
+It also works very nicely when using Open Brush via the [experimental API](alternate-and-experimental-builds/experimental-builds/open-brush-api/) allowing you to control Open Brush from a browser and create procedural designs using simple javascript.
+
+## Getting the Monoscopic version of Open Brush
+
+We don't currently publish the monoscopic version alongside other releases but our automated build system always creates them every time we build a new testing version. 
+
+\(Note that you'll need to be logged in to Github to download files\)
+
+Go to this page: [https://github.com/icosa-gallery/open-brush/actions](https://github.com/icosa-gallery/open-brush/actions) and look through the list of builds until you see one with "main" in the middle column:
+
+![](.gitbook/assets/image.png)
+
+Once you've found one then click on the first column \("Builds" in this case but that might differ\) and you'll see something similar to this:
+
+![](.gitbook/assets/image%20%281%29.png)
+
+The number underneath "Artifacts" on the right takes you to the list of downloads at the bottom of the page:  
 
 
-Entering play mode should now allow you to draw and control the app using the mouse and keyboard
+![](.gitbook/assets/image%20%282%29.png)
+
+Assuming you're logged in, the text on the left of any of the rows will start a download. In this case you want one with "Monoscopic" in the name - for example "Windows Monoscopic Experimental"
+
+## Controlling Monoscopic mode
 
 1. Alt+mousing will rotate your viewpoint.
 2. Panels become focussed when roughly centered to the viewport. Your cursor is then locked to the panel boundary making it easier to click the buttons.
