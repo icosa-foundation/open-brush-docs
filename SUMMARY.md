@@ -15,6 +15,7 @@
   * [The Open Brush config file](user-guide/the-open-brush-config-file.md)
   * [Exporting Open Brush Sketches to Other Apps](user-guide/exporting-open-brush-sketches-to-other-apps.md)
   * [Exporting Videos](user-guide/exporting-videos.md)
+  * [Unity Shader Examples](user-guide/untitled.md)
 * [Brushes](brushes/README.md)
   * [Brush List](brushes/brush-list.md)
 * [Using Open Brush on PC or Mac without a VR headset: “Monoscopic mode”](monoscopic-mode.md)
