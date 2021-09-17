@@ -1,6 +1,6 @@
 # Brushes
 
-The main release of Open Brush as a wide selection of brushes. The [main experimental build](../alternate-and-experimental-builds/main-experimental-build.md) has even more \(but be warned that a few are currently buggy\).
+The main release of Open Brush as a wide selection of brushes. The [main experimental build](../../alternate-and-experimental-builds/main-experimental-build.md) has even more \(but be warned that a few are currently buggy\).
 
 ## Creating your own brushes
 

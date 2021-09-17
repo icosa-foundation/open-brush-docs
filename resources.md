@@ -4,7 +4,7 @@ This page lists various useful sources of information for using or tinkering wit
 
 If you’re mainly interested in getting into the actual Open Brush codebase then you probably want to look at the [Developer Notes](developer-notes/) as well.
 
-There’s some really useful info in the last [_**TIlt Brush release notes**_](tilt-brush-release-notes.md) that isn’t included here.
+There’s some really useful info in the last [_**TIlt Brush release notes**_](user-guide/tilt-brush-release-notes.md) that isn’t included here.
 
 Join our [Discord](https://discord.gg/NQv6QPus)
 

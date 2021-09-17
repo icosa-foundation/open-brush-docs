@@ -54,5 +54,5 @@ We regularly feature new sketches from Poly, so keep checking back to see new co
 
 ### **For Advanced Features**
 
-For additional technical information or advanced features, check out the Open Brush team's [Release Notes](../tilt-brush-release-notes.md).
+For additional technical information or advanced features, check out the Open Brush team's [Release Notes](tilt-brush-release-notes.md).
 

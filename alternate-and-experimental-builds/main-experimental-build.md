@@ -18,7 +18,7 @@ If you want to install it to a standalone Oculus Quest then you'll need to [side
 
 ### Experimental Brushes
 
-There are [50 new brushes](../brushes/brush-list.md) - although some are buggy and some actually duplicate existing brushes and were included for technical reasons. That still leaves plenty of cool new brushes to play with.
+There are [50 new brushes](../user-guide/brushes/brush-list.md) - although some are buggy and some actually duplicate existing brushes and were included for technical reasons. That still leaves plenty of cool new brushes to play with.
 
 ### Drafting
 

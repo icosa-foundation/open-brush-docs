@@ -28,7 +28,7 @@ It’s often quicker while developing to avoid jumping in and out of VR. To acti
 
 Entering play mode should now allow you to draw and control the app using the mouse and keyboard.
 
-You can learn more about [monoscopic mode](../monoscopic-mode.md)
+You can learn more about [monoscopic mode](../user-guide/monoscopic-mode.md)
 
 ## Enums
 

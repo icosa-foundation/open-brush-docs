@@ -4,7 +4,7 @@ Open Brush has got a secret mode where it can be used without a VR headset - and
 
 @rapka is currently working on some major enhancements which will hopefully make this mode more generally useful: [https://github.com/rapka/open-brush/tree/monoscopic-controls](https://github.com/rapka/open-brush/tree/monoscopic-controls)
 
-It also works very nicely when using Open Brush via the [experimental API](alternate-and-experimental-builds/experimental-builds/open-brush-api/) allowing you to control Open Brush from a browser and create procedural designs using simple javascript.
+It also works very nicely when using Open Brush via the [experimental API](../alternate-and-experimental-builds/experimental-builds/open-brush-api/) allowing you to control Open Brush from a browser and create procedural designs using simple javascript.
 
 ## Getting the Monoscopic version of Open Brush
 
@@ -14,15 +14,15 @@ We don't currently publish the monoscopic version alongside other releases but o
 
 1. Go to this page: [https://github.com/icosa-gallery/open-brush/actions](https://github.com/icosa-gallery/open-brush/actions) and look through the list of builds until you see one with "main" in the middle column:
 
-![](.gitbook/assets/image.png)
+![](../.gitbook/assets/image.png)
 
 2. Once you've found one then click on the first column \("Builds" in this case but that might differ\) and you'll see something similar to this:
 
-![](.gitbook/assets/image%20%281%29.png)
+![](../.gitbook/assets/image%20%281%29.png)
 
 3. The number underneath "Artifacts" on the right takes you to the list of downloads at the bottom of the page:
 
-![](.gitbook/assets/image%20%282%29.png)
+![](../.gitbook/assets/image%20%282%29.png)
 
 4. Assuming you're logged in, the text on the left of any of the rows will start a download. In this case you want one with "Monoscopic" in the name - for example "Windows Monoscopic Experimental"
 

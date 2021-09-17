@@ -61,5 +61,5 @@ For more information see [Exporting Open Brush Sketches to Other Apps](exporting
 
 ### **Create a 360 video**
 
-To create a 360 video, follow the instructions in the [release notes](../tilt-brush-release-notes.md). Note: this is an advanced feature, and requires some working knowledge of the command line.
+To create a 360 video, follow the instructions in the [release notes](tilt-brush-release-notes.md). Note: this is an advanced feature, and requires some working knowledge of the command line.
 

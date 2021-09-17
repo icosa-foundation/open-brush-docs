@@ -23,5 +23,5 @@ Only the main official release is available on most of the links below. If you w
 
 ## Mac
 
-There is no VR headset currently supported on the Mac but Open Brush does have some limited support for working as a [normal desktop app](monoscopic-mode.md).
+There is no VR headset currently supported on the Mac but Open Brush does have some limited support for working as a [normal desktop app](user-guide/monoscopic-mode.md).
 
