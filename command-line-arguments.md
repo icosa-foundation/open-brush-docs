@@ -1,13 +1,10 @@
 # Command Line Arguments
 
-
+\(If you're not sure how to launch an app with command line arguments I found this tutorial via Google: [https://www.digitalcitizen.life/shortcut-arguments-parameters-windows/](https://www.digitalcitizen.life/shortcut-arguments-parameters-windows/) - suggestions for a better link gratefully received\)
 
 Open Brush accepts the following command line arguments:
 
 * --noQuickLoad
-
-360 Video \(ODS\) Rendering
-
 * --captureOds
 * --outputPath odsOutputPath
 * --outputPrefix odsOutputPrefix
@@ -20,6 +17,8 @@ Open Brush accepts the following command line arguments:
 * --exportPath \(defaults to \[Open Brush folder\]/Exports
 * -batchmode / -nographics
 * --renderCameraPath
-* \(filename of .tilt file in Sketches folder\)
-* \(A valid user config setting and value\)
+* \(filename of .tilt file in Sketches folder to load automatically\)
+* \(Any valid user config setting and value\)
+
+
 
