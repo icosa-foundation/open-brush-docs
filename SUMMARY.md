@@ -14,7 +14,7 @@
   * [Using Reference Images on Oculus Quest](user-guide/using-reference-images-on-oculus-quest.md)
 * [Brushes](brushes/README.md)
   * [Brush List](brushes/brush-list.md)
-* [Using Open Brush without a VR headset: “Monoscopic mode”](monoscopic-mode.md)
+* [Using Open Brush on PC or Mac without a VR headset: “Monoscopic mode”](monoscopic-mode.md)
 * [Command Line Arguments](command-line-arguments.md)
 * [Alternate and Experimental Builds](alternate-and-experimental-builds/README.md)
   * [Main Experimental Build](alternate-and-experimental-builds/main-experimental-build.md)

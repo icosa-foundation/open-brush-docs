@@ -1,4 +1,4 @@
-# Using Open Brush without a VR headset: “Monoscopic mode”
+# Using Open Brush on PC or Mac without a VR headset: “Monoscopic mode”
 
 Open Brush has got a secret mode where it can be used without a VR headset - and even works on Mac! This mode was never released to the public and is clunky in places.
 
