@@ -1,4 +1,4 @@
-# Exporting Open Brush Sketches to Other Apps
+# Exporting Open Brush sketches to other apps
 
 Tilt Brush sketches can be exported by clicking the ‘Export’ button found on the Labs panel. The Labs panel can be found under ‘More…’ on the Tools panel.
 

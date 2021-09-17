@@ -1,4 +1,4 @@
-# Exporting Videos
+# Exporting video
 
 ### Rendering ‘Offline’ videos
 

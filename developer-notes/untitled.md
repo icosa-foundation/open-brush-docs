@@ -1,4 +1,4 @@
-# Unity Shader Examples
+# Unity shader examples
 
 Use these with geometry you export from Open Brush and import into Unity. However, you should prefer to use the [Open Brush Toolkit](https://github.com/icosa-gallery/open-brush-toolkit), which comes with all the Open Brush shaders.
 
