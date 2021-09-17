@@ -1,6 +1,8 @@
-# Open-Brush-API
+# Open Brush API
 
-## Experimental Build 2: Open Brush API
+## Status
+
+Mostly usable with a few bugs
 
 [Downloads](https://github.com/IxxyXR/open-brush/wiki/Downloads)
 

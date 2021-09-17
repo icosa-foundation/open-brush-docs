@@ -1,8 +1,6 @@
 # Latest Downloads
 
-Scroll down for download links...
-
-But read on to help understand which one to pick.
+_**Scroll down for download links...**_ But read the following so you understand which one to pick!
 
 ### NOTE! You need to login to Github for the download links to work
 
@@ -10,7 +8,7 @@ Sorry about this. It's more work for me to download and reupload them somewhere 
 
 ## How do I download a build?
 
-1. Pick which feature you want. \(Or pick the "integration" version that has all the features\)
+1. Pick which feature you want. \(Or pick the "integration" version that has all the features in one\)
 2. Pick the correct download for your device
 
 If you just want to play with new features generally click on the download link underneath "Integration Build" below. If you want to test out a specific feature then grab the build for that feature lower down.
@@ -35,32 +33,34 @@ The only exception is if you're interested in using the API without being in VR.
 * PC - just unzip and run the exe that's called "OpenBrush-\(something\)". The something will depend on which build you downloaded.
 * Quest - Unzip and install the apk file using [SideQuest](https://sidequestvr.com/setup-howto) 
 
-## All Features in 1 \(the "Kitchen Sink" Build\):
+## List of Versions
+
+### All Features in One \(the "Kitchen Sink" Build\):
 
 Downloads: [https://github.com/IxxyXR/open-brush/actions/runs/1142329940\#artifacts](https://github.com/IxxyXR/open-brush/actions/runs/1142329940#artifacts) \(login to Github first\)
 
-## Feature Build 1: Polyhedra and Symmetry
+### Feature Build 1: Polyhedra and Symmetry
 
 [More info](polyhedra-and-symmetry.md)
 
 Downloads: [https://github.com/IxxyXR/open-brush/actions/runs/1033562436\#artifacts](https://github.com/IxxyXR/open-brush/actions/runs/1033562436#artifacts)  
 _\(login to Github to enable download links\)_
 
-## Feature Build 2: Open Brush API
+### Feature Build 2: Open Brush API
 
 [More info](open-brush-api/)
 
 Downloads: [https://github.com/IxxyXR/open-brush/actions/runs/1198476034\#artifacts](https://github.com/IxxyXR/open-brush/actions/runs/1198476034#artifacts)  
 _\(login to Github to enable download links\)_
 
-## Feature Build 3: Grid and Angle Snapping
+### Feature Build 3: Grid and Angle Snapping
 
 [More info](grid-and-angle-snapping.md)
 
 Downloads: [https://github.com/IxxyXR/open-brush/actions/runs/1033562436\#artifacts](https://github.com/IxxyXR/open-brush/actions/runs/1033562436#artifacts)  
 _\(login to Github to enable download links\)_
 
-## Feature Build 4: Brush Editing
+### Feature Build 4: Brush Editing
 
 [More info](brush-editing.md)
 

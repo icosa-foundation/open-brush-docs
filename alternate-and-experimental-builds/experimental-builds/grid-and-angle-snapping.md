@@ -1,8 +1,10 @@
-# Grid-and-Angle-Snapping
+# Grid and Angle Snapping
 
-## Experimental Build 4: Grid and Angle Snapping
+## Status
 
-Downloads: [https://github.com/IxxyXR/open-brush/wiki/Downloads](https://github.com/IxxyXR/open-brush/wiki/Downloads)
+Partially working but buggy
+
+[Downloads](https://github.com/IxxyXR/open-brush/wiki/Downloads)
 
 ![TODO](https://cdn.discordapp.com/attachments/804251582715265034/846812293177933894/2021-05-25_19-06-31.gif)
 

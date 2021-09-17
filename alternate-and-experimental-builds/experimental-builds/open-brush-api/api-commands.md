@@ -1,4 +1,4 @@
-# API-Commands
+# API Commands List
 
 [API Docs](https://github.com/IxxyXR/open-brush/wiki/Open-Brush-API)
 

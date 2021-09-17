@@ -1,8 +1,10 @@
-# Polyhedra-and-Symmetry
-
-## Experimental Build 1: Symmetry
+# Polyhedra and Symmetry
 
 [Downloads](downloads.md)
+
+### Status
+
+Mostly usable with a few bugs.
 
 ### What does it do?
 

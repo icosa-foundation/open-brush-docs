@@ -1,10 +1,10 @@
-# Brush-Editing
+# Brush Editing
 
-## Experimental Build 5: Brush Editing
+## Status
 
-Downloads: [https://github.com/IxxyXR/open-brush/wiki/Downloads](https://github.com/IxxyXR/open-brush/wiki/Downloads)
+Buggy \(especially the Quest version\)
 
-Only tested on PC VR. Not sure if the Quest version works correction
+[Downloads](https://github.com/IxxyXR/open-brush/wiki/Downloads)
 
 ### What does it do?
 
