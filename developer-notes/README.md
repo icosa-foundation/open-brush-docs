@@ -10,7 +10,7 @@
 * [Enabling FBX output.](https://wiki.thakyuu.invr.chat/TiltBrush/Tips_how_to_support_fbx_en)
 * [Update Python support scripts to Python 3.8 from Python 2.](https://github.com/billyquith/tilt-brush/commit/f0810efebbbd2969ffa8fee095659b17c0a60696)
 
-## Tilt Brush Developer Documentation
+## Open Brush Developer Documentation
 
 **Spreadsheets with some useful info:**
 

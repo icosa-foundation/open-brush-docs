@@ -6,9 +6,7 @@ description: >-
 
 # Tilt Brush Version 23 Release Notes
 
-## Tilt Brush Release Notes
-
-### Version 23
+## Version 23
 
 * Added Google Drive Backup \(in Beta for now!\).
   * Requires signing-in with a Google account.
@@ -32,11 +30,11 @@ description: >-
 * Info cards \(like, “Sketch loaded!”\) don’t fall away immediately, allowing you a little more time to read them. Tap them to dismiss.
 * Removed h265 support.
 
-### 
-
-### Accessing Autosave Files
+## Accessing Autosave Files
 
 Tilt Brush regularly saves your work into your Documents/Tilt Brush/Sketches/Autosave folder. Each sketch you make has a separate autosave file, and Tilt Brush keeps autosaves from your last five sketches. If you need to access an autosave, move it into your Documents/Tilt Brush/Sketches folder using Windows Explorer—it will have a Tilt Brush logo as its thumbnail in the Sketchbook.
+
+## Tilt Brush Config File
 
 ### Using the Tilt Brush.cfg File
 
@@ -182,6 +180,8 @@ We suggest you also specify the -batchmode option if you don’t want the Tilt B
 TiltBrush.exe --export Untitled_15.tilt Untitled_2*.tilt C:\Downloads\downloaded.tilt --exportPath C:\Temp -batchmode
 ```
 
+## Exporting Video
+
 ### Rendering ‘Offline’ videos
 
 When you create a video from inside Tilt Brush using the Camera tool, Tilt Brush will create a Windows batch file alongside the video \(In Documents\Tilt Brush\Videos\) that you can run to re-render the video at a higher resolution. For example:
@@ -263,7 +263,7 @@ Videos can be rendered ‘offline’ faster and at a much higher resolution and 
 
 ![](.gitbook/assets/4%20%281%29.png)
 
-### Tilt Brush Unity Shader Examples
+## Tilt Brush Unity Shader Examples
 
 Use these with geometry you export from Tilt Brush and import into Unity. However, you should prefer to use the [Tilt Brush Toolkit](http://github.com/googlevr/tilt-brush-toolkit), which comes with Tilt Brush shaders.
 
@@ -392,7 +392,7 @@ Shader "Brush/Additive"
 }
 ```
 
-### Tilt Brush File Format
+## Tilt Brush File Format
 
 The .tilt file format can also be parsed by the [Tilt Brush Toolkit](http://github.com/googlevr/tilt-brush-toolkit).
 
@@ -460,11 +460,7 @@ Also inside the zip is "metadata.json", the metadata for the sketch in json form
   * "PinStates": an array to indicate whether each instance of the model should initially be pinned.
   * "RawTransforms": an array of transforms for each instance of the model.
 
-### 
-
-### 
-
-### Previous Releases
+## Previous Releases
 
 #### Version 22
 

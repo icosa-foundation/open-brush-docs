@@ -13,6 +13,7 @@
   * [Remixing and Creative Commons](user-guide/remixing-and-creative-commons.md)
   * [Using Reference Images on Oculus Quest](user-guide/using-reference-images-on-oculus-quest.md)
   * [The Open Brush config file](user-guide/the-open-brush-config-file.md)
+  * [Exporting Open Brush Sketches to Other Apps](user-guide/exporting-open-brush-sketches-to-other-apps.md)
 * [Brushes](brushes/README.md)
   * [Brush List](brushes/brush-list.md)
 * [Using Open Brush on PC or Mac without a VR headset: “Monoscopic mode”](monoscopic-mode.md)
