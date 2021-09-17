@@ -4,7 +4,9 @@ If you are having issues using Open Brush, check out your options below.
 
 ### Asking Questions and getting help
 
-You can join our [Discord ](https://discord.gg/NQv6QPus)or post to our [Github Discussions](https://github.com/icosa-gallery/open-brush/discussions) or the [Tilt Brush subreddit](https://www.reddit.com/r/TiltBrush/). At the time of writing Google still hosts the old Tilt Brush [Product Forum](https://productforums.google.com/forum/#!forum/tilt-brush).
+At the time of writing Google still hosts the Tilt Brush [Product Forum](https://productforums.google.com/forum/#!forum/tilt-brush)
+
+You can also join our Discord and ask the developers or the community directly.
 
 ### **Common issues**
 

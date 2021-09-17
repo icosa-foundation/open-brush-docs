@@ -129,32 +129,7 @@ Make a donation
 
 [https://opencollective.com/icosa](https://opencollective.com/icosa)
 
-Help develop the source code
 
-[https://github.com/icosa-gallery/open-brush](https://github.com/icosa-gallery/open-brush)
-
-[https://github.com/icosa-gallery/icosa-viewer](https://github.com/icosa-gallery/icosa-viewer)
-
-## Command Line Arguments
-
-* --noQuickLoad
-
-360 Video \(ODS\) Rendering
-
-* --captureOds
-* --outputPath odsOutputPath
-* --outputPrefix odsOutputPrefix
-* --preview
-* --noCorrection
-* --turnTable
-* --numFrames
-* --fps
-* --export \(followed by full path to .tilt file\)
-* --exportPath \(defaults to \[Open Brush folder\]/Exports
-* -batchmode / -nographics
-* --renderCameraPath
-* \(filename of .tilt file in Sketches folder\)
-* \(A valid user config setting and value\)
 
 
 
