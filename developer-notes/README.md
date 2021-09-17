@@ -22,6 +22,18 @@
 * [Open Brush: Panels, Popups and UI Classes](https://docs.google.com/spreadsheets/d/1G0drrmswg4rs46wUQ2iDw_vP8sLEy99p-CXyDTihCiE/edit#gid=1192181253)
 * [Open Brush: Keyboard Controls and VR Input](https://docs.google.com/spreadsheets/d/1D7vIerfSz1vtyDS_dPdvHiANluEr60VFrxhzE7ZbfAU/edit#gid=1073965238)
 
+## Developing and Testing Without a VR Headset
+
+It’s often quicker while developing to avoid jumping in and out of VR. To activate a simple desktop mode in Tilt Brush I had to do the following:
+
+1. Find “SteamVR\_Settings.asset” in Assets/ThirdParty/SteamVR/Resources and uncheck “Auto enable VR”
+2. In the main scene on the gameobject “Config” \(under “App”\) change SDK mode to “monoscopic”
+3. Sometimes panels are placed over other panels. To move a panel hold shift to activate “Lock to Head mode” at the same time as holding Alt to rotate the viewpoint \(see below\)
+
+Entering play mode should now allow you to draw and control the app using the mouse and keyboard.
+
+You can learn more about [monoscopic mode](../using-open-brush-without-a-vr-headset-monoscopic-mode.md)
+
 ## Enums
 
 [Open Brush enum reservations](https://docs.google.com/spreadsheets/d/17OOrxFgrA8COwxAinj9e7r2zwcKxLP4J306c5woZooc/edit?usp=drive_web&ouid=105817942650117193176)

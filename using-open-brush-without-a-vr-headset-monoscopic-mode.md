@@ -1,10 +1,6 @@
 # Using Open Brush without a VR headset: “Monoscopic mode”
 
-It’s often quicker while developing to avoid jumping in and out of VR. To activate a simple desktop mode in Tilt Brush I had to do the following:
 
-1. Find “SteamVR\_Settings.asset” in Assets/ThirdParty/SteamVR/Resources and uncheck “Auto enable VR”
-2. In the main scene on the gameobject “Config” \(under “App”\) change SDK mode to “monoscopic”
-3. Sometimes panels are placed over other panels. To move a panel hold shift to activate “Lock to Head mode” at the same time as holding Alt to rotate the viewpoint \(see below\)
 
 Entering play mode should now allow you to draw and control the app using the mouse and keyboard
 

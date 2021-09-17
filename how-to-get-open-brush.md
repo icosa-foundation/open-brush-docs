@@ -17,3 +17,11 @@ Only the main official release is available on most of the links below. If you w
 [SideQuest](https://sidequestvr.com/app/2852/open-brush)  
 [Itch.io](https://openbrush.itch.io/openbrush)
 
+## Linux
+
+[Itch.io](https://openbrush.itch.io/openbrush)
+
+## Mac
+
+There is no VR headset currently supported on the Mac but Open Brush does have some limited support for working as a [normal desktop app](using-open-brush-without-a-vr-headset-monoscopic-mode.md).
+
