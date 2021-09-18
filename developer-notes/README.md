@@ -32,7 +32,7 @@ You can learn more about [monoscopic mode](../user-guide/monoscopic-mode.md)
 
 ## Enums
 
-[Open Brush enum reservations](https://docs.google.com/spreadsheets/d/17OOrxFgrA8COwxAinj9e7r2zwcKxLP4J306c5woZooc/edit?usp=drive_web&ouid=105817942650117193176)
+### How to safely add new items to existing enums
 
 **Important note:** Unity serializes enums as ints. Therefore if you change the order of enums then any scene or asset with a reference to them will suddenly point at the wrong entry.
 
@@ -51,23 +51,14 @@ public enum FoobarType
 }
 ```
 
-Now the only problem is to ensure you use numbers that other branches haven’t already used. We’ve settled on a simple low tech solution for now. Just go to the Google Sheet linked to above and reserve a block of 1000.
+Now the only problem is to ensure you use numbers that other branches haven’t already used. We’ve settled on a simple low tech solution for now. Just go to this Google Sheet and reserve a block of 1000[: **Open Brush enum reservations**](https://docs.google.com/spreadsheets/d/17OOrxFgrA8COwxAinj9e7r2zwcKxLP4J306c5woZooc/edit?usp=drive_web&ouid=105817942650117193176)\*\*\*\*
 
-**SketchControlsScript.GlobalCommands**
+### **Important Enums**
 
-Commands are actions that \(usually\) record Undo state.
-
-**BasePanel.PanelType**
-
-Panels are the persistent UI elements \(as opposed to popups which tend to be transitory\)
-
-**BaseTool.ToolType**
-
-“Tools” are usually modal states that determine what actions happen when you use the controls on your main controller \(the “brush” controller\)
-
-**PointerManager.SymmetryMode**
-
-The only symmetry mode enabled by default is the normal mirror. But there is a double mirror hidden behind the experimental flag and a “debug” symmetry mode that can only be enabled via code.
+* **SketchControlsScript.GlobalCommands:** Commands are actions that \(usually\) record Undo state.
+* **BasePanel.PanelType:** Panels are the persistent UI elements \(as opposed to popups which tend to be transitory\)
+* **BaseTool.ToolType:** “Tools” are usually modal states that determine what actions happen when you use the controls on your main controller \(the “brush” controller\)
+* **PointerManager.SymmetryMode:** The only symmetry mode enabled by default is the normal mirror. But there is a double mirror hidden behind the experimental flag and a “debug” symmetry mode that can only be enabled via code.
 
 ## Adding a New Panel
 
@@ -109,46 +100,6 @@ Panels script components have a m\_PanelPopUpMap property which connects a Globa
 5. The OptionButton should have it’s command set to the new command
 6. Tick “requires popup” on the buttonscript
 7. Edit the m\_PanelPopUpMap property on the panel prefab root that references the command and the popup prefab
-
-## Sliders
-
-1. Create a class that inherits from BaseSlider
-2. Go to BackdropPanel prefab and copy FogDensitySlider
-3. Paste into the panel prefab you want to use it in
-4. Change FogDensitySlider to use the class you created in \#1\(use method found at minute 18 here Found here \([https://youtu.be/HjsLzyNNxuM](https://youtu.be/HjsLzyNNxuM)\)
-5. Create a custom command for editing the value the slider represents. See ModifyFogCommand for an example.
-6. Use your new command to change the underlying value that the slider represents. This is typically done in OnPositionSliderNobUpdate and EndModifyCommand.
-7. Test and make sure your slider correctly changes the underlying value
-8. Register for events that get triggered if some other piece of code modifies your underlying value. In this case, we need to know about it so that we can update where the slider tick is located. If the event does not already exist, you may have to create a new event. One possible appropriate place is in Switchboard.cs
-
-
-## Guides 
-These are typically known as "stencils" in code but prefab names may still use the term "guide".
-
-Key Classes involved
-
-* StencilWidget -&gt; GrabWidget
-* WidgetManager
-* SketchControlScript
-
-Creating a new Stencil / Guide
-
-1. Make a copy of one of the stencil prefabs and rename it for your shape. The sphere is the easiest to work with in many cases.
-2. Add your shape name to the end of the StencilType Enum in WidgetManager.cs. You may need to follow the recommendations about [Enums](../).
-3. Add your prefab and shape type \(Enum\) to the WidgetManager Stencil Map in the inspector.
-4. Make a duplicate of the stencil script you used in \#1 and rename it myNameStencil.cs
-5. Replace the stencil script on your prefab to use the one you just created.
-6. Open the GuideToolsPanel in Assets/Prefabs/Panels, duplicate one of the buttons and position it appropriately in the panel.
-7. In the StencilButton component change the Description Text and Button Texture to something appropriate for your shape and change the type to your stencil type.
-
-Question: What determines the distance at which the pointer will snap to the guide?
-
-Answer: WidgetManager.m\_StencilAttractDist. The code does this in  
-WidgetManager.**MagnetizeToStencils**.
-
-Question: How do you enable a stencil to be scaled non-uniformly \(i.e. along a particular axis\)?
-
-Answer: See SketchControlScript.**UpdateGrab\_ContinuesTwoHands** and implement **GetScaleAxis** and **RecordAndApplyScaleToAxis**.
 
 ## Button Scripts
 
@@ -321,10 +272,6 @@ Stroke.Recreate seems to create the batch object and mesh - but that's not enoug
 Recreate \(eventually\) calls FinalizeBatchedBrush on the correct BrushScript. These overridden methods are what actually does the mesh creation.
 
 ## Adding a New Tool
-
-In Open Brush, almost everything we do is done with the help of tools. A tool can be something like the Straight Line tool, which applies a modifier to any new brushes created with the Free Paint tool, or it can be something like the Teleport tool, which moves the player. At the end of the day, a tool is simply a way for us to run some code in a nice compartmentalized way.
-
-In essence they are usually modal states that determine what actions happen when you use the controls on your main controller \(the “brush” controller\).
 
 \(based on [Lachan's Tutorial](https://lachlansleight.medium.com/customizing-tilt-brush-3407f5ceb4ea) \)
 
@@ -510,7 +457,47 @@ Totally; the fallback could be specified as a guid too. I thought that a higher-
 
 ^^ I would have put the above in a public discussion forum but not sure if there's agreement on github discussions vs something else
 
+## About Stencils / Guides \[todo - reorganize when done\]
 
+Key Classes involved
 
+* StencilWidget -&gt; GrabWidget
+* WidgetManager
+* SketchControlScript
 
+Creating a new Stencil / Guide
+
+1. Make a copy of one of the stencil prefabs and rename it for your shape. The sphere is the easiest to work with in many cases.
+2. Add your shape name to the end of the StencilType Enum in WidgetManager.cs. You may need to follow the recommendations about [Enums](../).
+3. Add your prefab and shape type \(Enum\) to the WidgetManager Stencil Map in the inspector.
+4. Make a duplicate of the stencil script you used in \#1 and rename it myNameStencil.cs
+5. Replace the stencil script on your prefab to use the one you just created.
+6. Open the GuideToolsPanel in Assets/Prefabs/Panels, duplicate one of the buttons and position it appropriately in the panel.
+7. In the StencilButton component change the Description Text and Button Texture to something appropriate for your shape and change the type to your stencil type.
+
+Question: What determines the distance at which the pointer will snap to the guide?
+
+Answer: WidgetManager.m\_StencilAttractDist. The code does this in  
+WidgetManager.**MagnetizeToStencils**.
+
+Question: How do you enable a stencil to be scaled non-uniformly \(i.e. along a particular axis\)?
+
+Answer: See SketchControlScript.**UpdateGrab\_ContinuesTwoHands** and implement **GetScaleAxis** and **RecordAndApplyScaleToAxis**.
+
+## About Tools \[todo - reorganize when done\]
+
+“In Open Brush, almost everything we do is done with the help of tools. A tool can be something like the Straight Line tool, which applies a modifier to any new brushes created with the Free Paint tool, or it can be something like the Teleport tool, which moves the player. At the end of the day, a tool is simply a way for us to run some code in a nice compartmentalized way.”
+
+In essence they are usually modal states that determine what actions happen when you use the controls on your main controller \(the “brush” controller\).
+
+## Sliders \[todo - reorganize when done\]
+
+1. Create a class that inherits from BaseSlider
+2. Go to BackdropPanel prefab and copy FogDensitySlider
+3. Paste into the panel prefab you want to use it in
+4. Change FogDensitySlider to use the class you created in \#1\(use method found at minute 18 here Found here \([https://youtu.be/HjsLzyNNxuM](https://youtu.be/HjsLzyNNxuM)\)
+5. Create a custom command for editing the value the slider represents. See ModifyFogCommand for an example.
+6. Use your new command to change the underlying value that the slider represents. This is typically done in OnPositionSliderNobUpdate and EndModifyCommand.
+7. Test and make sure your slider correctly changes the underlying value
+8. Register for events that get triggered if some other piece of code modifies your underlying value. In this case, we need to know about it so that we can update where the slider tick is located. If the event does not already exist, you may have to create a new event. One possible appropriate place is in Switchboard.cs
 
