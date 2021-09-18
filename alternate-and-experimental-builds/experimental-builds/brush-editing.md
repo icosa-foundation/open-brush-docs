@@ -38,11 +38,15 @@ Lots. It's an early proof of concept
 
 ## How do I get help
 
-Come over to the Open Brush Discord: [https://discord.com/invite/fS69VdFXpk](https://discord.com/invite/fS69VdFXpk) and chat to me \( andybak\#5425 \).
-
-I'm on UK time \(currently UTC+1\) but I check in fairly regularly.
+Come over to the [Open Brush Discord](https://discord.com/invite/fS69VdFXpk) and chat to me \( @andybak\#5425 \). I'm on UK time \(currently UTC+1\) but I check in fairly regularly.
 
 ### Can I see it in action?
 
-I made a quick video showing an [early stage example](https://www.youtube.com/watch?v=BWCpKSLiWKE)
+I made a quick video showing an early stage example:
+
+{% embed url="https://www.youtube.com/watch?v=BWCpKSLiWKE" %}
+
+
+
+
 
