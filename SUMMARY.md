@@ -17,6 +17,7 @@
   * [Exporting Open Brush sketches to other apps](user-guide/exporting-open-brush-sketches-to-other-apps.md)
   * [Exporting video](user-guide/exporting-videos.md)
   * [Brushes](user-guide/brushes/README.md)
+    * [Tool Panels](user-guide/brushes/tool-panels.md)
     * [Brush List](user-guide/brushes/brush-list.md)
   * [Using Open Brush on PC or Mac without a VR headset: “Monoscopic mode”](user-guide/monoscopic-mode.md)
   * [Command Line Arguments](user-guide/command-line-arguments.md)
