@@ -2,7 +2,7 @@
 
 The location of the tools differ slightly between basic mode and advanced mode. In advanced mode environment moves to the "More Tools" panel and undo/redo are removed \(you can access these via your wand instead\) .
 
-| Tools | Advanced Tools | More Tools |
+| Basic Mode Tools | Advanced Mode Tools | More Tools |
 | :--- | :--- | :--- |
 | eraser | eraser |  |
 | straightedge | straightedge |  |
