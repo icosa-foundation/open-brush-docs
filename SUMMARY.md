@@ -50,4 +50,5 @@
     * [PseudoCode](developer-notes/github-wiki/pseudocode.md)
     * [UserInterface](developer-notes/github-wiki/userinterface.md)
 * [Release History](release-history.md)
+* [Differences between Open Brush and Tilt Brush](differences-between-open-brush-and-tilt-brush.md)
 
