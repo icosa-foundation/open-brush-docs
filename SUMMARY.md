@@ -49,4 +49,5 @@
     * [MonoscopicMode](developer-notes/github-wiki/monoscopicmode.md)
     * [PseudoCode](developer-notes/github-wiki/pseudocode.md)
     * [UserInterface](developer-notes/github-wiki/userinterface.md)
+* [Release History](release-history.md)
 
