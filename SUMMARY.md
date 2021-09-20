@@ -2,6 +2,7 @@
 
 * [Home](README.md)
 * [How to get Open Brush](how-to-get-open-brush.md)
+* [Differences between Open Brush and Tilt Brush](differences-between-open-brush-and-tilt-brush.md)
 * [User Guide](user-guide/README.md)
   * [Get started with Open Brush](user-guide/get-started-with-open-brush.md)
   * [Painting with Open Brush](user-guide/painting-with-open-brush.md)
@@ -50,5 +51,4 @@
     * [PseudoCode](developer-notes/github-wiki/pseudocode.md)
     * [UserInterface](developer-notes/github-wiki/userinterface.md)
 * [Release History](release-history.md)
-* [Differences between Open Brush and Tilt Brush](differences-between-open-brush-and-tilt-brush.md)
 
