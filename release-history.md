@@ -3,8 +3,8 @@
 ## v0.4.0: LIV, Snap and Guides
 
 * Support for[@LIV](https://twitter.com/LIV)'s mixed reality on Oculus devices
-* Color Jitter varies your strokes
-* New 'plane' guide type + guide snapping
+* Color Jitter varies your strokes. Thanks @andybak!
+* New 'plane' guide type + guide snapping, thanks @michael-g!
 
 {% embed url="https://twitter.com/i/status/1425910471199240193" %}
 
