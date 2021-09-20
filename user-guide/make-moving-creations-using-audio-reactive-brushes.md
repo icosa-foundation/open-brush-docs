@@ -2,6 +2,8 @@
 
 You may notice a number of brush stroke options are labeled as audio reactive. These are special types of brush strokes which can react to music or audio playing from your desktop.
 
+![](../.gitbook/assets/image%20%283%29.png)
+
 ### **To use audio reactive brushes**
 
 1. Begin playing audio from your computer desktop.
