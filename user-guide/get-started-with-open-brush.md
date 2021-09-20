@@ -2,7 +2,7 @@
 
 Paint in 3D with Open Brush, an app that runs on the [HTC Vive](http://www.htcvive.com/) , [Valve Index](https://store.steampowered.com/valveindex) , [Oculus Rift](https://www.oculus.com/rift/) , [Oculus Quest](https://www.oculus.com/quest/), and [Windows Mixed Reality](https://www.microsoft.com/en-us/windows/windows-mixed-reality) virtual reality systems. You can use different brushes, effects, and tools to paint your virtual creations.
 
-### **How to get Open Brush**
+### **Requirements and Installation**
 
 To paint in 3D with Open Brush, you’ll need to have a VR headset that supports SteamVR or any Oculus headset.
 
@@ -44,11 +44,11 @@ The system requirements for running Open Brush are the same system requirements 
 2. On your palette, go to **Tools &gt;** **More** &gt; **Tips ‘N Tricks.** 
 3. This will run you through an overview of your Open Brush controllers and where the various buttons are.
 
-### **View featured sketches**
+### **View sketches**
 
 When you run Open Brush for the very first time, you'll be shown an introductory tutorial teaching you how to paint and use the palette.
 
-Every time the app is started after that initial run, your palette hand will by default open to the Sketchbook. In the Sketchbook, you can choose between viewing featured sketches from [Poly](https://poly.google.com/), sketches you liked on Poly, and your own saved sketches. You can also choose to start a new sketch.
+Every time the app is started after that initial run, your palette hand will by default open to the Sketchbook. In the Sketchbook, you can choose between ~~viewing featured sketches from Poly, sketches you liked on Poly,~~ and your own saved sketches. You can also choose to start a new sketch.
 
 We regularly feature new sketches from Poly, so keep checking back to see new content every week.
 

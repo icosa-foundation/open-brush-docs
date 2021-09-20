@@ -7,7 +7,9 @@
 
 Note: You can switch which hand is your painting controller and which is your palette controller by tapping the bottoms of the two controllers together. This is great to use if a right and left handed person are sharing controllers.
 
-### **Using your palette**
+### **Using the palette**
+
+![](../.gitbook/assets/image%20%283%29.png)
 
 1. On your palette controller, use your thumb to swipe left or right across the thumbpad \(HTC Vive\) or thumbstick \(Oculus Rift and Windows Mixed Reality\).
 2. This will allow you to rotate between the three faces of the palette.
