@@ -12,13 +12,13 @@ Additionally, you can find the **Brush, Dropper, re-color, Selection, Model Pin,
 * Oculus Rift: From the B button \(right handed\).
 * Windows Mixed Reality: From the Menu button, in between the thumbpad and thumbstick
 
-### ![](../.gitbook/assets/0%20%282%29.png) **Environments**
+### ![](../../.gitbook/assets/0%20%282%29.png) **Environments**
 
 You can choose a number of different virtual environments to paint in. For example, you can paint in Studio, Night Sky, Space or on a Dress Form. The lighting in the environment will affect the color of the brush stroke, but switching environments will not affect your existing brush strokes.
 
 
 
-### ![](../.gitbook/assets/1%20%283%29.png) **Dropper**
+### ![](../../.gitbook/assets/1%20%283%29.png) **Dropper**
 
 To select the brush and color used for a stroke or the color in a reference image:
 
@@ -27,7 +27,7 @@ To select the brush and color used for a stroke or the color in a reference imag
 3. Your brush type, color and size will be copied.
 4. To disable the brush picker, select the icon again.
 
-### ![](../.gitbook/assets/2%20%282%29.png) **Eraser**
+### ![](../../.gitbook/assets/2%20%282%29.png) **Eraser**
 
 You can use the eraser tool to erase entire brush strokes. To select the tool:
 
@@ -37,7 +37,7 @@ You can use the eraser tool to erase entire brush strokes. To select the tool:
 
 Note: To erase your last brush stroke quickly, you can also use Undo. To use Undo, press the left side of the palette controller’s disk. You can also use Undo if you accidentally erase a brush stroke.
 
-### ![](../.gitbook/assets/3%20%283%29.png) **Teleport**
+### ![](../../.gitbook/assets/3%20%283%29.png) **Teleport**
 
 To virtually hop to a different spot in your environment, use Teleport.
 
@@ -48,9 +48,9 @@ To virtually hop to a different spot in your environment, use Teleport.
 
 Note: The distance which you can teleport varies in each environment.
 
-### ![](../.gitbook/assets/4%20%282%29.png) **Undo & Redo**
+### ![](../../.gitbook/assets/4%20%282%29.png) **Undo & Redo**
 
-#### **Undo** ![](../.gitbook/assets/5%20%281%29.png)
+#### **Undo** ![](../../.gitbook/assets/5%20%281%29.png)
 
 To Undo your last brush stroke or action, you can select Undo. To select Undo on your palette:
 
@@ -59,7 +59,7 @@ To Undo your last brush stroke or action, you can select Undo. To select Undo on
 
 Note: There is an Undo shortcut on the left side of the palette controller’s disk. Press down to Undo.
 
-#### **Redo** ![](../.gitbook/assets/6%20%281%29.png)
+#### **Redo** ![](../../.gitbook/assets/6%20%281%29.png)
 
 To Redo an erased or undone action, you can select Redo. To select Redo on your palette:
 
@@ -68,9 +68,9 @@ To Redo an erased or undone action, you can select Redo. To select Redo on your 
 
 Note: There is a Redo shortcut on the right side of the palette controller’s disk. Press down to Redo.
 
-### ![](../.gitbook/assets/7%20%281%29.png) **Mirror Tools**
+### ![](../../.gitbook/assets/7%20%281%29.png) **Mirror Tools**
 
-#### **Mirror** ![](../.gitbook/assets/8.png)
+#### **Mirror** ![](../../.gitbook/assets/8.png)
 
 Use the mirror mode tool to paint symmetrically. To use the tool:
 
@@ -79,15 +79,15 @@ Use the mirror mode tool to paint symmetrically. To use the tool:
 3. To adjust the mirror back to default, grab and move the mirror onto the snapback widget.
 4. To spin the mirror, grab the mirror using the Grip button on the right side of your painting controller. Throw the mirror to spin it in an infinite loop. You can then paint within this loop.
 
-#### **Recall Mirror** ![](../.gitbook/assets/9.png)
+#### **Recall Mirror** ![](../../.gitbook/assets/9.png)
 
 To recall a Mirror that is out of reach, long press on the Mirror button on the Tools panel and the Recall Mirror button will appear.
 
-### ![](../.gitbook/assets/10.png) **Straight Edge**
+### ![](../../.gitbook/assets/10.png) **Straight Edge**
 
 Use the straight edge tool to paint in straight lines between two points.
 
-### ![](../.gitbook/assets/11.png) **Cameras**
+### ![](../../.gitbook/assets/11.png) **Cameras**
 
 Use Cameras to save your creation in various formats.
 
@@ -98,7 +98,7 @@ Use Cameras to save your creation in various formats.
 
 Note: Using Cameras will not save your sketch to the Sketchbook.
 
-### ![](../.gitbook/assets/12.png) **Recolor**
+### ![](../../.gitbook/assets/12.png) **Recolor**
 
 To change the color of a stroke:
 
@@ -108,9 +108,9 @@ To change the color of a stroke:
 4. Your stroke's color will be changed.
 5. To disable the brush picker, select the icon again.
 
-### ![](../.gitbook/assets/13.png) **Selection Tools**
+### ![](../../.gitbook/assets/13.png) **Selection Tools**
 
-#### **Select** ![](../.gitbook/assets/14.png)
+#### **Select** ![](../../.gitbook/assets/14.png)
 
 Use Selection to select and duplicate strokes and models in your scene.
 
@@ -118,19 +118,19 @@ Use Selection to select and duplicate strokes and models in your scene.
 2. If you want to move your selection, grab it as you would any other model in your scene. To delete a selected group of strokes, just throw it away.
 3. Duplicate selections by holding the thumbpad \(HTC Vive and Windows Mixed Reality\) or “A/X” button \(Oculus Rift\) while intersecting your controller with selected strokes.
 
-#### **Select All** ![](../.gitbook/assets/15.png)
+#### **Select All** ![](../../.gitbook/assets/15.png)
 
 To select everything in a scene, long press on the Select button on the Tools panel and the Select All button will appear.
 
-#### **Invert Selection** ![](../.gitbook/assets/16.png)
+#### **Invert Selection** ![](../../.gitbook/assets/16.png)
 
 To invert a selection that you have just made, long press on the Select button on the Tools panel and the Invert Selection button will appear.
 
-### ![](../.gitbook/assets/17.png) **Model Pin**
+### ![](../../.gitbook/assets/17.png) **Model Pin**
 
 Pin models, images, or guides in a scene using the Model pin.
 
-### ![](../.gitbook/assets/18.png) **Backdrop**
+### ![](../../.gitbook/assets/18.png) **Backdrop**
 
 Use Backdrop to modify your scene's backdrop color gradient and fog.
 
@@ -142,7 +142,7 @@ Use Backdrop to modify your scene's backdrop color gradient and fog.
 * Custom environments save with sketches
 * Some environments already have textured sky dome. In that case, you will be prompted to turn off that custom skybox before you can modify it.
 
-### ![](../.gitbook/assets/19.png) **Poly**
+### ![](../../.gitbook/assets/19.png) **Poly**
 
 Poly was shut down on June 30, 2021. This feature will soon be replaced by an equivalent that uses [Icosa](https://beta.icosa.gallery/)
 
@@ -153,7 +153,7 @@ Poly was shut down on June 30, 2021. This feature will soon be replaced by an eq
 * ~~You can remix Blocks models and uploaded .objs in your Open Brush sketches, and share remixed sketches back to Poly.~~
 * ~~Note: you cannot import published Open Brush sketches into Open Brush sketches at this time.~~
 
-### ![](../.gitbook/assets/20.png) **Lights**
+### ![](../../.gitbook/assets/20.png) **Lights**
 
 Use Lights to modify your scene's primary and secondary lighting colors and positioning.
 
@@ -167,7 +167,7 @@ Use Lights to modify your scene's primary and secondary lighting colors and posi
 * The sphere the lights pivot around can be used as a representation/quick preview for placement of lights in the world.
 * Custom lights save with sketches.
 
-### ![](../.gitbook/assets/21.png) **Guides**
+### ![](../../.gitbook/assets/21.png) **Guides**
 
 * Use the sphere, cube, and pill guides to create perfect shapes.
 * Guides are moved and scaled similar to other widgets, using the Grip buttons.

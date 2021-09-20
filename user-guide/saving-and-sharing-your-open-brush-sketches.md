@@ -17,7 +17,7 @@ If you're having issues saving your sketch, check that you have administration p
 
 ### **Sharing your Open Brush sketches**
 
-To share your creations outside of Open Brush, click **Upload** ![](../.gitbook/assets/23.png) to publish your sketch to [Poly](https://poly.google.com/). Once you have published your sketch, you can share the link to your sketch on social networks like Facebook, Twitter, and Google+.
+To share your creations outside of Open Brush, click **Upload** ![](../.gitbook/assets/23.png) to publish your sketch to [Icosa](https://beta.icosa.gallery/). Once you have published your sketch, you can share the link to your sketch on social networks like Facebook, Twitter, and Google+.
 
 ### **Save in various file formats using Cameras**
 
