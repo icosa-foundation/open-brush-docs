@@ -144,12 +144,14 @@ Use Backdrop to modify your scene's backdrop color gradient and fog.
 
 ### ![](../.gitbook/assets/19.png) **Poly**
 
-Use the Poly panel to import remixable \(CC-BY\) objects and Blocks models uploaded to [Poly](https://poly.google.com/).
+Poly was shut down on June 30, 2021. This feature will soon be replaced by an equivalent that uses [Icosa](https://beta.icosa.gallery/)
 
-* Any CC-BY Blocks model or .obj you like on Poly will appear on that panel \(assuming you are signed-in with the same account\).
-* Featured Poly creations will also be accessible on the panel, whether you are signed-in or not.
-* You can remix Blocks models and uploaded .objs in your Open Brush sketches, and share remixed sketches back to Poly.
-* Note: you cannot import published Open Brush sketches into Open Brush sketches at this time.
+~~Use the Poly panel to import remixable \(CC-BY\) objects and Blocks models uploaded to~~ [~~Poly~~](https://poly.google.com/)~~.~~
+
+* ~~Any CC-BY Blocks model or .obj you like on Poly will appear on that panel \(assuming you are signed-in with the same account\).~~
+* ~~Featured Poly creations will also be accessible on the panel, whether you are signed-in or not.~~
+* ~~You can remix Blocks models and uploaded .objs in your Open Brush sketches, and share remixed sketches back to Poly.~~
+* ~~Note: you cannot import published Open Brush sketches into Open Brush sketches at this time.~~
 
 ### ![](../.gitbook/assets/20.png) **Lights**
 
