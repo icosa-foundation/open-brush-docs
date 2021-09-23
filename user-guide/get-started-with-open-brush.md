@@ -17,6 +17,8 @@ The system requirements for running Open Brush are the same system requirements 
 
 **Oculus Rift**
 
+Rift users can either use the SteamVR build as described above for the HTC Vive / Valve Index, or the Rift-specific build described here:
+
 1. Set up your [Oculus Rift](https://www3.oculus.com/en-us/setup/).
 2. Download the [Open Brush](https://www.oculus.com/experiences/rift/5227489953989768/) app.
 3. To open Open Brush, open the **Oculus Home Library** &gt; **Open Brush.**
@@ -26,7 +28,7 @@ The system requirements for running Open Brush are the same system requirements 
 **Oculus Quest**
 
 1. Set up your [Oculus Quest.](https://www.oculus.com/setup/#quest-setup)
-2. Download the [Open Brush](https://www.oculus.com/experiences/quest/3600360710032222/) app.
+2. Download the [Open Brush](https://www.oculus.com/experiences/quest/3600360710032222/) app, currently on App Lab.
 3. To open Open Brush, open the **Oculus Home Library** &gt; **Open Brush.**
 
 **Windows Mixed Reality**
@@ -43,6 +45,8 @@ The system requirements for running Open Brush are the same system requirements 
 1. Make sure you are in [Advanced Mode](https://support.google.com/tiltbrush/answer/6389712?hl=en&ref_topic=7074683). 
 2. On your palette, go to **Tools &gt;** **More** &gt; **Tips ‘N Tricks.** 
 3. This will run you through an overview of your Open Brush controllers and where the various buttons are.
+
+Note that left handed users can switch the left and right controllers by tapping \(gently!\) the base of the two controllers together, so that the left hand controller will paint and the right hand controller will contain the various panels and settings. 
 
 ### **View sketches**
 

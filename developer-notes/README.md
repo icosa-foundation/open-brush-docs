@@ -2,13 +2,13 @@
 
 ## Developer Resources
 
-**Tutorials and Write ups for Modifying Tilt Brush**
+**Tutorials and Write ups for Modifying Tilt Brush:**
 
 * [Customizing Tilt Brush - Part One: Introduction and Custom Brushes](https://lachlansleight.medium.com/customizing-tilt-brush-6e9a63bd5425)
-* [Customising Tilt Brush - Part Two: Adding Flight](https://lachlansleight.medium.com/customizing-tilt-brush-3407f5ceb4ea)
+* [Customising Tilt Brush - Part Two: Adding Flight](https://lachlansleight.medium.com/customizing-tilt-brush-3407f5ceb4ea) \(merged into Open Brush\)
 * [Scobot - How I change the look of Tilt Brush brushes in Unity3D](https://www.youtube.com/watch?v=38LSpe-2eIU)
-* [Enabling FBX output.](https://wiki.thakyuu.invr.chat/TiltBrush/Tips_how_to_support_fbx_en)
-* [Update Python support scripts to Python 3.8 from Python 2.](https://github.com/billyquith/tilt-brush/commit/f0810efebbbd2969ffa8fee095659b17c0a60696)
+* [Enabling FBX output.](https://wiki.thakyuu.invr.chat/TiltBrush/Tips_how_to_support_fbx_en) \(merged into Open Brush\)
+* [Update Python support scripts to Python 3.8 from Python 2.](https://github.com/billyquith/tilt-brush/commit/f0810efebbbd2969ffa8fee095659b17c0a60696) \(merged into Open Brush\)
 
 ## Open Brush Developer Documentation
 

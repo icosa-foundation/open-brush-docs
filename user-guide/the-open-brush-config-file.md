@@ -2,7 +2,9 @@
 
 The Open Brush config file can be used to tweak various options for advanced users. A blank Open Brush.cfg file will be created in the Open Brush folder on application startup if one does not exist.
 
-Example path: **C:\Users\**_&lt;username&gt;_**\Documents\Open Brush\Open Brush.cfg**.
+Example SteamVR / Rift path: **C:\Users\**_&lt;username&gt;_**\Documents\Open Brush\Open Brush.cfg**.
+
+On an Oculus Quest, you can find this file in **/sdcard/Open Brush**. You can use either adb or the SideQuest file viewer to access this file.
 
 Contents of the default _Open Brush.cfg:_
 
@@ -85,7 +87,7 @@ Sample contents of a _Open Brush.cfg_ with various fields filled in:
 
 ### Setting config values from the command line
 
-Any of the above settings in the Open Brush.cfg file can also be specified on the command line. The format is --Section.Setting &lt;value&gt;. For example:
+Any of the above settings in the Open Brush.cfg file can also be specified on the command line \(not applicable to Quest users\). The format is --Section.Setting &lt;value&gt;. For example:
 
 ```text
 --Flags.ShowWatermark true

@@ -7,6 +7,7 @@ This section only lists features added to the main release. There's plenty of ot
 * Fly Tool
 * Plane Guide
 * Color Jitter
+* Oculus MRC fixes
 * [LIV Support](https://www.liv.tv/)
 * [Icosa uploads](https://beta.icosa.gallery/)
 * [LATK export](https://lightningartist.org/)

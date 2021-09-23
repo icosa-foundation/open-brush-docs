@@ -15,9 +15,10 @@ Join our [Discord](https://discord.gg/NQv6QPus)
 
 ## Other Resources
 
-* A good explanation for non technical people about “Open source and Tilt Brush”: [Shameless Mayhem - Teaching Tilt Brush: Going Open Source](https://www.youtube.com/watch?v=LNFl_G1OXIw)
-* Unity Downloads:[ Download Unity - Personal Use](https://store.unity.com/download?ref=personal)
-* [Download Unity - Business Use](https://store.unity.com/#plans-business)
+* A good explanation for non technical people about “Open Source and Tilt Brush”: [Shameless Mayhem - Teaching Tilt Brush: Going Open Source](https://www.youtube.com/watch?v=LNFl_G1OXIw)
+* Unity Downloads:
+  * [Download Unity - Personal Use](https://store.unity.com/download?ref=personal)
+  * [Download Unity - Business Use](https://store.unity.com/#plans-business)
 * Our Discord Bots: [Time Zone Conversion](https://top.gg/bot/471091072546766849) Bot
 * [Open Tilt Brush Documentation](https://docs.google.com/spreadsheets/d/1exi7irQ35e8A9LZ6-ujVpLCF_vwBRclM1-iHBYenwBs/edit#gid=0) \(big list of tutorials, tweets, videos, ideas etc\)
 * [Open Brush Trello](https://trello.com/b/jItetqYe/open-brush)
