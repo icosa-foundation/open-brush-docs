@@ -13,32 +13,32 @@ The download link will take you to a page with multiple versions of that build. 
 
 The only exception is if you're interested in using the API without being in VR. In that case pick a monoscopic build. You can even run Open Brush on **MacOS** and use it via API scripts!
 
-### How do I install it?
+### 3. Install the downloaded file
 
 * PC - just unzip and run the exe that's called "OpenBrush-\(something\)". The something will depend on which build you downloaded.
 * Quest - Unzip and install the apk file using [SideQuest](https://sidequestvr.com/setup-howto) 
 
-## Feature Builds
+## List of Feature Builds
 
-### All Features in One \(the "Kitchen Sink" Build\)
+### 1. All Features in One \(the "Kitchen Sink" Build\)
 
 This version has all the features included. It also contains [Moat's features](../moats-experimental-builds.md). Be warned though that sometimes features conflict and this might be less stable. If you have problems then try a specific feature build instead.
 
 [Downloads](https://nightly.link/IxxyXR/open-brush/workflows/build/integration)
 
-### Polyhedra and Symmetry Build
+### 2. Polyhedra and Symmetry
 
 [More info](polyhedra-and-symmetry.md)    [Downloads](https://nightly.link/IxxyXR/open-brush/workflows/build/features%2Fsymmetry)
 
-### Open Brush API Build
+### 3. Open Brush API
 
 [More info](open-brush-api/)    [Downloads](https://nightly.link/IxxyXR/open-brush/workflows/build/features%2Fhttp-api)
 
-### Grid and Angle Snapping Build
+### 4. Grid and Angle Snapping
 
 [More info](grid-and-angle-snapping.md)    [Downloads](https://nightly.link/IxxyXR/open-brush/workflows/build/features%2Fsnapping)
 
-### Brush Editing Build
+### 5. Brush Editing
 
 [More info](brush-editing.md)    [Downloads](https://nightly.link/IxxyXR/open-brush/workflows/build/features%2Fbrush-editing)
 
