@@ -4,7 +4,7 @@
 
 Buggy \(especially the Quest version\)
 
-[Downloads](downloads.md#feature-build-4-brush-editing)
+[Downloads](https://github.com/IxxyXR/open-brush/wiki/Downloads)
 
 ### What does it do?
 

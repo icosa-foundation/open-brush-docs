@@ -2,9 +2,9 @@
 
 ## Status
 
-Useable with a few rough edges.
+Partially working but buggy
 
-[Downloads](downloads.md#feature-build-3-grid-and-angle-snapping)
+[Downloads](https://github.com/IxxyXR/open-brush/wiki/Downloads)
 
 ![TODO](https://cdn.discordapp.com/attachments/804251582715265034/846812293177933894/2021-05-25_19-06-31.gif)
 
