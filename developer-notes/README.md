@@ -112,8 +112,8 @@ Panels script components have a m\_PanelPopUpMap property which connects a Globa
 7. Test and make sure your slider correctly changes the underlying value
 8. Register for events that get triggered if some other piece of code modifies your underlying value. In this case, we need to know about it so that we can update where the slider tick is located. If the event does not already exist, you may have to create a new event. One possible appropriate place is in Switchboard.cs
 
-
 ## Guides
+
 These are typically known as "stencils" in code but prefab names may still use the term "guide".
 
 Key Classes involved

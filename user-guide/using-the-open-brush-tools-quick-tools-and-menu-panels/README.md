@@ -48,9 +48,9 @@ To virtually hop to a different spot in your environment, use Teleport.
 
 Note: The distance which you can teleport varies in each environment.
 
-### ![](../../.gitbook/assets/4%20%282%29%20%281%29.png) **Undo & Redo**
+### ![](../../.gitbook/assets/4%20%282%29%20%281%29%20%282%29.png) **Undo & Redo**
 
-#### **Undo** ![](../../.gitbook/assets/4%20%282%29%20%281%29%20%281%29.png)
+#### **Undo** ![](../../.gitbook/assets/4%20%282%29%20%281%29%20%282%29%20%281%29.png)
 
 To Undo your last brush stroke or action, you can select Undo. To select Undo on your palette:
 
@@ -68,9 +68,9 @@ To Redo an erased or undone action, you can select Redo. To select Redo on your 
 
 Note: There is a Redo shortcut on the right side of the palette controller’s disk. Press down to Redo.
 
-### ![](../../.gitbook/assets/7%20%281%29.png) **Mirror Tools**
+### ![](../../.gitbook/assets/7%20%281%29%20%282%29.png) **Mirror Tools**
 
-#### **Mirror** ![](../../.gitbook/assets/7%20%281%29%20%281%29.png)
+#### **Mirror** ![](../../.gitbook/assets/7%20%281%29%20%282%29%20%281%29.png)
 
 Use the mirror mode tool to paint symmetrically. To use the tool:
 
@@ -108,15 +108,15 @@ To change the color of a stroke:
 4. Your stroke's color will be changed.
 5. To disable the brush picker, select the icon again.
 
-### ![](../../.gitbook/assets/13%20%281%29.png) **Selection Tools**
+### ![](../../.gitbook/assets/13%20%281%29%20%282%29.png) **Selection Tools**
 
-#### **Select** ![](../../.gitbook/assets/13%20%281%29%20%282%29.png)
+#### **Select** ![](../../.gitbook/assets/13%20%281%29%20%282%29%20%282%29.png)
 
 Use Selection to select and duplicate strokes and models in your scene.
 
 1. Select strokes using the trigger. You can also flip into deselect mode by tapping the thumbpad \(HTC Vive and Windows Mixed Reality\) or “A/X” button \(Oculus Rift\).
 2. If you want to move your selection, grab it as you would any other model in your scene. To delete a selected group of strokes, just throw it away.
-3. Duplicate selections by holding the thumbpad \(HTC Vive and Windows Mixed Reality\) or “A/X” button \(Oculus Rift\) while intersecting your controller with selected strokes.
+3. Duplicate selections by either: a\) holding the thumbpad \(HTC Vive and Windows Mixed Reality\) or “A/X” button \(Oculus Rift\) while intersecting your controller with selected strokes or... b\) using the same button but whilst moving a selection The first method creates a duplicate slightly offset from the original whilst the second leaves a copy behind at the exact spot where you pressed the button.
 
 #### **Select All** ![](../../.gitbook/assets/15.png)
 
@@ -125,6 +125,10 @@ To select everything in a scene, long press on the Select button on the Tools pa
 #### **Invert Selection** ![](../../.gitbook/assets/16.png)
 
 To invert a selection that you have just made, long press on the Select button on the Tools panel and the Invert Selection button will appear.
+
+#### Toggle Grouping for Selection ![](../../.gitbook/assets/image%20%285%29.png)
+
+Combines the currently selected strokes into a single group. They will move and scale as one. You can ungroup them easily by clicking again.
 
 ### ![](../../.gitbook/assets/17.png) **Model Pin**
 
