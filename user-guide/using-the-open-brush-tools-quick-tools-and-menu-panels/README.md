@@ -126,7 +126,7 @@ To select everything in a scene, long press on the Select button on the Tools pa
 
 To invert a selection that you have just made, long press on the Select button on the Tools panel and the Invert Selection button will appear.
 
-#### Toggle Grouping for Selection ![](../../.gitbook/assets/image%20%285%29.png)
+#### Toggle Grouping for Selection !<img src="../../.gitbook/assets/image%20%285%29.png" width="36">
 
 Combines the currently selected strokes into a single group. They will move and scale as one. You can ungroup them easily by clicking again.
 
