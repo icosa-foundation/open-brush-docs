@@ -1,5 +1,7 @@
 # Release History
 
+List of changes in all major releases. For bleeding edge features see [alternate and experimental builds](alternate-and-experimental-builds/).
+
 ## v0.4.0: LIV, Snap and Guides
 
 * Support for[@LIV](https://twitter.com/LIV)'s mixed reality on Oculus devices
