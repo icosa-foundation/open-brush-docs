@@ -111,6 +111,8 @@ Just type a command into the address bar of your browser whilst running one of t
 
 You can also add html files to your Scripts folder. These can have standard form elements for input and some simple javascript to send commands based on those chosen values to Open Brush.
 
+Check out the simple form examples included: [http://localhost:40074/examplescripts](http://localhost:40074/examplescripts)
+
 ### What commands are available?
 
 Visit [http://localhost:40074/help](http://localhost:40074/help) while you've got the custom Open Brush running to access the help.
