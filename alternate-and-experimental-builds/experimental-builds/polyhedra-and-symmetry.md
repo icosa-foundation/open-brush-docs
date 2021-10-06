@@ -1,6 +1,6 @@
 # Polyhedra and Symmetry
 
-[Downloads](downloads.md#polyhedra-and-symmetry)
+[Downloads](downloads.md#feature-build-1-polyhedra-and-symmetry)
 
 ### Status
 

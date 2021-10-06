@@ -4,7 +4,7 @@
 
 Mostly usable with a few bugs
 
-[Downloads](../downloads.md#open-brush-api)
+[Downloads](../downloads.md#feature-build-2-open-brush-api)
 
 [API Commands List](https://github.com/IxxyXR/open-brush/wiki/API-Commands)
 

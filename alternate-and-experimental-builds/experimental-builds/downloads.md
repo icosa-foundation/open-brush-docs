@@ -1,26 +1,21 @@
 # Latest Downloads
 
-### 1. Choose a feature build
+**1. Choose the feature build you want to try**  
+Links are at the bottom of this page. "All Features in One" or an individual version.
 
-Links are at the bottom of this page. Either click "**download**" next to the feature you want to try out - or just pick the "All in one" version.
+**2. Choose the correct download for your headset**  
+The download link will take you to a page with multiple versions of that build. You probably want a build that is "experimental" but not "monoscopic". **PC:** either "Windows Rift Experimental" or "Windows SteamVR Experimental". \(The former might be slightly better for Rift and Quest users \(via Oculus Link\). The latter will work for everyone\). **Quest:** Pick "Oculus Quest Experimental".
 
-### 2. Choose the correct file for your headset
+The only exception is if you're interested in using Open Brush without VR. In that case pick a monoscopic build. You can even run Open Brush on **MacOS** and use it via API scripts!
 
-The download link will take you to a page with multiple versions of that build. You most probably want to pick a build that is "experimental" but not "monoscopic". So:
+**3. Install**
 
-* For PC you want either "Windows Rift Experimental" or "Windows SteamVR Experimental". The former might be slightly better for Rift and Quest users \(via Oculus Link\). The latter will work for everyone.
-* For Quest standalone pick "Oculus Quest Experimental"
+* **PC:** just unzip and run the exe that's called "OpenBrush-\(something\)". The something will depend on which build you downloaded.
+* **Quest:** Unzip and install the apk file using [SideQuest](https://sidequestvr.com/setup-howto) 
 
-The only exception is if you're interested in using the API without being in VR. In that case pick a monoscopic build. You can even run Open Brush on **MacOS** and use it via API scripts!
+## List of Builds
 
-### 3. Install the downloaded file
-
-* PC - just unzip and run the exe that's called "OpenBrush-\(something\)". The something will depend on which build you downloaded.
-* Quest - Unzip and install the apk file using [SideQuest](https://sidequestvr.com/setup-howto) 
-
-## List of Feature Builds
-
-### All Features in One \(the "Kitchen Sink" Build\)
+### All in One
 
 This version has all the features included. It also contains [Moat's features](../moats-experimental-builds.md). Be warned though that sometimes features conflict and this might be less stable. If you have problems then try a specific feature build instead.  [Downloads](https://nightly.link/IxxyXR/open-brush/workflows/build/integration)
 
