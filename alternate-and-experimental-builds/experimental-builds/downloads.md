@@ -22,9 +22,7 @@ The only exception is if you're interested in using the API without being in VR.
 
 ### All Features in One \(the "Kitchen Sink" Build\)
 
-This version has all the features included. It also contains [Moat's features](../moats-experimental-builds.md). Be warned though that sometimes features conflict and this might be less stable. If you have problems then try a specific feature build instead.
-
-[Downloads](https://nightly.link/IxxyXR/open-brush/workflows/build/integration)
+This version has all the features included. It also contains [Moat's features](../moats-experimental-builds.md). Be warned though that sometimes features conflict and this might be less stable. If you have problems then try a specific feature build instead.  [Downloads](https://nightly.link/IxxyXR/open-brush/workflows/build/integration)
 
 ### Polyhedra and Symmetry
 
