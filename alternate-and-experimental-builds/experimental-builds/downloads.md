@@ -20,25 +20,25 @@ The only exception is if you're interested in using the API without being in VR.
 
 ## List of Feature Builds
 
-### 1. All Features in One \(the "Kitchen Sink" Build\)
+### All Features in One \(the "Kitchen Sink" Build\)
 
 This version has all the features included. It also contains [Moat's features](../moats-experimental-builds.md). Be warned though that sometimes features conflict and this might be less stable. If you have problems then try a specific feature build instead.
 
 [Downloads](https://nightly.link/IxxyXR/open-brush/workflows/build/integration)
 
-### 2. Polyhedra and Symmetry
+### Polyhedra and Symmetry
 
 [More info](polyhedra-and-symmetry.md)    [Downloads](https://nightly.link/IxxyXR/open-brush/workflows/build/features%2Fsymmetry)
 
-### 3. Open Brush API
+### Open Brush API
 
 [More info](open-brush-api/)    [Downloads](https://nightly.link/IxxyXR/open-brush/workflows/build/features%2Fhttp-api)
 
-### 4. Grid and Angle Snapping
+### Grid and Angle Snapping
 
 [More info](grid-and-angle-snapping.md)    [Downloads](https://nightly.link/IxxyXR/open-brush/workflows/build/features%2Fsnapping)
 
-### 5. Brush Editing
+### Brush Editing
 
 [More info](brush-editing.md)    [Downloads](https://nightly.link/IxxyXR/open-brush/workflows/build/features%2Fbrush-editing)
 
