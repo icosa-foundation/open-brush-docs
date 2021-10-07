@@ -1,5 +1,9 @@
 # Exporting video
 
+### The Camera Tool
+
+The standard way to export video is using the [Camera Tool](using-the-open-brush-tools-quick-tools-and-menu-panels/#cameras) within Open Brush itself.
+
 ### Rendering ‘Offline’ videos
 
 When you create a video from inside Tilt Brush using the Camera tool, Tilt Brush will create a Windows batch file alongside the video \(In Documents\Tilt Brush\Videos\) that you can run to re-render the video at a higher resolution. For example:

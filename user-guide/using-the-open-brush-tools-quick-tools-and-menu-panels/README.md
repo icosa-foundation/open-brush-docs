@@ -91,8 +91,11 @@ Use Cameras to save your creation in various formats.
 
 1. Point your painting controller towards the palette and select Cameras.
 2. On your painting controller, swipe the thumbpad \(HTC Vive\) or thumbstick \(Oculus Rift and Windows Mixed Reality\) right or left to access the Camera options.
-3. After selecting your option, your image file will save to the Documents folder on your computer.
+3. After selecting your option, your image file will save to the "Open Brush" folder inside "Documents" on your computer.
 4. You can then share photos, videos, and GIFs or your artwork online.
+5. PC users can record still images, animated GIFs or video. The Quest only supports still images and GIFs.
+
+For better quality you can record [re-render videos offline](../exporting-videos.md).
 
 Note: Using Cameras will not save your sketch to the Sketchbook.
 
