@@ -37,4 +37,4 @@ Come over to the [Open Brush Discord](https://discord.com/invite/fS69VdFXpk) and
 
 ### Can I see it in action?
 
-{% embed url="https://youtu.be/NgVibGDoAe8" %}
+{% embed url="https://youtu.be/mScGKQke4QA" %}
