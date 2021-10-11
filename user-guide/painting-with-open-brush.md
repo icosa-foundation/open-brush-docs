@@ -9,9 +9,9 @@ Note: You can switch which hand is your painting controller and which is your pa
 
 ### **Using the palette**
 
-![](../.gitbook/assets/image%20%284%29.png)
+![](<../.gitbook/assets/image (3).png>)
 
-1. On your palette controller, use your thumb to swipe left or right across the thumbpad \(HTC Vive\) or thumbstick \(Oculus Rift and Windows Mixed Reality\).
+1. On your palette controller, use your thumb to swipe left or right across the thumbpad (HTC Vive) or thumbstick (Oculus Rift and Windows Mixed Reality).
 2. This will allow you to rotate between the three faces of the palette.
 3. Using your painting controller, angle your controller towards the palette in order to select items on the palette.
 4. Focus the pointer and press trigger to make selections.
@@ -21,20 +21,20 @@ Note: You can switch which hand is your painting controller and which is your pa
 
 To change the width of your brush strokes:
 
-1. On your painting controller, slide your thumb left or right along the thumbpad \(HTC Vive\) or toggle the thumbstick left or right \(Oculus Rift and Windows Mixed Reality\).
+1. On your painting controller, slide your thumb left or right along the thumbpad (HTC Vive) or toggle the thumbstick left or right (Oculus Rift and Windows Mixed Reality).
 2. Sliding or toggling left will make the brush stroke finer. Sliding or toggling right will make the brush stroke larger.
 
 ### **Undo & Redo shortcuts**
 
-If you would like to undo or redo brush strokes you have just made, you can use Undo and Redo in the Tools Panel \(in Beginner Mode\) or these shortcuts \(in Beginner or Advanced Mode\):
+If you would like to undo or redo brush strokes you have just made, you can use Undo and Redo in the Tools Panel (in Beginner Mode) or these shortcuts (in Beginner or Advanced Mode):
 
 * To undo an action:
   * HTC Vive: On the palette controller, click the left side of the thumbpad.
-  * Oculus Rift: On the palette controller, click the X button \(right handed\) or A button \(left handed\).
+  * Oculus Rift: On the palette controller, click the X button (right handed) or A button (left handed).
   * Windows Mixed Reality: On the palette controller, click the left side of the thumbpad.
 * To redo an action:
   * HTC Vive: On the palette controller, click the right side of the thumbpad.
-  * Oculus Rift: On the palette controller, click the Y button \(right handed\) or B button \(left handed\).
+  * Oculus Rift: On the palette controller, click the Y button (right handed) or B button (left handed).
   * Windows Mixed Reality: On the palette controller, click the right side of the thumbpad.
 
 To quickly undo or redo, press and hold the controller button specified above.
@@ -42,4 +42,3 @@ To quickly undo or redo, press and hold the controller button specified above.
 ### **Rotate & Resize your sketch**
 
 To scale, rotate, or move your sketch, you can hold down both of the grip buttons on the sides of your controllers to grab the sketch. Then, move your hands to shrink, enlarge, or spin the sketch.
-

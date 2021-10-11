@@ -9,14 +9,14 @@ At the bottom of the palette is the Menu panel which opens when you hover over i
 Additionally, you can find the **Brush, Dropper, re-color, Selection, Model Pin, and Eraser** on the Quick Tools panel. The Quick Tools panel is accessed:
 
 * HTC Vive: From the Menu Button on top of the thumbpad.
-* Oculus Rift: From the B button \(right handed\).
+* Oculus Rift: From the B button (right handed).
 * Windows Mixed Reality: From the Menu button, in between the thumbpad and thumbstick
 
-## ![](../../.gitbook/assets/0%20%282%29.png) **Environments**
+## ![](<../../.gitbook/assets/0 (2).png>) **Environments**
 
 You can choose a number of different virtual environments to paint in. For example, you can paint in Studio, Night Sky, Space or on a Dress Form. The lighting in the environment will affect the color of the brush stroke, but switching environments will not affect your existing brush strokes.
 
-## ![](../../.gitbook/assets/1%20%283%29.png) **Dropper**
+## ![](<../../.gitbook/assets/1 (2).png>) **Dropper**
 
 To select the brush and color used for a stroke or the color in a reference image:
 
@@ -25,7 +25,7 @@ To select the brush and color used for a stroke or the color in a reference imag
 3. Your brush type, color and size will be copied.
 4. To disable the brush picker, select the icon again.
 
-## ![](../../.gitbook/assets/2%20%282%29.png) **Eraser**
+## ![](<../../.gitbook/assets/2 (2).png>) **Eraser**
 
 You can use the eraser tool to erase entire brush strokes. To select the tool:
 
@@ -35,7 +35,7 @@ You can use the eraser tool to erase entire brush strokes. To select the tool:
 
 Note: To erase your last brush stroke quickly, you can also use Undo. To use Undo, press the left side of the palette controller’s disk. You can also use Undo if you accidentally erase a brush stroke.
 
-## ![](../../.gitbook/assets/3%20%283%29.png) **Teleport**
+## ![](<../../.gitbook/assets/3 (2).png>) **Teleport**
 
 To virtually hop to a different spot in your environment, use Teleport.
 
@@ -46,9 +46,9 @@ To virtually hop to a different spot in your environment, use Teleport.
 
 Note: The distance which you can teleport varies in each environment.
 
-## ![](../../.gitbook/assets/4%20%282%29%20%281%29%20%282%29.png) **Undo & Redo**
+## ![](<../../.gitbook/assets/4 (2) (1) (2).png>) **Undo & Redo**
 
-### **Undo** ![](../../.gitbook/assets/4%20%282%29%20%281%29%20%282%29%20%281%29.png)
+### **Undo** ![](<../../.gitbook/assets/4 (2) (1) (2) (1).png>)
 
 To Undo your last brush stroke or action, you can select Undo. To select Undo on your palette:
 
@@ -57,7 +57,7 @@ To Undo your last brush stroke or action, you can select Undo. To select Undo on
 
 Note: There is an Undo shortcut on the left side of the palette controller’s disk. Press down to Undo.
 
-### **Redo** ![](../../.gitbook/assets/6%20%281%29.png)
+### **Redo** ![](<../../.gitbook/assets/6 (1).png>)
 
 To Redo an erased or undone action, you can select Redo. To select Redo on your palette:
 
@@ -66,9 +66,9 @@ To Redo an erased or undone action, you can select Redo. To select Redo on your 
 
 Note: There is a Redo shortcut on the right side of the palette controller’s disk. Press down to Redo.
 
-## ![](../../.gitbook/assets/7%20%281%29%20%282%29.png) **Mirror Tools**
+## ![](<../../.gitbook/assets/7 (1) (2).png>) **Mirror Tools**
 
-### **Mirror** ![](../../.gitbook/assets/7%20%281%29%20%282%29%20%281%29.png)
+### **Mirror** ![](<../../.gitbook/assets/7 (1) (2) (1).png>)
 
 Use the mirror mode tool to paint symmetrically. To use the tool:
 
@@ -90,7 +90,7 @@ Use the straight edge tool to paint in straight lines between two points.
 Use Cameras to save your creation in various formats.
 
 1. Point your painting controller towards the palette and select Cameras.
-2. On your painting controller, swipe the thumbpad \(HTC Vive\) or thumbstick \(Oculus Rift and Windows Mixed Reality\) right or left to access the Camera options.
+2. On your painting controller, swipe the thumbpad (HTC Vive) or thumbstick (Oculus Rift and Windows Mixed Reality) right or left to access the Camera options.
 3. After selecting your option, your image file will save to the "Open Brush" folder inside "Documents" on your computer.
 4. You can then share photos, videos, and GIFs or your artwork online.
 5. PC users can record still images, animated GIFs or video. The Quest only supports still images and GIFs.
@@ -109,15 +109,15 @@ To change the color of a stroke:
 4. Your stroke's color will be changed.
 5. To disable the brush picker, select the icon again.
 
-## ![](../../.gitbook/assets/13%20%281%29%20%282%29.png) **Selection Tools**
+## ![](<../../.gitbook/assets/13 (1) (2).png>) **Selection Tools**
 
-### **Select** ![](../../.gitbook/assets/13%20%281%29%20%282%29%20%282%29.png)
+### **Select** ![](<../../.gitbook/assets/13 (1) (2) (2).png>)
 
 Use Selection to select and duplicate strokes and models in your scene.
 
-1. Select strokes using the trigger. You can also flip into deselect mode by tapping the thumbpad \(HTC Vive and Windows Mixed Reality\) or “A/X” button \(Oculus Rift\).
+1. Select strokes using the trigger. You can also flip into deselect mode by tapping the thumbpad (HTC Vive and Windows Mixed Reality) or “A/X” button (Oculus Rift).
 2. If you want to move your selection, grab it as you would any other model in your scene. To delete a selected group of strokes, just throw it away.
-3. Duplicate selections by either: a\) holding the thumbpad \(HTC Vive and Windows Mixed Reality\) or “A/X” button \(Oculus Rift\) while intersecting your controller with selected strokes or... b\) using the same button but whilst moving a selection The first method creates a duplicate slightly offset from the original whilst the second leaves a copy behind at the exact spot where you pressed the button.
+3. Duplicate selections by either: a) holding the thumbpad (HTC Vive and Windows Mixed Reality) or “A/X” button (Oculus Rift) while intersecting your controller with selected strokes or... b) using the same button but whilst moving a selection The first method creates a duplicate slightly offset from the original whilst the second leaves a copy behind at the exact spot where you pressed the button.
 
 ### **Select All** ![](../../.gitbook/assets/15.png)
 
@@ -127,7 +127,7 @@ To select everything in a scene, long press on the Select button on the Tools pa
 
 To invert a selection that you have just made, long press on the Select button on the Tools panel and the Invert Selection button will appear.
 
-### Toggle Grouping for Selection ![](../../.gitbook/assets/image%20%286%29.png) 
+### Toggle Grouping for Selection ![](<../../.gitbook/assets/image (6).png>) 
 
 Combines the currently selected strokes into a single group. They will move and scale as one. You can ungroup them easily by clicking again.
 
@@ -140,7 +140,7 @@ Pin models, images, or guides in a scene using the Model pin.
 Use Backdrop to modify your scene's backdrop color gradient and fog.
 
 * Grab anywhere on the backdrop sphere to move or turn it by selecting with the trigger
-* The backdrop sphere represents the sky dome \(skybox\) in the world.
+* The backdrop sphere represents the sky dome (skybox) in the world.
 * Change the backdrop gradient by selecting different colors.
 * Change the fog intensity by adjusting the slider, and you can change the color by clicking on the fog rectangle.
 * Reset your environment at any time by reloading it from the environment panel.
@@ -149,11 +149,11 @@ Use Backdrop to modify your scene's backdrop color gradient and fog.
 
 ## ![](../../.gitbook/assets/19.png) **Poly**
 
-Poly was shut down on June 30, 2021. This feature will soon be replaced by an equivalent that uses [Icosa](https://beta.icosa.gallery/)
+Poly was shut down on June 30, 2021. This feature will soon be replaced by an equivalent that uses [Icosa](https://beta.icosa.gallery)
 
-~~Use the Poly panel to import remixable \(CC-BY\) objects and Blocks models uploaded to~~ [~~Poly~~](https://poly.google.com/)~~.~~
+~~Use the Poly panel to import remixable (CC-BY) objects and Blocks models uploaded to~~ [~~Poly~~](https://poly.google.com)~~.~~
 
-* ~~Any CC-BY Blocks model or .obj you like on Poly will appear on that panel \(assuming you are signed-in with the same account\).~~
+* ~~Any CC-BY Blocks model or .obj you like on Poly will appear on that panel (assuming you are signed-in with the same account).~~
 * ~~Featured Poly creations will also be accessible on the panel, whether you are signed-in or not.~~
 * ~~You can remix Blocks models and uploaded .objs in your Open Brush sketches, and share remixed sketches back to Poly.~~
 * ~~Note: you cannot import published Open Brush sketches into Open Brush sketches at this time.~~
@@ -168,7 +168,7 @@ Use Lights to modify your scene's primary and secondary lighting colors and posi
 * The fill light floods the scene with an equal distribution of color and light. It's effects are most easily seen in the shadow color of your scene.
 * You can grab and move the sun and moon by selecting with the trigger.
 * You can change the color of all three light sources.
-* The lighting effect is best observed on environments with a ground and object \(i.e. pedestal\), and in those sketches where there are at least a few strokes.
+* The lighting effect is best observed on environments with a ground and object (i.e. pedestal), and in those sketches where there are at least a few strokes.
 * The sphere the lights pivot around can be used as a representation/quick preview for placement of lights in the world.
 * Custom lights save with sketches.
 
@@ -181,4 +181,3 @@ Use Lights to modify your scene's primary and secondary lighting colors and posi
 \*\*\*\*
 
 \*\*\*\*
-

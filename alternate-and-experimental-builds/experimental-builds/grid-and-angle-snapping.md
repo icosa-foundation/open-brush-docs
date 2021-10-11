@@ -4,15 +4,15 @@
 
 Useable with a few rough edges.
 
-[Downloads](downloads.md#feature-build-3-grid-and-angle-snapping)
+[Downloads](downloads.md#grid-and-angle-snapping)
 
-![TODO](https://cdn.discordapp.com/attachments/804251582715265034/846812293177933894/2021-05-25_19-06-31.gif)
+![TODO](https://cdn.discordapp.com/attachments/804251582715265034/846812293177933894/2021-05-25\_19-06-31.gif)
 
 ### What does it do?
 
 1. It expands snapping so that it works when you grab and duplicate groups of brush strokes.
-2. A wider range of snap angles are supported \(currently multiples of 15 degrees up to 90 degrees\)
-3. Grid snapping for position is supported \(currently buggy\)
+2. A wider range of snap angles are supported (currently multiples of 15 degrees up to 90 degrees)
+3. Grid snapping for position is supported (currently buggy)
 
 ### What's it good for?
 
@@ -35,11 +35,10 @@ Click the new button on the Labs panel to open the new Snap Settings panel
 
 ## How do I get help
 
-Come over to the Open Brush Discord: [https://discord.com/invite/fS69VdFXpk](https://discord.com/invite/fS69VdFXpk) and chat to me \( andybak\#5425 \).
+Come over to the Open Brush Discord: [https://discord.com/invite/fS69VdFXpk](https://discord.com/invite/fS69VdFXpk) and chat to me ( andybak#5425 ).
 
-I'm on UK time \(currently UTC+1\) but I check in fairly regularly.
+I'm on UK time (currently UTC+1) but I check in fairly regularly.
 
 ### Can I see it in action?
 
 TODO
-

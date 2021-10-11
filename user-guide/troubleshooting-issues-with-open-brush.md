@@ -32,7 +32,5 @@ If you downloaded Open Brush through Steam, try refreshing the cache by choosing
 
 ### **Finding your log files**
 
-Every time Open Brush is run, a log file is generated "output\_log.txt". That log file can typically be found at: C:\Users\&lt;your name&gt;\AppData\LocalLow\Icosa\Open Brush
-
-
+Every time Open Brush is run, a log file is generated "output_log.txt". That log file can typically be found at: C:\Users\\\<your name>\AppData\LocalLow\Icosa\Open Brush
 

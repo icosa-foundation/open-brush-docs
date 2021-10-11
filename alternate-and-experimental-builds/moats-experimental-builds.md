@@ -6,7 +6,7 @@ description: Various usability utilities and creature comforts
 
 ## View Axis Unlocking
 
-{% embed url="https://www.youtube.com/watch?v=\_d34eBiTtGA" %}
+{% embed url="https://www.youtube.com/watch?v=_d34eBiTtGA" %}
 
 This feature makes it possible to freely re-orient your workspace to match the sweep of your arm.
 
@@ -44,11 +44,10 @@ The revolver can also be made to automatically sweep around the axis by using th
 
 ## Toplogy Orb and Grid Snap
 
-{% embed url="https://www.youtube.com/watch?v=qJf4Wsu\_EJA" %}
+{% embed url="https://www.youtube.com/watch?v=qJf4Wsu_EJA" %}
 
-The Topology Orb will display an illuminated adaptive grid over any brushstroke within its confines \(as long as the brushstroke's shader contributes to the depth buffer\). In particular, it's useful for working with hull brushes.
+The Topology Orb will display an illuminated adaptive grid over any brushstroke within its confines (as long as the brushstroke's shader contributes to the depth buffer). In particular, it's useful for working with hull brushes.
 
 Toggle the Orb by first bringing your off-hand controller up in front of your right eye, depress the trigger, and then drag your controller over your left eye.
 
 While the Orb is visible, you can apply a grid snap to your brush strokes by HOLDING the Rabbit/Turtle button. Release the button at any time to release the grid snap.
-

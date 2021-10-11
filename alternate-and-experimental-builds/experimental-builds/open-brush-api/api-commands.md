@@ -2,9 +2,9 @@
 
 [API Docs](https://github.com/IxxyXR/open-brush/wiki/Open-Brush-API)
 
-_\(This page was generated from the output directly from Open Brush API server. It's not always totally up to date. When you're running Open Brush then use the live commands list you get from_ [http://localhost:40074/help/commands](http://localhost:40074/help/commands) _as that will always be current\)_
+_(This page was generated from the output directly from Open Brush API server. It's not always totally up to date. When you're running Open Brush then use the live commands list you get from _[http://localhost:40074/help/commands](http://localhost:40074/help/commands)_ as that will always be current)_
 
-_\(The "Try It" links assume that a version of Open Brush with API support is currently running on this computer\)_
+_(The "Try It" links assume that a version of Open Brush with API support is currently running on this computer)_
 
 To run commands a request to this url with [http://localhost:40074/api/v1?](http://localhost:40074/api/v1?)
 
@@ -12,17 +12,17 @@ Commands are querystring parameters: commandname=parameters
 
 Separate multiple commands with &
 
-Example:[ http://localhost:40074/api/v1?brush.turn.y=45&brush.draw=1](http://localhost:40074/api/v1?brush.turn.y=45&brush.draw=1)
+Example:[ http://localhost:40074/api/v1?brush.turn.y=45\&brush.draw=1](http://localhost:40074/api/v1?brush.turn.y=45\&brush.draw=1)
 
-**draw.paths** \(string jsonString\)[ Try it](http://localhost:40074/api/v1?draw.paths)
+**draw.paths** (string jsonString)[ Try it](http://localhost:40074/api/v1?draw.paths)
 
-Draws a series of paths at the current brush position \[\[\[x1,y1,z1\],\[x2,y2,z2\], etc...\]\]. Does not move the brush position
+Draws a series of paths at the current brush position \[\[\[x1,y1,z1],\[x2,y2,z2], etc...]]. Does not move the brush position
 
-**draw.path** \(string jsonString\)[ Try it](http://localhost:40074/api/v1?draw.path)
+**draw.path** (string jsonString)[ Try it](http://localhost:40074/api/v1?draw.path)
 
-Draws a path at the current brush position \[\[x1,y1,z1\],\[x2,y2,z2\], etc...\]. Does not move the brush position
+Draws a path at the current brush position \[\[x1,y1,z1],\[x2,y2,z2], etc...]. Does not move the brush position
 
-**draw.polygon** \(int sides, float radius, float angle\)[ Try it](http://localhost:40074/api/v1?draw.polygon=5,1,0)
+**draw.polygon** (int sides, float radius, float angle)[ Try it](http://localhost:40074/api/v1?draw.polygon=5,1,0)
 
 Draws a polygon at the current brush position. Does not move the brush position
 
@@ -34,99 +34,99 @@ Opens the user's Scripts folder on the desktop
 
 Opens the user's Exports folder on the desktop
 
-**draw.text** \(string text\)[ Try it](http://localhost:40074/api/v1?draw.text=hello)
+**draw.text** (string text)[ Try it](http://localhost:40074/api/v1?draw.text=hello)
 
 Draws the characters supplied at the current brush position
 
-**draw.svg** \(string svgPathString\)[ Try it](http://localhost:40074/api/v1?draw.svg=M%20184,199%20116,170%2053,209.6%2060,136.2%204.3,88)
+**draw.svg** (string svgPathString)[ Try it](http://localhost:40074/api/v1?draw.svg=M%20184,199%20116,170%2053,209.6%2060,136.2%204.3,88)
 
 Draws the path supplied as an SVG Path string at the current brush position
 
-**brush.type** \(string brushType\)[ Try it](http://localhost:40074/api/v1?brush.type=ink)
+**brush.type** (string brushType)[ Try it](http://localhost:40074/api/v1?brush.type=ink)
 
 Changes the brush. brushType can either be the brush name or it's guid. brushes are listed in the localhost:40074/help screen
 
-**color.add.hsv** \(Vector3 hsv\)[ Try it](http://localhost:40074/api/v1?color.add.hsv=0.1,0.2,0.3)
+**color.add.hsv** (Vector3 hsv)[ Try it](http://localhost:40074/api/v1?color.add.hsv=0.1,0.2,0.3)
 
 Adds the supplied values to the current color. Values are hue, saturation and value
 
-**color.add.rgb** \(Vector3 rgb\)[ Try it](http://localhost:40074/api/v1?color.add.rgb=0.1,0.2,0.3)
+**color.add.rgb** (Vector3 rgb)[ Try it](http://localhost:40074/api/v1?color.add.rgb=0.1,0.2,0.3)
 
 Adds the supplied values to the current color. Values are red green and blue
 
-**color.set.rgb** \(Vector3 rgb\)[ Try it](http://localhost:40074/api/v1?color.set.rgb=0.1,0.2,0.3)
+**color.set.rgb** (Vector3 rgb)[ Try it](http://localhost:40074/api/v1?color.set.rgb=0.1,0.2,0.3)
 
 Sets the current color. Values are hue, saturation and value
 
-**color.set.hsv** \(Vector3 hsv\)[ Try it](http://localhost:40074/api/v1?color.set.hsv=0.1,0.2,0.3)
+**color.set.hsv** (Vector3 hsv)[ Try it](http://localhost:40074/api/v1?color.set.hsv=0.1,0.2,0.3)
 
 Sets the current color. Values are red, green and blue
 
-**color.set.html** \(string color\)[ Try it](http://localhost:40074/api/v1?color.set.html=darkblue)
+**color.set.html** (string color)[ Try it](http://localhost:40074/api/v1?color.set.html=darkblue)
 
 Sets the current color. colorString can either be a hex value or a css color name.
 
-**brush.size.set** \(float size\)[ Try it](http://localhost:40074/api/v1?brush.size.set=.5)
+**brush.size.set** (float size)[ Try it](http://localhost:40074/api/v1?brush.size.set=.5)
 
 Sets the current brush size
 
-**brush.size.add** \(float amount\)[ Try it](http://localhost:40074/api/v1?brush.size.add=.1)
+**brush.size.add** (float amount)[ Try it](http://localhost:40074/api/v1?brush.size.add=.1)
 
 Changes the current brush size by 'amount'
 
-**camera.move.to** \(Vector3 position\)[ Try it](http://localhost:40074/api/v1?camera.move.to=1,1,1)
+**camera.move.to** (Vector3 position)[ Try it](http://localhost:40074/api/v1?camera.move.to=1,1,1)
 
 Moves the spectator or non-VR camera to the given position
 
-**camera.move.by** \(Vector3 amount\)[ Try it](http://localhost:40074/api/v1?camera.move.by=1,1,1)
+**camera.move.by** (Vector3 amount)[ Try it](http://localhost:40074/api/v1?camera.move.by=1,1,1)
 
 Moves the spectator or non-VR camera by the given amount
 
-**camera.turn.y** \(float angle\)[ Try it](http://localhost:40074/api/v1?camera.turn.y=45)
+**camera.turn.y** (float angle)[ Try it](http://localhost:40074/api/v1?camera.turn.y=45)
 
 Turns the spectator or non-VR camera left or right.
 
-**camera.turn.x** \(float angle\)[ Try it](http://localhost:40074/api/v1?camera.turn.x=45)
+**camera.turn.x** (float angle)[ Try it](http://localhost:40074/api/v1?camera.turn.x=45)
 
 Changes the angle of the spectator or non-VR camera up or down.
 
-**camera.turn.z** \(float angle\)[ Try it](http://localhost:40074/api/v1?camera.turn.z=45)
+**camera.turn.z** (float angle)[ Try it](http://localhost:40074/api/v1?camera.turn.z=45)
 
 Tilts the angle of the spectator or non-VR camera clockwise or anticlockwise.
 
-**camera.lookat** \(Vector3 direction\)[ Try it](http://localhost:40074/api/v1?camera.lookat=1,2,3)
+**camera.lookat** (Vector3 direction)[ Try it](http://localhost:40074/api/v1?camera.lookat=1,2,3)
 
 Points the spectator or non-VR camera to look in the specified direction. Angles are given in x,y,z degrees
 
-**brush.move.to** \(Vector3 position\)[ Try it](http://localhost:40074/api/v1?brush.move.to=1,1,1)
+**brush.move.to** (Vector3 position)[ Try it](http://localhost:40074/api/v1?brush.move.to=1,1,1)
 
 Moves the brush to the given coordinates
 
-**brush.move.by** \(Vector3 offset\)[ Try it](http://localhost:40074/api/v1?brush.move.by=1,1,1)
+**brush.move.by** (Vector3 offset)[ Try it](http://localhost:40074/api/v1?brush.move.by=1,1,1)
 
 Moves the brush by the given amount
 
-**brush.move** \(float distance\)[ Try it](http://localhost:40074/api/v1?brush.move=1)
+**brush.move** (float distance)[ Try it](http://localhost:40074/api/v1?brush.move=1)
 
 Moves the brush forward by 'distance' without drawing a line
 
-**brush.draw** \(float distance\)[ Try it](http://localhost:40074/api/v1?brush.draw=1)
+**brush.draw** (float distance)[ Try it](http://localhost:40074/api/v1?brush.draw=1)
 
 Moves the brush forward by 'distance' and draws a line
 
-**brush.turn.y** \(float angle\)[ Try it](http://localhost:40074/api/v1?brush.turn.y=45)
+**brush.turn.y** (float angle)[ Try it](http://localhost:40074/api/v1?brush.turn.y=45)
 
 Changes the brush direction to the left or right. Angle is measured in degrees
 
-**brush.turn.x** \(float angle\)[ Try it](http://localhost:40074/api/v1?brush.turn.x=45)
+**brush.turn.x** (float angle)[ Try it](http://localhost:40074/api/v1?brush.turn.x=45)
 
 Changes the brush direction up or down. Angle is measured in degrees
 
-**brush.turn.z** \(float angle\)[ Try it](http://localhost:40074/api/v1?brush.turn.z=45)
+**brush.turn.z** (float angle)[ Try it](http://localhost:40074/api/v1?brush.turn.z=45)
 
 Rotates the brush clockwise or anticlockwise. Angle is measured in degrees
 
-**brush.lookat** \(Vector3 direction\)[ Try it](http://localhost:40074/api/v1?brush.lookat=1,1,1)
+**brush.lookat** (Vector3 direction)[ Try it](http://localhost:40074/api/v1?brush.lookat=1,1,1)
 
 Changes the brush direction to look at the specified point
 
@@ -174,15 +174,15 @@ Pops the most recent current brush position and direction from the stack
 
 Logs some info about the brush
 
-**stroke.delete** \(int index\)[ Try it](http://localhost:40074/api/v1?stroke.delete=0)
+**stroke.delete** (int index)[ Try it](http://localhost:40074/api/v1?stroke.delete=0)
 
 Delete strokes by their index. If index is 0 the most recent stroke is deleted. -1 etc steps back in time
 
-**stroke.select** \(int index\)[ Try it](http://localhost:40074/api/v1?stroke.select=0)
+**stroke.select** (int index)[ Try it](http://localhost:40074/api/v1?stroke.select=0)
 
 Selects a stroke by it's index. 0 is the most recent stroke, -1 is second to last, 1 is the first.
 
-**strokes.select** \(int start, int end\)[ Try it](http://localhost:40074/api/v1?strokes.select=0,3)
+**strokes.select** (int start, int end)[ Try it](http://localhost:40074/api/v1?strokes.select=0,3)
 
 Select multiple strokes by their index. 0 is the most recent stroke, -1 is second to last, 1 is the first.
 
@@ -198,31 +198,31 @@ Rebrushes the currently selected strokes
 
 Changes the brush size the currently selected strokes
 
-**selection.trim** \(int count\)[ Try it](http://localhost:40074/api/v1?selection.trim=2)
+**selection.trim** (int count)[ Try it](http://localhost:40074/api/v1?selection.trim=2)
 
 Removes a number of points from the currently selected strokes
 
-**selection.points.addnoise** \(string axis, Vector3 scale\)[ Try it](http://localhost:40074/api/v1?selection.points.addnoise=x,0.5)
+**selection.points.addnoise** (string axis, Vector3 scale)[ Try it](http://localhost:40074/api/v1?selection.points.addnoise=x,0.5)
 
 Moves the position of all control points in the selection using a noise function
 
-**selection.points.quantize** \(Vector3 grid\)[ Try it](http://localhost:40074/api/v1?selection.points.quantize=0.1)
+**selection.points.quantize** (Vector3 grid)[ Try it](http://localhost:40074/api/v1?selection.points.quantize=0.1)
 
-Snaps all the points in selected strokes to a grid \(buggy\)
+Snaps all the points in selected strokes to a grid (buggy)
 
 **stroke.join**[ Try it](http://localhost:40074/api/v1?stroke.join)
 
 Joins a stroke with the previous one
 
-**strokes.join** \(int start, int end\)[ Try it](http://localhost:40074/api/v1?strokes.join=0,2)
+**strokes.join** (int start, int end)[ Try it](http://localhost:40074/api/v1?strokes.join=0,2)
 
-Joins all strokes between the two indices \(inclusive\)
+Joins all strokes between the two indices (inclusive)
 
-**stroke.add** \(int index\)[ Try it](http://localhost:40074/api/v1?stroke.add=0)
+**stroke.add** (int index)[ Try it](http://localhost:40074/api/v1?stroke.add=0)
 
 Adds a point at the current brush position to the specified stroke
 
-**import.model** \(string path\)[ Try it](http://localhost:40074/api/v1?import.model=example.glb)
+**import.model** (string path)[ Try it](http://localhost:40074/api/v1?import.model=example.glb)
 
 Imports a model from your media libraries Models folder
 
@@ -346,23 +346,23 @@ Shows all strokes made with the drafting brush semi-transparent
 
 Hides all strokes made with the drafting brush
 
-**load.user** \(int slot\)[ Try it](http://localhost:40074/api/v1?load.user=0)
+**load.user** (int slot)[ Try it](http://localhost:40074/api/v1?load.user=0)
 
 Loads the sketch in the given slot number from the user's sketch folder
 
-**load.curated** \(int slot\)[ Try it](http://localhost:40074/api/v1?load.curated=0)
+**load.curated** (int slot)[ Try it](http://localhost:40074/api/v1?load.curated=0)
 
 Loads the sketch in the given slot number from the curated sketch list
 
-**load.liked** \(int slot\)[ Try it](http://localhost:40074/api/v1?load.liked=0)
+**load.liked** (int slot)[ Try it](http://localhost:40074/api/v1?load.liked=0)
 
 Loads the sketch in the given slot number from the user's liked sketches
 
-**load.drive** \(int slot\)[ Try it](http://localhost:40074/api/v1?load.drive=0)
+**load.drive** (int slot)[ Try it](http://localhost:40074/api/v1?load.drive=0)
 
 Loads the sketch in the given slot number from the user's Google Drive
 
-**load.named** \(string filename\)[ Try it](http://localhost:40074/api/v1?load.named=mysketch.sketch)
+**load.named** (string filename)[ Try it](http://localhost:40074/api/v1?load.named=mysketch.sketch)
 
 Loads the sketch with the given name from the user's sketch folder
 
@@ -418,7 +418,7 @@ Toggles 'auto-simplify' mode on or off
 
 Exports the current sketch to the user's Exports folder
 
-**showfolder.sketch** \(int index\)[ Try it](http://localhost:40074/api/v1?showfolder.sketch=0)
+**showfolder.sketch** (int index)[ Try it](http://localhost:40074/api/v1?showfolder.sketch=0)
 
 Opens the user's Sketches folder on the desktop
 
@@ -493,4 +493,3 @@ Deletes the current camera path
 **camerapath.record**[ Try it](http://localhost:40074/api/v1?camerapath.record)
 
 Starts recording a camera path
-
