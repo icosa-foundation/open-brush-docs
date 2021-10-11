@@ -34,3 +34,7 @@ This version has all the features included. It also contains [Moat's features](.
 ### Brush Editing
 
 [More info](brush-editing.md)    [Downloads](https://nightly.link/IxxyXR/open-brush/workflows/build/features%2Fbrush-editing)
+
+### Repaint Tool
+
+[More info](downloads.md#repaint-tool)    [Downloads](https://nightly.link/IxxyXR/open-brush/workflows/build/color-jitter)

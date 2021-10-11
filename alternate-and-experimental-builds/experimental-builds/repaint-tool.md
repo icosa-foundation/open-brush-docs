@@ -1,8 +1,10 @@
 # Repaint Tool
 
-## Status
+### Status
 
 Fairly solid. A bit more finessing on the user interface and interactions is needed. Resize is a bit quirky sometimes but I need more feedback and testing to nail that.
+
+[Downloads](downloads.md#repaint-tool)
 
 ### What does it do?
 
@@ -12,7 +14,7 @@ In addition it also ties in with the recently added "Color Jitter" feature which
 
 ### What's it good for?
 
-Making your own crazy brushes!
+Changing existing strokes - color, size and brush.
 
 ### How do I install it?
 
@@ -35,4 +37,4 @@ Come over to the [Open Brush Discord](https://discord.com/invite/fS69VdFXpk) and
 
 ### Can I see it in action?
 
-Yep:
+{% embed url="https://youtu.be/NgVibGDoAe8" %}
