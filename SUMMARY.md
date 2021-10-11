@@ -25,7 +25,6 @@
   * [Command Line Arguments](user-guide/command-line-arguments.md)
   * [Tilt Brush Version 23 Release Notes](user-guide/tilt-brush-release-notes.md)
 * [Pre-release, Alternate, and Experimental Builds](alternate-and-experimental-builds/README.md)
-  * [New Monoscopic Mode](alternate-and-experimental-builds/new-monoscopic-mode.md)
   * [Main Experimental Build](alternate-and-experimental-builds/main-experimental-build.md)
   * [Andybak's Experimental Builds](alternate-and-experimental-builds/experimental-builds/README.md)
     * [Polyhedra and Symmetry](alternate-and-experimental-builds/experimental-builds/polyhedra-and-symmetry.md)
@@ -34,8 +33,10 @@
       * [API Commands List](alternate-and-experimental-builds/experimental-builds/open-brush-api/api-commands.md)
     * [Grid and Angle Snapping](alternate-and-experimental-builds/experimental-builds/grid-and-angle-snapping.md)
     * [Brush Editing](alternate-and-experimental-builds/experimental-builds/brush-editing.md)
+    * [Repaint Tool](alternate-and-experimental-builds/experimental-builds/repaint-tool.md)
     * [Latest Downloads](alternate-and-experimental-builds/experimental-builds/downloads.md)
   * [Moat's Experimental Builds](alternate-and-experimental-builds/moats-experimental-builds.md)
+  * [New Monoscopic Mode](alternate-and-experimental-builds/new-monoscopic-mode.md)
   * [XR Framework Experimental Build](alternate-and-experimental-builds/xr-framework-experimental-build.md)
   * [Multibrush](alternate-and-experimental-builds/multibrush.md)
   * [Silk Brush](alternate-and-experimental-builds/silk-brush.md)
@@ -54,4 +55,3 @@
     * [PseudoCode](developer-notes/github-wiki/pseudocode.md)
     * [UserInterface](developer-notes/github-wiki/userinterface.md)
 * [Release History](release-history.md)
-
