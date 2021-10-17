@@ -10,13 +10,15 @@ Useable with a few rough edges.
 
 ### What does it do?
 
-1. It expands snapping so that it works when you grab and duplicate groups of brush strokes.
-2. A wider range of snap angles are supported (currently multiples of 15 degrees up to 90 degrees)
-3. Grid snapping for position is supported (currently buggy)
+1. Snap selections to a grid. Duplicate selections at precise positions
+2. Draw brush strokes that align with the grid (especially useful with the hull brush)
+3. Snap the rotation of selections to a chosen angle (i.e. 15, 45 or 90 degrees)
+
+
 
 ### What's it good for?
 
-Building regular structures up by making multiple copies of brush strokes
+Drawing along straight x, y or z lines. Building regular structures up by making multiple copies of brush strokes
 
 ### How do I install it?
 
@@ -28,10 +30,10 @@ Click the new button on the Labs panel to open the new Snap Settings panel
 
 ### Known Issues
 
-1. Angle snapping can feel a bit fiddly especially at larger angles. Adding a "shadow" unsnapped copy of the selected strokes would help make it more intuitive
-2. The position snapping grid needs some kind of preview visualisation.
-3. Position snapping is weird and jittery especially if you scale the canvas away from "human" scale. I think I need to compensate for the offset between the controller and the grab point of the selection but I couldn't get it to work correctly. It works slightly better if you use angle snap as well as position snapping.
-4. There's no control over the snap point. Stuff you draw snap to a point different to where you originally drew them relative to the grid. 
+1. Angle snapping can feel a bit fiddly but gets easier when you get a feel for it.
+2. The preview grid for position snapping sometimes appears too far from your controller.
+3. There's no control over the point that a selection uses as it's snap point (it's always the center of the selection). Ideally you'd be able to pick top, bottom, front, back etc.
+4. Similarly, the center of rotation is always the selection center.
 
 ## How do I get help
 
