@@ -1,10 +1,8 @@
 # Polyhedra and Symmetry
 
+#### Status: Mostly usable with a few bugs.
+
 [Downloads](downloads.md#polyhedra-and-symmetry)
-
-### Status
-
-Mostly usable with a few bugs.
 
 ### What does it do?
 
@@ -28,7 +26,7 @@ Download a build for your headset from the link above and unzip it. You can run 
 ### How do I use the Polyhedra tool?
 
 1. Switch out of beginner mode and you'll see the "Experimental Tools" panel on your wand.
-2. There is a new icon at the bottom that looks like a wireframe cube. Click that to activate the polyhedra tool. 
+2. There is a new icon at the bottom that looks like a wireframe cube. Click that to activate the polyhedra tool.
 3. Draw a cube with your brush hand. Click once to start and release when you're happy with the size and rotation.
 4. The "A" button or trackpad left click will cycle through various snapping angles. Try setting it to 90 to draw shapes level with the ground plane
 5. The panel that opens when you first clicked the button let's you select various shape.
@@ -49,7 +47,7 @@ Download a build for your headset from the link above and unzip it. You can run 
 
 ### Known Issues with the custom symmetry mode
 
-1. It's possible to create very complex sketches very quickly. 
+1. It's possible to create very complex sketches very quickly.
 2. There's no control over the color variation of the symmetry strokes.
 3. You can't scale the grids. Instead scale your scene
 4. I haven't added any way to control the colours of the additional strokes yet.
@@ -66,18 +64,12 @@ Here's an earlier version of the polyhedra tool:
 
 {% embed url="https://www.youtube.com/watch?v=HRrJWFB11IU" %}
 
-
-
 Here's a video with terrible audio showing the symmetry tool:
 
 {% embed url="https://www.youtube.com/watch?v=Lnf6mS8xNIg" %}
 
-
-
 and another without any audio:
 
 {% embed url="https://www.youtube.com/watch?v=xrsxaVxNMvY" %}
-
-
 
 Yeah. I really need to do better videos. Please share anything you make that I can use to show off the features.

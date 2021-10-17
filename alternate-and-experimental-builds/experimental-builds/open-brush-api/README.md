@@ -1,12 +1,8 @@
 # Open Brush API
 
-## Status
+#### Status: Mostly usable with a few bugs
 
-Mostly usable with a few bugs
-
-[Downloads](../downloads.md#open-brush-api)
-
-[API Commands List](https://github.com/IxxyXR/open-brush/wiki/API-Commands)
+[Downloads](../downloads.md#open-brush-api) / [API Commands List](https://github.com/IxxyXR/open-brush/wiki/API-Commands)
 
 ### What does it do?
 
@@ -187,7 +183,7 @@ http://localhost:40074/api/v1?brush.turn=45&brush.move=1&brush.draw=1.5
 
 It accepts POST as well as GET:
 
- Turn:  Move:  Draw:  Go
+Turn: Move: Draw: Go
 
 I also want to eventually accept some form of JSON. Maybe something like:
 

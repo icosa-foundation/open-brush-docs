@@ -1,8 +1,6 @@
 # Repaint Tool
 
-### Status
-
-Fairly usable
+#### Status: Usable
 
 [Downloads](downloads.md#repaint-tool)
 

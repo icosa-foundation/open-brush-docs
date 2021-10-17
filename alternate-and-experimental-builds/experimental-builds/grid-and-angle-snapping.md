@@ -1,8 +1,6 @@
 # Grid and Angle Snapping
 
-## Status
-
-Useable with a few rough edges.
+#### Status: Useable with a few rough edges.
 
 [Downloads](downloads.md#grid-and-angle-snapping)
 
