@@ -1,4 +1,4 @@
-# Repaint Tool
+# Repaint Tool and Improved Jitter
 
 #### Status: Usable
 
@@ -42,6 +42,7 @@ This slider controls how much randomness is applied to each point on a brush str
 
 1. Try a high setting for "Jitter positions" and press the trigger to draw but don't move your hand. You'll get a small spherical "squiggle" that can be very interesting with some brushes.
 2. Draw something regular with the Hull brush and make copies of it. Then use the "Repaint Tool" with a low setting for "Jitter positions" to add random variation to each copy
+3. Position jitter can cause strokes to break into many small strokes. This depends on the brush you use and amount of jitter. Try really low jitter settings, try smaller brush sizes and try different brush types such as tube brushes (they tend not to break up as much)
 
 ### What's it good for?
 
@@ -59,8 +60,7 @@ Any combination of these 4 options can be selected at any time. If you choose "j
 
 ### Known Issues
 
-1. Resize is slightly unpredictable. I need to spend a bit more time figuring out why.
-2. You have to keep switching back to the Repaint tool whenever you choose a new brush. Rebrush didn't work this way but if we copy how rebrush worked then it would make it harder to change brush size for the "Resize" feature.
+1. You have to keep switching back to the Repaint tool whenever you choose a new brush. Rebrush didn't work this way but if we copy how rebrush worked then it would make it harder to change brush size for the "Resize" feature.
 
 ## How do I get help
 

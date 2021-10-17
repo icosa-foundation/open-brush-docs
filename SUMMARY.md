@@ -33,7 +33,7 @@
       * [API Commands List](alternate-and-experimental-builds/experimental-builds/open-brush-api/api-commands.md)
     * [Grid and Angle Snapping](alternate-and-experimental-builds/experimental-builds/grid-and-angle-snapping.md)
     * [Brush Editing](alternate-and-experimental-builds/experimental-builds/brush-editing.md)
-    * [Repaint Tool](alternate-and-experimental-builds/experimental-builds/repaint-tool.md)
+    * [Repaint Tool and Improved Jitter](alternate-and-experimental-builds/experimental-builds/repaint-tool.md)
     * [Latest Downloads](alternate-and-experimental-builds/experimental-builds/downloads.md)
   * [Moat's Experimental Builds](alternate-and-experimental-builds/moats-experimental-builds.md)
   * [New Monoscopic Mode](alternate-and-experimental-builds/new-monoscopic-mode.md)
