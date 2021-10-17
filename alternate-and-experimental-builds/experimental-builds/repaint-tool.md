@@ -2,19 +2,52 @@
 
 ### Status
 
-Fairly solid. A bit more finessing on the user interface and interactions is needed. Resize is a bit quirky sometimes but I need more feedback and testing to nail that.
+Fairly usable
 
 [Downloads](downloads.md#repaint-tool)
 
 ### What does it do?
 
-It improves on the existing Recolor tool. It combines the existing experimental "Rebrush" tool and adds "Resize" to allow you to change the stroke size of existing strokes.
+It expands on the existing Recolor tool which is now renamed to "Repaint". The following features can be used individually or in any combination:
 
-In addition it also ties in with the recently added "Color Jitter" feature which itself has been improved. You can now recolor and resize existing strokes and at the same time add random variation ("jitter") to them.
+#### Recolor
+
+Same as before (but see the "jitter" feature below which adds new functionality to Recolo)
+
+#### Rebrush
+
+Similar to "Recolor" except it repaints existings strokes with a different brush. This is the same as the"Rebrush" tool in previous experimental builds. That feature is now part of this Repaint Tool) 
+
+#### Resize
+
+Change the brush size of existing strokes.
+
+#### Jitter
+
+When this option is turned on, recolor and resize will add random variations based on your current Jitter settings.
+
+### Jitter Improvements
+
+In addition to the Repaint Tool, this build adds some new features to the existing "Color Jitter" settings on the Color picker (the Dice icon near the bottom)
+
+#### Jitter Brush Size
+
+This slider controls how much the stroke size varies from stroke to stroke. All the way to the left behaves normally. As you move the slider more to the right, each stroke will have more randomness applied to it's stroke size.
+
+#### Jitter Positions
+
+This slider controls how much randomness is applied to each point on a brush stroke. . All the way to the left behaves normally. As you move the slider more to the right, each point of the stroke will be randomly shifted from it's usual position. At higher settings and with some brushes this will cause the brush stroke to actually split and form multiple small strokes.
+
+### Things to try
+
+1. Try a high setting for "Jitter positions" and press the trigger to draw but don't move your hand. You'll get a small spherical "squiggle" that can be very interesting with some brushes.
+2. Draw something regular with the Hull brush and make copies of it. Then use the "Repaint Tool" with a low setting for "Jitter positions" to add random variation to each copy
+
+
 
 ### What's it good for?
 
-Changing existing strokes - color, size and brush.
+Modifying parts of existing sketches. Adding random variation after you've already painted something. Trying out different brushes and reusing parts of a sketch with different properties. (try duplicating some strokes and then repainting the duplicate)
 
 ### How do I install it?
 
@@ -22,7 +55,7 @@ Download a build for your headset from the link above and unzip it. You can run 
 
 ### How do I use it?
 
-The Recolor button on the Tools Panel has been replaced with "Repaint". When you select it, a side panel appears with 4 toggle buttons: Recolor, Resize, Rebrush and Jitter. 
+The Recolor button on the Tools Panel has been replaced with "Repaint". When you select it, a side panel appears with 4 toggle buttons: Recolor, Resize, Rebrush and Jitter.
 
 Any combination of these 4 options can be selected at any time. If you choose "jitter" then set your chosen amount of jitter using the button with the dice icon at the bottom of the Color Picker Panel
 
