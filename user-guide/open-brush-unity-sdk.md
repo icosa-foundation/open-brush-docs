@@ -1,4 +1,8 @@
-# Open Brush Unity SDK: Using Open Brush with Unity
+---
+description: Using Open Brush with Unity
+---
+
+# Open Brush Unity SDK
 
 ### About <a href="_j7bdhxvyulyl" id="_j7bdhxvyulyl"></a>
 
@@ -28,11 +32,11 @@ The SDK comes in the form of a Unity Package. To import:
 
 ### Importing a sketch <a href="_6wwms1xya8em" id="_6wwms1xya8em"></a>
 
-To use a Tilt Brush sketch inside of Unity, you need to **export it** and copy the exported .fbx file into your project. You do _not _need any of the .png files that come with the export. The SDK will use its own, Tilt Brush materials instead.
+To use a Tilt Brush sketch inside of Unity, you need to **export it** and copy the exported .gltf file into your project. You do _not _need any of the .png files that come with the export. The SDK will use its own, Tilt Brush materials instead.
 
-The SDK will process .fbx files on import and assign the correct materials.
+The SDK will process .gltf files on import and assign the correct materials.
 
-**Note**: the Oculus Quest version of Tilt Brush cannot write .fbx files. Export with the desktop version of Tilt Brush, or use the [Poly Toolkit](https://github.com/googlearchive/poly-toolkit-unity) instead.
+**Note**: the Oculus Quest version of Tilt Brush cannot write .fbx files.&#x20;
 
 To export a sketch:
 
@@ -43,12 +47,12 @@ To export a sketch:
 
 To import a sketch into your scene:
 
-1. Copy the .fbx file (in My Documents/Tilt Brush/Exports on Windows or Documents/Tilt Brush/Exports in Mac) into your Unity project
+1. Copy the .fbx file (in My Documents/Open Brush/Exports on Windows or Documents/Tilt Brush/Exports in Mac) into your Unity project
 2. Drag the file from the Project window into the Hierarchy
 
 _Notes:_
 
-* _The Tilt Brush Unity SDK doesn’t load .tilt files._
+* _The Open Brush Unity SDK doesn’t load .tilt files._
 * _You don’t need to copy the textures included with the .fbx into your project_
 
 ### Linear vs Gamma <a href="_nvutjzw2fj1u" id="_nvutjzw2fj1u"></a>
@@ -73,7 +77,7 @@ If the brushes aren’t moving, you can select the prefab in Play mode to visual
 #### Bloom <a href="_7ljsa6ylg4rb" id="_7ljsa6ylg4rb"></a>
 
 ![](../.gitbook/assets/1)\
-You can achieve_ a Tilt Brush look_ by adding **Bloom**, using Unity’s built-in shaders:
+You can achieve_ an Open Brush look_ by adding **Bloom**, using Unity’s built-in shaders:
 
 1. Import the Standard Assets “Effects” package (Assets menu / Import Package / Effects)
 2. **Important: **Enable your camera’s HDR checkbox\
