@@ -17,6 +17,7 @@
   * [Accessing Autosave Files](user-guide/accessing-autosave-files.md)
   * [The Open Brush config file](user-guide/the-open-brush-config-file.md)
   * [Exporting Open Brush sketches to other apps](user-guide/exporting-open-brush-sketches-to-other-apps.md)
+  * [Open Brush Unity SDK: Using Open Brush with Unity](user-guide/open-brush-unity-sdk-using-open-brush-with-unity.md)
   * [Exporting video](user-guide/exporting-videos.md)
   * [Brushes](user-guide/brushes/README.md)
     * [Brush List](user-guide/brushes/brush-list.md)
