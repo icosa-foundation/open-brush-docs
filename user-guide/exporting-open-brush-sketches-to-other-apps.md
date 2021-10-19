@@ -40,7 +40,7 @@ To upload your work to Styly, you'll need to remove all traces of the audio-reac
 1. Follow the instructions for setting up Styly in Unity here: [https://styly.cc/manual/unity-asset-uploader/](https://styly.cc/manual/unity-asset-uploader/) but stop when you get to the section about half-way through headed "Upload from Unity to STYLY"
 2. Download the Open Brush Unity SDK unitypackage as described here: [https://docs.openbrush.app/user-guide/open-brush-unity-sdk](https://docs.openbrush.app/user-guide/open-brush-unity-sdk)
 3. Delete the following folders from your Unity project window:
-   1. ThirdParty/[CSCore](https://github.com/icosa-gallery/open-brush-toolkit/tree/master/UnitySDK/Assets/ThirdParty/CSCore)
+   1. ThirdParty/CSCore
    2. ThirdParty/Reaktion
 4. Delete the following files from you Unity project window:
    1. TiltBrush/Scripts:/VisualizerAudioInput
