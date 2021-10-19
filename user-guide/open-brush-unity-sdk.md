@@ -9,7 +9,7 @@ description: Using Open Brush with Unity
 The Open Brush Unity SDK allows you to import your Open Brush sketches into Unity. The SDK includes:
 
 * **All** of Open Brush’s brush materials
-* An importer script that automatically assigns Open Brush materials to imported .fbx, .glb .gltf files
+* An importer script that automatically assigns Open Brush materials to imported .fbx or .glb files
 * Open Brush’s audio reactivity functionality that make brushes react to music
 
 ### Requirements <a href="_q9lph11ngm09" id="_q9lph11ngm09"></a>
@@ -20,8 +20,8 @@ The SDK has these requirements:
 
 ### Getting the code <a href="_iqjwk94xwdgd" id="_iqjwk94xwdgd"></a>
 
-Download the latest version of the toolkit from:\
-[github.com/googlevr/tilt-brush-toolkit/releases](https://github.com/googlevr/tilt-brush-toolkit/releases)
+Download the latest version of the toolkit from:[\
+](https://github.com/icosa-gallery/open-brush-toolkit)[https://github.com/icosa-gallery/open-brush-toolkit/releases](https://github.com/icosa-gallery/open-brush-toolkit/releases)
 
 The SDK comes in the form of a Unity Package. To import:
 
@@ -34,7 +34,7 @@ The SDK comes in the form of a Unity Package. To import:
 
 To use a Tilt Brush sketch inside of Unity, you need to **export it** and copy the exported .gltf file into your project. You do _not _need any of the .png files that come with the export. The SDK will use its own, Tilt Brush materials instead.
 
-The SDK will process .gltf files on import and assign the correct materials.
+The SDK will process .glb files on import and assign the correct materials.
 
 **Note**: the Oculus Quest version of Tilt Brush cannot write .fbx files.&#x20;
 
@@ -47,7 +47,7 @@ To export a sketch:
 
 To import a sketch into your scene:
 
-1. Copy the .fbx file (in My Documents/Open Brush/Exports on Windows or Documents/Tilt Brush/Exports in Mac) into your Unity project
+1. Copy the .fbx or .glb file (in My Documents/Open Brush/Exports on Windows or Documents/Open Brush/Exports on Mac) into your Unity project
 2. Drag the file from the Project window into the Hierarchy
 
 _Notes:_
