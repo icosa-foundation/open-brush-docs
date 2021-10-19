@@ -38,7 +38,16 @@ We recommend using the [Open Brush Toolkit](https://github.com/icosa-gallery/ope
 To upload your work to Styly, you'll need to remove all traces of the audio-reactivity scripts in the Open Brush toolkit.
 
 1. Follow the instructions for setting up Styly in Unity here: [https://styly.cc/manual/unity-asset-uploader/](https://styly.cc/manual/unity-asset-uploader/) but stop when you get to the section about half-way through headed "Upload from Unity to STYLY"
-2.
+2. Download the Open Brush Unity SDK unitypackage as described here: [https://docs.openbrush.app/user-guide/open-brush-unity-sdk](https://docs.openbrush.app/user-guide/open-brush-unity-sdk)
+3. Delete the following folders from your Unity project window:
+   1. ThirdParty/[CSCore](https://github.com/icosa-gallery/open-brush-toolkit/tree/master/UnitySDK/Assets/ThirdParty/CSCore)
+   2. ThirdParty/Reaktion
+4. Delete the following files from you Unity project window:
+   1. TiltBrush/Scripts:/VisualizerAudioInput
+   2. TiltBrush/Scripts:/VisualizerManager
+   3. TiltBrush/Scripts/Editor/VisualizerManagerEditor
+5. Also in the project window, drag the entire TiltBrush/Scripts/Gltf folder so it's inside TiltBrush/Scripts/Editor
+6. Carry on where you left off with the Styly docs.
 
 ### Command-line Exporting <a href="command-line-exporting" id="command-line-exporting"></a>
 

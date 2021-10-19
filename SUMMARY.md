@@ -41,7 +41,6 @@
   * [XR Framework Experimental Build](alternate-and-experimental-builds/xr-framework-experimental-build.md)
   * [Multibrush](alternate-and-experimental-builds/multibrush.md)
   * [Silk Brush](alternate-and-experimental-builds/silk-brush.md)
-* [Open Brush Unity SDK](unity-sdk.md)
 * [Other Resources](resources.md)
 * [Developer Notes](developer-notes/README.md)
   * [Unity shader examples](developer-notes/untitled.md)
