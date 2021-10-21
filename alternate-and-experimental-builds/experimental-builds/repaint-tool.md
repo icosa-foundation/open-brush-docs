@@ -14,7 +14,7 @@ Same as before (but see the "jitter" feature below which adds new functionality 
 
 #### Rebrush
 
-Similar to "Recolor" except it repaints existings strokes with a different brush. This is the same as the"Rebrush" tool in previous experimental builds. That feature is now part of this Repaint Tool) 
+Similar to "Recolor" except it repaints existings strokes with a different brush. This is the same as the"Rebrush" tool in previous experimental builds. That feature is now part of this Repaint Tool)&#x20;
 
 #### Resize
 
@@ -34,7 +34,7 @@ This slider controls how much the stroke size varies from stroke to stroke. All 
 
 #### Jitter Positions
 
-![](<../../.gitbook/assets/image (12).png>)
+![](<../../.gitbook/assets/image (12) (1).png>)
 
 This slider controls how much randomness is applied to each point on a brush stroke. . All the way to the left behaves normally. As you move the slider more to the right, each point of the stroke will be randomly shifted from it's usual position. At higher settings and with some brushes this will cause the brush stroke to actually split and form multiple small strokes.
 
