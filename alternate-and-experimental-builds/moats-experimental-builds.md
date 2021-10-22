@@ -4,6 +4,14 @@ description: Various usability utilities and creature comforts
 
 # Moat's Experimental Builds
 
+## Selection/Erase Filter
+
+If you hold down your Wand trigger (the left hand if you're using Open Brush right-handed) when you first select a stroke with the Selection Tool, only brushstrokes that use that brush will be added to the selection as you continue to select strokes. You only have to be careful with the first stroke you select, and then after that, you can just wave the selector tool with reckless abandon and it will only select other strokes with the same brush.
+
+This also works with the Erase Tool.
+
+(Note that "same brush" is a bit of a simplification. Internally it selects strokes that belong to the same "batch". This is always the same brush type but&#x20;
+
 ## View Axis Unlocking
 
 {% embed url="https://www.youtube.com/watch?v=_d34eBiTtGA" %}
