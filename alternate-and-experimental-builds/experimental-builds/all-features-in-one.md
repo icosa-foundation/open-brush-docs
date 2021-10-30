@@ -6,7 +6,7 @@ This version has all the features included. It also contains [Moat's features](.
 
 * [Oculus Quest](https://nightly.link/IxxyXR/open-brush/workflows/build/integration/Oculus%20Quest%20Experimental.zip)
 * [Oculus PC VR](https://nightly.link/IxxyXR/open-brush/workflows/build/integration/Windows%20Rift%20Experimental.zip) (Rift, Quest via Link cable...)
-* [SteamVR ](https://nightly.link/IxxyXR/open-brush/workflows/build/integration/Windows%20SteamVR%20Experimental.zip)(Vive, Index, Reverb...)
+* [SteamVR](https://nightly.link/IxxyXR/open-brush/workflows/build/integration/Windows%20SteamVR%20Experimental.zip) (Vive, Index, Reverb...)
 * [Other Builds](https://nightly.link/IxxyXR/open-brush/workflows/build/integration) (Non-VR, Linux, Mac...)
 
 **Alternatively:**

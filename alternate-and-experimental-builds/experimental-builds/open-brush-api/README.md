@@ -2,9 +2,20 @@
 
 #### Status: Mostly usable with a few bugs
 
-[Downloads](../downloads.md#open-brush-api) / [API Commands List](https://github.com/IxxyXR/open-brush/wiki/API-Commands)
+## Download
+
+* [Oculus Quest](https://nightly.link/IxxyXR/open-brush/workflows/build/features%2Fhttp-api/Oculus%20Quest%20Experimental.zip)
+* [Oculus PC VR](https://nightly.link/IxxyXR/open-brush/workflows/build/features%2Fhttp-api/Windows%20Rift%20Experimental.zip) (Rift, Quest via Link cable...)
+* [SteamVR ](https://nightly.link/IxxyXR/open-brush/workflows/build/features%2Fhttp-api/Windows%20SteamVR%20Experimental.zip) (Vive, Index, Reverb...)
+* [Other Builds](https://nightly.link/IxxyXR/open-brush/workflows/build/features%2Fhttp-api) (Non-VR, Linux, Mac...)
+
+**Alternatively:**
+
+* [All features in one](all-features-in-one.md) (Grab a build that has all current features combined into one build)
 
 ### What does it do?
+
+[API Commands List](https://github.com/IxxyXR/open-brush/wiki/API-Commands)
 
 Allows you to control Open Brush using commands sent from your web browser or a script you write. You can use nearly any programming language or even just type commands into your browser address bar.
 

@@ -12,6 +12,7 @@
 **Alternatively:**
 
 * [All features in one](all-features-in-one.md) (Grab a build that has all current features combined into one build)
+
 ### What does it do?
 
 It expands on the existing Recolor tool which is now renamed to "Repaint". The following features can be used individually or in any combination:

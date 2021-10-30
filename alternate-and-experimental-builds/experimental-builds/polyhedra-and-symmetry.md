@@ -9,6 +9,10 @@
 * [SteamVR](https://nightly.link/IxxyXR/open-brush/workflows/build/features%2Fsymmetry/Windows%20SteamVR%20Experimental.zip) (Vive, Index, Reverb...)
 * [Other Builds](https://nightly.link/IxxyXR/open-brush/workflows/build/features%2Fsymmetry) (Non-VR, Linux, Mac...)
 
+**Alternatively:**
+
+* [All features in one](all-features-in-one.md) (Grab a build that has all current features combined into one build)
+
 ### What does it do?
 
 ![Polyhedra Tool](../../.gitbook/assets/polyhedra\_tool.png)
