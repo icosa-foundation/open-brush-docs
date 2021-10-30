@@ -48,5 +48,12 @@ Edit brushes directly in VR. Change textures, shininess and other parameters
 
 {% embed url="https://www.youtube.com/watch?v=G3LN3OEPqKQ" %}
 
+## [5. Repaint Tool and Improved Jitter](https://github.com/IxxyXR/open-brush/wiki/Color-Jitter)
+
+[more info and download](color-jitter.md)
+
+The "Recolor" tool can now change the size, color and brush used for existing strokes. Also we've improved the "color jitter" feature so each brush stroke can have it's colour randomized slightly and also it's size or it's actual shape! This works while painting and also with the "Repaint tool" so you can add natural random variation to existing brush strokes.
+
+{% embed url="https://www.youtube.com/watch?v=as_ty_89Bfk" %}
 
 
