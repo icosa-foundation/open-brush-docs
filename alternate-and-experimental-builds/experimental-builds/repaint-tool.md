@@ -2,7 +2,16 @@
 
 #### Status: Usable
 
-[Downloads](downloads.md#repaint-tool)
+## Download
+
+* [Oculus Quest](https://nightly.link/IxxyXR/open-brush/workflows/build/features%2Fcolor-jitter/Oculus%20Quest%20Experimental)&#x20;
+* [Oculus PC VR](https://nightly.link/IxxyXR/open-brush/workflows/build/features%2Fcolor-jitter/Windows%20Rift%20Experimental) (Rift, Quest via Link cable...)
+* [SteamVR ](https://nightly.link/IxxyXR/open-brush/workflows/build/features%2Fcolor-jitter/Windows%20SteamVR%20Experimental)(Vive, Index, Reverb...)
+* [Other Builds](https://nightly.link/IxxyXR/open-brush/workflows/build/features%2Fcolor-jitter) (Non-VR, Linux, Mac...)
+
+**Alternatively:**
+
+* [All features in one](all-features-in-one.md) (Grab a build that has all current features combined into one build)
 
 ### What does it do?
 

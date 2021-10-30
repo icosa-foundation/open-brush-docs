@@ -37,7 +37,7 @@
     * [Grid and Angle Snapping](alternate-and-experimental-builds/experimental-builds/grid-and-angle-snapping.md)
     * [Brush Editing](alternate-and-experimental-builds/experimental-builds/brush-editing.md)
     * [Repaint Tool and Improved Jitter](alternate-and-experimental-builds/experimental-builds/repaint-tool.md)
-    * [Latest Downloads](alternate-and-experimental-builds/experimental-builds/downloads.md)
+    * [All features in one](alternate-and-experimental-builds/experimental-builds/all-features-in-one.md)
   * [Moat's Experimental Builds](alternate-and-experimental-builds/moats-experimental-builds.md)
   * [New Monoscopic Mode](alternate-and-experimental-builds/new-monoscopic-mode.md)
   * [XR Framework Experimental Build](alternate-and-experimental-builds/xr-framework-experimental-build.md)

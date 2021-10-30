@@ -2,7 +2,18 @@
 
 #### Status: Mostly usable with a few bugs
 
-[Downloads](../downloads.md#open-brush-api) / [API Commands List](https://github.com/IxxyXR/open-brush/wiki/API-Commands)
+## Download
+
+* [Oculus Quest](https://nightly.link/IxxyXR/open-brush/workflows/build/features%2Fhttp-api/Oculus%20Quest%20Experimental)&#x20;
+* [Oculus PC VR](https://nightly.link/IxxyXR/open-brush/workflows/build/features%2Fhttp-api/Windows%20Rift%20Experimental) (Rift, Quest via Link cable...)
+* [SteamVR](https://nightly.link/IxxyXR/open-brush/workflows/build/features%2Fhttp-api/Windows%20SteamVR%20Experimental) (Vive, Index, Reverb...)
+* [Other Builds](https://nightly.link/IxxyXR/open-brush/workflows/build/features%2Fhttp-api) (Non-VR, Linux, Mac...)
+
+**Alternatively:**
+
+* [All features in one](../all-features-in-one.md) (Grab a build that has all current features combined into one build)
+
+&#x20;[API Commands List](https://github.com/IxxyXR/open-brush/wiki/API-Commands)
 
 ### What does it do?
 
@@ -12,7 +23,7 @@ It even works on computers that don't support VR. You can create Tilt Brush sket
 
 Example of a script that uses a web form for input:
 
-![](../../../.gitbook/assets/buildings_ui.png)
+![](../../../.gitbook/assets/buildings\_ui.png)
 
 Example output from the form shown above:
 
