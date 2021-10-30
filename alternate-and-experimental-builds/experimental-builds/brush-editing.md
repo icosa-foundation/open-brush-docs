@@ -2,16 +2,7 @@
 
 #### Status: Buggy (especially the Quest version) but powerful and worth trying
 
-## Download
-
-* [Oculus Quest](https://nightly.link/IxxyXR/open-brush/workflows/build/features%2Fbrush-editing/Oculus%20Quest%20Experimental)&#x20;
-* [Oculus PC VR ](https://nightly.link/IxxyXR/open-brush/workflows/build/features%2Fbrush-editing/Windows%20Rift%20Experimental)(Rift, Quest via Link cable...)
-* [SteamVR ](https://nightly.link/IxxyXR/open-brush/workflows/build/features%2Fbrush-editing/Windows%20SteamVR%20Experimental)(Vive, Index, Reverb...)
-* [Other Builds](https://nightly.link/IxxyXR/open-brush/workflows/build/features%2Fbrush-editing) (Non-VR, Linux, Mac...)
-
-**Alternatively:**
-
-* [All features in one](all-features-in-one.md) (Grab a build that has all current features combined into one build)
+[Downloads](downloads.md#brush-editing)
 
 ### What does it do?
 
@@ -19,7 +10,7 @@ It's an attempt to provide a runtime UI for Tim Aidley's "User Brushes" feature:
 
 See:
 
-* [https://docs.google.com/document/d/1tEGN6OjAI7DSIeqWwfdPOAH\_APv-33cOEwz\_gDdVVe8/edit](https://docs.google.com/document/d/1tEGN6OjAI7DSIeqWwfdPOAH\_APv-33cOEwz\_gDdVVe8/edit)
+* [https://docs.google.com/document/d/1tEGN6OjAI7DSIeqWwfdPOAH_APv-33cOEwz_gDdVVe8/edit](https://docs.google.com/document/d/1tEGN6OjAI7DSIeqWwfdPOAH_APv-33cOEwz_gDdVVe8/edit)
 * [https://github.com/TimAidley/open-brush/blob/features/simple-brushes/Docs/UserBrushes.md](https://github.com/TimAidley/open-brush/blob/features/simple-brushes/Docs/UserBrushes.md)
 
 Currently it:

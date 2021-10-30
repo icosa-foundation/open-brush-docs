@@ -41,9 +41,8 @@ The orientation is that of the controller. Curve and surface frames must be reco
 
 Stroke extensions:
 
-|   |                                                   |
-| - | ------------------------------------------------- |
 | 0 | <p>uint32 bitfield.<br>Bit 0: IsGroupContinue</p> |
+| - | ------------------------------------------------- |
 
 Control point extensions:
 

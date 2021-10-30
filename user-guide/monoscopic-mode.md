@@ -8,7 +8,7 @@ It also works very nicely when using Open Brush via the [experimental API](../al
 
 ## Getting the Monoscopic version of Open Brush
 
-We don't currently publish the monoscopic version alongside other releases but our automated build system always creates them every time we build a new testing version.
+We don't currently publish the monoscopic version alongside other releases but our automated build system always creates them every time we build a new testing version. 
 
 (Note that you'll need to be logged in to Github to download files)
 
@@ -39,15 +39,14 @@ We don't currently publish the monoscopic version alongside other releases but o
 7. Rotating with “Alt” whilst pressing shift will allow you to move the panel you were currently focussed on.
 8. Sometimes panels appear in weird places. Try looking behind you or down at your feet.
 
-The file Scripts/InputManager.cs at line 160 lists all the keyboard controls. Also see [Open Brush: Keyboard Controls and VR Input](https://docs.google.com/spreadsheets/d/1D7vIerfSz1vtyDS\_dPdvHiANluEr60VFrxhzE7ZbfAU)
+The file Scripts/InputManager.cs at line 160 lists all the keyboard controls. Also see [Open Brush: Keyboard Controls and VR Input](https://docs.google.com/spreadsheets/d/1D7vIerfSz1vtyDS_dPdvHiANluEr60VFrxhzE7ZbfAU)
 
 However many aren’t relevant, aren’t implemented or only apply in particular modes.
 
 Here are the useful ones:
 
-|                     |              |                                                                                             |
-| ------------------- | ------------ | ------------------------------------------------------------------------------------------- |
 | **Action**          | **Shortcut** | **Notes**                                                                                   |
+| ------------------- | ------------ | ------------------------------------------------------------------------------------------- |
 |                     |              |                                                                                             |
 | LockToHead          | LeftShift    | Use with Alt. Can move panels with this.                                                    |
 | PivotRotation       | LeftControl  | Use with Alt                                                                                |

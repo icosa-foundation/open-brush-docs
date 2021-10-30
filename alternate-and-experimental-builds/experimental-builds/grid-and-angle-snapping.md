@@ -2,16 +2,7 @@
 
 #### Status: Useable with a few rough edges.
 
-## Download
-
-* [Oculus Quest](https://nightly.link/IxxyXR/open-brush/workflows/build/features%2Fsnapping/Oculus%20Quest%20Experimental)&#x20;
-* [Oculus PC VR](https://nightly.link/IxxyXR/open-brush/workflows/build/features%2Fsnapping/Windows%20Rift%20Experimental) (Rift, Quest via Link cable...)
-* [SteamVR](https://nightly.link/IxxyXR/open-brush/workflows/build/features%2Fsnapping/Windows%20SteamVR%20Experimental) (Vive, Index, Reverb...)
-* [Other Builds](https://nightly.link/IxxyXR/open-brush/workflows/build/features%2Fsnapping) (Non-VR, Linux, Mac...)
-
-**Alternatively:**
-
-* [All features in one](all-features-in-one.md) (Grab a build that has all current features combined into one build)
+[Downloads](downloads.md#grid-and-angle-snapping)
 
 ![TODO](https://cdn.discordapp.com/attachments/804251582715265034/846812293177933894/2021-05-25\_19-06-31.gif)
 
