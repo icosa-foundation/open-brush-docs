@@ -12,7 +12,15 @@ Other builds may be "experimental mode" and add their own features on top of the
 
 The main thing to be aware of with "Experimental Mode" builds is the new brushes. Any sketch you save that contains these new brushes might have problems when you export it to another piece of software or load it in a non-experimental version of Open Brush.
 
-We have a special version of [Open Brush Unity SDK](../user-guide/open-brush-unity-sdk.md) with support for most of the experimental brushes: [https://github.com/IxxyXR/open-brush-toolkit/tree/experimental-brushes](https://github.com/IxxyXR/open-brush-toolkit/tree/experimental-brushes)
+We are testing a fix for exporting sketches that use experimental brushes. The brush strokes won't look correct but at least the export will work. Try it out by downloading the versions below and please come and tell us if it works or doesn't for you:
+
+#### Test Builds to fix export for experimental brushes:
+
+* [Quest](https://nightly.link/IxxyXR/open-brush/workflows/build/features%2Fexperimental-brushes-export/Oculus%20Quest%20Experimental.zip)
+* [Rift](https://nightly.link/IxxyXR/open-brush/workflows/build/features%2Fexperimental-brushes-export/Windows%20Rift%20Experimental.zip)
+* [SteamVR](https://nightly.link/IxxyXR/open-brush/workflows/build/features%2Fexperimental-brushes-export/Windows%20SteamVR%20Experimental.zip)
+
+We also have a special version of [Open Brush Unity SDK](../user-guide/open-brush-unity-sdk.md) with support for most of the experimental brushes: [https://github.com/IxxyXR/open-brush-toolkit/tree/experimental-brushes](https://github.com/IxxyXR/open-brush-toolkit/tree/experimental-brushes)
 
 ### Bugs and Incomplete Features
 
@@ -54,7 +62,7 @@ Combined with the new Drafting Brush, this gives an easy way to sketch out guide
 
 ### Double Mirror
 
-If the mirror tool is great, then a double mirror is twice as great. Instant 4-way symmetry. ( If you're interested in painting with more complex symmetry then you can also check out the experimental [Polyhedra and Symmetry build](experimental-builds/polyhedra-and-symmetry.md) )
+If the mirror tool is great, then a double mirror is twice as great. Instant 4-way symmetry. ( If you're interested in painting with more complex symmetry then you can also check out the experimental [Polyhedra and Symmetry build](broken-reference) )
 
 ### Rebrush Tool
 
