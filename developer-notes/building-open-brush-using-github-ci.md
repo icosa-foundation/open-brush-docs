@@ -22,3 +22,30 @@ When building Oculus Android builds, you can use your own keystore instead of th
 
 Pre-release builds and release builds will automatically be uploaded to Oculus for both Rift and Quest. This requires the following values to be defined \(you can get the values from the Admin page in Oculus profile, or from the command line provided in the "Upload a build" button on a release channel. `OCULUS_QUEST_APP_ID`, `OCULUS_QUEST_APP_SECRET`, `OCULUS_RIFT_APP_ID`, `OCULUS_RIFT_APP_SECRET`
 
+## Steam Publish
+
+All pre-release builds are pushed to Steam, although Steam does not support updating the main release channel automatically upon formal builds. When a formal build is released, it will also be pushed as a pre-release; it should be promoted manually at https://partner.steamgames.com/apps/builds/1634870
+
+To set up builds, first, create a new user for Steam with limited permissions. See https://partner.steamgames.com/doc/sdk/uploading#Build_Account for
+details. Note that multiple users can be created with the same email address. Do NOT connect this user to the mobile steam guard; it should
+only use email based OTPs. 
+
+After the user is created, create two github secrets: `STEAM_USERNAME` and `STEAM_PASSWORD`.
+
+Then, download steamcmd locally, and run:
+
+```
+steamcmd +login $STEAM_USERNAME $STEAM_PASSWORD +quit
+```
+
+It will prompt you for a code; check the email associated with the account and enter the one time password.
+
+After that, three more secrets need to be created. Check the steam directory (~/Library/Application Support/Steam on Mac, I don't know for other platforms), and run `base64 -i config/config.vdf` and store the output as `STEAM_CONFIG_VDK`
+
+Then find the file in that directory named `ssfnXXXXXX`. Save the file name to the secret named `STEAM_SSFN_FILENAME`, and the contents (using `base64 -i`) to `STEAM_SSFN`.
+
+## Itch Publish
+
+Both pre-release and release builds are pushed to Itch. The channel names are `<os>-beta` and `<os>-beta-experimental` for pre-release builds, and `<os>-release` and `<os>-release-experimental`.
+
+To enable this, create a secret named `BUTLER_CREDENTIALS` with a valid API key from Itch.
