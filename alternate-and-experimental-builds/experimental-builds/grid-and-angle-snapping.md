@@ -21,8 +21,6 @@
 2. Draw brush strokes that align with the grid (especially useful with the hull brush)
 3. Snap the rotation of selections to a chosen angle (i.e. 15, 45 or 90 degrees)
 
-
-
 ### What's it good for?
 
 Drawing along straight x, y or z lines. Building regular structures up by making multiple copies of brush strokes
@@ -50,4 +48,4 @@ I'm on UK time (currently UTC+1) but I check in fairly regularly.
 
 ### Can I see it in action?
 
-TODO
+{% embed url="https://www.youtube.com/watch?v=as_ty_89Bfk" %}
