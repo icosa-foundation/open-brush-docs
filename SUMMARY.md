@@ -56,4 +56,5 @@
     * [MonoscopicMode](developer-notes/github-wiki/monoscopicmode.md)
     * [PseudoCode](developer-notes/github-wiki/pseudocode.md)
     * [UserInterface](developer-notes/github-wiki/userinterface.md)
+  * [Differences between Standard and Experimental Mode](developer-notes/differences-between-standard-and-experimental-mode.md)
 * [Release History](release-history.md)
