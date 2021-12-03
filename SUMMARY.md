@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Home](README.md)
+  * [Open Brush Beta Docs](readme/open-brush-beta-docs.md)
 * [How to get Open Brush](how-to-get-open-brush.md)
 * [Differences between Open Brush and Tilt Brush](differences-between-open-brush-and-tilt-brush.md)
 * [User Guide](user-guide/README.md)
