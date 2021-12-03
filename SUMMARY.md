@@ -44,6 +44,7 @@
   * [Multibrush](alternate-and-experimental-builds/multibrush.md)
   * [Silk Brush](alternate-and-experimental-builds/silk-brush.md)
   * [Upcoming Beta release](alternate-and-experimental-builds/upcoming-beta-release/README.md)
+    * [Page 1](alternate-and-experimental-builds/upcoming-beta-release/page-1.md)
     * [Hiding Brushes with Brush Tags](alternate-and-experimental-builds/upcoming-beta-release/hiding-brushes-with-brush-tags.md)
 * [Other Resources](resources.md)
 * [Developer Notes](developer-notes/README.md)
