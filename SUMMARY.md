@@ -1,7 +1,6 @@
 # Table of contents
 
 * [Home](README.md)
-  * [Open Brush Beta Docs](readme/open-brush-beta-docs.md)
 * [How to get Open Brush](how-to-get-open-brush.md)
 * [Differences between Open Brush and Tilt Brush](differences-between-open-brush-and-tilt-brush.md)
 * [User Guide](user-guide/README.md)
@@ -44,8 +43,8 @@
   * [XR Framework Experimental Build](alternate-and-experimental-builds/xr-framework-experimental-build.md)
   * [Multibrush](alternate-and-experimental-builds/multibrush.md)
   * [Silk Brush](alternate-and-experimental-builds/silk-brush.md)
-  * [Upcoming Beta release](alternate-and-experimental-builds/upcoming-beta-release/README.md)
-    * [Hiding Brushes with Brush Tags](alternate-and-experimental-builds/upcoming-beta-release/hiding-brushes-with-brush-tags.md)
+  * [Open Brush Beta Docs](alternate-and-experimental-builds/open-brush-beta-docs/README.md)
+    * [Hiding Brushes with Brush Tags](alternate-and-experimental-builds/open-brush-beta-docs/hiding-brushes-with-brush-tags.md)
 * [Other Resources](resources.md)
 * [Developer Notes](developer-notes/README.md)
   * [Unity shader examples](developer-notes/untitled.md)
