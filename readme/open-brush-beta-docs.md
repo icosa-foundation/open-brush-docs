@@ -4,21 +4,21 @@
 
 Randomize color, size, position both while painting and applied to existing strokes.
 
-![](../../.gitbook/assets/0)
+![](../.gitbook/assets/0)
 
 ### Repaint <a href="#_3vhyqt3524ll" id="_3vhyqt3524ll"></a>
 
 Modifying existing stroke size, color, brush.
 
-![](<../../.gitbook/assets/1 (1)>)
+![](<../.gitbook/assets/1 (1)>)
 
 ### Guide settings <a href="#_8pqxozpy6zng" id="_8pqxozpy6zng"></a>
 
 Control the appearance and behaviour of guides.
 
-![](../../.gitbook/assets/2)
+![](../.gitbook/assets/2)
 
-![](../../.gitbook/assets/3)
+![](../.gitbook/assets/3)
 
 Change the attract distance, grid size, line and frame widths.
 
@@ -26,9 +26,9 @@ Change the attract distance, grid size, line and frame widths.
 
 Assign tags to brushes in the config file and choose which groups of brushes to hide or show
 
-See [here for more information](hiding-brushes-with-brush-tags.md)
+See [here for more information](../alternate-and-experimental-builds/upcoming-beta-release/hiding-brushes-with-brush-tags.md)
 
-![](../../.gitbook/assets/4)
+![](../.gitbook/assets/4)
 
 ### Selection/Erase Filter <a href="#_yv25takdqgzd" id="_yv25takdqgzd"></a>
 
@@ -78,16 +78,20 @@ The revolver can also be made to automatically sweep around the axis by using th
 
 Grid snapping for new brush strokes and when cloning/moving selections. Angle snapping when cloning/moving selections)
 
-![](../../.gitbook/assets/5)
+![](../.gitbook/assets/5)
 
 ### Merging Sketches <a href="#_u3ptgwey7elf" id="_u3ptgwey7elf"></a>
 
 Import strokes from saved sketches into the current sketch.
 
-![](../../.gitbook/assets/6)
+![](../.gitbook/assets/6)
 
 ### Scripting API <a href="#_656cnqqjniaf" id="_656cnqqjniaf"></a>
 
-![](../../.gitbook/assets/7)
+![](../.gitbook/assets/7)
 
 Control almost every aspect of Open Brush from an external source. Draw complex shapes and create content procedurally. Modify the current content., Import, export, move the spectator camera, change modes.
+
+## GLB/GLTF Export Improvements
+
+A small change that might be significant for people who export sketches to other software. GLTF export is probably the best format for preserving our more exotic brushes especially if your target platform is a web browser. Previously textures for built-in brushes were links to textures stored on the Google's servers. In this release we now copy the textures when exporting to GLB/GLTF and they should be included in the exported file.
