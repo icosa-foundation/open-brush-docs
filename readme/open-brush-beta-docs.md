@@ -4,21 +4,19 @@
 
 Randomize color, size, position both while painting and applied to existing strokes.
 
-<img  src="../.gitbook/assets/0" width="500"/>
+![](../.gitbook/assets/0)
 
 ### Repaint <a href="#_3vhyqt3524ll" id="_3vhyqt3524ll"></a>
 
 Modifying existing stroke size, color, brush.
 
-<img src="../.gitbook/assets/1 (1)" width="400"/>
+![](<../.gitbook/assets/1 (1)>)
 
 ### Guide settings <a href="#_8pqxozpy6zng" id="_8pqxozpy6zng"></a>
 
 Control the appearance and behaviour of guides.
 
-<img src="../.gitbook/assets/2" height="200"/>
-
-<img src="../.gitbook/assets/3" height="200"/>
+![](../.gitbook/assets/2) ![](../.gitbook/assets/3)
 
 Change the attract distance, grid size, line and frame widths.
 
@@ -28,7 +26,7 @@ Assign tags to brushes in the config file and choose which groups of brushes to 
 
 See [here for more information](../alternate-and-experimental-builds/upcoming-beta-release/hiding-brushes-with-brush-tags.md)
 
-<img src="../.gitbook/assets/4" width="500"/>
+![](../.gitbook/assets/4)
 
 ### Selection/Erase Filter <a href="#_yv25takdqgzd" id="_yv25takdqgzd"></a>
 
@@ -78,19 +76,19 @@ The revolver can also be made to automatically sweep around the axis by using th
 
 Grid snapping for new brush strokes and when cloning/moving selections. Angle snapping when cloning/moving selections)
 
-<img src="../.gitbook/assets/5" width="500"/>
+![](../.gitbook/assets/5)
 
 ### Merging Sketches <a href="#_u3ptgwey7elf" id="_u3ptgwey7elf"></a>
 
 Import strokes from saved sketches into the current sketch.
 
-<img src="../.gitbook/assets/6" width="500"/>
+![](../.gitbook/assets/6)
 
 ### Scripting API <a href="#_656cnqqjniaf" id="_656cnqqjniaf"></a>
 
-<img src="../.gitbook/assets/7" width="350"/>
+![](../.gitbook/assets/7)
 
-Control almost every aspect of Open Brush from an external source. Draw complex shapes and create content procedurally. Modify the current content., Import, export, move the spectator camera, change modes.
+Control almost every aspect of Open Brush from an external source. Draw complex shapes and create content procedurally. Modify the current content., Import, export, move the spectator camera, change modes. See the [Scripting API docs](../alternate-and-experimental-builds/experimental-builds/open-brush-api/) for more information.
 
 ## GLB/GLTF Export Improvements
 
