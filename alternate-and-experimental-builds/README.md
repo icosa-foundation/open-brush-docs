@@ -2,13 +2,13 @@
 
 ## Pre-release Builds
 
-Whenever any new change is added to Open Brush, before it's released to the various stores and sites, there is an engineering "pre-release" version available. If you'd like to help beta test new versions, you can get these builds as soon as the new code is added (generally within 20 minutes!). Windows (SteamVR) and Quest/Quest 2 versions are built automatically which you can get from the [Github releases page](https://github.com/icosa-gallery/open-brush/releases). Versions of the form "vX.Y.0" are official releases, whereas versions that do not end in .0 are made available for testing purposes only, with no guarantees as to their quality. 
+Whenever any new change is added to Open Brush, before it's released to the various stores and sites, there is an engineering "pre-release" version available. If you'd like to help beta test new versions, you can get these builds as soon as the new code is added (generally within 20 minutes!). Windows (SteamVR) and Quest/Quest 2 versions are built automatically which you can get from the [Github releases page](https://github.com/icosa-gallery/open-brush/releases). Versions of the form "vX.Y.0" are official releases, whereas versions that do not end in .0 are made available for testing purposes only, with no guarantees as to their quality.
 
 These builds share a save location with the official Open Brush release, but can be installed alongside the formal version. The Oculus build, like all sideloaded content, will be listed in "Unknown Sources", and will have the word "Github" appended to the name (with a different package name as well) to differentiate it from the official release). These builds are available for both the "regular" build and the "experimental" features described below.
 
 ## Main Experimental Build
 
-Whilst Open Brush was still Tilt Brush, the original team had a bunch of features and brushes they felt weren't quite ready to be released in the official app. As soon as Tilt Brush was made open source, everyone immediately leapt on these features with great excitement. 
+Whilst Open Brush was still Tilt Brush, the original team had a bunch of features and brushes they felt weren't quite ready to be released in the official app. As soon as Tilt Brush was made open source, everyone immediately leapt on these features with great excitement.
 
 [Read More](main-experimental-build.md)
 
@@ -20,7 +20,7 @@ From procedural geometry to a scripting API as well as more prosaic features suc
 
 ## Moat's Experimental Build (Open Brush)
 
-Moatdd appeared like a whirlwind in early 2021 and quickly released feature after feature with great speed. They are a diverse and fascinating set of enhancements and well worth checking out.
+Moat appeared like a whirlwind in early 2021 and quickly released feature after feature with great speed. They are a diverse and fascinating set of enhancements and well worth checking out.
 
 [Read More](moats-experimental-builds.md)
 
@@ -34,7 +34,7 @@ The original VR framework in Unity is deprecated and all new apps are built usin
 
 Sadly no longer being developed (as far as we can tell) and not open source - this is the same as the [Main Experimental Build](main-experimental-build.md) but with two cool extra features:
 
-1\. Post-processing effects that change the appearance of your entire scene. \
+1\. Post-processing effects that change the appearance of your entire scene.\
 2\. Multiuser support: multiple people can paint at the same time and use voice chat in realtime.
 
 On the other hand, Multibrush was released based on the official Tilt Brush release and does not include most of the features that have since been added to Open Brush!
@@ -48,4 +48,3 @@ On the other hand, Multibrush was released based on the official Tilt Brush rele
 Tilt Brush. Running in a browser!
 
 [Read More](silk-brush.md)
-
