@@ -16,9 +16,9 @@ Modifying existing stroke size, color, brush.
 
 Control the appearance and behaviour of guides.
 
-<img src="../.gitbook/assets/2" width="300"/>
+<img src="../.gitbook/assets/2" height="200"/>
 
-<img src="../.gitbook/assets/3" width="500"/>
+<img src="../.gitbook/assets/3" height="200"/>
 
 Change the attract distance, grid size, line and frame widths.
 
