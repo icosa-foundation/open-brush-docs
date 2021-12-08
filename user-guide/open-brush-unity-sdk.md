@@ -9,7 +9,7 @@ description: Using Open Brush with Unity
 The Open Brush Unity SDK allows you to import your Open Brush sketches into Unity. The SDK includes:
 
 * **All** of Open Brush’s brush materials
-* An importer script that automatically assigns Open Brush materials to imported .fbx or .glb files
+* An importer script that automatically assigns Open Brush materials to imported .glb files
 * Open Brush’s audio reactivity functionality that make brushes react to music
 
 ## Requirements <a href="#_q9lph11ngm09" id="_q9lph11ngm09"></a>
@@ -36,8 +36,6 @@ To use a Tilt Brush sketch inside of Unity, you need to **export it** and copy t
 
 The SDK will process .glb files on import and assign the correct materials.
 
-**Note**: the Oculus Quest version of Tilt Brush cannot write .fbx files.
-
 To export a sketch:
 
 1. Open Tilt Brush, load your sketch
@@ -47,13 +45,13 @@ To export a sketch:
 
 To import a sketch into your scene:
 
-1. Copy the .fbx or .glb file (in My Documents/Open Brush/Exports on Windows or Documents/Open Brush/Exports on Mac) into your Unity project
+1. Copy the .glb file (in My Documents/Open Brush/Exports on Windows or Documents/Open Brush/Exports on Mac) into your Unity project
 2. Drag the file from the Project window into the Hierarchy
 
 _Notes:_
 
 * _The Open Brush Unity SDK doesn’t load .tilt files._
-* _You don’t need to copy the textures included with the .fbx into your project_
+* _You don’t need to copy the textures included with the .glb into your project_
 
 ## Tips <a href="#_ibglt4zbyabz" id="_ibglt4zbyabz"></a>
 
