@@ -1,5 +1,46 @@
 # Open Brush Beta Docs
 
+### Important note <a href="#_lnka1z4mzei7" id="_lnka1z4mzei7"></a>
+
+You can opt in to the beta via Oculus or Steam and you can download a separate beta version via Itch.io
+
+We haven't officially announced the availability of the beta due to the known issues below. We feel these are annoying to enough users that we want to resolve these before we encourage people to try out the beta.&#x20;
+
+### Known Issues <a href="#_lnka1z4mzei7" id="_lnka1z4mzei7"></a>
+
+1. You can't log in to Google Drive or Sketchfab on the Quest.
+2. You can't duplicate imported images or videos by using the A button
+
+### Opting in to the beta via Steam <a href="#_lnka1z4mzei7" id="_lnka1z4mzei7"></a>
+
+1. Right Click on Open Brush in your Steam Library and choose "Properties"
+
+![](<../.gitbook/assets/image (13).png>)
+
+2\. Choose "Betas" on the left and then select whether you want the normal or [experimental mode](../alternate-and-experimental-builds/main-experimental-build.md) version. You can also return to the normal release version by choosing "None"
+
+![](<../.gitbook/assets/image (15).png>)
+
+3\. Wait for Open Brush to update.
+
+### Opting in to the beta via the Oculus Store <a href="#_lnka1z4mzei7" id="_lnka1z4mzei7"></a>
+
+1\. Either use the Oculus App on your PC or go to the AppLab Store page (google "Open Brush Quest" or "Open Brush Rift" depending on whether you want the PC or native Quest version):
+
+![](<../.gitbook/assets/image (14).png>)
+
+2\. Or find Open Brush in the mobile app:
+
+![](<../.gitbook/assets/image (12).png>)
+
+3\. Choose "Beta". (Or you can switch back to "LIVE" if you want to gothe normal release version)
+
+4.Wait for Open Brush to update.
+
+
+
+## New Features <a href="#_lnka1z4mzei7" id="_lnka1z4mzei7"></a>
+
 ### Jitter <a href="#_lnka1z4mzei7" id="_lnka1z4mzei7"></a>
 
 Randomize color, size, position both while painting and applied to existing strokes.
