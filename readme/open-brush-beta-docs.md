@@ -28,7 +28,7 @@ We haven't officially announced the availability of the beta due to the known is
 
 ![](<../.gitbook/assets/image (12).png>)
 
-3\. Choose "Beta". (Or you can switch back to "LIVE" if you want to gothe normal release version)
+3\. Choose "Beta". (Or you can switch back to "LIVE" if you want to go back to the normal release version. Note: If LIVE has a lower release number than Beta, you'll need to uninstall Open Brush first before downloading the LIVE version again.)
 
 4.Wait for Open Brush to update.
 
