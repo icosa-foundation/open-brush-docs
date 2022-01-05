@@ -6,11 +6,6 @@ You can opt in to the beta via Oculus or Steam and you can download a separate b
 
 We haven't officially announced the availability of the beta due to the known issues below. We feel these are annoying to enough users that we want to resolve these before we encourage people to try out the beta.&#x20;
 
-### Known Issues <a href="#_lnka1z4mzei7" id="_lnka1z4mzei7"></a>
-
-1. You can't log in to Google Drive or Sketchfab on the Quest.
-2. You can't duplicate imported images or videos by using the A button
-
 ### Opting in to the beta via Steam <a href="#_lnka1z4mzei7" id="_lnka1z4mzei7"></a>
 
 1. Right Click on Open Brush in your Steam Library and choose "Properties"
