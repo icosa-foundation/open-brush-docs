@@ -17,21 +17,25 @@ Each script has a set of command-line options that fine-tune the generated file.
 
 The USD contains both geometry and curve information. If your DCC tool doesn’t support USD, the [Open Brush Toolkit](https://github.com/icosa-gallery/open-brush-toolkit) contains a Python 2.7 script that can convert the .tilt file to a Collada .dae containing the curves.
 
-### Maya <a href="maya" id="maya"></a>
+### Maya <a href="#maya" id="maya"></a>
 
 After importing the FBX file into Maya you will need to turn off the _Alpha is Luminance_ attribute in the _Color Balance_ section for each texture node. To see the brush colors in the viewport turn on the _Display Colors_ attribute and set _Material Blend_ to Multiply in the _Mesh Component Display_ section on each mesh shape node.
 
 To render with the vertex colors you can use the mentalrayVertexColors shader node to access the stroke color in your material.
 
-### Sketchfab <a href="sketchfab" id="sketchfab"></a>
+### Sketchfab <a href="#sketchfab" id="sketchfab"></a>
 
 To post to Sketchfab you will need to upload the FBX file and the textures.
 
 We are working with Sketchfab to have Open Brush import correctly, but if the strokes look wrong you can try opening the 3D Settings Editor in Sketchfab and under the Materials tab set the material properties manually.
 
-### Unity <a href="unity" id="unity"></a>
+### Unity <a href="#unity" id="unity"></a>
 
 We recommend using the [Open Brush Toolkit](https://github.com/icosa-gallery/open-brush-toolkit) and the .glb format. Open Brush Toolkit also understands the .fbx format.
+
+### Unity WebGL
+
+You'll need to delete the following 2 scripts if you want to build for Unity WebGL targets: `GenericAudioInputEditor.cs` and `GenericAudioInput.cs`&#x20;
 
 ### Styly
 
@@ -49,7 +53,7 @@ To upload your work to Styly, you'll need to remove all traces of the audio-reac
 5. Also in the project window, drag the entire TiltBrush/Scripts/Gltf folder so it's inside TiltBrush/Scripts/Editor
 6. Carry on where you left off with the Styly docs.
 
-### Command-line Exporting <a href="command-line-exporting" id="command-line-exporting"></a>
+### Command-line Exporting <a href="#command-line-exporting" id="command-line-exporting"></a>
 
 To export sketches from the command line, use the --export option to specify a file or set of files to export. --export supports wildcards, and multiple files can be specified with a single --export flag. Filenames without a path are assumed to be found in the Open Brush Sketches directory.
 
