@@ -124,7 +124,7 @@ Import strokes from saved sketches into the current sketch.
 
 ![](../.gitbook/assets/7)
 
-Control almost every aspect of Open Brush from an external source. Draw complex shapes and create content procedurally. Modify the current content., Import, export, move the spectator camera, change modes. See the [Scripting API docs](../alternate-and-experimental-builds/experimental-builds/open-brush-api/) for more information.
+Control almost every aspect of Open Brush from an external source. Draw complex shapes and create content procedurally. Modify the current content., Import, export, move the spectator camera, change modes. See the [Scripting API docs](../alternate-and-experimental-builds/open-brush-beta-docs/open-brush-api/) for more information.
 
 ## GLB/GLTF Export Improvements
 

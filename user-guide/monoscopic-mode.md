@@ -4,11 +4,11 @@ Open Brush has got a secret mode where it can be used without a VR headset - and
 
 @rapka is currently working on some major enhancements which will hopefully make this mode more generally useful: [https://github.com/rapka/open-brush/tree/monoscopic-controls](https://github.com/rapka/open-brush/tree/monoscopic-controls)
 
-It also works very nicely when using Open Brush via the [experimental API](../alternate-and-experimental-builds/experimental-builds/open-brush-api/) allowing you to control Open Brush from a browser and create procedural designs using simple javascript.
+It also works very nicely when using Open Brush via the [experimental API](../alternate-and-experimental-builds/open-brush-beta-docs/open-brush-api/) allowing you to control Open Brush from a browser and create procedural designs using simple javascript.
 
 ## Getting the Monoscopic version of Open Brush
 
-We don't currently publish the monoscopic version alongside other releases but our automated build system always creates them every time we build a new testing version. 
+We don't currently publish the monoscopic version alongside other releases but our automated build system always creates them every time we build a new testing version.
 
 (Note that you'll need to be logged in to Github to download files)
 
@@ -39,7 +39,7 @@ We don't currently publish the monoscopic version alongside other releases but o
 7. Rotating with “Alt” whilst pressing shift will allow you to move the panel you were currently focussed on.
 8. Sometimes panels appear in weird places. Try looking behind you or down at your feet.
 
-The file Scripts/InputManager.cs at line 160 lists all the keyboard controls. Also see [Open Brush: Keyboard Controls and VR Input](https://docs.google.com/spreadsheets/d/1D7vIerfSz1vtyDS_dPdvHiANluEr60VFrxhzE7ZbfAU)
+The file Scripts/InputManager.cs at line 160 lists all the keyboard controls. Also see [Open Brush: Keyboard Controls and VR Input](https://docs.google.com/spreadsheets/d/1D7vIerfSz1vtyDS\_dPdvHiANluEr60VFrxhzE7ZbfAU)
 
 However many aren’t relevant, aren’t implemented or only apply in particular modes.
 
