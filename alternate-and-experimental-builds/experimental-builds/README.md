@@ -8,7 +8,9 @@ That contains all the features mentioned below. In some cases they might intefer
 
 On to the features...
 
-## [1. Polyhedra and Symmetry](polyhedra-and-symmetry.md)
+## Current Feature Builds
+
+### [1. Polyhedra and Symmetry](polyhedra-and-symmetry.md)
 
 [more info and download](polyhedra-and-symmetry.md)
 
@@ -16,7 +18,7 @@ This is basically my other project Polyhydra ( [https://andybak.net/polyhydra](h
 
 ![](../../.gitbook/assets/polyhedra\_tool.png)
 
-## [2. Brush Editing](brush-editing.md)
+### [2. Brush Editing](brush-editing.md)
 
 [more info and download](brush-editing.md)
 
@@ -24,7 +26,11 @@ Edit brushes directly in VR. Change textures, shininess and other parameters
 
 {% embed url="https://www.youtube.com/watch?v=G3LN3OEPqKQ" %}
 
-## [3. Open Brush API](../open-brush-beta-docs/open-brush-api/)
+## Previous Feature Builds
+
+The following features are now merged into the upcoming 1.0 beta
+
+### [1. Open Brush API](../open-brush-beta-docs/open-brush-api/)
 
 [more info and download](../open-brush-beta-docs/open-brush-api/)
 
@@ -36,7 +42,7 @@ Contains some cool example scripts showing what's possible.
 
 ![](../../.gitbook/assets/parametric1.png)
 
-## [4. Grid and Angle Snapping](../open-brush-beta-docs/grid-and-angle-snapping.md)
+### [2. Grid and Angle Snapping](../open-brush-beta-docs/grid-and-angle-snapping.md)
 
 [more info and download](../open-brush-beta-docs/grid-and-angle-snapping.md)
 
@@ -46,7 +52,7 @@ And an entirely new feature is snapping to a grid so you can create regularly sp
 
 ![](https://media.discordapp.net/attachments/804251582715265034/846812293177933894/2021-05-25\_19-06-31.gif)
 
-## [5. Repaint Tool and Improved Jitter](https://github.com/IxxyXR/open-brush/wiki/Color-Jitter)
+### [3. Repaint Tool and Improved Jitter](https://github.com/IxxyXR/open-brush/wiki/Color-Jitter)
 
 [more info and download](color-jitter.md)
 
