@@ -1,10 +1,10 @@
 # Repaint Tool and Improved Jitter
 
-#### Status: Part of the current [1.0 beta release](../../readme/open-brush-beta-docs.md)
+
 
 ### What does it do?
 
-It expands on the existing Recolor tool which is now renamed to "Repaint". The following features can be used individually or in any combination:
+It expands on the previous Recolor tool which is now renamed to "Repaint". The following features can be used individually or in any combination:
 
 #### Recolor
 
@@ -32,7 +32,7 @@ This slider controls how much the stroke size varies from stroke to stroke. All 
 
 #### Jitter Positions
 
-![](<../../.gitbook/assets/image (12) (1) (1).png>)
+![](<../.gitbook/assets/image (12) (1) (1).png>)
 
 This slider controls how much randomness is applied to each point on a brush stroke. . All the way to the left behaves normally. As you move the slider more to the right, each point of the stroke will be randomly shifted from it's usual position. At higher settings and with some brushes this will cause the brush stroke to actually split and form multiple small strokes.
 
@@ -46,26 +46,14 @@ This slider controls how much randomness is applied to each point on a brush str
 
 Modifying parts of existing sketches. Adding random variation after you've already painted something. Trying out different brushes and reusing parts of a sketch with different properties. (try duplicating some strokes and then repainting the duplicate)
 
-### How do I install it?
-
-Download a build for your headset from the link above and unzip it. You can run the Windows exe directly. To install the Quest apk use SideQuest: [https://uploadvr.com/sideloading-quest-how-to/](https://uploadvr.com/sideloading-quest-how-to/)
-
 ### How do I use it?
 
 The Recolor button on the Tools Panel has been replaced with "Repaint". When you select it, a side panel appears with 4 toggle buttons: Recolor, Resize, Rebrush and Jitter.
 
 Any combination of these 4 options can be selected at any time. If you choose "jitter" then set your chosen amount of jitter using the button with the dice icon at the bottom of the Color Picker Panel
 
-### Known Issues
-
-1. You have to keep switching back to the Repaint tool whenever you choose a new brush. Rebrush didn't work this way but if we copy how rebrush worked then it would make it harder to change brush size for the "Resize" feature.
-
-## How do I get help
-
-Come over to the [Open Brush Discord](https://discord.com/invite/fS69VdFXpk) and chat to me ( @andybak#5425 ). I'm on UK time (currently UTC+1) but I check in fairly regularly.
-
 ### Can I see it in action?
 
 {% embed url="https://youtu.be/mScGKQke4QA" %}
 
-![Hull brush drawn with the Polyhedra tool with color and position jitter added](<../../.gitbook/assets/image (11) (1).png>)
+![Hull brush drawn with the Polyhedra tool with color and position jitter added](<../.gitbook/assets/image (11) (1).png>)

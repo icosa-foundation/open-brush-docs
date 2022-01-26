@@ -4,7 +4,7 @@ Open Brush has got a secret mode where it can be used without a VR headset - and
 
 @rapka is currently working on some major enhancements which will hopefully make this mode more generally useful: [https://github.com/rapka/open-brush/tree/monoscopic-controls](https://github.com/rapka/open-brush/tree/monoscopic-controls)
 
-It also works very nicely when using Open Brush via the [experimental API](../alternate-and-experimental-builds/open-brush-beta-docs/open-brush-api/) allowing you to control Open Brush from a browser and create procedural designs using simple javascript.
+It also works very nicely when using Open Brush via the [experimental API](open-brush-api/) allowing you to control Open Brush from a browser and create procedural designs using simple javascript.
 
 ## Getting the Monoscopic version of Open Brush
 

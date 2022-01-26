@@ -12,7 +12,7 @@ We haven't officially announced the availability of the beta due to the known is
 
 ![](<../.gitbook/assets/image (13).png>)
 
-2\. Choose "Betas" on the left and then select whether you want the normal or [experimental mode](../alternate-and-experimental-builds/main-experimental-build.md) version. You can also return to the normal release version by choosing "None"
+2\. Choose "Betas" on the left and then select whether you want the normal or [experimental mode](main-experimental-build.md) version. You can also return to the normal release version by choosing "None"
 
 ![](<../.gitbook/assets/image (15).png>)
 
@@ -60,7 +60,7 @@ Change the attract distance, grid size, line and frame widths.
 
 Assign tags to brushes in the config file and choose which groups of brushes to hide or show
 
-See [here for more information](../alternate-and-experimental-builds/upcoming-beta-release/hiding-brushes-with-brush-tags.md)
+See [here for more information](../user-guide/brushes/hiding-brushes-with-brush-tags.md)
 
 ![](../.gitbook/assets/4)
 
@@ -124,7 +124,7 @@ Import strokes from saved sketches into the current sketch.
 
 ![](../.gitbook/assets/7)
 
-Control almost every aspect of Open Brush from an external source. Draw complex shapes and create content procedurally. Modify the current content., Import, export, move the spectator camera, change modes. See the [Scripting API docs](../alternate-and-experimental-builds/open-brush-beta-docs/open-brush-api/) for more information.
+Control almost every aspect of Open Brush from an external source. Draw complex shapes and create content procedurally. Modify the current content., Import, export, move the spectator camera, change modes. See the [Scripting API docs](../user-guide/open-brush-api/) for more information.
 
 ## GLB/GLTF Export Improvements
 

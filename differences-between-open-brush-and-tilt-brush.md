@@ -2,7 +2,7 @@
 
 ## Features Added to Open Brush
 
-This section only lists features currently in the main release. There is also a [beta version ](readme/open-brush-beta-docs.md)with new features. There's also plenty more stuff in [experimental and alternate builds](alternate-and-experimental-builds/).
+This section only lists features currently in the main release. There is also a [beta version ](alternate-and-experimental-builds/open-brush-beta-docs.md)with new features. There's also plenty more stuff in [experimental and alternate builds](alternate-and-experimental-builds/).
 
 * Fly Tool
 * Plane Guide

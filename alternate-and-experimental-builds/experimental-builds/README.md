@@ -30,9 +30,9 @@ Edit brushes directly in VR. Change textures, shininess and other parameters
 
 The following features are now merged into the upcoming 1.0 beta
 
-### [1. Open Brush API](../open-brush-beta-docs/open-brush-api/)
+### [1. Open Brush API](../../user-guide/open-brush-api/)
 
-[more info and download](../open-brush-beta-docs/open-brush-api/)
+[more info and download](../../user-guide/open-brush-api/)
 
 Create Tilt Brush sketches by sending simple commands from a web browser. Works with any language that can send http requests - including via simple HTML forms. You can even use it without any programming at all by just typing urls into the browser address bar.
 
@@ -42,9 +42,9 @@ Contains some cool example scripts showing what's possible.
 
 ![](../../.gitbook/assets/parametric1.png)
 
-### [2. Grid and Angle Snapping](../open-brush-beta-docs/grid-and-angle-snapping.md)
+### [2. Grid and Angle Snapping](../../user-guide/grid-and-angle-snapping.md)
 
-[more info and download](../open-brush-beta-docs/grid-and-angle-snapping.md)
+[more info and download](../../user-guide/grid-and-angle-snapping.md)
 
 Selecting and duplicating brush strokes currently doesn't support snapping. This changes that. It also allows snapping to angles other than 90 degrees.
 

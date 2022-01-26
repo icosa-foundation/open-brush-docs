@@ -1,7 +1,5 @@
 # Open Brush API
 
-#### Status: Part of the current [1.0 beta release](../../../readme/open-brush-beta-docs.md)
-
 ### What does it do?
 
 [API Commands List](https://github.com/IxxyXR/open-brush/wiki/API-Commands)
@@ -12,17 +10,17 @@ It even works on computers that don't support VR. You can create Tilt Brush sket
 
 Example of a script that uses a web form for input:
 
-![](../../../.gitbook/assets/buildings\_ui.png)
+![](../../.gitbook/assets/buildings\_ui.png)
 
 Example output from the form shown above:
 
-![](../../../.gitbook/assets/buildings.png)
+![](../../.gitbook/assets/buildings.png)
 
 Some output from other example scripts that are included:
 
-![](../../../.gitbook/assets/parametric1.png)
+![](../../.gitbook/assets/parametric1.png)
 
-![](../../../.gitbook/assets/parametric1.gif)
+![](../../.gitbook/assets/parametric1.gif)
 
 ### What's it good for?
 
@@ -91,15 +89,22 @@ EnableApiCorsHeaders: By default browsers are blocked from sending commands via 
 
 ### How do I use Open Brush without a headset?
 
-Currently you are rather limited in what you can do and the UI is mostly undocumented. If you just want to use the API then all you really need to know is how to pan the camera to look in different directions. Just hold down Alt (Cmd on a Mac) and drag your mouse in the viewport. Currently there's no controls to move the camera (except via the API) but we plan to add this in soon.
+See [Monoscopic mode](../monoscopic-mode.md)
 
-A few other notes on non-VR mode:
+Monoscopic mode is a bit tricky to get the hang of but for using it as a quick way to experiment with the API then all you really need to know is how to pan the camera to look in different directions.&#x20;
 
-1. Left click and drag to draw on the drawing plane (the grid shown in front of you)
-2. Dragging with the right button down will bring the drawing plane nearer or further.
-3. Ctrl+mouse will rotate the drawing plane
-4. Clicking in the game window will capture your mouse cursor. Escape will return full control (so you can interact with Unity etc)
-5. In most cases you can alt+mouse to left or right to view the tool panels and choose tools/brushes with the mouse.
+Just hold down Alt (Cmd on a Mac) and drag your mouse in the viewport.&#x20;
+
+Currently there's no controls to move the camera but we plan to add this in soon.
+
+A few other notes on monoscopic mode:&#x20;
+
+* Left click and drag to draw on the drawing plane (the grid shown in front of you)
+* Dragging with the right button down will bring the drawing plane nearer or further.
+* Ctrl+mouse will rotate the drawing plane&#x20;
+* Clicking in the game window will capture your mouse cursor.&#x20;
+
+
 
 ### What's the simplest way to use the API?
 
@@ -147,60 +152,3 @@ http://localhost:40074/help
 
 and follow links to useful info such as a full list of commands, examples scripts etc
 
-### Design Notes
-
-(Some notes I wrote when I was first developing this)
-
-I've started a feature branch for a proposed API: [https://github.com/ixxyxR/open-brush/tree/features/http-api](https://github.com/ixxyxR/open-brush/tree/features/http-api)
-
-I'd like to note down some stuff here so people can chime in with their own thoughts.
-
-Open Brush already listens for incoming http requests on port 40074 so it makes sense to reuse that.
-
-I want the API to be simple enough that it can be used directly from the browser address bar without needing to write any javascript.
-
-You should be able to just paste in URLs and see the results in your headset (or on your monitor - another goal is for this to be useful without VR)
-
-It's also quite nice to be able to send multiple commands at once so I've gone with using query parameters as key value pairs.
-
-Commands requiring more than one word to be clear use . as a separator:
-
-```
-http://localhost:40074/api/v1?brush.color=green
-```
-
-API commands that take multiple arguments are handled in ad hoc ways - the convention being a comma separated list:
-
-```
-http://localhost:40074/api/v1?camera.lookat=0,2,1.5
-```
-
-There's a simple "turtle graphics" system and you can chain commands in a single url:
-
-```
-http://localhost:40074/api/v1?brush.turn=45&brush.move=1&brush.draw=1.5
-```
-
-It accepts POST as well as GET:
-
-Turn: Move: Draw: Go
-
-I also want to eventually accept some form of JSON. Maybe something like:
-
-```
-[
-    {'command': 'brush.color', 'params': ['red']},
-    {'command': 'brush.moveto', 'params': [1,2,3]},
-    {'command': 'draw.text', 'params': ['hello']}
-]
-```
-
-## How do I get help
-
-Come over to the Open Brush Discord: [https://discord.com/invite/fS69VdFXpk](https://discord.com/invite/fS69VdFXpk) and chat to me ( andybak#5425 ).
-
-I'm on UK time (currently UTC+1) but I check in fairly regularly.
-
-### Can I see it in action?
-
-TODO
