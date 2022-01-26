@@ -83,6 +83,8 @@ Defaults:
 
 These two settings are for security and default to "false" but you may want to set them both to "true" if you want to control Open Brush remotely.
 
+**You should do this if you're on a private network.** Disable it or configure a firewall to restrict access to known devices if you plan to use Open Brush on public Wifi such as at an event or show. &#x20;
+
 EnableApiRemoteCalls - by default the API only accept commands from the same machine that is running Open Brush. Set this to true to allow API commands to be sent from other computers. In most cases this will only be machines on the same local network. You will need to configure your router to accept connections on port 40074 if you want to accept commands from remote devices as well. Apps such as ngrok or localtunnel can make this simpler to set up.
 
 EnableApiCorsHeaders: By default browsers are blocked from sending commands via javascript to another domain. Setting this to true will relax that restriction.
