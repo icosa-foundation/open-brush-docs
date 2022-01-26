@@ -70,8 +70,6 @@ If you hold down your Wand trigger (the left hand if you're using Open Brush rig
 
 This also works with the Erase Tool.
 
-(Note that "same brush" is a bit of a simplification. Internally it selects strokes that belong to the same "batch". This is always the same brush type but
-
 ### View Axis Unlocking <a href="#_la31jnra3xq0" id="_la31jnra3xq0"></a>
 
 This feature makes it possible to freely re-orient your workspace to match the sweep of your arm.
