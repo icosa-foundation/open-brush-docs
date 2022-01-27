@@ -60,14 +60,6 @@ viewonly.toggle
 
 Voila - a way to let people fly around your sketches without being able to modify them.
 
-### How do I install it?
-
-Download a build for your headset from the link above and unzip it.
-
-Unzip the file that's downloaded and double click on the app itself (currently named "httpapi")
-
-To install the Quest apk use SideQuest: [https://uploadvr.com/sideloading-quest-how-to/](https://uploadvr.com/sideloading-quest-how-to/)
-
 ### How do I configure it
 
 There are two new settings you can change in your main Open Brush.cfg Both belong in the "flags" section of the config file
