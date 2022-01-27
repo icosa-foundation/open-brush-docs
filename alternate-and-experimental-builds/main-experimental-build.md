@@ -54,7 +54,11 @@ If you want to install it to a standalone Oculus Quest then you'll need to [side
 
 ### Experimental Brushes
 
-There are [50 new brushes](main-experimental-build.md#experimental-brushes) - although some are buggy and some actually duplicate existing brushes and were included for technical reasons. That still leaves plenty of cool new brushes to play with.
+There are [50 new brushes](main-experimental-build.md#experimental-brushes) - although some are buggy and some actually duplicate existing brushes and were included for technical reasons. That still leaves plenty of cool new brushes to play with. But be warned - they don't work properly when you export your sketches. Which is why they are still in "experimental mode" only.
+
+### 3D Model Import
+
+This is for PC only (not Quest). As well as importing still images and videos you can import 3D models (fbx/obj/gltf). The importer is rather fussy and doesn't work reliably. We'd like to improve this and move it to the main release.
 
 ### Drafting
 
