@@ -11,5 +11,17 @@ This section only lists features currently in the main release. There is also a 
 * [LIV Support](https://www.liv.tv)
 * [Icosa uploads](https://beta.icosa.gallery)
 * [LATK export](https://lightningartist.org)
+* Jitter
+* Repaint
+* Guide settings
+* Hiding Brushes with Brush Tags
+* Selection/Erase Filter
+* View Axis Unlocking
+* Lazy Input
+* Wand Stroke Guide
+* Wand Guide Revolver
+* Grid and Angle Snapping
+* Merging Sketches
+* Scripting API
 
 Bear in mind this gives a misleading impression of the amount of work that has been put in. There's been a ton of effort on things that don't result in user-visible features but will help ease future development. Special props to [@mikeage](https://github.com/mikeage) for the amazing automated build system.
