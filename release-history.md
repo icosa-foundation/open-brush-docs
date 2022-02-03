@@ -2,6 +2,23 @@
 
 List of changes in all major releases. For bleeding edge features see [alternate and experimental builds](alternate-and-experimental-builds/).
 
+## v1.0: Happy Birthday to Us!
+
+* Improved Jitter
+* Repaint Tool
+* Guide settings
+* Hiding Brushes with Brush Tags
+* Selection/Erase Filter
+* View Axis Unlocking
+* Lazy Input
+* Wand Stroke Guide
+* Wand Guide Revolver
+* Grid and Angle Snapping
+* Merging Sketches
+* Scripting API
+
+{% embed url="https://twitter.com/openbrushapp/status/1486446334286651394" %}
+
 ## v0.4.0: LIV, Snap and Guides
 
 * Support for[@LIV](https://twitter.com/LIV)'s mixed reality on Oculus devices
@@ -9,8 +26,6 @@ List of changes in all major releases. For bleeding edge features see [alternate
 * New 'plane' guide type + guide snapping, thanks @michael-g!
 
 {% embed url="https://twitter.com/i/status/1425910471199240193" %}
-
-
 
 ## v0.3.0: Flying, Filming, and Fixes!
 
@@ -58,7 +73,5 @@ List of changes in all major releases. For bleeding edge features see [alternate
 ## v0.1.0: Initial Release
 
 {% embed url="https://www.youtube.com/watch?v=5R4Vhkv_i2c" %}
-
-
 
 ##
