@@ -1,6 +1,6 @@
 # All features in one
 
-This version has all the features included. It also contains [Moat's features](../moats-experimental-builds.md). Be warned though that sometimes features conflict and this might be less stable. If you have problems then try a specific feature build instead.
+This version usually combines all my features in one build. Be warned though that sometimes features conflict and this might be less stable. If you have problems then try a specific feature build instead.
 
 ## Download
 
