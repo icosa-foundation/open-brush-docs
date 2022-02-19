@@ -4,18 +4,18 @@ List of changes in all major releases. For bleeding edge features see [alternate
 
 ## v1.0: Happy Birthday to Us!
 
-* Improved Jitter
-* Repaint Tool
+* [Improved Jitter](user-guide/repaint-tool.md#jitter-improvements)
+* [Repaint Tool](user-guide/repaint-tool.md)
 * Guide settings
-* Hiding Brushes with Brush Tags
-* Selection/Erase Filter
+* [Hiding Brushes with Brush Tags](user-guide/brushes/hiding-brushes-with-brush-tags.md)
+* [Selection/Erase Filter](user-guide/selection-erase-filter.md)
 * View Axis Unlocking
-* Lazy Input
-* Wand Stroke Guide
-* Wand Guide Revolver
-* Grid and Angle Snapping
+* [Lazy Input](user-guide/lazy-input.md)
+* [Bimanual Input](user-guide/bimanual-input-and-revolver.md)
+* [Revolver](user-guide/bimanual-input-and-revolver.md#revolver)
+* [Grid and Angle Snapping](user-guide/grid-and-angle-snapping.md)
 * Merging Sketches
-* Scripting API
+* [Scripting API](user-guide/open-brush-api/)
 
 {% embed url="https://twitter.com/openbrushapp/status/1486446334286651394" %}
 
