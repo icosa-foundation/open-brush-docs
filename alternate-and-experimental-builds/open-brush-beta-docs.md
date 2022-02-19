@@ -38,4 +38,4 @@ We haven't officially announced the availability of the beta due to the known is
 
 There are no new features in the beta right now as they all were merged into the [v1.0 release](../release-history.md#v1.0-happy-birthday-to-us)
 
-We've got v1.1 currently in progress. Features planned for this include [layer support](experimental-builds/layers.md) and the ability to selectively [cut and delete parts of existing strokes](experimental-builds/snip-tool.md). This should be available as a beta release in the next few weeks.
+We've got v1.1 currently in progress. Features planned for this include layer support and the ability to selectively cut and delete parts of existing strokes. This should be available as a beta release in the next few weeks.

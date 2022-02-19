@@ -48,6 +48,8 @@ List of changes in all major releases. For bleeding edge features see [alternate
 * Uploads to SketchFab are now tagged with Open Brush as the creation tool.
 * [@mikeage](https://github.com/mikeage) has done some amazing work on our build pipeline. Any Pull Requests that get merged now automatically generate new builds, so if you feel adventurous, check out our [Bleeding Edge Releases](https://github.com/icosa-gallery/open-brush#bleeding-edge-releases). This also includes Linux builds!
 
+{% embed url="https://twitter.com/openbrushapp/status/1382020470946533381?s=20&t=M4GapjoVwDdGvNVNmMQXWQ" %}
+
 ## v0.2.0: Return of the Integrations
 
 0.2.0 focuses on adding back a lot of the functionality that was removed from the original Tilt Brush codebase for release.
