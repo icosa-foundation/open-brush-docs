@@ -40,7 +40,7 @@
   * ["Experimental Mode" Builds](alternate-and-experimental-builds/main-experimental-build.md)
   * [Andybak's Experimental Builds](alternate-and-experimental-builds/experimental-builds/README.md)
     * [Polyhedra and Symmetry](alternate-and-experimental-builds/experimental-builds/polyhedra-and-symmetry.md)
-    * [Layers](alternate-and-experimental-builds/experimental-builds/polyhedra-and-symmetry-1.md)
+    * [Layers](alternate-and-experimental-builds/experimental-builds/layers.md)
     * [Brush Editing](alternate-and-experimental-builds/experimental-builds/brush-editing.md)
   * [Insominx's (michael-g) Experimental Build](alternate-and-experimental-builds/insominxs-michael-g-experimental-build.md)
   * [New Monoscopic Mode](alternate-and-experimental-builds/new-monoscopic-mode.md)
