@@ -9,10 +9,6 @@
 * [SteamVR ](https://nightly.link/IxxyXR/open-brush/workflows/build/features%2Fbrush-editing/Windows%20SteamVR%20Experimental.zip)(Vive, Index, Reverb...)
 * [Other Builds](https://nightly.link/IxxyXR/open-brush/workflows/build/features%2Fbrush-editing) (Non-VR, Linux, Mac...)
 
-**Alternatively:**
-
-* [All features in one](broken-reference) (Grab a build that has all current features combined into one build)
-
 ### What does it do?
 
 It's an attempt to provide a runtime UI for Tim Aidley's "User Brushes" feature:
