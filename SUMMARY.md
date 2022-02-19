@@ -41,7 +41,6 @@
   * [Andybak's Experimental Builds](alternate-and-experimental-builds/experimental-builds/README.md)
     * [Polyhedra and Symmetry](alternate-and-experimental-builds/experimental-builds/polyhedra-and-symmetry.md)
     * [Brush Editing](alternate-and-experimental-builds/experimental-builds/brush-editing.md)
-    * [All features in one](alternate-and-experimental-builds/experimental-builds/all-features-in-one.md)
   * [Insominx's (michael-g) Experimental Build](alternate-and-experimental-builds/insominxs-michael-g-experimental-build.md)
   * [New Monoscopic Mode](alternate-and-experimental-builds/new-monoscopic-mode.md)
   * [XR Framework Experimental Build](alternate-and-experimental-builds/xr-framework-experimental-build.md)
