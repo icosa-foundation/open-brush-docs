@@ -5,4 +5,5 @@
 3. Better docs on importing to Blender etc
 4. Improve docs on video generally.
 5. 3d model import needs a lot of work explaining the pitfalls - although fixing the importer would also solve this!
+6. Make it clear in the docs when a feature is PC only. Especially stuff [here](https://docs.google.com/spreadsheets/d/1QQVGQr8PTWNBYWj1hiE807CBUgbhlD1gcsm25ZZKP7E)
 
