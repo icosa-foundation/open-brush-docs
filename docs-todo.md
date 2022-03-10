@@ -6,4 +6,6 @@
 4. Improve docs on video generally.
 5. 3d model import needs a lot of work explaining the pitfalls - although fixing the importer would also solve this!
 6. Make it clear in the docs when a feature is PC only. Especially stuff [here](https://docs.google.com/spreadsheets/d/1QQVGQr8PTWNBYWj1hiE807CBUgbhlD1gcsm25ZZKP7E)
+7. Missing docs on new features [here](differences-between-open-brush-and-tilt-brush.md) and [here](release-history.md)
+8. Investigate limits to model import complexity and document them
 
