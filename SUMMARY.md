@@ -63,5 +63,6 @@
     * [PseudoCode](developer-notes/github-wiki/pseudocode.md)
     * [UserInterface](developer-notes/github-wiki/userinterface.md)
   * [Differences between Standard and Experimental Mode](developer-notes/differences-between-standard-and-experimental-mode.md)
+  * [Open Brush AsCanvas Notes](developer-notes/open-brush-ascanvas-notes.md)
 * [Release History](release-history.md)
 * [Docs TODO](docs-todo.md)
