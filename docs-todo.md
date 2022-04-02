@@ -8,4 +8,5 @@
 6. Make it clear in the docs when a feature is PC only. Especially stuff [here](https://docs.google.com/spreadsheets/d/1QQVGQr8PTWNBYWj1hiE807CBUgbhlD1gcsm25ZZKP7E)
 7. Missing docs on new features [here](differences-between-open-brush-and-tilt-brush.md) and [here](release-history.md)
 8. Investigate limits to model import complexity and document them
+9. Document "Simplification" and check for other missing settings docs
 
