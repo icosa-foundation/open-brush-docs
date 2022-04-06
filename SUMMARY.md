@@ -35,6 +35,7 @@
   * [Using Open Brush on PC or Mac without a VR headset: “Monoscopic mode”](user-guide/monoscopic-mode.md)
   * [Command Line Arguments](user-guide/command-line-arguments.md)
   * [Tilt Brush Version 23 Release Notes](user-guide/tilt-brush-release-notes.md)
+* [Get Involved!](get-involved.md)
 * [Pre-release, Alternate, and Experimental Builds](alternate-and-experimental-builds/README.md)
   * [Pre-release Builds](alternate-and-experimental-builds/pre-release-builds.md)
   * ["Experimental Mode" Builds](alternate-and-experimental-builds/main-experimental-build.md)
