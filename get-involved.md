@@ -5,7 +5,7 @@
 * Post your work on social media and make sure to name check us to spread awareness.
 * Join the [Discord](https://discord.com/invite/W7NCEYnEfy) or other Open Brush related groups. Give feedback to help us prioritize. support other users who need help.
 * Tell people about Open Brush in places where digital artists already hang-out and let them know what we're up to.
-* Contribute to the [docs](https://docs.openbrush.app) - send in corrections or improvements or fill in any gaps you find.
+* Contribute to the [docs](https://docs.openbrush.app) - send in corrections or improvements or fill in any gaps you find. (We have a [TODO ](https://docs.openbrush.app/docs-todo)list just for the docs)
 * Create tutorials or guides. Show people the techniques you've developed or tricks you've discovered.
 * Help us improve and document workflows to other content creation apps. Share your experiences and pain points.
 * Try out the [beta version](https://docs.openbrush.app/alternate-and-experimental-builds/open-brush-beta-docs) or one of the [experimental builds](https://docs.openbrush.app/alternate-and-experimental-builds) and share bugs you find or any other feedback.
