@@ -4,13 +4,17 @@
 
 The standard way to export video is using the [Camera Tool](using-the-open-brush-tools-quick-tools-and-menu-panels/#cameras) within Open Brush itself.
 
+### Settings that affect video render
+
+There are several useful settings you can change in the [config file](exporting-videos.md#the-camera-tool).
+
 ### Rendering ‘Offline’ videos
 
 When you create a video from inside Open Brush using the Camera tool and you've set "SaveCameraPath" to True in the [Open Brush config file](the-open-brush-config-file.md) - Open Brush will create a Windows batch file alongside the video (In Documents\Open Brush\Videos) that you can run to re-render the video at a higher resolution. For example:
 
- _Untitled\_13\_00.mp4_
+_Untitled\_13\_00.mp4_
 
- _Untitled\_13\_00.HQ_Render.bat_
+_Untitled\_13\_00.HQ\_Render.bat_
 
 Double-clicking the ".bat" batch file will give you several options for re-rendering your video:
 
@@ -66,19 +70,27 @@ Videos can be rendered ‘offline’ faster and at a much higher resolution and 
 10. Record your video by moving camera or keeping camera stationary
 11. After saving, exit Open Brush
 12. **Rendering**\
-    ****Note: When you create a video from inside Open Brush using the Camera tool with configuration "SaveCameraPath" flag set to _true_, Tilt Brush will create a Windows batch file alongside the video (In Documents\Open Brush\Videos) that you can run to re-render the video at a higher resolution
+    \*\*\*\*Note: When you create a video from inside Open Brush using the Camera tool with configuration "SaveCameraPath" flag set to _true_, Tilt Brush will create a Windows batch file alongside the video (In Documents\Open Brush\Videos) that you can run to re-render the video at a higher resolution
 13. Go to C:\Documents\Open Brush\Videos . There should be .usda, .bat and video file which corresponds to the .tilt file
 14. Double click on .bat file
-15. If you run that batch file a command window will appear giving you several options for re-rendering your video:![](<../.gitbook/assets/2 (1).png>)Press a number to get whichever format you prefer. It will then launch Open Brush, which will reload your sketch, and re-render the video. Once it is done, Open Brush will exit. As rendering at higher quality tends to affect the framerate, it is suggested that you do not wear your headset while this process completes.
+15. If you run that batch file a command window will appear giving you several options for re-rendering your video:\
+    \
+    ![](<../.gitbook/assets/2 (1).png>)\
+    \
+    Press a number to get whichever format you prefer. It will then launch Open Brush, which will reload your sketch, and re-render the video. Once it is done, Open Brush will exit. As rendering at higher quality tends to affect the framerate, it is suggested that you do not wear your headset while this process completes.
 16. Once the render is complete, it will pop open the “VRVideos” folder which should contain an video file with your stereo render.
-17.  **Converting into 360 video**
-    1. [Download the 360° Video Metadata app](https://support.google.com/youtube/answer/6178631?hl=en) for [Mac](https://github.com/google/spatial-media/releases/download/v2.0/360.Video.Metadata.Tool.mac.zip) or [Windows](https://github.com/google/spatial-media/releases/tag/v2.0). The dialog should look like this:![](<../.gitbook/assets/3 (1).png>)
-    2. Un-zip the file, then open the 360 Video Metadata app. If you're on a Mac, you may need to right-click the app and then click Open.
-    3. Select the video file.
-    4. Select the checkbox for My Video is stereoscopic 3D (top/bottom layout)
-    5. Click Inject Metadata
-    6. Enter a name for the file that will be created.
-    7. Save the file. A new file will be created automatically in the same location as the original file.
+17. **Converting into 360 video** \
+    \
+    1\. [Download the 360° Video Metadata app](https://support.google.com/youtube/answer/6178631?hl=en) for [Mac](https://github.com/google/spatial-media/releases/download/v2.0/360.Video.Metadata.Tool.mac.zip) or [Windows](https://github.com/google/spatial-media/releases/tag/v2.0). The dialog should look like this:\
+    \
+    ![](<../.gitbook/assets/3 (1).png>) \
+    \
+    2\. Un-zip the file, then open the 360 Video Metadata app. If you're on a Mac, you may need to right-click the app and then click Open. \
+    3\. Select the video file. \
+    4\. Select the checkbox for My Video is stereoscopic 3D (top/bottom layout) \
+    5\. Click Inject Metadata \
+    6\. Enter a name for the file that will be created. \
+    7\. Save the file. A new file will be created automatically in the same location as the original file.
 18. **Uploading to Youtube**
     1. Upload the new “injected” video file to YouTube
     2. Note that it takes YouTube some additional time to process 360 videos, until this process is finished, you may see the raw over/under and the “View in Cardboard” option will not be available.
