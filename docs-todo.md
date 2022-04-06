@@ -9,4 +9,5 @@
 7. Missing docs on new features [here](differences-between-open-brush-and-tilt-brush.md) and [here](release-history.md)
 8. Investigate limits to model import complexity and document them
 9. Document "Simplification" and check for other missing settings docs
+10. Add a "Case Studies" page
 
