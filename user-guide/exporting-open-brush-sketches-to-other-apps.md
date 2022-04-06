@@ -4,10 +4,16 @@ Open Brush sketches can be exported by clicking the ‘Export’ button found on
 
 Each sketch exported from Open Brush creates a separate folder in **Documents/Open Brush/Exports** which contains the geometry in the following formats:
 
-* .glb (binary glTF version 2)
-* .fbx (Desktop only)
-* .usd (Desktop only)
-* .json (Desktop only)
+* .glb (Standalone and PC)
+* .fbx (PC only)
+* .usd (PC only)
+* .json (PC only)
+* .latk (Standalone and PC)
+* .wrl (PC only)
+
+(.glb is closely related to .gltf and most software will support both. We output binary glTF version 2)
+
+.latk is an interchange format for 3d brush strokes: [https://lightningartist.org/](https://lightningartist.org)
 
 The .json is a “raw” format which you can use if you need a different file format. See the [Open Brush Toolkit](https://github.com/icosa-gallery/open-brush-toolkit) for sample [Python 2.7](https://www.python.org/download/releases/2.7/) scripts that convert the raw .json to .obj.
 
