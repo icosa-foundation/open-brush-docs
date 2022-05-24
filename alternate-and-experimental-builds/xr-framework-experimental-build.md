@@ -1,5 +1,7 @@
 ---
 description: The future of Open Brush begins here!
+cover: https://www.khronos.org/assets/uploads/apis/OpenXR-After_3.png
+coverY: 23.641703377386197
 ---
 
 # 🚀 XR Framework Beta
