@@ -40,7 +40,7 @@ In addition it has "Experimental Mode" enabled. See below for a list of features
 
 2\. Choose the pre-release experimental branch from the "beta" tab:
 
-![](<../.gitbook/assets/image (12) (1) (1).png>)
+![](<../.gitbook/assets/image (12) (1) (1) (1).png>)
 
 #### Itch.io
 

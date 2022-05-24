@@ -13,7 +13,7 @@ Each sketch exported from Open Brush creates a separate folder in **Documents/Op
 
 (.glb is closely related to .gltf and most software will support both. We output binary glTF version 2)
 
-.latk is an interchange format for 3d brush strokes: [https://lightningartist.org/](https://lightningartist.org)
+.latk is an interchange format for 3d brush strokes: [https://lightningartist.org/](https://lightningartist.org/)
 
 The .json is a “raw” format which you can use if you need a different file format. See the [Open Brush Toolkit](https://github.com/icosa-gallery/open-brush-toolkit) for sample [Python 2.7](https://www.python.org/download/releases/2.7/) scripts that convert the raw .json to .obj.
 

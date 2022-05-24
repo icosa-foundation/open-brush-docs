@@ -26,7 +26,7 @@ This is basically my other project Polyhydra ( [https://andybak.net/polyhydra](h
 
 Splits existing strokes.
 
-![](<../../.gitbook/assets/image (13).png>)
+![](<../../.gitbook/assets/image (13) (1).png>)
 
 ### [3. Layers](layers.md)
 
@@ -34,7 +34,7 @@ Splits existing strokes.
 
 Organize your sketch into layers that can be turned on or off separately.
 
-![](<../../.gitbook/assets/image (11).png>)
+![](<../../.gitbook/assets/image (11) (1).png>)
 
 ### [4. Brush Editing](brush-editing.md)
 
