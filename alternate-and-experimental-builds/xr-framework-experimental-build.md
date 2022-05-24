@@ -17,8 +17,8 @@ Oculus Rift\
 Oculus Quest\
 \
 Already set up? Jump to:\
-What should I be testing?\
-How do I report bugs?
+[What should I be testing?](xr-framework-experimental-build.md#what-should-i-be-testing)\
+[How do I report bugs?](xr-framework-experimental-build.md#how-do-i-report-bugs)
 
 #### Windows via SteamVR (OpenXR)
 
@@ -39,3 +39,14 @@ You can now access the openxr and openxr-experimental betas. select your desired
 ![Selecting the OpenXR Mode when launching Open Brush.](<../.gitbook/assets/image (12).png>)
 
 When you click Launch from within Steam, make sure to select 'Launch Open Brush in OpenXR Mode'!
+
+### What should I be testing?
+
+In short, everything you can! The previous SDKs were woven throughout the fabric of the app, so our changes impacted a lot of features. We have [prepared a list](https://github.com/icosa-gallery/open-brush/issues/249) over on our GitHub with suggestions of things to test (anything already ticked is assumed to be working).
+
+### How do I report bugs?
+
+If you are a GitHub user, please feel free to add a comment to our [Issue #245 ](https://github.com/icosa-gallery/open-brush/issues/249)where we are keeping track of validation.\
+\
+Otherwise, please join our [Discord ](https://discord.gg/W7NCEYnEfy)if you haven't already and post a message in the `#unity-xr` channel, we'll log it on your behalf!
+
