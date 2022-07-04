@@ -356,6 +356,19 @@ public class BaseTool : MonoBehaviour
 12. Find the Brush.GetCommand function in the file Assets/Scripts/Input/ControllerInfo.cs and update it (note lines 27 and 28)
 13. Press play.
 
+## Controller UI for Tools
+
+(this section of the docs is a work in progress)
+
+Places to look:
+
+1. Controller Material Catalog component on the App object in the main scene (contains all the materials used for adding custom buttons to the controller model)
+2.  AssignControllerMaterials method on BaseTool subclasses. This often calls methods on ControllerGeometry.cs which in turn typically does something like:&#x20;
+
+    ```
+    Materials.Assign(PadMesh, SelectPadTouched(active, Materials.ShareYt));
+    ```
+
 ## Custom Stroke Data
 
 **by @1pld**
