@@ -21,7 +21,7 @@ Thank you very much! Please join our [Discord ](https://discord.gg/W7NCEYnEfy)an
 This section is very detailed per platform, so here's some quick links to your preferred version:\
 \
 [Windows via SteamVR (OpenXR)](xr-framework-experimental-build.md#windows-via-steamvr-openxr)\
-[Oculus (Desktop and Quest)](xr-framework-experimental-build.md#oculus-rift-and-quest)\
+[Oculus (Desktop and Quest)](xr-framework-experimental-build.md#oculus-desktop-and-quest)\
 \
 Already set up? Jump to:\
 [What should I be testing?](xr-framework-experimental-build.md#what-should-i-be-testing)\
