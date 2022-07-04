@@ -5,26 +5,29 @@
 **Tutorials and Write ups for Modifying Tilt Brush:**
 
 * [Customizing Tilt Brush - Part One: Introduction and Custom Brushes](https://lachlansleight.medium.com/customizing-tilt-brush-6e9a63bd5425)
-* [Customising Tilt Brush - Part Two: Adding Flight](https://lachlansleight.medium.com/customizing-tilt-brush-3407f5ceb4ea) \(merged into Open Brush\)
+* [Customising Tilt Brush - Part Two: Adding Flight](https://lachlansleight.medium.com/customizing-tilt-brush-3407f5ceb4ea) (nb the "Flight" feature itself is now included in the main release but the tutorial is still useful as a guide for adding your own features)
 * [Scobot - How I change the look of Tilt Brush brushes in Unity3D](https://www.youtube.com/watch?v=38LSpe-2eIU)
-* [Enabling FBX output.](https://wiki.thakyuu.invr.chat/TiltBrush/Tips_how_to_support_fbx_en) \(merged into Open Brush\)
-* [Update Python support scripts to Python 3.8 from Python 2.](https://github.com/billyquith/tilt-brush/commit/f0810efebbbd2969ffa8fee095659b17c0a60696) \(merged into Open Brush\)
+
+**Out of date tutorials**
+
+* [Enabling FBX output.](https://wiki.thakyuu.invr.chat/TiltBrush/Tips\_how\_to\_support\_fbx\_en) (now merged into main branch)
+* [Update Python support scripts to Python 3.8 from Python 2.](https://github.com/billyquith/tilt-brush/commit/f0810efebbbd2969ffa8fee095659b17c0a60696) (now merged into main branch)
 
 ## Open Brush Developer Documentation
 
 **Spreadsheets with some useful info:**
 
 * [Open Brush: Brushes, Materials and Shaders](https://docs.google.com/spreadsheets/d/12fHPnMNhpGGdR1mzFeCjXbg1Nv1PO1LZGcHwgp3S1Og/edit#gid=0)
-* [Open Brush: Panels, Popups and UI Classes](https://docs.google.com/spreadsheets/d/1G0drrmswg4rs46wUQ2iDw_vP8sLEy99p-CXyDTihCiE/edit#gid=1192181253)
-* [Open Brush: Keyboard Controls and VR Input](https://docs.google.com/spreadsheets/d/1D7vIerfSz1vtyDS_dPdvHiANluEr60VFrxhzE7ZbfAU/edit#gid=1073965238)
+* [Open Brush: Panels, Popups and UI Classes](https://docs.google.com/spreadsheets/d/1G0drrmswg4rs46wUQ2iDw\_vP8sLEy99p-CXyDTihCiE/edit#gid=1192181253)
+* [Open Brush: Keyboard Controls and VR Input](https://docs.google.com/spreadsheets/d/1D7vIerfSz1vtyDS\_dPdvHiANluEr60VFrxhzE7ZbfAU/edit#gid=1073965238)
 
 ## Developing and Testing Without a VR Headset
 
 It’s often quicker while developing to avoid jumping in and out of VR. To activate a simple desktop mode in Tilt Brush I had to do the following:
 
 1. Find “SteamVR\_Settings.asset” in Assets/ThirdParty/SteamVR/Resources and uncheck “Auto enable VR”
-2. In the main scene on the gameobject “Config” \(under “App”\) change SDK mode to “monoscopic”
-3. Sometimes panels are placed over other panels. To move a panel hold shift to activate “Lock to Head mode” at the same time as holding Alt to rotate the viewpoint \(see below\)
+2. In the main scene on the gameobject “Config” (under “App”) change SDK mode to “monoscopic”
+3. Sometimes panels are placed over other panels. To move a panel hold shift to activate “Lock to Head mode” at the same time as holding Alt to rotate the viewpoint (see below)
 
 Entering play mode should now allow you to draw and control the app using the mouse and keyboard.
 
@@ -40,7 +43,7 @@ This is especially a problem when merging branches. If you’re working on a fea
 
 The best way to do this is to explicitly number your enums
 
-```text
+```
 public enum FoobarType
 {
    ExistingValueA,
@@ -51,21 +54,21 @@ public enum FoobarType
 }
 ```
 
-Now the only problem is to ensure you use numbers that other branches haven’t already used. We’ve settled on a simple low tech solution for now. Just go to this Google Sheet and reserve a block of 1000[: **Open Brush enum reservations**](https://docs.google.com/spreadsheets/d/17OOrxFgrA8COwxAinj9e7r2zwcKxLP4J306c5woZooc/edit?usp=drive_web&ouid=105817942650117193176)\*\*\*\*
+Now the only problem is to ensure you use numbers that other branches haven’t already used. We’ve settled on a simple low tech solution for now. Just go to this Google Sheet and reserve a block of 1000[: **Open Brush enum reservations**](https://docs.google.com/spreadsheets/d/17OOrxFgrA8COwxAinj9e7r2zwcKxLP4J306c5woZooc/edit?usp=drive\_web\&ouid=105817942650117193176)\*\*\*\*
 
 ### **Important Enums**
 
-* **SketchControlsScript.GlobalCommands:** Commands are actions that \(usually\) record Undo state.
-* **BasePanel.PanelType:** Panels are the persistent UI elements \(as opposed to popups which tend to be transitory\)
-* **BaseTool.ToolType:** “Tools” are usually modal states that determine what actions happen when you use the controls on your main controller \(the “brush” controller\)
+* **SketchControlsScript.GlobalCommands:** Commands are actions that (usually) record Undo state.
+* **BasePanel.PanelType:** Panels are the persistent UI elements (as opposed to popups which tend to be transitory)
+* **BaseTool.ToolType:** “Tools” are usually modal states that determine what actions happen when you use the controls on your main controller (the “brush” controller)
 * **PointerManager.SymmetryMode:** The only symmetry mode enabled by default is the normal mirror. But there is a double mirror hidden behind the experimental flag and a “debug” symmetry mode that can only be enabled via code.
 
 ## Adding a New Panel
 
-1. Add an entry to **BasePanel.PanelType** \(see the note above about enums clashing\)
+1. Add an entry to **BasePanel.PanelType** (see the note above about enums clashing)
 2. If you think you’ll need custom functionality then create a new class inheriting from BasePanel:
 
-```text
+```
 public class MyNewPanel : BasePanel
 {
 }
@@ -76,13 +79,13 @@ Otherwise you can just use BasePanel directly in the next step.
 1. Copy an existing panel prefab but use your new script.
 2. Ensure your component’s PanelType is set to the value from step 1
 3. Change the Panel Description field for your new panel to something relevant.
-4. In the main scene under SketchControls add an entry to the Panel Map \(on the Panel Manager component\). Choose the same PanelType as before. \(note that the list item will have the wrong panel - or just a number - next to it if you used your own explicit enum value. This doesn’t seem to matter\)
+4. In the main scene under SketchControls add an entry to the Panel Map (on the Panel Manager component). Choose the same PanelType as before. (note that the list item will have the wrong panel - or just a number - next to it if you used your own explicit enum value. This doesn’t seem to matter)
 
 **Opening the new Panel:**
 
 Either:
 
-1. Add a button to an existing panel. The button should use the PanelButton component \(or copy an existing one\) or...
+1. Add a button to an existing panel. The button should use the PanelButton component (or copy an existing one) or...
 2. Tick “Begin Fixed” on the new panel component itself.
 
 Question - what controls how close a panel is allowed to get to another panel on the wand?
@@ -106,7 +109,7 @@ Panels script components have a m\_PanelPopUpMap property which connects a Globa
 1. Create a class that inherits from BaseSlider
 2. Go to BackdropPanel prefab and copy FogDensitySlider
 3. Paste into the panel prefab you want to use it in
-4. Change FogDensitySlider to use the class you created in \#1\(use method found at minute 18 here Found here \([https://youtu.be/HjsLzyNNxuM](https://youtu.be/HjsLzyNNxuM)\)
+4. Change FogDensitySlider to use the class you created in #1(use method found at minute 18 here Found here ([https://youtu.be/HjsLzyNNxuM](https://youtu.be/HjsLzyNNxuM))
 5. Create a custom command for editing the value the slider represents. See ModifyFogCommand for an example.
 6. Use your new command to change the underlying value that the slider represents. This is typically done in OnPositionSliderNobUpdate and EndModifyCommand.
 7. Test and make sure your slider correctly changes the underlying value
@@ -118,7 +121,7 @@ These are typically known as "stencils" in code but prefab names may still use t
 
 Key Classes involved
 
-* StencilWidget -&gt; GrabWidget
+* StencilWidget -> GrabWidget
 * WidgetManager
 * SketchControlScript
 
@@ -126,24 +129,24 @@ Creating a new Stencil / Guide
 
 1. Make a copy of one of the stencil prefabs and rename it for your shape. The sphere is the easiest to work with in many cases.
 2. Add your shape name to the end of the StencilType Enum in WidgetManager.cs. You may need to follow the recommendations about [Enums](../).
-3. Add your prefab and shape type \(Enum\) to the WidgetManager Stencil Map in the inspector.
-4. Make a duplicate of the stencil script you used in \#1 and rename it myNameStencil.cs
+3. Add your prefab and shape type (Enum) to the WidgetManager Stencil Map in the inspector.
+4. Make a duplicate of the stencil script you used in #1 and rename it myNameStencil.cs
 5. Replace the stencil script on your prefab to use the one you just created.
 6. Open the GuideToolsPanel in Assets/Prefabs/Panels, duplicate one of the buttons and position it appropriately in the panel.
 7. In the StencilButton component change the Description Text and Button Texture to something appropriate for your shape and change the type to your stencil type.
 
 Question: What determines the distance at which the pointer will snap to the guide?
 
-Answer: WidgetManager.m\_StencilAttractDist. The code does this in  
+Answer: WidgetManager.m\_StencilAttractDist. The code does this in\
 WidgetManager.**MagnetizeToStencils**.
 
-Question: How do you enable a stencil to be scaled non-uniformly \(i.e. along a particular axis\)?
+Question: How do you enable a stencil to be scaled non-uniformly (i.e. along a particular axis)?
 
 Answer: See SketchControlScript.**UpdateGrab\_ContinuesTwoHands** and implement **GetScaleAxis** and **RecordAndApplyScaleToAxis**.
 
 ## Button Scripts
 
-\(Also see [Open Brush: Panels, Popups and UI Classes](https://docs.google.com/spreadsheets/d/1G0drrmswg4rs46wUQ2iDw_vP8sLEy99p-CXyDTihCiE)\)
+(Also see [Open Brush: Panels, Popups and UI Classes](https://docs.google.com/spreadsheets/d/1G0drrmswg4rs46wUQ2iDw\_vP8sLEy99p-CXyDTihCiE))
 
 * PanelButton: Opens a panel
 * OptionButton: Executes a command
@@ -166,7 +169,7 @@ It's like the player is already instantiated within the game to start with when 
 
 ![](../.gitbook/assets/1.png)
 
-This thing manages up to 10 cursors at once \(although it can be set to handle more\):
+This thing manages up to 10 cursors at once (although it can be set to handle more):
 
 ![](../.gitbook/assets/2.png)
 
@@ -186,7 +189,7 @@ Much of the magic occurs within the FreePaintTool
 
 It's the star of the show, being the thing that makes happy little trees appear and happy little clouds.
 
-What most tools have in common is UpdateTool\(\)
+What most tools have in common is UpdateTool()
 
 ![](../.gitbook/assets/5.png)
 
@@ -194,15 +197,15 @@ This is like their main interaction loop. At the start, the inputmanager states 
 
 ![](../.gitbook/assets/6.png)
 
-\(rather than re-calling the same inputmanager functions again and again and again\)
+(rather than re-calling the same inputmanager functions again and again and again)
 
-The Wand is your non-dominant hand, the Brush is your dominant hand controller and performing the controller-tap gesture \(lightly tapping the handles together\) will swap these controllers.
+The Wand is your non-dominant hand, the Brush is your dominant hand controller and performing the controller-tap gesture (lightly tapping the handles together) will swap these controllers.
 
 This BrushTrigger bit handles the actual trigger press:
 
 ![](../.gitbook/assets/7.png)
 
-m\_brushTrigger is just a boolean that becomes TRUE when the trigger is pressed beyond the threshold while the BrushTriggerDown variable becomes true only during the update tic when the trigger has been pressed and brushTriggerRatio is a value mapped from 0-&gt;1 depending on how far that analog trigger has been pulled.
+m\_brushTrigger is just a boolean that becomes TRUE when the trigger is pressed beyond the threshold while the BrushTriggerDown variable becomes true only during the update tic when the trigger has been pressed and brushTriggerRatio is a value mapped from 0->1 depending on how far that analog trigger has been pulled.
 
 ## The Model Import UI
 
@@ -214,7 +217,7 @@ LocalModelButton has got a method RequestModelPreloadInternal but it isn’t cal
 
 The code that does the actual work is in models.cs. A typical call stack goes:
 
-```text
+```
 RequestModelPreloadInternal (LocalModelButton.cs)
   LoadFullyCoroutine (models.cs)
     LoadModel (models.cs) 
@@ -223,7 +226,7 @@ RequestModelPreloadInternal (LocalModelButton.cs)
 
 This presupposes you’ve instantiated model class. An example instantiation might look something like:
 
-```text
+```
 var model= new Model(Model.Location.File(path));
 ```
 
@@ -231,7 +234,7 @@ Once you have a valid model you need to spawn it into the scene. Look at SpawnVa
 
 Example code to synchronously load a model:
 
-```text
+```
 public void TestImport(string filename, Vector3 position, Quaternion rotation)
 {
     path = Path.Combine(App.MediaLibraryPath(), "Models", path);
@@ -261,7 +264,7 @@ Note - only tested on local models. The filename is appended to Media Library/mo
 
 Currently several formats are hidden behind ifdefs for various platform flags and the experimental flag. The logic is a bit tortuous so here’s a pseudocode version:
 
-```text
+```
 if App.PlatformConfig.EnableExportJson:
     "json"
 
@@ -305,23 +308,23 @@ The gist of it all is basically:
 
 That whole shebang seems necessary to ensure that undo and saving work correctly.
 
-I think MemoryListAdd was needed for save/loading to work and PerformAndRecordCommand was needed for Undo… The sketch memory list is what gets saved into .tilt files for brush strokes. The undo stuff handles more than just brush strokes. The undo log knows about \(most\) user actions and what code to call to reverse/redo them.
+I think MemoryListAdd was needed for save/loading to work and PerformAndRecordCommand was needed for Undo… The sketch memory list is what gets saved into .tilt files for brush strokes. The undo stuff handles more than just brush strokes. The undo log knows about (most) user actions and what code to call to reverse/redo them.
 
 Stroke.Recreate seems to create the batch object and mesh - but that's not enough for "real" brush strokes.
 
-Recreate \(eventually\) calls FinalizeBatchedBrush on the correct BrushScript. These overridden methods are what actually does the mesh creation.
+Recreate (eventually) calls FinalizeBatchedBrush on the correct BrushScript. These overridden methods are what actually does the mesh creation.
 
 ## Adding a New Tool
 
 In Open Brush, almost everything we do is done with the help of tools. A tool can be something like the Straight Line tool, which applies a modifier to any new brushes created with the Free Paint tool, or it can be something like the Teleport tool, which moves the player. At the end of the day, a tool is simply a way for us to run some code in a nice compartmentalized way.
 
-In essence they are usually modal states that determine what actions happen when you use the controls on your main controller \(the “brush” controller\).
+In essence they are usually modal states that determine what actions happen when you use the controls on your main controller (the “brush” controller).
 
-\(based on [Lachan's Tutorial](https://lachlansleight.medium.com/customizing-tilt-brush-3407f5ceb4ea) \)
+(based on [Lachan's Tutorial](https://lachlansleight.medium.com/customizing-tilt-brush-3407f5ceb4ea) )
 
 1. Open Assets/Prefabs/Panels folder. Find “AdvancedToolsPanel” and open it
-2. \(If you want to build for Quest, you’ll also need to perform the following operations on the “AdvancedToolsPanel\_Mobile” prefab\)
-3. Duplicate one of the other Tool buttons to create a new button. \(Note that the mirror and straight edge buttons are not tool buttons\)
+2. (If you want to build for Quest, you’ll also need to perform the following operations on the “AdvancedToolsPanel\_Mobile” prefab)
+3. Duplicate one of the other Tool buttons to create a new button. (Note that the mirror and straight edge buttons are not tool buttons)
 4. Name your new button object “Button\_Foo”
 5. Make sure that it’s right underneath the “Button\_Straightedge” object at the same level in the hierarchy.
 6. Change the Description Text to read “Fly”
@@ -329,7 +332,7 @@ In essence they are usually modal states that determine what actions happen when
 8. Drag it on to the “Button Texture” property of your new button object.
 9. In Assets/Scripts/Tools/BaseTool.cs find the ToolType enum and add a new line to the bottom:
 
-```text
+```
 public class BaseTool : MonoBehaviour
 {
  public enum ToolType
@@ -342,24 +345,24 @@ public class BaseTool : MonoBehaviour
 1. Go back to our component and select “Foo Tool” as the tool type for our button. Save the prefab.
 2. In the main scene find the object SketchSurface which is a child of SketchControls.
 3. Add a new empty child to this object
-4. Give it a scale of \(0.5, 0.5, 0.5\) and call it FooTool placing it just above the EmptyTool object.
+4. Give it a scale of (0.5, 0.5, 0.5) and call it FooTool placing it just above the EmptyTool object.
 5. Place all the visual content as children of an empty ‘DirectionIndicator’ object which is a child of our tool.
 6. Deactivate the new tool
-7. Create a new script in Assets/Scripts/Tools and call it FooTool.cs. Use the template script \[link\]
+7. Create a new script in Assets/Scripts/Tools and call it FooTool.cs. Use the template script \[link]
 8. Add this new component to our FlyTool object in the scene, ensure that that tool type is set to FooTool
 9. In Assets/Scripts/InputManager.cs look for the SketchCommands enum. Add “Fly” at the bottom
 10. Scroll down in InputManager to the GetCommand function. We need to pass the command through to the Brush
-11. Update the function to look like this \(note lines 37 and 38\):
-12. Find the Brush.GetCommand function in the file Assets/Scripts/Input/ControllerInfo.cs and update it \(note lines 27 and 28\)
+11. Update the function to look like this (note lines 37 and 38):
+12. Find the Brush.GetCommand function in the file Assets/Scripts/Input/ControllerInfo.cs and update it (note lines 27 and 28)
 13. Press play.
 
 ## Custom Stroke Data
 
 **by @1pld**
 
-For stroke/control point extension data, I'd propose adding a level of indirection \(the solution for everything\). If a .tilt appends data to strokes or points, it should come with some extra self-describing data in the .tilt. So rather than this:
+For stroke/control point extension data, I'd propose adding a level of indirection (the solution for everything). If a .tilt appends data to strokes or points, it should come with some extra self-describing data in the .tilt. So rather than this:
 
-```text
+```
  // Data blocks for StrokeExtension IDs in [0,15] are 4 bytes.
  // Data blocks for StrokeExtension IDs in [16,31] are uint32 length + <length> bytes.
 
@@ -378,7 +381,7 @@ For stroke/control point extension data, I'd propose adding a level of indirecti
   }
 ```
 
-you'd have something like "the stroke sets extension bit 16; the client looks in the sketch metadata to find out what stroke extension 16 is. It has a mime type / guid / whatever. The client determines it doesn't know what to do with that data so it throws it away, which it can because that data chunk is in length+data format" or "all stroke extensions 16 and above are now defined to be length + guid + &lt;length - sizeof\(guid\)&gt; bytes. The client determines whether it understands the data based on the guid etc".
+you'd have something like "the stroke sets extension bit 16; the client looks in the sketch metadata to find out what stroke extension 16 is. It has a mime type / guid / whatever. The client determines it doesn't know what to do with that data so it throws it away, which it can because that data chunk is in length+data format" or "all stroke extensions 16 and above are now defined to be length + guid + \<length - sizeof(guid)> bytes. The client determines whether it understands the data based on the guid etc".
 
 ## The coordinate system
 
@@ -388,9 +391,9 @@ Re some comments I've seen elsewhere, it would be good to document the coordinat
 
 * "room space" = the user's physical environment. some people call this "tracking space"
 * "scene space" = the user's virtual environment -- the square panel on the ground, the mountains in the distance, etc.
-* "canvas space" = the user's artwork. Typically there's just a single Canvas whose pose is the same as the Scene pose \(it's a direct child of the scene, with identity localTransform\). But when you have a selection or groups, those are additional Canvas instances
+* "canvas space" = the user's artwork. Typically there's just a single Canvas whose pose is the same as the Scene pose (it's a direct child of the scene, with identity localTransform). But when you have a selection or groups, those are additional Canvas instances
 
-the root of unity's scene graph we call "global space" \(we try to avoid the term "world space" in the code because "world" is ambiguous\). "global space" == "room space". The Scene is a child in global space, and canvas is a child of scene
+the root of unity's scene graph we call "global space" (we try to avoid the term "world space" in the code because "world" is ambiguous). "global space" == "room space". The Scene is a child in global space, and canvas is a child of scene
 
 That is backwards from what some people expect, which is for "room space" to be a child of "virtual space".
 
@@ -398,29 +401,29 @@ That is backwards from what some people expect, which is for "room space" to be 
 
 ## Paul Du Bois’s Thoughts on Procedural Strokes
 
-I would look at the rebrush tool \(the one that's like recolor, but changes brushes\). That takes an existing set of control points and regenerates the geometry.
+I would look at the rebrush tool (the one that's like recolor, but changes brushes). That takes an existing set of control points and regenerates the geometry.
 
-More specifically, take a look at Stroke.cs and the various functions in there like Recreate. The general idea is you should be able to dump a bunch of control points into a Stroke, call Recreate, and you've got geometry. The API hasn't gotten as simple as I'd like, you still have to worry a bit about the various intrusive linked lists that strokes get put into when you draw "normally" \(or on load\), but it shouldn't be too bad
+More specifically, take a look at Stroke.cs and the various functions in there like Recreate. The general idea is you should be able to dump a bunch of control points into a Stroke, call Recreate, and you've got geometry. The API hasn't gotten as simple as I'd like, you still have to worry a bit about the various intrusive linked lists that strokes get put into when you draw "normally" (or on load), but it shouldn't be too bad
 
 The guts of that are how I'd do it if you want something up and running quickly -- it's a good demonstration of how to generate knot information, pipe it to the right place, get a proper stroke back out. See ParametricStrokeCreator.cs
 
 ParentBrush might also be interesting to you... but it violates some assumptions and doesn't play nicely with save/load, undo/redo etc. There's some notes about how to move forward from that in the file
 
-The playback code might be another entry point, if you want to make more than one stroke \(i.e. fill a volume with strokes\). You could boot up the playback system pretend you're loading a file \(but instead, you're generating the control points programmatically\) The playback system has a mode that is more "real time", where stroke timestamps are allowed to overlap, multiple strokes can draw in at once and will draw in at the speed they were painted, etc. Might have bitrotted a bit, but might be a useful entry point for understanding the drawing system
+The playback code might be another entry point, if you want to make more than one stroke (i.e. fill a volume with strokes). You could boot up the playback system pretend you're loading a file (but instead, you're generating the control points programmatically) The playback system has a mode that is more "real time", where stroke timestamps are allowed to overlap, multiple strokes can draw in at once and will draw in at the speed they were painted, etc. Might have bitrotted a bit, but might be a useful entry point for understanding the drawing system
 
-One kind of annoying thing that we never fixed is that there are only 4 \(or maybe 8\) global pointers, and everyone just kind of hardcodes the index of the one they want to use. So the 4-way mirror will use pointers 0-3, the load code assumes it can use any of them, etc. That's as opposed to people instantiating as many pointers as they need concurrent lines, doing stuff with them, throwing them away
+One kind of annoying thing that we never fixed is that there are only 4 (or maybe 8) global pointers, and everyone just kind of hardcodes the index of the one they want to use. So the 4-way mirror will use pointers 0-3, the load code assumes it can use any of them, etc. That's as opposed to people instantiating as many pointers as they need concurrent lines, doing stuff with them, throwing them away
 
 Ideally you wouldn't need a "pointer" at all in order to draw lines. Anyway, something to watch out for if you want procedural stuff happening at the same time the user's painting.
 
 The guide system could use a SDF based mode so guides could interact with each other, have smooth joins, etc; rather than you getting stuck to one at a time. Man, that would be great.
 
-\(Another time Paul said “Look at basebrushscript.cs and the method Stroke.Recreate” - the latter is mentioned above.\)
+(Another time Paul said “Look at basebrushscript.cs and the method Stroke.Recreate” - the latter is mentioned above.)
 
 ## Open Questions
 
 1. How to programmatically generate a mesh in such a way that it will correctly save and load back in a .tilt file?
 
-_TB files only save references to meshes \(eg, Poly asset ids, paths to imported fbx or obj files, etc\). Currently the only way to put geometry in a tilt file is to add brush strokes to it._
+_TB files only save references to meshes (eg, Poly asset ids, paths to imported fbx or obj files, etc). Currently the only way to put geometry in a tilt file is to add brush strokes to it._
 
 1. How to modify meshes from either Blocks or Poly that are embedded in a sketch?
 
@@ -428,12 +431,12 @@ _Poly assets are immutable, so if a .tilt has a reference to a poly object, a ti
 
 1. How to fix the undo/save behaviour of experimental brushes using “ParentBrush”?
 
-_See the giant comment at the top of ParentBrush :\) Consider ParentBrush proof-of-concept that needs a week-ish of design thinking and implementation work to turn into something ready for prime time_
+_See the giant comment at the top of ParentBrush :) Consider ParentBrush proof-of-concept that needs a week-ish of design thinking and implementation work to turn into something ready for prime time_
 
 1. How to add parameters to brushes. The sheer number of brushes might become too many and many brushes are simple variants of each other. A UI to allow brush parameters to define variants would help address this.
 2. How to visualize/manipulate stroke knots?
 
-_For the most part the knots aren’t that interesting; but in a pinch you could try taking a stroke, switching its brush to a spray brush \(which lays down one quad per control point\) and calling stroke.Recreate\(\). For bonus points you could create a SprayBrush variant that drops down little coordinate axes instead of quads._
+_For the most part the knots aren’t that interesting; but in a pinch you could try taking a stroke, switching its brush to a spray brush (which lays down one quad per control point) and calling stroke.Recreate(). For bonus points you could create a SprayBrush variant that drops down little coordinate axes instead of quads._
 
 1. How to see the console log in a live VR session?
 
@@ -441,23 +444,23 @@ _For the most part the knots aren’t that interesting; but in a pinch you could
 
 By @1pld
 
-If you have a global transform we have a helper: App.ActiveCanvas.AsCanvas\[your transform component\] = your canvas-relative transform This works no matter where the transform component is in the hierarchy
+If you have a global transform we have a helper: App.ActiveCanvas.AsCanvas\[your transform component] = your canvas-relative transform This works no matter where the transform component is in the hierarchy
 
 ## Other Discord Brain Dumps by @1pld
 
-_\(various nuggets extracted from drive-by comments that Paul made on the Discord\)_
+_(various nuggets extracted from drive-by comments that Paul made on the Discord)_
 
 Knot is a control point with some more data glommed on; it's a term that geometrybrush invented
 
 _Do you need to manually record strokes to memory after using DetachStroke?_
 
-You do. The intent is that Recreate doesn't interact at all with "memory" \(the two linked lists of strokes, ordered by time of first and time of last control poin t\). Recreate, uncreate, etc only affect the stroke geometry. They take it from the state "no geo" to "with geo", or from "with geo" to "with different geo", but shouldn't interact with any higher-level considerations like memory
+You do. The intent is that Recreate doesn't interact at all with "memory" (the two linked lists of strokes, ordered by time of first and time of last control poin t). Recreate, uncreate, etc only affect the stroke geometry. They take it from the state "no geo" to "with geo", or from "with geo" to "with different geo", but shouldn't interact with any higher-level considerations like memory
 
 There may be assumptions that you're calling it on a stroke that's in the linked lists already, so maybe that explains some of the strange behavior you're seeing.. but if you want to memorize a stroke I'm almost certain you should do it yourself; don't count on recreate to do it for you
 
 1pld
 
-Historically, things started with QuadStripBrush, with a couple variants based on how UVs were generated. It just generates strips, 6 unique verts per tri \(3 for top, 3 for bottom, backface culled\). Then there was a variant that produced isolated quads \(for brushes like "leaves"\) instead of strips. QuadStripBrush uses a class called MasterBrush to temporarily store and work on the geometry before it's finalized into a mesh / batch. Then I wrote GeometryBrush to "reboot" geometry generation and enable other kinds of topology. The intent was that QuadStripBrush-based brushes would migrate to FlatGeometryBrush, but the way that QuadStripBrush did its smoothing was not easy to replicate \(the details aren't important but the incremental algorithm QSB uses means that each knot doesn't have "local support" in the technical sense, and GeometryBrush in part was written to force people to use knots with local or at least bounded support for efficiency reasons\). So FlatGeometryBrush isn't used much. Most other brushes are derived from GeometryBrush. GeometryBrush is notable for using a different storage scheme for intermediate geometry called "GeometryPool". This is used all over the place, wherever we want to process mesh data in C\# \(eg: geometry generation, multiplying geometry by a TrTransform, export\). Some of these manipulations have native-code versions that MachWerx wrote in C++; I think we ship that DLL in the repo. The GeometryBrush variant of the old "isolated quad" brushes is SprayBrush, and I think the old version of that doesn't exist in the code any more. GeniusParticlesBrush is I think Xap's very first work on the project and replaced an older less genius way of particle brushes. TubeBrush was our first volumetric brush; it's also slightly notable for using a different method of curve framing. Instead of BaseBrushScript.ComputeSurfaceFrameNew, it uses parallel transport Dark Jeremy wrote HullBrush and that made the concept of "Knot" kind of weird.
+Historically, things started with QuadStripBrush, with a couple variants based on how UVs were generated. It just generates strips, 6 unique verts per tri (3 for top, 3 for bottom, backface culled). Then there was a variant that produced isolated quads (for brushes like "leaves") instead of strips. QuadStripBrush uses a class called MasterBrush to temporarily store and work on the geometry before it's finalized into a mesh / batch. Then I wrote GeometryBrush to "reboot" geometry generation and enable other kinds of topology. The intent was that QuadStripBrush-based brushes would migrate to FlatGeometryBrush, but the way that QuadStripBrush did its smoothing was not easy to replicate (the details aren't important but the incremental algorithm QSB uses means that each knot doesn't have "local support" in the technical sense, and GeometryBrush in part was written to force people to use knots with local or at least bounded support for efficiency reasons). So FlatGeometryBrush isn't used much. Most other brushes are derived from GeometryBrush. GeometryBrush is notable for using a different storage scheme for intermediate geometry called "GeometryPool". This is used all over the place, wherever we want to process mesh data in C# (eg: geometry generation, multiplying geometry by a TrTransform, export). Some of these manipulations have native-code versions that MachWerx wrote in C++; I think we ship that DLL in the repo. The GeometryBrush variant of the old "isolated quad" brushes is SprayBrush, and I think the old version of that doesn't exist in the code any more. GeniusParticlesBrush is I think Xap's very first work on the project and replaced an older less genius way of particle brushes. TubeBrush was our first volumetric brush; it's also slightly notable for using a different method of curve framing. Instead of BaseBrushScript.ComputeSurfaceFrameNew, it uses parallel transport Dark Jeremy wrote HullBrush and that made the concept of "Knot" kind of weird.
 
 ParentBrush was an experiment That's the major ones
 
@@ -467,17 +470,17 @@ Backwards compatibility is a very real issue in the code; we took a very hard li
 
 I think monoscopic mode is a prime area for improvement! A lot of people would benefit
 
-Anything is possible, but the main reason I wrote abstractions like Stroke.Recreate and so on is because I found it hard to keep track of all the contortions with pointers, pointer managers, input, and so on :\). I know I traced through the whole path from input to geometry many many times over the course of the project; it's useful to do. From memory I can sketch it out at a very high level: input comes in from a user, makes its way to a pointer. The pointer deals with creating/finalizing BaseBrushScript instances. The pointer also deals with remembering which control points were used. This is a little gross though; see UpdateLineFromObject. The pointer assumes that the BBS will use a piece of input, and it's up to the BBS to tell it "I used new input to over-write the last quad/whatever" or "I used your input to create an all-new quad", which has implications for which control points the pointer keeps around. Lots of potential for off-by-one errors and so on. Eventually the user lets go of the trigger, the PointerScript terminates the line, deals with off-by-one issues in its control point array, arranges for the geometry in the brush to be finalized into a GameObject/batch, for the control points to be finalized into a stroke, puts the stroke into the memory, and so on
+Anything is possible, but the main reason I wrote abstractions like Stroke.Recreate and so on is because I found it hard to keep track of all the contortions with pointers, pointer managers, input, and so on :). I know I traced through the whole path from input to geometry many many times over the course of the project; it's useful to do. From memory I can sketch it out at a very high level: input comes in from a user, makes its way to a pointer. The pointer deals with creating/finalizing BaseBrushScript instances. The pointer also deals with remembering which control points were used. This is a little gross though; see UpdateLineFromObject. The pointer assumes that the BBS will use a piece of input, and it's up to the BBS to tell it "I used new input to over-write the last quad/whatever" or "I used your input to create an all-new quad", which has implications for which control points the pointer keeps around. Lots of potential for off-by-one errors and so on. Eventually the user lets go of the trigger, the PointerScript terminates the line, deals with off-by-one issues in its control point array, arranges for the geometry in the brush to be finalized into a GameObject/batch, for the control points to be finalized into a stroke, puts the stroke into the memory, and so on
 
-Or we could be loading from a file, in which case the work is substantially similar. We reuse PointerScript to load from files and kind of trick it into thinking that it's being driven from a user; but there are hacks to ensure that the BaseBrushScript doesn't reject any control points coming in. And there are some other hacks to allow brushes to try to process a whole batch of control point input at once instead of one-at-a-time. This was one of the main motivations for GeometryBrush; a brush should 1. not do O\(n\) work for each new control point, and 2. be able to process a group of control points at once instead of doing O\(n\) updates
+Or we could be loading from a file, in which case the work is substantially similar. We reuse PointerScript to load from files and kind of trick it into thinking that it's being driven from a user; but there are hacks to ensure that the BaseBrushScript doesn't reject any control points coming in. And there are some other hacks to allow brushes to try to process a whole batch of control point input at once instead of one-at-a-time. This was one of the main motivations for GeometryBrush; a brush should 1. not do O(n) work for each new control point, and 2. be able to process a group of control points at once instead of doing O(n) updates
 
-Updating "stretch" UVs is obviously always going to be O\(n\) so there are some other hacks to defer that generation until "update visuals" gets called. Maybe some other things. Anyway, there are mechanisms to prevent O\(n^2\) behavior on load. Similarly, you wouldn't want your hull brush to compute a hull N times when loading. Something to think about when writing a geometry generator.
+Updating "stretch" UVs is obviously always going to be O(n) so there are some other hacks to defer that generation until "update visuals" gets called. Maybe some other things. Anyway, there are mechanisms to prevent O(n^2) behavior on load. Similarly, you wouldn't want your hull brush to compute a hull N times when loading. Something to think about when writing a geometry generator.
 
-The batch manager was written because "1 gameobject per stroke" is obvs not scalable. So it's a way of taking a bunch of tiny meshes, all of the same material, and grouping them into larger meshes. The tiny meshes become a "BatchSubset" within a larger mesh "Batch", and a single material \("BatchPool"\) will have multiple meshes \("Batches"\) and the whole thing is orchestrated by BatchManager
+The batch manager was written because "1 gameobject per stroke" is obvs not scalable. So it's a way of taking a bunch of tiny meshes, all of the same material, and grouping them into larger meshes. The tiny meshes become a "BatchSubset" within a larger mesh "Batch", and a single material ("BatchPool") will have multiple meshes ("Batches") and the whole thing is orchestrated by BatchManager
 
-Some thoughts on @andybak 's comment about "let a thousand brushes bloom". Tilt Brush didn't have a well-defined notion of what should happen when loading a .tilt containing an unknown brush guid. It would warn about it, and end up ignoring the strokes using that brush \(see: SaveLoadScript.GetForceSupersededBy which ignores the problem when loading from disk, and StrokePlayback.BaseInit for where that warning is eventually surfaced quite late in the load process, after a stroke creation has already failed\). It got away with that because by construction \(and by control of the ecosystem\) that error was prevented for the most part. In this new ecosystem where "unknown brush" is going to be much more likely, regardless of the strategy chosen for blooming 1000 brushes, I think it's worthwhile replacing the current behavior with something a little more friendly to both producers and consumers of .tilt files. So a sketch of a proposal: - At a minimum, guarantee that loading then saving a .tilt containing an unknown brush preserves strokes using that brush - Embed some "fallback brush" data in the .tilt's brush index, so clients can at least show something reasonable. eg, if a client knows that the missing brush is a quadstrip, tube, spray \(ie, disconnected quads\), volume \(ie, some kind of hull\), particles, or "other", that's enough info to substitute in some generic-looking placeholder brush.
+Some thoughts on @andybak 's comment about "let a thousand brushes bloom". Tilt Brush didn't have a well-defined notion of what should happen when loading a .tilt containing an unknown brush guid. It would warn about it, and end up ignoring the strokes using that brush (see: SaveLoadScript.GetForceSupersededBy which ignores the problem when loading from disk, and StrokePlayback.BaseInit for where that warning is eventually surfaced quite late in the load process, after a stroke creation has already failed). It got away with that because by construction (and by control of the ecosystem) that error was prevented for the most part. In this new ecosystem where "unknown brush" is going to be much more likely, regardless of the strategy chosen for blooming 1000 brushes, I think it's worthwhile replacing the current behavior with something a little more friendly to both producers and consumers of .tilt files. So a sketch of a proposal: - At a minimum, guarantee that loading then saving a .tilt containing an unknown brush preserves strokes using that brush - Embed some "fallback brush" data in the .tilt's brush index, so clients can at least show something reasonable. eg, if a client knows that the missing brush is a quadstrip, tube, spray (ie, disconnected quads), volume (ie, some kind of hull), particles, or "other", that's enough info to substitute in some generic-looking placeholder brush.
 
-There could be a similar discussion around the forward-compatible extension points built into the per-stroke and per-control-point data. Currently there can only be 32 kinds of extension data \(as opposed to basically infinite brushes\), which doesn't seem like enough for an ecosystem. Plus, you'd need someone to control a registry to dole out pieces of that very tiny namespace. On the other hand, it's not like people are clamoring to add new kinds of data to strokes or control points \(... yet\)
+There could be a similar discussion around the forward-compatible extension points built into the per-stroke and per-control-point data. Currently there can only be 32 kinds of extension data (as opposed to basically infinite brushes), which doesn't seem like enough for an ecosystem. Plus, you'd need someone to control a registry to dole out pieces of that very tiny namespace. On the other hand, it's not like people are clamoring to add new kinds of data to strokes or control points (... yet)
 
 andybakToday at 9:03 PM
 
@@ -498,4 +501,3 @@ we could have the smaller taxonomy to help partial implementations - but any pro
 1pldToday at 9:17 PM
 
 Totally; the fallback could be specified as a guid too. I thought that a higher-level approach might be easier for brush authors -- it's the difference between an extra kind-of-inscrutable guid field in the brush descriptor, vs a dropdown saying "brush type"
-
