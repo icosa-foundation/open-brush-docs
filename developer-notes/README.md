@@ -148,49 +148,49 @@ Answer: See SketchControlScript.**UpdateGrab\_ContinuesTwoHands** and implement 
 
 (Also see [Open Brush: Panels, Popups and UI Classes](https://docs.google.com/spreadsheets/d/1G0drrmswg4rs46wUQ2iDw\_vP8sLEy99p-CXyDTihCiE))
 
-* **ActionButton : BaseButton**\
+* **ActionButton :** BaseButton\
   Triggers a UnityEvent assigned in the inspector.
-*   **ActionToggleButton : ActionButton**
+*   **ActionToggleButton :** ActionButton
 
     Triggers a UnityEvent and maintains on/off state
-*   **ConfirmationButton : BaseButton**
+*   **ConfirmationButton :** BaseButton
 
     Used in popups. Calls ResolveDelayedButtonCommand on the parent panel and sends true/false depending on the property set in the inspector
-*   **LongPressButton : OptionButton**
+*   **LongPressButton :** OptionButton
 
     OptionButton that opens a popup when long pressed.
-*   **LongPressToolButton : LongPressButton**
+*   **LongPressToolButton :** LongPressButton
 
     (not used) Extends LongPressButton and adds tool activation
-*   **ModeButton : BaseButton**
+*   **ModeButton :** BaseButton
 
     Not used directly but is the base class for Gallery PolySet and Reference buttons
-*   **MultistateButton : BaseButton**
+*   **MultistateButton :** BaseButton
 
     Cycle through multiple states on each click. Calls a GlobalCommand with the index of the current option
-*   **NavButton : BaseButton**
+*   **NavButton :** BaseButton
 
     Navigates between pages in paged panels and popups.
-*   **OptionButton : BaseButton**
+*   **OptionButton :** BaseButton
 
     Optionally calls a GlobalCommands and passes in two parameters assigned in the inspector. Optionally opens a popup set via the PopupMap on the parent Panel script. \
     Optionally toggles between two states.
-*   **PanelButton : BaseButton**
+*   **PanelButton :** BaseButton
 
     Toggles visibility of a panel (BasePanel.PanelType)
-*   **PropertyToggleButton : BaseButton**
+*   **PropertyToggleButton :** BaseButton
 
     Allows the button to be connected to a bool property on a component, and automatically reflect its value as well as toggling its value when the button in pressed.
-*   **Layers.ToggleButton : BaseButton**
+*   **Layers.ToggleButton :** BaseButton
 
     Performs no action but maintains on/off state
-*   **ToggleButton : OptionButton**
+*   **ToggleButton :** OptionButton
 
     Invokes a UnityAction and also maintains on/off state.
-*   **ToolAndPanelButton : BaseButton**
+*   **ToolAndPanelButton :** BaseButton
 
     Combines ToolButton and PanelButton functionality
-*   **ToolButton : BaseButton**
+*   **ToolButton :** BaseButton
 
     Activates a tool (BaseTool.ToolType)
 
