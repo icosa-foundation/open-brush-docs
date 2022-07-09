@@ -148,12 +148,51 @@ Answer: See SketchControlScript.**UpdateGrab\_ContinuesTwoHands** and implement 
 
 (Also see [Open Brush: Panels, Popups and UI Classes](https://docs.google.com/spreadsheets/d/1G0drrmswg4rs46wUQ2iDw\_vP8sLEy99p-CXyDTihCiE))
 
-* PanelButton: Opens a panel
-* OptionButton: Executes a command
-* ToolButton: Activates a tool
-* MultistateButton: _Only used by Drafting on the Experimental Panel_
-* ProfileButton: _Only used by Profile on the Admin Panel_
-* LongPressButton: _Only used by the mirror tool_
+* **ActionButton : BaseButton**\
+  Triggers a UnityEvent assigned in the inspector.
+*   **ActionToggleButton : ActionButton**
+
+    Triggers a UnityEvent and maintains on/off state
+*   **ConfirmationButton : BaseButton**
+
+    Used in popups. Calls ResolveDelayedButtonCommand on the parent panel and sends true/false depending on the property set in the inspector
+*   **LongPressButton : OptionButton**
+
+    OptionButton that opens a popup when long pressed.
+*   **LongPressToolButton : LongPressButton**
+
+    (not used) Extends LongPressButton and adds tool activation
+*   **ModeButton : BaseButton**
+
+    Not used directly but is the base class for Gallery PolySet and Reference buttons
+*   **MultistateButton : BaseButton**
+
+    Cycle through multiple states on each click. Calls a GlobalCommand with the index of the current option
+*   **NavButton : BaseButton**
+
+    Navigates between pages in paged panels and popups.
+*   **OptionButton : BaseButton**
+
+    Optionally calls a GlobalCommands and passes in two parameters assigned in the inspector. Optionally opens a popup set via the PopupMap on the parent Panel script. \
+    Optionally toggles between two states.
+*   **PanelButton : BaseButton**
+
+    Toggles visibility of a panel (BasePanel.PanelType)
+*   **PropertyToggleButton : BaseButton**
+
+    Allows the button to be connected to a bool property on a component, and automatically reflect its value as well as toggling its value when the button in pressed.
+*   **Layers.ToggleButton : BaseButton**
+
+    Performs no action but maintains on/off state
+*   **ToggleButton : OptionButton**
+
+    Invokes a UnityAction and also maintains on/off state.
+*   **ToolAndPanelButton : BaseButton**
+
+    Combines ToolButton and PanelButton functionality
+*   **ToolButton : BaseButton**
+
+    Activates a tool (BaseTool.ToolType)
 
 ## Pointers and the Input System
 
