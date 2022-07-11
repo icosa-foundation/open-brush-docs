@@ -26,7 +26,7 @@ This is basically my other project Polyhydra ( [https://andybak.net/polyhydra](h
 
 Splits existing strokes.
 
-![](<../../.gitbook/assets/image (13) (1) (1).png>)
+![](<../../.gitbook/assets/image (13) (1) (1) (1).png>)
 
 ### [3. Layers](layers.md)
 

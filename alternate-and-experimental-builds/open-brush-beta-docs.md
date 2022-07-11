@@ -10,7 +10,7 @@ We haven't officially announced the availability of the beta due to the known is
 
 1. Right Click on Open Brush in your Steam Library and choose "Properties"
 
-![](<../.gitbook/assets/image (13) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (13) (1) (1) (1) (1).png>)
 
 2\. Choose "Betas" on the left and then select whether you want the normal or [experimental mode](main-experimental-build.md) version. You can also return to the normal release version by choosing "None"
 
@@ -26,7 +26,7 @@ We haven't officially announced the availability of the beta due to the known is
 
 2\. Or find Open Brush in the mobile app:
 
-![](<../.gitbook/assets/image (12) (1) (1).png>)
+![](<../.gitbook/assets/image (12) (1) (1) (1).png>)
 
 3\. Choose "Beta". (Or you can switch back to "LIVE" if you want to go back to the normal release version. Note: If LIVE has a lower release number than Beta, you'll need to uninstall Open Brush first before downloading the LIVE version again.)
 
