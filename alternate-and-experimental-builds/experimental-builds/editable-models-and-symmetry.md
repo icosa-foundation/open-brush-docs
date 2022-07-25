@@ -35,6 +35,8 @@ Download a build for your headset from the link above and unzip it. You can run 
 3. A tray will appear on the right of the panel with some new buttons. You can pick from a range of shapes by clicking the top button "Shape Gallery".
 4. Draw your chosen shape using the trigger on your drawing hand. Click once to start and release when you're happy with the size.
 
+### The main "3D Shape Tool" buttons
+
 There are four buttons on the tray that appears when the Polyhedra tool is active:
 
 #### 1. Shape Gallery
