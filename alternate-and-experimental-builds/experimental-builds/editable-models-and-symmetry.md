@@ -37,15 +37,11 @@ Download a build for your headset from the link above and unzip it. You can run 
 
 There are four buttons on the tray that appears when the Polyhedra tool is active:
 
-#### Shape Gallery
+#### 1. Shape Gallery
 
 This opens a popup with a selection of built-in shapes to get you started.
 
-#### Shape Designer
-
-This opens a new panel that gives you access to the powerful underlying procedural generation engine. See the section below for detailed information on the Shape Designer
-
-#### Select the "Create" action
+#### 2. Select the "Create" action
 
 Clicking this button cycles through the options for what kind of object you create when you click and drag the trigger on your drawing hand:
 
@@ -55,7 +51,7 @@ Clicking this button cycles through the options for what kind of object you crea
 * **Create a new custom guide:**&#x20;
 * **Create a custom mirror:**&#x20;
 
-#### Select the "Modify" action
+#### 3. Select the "Modify" action
 
 Clicking this button cycles through the options for what the secondary button on your drawing hand does (the "A" button on the Oculus controller or trackpad click on the Vive controller). In all cases you press the secondary button whilst moving your controller over existing editable models in your scene:
 
@@ -64,6 +60,10 @@ Clicking this button cycles through the options for what the secondary button on
 3. **Apply color**: Changes all faces on the model to the current selected brush color.
 4. **Draw brush strokes on faces**: Create brush strokes on the model. One brush stroke for every face.
 5. **Draw brush strokes on edges**: Create brush strokes on the model. One brush stroke for every edge.
+
+#### 4. Shape Designer
+
+This opens a new panel that gives you access to the powerful underlying procedural generation engine. See the section below for detailed information on the Shape Designer
 
 ### Known Issues&#x20;
 
