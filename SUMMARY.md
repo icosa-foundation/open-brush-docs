@@ -44,7 +44,7 @@
     * [Snip Tool](alternate-and-experimental-builds/experimental-builds/snip-tool.md)
     * [Layers](alternate-and-experimental-builds/experimental-builds/layers.md)
     * [Brush Editing](alternate-and-experimental-builds/experimental-builds/brush-editing.md)
-    * [3D Shapes Tool](alternate-and-experimental-builds/experimental-builds/3d-shapes-tool.md)
+    * [3D Shapes Tool](alternate-and-experimental-builds/experimental-builds/editable-models-and-symmetry.md)
   * [Insominx's (michael-g) Experimental Build](alternate-and-experimental-builds/insominxs-michael-g-experimental-build.md)
   * [New Monoscopic Mode](alternate-and-experimental-builds/new-monoscopic-mode.md)
   * [🚀 XR Framework Beta](alternate-and-experimental-builds/xr-framework-experimental-build.md)
