@@ -32,15 +32,15 @@ Already set up? Jump to:\
 
 Our desktop build is now powered by OpenXR! To make it easy to access, we have added a new beta channel on Steam.
 
-![Accessing Open Brush properties via Steam.](<../.gitbook/assets/image (13) (1) (1).png>)
+![Accessing Open Brush properties via Steam.](<../.gitbook/assets/image (13) (1) (1) (1).png>)
 
 First, grab Open Brush from the Steam store. Once you have added it to your library, right click on the listing and choose 'Properties...'
 
-![The beta unlocks!](<../.gitbook/assets/image (15).png>)
+![The beta unlocks!](<../.gitbook/assets/image (15) (1).png>)
 
 Select 'Betas' from the sidebar. In the text box, add the access code: **`openbrushxrbeta` ** and click 'Check Code'. A blue banner will appear below, confirming your access!
 
-![Selecting the beta branch after opting in.](<../.gitbook/assets/image (18).png>)
+![Selecting the beta branch after opting in.](<../.gitbook/assets/image (18) (1).png>)
 
 You can now access the openxr and openxr-experimental betas. select your desired beta from the dropdown and Steam will automatically install that version! The name of the game in your Steam library will be appended with \[openxr].
 
@@ -60,13 +60,13 @@ SideQuest page link for those that know what to do!
 
 SideQuest have just released a new in-headset installer which you can find on the guide above! If you're using this method, simply search for 'Open Brush Beta' from within the SideQuest app to install the beta. From your app drawer, in the top right, there is a dropdown to filter types of apps. Select it, scroll to the bottom, and select 'Unknown Sources'. You will see an app called 'Open Brush (`feature_xr_v2`). Click it to begin testing!
 
-![Open Brush (feature-xr-v2) in the Unknown sources section of the Quest app drawer.](<../.gitbook/assets/image (13).png>)
+![Open Brush (feature-xr-v2) in the Unknown sources section of the Quest app drawer.](<../.gitbook/assets/image (13) (1).png>)
 
 #### Advanced Installer
 
 Make sure your Quest is connected to your device. In the SideQuest app on your computer, search for 'Open Brush Beta'. On the app page, click 'DOWNLOAD APP (SIDELOAD)'. The app will install!
 
-![Searching for Open Brush Beta in SideQuest](<../.gitbook/assets/image (16).png>)
+![Searching for Open Brush Beta in SideQuest](<../.gitbook/assets/image (16) (1).png>)
 
 ![Open Brush Beta page, highlighting the download app button.](<../.gitbook/assets/image (12).png>)
 
@@ -78,7 +78,7 @@ Due to the way the Oculus Desktop store versioning works, we can't automate buil
 
 {% embed url="https://nightly.link/icosa-gallery/open-brush/workflows/build/feature%2Fxr_v2" %}
 
-![nightly.link showing the various builds for xr\_v2](<../.gitbook/assets/image (14).png>)
+![nightly.link showing the various builds for xr\_v2](<../.gitbook/assets/image (14) (1).png>)
 
 Click the long link beside the name of the build you wish to use (i.e. Windows Rift). A quick reminder that Windows Rift is the build you want if you're using Quest linked to your PC!
 

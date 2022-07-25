@@ -10,11 +10,11 @@ We haven't officially announced the availability of the beta due to the known is
 
 1. Right Click on Open Brush in your Steam Library and choose "Properties"
 
-![](<../.gitbook/assets/image (13) (1) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (13) (1) (1) (1) (1) (1).png>)
 
 2\. Choose "Betas" on the left and then select whether you want the normal or [experimental mode](main-experimental-build.md) version. You can also return to the normal release version by choosing "None"
 
-![](<../.gitbook/assets/image (15) (1).png>)
+![](<../.gitbook/assets/image (15) (1) (1).png>)
 
 3\. Wait for Open Brush to update.
 
@@ -22,7 +22,7 @@ We haven't officially announced the availability of the beta due to the known is
 
 1\. Either use the Oculus App on your PC or go to the AppLab Store page (google "Open Brush Quest" or "Open Brush Rift" depending on whether you want the PC or native Quest version):
 
-![](<../.gitbook/assets/image (14) (1) (1).png>)
+![](<../.gitbook/assets/image (14) (1) (1) (1).png>)
 
 2\. Or find Open Brush in the mobile app:
 

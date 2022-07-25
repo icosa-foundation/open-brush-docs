@@ -28,6 +28,8 @@ Download a build for your headset from the link above and unzip it. You can run 
 
 ### How do I use the Polyhedra tool?
 
+![](<../../.gitbook/assets/image (15).png>)
+
 1. Switch out of beginner mode and you'll see the "Experimental Tools" panel on your wand.
 2. There is a new icon at the bottom that looks like a wireframe cube. Click that to activate the polyhedra tool.
 3. A tray will appear on the right of the panel with some new buttons. You can pick from a range of shapes by clicking the top button "Shape Gallery".
@@ -81,6 +83,14 @@ Clicking this button cycles through the options for what the secondary button on
 2. You can grab the symmetry widget and change it's position and orientation.
 
 ### Using the Shape Designer
+
+![The "Generate" panel showing the main shape categories](<../../.gitbook/assets/image (13).png>)
+
+![The "Modify" panel showing 3 modifiers applied to the shape.](<../../.gitbook/assets/image (14).png>)
+
+![The "Appearance" panel showing color and material options.](<../../.gitbook/assets/image (18).png>)
+
+![The "Presets" popup where you can save the shapes you've created.](<../../.gitbook/assets/image (16).png>)
 
 (docs coming soon)
 
