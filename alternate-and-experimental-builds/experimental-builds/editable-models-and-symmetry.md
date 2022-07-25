@@ -26,12 +26,12 @@ Creating regular patterns and geometry forms.
 
 Download a build for your headset from the link above and unzip it. You can run the Windows exe directly. To install the Quest apk use SideQuest: [https://uploadvr.com/sideloading-quest-how-to/](https://uploadvr.com/sideloading-quest-how-to/)
 
-### How do I use the Polyhedra tool?
+### How do I use the 3D Shapes tool?
 
 ![](<../../.gitbook/assets/image (15).png>)
 
-1. Switch out of beginner mode and you'll see the "Experimental Tools" panel on your wand.
-2. There is a new icon at the bottom that looks like a wireframe cube. Click that to activate the polyhedra tool.
+1. (Make sure you've switch off beginner mode) Find the "Experimental Tools" panel which is usually attached to your wand.
+2. There will be a new icon at the bottom that looks like a wireframe cube. Click that to activate the 3D shape tool.
 3. A tray will appear on the right of the panel with some new buttons. You can pick from a range of shapes by clicking the top button "Shape Gallery".
 4. Draw your chosen shape using the trigger on your drawing hand. Click once to start and release when you're happy with the size.
 
@@ -43,17 +43,17 @@ There are four buttons on the tray that appears when the Polyhedra tool is activ
 
 This opens a popup with a selection of built-in shapes to get you started.
 
-#### 2. Select the "Create" action
+#### 2. "Create" action
 
 Clicking this button cycles through the options for what kind of object you create when you click and drag the trigger on your drawing hand:
 
-* **Create an editable shape:**&#x20;
-* **Create brush strokes based on the shape faces:**&#x20;
-* **Create brush strokes based on the shape edges:**&#x20;
-* **Create a new custom guide:**&#x20;
-* **Create a custom mirror:**&#x20;
+* **Create a 3D Shape:** This will create a 3D shape in the scene based on your current choice of shape. A 3D shape is similar to an imported 3D model except it is generated on the fly based on settings that you choose.
+* **Create brush strokes based on shape faces:** Instead of creating a 3D shape this uses your current chosen shape as a template to draw brush strokes around the edges of each face.
+* **Create brush strokes based on shape edges:** This is similar to the above except it creates shorter brush strokes (but more of them). One for each edge in the shape. Experiment with these two different modes. Some will work better for one combination of brush and shape than the other.
+* **Create a new custom guide:** This creates a new guide based on your current chosen shape. It has the limitation that only convex shapes are allowed so if you have a concave shape the the "convex hull" of it will be used to make the guide.
+* **Create a custom mirror:** This creates a custom mirror that works in a similar way to the normal mirror tool. However instead of two copies of your brush strokes, the custom mirror can create multiple strokes - one for every face of your chosen shape.
 
-#### 3. Select the "Modify" action
+#### 3. "Modify" action
 
 Clicking this button cycles through the options for what the secondary button on your drawing hand does (the "A" button on the Oculus controller or trackpad click on the Vive controller). In all cases you press the secondary button whilst moving your controller over existing editable models in your scene:
 
