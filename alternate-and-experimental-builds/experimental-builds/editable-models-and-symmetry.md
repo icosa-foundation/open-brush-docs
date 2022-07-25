@@ -8,10 +8,10 @@
 
 (These links aren't all currently working. I'm working on getting this fixed ASAP)
 
-* [Oculus Quest](https://nightly.link/IxxyXR/open-brush/workflows/build/editable%20models/Oculus%20Quest%20Experimental.zip)
-* [Oculus PC VR](https://nightly.link/IxxyXR/open-brush/workflows/build/editable%20models/Windows%20Rift%20Experimental.zip) (Rift, Quest via Link cable...)
-* [SteamVR](https://nightly.link/IxxyXR/open-brush/workflows/build/editable%20models/Windows%20SteamVR%20Experimental.zip) (Vive, Index, Reverb...)
-* [Other Builds](https://nightly.link/IxxyXR/open-brush/workflows/build/editable%20models) (Non-VR, Linux, Mac...)
+* [Oculus Quest](https://nightly.link/IxxyXR/open-brush/workflows/build/features%2Feditable-models-openxr/Oculus%20Quest%20Experimental.zip)
+* [Oculus PC VR](https://nightly.link/IxxyXR/open-brush/workflows/build/features%2Feditable-models-openxr/Windows%20Rift%20Experimental.zip) (Rift, Quest via Link cable...)
+* [SteamVR](https://nightly.link/IxxyXR/open-brush/workflows/build/features%2Feditable-models-openxr/Windows%20OpenXR%20Experimental.zip) (Vive, Index, Reverb...)
+* [Other Builds](https://nightly.link/IxxyXR/open-brush/workflows/build/features%2Feditable-models-openxr) (Non-VR, Linux, Mac...)
 
 ### What does it do?
 
