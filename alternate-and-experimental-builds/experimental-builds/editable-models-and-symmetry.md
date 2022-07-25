@@ -53,6 +53,8 @@ Clicking this button cycles through the options for what kind of object you crea
 * **Create a new custom guide:** This creates a new guide based on your current chosen shape. It has the limitation that only convex shapes are allowed so if you have a concave shape the the "convex hull" of it will be used to make the guide.
 * **Create a custom mirror:** This creates a custom mirror that works in a similar way to the normal mirror tool. However instead of two copies of your brush strokes, the custom mirror can create multiple strokes - one for every face of your chosen shape.
 
+<mark style="color:red;">**WARNING!**</mark> There are currently no limits in place preventing you creating very complex shapes. It's quite easy to make everything super slow and potentially even cause Open Brush to crash.
+
 #### 3. "Modify" action
 
 Clicking this button cycles through the options for what the secondary button on your drawing hand does (the "A" button on the Oculus controller or trackpad click on the Vive controller). In all cases you press the secondary button whilst moving your controller over existing editable models in your scene:
