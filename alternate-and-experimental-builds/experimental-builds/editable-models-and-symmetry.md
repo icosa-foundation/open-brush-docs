@@ -20,7 +20,7 @@ The core feature is support for low-poly 3d models that can be modified directly
 
 ### What's it good for?
 
-Creating regular patterns and geometry forms.
+Creating symmetrical patterns, geometric forms and complex 3d shapes.
 
 ### How do I install it?
 
@@ -34,6 +34,8 @@ Download a build for your headset from the link above and unzip it. You can run 
 2. There will be a new icon at the bottom that looks like a wireframe cube. Click that to activate the 3D shape tool.
 3. A tray will appear on the right of the panel with some new buttons. You can pick from a range of shapes by clicking the top button "Shape Gallery".
 4. Draw your chosen shape using the trigger on your drawing hand. Click once to start and release when you're happy with the size.
+
+<mark style="color:red;">**WARNING!**</mark> There are currently no limits in place preventing you creating very complex shapes. It's quite easy to make everything super slow and potentially even cause Open Brush to crash.
 
 ### The main "3D Shape Tool" buttons
 
@@ -52,8 +54,6 @@ Clicking this button cycles through the options for what kind of object you crea
 * **Create brush strokes based on shape edges:** This is similar to the above except it creates shorter brush strokes (but more of them). One for each edge in the shape. Experiment with these two different modes. Some will work better for one combination of brush and shape than the other.
 * **Create a new custom guide:** This creates a new guide based on your current chosen shape. It has the limitation that only convex shapes are allowed so if you have a concave shape the the "convex hull" of it will be used to make the guide.
 * **Create a custom mirror:** This creates a custom mirror that works in a similar way to the normal mirror tool. However instead of two copies of your brush strokes, the custom mirror can create multiple strokes - one for every face of your chosen shape.
-
-<mark style="color:red;">**WARNING!**</mark> There are currently no limits in place preventing you creating very complex shapes. It's quite easy to make everything super slow and potentially even cause Open Brush to crash.
 
 #### 3. "Modify" action
 
