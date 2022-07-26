@@ -1,6 +1,8 @@
 # Polyhedra and Symmetry
 
-#### Status: Mostly usable with a few bugs.
+#### Status: <mark style="color:red;">OUTDATED</mark>
+
+<mark style="color:red;background-color:red;">**THIS BRANCH HAS BEEN SUPERCEDED BY A NEW COMPLETELY WRITTEN VERSION WITH MANY MORE FEATURES**</mark>
 
 ## Downloads
 

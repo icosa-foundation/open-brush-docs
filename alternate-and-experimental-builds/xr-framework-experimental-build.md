@@ -40,7 +40,7 @@ First, grab Open Brush from the Steam store. Once you have added it to your libr
 
 Select 'Betas' from the sidebar. In the text box, add the access code: **`openbrushxrbeta` ** and click 'Check Code'. A blue banner will appear below, confirming your access!
 
-![Selecting the beta branch after opting in.](<../.gitbook/assets/image (18) (1).png>)
+![Selecting the beta branch after opting in.](<../.gitbook/assets/image (17) (1).png>)
 
 You can now access the openxr and openxr-experimental betas. select your desired beta from the dropdown and Steam will automatically install that version! The name of the game in your Steam library will be appended with \[openxr].
 

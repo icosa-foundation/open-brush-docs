@@ -8,8 +8,8 @@
 
 (These links aren't all currently working. I'm working on getting this fixed ASAP)
 
-* ~~~~[~~Oculus Quest~~](https://nightly.link/IxxyXR/open-brush/workflows/build/features%2Feditable-models-openxr/Oculus%20Quest%20Experimental.zip)~~~~\
-  ~~~~(This build is currently outdated because of technical issues)
+* [Oculus Quest](https://nightly.link/IxxyXR/open-brush/workflows/build/features%2Feditable-models-openxr/Oculus%20Quest%20Experimental.zip)~~~~\
+  ~~~~(This build is sometimes slightly behind the PC versions because of some issues we're having with Github's build service)
 * [Oculus PC VR](https://nightly.link/IxxyXR/open-brush/workflows/build/features%2Feditable-models-openxr/Windows%20Rift%20Experimental.zip) (Rift, Quest via Link cable...)
 * [SteamVR](https://nightly.link/IxxyXR/open-brush/workflows/build/features%2Feditable-models-openxr/Windows%20OpenXR%20Experimental.zip) (Vive, Index, Reverb...)
 * [Other Builds](https://nightly.link/IxxyXR/open-brush/workflows/build/features%2Feditable-models-openxr) (Non-VR, Linux, Mac...)

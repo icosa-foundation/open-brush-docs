@@ -34,7 +34,7 @@ Splits existing strokes.
 
 Organize your sketch into layers that can be turned on or off separately.
 
-![](<../../.gitbook/assets/image (11) (1).png>)
+![](<../../.gitbook/assets/image (12) (1) (1).png>)
 
 ### [4. Brush Editing](brush-editing.md)
 
