@@ -4,6 +4,8 @@
 
 <mark style="color:red;background-color:red;">**THIS BRANCH HAS BEEN SUPERCEDED BY A NEW COMPLETELY WRITTEN VERSION WITH MANY MORE FEATURES**</mark>
 
+See the new [3D Shapes](editable-models-and-symmetry.md) feature instead!
+
 ## Downloads
 
 * [Oculus Quest](https://nightly.link/IxxyXR/open-brush/workflows/build/features%2Fsymmetry/Oculus%20Quest%20Experimental.zip)
