@@ -27,7 +27,9 @@ The system requirements for running Open Brush are the same system requirements 
 
 **Oculus Quest**
 
-1. Set up your [Oculus Quest.](https://www.oculus.com/setup/#quest-setup)
+Oculus Quests can either be used standalone or tethered to a PC. For tethered ("PCVR" mode), see the instructions above for the SteamVR build for HTC Vive / Valve index. For standalone mode (which has some performance limitations compared to being connected to a PC), follow these instructions:
+
+1. Set up your [Oculus Quest](https://www.oculus.com/setup/#quest-setup).
 2. Download the [Open Brush](https://www.oculus.com/experiences/quest/3600360710032222/) app, currently on App Lab.
 3. To open Open Brush, open the **Oculus Home Library** &gt; **Open Brush.**
 
