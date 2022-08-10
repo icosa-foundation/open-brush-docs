@@ -57,7 +57,7 @@ Clicking this button cycles through the options for what kind of object you crea
 
 #### 3. "Modify" action
 
-Clicking this button cycles through the options for what the secondary button on your drawing hand does (the "A" button on the Oculus controller or trackpad click on the Vive controller). In all cases you press the secondary button whilst moving your controller over existing editable models in your scene:
+Clicking this button cycles through the options for what the secondary button on your drawing hand does (the "A" button on the Oculus controller or trackpad click on the Vive controller). In all cases you hold down the secondary button whilst moving your controller over existing editable models in your scene:
 
 1. **Apply settings**: picks up the Shape Designer settings from the model and loads those settings into the Shape Designer panel.
 2. **Grab settings**: Applies the current Shape Designer Settings to the model.
