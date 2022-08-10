@@ -36,6 +36,4 @@ We haven't officially announced the availability of the beta due to the known is
 
 ## New Features <a href="#_lnka1z4mzei7" id="_lnka1z4mzei7"></a>
 
-There are no new features in the beta right now as they all were merged into the [v1.0 release](../release-history.md#v1.0-happy-birthday-to-us)
-
-We've got v1.1 currently in progress. Features planned for this include [layer support](experimental-builds/layers.md) and the ability to selectively [cut and delete parts of existing strokes](experimental-builds/snip-tool.md). This should be available as a beta release in the next few weeks.
+The current beta is for the release that will become Open Brush 1.1. Features include [layer support](experimental-builds/layers.md) and the ability to selectively [cut and delete parts of existing strokes](experimental-builds/snip-tool.md).&#x20;
