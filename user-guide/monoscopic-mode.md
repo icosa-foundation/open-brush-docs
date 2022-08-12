@@ -14,7 +14,7 @@ We don't currently publish the monoscopic version alongside other releases but o
 
 1. Go to this page: [https://github.com/icosa-gallery/open-brush/actions](https://github.com/icosa-gallery/open-brush/actions) and look through the list of builds until you see one with "main" in the middle column:
 
-![](../.gitbook/assets/image.png)
+![](<../.gitbook/assets/image (7).png>)
 
 2\. Once you've found one then click on the first column ("Builds" in this case but that might differ) and you'll see something similar to this:
 

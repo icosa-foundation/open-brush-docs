@@ -1,7 +1,5 @@
 # Grid and Angle Snapping
 
-
-
 ### What does it do?
 
 ![TODO](https://cdn.discordapp.com/attachments/804251582715265034/846812293177933894/2021-05-25\_19-06-31.gif)
@@ -14,13 +12,17 @@
 
 Drawing along straight x, y or z lines. Building regular structures up by making multiple copies of brush strokes
 
-
-
 ### How do I use it?
 
-Click the new button on the Labs panel to open the new Snap Settings panel
+![](../.gitbook/assets/Ws4OtCzR34.png)
 
+Click the new button shown above on the [Labs panel ](check-out-labs-or-experimental-features.md#accessing-the-labs-panel)to open the new Snap Settings panel:
 
+![C](../.gitbook/assets/hrQS2eaDoU.png)
+
+Click the Snap Angle or Snap Grid buttons to cycle through angles and grid sizes.
+
+The Jitter button is the same as the the button on the Color Picker. It's included here for convenience as [position jitter and other settings ](repaint-tool.md#jitter-positions)can be useful with snapped brush strokes.
 
 ### Can I see it in action?
 
