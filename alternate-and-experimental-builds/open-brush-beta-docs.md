@@ -1,4 +1,6 @@
-# Open Brush Beta Docs
+# Beta Release
+
+This build is the pre-release version of Open Brush and may contain untested new features. See the [release history](../release-history.md) for more information on new and upcoming features.
 
 ### Important note <a href="#_lnka1z4mzei7" id="_lnka1z4mzei7"></a>
 
@@ -36,4 +38,4 @@ We haven't officially announced the availability of the beta due to the known is
 
 ## New Features <a href="#_lnka1z4mzei7" id="_lnka1z4mzei7"></a>
 
-The current beta is for the release that will become Open Brush 1.1. Features include [layer support](experimental-builds/layers.md) and the ability to selectively [cut and delete parts of existing strokes](experimental-builds/snip-tool.md).&#x20;
+The current beta is for the release that will become Open Brush 1.1. Features include [layer support](old-or-completed-feature-builds/layers.md) and the ability to selectively [cut and delete parts of existing strokes](old-or-completed-feature-builds/snip-tool.md).&#x20;

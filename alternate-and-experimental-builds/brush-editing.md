@@ -1,4 +1,4 @@
-# Brush Editing
+# Feature: Brush Editing
 
 #### Status: Buggy (especially the Quest version) but powerful and worth trying
 
@@ -48,3 +48,5 @@ Come over to the [Open Brush Discord](https://discord.com/invite/fS69VdFXpk) and
 I made a quick video showing an early stage example:
 
 {% embed url="https://www.youtube.com/watch?v=BWCpKSLiWKE" %}
+
+{% embed url="https://www.youtube.com/watch?time_continue=7&v=G3LN3OEPqKQ&feature=emb_logo" %}

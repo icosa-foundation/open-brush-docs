@@ -1,4 +1,4 @@
-# Snip Tool
+# Feature: Snip Tool
 
 #### Status: <mark style="color:green;">Released to</mark> [<mark style="color:green;">beta</mark>](../open-brush-beta-docs.md)<mark style="color:green;"></mark>
 
@@ -12,6 +12,8 @@
 No longer available as a separate build. Instead see the docs on [accessing the beta release](../open-brush-beta-docs.md)
 
 ### What does it do?
+
+![](../../.gitbook/assets/image.png)
 
 {% embed url="https://twitter.com/andybak/status/1488929073288163332?s=20&t=T74T-QeYnZna7cKASXBGgg" %}
 

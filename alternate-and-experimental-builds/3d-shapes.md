@@ -1,6 +1,6 @@
-# 3D Shapes Tool
+# Feature: 3D Shapes Tool
 
-(These docs are a work in progress)
+
 
 #### Status: Ready for beta testing
 
@@ -28,7 +28,7 @@ Download a build for your headset from the link above and unzip it. You can run 
 
 ### How do I use the 3D Shapes tool?
 
-![](<../../.gitbook/assets/image (15).png>)
+![](<../.gitbook/assets/image (15).png>)
 
 1. (Make sure you've switch off beginner mode) Find the "Experimental Tools" panel which is usually attached to your wand.
 2. There will be a new icon at the bottom that looks like a wireframe cube. Click that to activate the 3D shape tool.
@@ -88,13 +88,13 @@ This opens a new panel that gives you access to the powerful underlying procedur
 
 ### Using the Shape Designer
 
-![The "Generate" panel showing the main shape categories](<../../.gitbook/assets/image (13).png>)
+![The "Generate" panel showing the main shape categories](<../.gitbook/assets/image (13).png>)
 
-![The "Modify" panel showing 3 modifiers applied to the shape.](<../../.gitbook/assets/image (14).png>)
+![The "Modify" panel showing 3 modifiers applied to the shape.](<../.gitbook/assets/image (14).png>)
 
-![The "Appearance" panel showing color and material options.](<../../.gitbook/assets/image (18).png>)
+![The "Appearance" panel showing color and material options.](<../.gitbook/assets/image (18).png>)
 
-![The "Presets" popup where you can save the shapes you've created.](<../../.gitbook/assets/image (16).png>)
+![The "Presets" popup where you can save the shapes you've created.](<../.gitbook/assets/image (16).png>)
 
 (docs coming soon)
 
@@ -107,5 +107,7 @@ Come over to the Open Brush Discord: [https://discord.com/invite/fS69VdFXpk](htt
 I'm on UK time (currently UTC+1) but I check in fairly regularly.
 
 ### Can I see it in action?
+
+<figure><img src="../.gitbook/assets/polyhedra_tool.png" alt=""><figcaption></figcaption></figure>
 
 (docs coming soon)

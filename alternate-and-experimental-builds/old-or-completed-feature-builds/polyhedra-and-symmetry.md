@@ -1,10 +1,10 @@
-# Polyhedra and Symmetry
+# Feature: Polyhedra
 
 #### Status: <mark style="color:red;">OUTDATED</mark>
 
 <mark style="color:red;background-color:red;">**THIS BRANCH HAS BEEN SUPERCEDED BY A NEW COMPLETELY WRITTEN VERSION WITH MANY MORE FEATURES**</mark>
 
-See the new [3D Shapes](editable-models-and-symmetry.md) feature instead!
+See the new [3D Shapes](../3d-shapes.md) feature instead!
 
 ## Downloads
 
