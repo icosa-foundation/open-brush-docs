@@ -10,4 +10,4 @@
 8. Investigate limits to model import complexity and document them
 9. Document "Simplification" and check for other missing settings docs
 10. Add a "Case Studies" page
-
+11. user-guide/monoscopic-mode page - better download links ( use nightly.link )
