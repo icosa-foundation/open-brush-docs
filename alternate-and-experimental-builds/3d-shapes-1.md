@@ -32,7 +32,10 @@ Long press the mirror button on the Experimental Panel.
 
 ### Known Issues&#x20;
 
-(To do)
+1. Not all brushes work. Flat brushes are missing whenever the symmetry is mirrored (you might see half the number of copies you were expecting. Most tube-like brushes work
+2. Wallpaper symmetry doesn't scale properly with the canvas
+3. Wallpaper symmetry is not centered on the Mirror widget
+4. Wallpaper symmetry sometimes transforms the stroke you're drawing. This is a bit confusing but it's possible to work with.
 
 ## How do I get help
 

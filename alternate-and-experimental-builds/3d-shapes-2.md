@@ -1,6 +1,6 @@
 # Feature: Transform Panel
 
-#### Status: Working - with some caveats
+#### Status: Partially working. Axis locks and align are working. Entering transforms manually is buggy. Distribute is partially working.
 
 ## Downloads
 
