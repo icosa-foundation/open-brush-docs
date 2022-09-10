@@ -1,12 +1,8 @@
 # Feature: 3D Shapes Tool
 
-
-
-#### Status: Ready for beta testing
+#### Status: Mostly working. Some improvements to the UI are needed. Ready for beta testing
 
 ## Downloads
-
-(These links aren't all currently working. I'm working on getting this fixed ASAP)
 
 * [Oculus Quest](https://nightly.link/IxxyXR/open-brush/workflows/build/features%2Feditable-models-openxr/Oculus%20Quest%20Experimental.zip)~~~~\
   ~~~~(This build is sometimes slightly behind the PC versions because of some issues we're having with Github's build service)
@@ -98,13 +94,13 @@ This opens a new panel that gives you access to the powerful underlying procedur
 
 (docs coming soon)
 
-###
+
 
 ## How do I get help
 
 Come over to the Open Brush Discord: [https://discord.com/invite/fS69VdFXpk](https://discord.com/invite/fS69VdFXpk) and chat to me ( andybak#5425 ).
 
-I'm on UK time (currently UTC+1) but I check in fairly regularly.
+I'm on UK time but I check in fairly regularly.
 
 ### Can I see it in action?
 

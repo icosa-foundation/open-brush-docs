@@ -18,11 +18,11 @@ We don't currently publish the monoscopic version alongside other releases but o
 
 2\. Once you've found one then click on the first column ("Builds" in this case but that might differ) and you'll see something similar to this:
 
-![](<../.gitbook/assets/image (1).png>)
+![](<../.gitbook/assets/image (1) (1).png>)
 
 3\. The number underneath "Artifacts" on the right takes you to the list of downloads at the bottom of the page:
 
-![](<../.gitbook/assets/image (2) (1).png>)
+![](<../.gitbook/assets/image (2).png>)
 
 4\. Assuming you're logged in, the text on the left of any of the rows will start a download. In this case you want one with "Monoscopic" in the name - for example "Windows Monoscopic Experimental"
 

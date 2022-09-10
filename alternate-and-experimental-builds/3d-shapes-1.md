@@ -1,0 +1,45 @@
+# Feature: Multi-Mirror
+
+#### Status: Working - with some caveats
+
+## Downloads
+
+* [Oculus Quest](https://nightly.link/IxxyXR/open-brush/workflows/build/feature%2Fmulti-mirrors/Oculus%20Quest%20Experimental.zip)~~~~\
+  ~~~~(This build is sometimes slightly behind the PC versions because of some issues we're having with Github's build service)
+* [Oculus PC VR](https://nightly.link/IxxyXR/open-brush/workflows/build/feature%2Fmulti-mirrors/Windows%20Rift%20Experimental.zip) (Rift, Quest via Link cable...)
+* [SteamVR](https://nightly.link/IxxyXR/open-brush/workflows/build/feature%2Fmulti-mirrors/Windows%20OpenXR%20Experimental.zip) (Vive, Index, Reverb...)
+* [Other Builds](https://nightly.link/IxxyXR/open-brush/workflows/build/feature%2Fmulti-mirrors) (Non-VR, Linux, Mac...)
+
+### What does it do?
+
+Big expansion to the mirror to support many different types of symmetry:
+
+**Point Symmetry:** Symmetry around a point. 7 familiies of axial symmetry plus 3 (soon to be 7) unique polyhedral symmetries.
+
+**Wallpaper Symmetry:** 17 types of tiling symmetry
+
+### What's it good for?
+
+Creating symmetrical patterns from your brush strokes.
+
+### How do I install it?
+
+Download a build for your headset from the link above and unzip it. You can run the Windows exe directly. To install the Quest apk use SideQuest: [https://uploadvr.com/sideloading-quest-how-to/](https://uploadvr.com/sideloading-quest-how-to/)
+
+### Where do I find the new mirror modes?
+
+Long press the mirror button on the Experimental Panel.
+
+### Known Issues&#x20;
+
+(To do)
+
+## How do I get help
+
+Come over to the Open Brush Discord: [https://discord.com/invite/fS69VdFXpk](https://discord.com/invite/fS69VdFXpk) and chat to me ( andybak#5425 ).
+
+I'm on UK time but I check in fairly regularly.
+
+### Can I see it in action?
+
+(To do)

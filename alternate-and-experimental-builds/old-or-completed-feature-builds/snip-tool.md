@@ -13,7 +13,7 @@ No longer available as a separate build. Instead see the docs on [accessing the 
 
 ### What does it do?
 
-![](../../.gitbook/assets/image.png)
+![](<../../.gitbook/assets/image (1).png>)
 
 {% embed url="https://twitter.com/andybak/status/1488929073288163332?s=20&t=T74T-QeYnZna7cKASXBGgg" %}
 

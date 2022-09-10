@@ -9,7 +9,7 @@ Note: You can switch which hand is your painting controller and which is your pa
 
 ### **Using the palette**
 
-![](<../.gitbook/assets/image (3).png>)
+![](<../.gitbook/assets/image (3) (1).png>)
 
 1. On your palette controller, use your thumb to swipe left or right across the thumbpad (HTC Vive) or thumbstick (Oculus Rift and Windows Mixed Reality).
 2. This will allow you to rotate between the three faces of the palette.

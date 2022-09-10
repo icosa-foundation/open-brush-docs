@@ -41,6 +41,8 @@
   * [🚀 XR Framework Beta](alternate-and-experimental-builds/xr-framework-experimental-build.md)
   * ["Experimental Mode" Builds](alternate-and-experimental-builds/main-experimental-build.md)
   * [Feature: 3D Shapes Tool](alternate-and-experimental-builds/3d-shapes.md)
+  * [Feature: Multi-Mirror](alternate-and-experimental-builds/3d-shapes-1.md)
+  * [Feature: Transform Panel](alternate-and-experimental-builds/3d-shapes-2.md)
   * [Feature: Brush Editing](alternate-and-experimental-builds/brush-editing.md)
   * [Feature: New Monoscopic Mode](alternate-and-experimental-builds/new-monoscopic-mode.md)
   * [Old or Completed Feature Builds](alternate-and-experimental-builds/old-or-completed-feature-builds/README.md)
