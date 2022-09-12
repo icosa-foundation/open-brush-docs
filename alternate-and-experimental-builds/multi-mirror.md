@@ -1,6 +1,6 @@
 # Feature: Multi-Mirror
 
-#### Status: Working - with some caveats
+#### Status: Working - buggy with some caveats - but fun to play with
 
 ## Downloads
 
