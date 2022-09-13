@@ -6,6 +6,8 @@ coverY: 23.641703377386197
 
 # 🚀 XR Framework Beta
 
+**Status: Merged! Find this on the main** [**beta release**](open-brush-beta-docs.md)**!**
+
 We have been hard at work updating Open Brush to the latest version of Unity and it's new XR Framework. This will enable us to keep up to date with new features that are only available with modern VR SDKs such as hand tracking and passthrough. In addition it will make it much easier to support new platforms and devices moving forward.
 
 As this is a big fundamental change in how Open Brush interacts with devices, we need your help testing our new builds before we release it generally.
