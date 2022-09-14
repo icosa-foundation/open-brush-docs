@@ -2,6 +2,8 @@
 
 #### Status: Working - buggy with some caveats - but fun to play with
 
+{% embed url="https://www.youtube.com/watch?v=khsI-7rl2yg" %}
+
 ## Downloads
 
 * [Oculus Quest](https://nightly.link/IxxyXR/open-brush/workflows/build/feature%2Fmulti-mirrors/Oculus%20Quest%20Experimental.zip)~~~~\
@@ -11,6 +13,8 @@
 * [Other Builds](https://nightly.link/IxxyXR/open-brush/workflows/build/feature%2Fmulti-mirrors) (Non-VR, Linux, Mac...)
 
 ### What does it do?
+
+
 
 Big expansion to the mirror to support many different types of symmetry:
 
