@@ -2,6 +2,8 @@
 
 #### Status: Partially working. Axis locks and align are working. Entering transforms manually is buggy. Distribute is partially working.
 
+{% embed url="https://www.youtube.com/watch?v=RgqE1w4t7iU&list=PL94EgLgEIJyKJiFsNYj7tMUDz81ozt6sI&index=4" %}
+
 ## Downloads
 
 * [Oculus Quest](https://nightly.link/IxxyXR/open-brush/workflows/build/feature%2Ftransform-panel/Oculus%20Quest%20Experimental.zip)~~~~\

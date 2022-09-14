@@ -2,6 +2,8 @@
 
 #### Status: Mostly working. Some improvements to the UI are needed. Ready for beta testing
 
+{% embed url="https://www.youtube.com/watch?v=Lnf6mS8xNIg" %}
+
 ## Downloads
 
 * [Oculus Quest](https://nightly.link/IxxyXR/open-brush/workflows/build/features%2Feditable-models-openxr/Oculus%20Quest%20Experimental.zip)~~~~\
