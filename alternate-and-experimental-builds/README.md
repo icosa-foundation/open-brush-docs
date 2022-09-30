@@ -14,8 +14,8 @@ Because of a big change currently in progress there are actually two beta versio
 
 The original VR framework in Unity is deprecated and all new apps are built using the Unity XR Plugin framework. We intend to switch to this going forward and we need to to support newer Oculus features and other headsets such as the Vive Focus:
 
-{% content-ref url="xr-framework-experimental-build.md" %}
-[xr-framework-experimental-build.md](xr-framework-experimental-build.md)
+{% content-ref url="old-or-completed-feature-builds/xr-framework-experimental-build.md" %}
+[xr-framework-experimental-build.md](old-or-completed-feature-builds/xr-framework-experimental-build.md)
 {% endcontent-ref %}
 
 ## "Experimental Mode" Build
