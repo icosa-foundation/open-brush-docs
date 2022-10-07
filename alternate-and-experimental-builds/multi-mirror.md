@@ -2,6 +2,8 @@
 
 #### Status: Working - with some known issues (mainly cosmetic)
 
+<img src="../.gitbook/assets/image (2) (3).png" alt="" data-size="original">
+
 <img src="../.gitbook/assets/image (2).png" alt="" data-size="original">
 
 ## Downloads
