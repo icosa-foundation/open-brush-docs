@@ -2,9 +2,9 @@
 
 #### Status: Working - with some known issues (mainly cosmetic)
 
-<img src="../.gitbook/assets/image (2) (3).png" alt="" data-size="original">
+<img src="../.gitbook/assets/image (2).png" alt="" data-size="original"> <img src="../.gitbook/assets/image (7).png" alt="" data-size="original">
 
-<img src="../.gitbook/assets/image (2).png" alt="" data-size="original">
+<img src="../.gitbook/assets/image.png" alt="" data-size="original">
 
 ## Downloads
 
@@ -50,7 +50,7 @@ This will bring up the Symmetry settings panel which contains three tabs:
 
 #### Options
 
-![](<../.gitbook/assets/image (7).png>)
+![](<../.gitbook/assets/image (7) (3).png>)
 
 ### Creating Patterns From Existing Brush Strokes
 
