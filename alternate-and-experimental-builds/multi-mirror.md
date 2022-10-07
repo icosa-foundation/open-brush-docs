@@ -2,7 +2,7 @@
 
 #### Status: Working - with some known issues (mainly cosmetic)
 
-{% embed url="https://www.youtube.com/watch?v=khsI-7rl2yg" %}
+<img src="../.gitbook/assets/image (2).png" alt="" data-size="original">
 
 ## Downloads
 
@@ -40,7 +40,7 @@ This will bring up the Symmetry settings panel which contains three tabs:
 
 #### Point Symmetry
 
-![](<../.gitbook/assets/image (2).png>)
+![](<../.gitbook/assets/image (2) (2).png>)
 
 #### Wallpaper Symmetry
 
@@ -48,9 +48,19 @@ This will bring up the Symmetry settings panel which contains three tabs:
 
 #### Options
 
-![](../.gitbook/assets/image.png)
+![](<../.gitbook/assets/image (7).png>)
 
+### Creating Patterns From Existing Brush Strokes
 
+(This feature currently has some bugs. See [known issues](multi-mirror.md#known-issues))
+
+You can also create symmetrical copies from existing strokes. Simple select the strokes you want to use and duplicate them in the same way you do without the mirror (Press the secondary button on the controller you paint with)
+
+### Creating Symmetrical Patterns from Imported Objects
+
+As well as duplicating brush strokes, if you have [imported some media](../user-guide/using-reference-images-on-oculus-quest.md) such as images, video or 3D objects then you can select those and create copies that follow the current symmetry settings.
+
+Be aware that there are currently no limits in place. If you create copies of complex objects or even if you create lots and lots of copies of simple objects, then Open Brush can become unresponsive or even crash.
 
 ### Known Issues&#x20;
 
@@ -68,4 +78,6 @@ I'm on UK time but I check in fairly regularly.
 
 ### Can I see it in action?
 
-(To do)
+{% embed url="https://www.youtube.com/watch?v=khsI-7rl2yg" %}
+Some early experiments with spinning mirrors
+{% endembed %}
