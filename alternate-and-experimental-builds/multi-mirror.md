@@ -2,31 +2,32 @@
 
 #### Status: Working - with some known issues (mainly cosmetic)
 
-![](../.gitbook/assets/image.png) ![](<../.gitbook/assets/image (2).png>)
+![](../.gitbook/assets/image.png) ![](<../.gitbook/assets/image (1).png>)
 
-![](<../.gitbook/assets/image (1).png>) ![](<../.gitbook/assets/image (4).png>)
+![](<../.gitbook/assets/image (2).png>) ![](<../.gitbook/assets/image (7).png>)
 
 ## Downloads
 
-* [Oculus Quest](https://nightly.link/IxxyXR/open-brush/workflows/build/feature%2Fmulti-mirrors/Oculus%20Quest%20Experimental.zip)~~~~\
-  ~~~~(This build is sometimes slightly behind the PC versions because of some issues we're having with Github's build service)
+* [Oculus Quest](https://nightly.link/IxxyXR/open-brush/workflows/build/feature%2Fmulti-mirrors/Oculus%20Quest%20Experimental.zip)&#x20;
 * [Oculus PC VR](https://nightly.link/IxxyXR/open-brush/workflows/build/feature%2Fmulti-mirrors/Windows%20Rift%20Experimental.zip) (Rift, Quest via Link cable...)
 * [SteamVR](https://nightly.link/IxxyXR/open-brush/workflows/build/feature%2Fmulti-mirrors/Windows%20OpenXR%20Experimental.zip) (Vive, Index, Reverb...)
 * [Other Builds](https://nightly.link/IxxyXR/open-brush/workflows/build/feature%2Fmulti-mirrors) (Non-VR, Linux, Mac...)
 
 ### What does it do?
 
-{% embed url="https://youtu.be/VxVjkV_CkFs" %}
-
 Big expansion to the mirror to support many different types of symmetry:
 
-**Point Symmetry:** Symmetry around a point. 7 familiies of axial symmetry plus 3 (soon to be 7) unique polyhedral symmetries.
+**Point symmetry:** Symmetry around a point. 7 familiies of axial symmetry plus 3 (soon to be 7) unique polyhedral symmetries.
 
-**Wallpaper Symmetry:** 17 types of tiling symmetry
+**Wallpaper symmetry:** 17 types of tiling symmetry
+
+**Duplicate selections using symmetry:** Create multiple clones of a selection aligned in a pattern
+
+**Draw with multiple colours at the same time:** The colour of each stroke can be varied in interesting new ways
 
 ### What's it good for?
 
-Creating symmetrical patterns from your brush strokes.
+Creating symmetrical patterns. Drawing multiple strokes at the same time. Arranging models or images into grids or other regular patterns.
 
 ### How do I install it?
 
@@ -44,13 +45,19 @@ This will bring up the Symmetry settings panel which contains three tabs:
 
 ![](<../.gitbook/assets/image (2) (2).png>)
 
+Point symmetry creates copies arranged around the center of the mirror widget. Each icon selects one of the 14 different types of symmetry. This is the symmetry of molecules and polyhedra. It can create shapes such as stars, explosions, vases, octopi or plants and flowers.
+
 #### Wallpaper Symmetry
 
 ![](<../.gitbook/assets/image (1) (1).png>)
 
+Wallpaper symmetry repeats your strokes in various types grid pattern - reflecting or rotating in specific ways. You can create wallpaper, floor tiles crystal lattices or any other repeating patterns.
+
 #### Options
 
-![](<../.gitbook/assets/image (7).png>)
+![](<../.gitbook/assets/image (7) (3).png>)
+
+This screen allows you to vary the colour of each stroke based on waveforms of your choosing. Colors can cycle based on hue, saturation or brightness and the amount, frequency and type of the variance can be precisely controlled.
 
 ### Creating Patterns From Existing Brush Strokes
 
@@ -82,4 +89,8 @@ I'm on UK time but I check in fairly regularly.
 
 {% embed url="https://www.youtube.com/watch?v=khsI-7rl2yg" %}
 Some early experiments with spinning mirrors
+{% endembed %}
+
+{% embed url="https://youtu.be/VxVjkV_CkFs" %}
+Another early test of the feature
 {% endembed %}
