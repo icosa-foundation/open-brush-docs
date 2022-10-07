@@ -32,32 +32,33 @@ Download a build for your headset from the link above and unzip it. You can run 
 
 ### How do I use it?
 
-Long press the mirror button on the Experimental Panel:
+Hold down the mirror button on the Experimental Panel for a second or two:
 
-![](../.gitbook/assets/image.png)
+![](<../.gitbook/assets/image (9).png>)
 
 This will bring up the Symmetry settings panel which contains three tabs:
 
 #### Point Symmetry
 
-![](<../.gitbook/assets/image (1).png>)
+![](<../.gitbook/assets/image (2).png>)
 
 #### Wallpaper Symmetry
 
-![](<../.gitbook/assets/image (8).png>)
+![](<../.gitbook/assets/image (1).png>)
 
 #### Options
 
-![](<../.gitbook/assets/image (3).png>)
+![](../.gitbook/assets/image.png)
 
 
 
 ### Known Issues&#x20;
 
-1. Not all brushes work. Flat brushes are missing whenever the symmetry is mirrored (you might see half the number of copies you were expecting. Most tube-like brushes work
-2. Wallpaper symmetry doesn't scale properly with the canvas
-3. Wallpaper symmetry is not centered on the Mirror widget
-4. Wallpaper symmetry sometimes transforms the stroke you're drawing. This is a bit confusing but it's possible to work with.
+1. It's very easy to create so many strokes or duplicates of 3D models that Open Brush becomes unresponsive or even crashes. We plan to add limits and warnings once we figure out how best to calculate them.
+2. Duplicating brush strokes currently positions copies incorrectly if you've transformed the selection since selecting it. A workaround is to deselect and reselect first.
+3. Duplicating brush strokes can position things incorrectly if you've scaled the world or moved the symmetry widget.
+4. A few symmetry modes move the main pointer so your main stroke is rotated somewhere else. It takes a bit of getting used to but it doesn't actually prevent you painting in these modes.
+5. The slider on the settings panel can glitch the Open Brush UI if you drag it past it's limits.
 
 ## How do I get help
 
