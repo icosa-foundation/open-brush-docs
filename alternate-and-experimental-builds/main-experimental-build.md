@@ -36,7 +36,7 @@ In addition it has "Experimental Mode" enabled. See below for a list of features
 
 1. Install Open Brush normally in Steam and open the Open Brush properties in your Steam Library:
 
-![](<../.gitbook/assets/image (10) (2).png>)
+![](<../.gitbook/assets/image (10).png>)
 
 2\. Choose the pre-release experimental branch from the "beta" tab:
 

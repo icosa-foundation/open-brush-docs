@@ -2,9 +2,9 @@
 
 #### Status: Working - with some known issues (mainly cosmetic)
 
-<img src="../.gitbook/assets/image (2).png" alt="" data-size="original"> <img src="../.gitbook/assets/image (7).png" alt="" data-size="original">
+![](../.gitbook/assets/image.png) ![](<../.gitbook/assets/image (2).png>)
 
-<img src="../.gitbook/assets/image.png" alt="" data-size="original">
+![](<../.gitbook/assets/image (1).png>) ![](<../.gitbook/assets/image (4).png>)
 
 ## Downloads
 
@@ -46,11 +46,11 @@ This will bring up the Symmetry settings panel which contains three tabs:
 
 #### Wallpaper Symmetry
 
-![](<../.gitbook/assets/image (1).png>)
+![](<../.gitbook/assets/image (1) (1).png>)
 
 #### Options
 
-![](<../.gitbook/assets/image (7) (3).png>)
+![](<../.gitbook/assets/image (7).png>)
 
 ### Creating Patterns From Existing Brush Strokes
 
