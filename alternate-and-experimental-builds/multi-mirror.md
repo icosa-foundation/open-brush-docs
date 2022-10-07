@@ -1,6 +1,6 @@
 # Feature: Multi-Mirror
 
-#### Status: Working - buggy with some caveats - but fun to play with
+#### Status: Working - with some known issues (mainly cosmetic)
 
 {% embed url="https://www.youtube.com/watch?v=khsI-7rl2yg" %}
 
@@ -30,9 +30,27 @@ Creating symmetrical patterns from your brush strokes.
 
 Download a build for your headset from the link above and unzip it. You can run the Windows exe directly. To install the Quest apk use SideQuest: [https://uploadvr.com/sideloading-quest-how-to/](https://uploadvr.com/sideloading-quest-how-to/)
 
-### Where do I find the new mirror modes?
+### How do I use it?
 
-Long press the mirror button on the Experimental Panel.
+Long press the mirror button on the Experimental Panel:
+
+![](../.gitbook/assets/image.png)
+
+This will bring up the Symmetry settings panel which contains three tabs:
+
+#### Point Symmetry
+
+![](<../.gitbook/assets/image (1).png>)
+
+#### Wallpaper Symmetry
+
+![](<../.gitbook/assets/image (8).png>)
+
+#### Options
+
+![](<../.gitbook/assets/image (3).png>)
+
+
 
 ### Known Issues&#x20;
 
