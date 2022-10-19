@@ -77,7 +77,7 @@ public class MyNewPanel : BasePanel
 Otherwise you can just use BasePanel directly in the next step.
 
 1. Copy an existing panel prefab but use your new script.
-2. Ensure your component’s PanelType is set to the value from step 1
+2. Ensure your component’s PanelType is set to the value you added to BasePanel.PanelType
 3. Change the Panel Description field for your new panel to something relevant.
 4. In the main scene under SketchControls add an entry to the Panel Map (on the Panel Manager component). Choose the same PanelType as before. (note that the list item will have the wrong panel - or just a number - next to it if you used your own explicit enum value. This doesn’t seem to matter)
 
