@@ -66,7 +66,7 @@ Now the only problem is to ensure you use numbers that other branches haven’t 
 ## Adding a New Panel
 
 1. Add an entry to **BasePanel.PanelType** (see the note above about enums clashing)
-2. If you think you’ll need custom functionality then create a new class inheriting from BasePanel:
+2. If you think you’ll need custom functionality in the Panel class itself then create a new class inheriting from BasePanel:
 
 ```
 public class MyNewPanel : BasePanel
