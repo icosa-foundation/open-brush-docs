@@ -76,7 +76,7 @@ public class MyNewPanel : BasePanel
 
 Otherwise you can just use BasePanel directly in the next step.
 
-1. Copy an existing panel prefab but use your new script.
+1. It's easiest to copy an existing panel prefab (from Prefabs\Panels). If it's using a subclass of BasePanel different to yours, then change the script type for the panel (neat trick to swap scripts on existing components here: [https://answers.unity.com/questions/1125244/what-happened-to-conveniently-replacing-component.html](https://answers.unity.com/questions/1125244/what-happened-to-conveniently-replacing-component.html) )
 2. Ensure your component’s PanelType is set to the value you added to BasePanel.PanelType
 3. Change the Panel Description field for your new panel to something relevant.
 4. In the main scene under SketchControls add an entry to the Panel Map (on the Panel Manager component). Choose the same PanelType as before. (note that the list item will have the wrong panel - or just a number - next to it if you used your own explicit enum value. This doesn’t seem to matter)
