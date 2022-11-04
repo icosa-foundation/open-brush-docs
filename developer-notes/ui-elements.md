@@ -2,7 +2,7 @@
 
 ## Panels
 
-The main UI surface. Panels can be floating or docked to the wand. They mainly conti
+The main UI surfaces. Panels can be floating or docked to the wand. They contain buttons and sliders and can spawn popups.
 
 ## Popups
 
