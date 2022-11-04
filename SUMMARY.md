@@ -52,6 +52,7 @@
     * [XR Framework Beta](alternate-and-experimental-builds/old-or-completed-feature-builds/xr-framework-experimental-build.md)
 * [Other Resources](resources.md)
 * [Developer Notes](developer-notes/README.md)
+  * [UI Elements](developer-notes/ui-elements.md)
   * [Unity shader examples](developer-notes/untitled.md)
   * [Setting up CI for Open Brush using Github Actions](developer-notes/building-open-brush-using-github-ci.md)
   * [Open Brush File Format](developer-notes/open-brush-file-format.md)
