@@ -96,7 +96,7 @@ Answer - BasePanel.m\_WandAttachHalfHeight
 
 Panels script components have a m\_PanelPopUpMap property which connects a GlobalCommand to a popup prefab. Having to add a GlobalCommand for every popup type is a bit tedious. I need to figure out how to open a popup without needing a GlobalCommand
 
-1. Create a subclass of PopUpWindow or copy and modify an existing one.
+1. Create a subclass of PopUpWindow if you need one (or just use OptionsPopUpWindow)
 2. Copy the structure of an existing popup prefab substituting your popupwindow class
 3. Add a button to a panel to open your popup. It should be an OptionButton or a subclass thereof.
 4. Add a command to the GlobalCommand enum to handle opening your popup
