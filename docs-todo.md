@@ -11,3 +11,4 @@
 9. Document "Simplification" and check for other missing settings docs
 10. Add a "Case Studies" page
 11. user-guide/monoscopic-mode page - better download links ( use nightly.link )
+12. Add docs for spectator camera (should be on the [Labs](user-guide/check-out-labs-or-experimental-features.md) page. If it's mentioned anywhere else I didn't find it)
