@@ -14,3 +14,4 @@
 12. Add docs for spectator camera (should be on the [Labs](user-guide/check-out-labs-or-experimental-features.md) page. If it's mentioned anywhere else I didn't find it)
 13. Document differences between Quest and PC versions
 14. Clarify Quest standalone vs Quest + Link
+15. Document Mixed Reality capture: [https://creator.oculus.com/mrc/](https://creator.oculus.com/mrc/) vs Liv vs Mixcast
