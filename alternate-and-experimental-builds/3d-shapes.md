@@ -88,7 +88,7 @@ This opens a new panel that gives you access to the powerful underlying procedur
 
 ![The "Generate" panel showing the main shape categories](<../.gitbook/assets/image (13).png>)
 
-![The "Modify" panel showing 3 modifiers applied to the shape.](<../.gitbook/assets/image (14).png>)
+![The "Modify" panel showing 3 modifiers applied to the shape.](<../.gitbook/assets/image (14) (2).png>)
 
 ![The "Appearance" panel showing color and material options.](<../.gitbook/assets/image (18).png>)
 
