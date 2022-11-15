@@ -15,3 +15,4 @@
 13. Document differences between Quest and PC versions
 14. Clarify Quest standalone vs Quest + Link
 15. Document Mixed Reality capture: [https://creator.oculus.com/mrc/](https://creator.oculus.com/mrc/) vs Liv vs Mixcast
+16. Document the Labs/camera button (which seems to be mobile only)
