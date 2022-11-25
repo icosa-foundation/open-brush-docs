@@ -4,9 +4,11 @@ This build is the pre-release version of Open Brush and may contain untested new
 
 ### Important note <a href="#_lnka1z4mzei7" id="_lnka1z4mzei7"></a>
 
-You can opt in to the beta via Oculus or Steam and you can download a separate beta version via Itch.io
+You can opt in to the beta via Oculus or Steam, or you can download a separate beta version via Itch.io
 
-We haven't officially announced the availability of the beta due to the known issues below. We feel these are annoying to enough users that we want to resolve these before we encourage people to try out the beta.&#x20;
+{% hint style="warning" %}
+Remember, these pre-release builds are labelled beta for a reason, and some features may contain bugs. Make sure to back up your important sketches before proceeding!
+{% endhint %}
 
 ### Opting in to the beta via Steam <a href="#_lnka1z4mzei7" id="_lnka1z4mzei7"></a>
 
@@ -14,15 +16,15 @@ We haven't officially announced the availability of the beta due to the known is
 
 ![](<../.gitbook/assets/image (13) (1) (1) (1) (1) (1).png>)
 
-2\. Choose "Betas" on the left and then select whether you want the normal or [experimental mode](main-experimental-build.md) version. You can also return to the normal release version by choosing "None"
+2\. Choose "Betas" on the left, and in the dropdown, select whether you want to opt into the beta or [experimental mode](main-experimental-build.md) version. You can also return to the normal release version by choosing "None"
 
-![](<../.gitbook/assets/image (15) (1) (1).png>)
+<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
 3\. Wait for Open Brush to update.
 
 ### Opting in to the beta via the Oculus Store <a href="#_lnka1z4mzei7" id="_lnka1z4mzei7"></a>
 
-1\. Either use the Oculus App on your PC or go to the AppLab Store page (google "Open Brush Quest" or "Open Brush Rift" depending on whether you want the PC or native Quest version):
+1\. Either use the Oculus App on your PC or go to the AppLab Store page (Search the web for "Open Brush Quest" or "Open Brush Rift" depending on whether you want the PC or native Quest version):
 
 ![](<../.gitbook/assets/image (11) (1) (1).png>)
 
@@ -38,4 +40,4 @@ We haven't officially announced the availability of the beta due to the known is
 
 ## New Features <a href="#_lnka1z4mzei7" id="_lnka1z4mzei7"></a>
 
-The current beta is for the release that will become Open Brush 2.0. Features include [layer support](old-or-completed-feature-builds/layers.md) and the ability to selectively [cut and delete parts of existing strokes](old-or-completed-feature-builds/snip-tool.md).&#x20;
+The current beta is for the release that will become Open Brush 2.0. Features include passthrough support, [layer support](old-or-completed-feature-builds/layers.md) and the ability to selectively [cut and delete parts of existing strokes](old-or-completed-feature-builds/snip-tool.md).&#x20;
