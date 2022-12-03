@@ -1,6 +1,6 @@
 # API Commands List
 
-[API Docs](https://github.com/IxxyXR/open-brush/wiki/Open-Brush-API)
+[API Docs](https://docs.openbrush.app/user-guide/open-brush-api)
 
 _(This page was generated from the output directly from Open Brush API server. It's not always totally up to date. When you're running Open Brush then use the live commands list you get from _[http://localhost:40074/help/commands](http://localhost:40074/help/commands)_ as that will always be current)_
 

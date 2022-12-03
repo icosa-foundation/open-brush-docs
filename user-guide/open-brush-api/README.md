@@ -2,7 +2,7 @@
 
 ### What does it do?
 
-[API Commands List](https://github.com/IxxyXR/open-brush/wiki/API-Commands)
+[API Commands List](https://docs.openbrush.app/user-guide/open-brush-api/api-commands)
 
 Allows you to control Open Brush using commands sent from your web browser or a script you write. You can use nearly any programming language or even just type commands into your browser address bar.
 
