@@ -70,17 +70,17 @@ You can make the brushes wiggle to the audio in your scene:
 
 If the brushes aren’t moving, you can select the prefab in Play mode to visualize the audio data the shaders are receiving:
 
-![](../.gitbook/assets/0.gif)
+![](<../.gitbook/assets/0 (1)>)
 
 ### Bloom <a href="#_7ljsa6ylg4rb" id="_7ljsa6ylg4rb"></a>
 
-![](<../.gitbook/assets/1 (3).png>)\
+![](../.gitbook/assets/1)\
 You can achieve\_ an Open Brush look\_ by adding **Bloom**, using Unity’s built-in shaders:
 
 1. Import the Standard Assets “Effects” package (Assets menu / Import Package / Effects)
 2. \*\*Important: \*\*Enable your camera’s HDR checkbox\
-   ![](<../.gitbook/assets/2 (3).png>)
+   ![](<../.gitbook/assets/2 (1)>)
 3. Add the Bloom post-processing effect, these are recommended settings:\
-   ![](<../.gitbook/assets/3 (3).png>)
+   ![](<../.gitbook/assets/3 (1)>)
 
 Internally, Open Brush uses a modified version of Sonic Ether bloom, which has been released as [open source](https://github.com/sonicether/SE-Natural-Bloom-Dirty-Lens).

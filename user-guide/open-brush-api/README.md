@@ -2,7 +2,7 @@
 
 ### What does it do?
 
-[API Commands List](https://docs.openbrush.app/user-guide/open-brush-api/api-commands)
+[API Commands List](api-commands.md)
 
 Allows you to control Open Brush using commands sent from your web browser or a script you write. You can use nearly any programming language or even just type commands into your browser address bar.
 
@@ -75,7 +75,7 @@ Defaults:
 
 These two settings are for security and default to "false" but you may want to set them both to "true" if you want to control Open Brush remotely.
 
-**You should do this if you're on a private network.** Disable it or configure a firewall to restrict access to known devices if you plan to use Open Brush on public Wifi such as at an event or show. &#x20;
+**You should do this if you're on a private network.** Disable it or configure a firewall to restrict access to known devices if you plan to use Open Brush on public Wifi such as at an event or show.
 
 EnableApiRemoteCalls - by default the API only accept commands from the same machine that is running Open Brush. Set this to true to allow API commands to be sent from other computers. In most cases this will only be machines on the same local network. You will need to configure your router to accept connections on port 40074 if you want to accept commands from remote devices as well. Apps such as ngrok or localtunnel can make this simpler to set up.
 
@@ -85,20 +85,18 @@ EnableApiCorsHeaders: By default browsers are blocked from sending commands via 
 
 See [Monoscopic mode](../monoscopic-mode.md)
 
-Monoscopic mode is a bit tricky to get the hang of but for using it as a quick way to experiment with the API then all you really need to know is how to pan the camera to look in different directions.&#x20;
+Monoscopic mode is a bit tricky to get the hang of but for using it as a quick way to experiment with the API then all you really need to know is how to pan the camera to look in different directions.
 
-Just hold down Alt (Cmd on a Mac) and drag your mouse in the viewport.&#x20;
+Just hold down Alt (Cmd on a Mac) and drag your mouse in the viewport.
 
 Currently there's no controls to move the camera but we plan to add this in soon.
 
-A few other notes on monoscopic mode:&#x20;
+A few other notes on monoscopic mode:
 
 * Left click and drag to draw on the drawing plane (the grid shown in front of you)
 * Dragging with the right button down will bring the drawing plane nearer or further.
-* Ctrl+mouse will rotate the drawing plane&#x20;
-* Clicking in the game window will capture your mouse cursor.&#x20;
-
-
+* Ctrl+mouse will rotate the drawing plane
+* Clicking in the game window will capture your mouse cursor.
 
 ### What's the simplest way to use the API?
 
@@ -145,4 +143,3 @@ http://localhost:40074/help
 ```
 
 and follow links to useful info such as a full list of commands, examples scripts etc
-
