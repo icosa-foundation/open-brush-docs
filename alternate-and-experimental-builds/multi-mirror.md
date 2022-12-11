@@ -67,13 +67,17 @@ This screen allows you to vary the colour of each stroke based on waveforms of y
 
 (This feature currently has some bugs. See [known issues](multi-mirror.md#known-issues))
 
-You can also create symmetrical copies from existing strokes. Simple select the strokes you want to use and duplicate them in the same way you do without the mirror (Press the secondary button on the controller you paint with)
+~~You can also create symmetrical copies from existing strokes. Simple select the strokes you want to use and duplicate them in the same way you do without the mirror (Press the secondary button on the controller you paint with)~~
+
+_Currently disabled while I iron out the bugs_
 
 ### Creating Symmetrical Patterns from Imported Objects
 
-As well as duplicating brush strokes, if you have [imported some media](../user-guide/using-reference-images-on-oculus-quest.md) such as images, video or 3D objects then you can select those and create copies that follow the current symmetry settings.
+~~As well as duplicating brush strokes, if you have~~ [~~imported some media~~](../user-guide/using-reference-images-on-oculus-quest.md) ~~such as images, video or 3D objects then you can select those and create copies that follow the current symmetry settings.~~
 
-Be aware that there are currently no limits in place. If you create copies of complex objects or even if you create lots and lots of copies of simple objects, then Open Brush can become unresponsive or even crash.
+~~Be aware that there are currently no limits in place. If you create copies of complex objects or even if you create lots and lots of copies of simple objects, then Open Brush can become unresponsive or even crash.~~
+
+_Currently disabled while I iron out the bugs_
 
 ### Known Issues&#x20;
 
