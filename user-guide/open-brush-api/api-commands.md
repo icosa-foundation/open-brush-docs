@@ -2,17 +2,27 @@
 
 [API Docs](./)
 
-_(This page was generated from the output directly from Open Brush API server. It's not always totally up to date. When you're running Open Brush then use the live commands list you get from_ [_http://localhost:40074/help/commands_](http://localhost:40074/help/commands) _as that will always be current)_
+{% hint style="info" %}
+_This page was generated from the output directly from Open Brush API server. It's not always totally up to date. When you're running Open Brush then use the live commands list you get from_ [_http://localhost:40074/help/commands_](http://localhost:40074/help/commands) _as that will always be current._
+{% endhint %}
 
-_(The "Try It" links assume that a version of Open Brush with API support is currently running on this computer)_
+{% hint style="info" %}
+_The "Try It" links assume that a version of Open Brush with API support is currently running on this computer. They won't work if Open Brush isn't running. You can run a_ [_monoscopic_ ](../../developer-notes/github-wiki/monoscopicmode.md)_version if you don't have a VR headset attached._
+{% endhint %}
 
-To run commands a request to this url with [http://localhost:40074/api/v1?](http://localhost:40074/api/v1?)
+To run commands just send a request to this url with [http://localhost:40074/api/v1?](http://localhost:40074/api/v1?)
 
-Commands are querystring parameters: commandname=parameters
+Commands are query string parameters. Like this: command.name=parameters
 
-Separate multiple commands with &
+Separate multiple commands with: **&**&#x20;
 
 Example:[ http://localhost:40074/api/v1?brush.turn.y=45\&brush.draw=1](http://localhost:40074/api/v1?brush.turn.y=45\&brush.draw=1)
+
+If you want to send a lot of commands or especially long commands (complex paths etc) then you can just http POST instead of GET. The commands should be form-encoded in the body of the request (exactly as if you submitted a html form with the form name as the command name and the form value as the command parameters)
+
+You can also send multiple requests although because of the nature of http, these can sometimes arrive in a different order to how yousent them. We will soon support websockets which should be a better way to send realtime streams of commands.
+
+### Command List
 
 **draw.paths** (string jsonString)[ Try it](http://localhost:40074/api/v1?draw.paths)
 
