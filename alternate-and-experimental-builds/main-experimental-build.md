@@ -1,5 +1,9 @@
 # "Experimental Mode" Builds
 
+{% hint style="info" %}
+This page is partially outdated. The current beta has a single build that combines "normal" and "experimental" builds into one. You can simply flip a toggle in the settings and restart the app. Once the beta is promoted to being the main release I'll update this page properly as there will no longer be any "experimental mode builds"
+{% endhint %}
+
 ## What are Experimental Mode Builds?
 
 Google had various stages for a new feature to make it's way into Tilt Brush. It would start off available only to a closed group of testers and developers. After that it might be added to the [Labs panel ](../user-guide/check-out-labs-or-experimental-features.md)in the official release. And finally it would be released as an officially supported feature.
