@@ -8,10 +8,6 @@
 
 ## Downloads
 
-{% hint style="info" %}
-Links below currently don't work. Use this instead: [https://github.com/icosa-gallery/open-brush/actions/runs/3720324594#artifacts](https://github.com/icosa-gallery/open-brush/actions/runs/3720324594#artifacts)
-{% endhint %}
-
 * [Oculus Quest](https://nightly.link/IxxyXR/open-brush/workflows/build/feature%2Fmulti-mirrors/Oculus%20Quest%20Experimental.zip)&#x20;
 * [Oculus PC VR](https://nightly.link/IxxyXR/open-brush/workflows/build/feature%2Fmulti-mirrors/Windows%20Rift%20Experimental.zip) (Rift, Quest via Link cable...)
 * [SteamVR](https://nightly.link/IxxyXR/open-brush/workflows/build/feature%2Fmulti-mirrors/Windows%20OpenXR%20Experimental.zip) (Vive, Index, Reverb...)
