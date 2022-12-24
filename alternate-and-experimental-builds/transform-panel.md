@@ -9,7 +9,7 @@
 * [Oculus Quest](https://nightly.link/IxxyXR/open-brush/workflows/build/feature%2Ftransform-panel/Oculus%20Quest.zip)
 * [Oculus PC VR](https://nightly.link/IxxyXR/open-brush/workflows/build/feature%2Ftransform-panel/Windows%20Rift.zip) (Rift, Quest via Link cable...)
 * [SteamVR](https://nightly.link/IxxyXR/open-brush/workflows/build/feature%2Ftransform-panel/Windows%20OpenXR.zip) (Vive, Index, Reverb...)
-* [Other Builds](https://nightly.link/IxxyXR/open-brush/workflows/build/feature%2Ftransform-panel) (Non-VR, Linux, Mac...)
+* [Other Builds](https://nightly.link/IxxyXR/open-brush/workflows/build/feature%2Ftransform-panel) (Pico, Pimax etc...)
 
 ### What does it do?
 
