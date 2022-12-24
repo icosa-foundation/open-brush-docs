@@ -8,9 +8,9 @@
 
 ## Downloads
 
-* [Oculus Quest](https://nightly.link/IxxyXR/open-brush/workflows/build/feature%2Fmulti-mirrors/Oculus%20Quest%20Experimental.zip)&#x20;
-* [Oculus PC VR](https://nightly.link/IxxyXR/open-brush/workflows/build/feature%2Fmulti-mirrors/Windows%20Rift%20Experimental.zip) (Rift, Quest via Link cable...)
-* [SteamVR](https://nightly.link/IxxyXR/open-brush/workflows/build/feature%2Fmulti-mirrors/Windows%20OpenXR%20Experimental.zip) (Vive, Index, Reverb...)
+* [Oculus Quest](https://nightly.link/IxxyXR/open-brush/workflows/build/feature%2Fmulti-mirrors/Oculus%20Quest.zip)&#x20;
+* [Oculus PC VR](https://nightly.link/IxxyXR/open-brush/workflows/build/feature%2Fmulti-mirrors/Windows%20Rift.zip) (Rift, Quest via Link cable...)
+* [SteamVR](https://nightly.link/IxxyXR/open-brush/workflows/build/feature%2Fmulti-mirrors/Windows%20OpenXR.zip) (Vive, Index, Reverb...)
 * [Other Builds](https://nightly.link/IxxyXR/open-brush/workflows/build/feature%2Fmulti-mirrors) (Non-VR, Linux, Mac...)
 
 ### What does it do?
