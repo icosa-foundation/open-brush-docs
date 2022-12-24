@@ -4,10 +4,10 @@
 
 ## Download
 
-* [Oculus Quest](https://nightly.link/IxxyXR/open-brush/workflows/build/features%2Fbrush-editing/Oculus%20Quest%20Experimental.zip)
-* [Oculus PC VR ](https://nightly.link/IxxyXR/open-brush/workflows/build/features%2Fbrush-editing/Windows%20Rift%20Experimental.zip)(Rift, Quest via Link cable...)
-* [SteamVR ](https://nightly.link/IxxyXR/open-brush/workflows/build/features%2Fbrush-editing/Windows%20SteamVR%20Experimental.zip)(Vive, Index, Reverb...)
-* [Other Builds](https://nightly.link/IxxyXR/open-brush/workflows/build/features%2Fbrush-editing) (Non-VR, Linux, Mac...)
+* [Oculus Quest](https://nightly.link/IxxyXR/open-brush/workflows/build/features%2Fbrush-editing/Oculus%20Quest.zip)
+* [Oculus PC VR ](https://nightly.link/IxxyXR/open-brush/workflows/build/features%2Fbrush-editing/Windows%20Rift.zip)(Rift, Quest via Link cable...)
+* [SteamVR ](https://nightly.link/IxxyXR/open-brush/workflows/build/features%2Fbrush-editing/Windows%20SteamVR.zip)(Vive, Index, Reverb...)
+* [Other Builds](https://nightly.link/IxxyXR/open-brush/workflows/build/features%2Fbrush-editing) (Pico, Pimax etc)
 
 ### What does it do?
 
