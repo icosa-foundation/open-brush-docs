@@ -26,11 +26,31 @@ Download a build for your headset from the link above and unzip it. You can run 
 
 ### How do I use it?
 
-There's a new button on the Experimental Features panel that opens the Brush Editing panel. Select a brush and then click the button to create an editable duplicate. (at the moment you have to scroll to the end of the Brushes panel to select the new brush but this should happen automatically)
+There are new buttons on the scipts panel that allow you to set
+an active runtime script in (currently) one of three categories. All scripts are written in Lua and the type of script is determined by
+the filename prefix. Name your scripts using the script type first followed by
+the name of your script. Script types are:
+
+1. Pointer Scripts: Changes the pointer position
+2. Tool Scripts: draws entire strokes when you release the trigger
+3. Symmetry Scripts: Creates and position additional pointers similar to how the mirror works
+
+So here is a simple example of a Pointer Script. You would name the file something
+like PointerScript.circles.lua:
+
+    function Main()
+        return {
+            pointer.position.x + (math.sin(app.time * 15) * .25),
+            pointer.position.y + (math.cos(app.time * 15) * .25),
+            pointer.position.z
+        }
+    end
+
 
 ### Known Issues
 
-Lots. It's an early proof of concept
+Lots. It's an early proof of concept. Currently coordinates aren't correctly
+converted to canvas space and there are probably many other issues.
 
 ## How do I get help
 
