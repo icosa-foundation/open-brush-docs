@@ -10,10 +10,11 @@
 * [Oculus PC VR](https://nightly.link/IxxyXR/open-brush/workflows/build/feature%2Ftransform-panel/Windows%20Rift.zip) (Rift, Quest via Link cable...)
 * [SteamVR](https://nightly.link/IxxyXR/open-brush/workflows/build/feature%2Ftransform-panel/Windows%20OpenXR.zip) (Vive, Index, Reverb...)
 * [Other Builds](https://nightly.link/IxxyXR/open-brush/workflows/build/feature%2Ftransform-panel) (Pico, Pimax etc...)
+* [Code](https://github.com/IxxyXR/open-brush/tree/feature/transform-panel)
 
 ### What does it do?
 
-A new panel allows for precise position/rotation/scale changes to brush strokes and imported objects.&#x20;
+A new panel allows for precise position/rotation/scale changes to brush strokes and imported objects.
 
 1. Enter an exact value to change the position, rotation or scale of the current selection
 2. Lock any axis so you can only move the selection along a line or in a plane
@@ -32,9 +33,9 @@ Download a build for your headset from the link above and unzip it. You can run 
 
 ### Where do I find the new Transform Panel?
 
-It should appear automatically.&#x20;
+It should appear automatically.
 
-### Known Issues&#x20;
+### Known Issues
 
 (To do)
 

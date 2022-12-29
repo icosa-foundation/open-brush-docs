@@ -10,6 +10,7 @@
 * [Oculus PC VR](https://nightly.link/IxxyXR/open-brush/workflows/build/feature%2Feditable-models-multi-mirror/Windows%20Rift.zip) (Rift, Quest via Link cable...)
 * [SteamVR](https://nightly.link/IxxyXR/open-brush/workflows/build/feature%2Feditable-models-multi-mirror/Windows%20OpenXR.zip) (Vive, Index, Reverb...)
 * [Other Builds](https://nightly.link/IxxyXR/open-brush/workflows/build/feature%2Feditable-models-multi-mirror) (Pico, Pimax etc)
+* [Code](https://github.com/IxxyXR/open-brush/tree/feature/editable-models-multi-mirror)
 
 ### What does it do?
 
@@ -66,9 +67,9 @@ Clicking this button cycles through the options for what the secondary button on
 
 This opens a new panel that gives you access to the powerful underlying procedural generation engine. See the section below for detailed information on the Shape Designer
 
-### Known Issues&#x20;
+### Known Issues
 
-1. There's nothing to stop you creating extremely complex shapes that can slow everything down and even cause Open Brush to crash.&#x20;
+1. There's nothing to stop you creating extremely complex shapes that can slow everything down and even cause Open Brush to crash.
 2. Exported scenes work best in the gltf/glb format. Face colours will appear correctly. Currently the various materials don't export. Other formats don't support exporting face colours. (FBX actually does but you'll need to edit the material in your 3d app and set it to use "Vertex colours")
 3. Duplicating models using the selection tool sometimes produces changes in scale.
 4. You can't scale the custom mirror. Instead scale your scene.
@@ -94,8 +95,6 @@ This opens a new panel that gives you access to the powerful underlying procedur
 ![The "Presets" popup where you can save the shapes you've created.](<../.gitbook/assets/image (16).png>)
 
 (docs coming soon)
-
-
 
 ## How do I get help
 

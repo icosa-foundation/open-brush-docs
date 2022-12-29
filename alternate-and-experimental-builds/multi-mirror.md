@@ -2,16 +2,17 @@
 
 #### Status: Working - with some known issues (mainly cosmetic)
 
-![](<../.gitbook/assets/image (14).png>) ![](<../.gitbook/assets/image (2) (3).png>)
+![](<../.gitbook/assets/image (14).png>) ![](<../.gitbook/assets/image (1) (1).png>)
 
 ![](<../.gitbook/assets/image (2) (4).png>) ![](<../.gitbook/assets/image (7) (4).png>)
 
 ## Downloads
 
-* [Oculus Quest](https://nightly.link/IxxyXR/open-brush/workflows/build/feature%2Fmulti-mirrors/Oculus%20Quest.zip)&#x20;
+* [Oculus Quest](https://nightly.link/IxxyXR/open-brush/workflows/build/feature%2Fmulti-mirrors/Oculus%20Quest.zip)
 * [Oculus PC VR](https://nightly.link/IxxyXR/open-brush/workflows/build/feature%2Fmulti-mirrors/Windows%20Rift.zip) (Rift, Quest via Link cable...)
 * [SteamVR](https://nightly.link/IxxyXR/open-brush/workflows/build/feature%2Fmulti-mirrors/Windows%20OpenXR.zip) (Vive, Index, Reverb...)
 * [Other Builds](https://nightly.link/IxxyXR/open-brush/workflows/build/feature%2Fmulti-mirrors) (Non-VR, Linux, Mac...)
+* [Code](https://github.com/IxxyXR/open-brush/tree/feature/multi-mirrors)
 
 ### What does it do?
 
@@ -79,7 +80,7 @@ _Currently disabled while I iron out the bugs_
 
 _Currently disabled while I iron out the bugs_
 
-### Known Issues&#x20;
+### Known Issues
 
 1. It's very easy to create so many strokes or duplicates of 3D models that Open Brush becomes unresponsive or even crashes. We plan to add limits and warnings once we figure out how best to calculate them.
 2. Duplicating brush strokes currently positions copies incorrectly if you've transformed the selection since selecting it. A workaround is to deselect and reselect first.
@@ -136,10 +137,3 @@ Another early test of the feature
 <figure><img src="../.gitbook/assets/Untitled_127_00.png" alt=""><figcaption></figcaption></figure>
 
 </div>
-
-
-
-
-
-
-
