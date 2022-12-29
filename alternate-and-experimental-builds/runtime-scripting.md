@@ -24,13 +24,17 @@ Download a build for your headset from the link above and unzip it. You can run 
 
 ### How do I use it?
 
-There are new buttons on the scipts panel that allow you to set an active runtime script in (currently) one of three categories. All scripts are written in Lua and the type of script is determined by the filename prefix. Name your scripts using the script type first followed by the name of your script. Script types are:
+There are new buttons on the scipts panel that allow you to set an active runtime script in (currently) one of three categories. All scripts are written in Lua and the type of script is determined by the filename prefix. Name your scripts using the script type first followed by the name of your script. Script types are as follows:
 
-1. Pointer Scripts: Changes the pointer position or rotation
-2. Tool Scripts: draws entire strokes when you release the trigger
-3. Symmetry Scripts: Creates and position additional pointers similar to how the mirror works
+#### Pointer Scripts
 
-So here is a simple example of a Pointer Script. You would name the file something like PointerScript.circles.lua:
+Pointer Scripts can modify the pointer position and/or rotation every frame. You have acceess to the current position and rotation so you can simply add an offset - or you could create an entirely new position or rotation based on any of the other context variables that are available to the script.
+
+Name a Pointer Script with the prefix "PointerScript". For example: _PointerScript.Wiggle.lua_
+
+A Pointer Script should return x, y, z for pointer rotation and x, y, z for pointer rotation.
+
+For example:
 
 ```
 function Main()
@@ -42,6 +46,24 @@ function Main()
     return {newPosition, pointer.rotation}
 end
 ```
+
+#### Tool Scripts
+
+Tool Scripts are run when you release the trigger and they have access to the position and rotation of the controller when the trigger was first pressed as well as the position and rotation of the controller when the trigger is released.&#x20;
+
+Name a Tool Script with the prefix "ToolScript". For example: _ToolScript.Circle.lua_
+
+Tool Scripts should return a list of points (and optionally rotations) that define a brush stroke.
+
+#### Symmetry Scripts
+
+Symmetry Scripts should return a list of positions (and optionally rotations) that represent additional pointers that will create their own strokes as the user draws with the primary pointer.
+
+The number of pointers should not change once a brush stroke has begun, but may change between each brush stroke.
+
+Name a Symmetry Script with the prefix "SymmetryScript". For exaple SymmetryScript.FourCopies.lua
+
+Symmetry Scripts should return a list of positions (and optionally rotations) for each additional pointer.
 
 ### Known Issues
 

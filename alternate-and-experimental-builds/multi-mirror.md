@@ -2,7 +2,7 @@
 
 #### Status: Working - with some known issues (mainly cosmetic)
 
-![](<../.gitbook/assets/image (14).png>) ![](<../.gitbook/assets/image (2) (3).png>)
+![](<../.gitbook/assets/image (14).png>) ![](<../.gitbook/assets/image (1) (1).png>)
 
 ![](<../.gitbook/assets/image (2) (4).png>) ![](<../.gitbook/assets/image (7) (4).png>)
 
