@@ -1,6 +1,6 @@
 # Feature: Runtime Scripting
 
-#### Status: Very experimental and buggy. 
+#### Status: Very experimental and buggy.
 
 ## Download
 
@@ -12,9 +12,7 @@
 
 ### What does it do?
 
-Unlike the existing OpenBrush API, runtime scripting is designed to run small scripts that directly modify
-the behaviour of various features while you are actually using them. For example a script might move the
-pointer as you are painting or add new strokes in response to your actions.
+Unlike the existing OpenBrush API, runtime scripting is designed to run small scripts that directly modify the behaviour of various features while you are actually using them. For example a script might move the pointer as you are painting or add new strokes in response to your actions.
 
 ### What's it good for?
 
@@ -26,31 +24,28 @@ Download a build for your headset from the link above and unzip it. You can run 
 
 ### How do I use it?
 
-There are new buttons on the scipts panel that allow you to set
-an active runtime script in (currently) one of three categories. All scripts are written in Lua and the type of script is determined by
-the filename prefix. Name your scripts using the script type first followed by
-the name of your script. Script types are:
+There are new buttons on the scipts panel that allow you to set an active runtime script in (currently) one of three categories. All scripts are written in Lua and the type of script is determined by the filename prefix. Name your scripts using the script type first followed by the name of your script. Script types are:
 
-1. Pointer Scripts: Changes the pointer position
+1. Pointer Scripts: Changes the pointer position or rotation
 2. Tool Scripts: draws entire strokes when you release the trigger
 3. Symmetry Scripts: Creates and position additional pointers similar to how the mirror works
 
-So here is a simple example of a Pointer Script. You would name the file something
-like PointerScript.circles.lua:
+So here is a simple example of a Pointer Script. You would name the file something like PointerScript.circles.lua:
 
-    function Main()
-        return {
-            pointer.position.x + (math.sin(app.time * 15) * .25),
-            pointer.position.y + (math.cos(app.time * 15) * .25),
-            pointer.position.z
-        }
-    end
-
+```
+function Main()
+    newPosition = {
+        pointer.position.x + (math.sin(app.time * 15) * .25),
+        pointer.position.y + (math.cos(app.time * 15) * .25),
+        pointer.position.z
+    }
+    return {newPosition, pointer.rotation}
+end
+```
 
 ### Known Issues
 
-Lots. It's an early proof of concept. Currently coordinates aren't correctly
-converted to canvas space and there are probably many other issues.
+Lots. It's an early proof of concept. Some coordinates aren't correctly converted to canvas space and there are probably many other issues.
 
 ## How do I get help
 
@@ -58,4 +53,4 @@ Come over to the [Open Brush Discord](https://discord.com/invite/fS69VdFXpk) and
 
 ### Can I see it in action?
 
-Not yet. 
+Not yet.
