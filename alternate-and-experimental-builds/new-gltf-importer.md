@@ -24,7 +24,7 @@ Download a build for your headset from the link above and unzip it. You can run 
 
 ### How do I use it?
 
-There's a new button on the Experimental Features panel that opens the Brush Editing panel. Select a brush and then click the button to create an editable duplicate. (at the moment you have to scroll to the end of the Brushes panel to select the new brush but this should happen automatically)
+Just import gltf models as you normally would.
 
 ### Known Issues
 
