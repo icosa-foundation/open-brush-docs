@@ -63,15 +63,12 @@ For example:
 
 ```lua
 function Main()
+    points = {}
     for i = 0, 360, 10 do
         angle = i * math.pi / 180
-        pos = {
-            pointer.position.x + math.cos(angle),
-            pointer.position.y + math.sin(angle),
-            pointer.position.z
-        }
-        rot = { 0, 0, 0 }
-        table.insert({pos, rot})
+        pos = {math.cos(angle), math.sin(angle), 0}
+        rot = { 0, 0, angle * 180 }
+        table.insert(points, {pos, rot})
     end
     return points
 end
