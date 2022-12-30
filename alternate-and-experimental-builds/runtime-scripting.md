@@ -12,7 +12,7 @@
 
 ### What does it do?
 
-Unlike the existing OpenBrush API, runtime scripting is designed to run small scripts that directly modify the behaviour of various features while you are actually using them. For example a script might move the pointer as you are painting or add new strokes in response to your actions.
+Unlike the existing [OpenBrush API](../user-guide/open-brush-api/), runtime scripting is designed to run small scripts that directly modify the behaviour of various features while you are actually using them. For example a script might move the pointer as you are painting or add new strokes in response to your actions.
 
 ### What's it good for?
 
@@ -24,7 +24,7 @@ Download a build for your headset from the link above and unzip it. You can run 
 
 ### How do I use it?
 
-There are new buttons on the scipts panel that allow you to set an active runtime script in (currently) one of three categories. All scripts are written in Lua and the type of script is determined by the filename prefix. Name your scripts using the script type first followed by the name of your script. Script types are as follows:
+There are new buttons on the scipts panel that allow you to set an active runtime script in (currently) one of three categories. All scripts are written in [Lua ](https://www.lua.org/)and the type of script is determined by the filename prefix. Script types are as follows:
 
 #### Pointer Scripts
 
@@ -57,21 +57,21 @@ Tool Scripts should return a list of points (and optionally rotations) that defi
 
 #### Symmetry Scripts
 
-Symmetry Scripts should return a list of positions (and optionally rotations) that represent additional pointers that will create their own strokes as the user draws with the primary pointer.
+Symmetry Scripts should return a list of positions and/or rotations that represent additional pointers that will create their own strokes as the user draws with the primary pointer.
 
 The number of pointers should not change once a brush stroke has begun, but may change between each brush stroke.
 
-Name a Symmetry Script with the prefix "SymmetryScript". For exaple SymmetryScript.FourCopies.lua
+Name a Symmetry Script with the prefix "SymmetryScript". For example SymmetryScript.FourCopies.lua
 
 Symmetry Scripts should return a list of positions (and optionally rotations) for each additional pointer.
 
 ### Known Issues
 
-Lots. It's an early proof of concept. Some coordinates aren't correctly converted to canvas space and there are probably many other issues.
+Lots. It's an early proof of concept. Some coordinates aren't correctly converted to a sensible coordinate space and there are probably many other issues. Pointer Scripts mostly work although I will probably change it so you return positions in the coordinate space of the pointer rather than the canvas.
 
 ## How do I get help
 
-Come over to the [Open Brush Discord](https://discord.com/invite/fS69VdFXpk) and chat to me ( @andybak#5425 ). I'm on UK time (currently UTC+1) but I check in fairly regularly.
+Come over to the [Open Brush Discord](https://discord.com/invite/fS69VdFXpk) and chat to me ( @andybak#5425 ). I'm on UK time but I check in fairly regularly.
 
 ### Can I see it in action?
 
