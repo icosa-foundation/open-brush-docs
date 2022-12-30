@@ -57,6 +57,24 @@ Name a Tool Script with the prefix "ToolScript". For example: _ToolScript.Circle
 
 Tool Scripts should return a list of points (and optionally rotations) that define a brush stroke.
 
+For example:
+
+```
+function Main()
+    for i = 0, 360, 10 do
+        angle = i * math.pi / 180
+        pos = {
+            pointer.position.x + math.cos(angle),
+            pointer.position.y + math.sin(angle),
+            pointer.position.z
+        }
+        rot = { 0, 0, 0 }
+        table.insert({pos, rot})
+    end
+    return points
+end
+```
+
 #### Symmetry Scripts
 
 Symmetry Scripts should return a list of positions and/or rotations that represent additional pointers that will create their own strokes as the user draws with the primary pointer.
@@ -66,6 +84,20 @@ The number of pointers should not change once a brush stroke has begun, but may 
 Name a Symmetry Script with the prefix "SymmetryScript". For example SymmetryScript.FourCopies.lua
 
 Symmetry Scripts should return a list of positions (and optionally rotations) for each additional pointer.
+
+For example:
+
+```
+function Main()
+    pos = pointer.position
+    return {
+        {position={pos.x-1, pos.y, pos.z}, rotation={0, 0, 0}, scale=1},
+        {position={pos.x+1, pos.y, pos.z}, rotation={0, 0, 0}, scale=1},
+        {position={pos.x, pos.y-1, pos.z}, rotation={0, 0, 0}, scale=1},
+        {position={pos.x, pos.y+1, pos.z}, rotation={0, 0, 0}, scale=1}
+    }
+end
+```
 
 ### Context Variables
 
