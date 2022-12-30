@@ -1,6 +1,6 @@
 # Feature: Runtime Scripting
 
-#### Status: Experimental and buggy.
+#### Status: Pointer and Tool Scripts mostly work. Symmetry Scripts are currently broken. Need lots more examples and better docs.
 
 ![](<../.gitbook/assets/image (1).png>)
 
@@ -41,7 +41,7 @@ For example:
 ```lua
 function Main()
     angle = app.time * 16
-    radius = .5
+    radius = pointer.pressure
     pos = {math.sin(angle) * radius, math.cos(angle) * radius, 0}
     rot = {0, 0, 0}
     return {pos, rot}
@@ -112,6 +112,8 @@ The following values from the sketch are available to use in your scripts:
   __The current brush size
 * **pointer.size01:** _float_\
   __The current brush size normalized to lie in the range 0 to 1
+* **pointer.pressure:** _float_\
+  _The current pressure of the pointer (how hard the trigger is being pressed)_
 * **pointer.brush:** _string_\
   __The current brush name
 * **app.time:** _float_\
@@ -123,7 +125,9 @@ The following values from the sketch are available to use in your scripts:
 
 ### Known Issues
 
-Lots. It's an early proof of concept. Some coordinates aren't correctly converted to a sensible coordinate space and there are probably many other issues. Pointer Scripts mostly work although I will probably change it so you return positions in the coordinate space of the pointer rather than the canvas.
+Symmetry scripts are currently broken. There's probably tons of other bugs waiting to be discovered.
+
+There's lots more I want to do with this including scripted jitter and scripted geometry creation.
 
 ## How do I get help
 
@@ -131,4 +135,4 @@ Come over to the [Open Brush Discord](https://discord.com/invite/fS69VdFXpk) and
 
 ### Can I see it in action?
 
-Not yet.
+TODO
