@@ -38,15 +38,17 @@ A Pointer Script should return x, y, z for pointer rotation and x, y, z for poin
 
 For example:
 
-```
+```lua
 function Main()
-    newPosition = {
-        pointer.position.x + (math.sin(app.time * 15) * .25),
-        pointer.position.y + (math.cos(app.time * 15) * .25),
-        pointer.position.z
+    pos = {
+        (math.sin(app.time * 16) * .25),
+        (math.cos(app.time * 16) * .25),
+        0
     }
-    return {newPosition, pointer.rotation}
+    rot = {0, 0, 0}
+    return {pos, rot}
 end
+
 ```
 
 #### Tool Scripts
@@ -59,7 +61,7 @@ Tool Scripts should return a list of points (and optionally rotations) that defi
 
 For example:
 
-```
+```lua
 function Main()
     for i = 0, 360, 10 do
         angle = i * math.pi / 180
@@ -87,7 +89,7 @@ Symmetry Scripts should return a list of positions (and optionally rotations) fo
 
 For example:
 
-```
+```lua
 function Main()
     pos = pointer.position
     return {
