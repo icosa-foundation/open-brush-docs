@@ -67,6 +67,31 @@ Name a Symmetry Script with the prefix "SymmetryScript". For example SymmetryScr
 
 Symmetry Scripts should return a list of positions (and optionally rotations) for each additional pointer.
 
+### Context Variables
+
+The following values from the sketch are available to use in your scripts:
+
+* **pointer.position:** _{float x, float y, float z}_\
+  ****The current position of the pointer relative to the canvas
+* **pointer.rotation:** _{float x, float y, float z}_\
+  ****The current orientation of the pointer relative to the canvas
+* **pointer.rgb:** _{float r, float g, float b}_\
+  ****The current brush color
+* **pointer.hsv:** _{float h, float s, float v}_\
+  __The current brush colour converted to HSV
+* **pointer.size:** _float_\
+  __The current brush size
+* **pointer.size01:** _float_\
+  __The current brush size normalized to lie in the range 0 to 1
+* **pointer.brush:** _string_\
+  __The current brush name
+* **app.time:** _float_\
+  __The time in seconds since Open Brush was launched
+* **canvas.scale:** _float_\
+  __The current scale of the canvas
+* **canvas.strokeCount:** _int_\
+  __The total number of strokes
+
 ### Known Issues
 
 Lots. It's an early proof of concept. Some coordinates aren't correctly converted to a sensible coordinate space and there are probably many other issues. Pointer Scripts mostly work although I will probably change it so you return positions in the coordinate space of the pointer rather than the canvas.
