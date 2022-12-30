@@ -88,12 +88,13 @@ For example:
 
 ```lua
 function Main()
-    pos = pointer.position
     return {
-        {position={pos.x-1, pos.y, pos.z}, rotation={0, 0, 0}, scale=1},
-        {position={pos.x+1, pos.y, pos.z}, rotation={0, 0, 0}, scale=1},
-        {position={pos.x, pos.y-1, pos.z}, rotation={0, 0, 0}, scale=1},
-        {position={pos.x, pos.y+1, pos.z}, rotation={0, 0, 0}, scale=1}
+        {position={-1, 0, 0}, rotation={0, 0, 0}},
+        {position={1, 0, 0}, rotation={0, 0, 0}},
+        {position={0, -1, 0}, rotation={0, 0, 0}},
+        {position={0, 1, 0}, rotation={0, 0, 0}},
+        {position={0, 0, -1}, rotation={0, 0, 0}},
+        {position={0, 0, 1}, rotation={0, 0, 0}}
     }
 end
 ```
