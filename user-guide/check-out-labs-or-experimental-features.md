@@ -85,7 +85,7 @@ See the section on [Exporting](exporting-open-brush-sketches-to-other-apps.md)
 
 See the section on [Scripting Open Brush](check-out-labs-or-experimental-features.md#run-scripts)
 
-![](<../.gitbook/assets/image (1).png>)
+![](<../.gitbook/assets/image (1) (3).png>)
 
 ### Use grid or angle snapping
 
