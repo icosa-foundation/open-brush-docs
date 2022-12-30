@@ -40,15 +40,12 @@ For example:
 
 ```lua
 function Main()
-    pos = {
-        (math.sin(app.time * 16) * .25),
-        (math.cos(app.time * 16) * .25),
-        0
-    }
+    angle = app.time * 16
+    radius = .5
+    pos = {math.sin(angle) * radius, math.cos(angle) * radius, 0}
     rot = {0, 0, 0}
     return {pos, rot}
 end
-
 ```
 
 #### Tool Scripts
