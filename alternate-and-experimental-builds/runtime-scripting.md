@@ -2,7 +2,7 @@
 
 #### Status: Pointer and Tool Scripts mostly work. Symmetry Scripts are currently broken. Need lots more examples and better docs.
 
-![](<../.gitbook/assets/image (1).png>)
+![](<../.gitbook/assets/image (1) (4).png>)
 
 ## Download
 
@@ -26,7 +26,11 @@ Download a build for your headset from the link above and unzip it. You can run 
 
 ### How do I use it?
 
-There are new buttons on the scipts panel that allow you to set an active runtime script in (currently) one of three categories. All scripts are written in [Lua ](https://www.lua.org/)and the type of script is determined by the filename prefix. Script types are as follows:
+![](<../.gitbook/assets/image (2).png>)
+
+There are new buttons on the scipts panel that allow you to set an active runtime script in (currently) one of three categories: Tool Scripts, Symmetry Scripts and Pointer Scripts. Use the arrow buttons to choose a script and activate it with the large button on the left of each row.
+
+All scripts are written in [Lua ](https://www.lua.org/)and the type of script is determined by the filename prefix. Script types are as follows:
 
 #### Pointer Scripts
 
@@ -122,6 +126,53 @@ The following values from the sketch are available to use in your scripts:
   __The current scale of the canvas
 * **canvas.strokeCount:** _int_\
   __The total number of strokes
+
+### Script Widgets
+
+Scripts can specify parameters that appear as UI widgets such as sliders. These appear in a popup when you click the "3 dots" button on the right of each row.  For example you might want a script to have sliders to control "speed" or "wigglyness".
+
+You define the widgets for each parameter in your script. Here's an example:
+
+```lua
+Widgets = {
+    speed={label="Speed", type="float", min=0.01, max=32, default=16},
+    radius={label="Radius", type="float", min=0.01, max=5, default=1},
+}
+
+function Main()
+    angle = app.time * speed
+    r = pointer.pressure * radius;
+    pos = {math.sin(angle) * r, math.cos(angle) * r, 0}
+    rot = {0, 0, 0}
+    return {pos, rot}
+end
+```
+
+Here we have defined two widgets. Both are floats (rather than integers) and we have defined a minimum, a maximum and a default value. You can set the ltext abel that appears when you hover over each slider.
+
+The name of each widget (here "speed" and "radius") are then available to the script as variables.
+
+### Coordinate Spaces
+
+By default each script type works relative to an origin and has a rotation that makes sense for each of the three types. Pointer and Tool Scripts are relative to the user's brush hand and Symmetry Scripts are relative to the Mirror Widget.
+
+You can override this. For example, here's a PointerScript that is relative to the canvas. We can then position the pointer so it is always at y=0 (the floor) but still tracks the pointer in the x and z directions:
+
+```lua
+Settings = {
+    space="canvas"
+}
+
+function Main()
+    return {
+        {pointer.position.x, 0, pointer.position.z}
+    };
+end
+```
+
+Note that we have to manually specific pointer.position.x and pointer.position.y. If we were using space="pointer" (the default) then we wouldn't need to as coordinates are automatically relative to pointer.position
+
+Valid spaces are "pointer", "canvas" and "widget" (the mirror widget)
 
 ### Known Issues
 
