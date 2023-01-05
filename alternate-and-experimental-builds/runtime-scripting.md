@@ -2,7 +2,7 @@
 
 #### Status: Pointer and Tool Scripts mostly work. Symmetry Scripts are currently broken. Need lots more examples and better docs.
 
-![](<../.gitbook/assets/image (1) (4).png>)
+{% embed url="https://youtu.be/z3lb7pjlP9o" %}
 
 ## Download
 
@@ -186,4 +186,4 @@ Come over to the [Open Brush Discord](https://discord.com/invite/fS69VdFXpk) and
 
 ### Can I see it in action?
 
-TODO
+I need to make some better videos but here's
