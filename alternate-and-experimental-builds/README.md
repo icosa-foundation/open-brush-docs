@@ -63,6 +63,8 @@ Multibrush does not currently include most of the features that we have added to
 
 ## Silk Brush (Tilt Brush Fork)
 
+{% embed url="https://msub2.github.io/silk-brush/" %}
+
 Tilt Brush. Running in a browser!
 
 ### TutoriVR
