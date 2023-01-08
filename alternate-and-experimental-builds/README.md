@@ -65,4 +65,9 @@ Multibrush does not currently include most of the features that we have added to
 
 Tilt Brush. Running in a browser!
 
-{% embed url="https://msub2.github.io/silk-brush/" %}
+### TutoriVR
+
+{% embed url="https://www.tkbala.com/tutorivr" %}
+
+A VR-embedded tutorial system that supplements video tutorials with 3D and contextual aids directly in the user's VR environment.
+
