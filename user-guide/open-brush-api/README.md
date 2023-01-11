@@ -2,8 +2,6 @@
 
 ### What does it do?
 
-[API Commands List](api-commands.md)
-
 Allows you to control Open Brush using commands sent from your web browser or a script you write. You can use nearly any programming language or even just type commands into your browser address bar.
 
 It even works on computers that don't support VR. You can create Tilt Brush sketches on a Mac and export them to view in a web browser.
@@ -113,6 +111,8 @@ Visit [http://localhost:40074/help](http://localhost:40074/help) while you've go
 A full list of commands can be viewed by going to [http://localhost:40074/help/commands](http://localhost:40074/help/commands)
 
 Each command has a "try it" link that will open a new browser tab with an example of the command in the address bar.
+
+If you want to view commands when Open Brush isn't running: [API Commands List](api-commands.md) (not neccesarily as up to date as the list you get directly from the app)
 
 ### How do I use the API from javascript
 
