@@ -10,7 +10,7 @@
 * [Oculus PC VR ](https://nightly.link/IxxyXR/open-brush/workflows/build/experiments%2Fmoonsharp/Windows%20Rift.zip)(Rift, Quest via Link cable...)
 * [SteamVR ](https://nightly.link/IxxyXR/open-brush/workflows/build/experiments%2Fmoonsharp/Windows%20OpenXR.zip)(Vive, Index, Reverb...)
 * [Other Builds](https://nightly.link/IxxyXR/open-brush/workflows/build/experiments%2Fmoonsharp) (Pico, Pimax etc)
-* [Code](https://github.com/IxxyXR/open-brush/tree/features/moonsharp)
+* [Code](https://github.com/IxxyXR/open-brush/tree/experiments/moonsharp)
 
 ### What does it do?
 
