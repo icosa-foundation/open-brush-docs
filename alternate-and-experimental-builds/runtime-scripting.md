@@ -1,6 +1,6 @@
-# Feature: Runtime Scripting
+# Feature: Plugin Scripting
 
-#### Status: Pointer and Tool Scripts mostly work. Symmetry Scripts are currently broken. Need lots more examples and better docs.
+#### Status: Mostly working. Missing features and probably buggy in places.
 
 {% embed url="https://youtu.be/z3lb7pjlP9o" %}
 
@@ -14,7 +14,7 @@
 
 ### What does it do?
 
-Unlike the existing [OpenBrush API](../user-guide/open-brush-api/), runtime scripting is designed to run small scripts that directly modify the behaviour of various features while you are actually using them. For example a script might move the pointer as you are painting or add new strokes in response to your actions.
+Unlike the existing [OpenBrush API](../user-guide/open-brush-api/), plugin scripting is designed to run small scripts that directly modify the behaviour of various features while you are actually using them. For example a script might move the pointer as you are painting or add new strokes in response to your actions.
 
 ### What's it good for?
 
@@ -22,13 +22,13 @@ Changing the way Open Brush responds to user actions. Adding new mirror modes or
 
 ### How do I install it?
 
-Download a build for your headset from the link above and unzip it. You can run the Windows exe directly. To install the Quest apk use SideQuest: [https://uploadvr.com/sideloading-quest-how-to/](https://uploadvr.com/sideloading-quest-how-to/)
+[Download](runtime-scripting.md#download) a build for your headset from the link above and unzip it. You can run the Windows exe directly. To install the Quest apk use SideQuest: [https://uploadvr.com/sideloading-quest-how-to/](https://uploadvr.com/sideloading-quest-how-to/)
 
 ### How do I use it?
 
 ![](<../.gitbook/assets/image (2).png>)
 
-There are new buttons on the scipts panel that allow you to set an active runtime script in (currently) one of three categories: Tool Scripts, Symmetry Scripts and Pointer Scripts. Use the arrow buttons to choose a script and activate it with the large button on the left of each row.
+There are new buttons on the scipts panel that allow you to set an active runtime script in (currently) one of three categories: [Tool Scripts](runtime-scripting.md#tool-scripts), [Symmetry Scripts](runtime-scripting.md#symmetry-scripts) and [Pointer Scripts](runtime-scripting.md#pointer-scripts). Use the arrow buttons to choose a script and activate it with the large button on the left of each row.
 
 All scripts are written in [Lua ](https://www.lua.org/)and the type of script is determined by the filename prefix. Script types are as follows:
 
@@ -43,13 +43,16 @@ A Pointer Script should return x, y, z for pointer rotation and x, y, z for poin
 For example:
 
 ```lua
-function Main()
-    angle = app.time * 16
-    radius = pointer.pressure
-    pos = {math.sin(angle) * radius, math.cos(angle) * radius, 0}
+function WhileTriggerPressed()
+    speed = 5
+    radius = 0.25
+    angle = app.time * speed
+    r = brush.pressure * radius;
+    pos = {math.sin(angle) * r, math.cos(angle) * r, 0}
     rot = {0, 0, 0}
     return {pos, rot}
 end
+
 ```
 
 #### Tool Scripts
@@ -63,15 +66,17 @@ Tool Scripts should return a list of points (and optionally rotations) that defi
 For example:
 
 ```lua
-function Main()
-    points = {}
-    for i = 0, 360, 10 do
-        angle = i * math.pi / 180
-        pos = {math.cos(angle), math.sin(angle), 0}
-        rot = { 0, 0, angle * 180 }
-        table.insert(points, {pos, rot})
+function WhileTriggerPressed()
+    speed = 16
+    radius = 1
+    angle = app.time * speed
+    r = 0
+    if (brush.triggerIsPressed) then
+        r = radius * brush.timeSincePressed
     end
-    return points
+    pos = {math.sin(angle) * r, math.cos(angle) * r, 0}
+    rot = {0, 0, 0}
+    return {pos, rot}
 end
 ```
 
@@ -89,20 +94,19 @@ For example:
 
 ```lua
 function Main()
-    return {
-        {position={-1, 0, 0}, rotation={0, 0, 0}},
-        {position={1, 0, 0}, rotation={0, 0, 0}},
-        {position={0, -1, 0}, rotation={0, 0, 0}},
-        {position={0, 1, 0}, rotation={0, 0, 0}},
-        {position={0, 0, -1}, rotation={0, 0, 0}},
-        {position={0, 0, 1}, rotation={0, 0, 0}}
-    }
+    copies = 12
+    pointers = {}
+    theta = 360.0 / copies
+    for i = 1, copies - 1 do
+        table.insert(pointers, {position={0, 0, 0}, rotation={0, i * theta, 0}})
+    end
+    return pointers
 end
 ```
 
 ### Context Variables
 
-The following values from the sketch are available to use in your scripts:
+The following realtime values from the sketch are available to use in your scripts (list is currently incomplete. More docs to come):
 
 * **pointer.position:** _{float x, float y, float z}_\
   ****The current position of the pointer relative to the canvas
@@ -176,8 +180,6 @@ Valid spaces are "pointer", "canvas" and "widget" (the mirror widget)
 
 ### Known Issues
 
-Symmetry scripts are currently broken. There's probably tons of other bugs waiting to be discovered.
-
 There's lots more I want to do with this including scripted jitter and scripted geometry creation.
 
 ## How do I get help
@@ -186,4 +188,4 @@ Come over to the [Open Brush Discord](https://discord.com/invite/fS69VdFXpk) and
 
 ### Can I see it in action?
 
-I need to make some better videos but here's
+{% embed url="https://www.youtube.com/watch?v=7YxjNvCY8ak" %}

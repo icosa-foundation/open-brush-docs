@@ -43,7 +43,7 @@
   * [Feature: Multi-Mirror](alternate-and-experimental-builds/multi-mirror.md)
   * [Feature: Transform Panel](alternate-and-experimental-builds/transform-panel.md)
   * [Feature: Brush Editing](alternate-and-experimental-builds/brush-editing.md)
-  * [Feature: Runtime Scripting](alternate-and-experimental-builds/runtime-scripting.md)
+  * [Feature: Plugin Scripting](alternate-and-experimental-builds/runtime-scripting.md)
   * [Feature: Improved GLTF Importer](alternate-and-experimental-builds/new-gltf-importer.md)
   * [Feature: New Monoscopic Mode](alternate-and-experimental-builds/new-monoscopic-mode.md)
   * [Old or Completed Feature Builds](alternate-and-experimental-builds/old-or-completed-feature-builds/README.md)
