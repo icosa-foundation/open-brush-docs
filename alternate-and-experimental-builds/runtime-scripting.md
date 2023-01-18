@@ -188,4 +188,4 @@ Come over to the [Open Brush Discord](https://discord.com/invite/fS69VdFXpk) and
 
 ### Can I see it in action?
 
-{% embed url="https://www.youtube.com/watch?v=7YxjNvCY8ak" %}
+I need to make some better videos but here's
