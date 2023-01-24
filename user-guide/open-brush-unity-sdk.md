@@ -69,7 +69,11 @@ And here's the same sketch in Unity set to linear mode:
 
 The v11 toolkit shaders support both sRGB (Gamma) and Linear [color spaces](https://docs.unity3d.com/Manual/LinearRendering-LinearOrGammaWorkflow.html). The shaders are set to Gamma mode by default. **If you wish to use Linear, add this call somewhere in your program**.
 
-Shader.EnableKeyword("TBT\_LINEAR\_TARGET");
+```
+Shader.EnableKeyword("TBT_LINEAR_TARGET");
+```
+
+Note: while this improves the colour accuracy, due to fundamental differences between linear and gamma rendering, brushes may still not exactly replicate the look of their gamma counterparts.
 
 ### Audio Reactivity <a href="#_st8oph1ghsgx" id="_st8oph1ghsgx"></a>
 
