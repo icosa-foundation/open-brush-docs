@@ -73,7 +73,7 @@ The v11 toolkit shaders support both sRGB (Gamma) and Linear [color spaces](http
 Shader.EnableKeyword("TBT_LINEAR_TARGET");
 ```
 
-Note: while this improves the colour accuracy, due to fundamental differences between linear and gamma rendering, brushes may still not exactly replicate the look of their gamma counterparts.
+Note: while this improves the colour accuracy, due to [fundamental differences](https://docs.unity3d.com/Manual/LinearRendering-LinearOrGammaWorkflow.html) between linear and gamma rendering, brushes may still not exactly replicate the look of their gamma counterparts.
 
 ### Audio Reactivity <a href="#_st8oph1ghsgx" id="_st8oph1ghsgx"></a>
 
