@@ -55,7 +55,17 @@ _Notes:_
 
 ## Tips <a href="#_ibglt4zbyabz" id="_ibglt4zbyabz"></a>
 
-### Linear vs Gamma <a href="#_nvutjzw2fj1u" id="_nvutjzw2fj1u"></a>
+### "My brushes look different to Open Brush" (Linear vs Gamma) <a href="#_nvutjzw2fj1u" id="_nvutjzw2fj1u"></a>
+
+For historical reasons Open Brush uses gamma mode for color blending. We may offer the option to switch to linear in the future but it will change the appearance of sketches so gamma will always be an option when the hardware allows it.
+
+If your Unity project is set to linear mode (Projects > Player Settings) then imported sketches may look different. For example here's some smoke brush strokes in Open Brush:
+
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+
+And here's the same sketch in Unity set to linear mode:
+
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 The v11 toolkit shaders support both sRGB (Gamma) and Linear [color spaces](https://docs.unity3d.com/Manual/LinearRendering-LinearOrGammaWorkflow.html). The shaders are set to Gamma mode by default. **If you wish to use Linear, add this call somewhere in your program**.
 

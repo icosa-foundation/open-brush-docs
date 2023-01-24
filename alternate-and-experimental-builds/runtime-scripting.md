@@ -26,7 +26,7 @@ Changing the way Open Brush responds to user actions. Adding new mirror modes or
 
 ### How do I use it?
 
-![](<../.gitbook/assets/image (2).png>)
+![](<../.gitbook/assets/image (2) (6).png>)
 
 There are new buttons on the scipts panel that allow you to set an active runtime script in (currently) one of three categories: [Tool Scripts](runtime-scripting.md#tool-scripts), [Symmetry Scripts](runtime-scripting.md#symmetry-scripts) and [Pointer Scripts](runtime-scripting.md#pointer-scripts). Use the arrow buttons to choose a script and activate it with the large button on the left of each row.
 
@@ -188,4 +188,4 @@ Come over to the [Open Brush Discord](https://discord.com/invite/fS69VdFXpk) and
 
 ### Can I see it in action?
 
-I need to make some better videos but here's
+{% embed url="https://www.youtube.com/watch?v=7YxjNvCY8ak" %}

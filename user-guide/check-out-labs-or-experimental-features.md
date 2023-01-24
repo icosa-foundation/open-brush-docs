@@ -15,7 +15,7 @@ To try out newer features, you can open up the Labs panel. Here you will find so
 
 ## Labs Features:
 
-![](<../.gitbook/assets/image (5).png>)![](<../.gitbook/assets/image (6).png>)
+![](<../.gitbook/assets/image (5) (3).png>)![](<../.gitbook/assets/image (6).png>)
 
 ### Display Twitch or YouTube Chat whilst streaming (PC Only)
 
@@ -79,7 +79,7 @@ See the section on [Exporting](exporting-open-brush-sketches-to-other-apps.md)
 
 (docs coming)
 
-![](<../.gitbook/assets/image (3).png>)
+![](<../.gitbook/assets/image (3) (2).png>)
 
 ### Run scripts
 
