@@ -68,5 +68,7 @@
     * [UserInterface](developer-notes/github-wiki/userinterface.md)
   * [Differences between Standard and Experimental Mode](developer-notes/differences-between-standard-and-experimental-mode.md)
   * [Open Brush AsCanvas Notes](developer-notes/open-brush-ascanvas-notes.md)
-* [Release History](release-history.md)
+* [Release History](release-history/README.md)
+  * [🚀 v2.0: XR Update](release-history/2.0.md)
+  * [v1.0: Happy Birthday to Us!](release-history/1.0.md)
 * [Docs TODO](docs-todo.md)
