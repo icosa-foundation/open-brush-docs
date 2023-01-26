@@ -32,7 +32,7 @@ There are four brushes in experimental mode that are interesting but very buggy.
 
 ### Downloading and installing the main Experimental Build
 
-This build is the pre-release version of Open Brush and may contain untested new features. See the [release ](../release-history/)history for more information on new and upcoming features.
+This build is the pre-release version of Open Brush and may contain untested new features. See the [release ](../release-history.md)history for more information on new and upcoming features.
 
 In addition it has "Experimental Mode" enabled. See below for a list of features that are enabled in this mode. If you want a pre-release build without "experimental mode" enabled then see [Pre-release builds](broken-reference)
 

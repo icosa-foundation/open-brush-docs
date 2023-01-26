@@ -1,6 +1,6 @@
 # Beta Release
 
-This build is the pre-release version of Open Brush and may contain untested new features. See the [release history](../release-history/) for more information on new and upcoming features.
+This build is the pre-release version of Open Brush and may contain untested new features. See the [release history](../release-history.md) for more information on new and upcoming features.
 
 ### Important note <a href="#_lnka1z4mzei7" id="_lnka1z4mzei7"></a>
 
