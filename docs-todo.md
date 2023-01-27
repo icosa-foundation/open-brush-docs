@@ -16,3 +16,5 @@
 14. Clarify Quest standalone vs Quest + Link
 15. Document Mixed Reality capture: [https://creator.oculus.com/mrc/](https://creator.oculus.com/mrc/) vs Liv vs Mixcast
 16. Document the Labs/camera button (which seems to be mobile only)
+17. Settings
+18. 2.0 new features (maybe check if we missed anything in earlier release also)
