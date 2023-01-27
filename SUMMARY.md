@@ -16,6 +16,7 @@
   * [Saving and sharing your Open Brush sketches](user-guide/saving-and-sharing-your-open-brush-sketches.md)
   * [Troubleshooting issues with Open Brush](user-guide/troubleshooting-issues-with-open-brush.md)
   * [Check out Labs features](user-guide/check-out-labs-or-experimental-features.md)
+  * [Experimental Mode](user-guide/experimental-mode.md)
   * [Make moving creations using audio reactive brushes](user-guide/make-moving-creations-using-audio-reactive-brushes.md)
   * [Using Reference Images on Oculus Quest](user-guide/using-reference-images-on-oculus-quest.md)
   * [Remixing and Creative Commons](user-guide/remixing-and-creative-commons.md)
