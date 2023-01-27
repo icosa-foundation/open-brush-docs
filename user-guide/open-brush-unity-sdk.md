@@ -61,7 +61,7 @@ For historical reasons Open Brush uses gamma mode for color blending. We may off
 
 If your Unity project is set to linear mode (Projects > Player Settings) then imported sketches may look different. For example here's some smoke brush strokes in Open Brush:
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (7).png" alt=""><figcaption></figcaption></figure>
 
 And here's the same sketch in Unity set to linear mode:
 
