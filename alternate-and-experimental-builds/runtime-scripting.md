@@ -30,7 +30,19 @@ Changing the way Open Brush responds to user actions. Adding new mirror modes or
 
 There are new buttons on the scipts panel that allow you to set an active runtime script in (currently) one of three categories: [Tool Scripts](runtime-scripting.md#tool-scripts), [Symmetry Scripts](runtime-scripting.md#symmetry-scripts) and [Pointer Scripts](runtime-scripting.md#pointer-scripts). Use the arrow buttons to choose a script and activate it with the large button on the left of each row.
 
-All scripts are written in [Lua ](https://www.lua.org/)and the type of script is determined by the filename prefix. Script types are as follows:
+### How do I write my own plugin scripts?
+
+Note that this is in the early stage of development and I'm still changing my mind about many parts
+
+All scripts are written in [Lua](https://www.lua.org/) (this is different to the [Http Api](../user-guide/open-brush-api/) where you can use any language as commands are simply messages sent over Http)
+
+The best reference is probably the [examples scripts themselves](https://github.com/IxxyXR/open-brush/tree/experiments/moonsharp/Assets/Resources/LuaScriptExamples). Most API commands are listed in the [Lua Autocomplete File](https://github.com/IxxyXR/open-brush/blob/experiments/moonsharp/Assets/Resources/LuaScriptExamples/\_\_autocomplete.lua) (which you can copy to your scripts folder and many code editors will automatically use it to give you some level of autocomplete).
+
+In addition to the commands and properties listed in the autocomplete file, you can use most static methods from the [Unity MathF class](https://docs.unity3d.com/ScriptReference/Mathf.html). Most of the [Lua Standard Library](https://www.moonsharp.org/MoonSharpStdLib.pdf) is supported also
+
+The type of script is determined by the filename prefix.
+
+Script types are as follows:
 
 #### Pointer Scripts
 
