@@ -33,7 +33,7 @@ Tiltasaurus is a virtual reality game where your friends can guess what you're d
 6. Once they guess correctly, you can switch and start again. Clear the current drawing and get a new word or phrase by hitting **Refresh** on the card.
 7. Adding Tiltasaurus.json to the Documents/Open Brush folder will let you add your own list of words.
 
-### ****<img src="../.gitbook/assets/image (8).png" alt="" data-size="original">****
+### ****<img src="../.gitbook/assets/image (8) (1).png" alt="" data-size="original">****
 
 ### **Add a reference image or 3D model**
 
@@ -73,7 +73,7 @@ If you want to see an image or 3D model while you paint in Open Brush, you can a
 
 See the section on [Exporting](exporting-open-brush-sketches-to-other-apps.md)
 
-![](<../.gitbook/assets/image (4).png>)
+![](<../.gitbook/assets/image (4) (1).png>)
 
 ### Switch the desktop view to a spectator camera
 

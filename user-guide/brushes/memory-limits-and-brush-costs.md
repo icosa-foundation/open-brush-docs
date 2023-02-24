@@ -4,6 +4,6 @@ The following gives an approximate measure of how "expensive" each brush is and 
 
 ![](<../../.gitbook/assets/image (7) (1).png>)
 
-![](<../../.gitbook/assets/image (8) (1).png>)
+![](<../../.gitbook/assets/image (8) (1) (1).png>)
 
 ![](<../../.gitbook/assets/image (9) (1) (1).png>)

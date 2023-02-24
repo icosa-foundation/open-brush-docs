@@ -10,7 +10,7 @@ Note that using experimental mode used to require running a separate build of Op
 
 ### Turning on Experimental Mode
 
-![](../.gitbook/assets/image.png)
+![](<../.gitbook/assets/image (4).png>)
 
 Simply open up the Settings Panel, click the button and restart Open Brush.
 
