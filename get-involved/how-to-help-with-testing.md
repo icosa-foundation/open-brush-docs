@@ -36,7 +36,7 @@ Just click on the name that matches your headset and it will begin to download a
 
 ## Testing Experimental Builds
 
-Experimental builds are real bleeding edge. Some of the features might never make it into the official release. They can vary from "nearly ready" all the way to "barely working".
+[Experimental builds](../alternate-and-experimental-builds/#beta-release) are the real bleeding edge. Some of the features might never make it into the official release. They can vary from "nearly ready" all the way to "barely working".
 
 However - early on in the development of a new feature is when feedback is most likely to be useful and most likely to alter the direction a feature takes. These are the builds you want to be testing if you want to have a say in Open Brush development.
 
