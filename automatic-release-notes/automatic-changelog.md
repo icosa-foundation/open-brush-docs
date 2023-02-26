@@ -1,6 +1,6 @@
 # Changelog since v2.1
 
-[Full release details](https://github.com/icosa-gallery/open-brush/compare/v2.1...d4c49cd0b7cacf0ac9974bd585ebd182a1a3ccc5)
+[Full release details](https://github.com/icosa-gallery/open-brush/compare/v2.1...a7a409c822d63fa07e1167e7c11b8a04fdbedbaa)
 
 ## 🐛 Fixes
 
@@ -12,6 +12,8 @@
 - Support hotfixes / maintenance releases properly ([PR #403](https://github.com/icosa-gallery/open-brush/pull/403) by @mikeage)
 
 - Change release note formatting ([PR #410](https://github.com/icosa-gallery/open-brush/pull/410) by @mikeage)
+
+- Automatically create a changelog in open-brush-docs ([PR #415](https://github.com/icosa-gallery/open-brush/pull/415) by @mikeage)
 
 
 ## 📦 Dependencies / Maintenance
