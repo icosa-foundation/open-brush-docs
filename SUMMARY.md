@@ -39,7 +39,7 @@
 * [Get Involved!](get-involved/README.md)
   * [How to help with Testing](get-involved/how-to-help-with-testing.md)
 * [Pre-release, Alternate, and Experimental Builds](alternate-and-experimental-builds/README.md)
-  * [Beta Release](alternate-and-experimental-builds/open-brush-beta-docs.md)
+  * [Installing the Beta Release](alternate-and-experimental-builds/open-brush-beta-docs.md)
   * ["Experimental Mode" Builds](alternate-and-experimental-builds/main-experimental-build.md)
   * [Feature: 3D Shapes Tool](alternate-and-experimental-builds/3d-shapes.md)
   * [Feature: Multi-Mirror](alternate-and-experimental-builds/multi-mirror.md)

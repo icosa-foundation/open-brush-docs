@@ -2,20 +2,18 @@
 
 ## Beta Release
 
+[List of changes in the current beta version](https://docs.openbrush.app/release-history/automatic-changelog)&#x20;
+
+{% content-ref url="../automatic-release-notes/automatic-changelog.md" %}
+[automatic-changelog.md](../automatic-release-notes/automatic-changelog.md)
+{% endcontent-ref %}
+
 Whenever any new change is added to Open Brush, before it's released to the various stores and sites, there is an engineering "pre-release" version available. If you'd like to help beta test new versions, you can get these builds as soon as the new code is added (generally within 20 minutes!). Windows (SteamVR) and Quest/Quest 2 versions are built automatically which you can get from the [Github releases page](https://github.com/icosa-gallery/open-brush/releases). Versions of the form "vX.Y.0" are official releases, whereas versions that do not end in .0 are made available for testing purposes only, with no guarantees as to their quality.
 
-These builds share a save location with the official Open Brush release, but can be installed alongside the formal version. The Oculus build, like all sideloaded content, will be listed in "Unknown Sources", and will have the word "Github" appended to the name (with a different package name as well) to differentiate it from the official release). These builds are available for both the "regular" and the "experimental mode" described below.
-
-Because of a big change currently in progress there are actually two beta versions at the moment. The regular one:
+These builds share a save location with the official Open Brush release, but can be installed alongside the formal version. The Oculus build, like all sideloaded content, will be listed in "Unknown Sources", and will have the word "Github" appended to the name (with a different package name as well) to differentiate it from the official release).
 
 {% content-ref url="open-brush-beta-docs.md" %}
 [open-brush-beta-docs.md](open-brush-beta-docs.md)
-{% endcontent-ref %}
-
-The original VR framework in Unity is deprecated and all new apps are built using the Unity XR Plugin framework. We intend to switch to this going forward and we need to to support newer Oculus features and other headsets such as the Vive Focus:
-
-{% content-ref url="old-or-completed-feature-builds/xr-framework-experimental-build.md" %}
-[xr-framework-experimental-build.md](old-or-completed-feature-builds/xr-framework-experimental-build.md)
 {% endcontent-ref %}
 
 ## "Experimental Mode" Build
