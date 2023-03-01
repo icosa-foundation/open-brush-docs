@@ -1,6 +1,11 @@
 # Changelog since v2.1
 
-[Full release details](https://github.com/icosa-gallery/open-brush/compare/v2.1...618ff6d72af133967b52b62a53914ac650b9b528)
+[Full release details](https://github.com/icosa-gallery/open-brush/compare/v2.1...6fbcd607f2071325b29866e0e09a7446ce904cbc)
+
+## 🚀 Features
+
+- Bundles some featured sketches with the app, so that people can view other people's art. ([PR #417](https://github.com/icosa-gallery/open-brush/pull/417) by @TimAidley)
+
 
 ## 🐛 Fixes
 
