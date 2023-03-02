@@ -334,6 +334,74 @@ if App.PlatformConfig.EnableExportGlb:
 
 If you want to add a new export format then add your script to Scripts/Export and modify the big set of if statements in ExportScene in Exports.cs. You’ll also want to add a pair of progress.SetWork and progress.CompleteWork calls to update the progress UI.
 
+## How Exports Group Strokes
+
+Currently strokes are grouped by brush type when exported to other formats. People have asked in the past to also group by color AND brush type. @1pld offered the following solution:
+
+> You need to convince Open Brush to split things out by color as well as by brush. It's not that tricky a change if you can modify the code (or can get someone to modify it for you). This compiles but I haven't tested it
+>
+> ```
+> diff --git a/Assets/Scripts/Export/ExportCollector.cs b/Assets/Scripts/Export/ExportCollector.cs
+> index c9df745..5b1e27f 100644
+> --- a/Assets/Scripts/Export/ExportCollector.cs
+> +++ b/Assets/Scripts/Export/ExportCollector.cs
+> @@ -251,6 +251,13 @@ class ExportCollector {
+>  
+>          string legacyUniqueName = $"{desc.m_DurableName}_{desc.m_Guid}_{group.id}_i{batchIndex}";
+>          string friendlyGeometryName = $"brush_{desc.m_DurableName}_g{group.id}_b{batchIndex}";
+> +        // If it's split by color then we have to append some kind of thing to keep the unique name unique
+> +        if (brush.m_color is Color c) {
+> +          Color32 c32 = (Color32)c;
+> +          string cstr = $"_c{c.r:2X}{c.g:2X}{c.b:2X}";
+> +          legacyUniqueName += cstr;
+> +          friendlyGeometryName += cstr;
+> +        }
+>  
+>          UnityEngine.Profiling.Profiler.BeginSample("ConvertToMetersAndChangeBasis");
+>          ExportUtils.ConvertUnitsAndChangeBasis(geometry, payload);
+> ```
+>
+> And also
+>
+> ```
+> diff --git a/Assets/Scripts/Export/ExportUtils.cs b/Assets/Scripts/Export/ExportUtils.cs
+> index 935411f..486a3a2 100644
+> --- a/Assets/Scripts/Export/ExportUtils.cs
+> +++ b/Assets/Scripts/Export/ExportUtils.cs
+> @@ -76,7 +76,7 @@ public static class ExportUtils {
+>      }
+>  
+>      public IEnumerable<ExportBrush> SplitByBrush() {
+> -      return m_strokes.GroupBy(stroke => stroke.m_BrushGuid)
+> +      return m_strokes.GroupBy(stroke => (stroke.m_BrushGuid, stroke.m_Color))
+>            .Select(g => new ExportBrush(g));
+>      }
+>    }
+> @@ -85,6 +85,7 @@ public static class ExportUtils {
+>    /// This is the only grouping that can be converted to geometry
+>    public class ExportBrush {
+>      public BrushDescriptor m_desc;
+> +    public Color? m_color;
+>      private List<Stroke> m_strokes;
+>  
+>      public ExportBrush(IGrouping<Guid, Stroke> group) {
+> @@ -92,6 +93,12 @@ public static class ExportUtils {
+>        m_strokes = group.ToList();
+>      }
+>  
+> +    public ExportBrush(IGrouping<(Guid guid, Color color), Stroke> group) {
+> +      m_desc = BrushCatalog.m_Instance.GetBrush(group.Key.guid);
+> +      m_color = group.Key.color;
+> +      m_strokes = group.ToList();
+> +    }
+> +
+>      public struct PoolAndStrokes {
+>        public GeometryPool pool;
+>        public List<Stroke> strokes;
+> ```
+
+Taken from the following comment: [https://discord.com/channels/783806589991780412/806934697237938216/820958273032683520](https://discord.com/channels/783806589991780412/806934697237938216/820958273032683520)
+
 ## Procedural Strokes
 
 By @andybak
