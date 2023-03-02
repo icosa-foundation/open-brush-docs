@@ -104,6 +104,12 @@ Panels script components have a m\_PanelPopUpMap property which connects a Globa
 6. Tick “requires popup” on the buttonscript
 7. Edit the m\_PanelPopUpMap property on the panel prefab root that references the command and the popup prefab
 
+### Passing Parameters to Popups
+
+**CreatePopup** calls **SetPopupCommandParameters** on the popup and passes in iCommandParam and iCommandParam2 (usually from the OptionButton used to open the popup). So override this method to handle the parameters how you want.
+
+See the **MenuPopUpWindow** subclass for an example.&#x20;
+
 ## Sliders
 
 1. Create a class that inherits from BaseSlider
