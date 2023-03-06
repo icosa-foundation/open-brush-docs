@@ -21,7 +21,7 @@ To share your creations outside of Open Brush, click **Upload** ![](../.gitbook/
 
 ### **Save in various file formats using Cameras**
 
-1. While in your sketch, go to **Tools** &gt; **Cameras**.
+1. While in your sketch, go to **Tools** > **Cameras**.
 2. With your painting controller, swipe the thumbpad to toggle between Auto GIF, 5-second GiF, video, and snapshot.
 3. After selecting your option, your image file will save to the Documents folder on your computer.
 4. You can then share photos, videos, and GIFs or your artwork online.
@@ -40,7 +40,7 @@ Note: Using Cameras will not save the sketch file to gallery.
 2. On your painting controller, tap the trigger to start recording. Tap the trigger again to stop.
 3. Your captured video will be saved to your desktop under **Documents/Open Brush/Videos**
 
-If you are an advanced user, you can also generate a high resolution video using offline rendering. Detailed instructions can be found in our [release notes.](https://docs.google.com/document/d/11ZsHozYn9FnWG7y3s3WAyKIACfbfwb4PbaS8cZ_xjvo/preview#)
+If you are an advanced user, you can also generate a high resolution video using offline rendering. Detailed instructions can be found in our [release notes.](https://docs.google.com/document/d/11ZsHozYn9FnWG7y3s3WAyKIACfbfwb4PbaS8cZ\_xjvo/preview)
 
 ### **Upload a video to YouTube**
 
@@ -54,12 +54,11 @@ If you are an advanced user, you can also generate a high resolution video using
 
 .fbx is a popular format for 3D modeling, and can be used in applications like Blender and Maya.
 
-1. From the Tools panel, select "**More Options..."** &gt; **Labs** &gt; **Export**.
+1. From the Tools panel, select "**More Options..."** > **Labs** > **Export**.
 2. A folder will be created in Open Brush/exports that contains subfolders for each 3d file format currently supported. Each folder may also contain brush textures
 
 For more information see [Exporting Open Brush Sketches to Other Apps](exporting-open-brush-sketches-to-other-apps.md)
 
 ### **Create a 360 video**
 
-To create a 360 video, follow the instructions in the [release notes](tilt-brush-release-notes.md). Note: this is an advanced feature, and requires some working knowledge of the command line.
-
+To create a 360 video, follow the [instructions here](exporting-videos.md#exporting-360-videos-offline-video-rendering). Note: this is an advanced feature, and requires some working knowledge of the command line.
