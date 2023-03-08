@@ -30,7 +30,7 @@ Remember, these pre-release builds are labelled beta for a reason, and some feat
 
 1. Either use the Oculus App on your PC or go to the AppLab Store page (Search the web for "Open Brush Quest" or "Open Brush Rift" depending on whether you want the PC or native Quest version):
 
-![](<../.gitbook/assets/image (14) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (11) (1) (1).png>)
 
 2. Or find Open Brush in the mobile app:
 

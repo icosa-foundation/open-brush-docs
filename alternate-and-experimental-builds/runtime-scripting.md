@@ -175,9 +175,7 @@ By default each script type works relative to an origin and has a rotation that 
 You can override this. For example, here's a PointerScript that is relative to the canvas. We can then position the pointer so it is always at y=0 (the floor) but still tracks the pointer in the x and z directions:
 
 ```lua
-Settings = {
-    space="canvas"
-}
+Settings = {space="canvas"}
 
 function Main()
     return {
@@ -188,7 +186,7 @@ end
 
 Note that we have to manually specific pointer.position.x and pointer.position.y. If we were using space="pointer" (the default) then we wouldn't need to as coordinates are automatically relative to pointer.position
 
-Valid spaces are "pointer", "canvas" and "widget" (the mirror widget)
+Valid spaces are currently "pointer" or "canvas".
 
 ### Known Issues
 
