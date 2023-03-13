@@ -13,6 +13,7 @@
   * [Selection/Erase Filter](user-guide/selection-erase-filter.md)
   * [Lazy Input](user-guide/lazy-input.md)
   * [Bimanual Input and Revolver](user-guide/bimanual-input-and-revolver.md)
+  * [World Axis Unlock](user-guide/world-axis-unlock.md)
   * [Saving and sharing your Open Brush sketches](user-guide/saving-and-sharing-your-open-brush-sketches.md)
   * [Troubleshooting issues with Open Brush](user-guide/troubleshooting-issues-with-open-brush.md)
   * [Check out Labs features](user-guide/check-out-labs-or-experimental-features.md)
