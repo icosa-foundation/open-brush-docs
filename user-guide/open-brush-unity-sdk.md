@@ -46,8 +46,8 @@ To export a sketch:
 To import a sketch into your scene:
 
 1. Find the exported files:
-   1. &#x20;On a PC or Mac look in "Documents/Open Brush/Exports"
-   2. if you created the sketch on a standalone Quest connect it to your PC/Mac by following [these instructions](https://www.meta.com/en-gb/help/quest/articles/headsets-and-accessories/using-your-headset/transfer-files-from-computer-to-headset/) and then browse to the Quest in Explorer/Finder and look in Open Brush/Exports
+   1. On a PC or Mac look in **Documents/Open Brush/Exports**
+   2. If you created the sketch on a standalone Quest thenconnect it to your PC/Mac by following [these instructions](https://www.meta.com/en-gb/help/quest/articles/headsets-and-accessories/using-your-headset/transfer-files-from-computer-to-headset/) and then browse to the Quest in Explorer/Finder and look in **Internal Shared Storage/Open Brush/Exports**
 2. Copy the .glb file into your Unity project
 3. Drag the file from the Project window into the Hierarchy
 
