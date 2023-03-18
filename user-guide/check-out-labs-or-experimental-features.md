@@ -61,7 +61,7 @@ If you want to see an image or 3D model while you paint in Open Brush, you can a
 
 **Remove an image or model:** With your controller near the reference image, press and hold a grip button. Then, flick the controller away from your body and release the grip button.
 
-![](<../.gitbook/assets/image (1).png>)
+![](<../.gitbook/assets/image (1) (1).png>)
 
 ### Use the "Pin" tool
 

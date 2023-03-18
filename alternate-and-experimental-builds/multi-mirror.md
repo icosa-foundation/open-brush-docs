@@ -52,7 +52,7 @@ For the first 7 point symmetry types, the slider controls how many copies are ar
 
 #### Wallpaper Symmetry
 
-![](<../.gitbook/assets/image (1) (1) (2).png>)
+![](<../.gitbook/assets/image (1) (1) (2) (1).png>)
 
 Wallpaper symmetry repeats your strokes in various types grid pattern - reflecting or rotating in specific ways. You can create wallpaper, floor tiles crystal lattices or any other repeating patterns.
 

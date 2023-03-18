@@ -26,9 +26,11 @@ Changing the way Open Brush responds to user actions. Adding new mirror modes or
 
 ### How do I use it?
 
-![](<../.gitbook/assets/image (2) (6).png>)
+![](<../.gitbook/assets/image (1).png>)
 
-There are new buttons on the scipts panel that allow you to set an active runtime script in (currently) one of three categories: [Tool Scripts](runtime-scripting.md#tool-scripts), [Symmetry Scripts](runtime-scripting.md#symmetry-scripts) and [Pointer Scripts](runtime-scripting.md#pointer-scripts). Use the arrow buttons to choose a script and activate it with the large button on the left of each row.
+There are new buttons on the scipts panel that allow you to set an active runtime script in one of four categories. From the top down: [Tool Scripts](runtime-scripting.md#tool-scripts), [Symmetry Scripts](runtime-scripting.md#symmetry-scripts), [Pointer Scripts](runtime-scripting.md#pointer-scripts) and [Background Scripts](runtime-scripting.md#background-scripts). For the first three categories you can use the arrow buttons to choose a script and activate it with the large button on the left of each row.
+
+Background Scripts are a bit different as you can have several active at once. The big button enables/disables all of them and the smaller "eye" button turns the currently selected script on or off.
 
 ### How do I write my own plugin scripts?
 
@@ -38,11 +40,9 @@ All scripts are written in [Lua](https://www.lua.org/) (this is different to the
 
 The best reference is probably the [examples scripts themselves](https://github.com/IxxyXR/open-brush/tree/experiments/moonsharp/Assets/Resources/LuaScriptExamples). Most API commands are listed in the [Lua Autocomplete File](https://github.com/IxxyXR/open-brush/blob/experiments/moonsharp/Assets/Resources/LuaScriptExamples/\_\_autocomplete.lua) (which you can copy to your scripts folder and many code editors will automatically use it to give you some level of autocomplete).
 
-In addition to the commands and properties listed in the autocomplete file, you can use most static methods from the [Unity MathF class](https://docs.unity3d.com/ScriptReference/Mathf.html). Most of the [Lua Standard Library](https://www.moonsharp.org/MoonSharpStdLib.pdf) is supported also
+In addition to the commands and properties listed in the autocomplete file, you can use most of the [Lua Standard Library](https://www.moonsharp.org/MoonSharpStdLib.pdf) also.
 
-The type of script is determined by the filename prefix.
-
-Script types are as follows:
+The type of script is determined by the filename prefix. Script types are as follows:
 
 #### Pointer Scripts
 
@@ -116,31 +116,47 @@ function Main()
 end
 ```
 
+#### Background Scripts
+
+Background Scripts run constantly. They are useful for animating layers or continually generating new shapes. You can still check for user actions such as pressing the trigger and change the action accordingly. They are very versatile but because the run all the time, they can affect performance if you're not careful. Always use one of the other script types in preference if it is suitable.&#x20;
+
+```lua
+function Main()
+    --Layers are numbered from 0 so 1 is the second layer
+    layerNumber = 1
+    position = {
+        x = unityMathf.lerp(0, 1, app.time % 1),
+        y = 0,
+        z = 0
+    }
+    rotation = {0, 0, 0}
+    layers.setPosition(layerNumber, position)
+end
+```
+
 ### Context Variables
 
-The following realtime values from the sketch are available to use in your scripts (list is currently incomplete. More docs to come):
+The following realtime values from the sketch are examples of values available to use in your scripts. As the API is changing frequently at the moment this list is incomplete. Check the [autocomplete.lua](https://github.com/IxxyXR/open-brush/blob/experiments/moonsharp/Assets/Resources/LuaScriptExamples/\_\_autocomplete.lua) for an up to date list.
 
-* **pointer.position:** _{float x, float y, float z}_\
-  ****The current position of the pointer relative to the canvas
-* **pointer.rotation:** _{float x, float y, float z}_\
-  ****The current orientation of the pointer relative to the canvas
-* **pointer.rgb:** _{float r, float g, float b}_\
+* **brush.position:** _{float x, float y, float z}_\
+  ****The current position of the brush pointer relative to the canvas
+* **brush.rotation:** _{float x, float y, float z}_\
+  ****The current orientation of the brush pointer relative to the canvas
+* **brush.colorRgb:** _{float r, float g, float b}_\
   ****The current brush color
-* **pointer.hsv:** _{float h, float s, float v}_\
+* **brush.colorHsv:** _{float h, float s, float v}_\
   __The current brush colour converted to HSV
-* **pointer.size:** _float_\
+* **brush.size:** _float_\
   __The current brush size
-* **pointer.size01:** _float_\
-  __The current brush size normalized to lie in the range 0 to 1
-* **pointer.pressure:** _float_\
-  _The current pressure of the pointer (how hard the trigger is being pressed)_
-* **pointer.brush:** _string_\
+* **brush.pressure:** _float_\
+  __The current pressure of the brush pointer (how hard the trigger is being pressed)
+* **brush.type:** _string_\
   __The current brush name
 * **app.time:** _float_\
   __The time in seconds since Open Brush was launched
-* **canvas.scale:** _float_\
+* **app.currentScale:** _float_\
   __The current scale of the canvas
-* **canvas.strokeCount:** _int_\
+* **strokes.count:** _int_\
   __The total number of strokes
 
 ### Script Widgets
