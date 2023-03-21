@@ -14,7 +14,7 @@ You can opt in to the beta via Oculus or Steam, or you can download a separate b
 Remember, these pre-release builds are labelled beta for a reason, and some features may contain bugs. Make sure to back up your important sketches before proceeding!
 {% endhint %}
 
-### Opting in to the beta via Steam <a href="#_lnka1z4mzei7" id="_lnka1z4mzei7"></a>
+## Opting in to the beta via Steam <a href="#_lnka1z4mzei7" id="_lnka1z4mzei7"></a>
 
 1. Right Click on Open Brush in your Steam Library and choose "Properties"
 
@@ -26,7 +26,7 @@ Remember, these pre-release builds are labelled beta for a reason, and some feat
 
 3. Wait for Open Brush to update.
 
-### Opting in to the beta via the Oculus Store <a href="#_lnka1z4mzei7" id="_lnka1z4mzei7"></a>
+## Opting in to the beta via the Oculus Store <a href="#_lnka1z4mzei7" id="_lnka1z4mzei7"></a>
 
 1. Either use the Oculus App on your PC or go to the AppLab Store page (Search the web for "Open Brush Quest" or "Open Brush Rift" depending on whether you want the PC or native Quest version):
 
@@ -38,3 +38,15 @@ Remember, these pre-release builds are labelled beta for a reason, and some feat
 
 3. Choose "Beta". (Or you can switch back to "LIVE" if you want to go back to the normal release version. Note: If LIVE has a lower release number than Beta, you'll need to uninstall Open Brush first before downloading the LIVE version again.)
 4. Wait for Open Brush to update.
+
+## Download from Itch.io
+
+We also host some beta versions on our Itch.io page.
+
+{% embed url="https://openbrush.itch.io/openbrush" %}
+
+## Download Directly from Github
+
+If you can't find a version to suit your platform anywhere else then this page on Github has the latest beta build for all the platforms we support.
+
+{% embed url="https://github.com/icosa-gallery/open-brush/releases/" %}
