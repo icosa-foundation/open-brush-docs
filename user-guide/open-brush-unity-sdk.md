@@ -16,7 +16,8 @@ The Open Brush Unity SDK allows you to import your Open Brush sketches into Unit
 
 The SDK has these requirements:
 
-* Your project must use Unity 2017.4.22f1 or higher
+* Your project must use Unity 2019.4 or higher
+* Macs running on Apple Silicon (i.e. M1 or M2) need to [remove Audio Reactivity](open-brush-unity-sdk.md#\_nvutjzw2fj1u) to fix errors related to "CSCore".
 
 ## Getting the code <a href="#_iqjwk94xwdgd" id="_iqjwk94xwdgd"></a>
 
@@ -57,6 +58,15 @@ _Notes:_
 * _You don’t need to copy the textures included with the .glb into your project_
 
 ## Tips <a href="#_ibglt4zbyabz" id="_ibglt4zbyabz"></a>
+
+### Fixing CSCore errors (or other errorsrelated to Audio Reactivity) <a href="#_nvutjzw2fj1u" id="_nvutjzw2fj1u"></a>
+
+At the moment the plugin used for Audio Reactivity doesn't work on some platforms. If you see errors related to "CSCore" or anything that looks audio related deleting the following files from your project:
+
+1. The folder ThirdParty\CSCore
+2. TiltBrush\Scripts\VisualizerManager
+3. TiltBrush\Scripts\VisualizerAudioInput
+4. TiltBrush\Scripts\VisualizerManagerEditor
 
 ### "My brushes look different to Open Brush" (Linear vs Gamma) <a href="#_nvutjzw2fj1u" id="_nvutjzw2fj1u"></a>
 
