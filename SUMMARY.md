@@ -73,6 +73,7 @@
   * [Open Brush AsCanvas Notes](developer-notes/open-brush-ascanvas-notes.md)
 * [Release History](release-history.md)
   * [v2.2: Settings and Sketches](release-history/v2.2-settings-and-sketches.md)
+  * [v2.1 Hotfix](release-history/v2.1-hotfix.md)
   * [🚀 v2.0: XR Update](release-history/2.0.md)
   * [v1.0: Happy Birthday to Us!](release-history/1.0.md)
   * [Current Beta Release Notes](automatic-release-notes/automatic-changelog.md)
