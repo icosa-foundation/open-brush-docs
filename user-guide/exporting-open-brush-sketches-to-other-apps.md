@@ -29,6 +29,10 @@ After importing the FBX file into Maya you will need to turn off the _Alpha is L
 
 To render with the vertex colors you can use the mentalrayVertexColors shader node to access the stroke color in your material.
 
+## Mozilla Hubs
+
+Mozilla Spoke (the Hubs editor) gives an error when you try to import our .glb file directly. However importing first into Blender and then re-exporting will fix this. Not all brushes work correctly but the simpler brushes should import fairly well.
+
 ## Sketchfab <a href="#sketchfab" id="sketchfab"></a>
 
 To post to Sketchfab you will need to upload the FBX file and the textures.
