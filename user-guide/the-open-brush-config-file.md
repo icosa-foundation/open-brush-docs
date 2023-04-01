@@ -69,10 +69,12 @@ Sample contents of a _Open Brush.cfg_ with various fields filled in:
 }
 ```
 
+[How to get an OAuth key for Twitch.](https://twitchapps.com/tokengen/)
+
+[How to find your YouTube Channel ID.](https://support.google.com/youtube/answer/3250431)
+
 ### Config file valid values
 
-* [How to get an OAuth key for Twitch.](https://twitchapps.com/tokengen/)
-* [How to find your YouTube Channel ID.](https://support.google.com/youtube/answer/3250431)
 * PostEffectsOnCapture: true | false
 * ShowWatermark: true | false
 * ShowHeadset: true | false
@@ -97,4 +99,3 @@ Any of the above settings in the Open Brush.cfg file can also be specified on th
 
 --User.Author "Captain Tilt Brush"
 ```
-
