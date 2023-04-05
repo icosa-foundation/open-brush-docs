@@ -110,11 +110,13 @@ function Main()
     pointers = {}
     theta = 360.0 / copies
     for i = 1, copies - 1 do
-        table.insert(pointers, {position={0, 0, 0}, rotation={0, i * theta, 0}})
+        table.insert(pointers, {position=symmetry.brushOffset, rotation={0, i * theta, 0}})
     end
     return pointers
 end
 ```
+
+Note the use of `symmetry.brushOffset` instead of the usual `brush.position`. This is because by default, symmetry scripts use coordinates centered on the symmetry widget and you'd have to do a some complicated calculations to get from there to the current brush position. If you use `symmetry.brushOffset` this is done for you.
 
 #### Background Scripts
 
@@ -134,9 +136,9 @@ function Main()
 end
 ```
 
-### Context Variables
+### Built-in functions and properties
 
-The following realtime values from the sketch are examples of values available to use in your scripts. As the API is changing frequently at the moment this list is incomplete. Check the [autocomplete.lua](https://github.com/IxxyXR/open-brush/blob/experiments/moonsharp/Assets/Resources/LuaScriptExamples/\_\_autocomplete.lua) for an up to date list.
+The following realtime values from the sketch are examples of values available to use in your scripts. As the API is changing frequently at the moment this list is incomplete. Check out Scripts\LuaModules\\\_\_autocomplete.lua for an up to date list of available functions and properties.
 
 * **brush.position:** _{float x, float y, float z}_\
   ****The current position of the brush pointer relative to the canvas
