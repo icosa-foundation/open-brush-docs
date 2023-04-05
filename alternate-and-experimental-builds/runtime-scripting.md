@@ -141,34 +141,34 @@ end
 The following realtime values from the sketch are examples of values available to use in your scripts. As the API is changing frequently at the moment this list is incomplete. Check out Scripts\LuaModules\\\_\_autocomplete.lua for an up to date list of available functions and properties.
 
 * **brush.position:** _{float x, float y, float z}_\
-  ****The current position of the brush pointer relative to the canvas
+  The current position of the brush pointer relative to the canvas
 * **brush.rotation:** _{float x, float y, float z}_\
-  ****The current orientation of the brush pointer relative to the canvas
+  The current orientation of the brush pointer relative to the canvas
 * **brush.colorRgb:** _{float r, float g, float b}_\
-  ****The current brush color
+  The current brush color
 * **brush.colorHsv:** _{float h, float s, float v}_\
-  __The current brush colour converted to HSV
+  The current brush colour converted to HSV
 * **brush.size:** _float_\
-  __The current brush size
+  The current brush size
 * **brush.pressure:** _float_\
-  __The current pressure of the brush pointer (how hard the trigger is being pressed)
+  The current pressure of the brush pointer (how hard the trigger is being pressed)
 * **brush.type:** _string_\
-  __The current brush name
+  The current brush name
 * **app.time:** _float_\
-  __The time in seconds since Open Brush was launched
+  The time in seconds since Open Brush was launched
 * **app.currentScale:** _float_\
-  __The current scale of the canvas
+  The current scale of the canvas
 * **strokes.count:** _int_\
-  __The total number of strokes
+  The total number of strokes
 
-### Script Widgets
+### Script Parameters
 
 Scripts can specify parameters that appear as UI widgets such as sliders. These appear in a popup when you click the "3 dots" button on the right of each row.  For example you might want a script to have sliders to control "speed" or "wigglyness".
 
 You define the widgets for each parameter in your script. Here's an example:
 
 ```lua
-Widgets = {
+Parameters = {
     speed={label="Speed", type="float", min=0.01, max=32, default=16},
     radius={label="Radius", type="float", min=0.01, max=5, default=1},
 }
@@ -188,7 +188,7 @@ The name of each widget (here "speed" and "radius") are then available to the sc
 
 ### Coordinate Spaces
 
-By default each script type works relative to an origin and has a rotation that makes sense for each of the three types. Pointer and Tool Scripts are relative to the user's brush hand and Symmetry Scripts are relative to the Mirror Widget.
+By default each script type works relative to an origin and has a rotation that makes sense for each of the three types. Pointer and Tool Scripts are relative to the user's brush hand and Symmetry Scripts are relative to the Symmetry Widget.
 
 You can override this. For example, here's a PointerScript that is relative to the canvas. We can then position the pointer so it is always at y=0 (the floor) but still tracks the pointer in the x and z directions:
 
