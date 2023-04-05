@@ -149,14 +149,11 @@ Use Backdrop to modify your scene's backdrop color gradient and fog.
 
 ## ![](../../.gitbook/assets/19.png) **Poly**
 
-Poly was shut down on June 30, 2021. This feature will soon be replaced by an equivalent that uses [Icosa](https://beta.icosa.gallery)
+Google Poly was a website that allowed users to share 3d models and upload their Tilt Brush sketches. Poly was shut down on June 30, 2021. We hope to have in-app browsing of various 3d model sources soon. Until then download them manually and see [th section on importing 3d models](../check-out-labs-or-experimental-features.md#add-a-reference-image-or-3d-model)
 
-~~Use the Poly panel to import remixable (CC-BY) objects and Blocks models uploaded to~~ [~~Poly~~](https://poly.google.com)~~.~~
+With regard to publishing your sketches on the web - it's a little bare bones but you can upload your sketches to [Icosa](https://beta.icosa.gallery) manually. We'll improve the workflow around this so it can all be done without taking off your headset.
 
-* ~~Any CC-BY Blocks model or .obj you like on Poly will appear on that panel (assuming you are signed-in with the same account).~~
-* ~~Featured Poly creations will also be accessible on the panel, whether you are signed-in or not.~~
-* ~~You can remix Blocks models and uploaded .objs in your Open Brush sketches, and share remixed sketches back to Poly.~~
-* ~~Note: you cannot import published Open Brush sketches into Open Brush sketches at this time.~~
+Also see the section on [exporting to other apps  ](../exporting-open-brush-sketches-to-other-apps.md)
 
 ## ![](../../.gitbook/assets/20.png) **Lights**
 
