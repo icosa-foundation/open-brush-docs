@@ -44,7 +44,7 @@ This will bring up the Symmetry settings panel which contains three tabs:
 
 #### Point Symmetry
 
-![](<../.gitbook/assets/image (2) (2) (1).png>)
+![](<../.gitbook/assets/image (2) (2).png>)
 
 Point symmetry creates copies arranged around the center of the mirror widget. Each icon selects one of the 14 different types of symmetry. This is the symmetry of molecules and polyhedra. It can create shapes such as stars, explosions, vases, octopi or plants and flowers.
 

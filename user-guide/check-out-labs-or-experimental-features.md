@@ -19,7 +19,7 @@ To try out newer features, you can open up the Labs panel. Here you will find so
 
 ### Display Twitch or YouTube Chat whilst streaming (PC Only)
 
-### ****![](<../.gitbook/assets/image (2) (5).png>)****
+### ![](<../.gitbook/assets/image (2) (5).png>)
 
 ### **Play Tiltasaurus with your friends** (PC Only)
 
@@ -33,7 +33,7 @@ Tiltasaurus is a virtual reality game where your friends can guess what you're d
 6. Once they guess correctly, you can switch and start again. Clear the current drawing and get a new word or phrase by hitting **Refresh** on the card.
 7. Adding Tiltasaurus.json to the Documents/Open Brush folder will let you add your own list of words.
 
-### ****<img src="../.gitbook/assets/image (8) (1).png" alt="" data-size="original">****
+### <img src="../.gitbook/assets/image (8) (1).png" alt="" data-size="original">
 
 ### **Add a reference image or 3D model**
 
@@ -85,7 +85,7 @@ See the section on [Exporting](exporting-open-brush-sketches-to-other-apps.md)
 
 See the section on [Scripting Open Brush](check-out-labs-or-experimental-features.md#run-scripts)
 
-![](<../.gitbook/assets/image (1) (3).png>)
+![](<../.gitbook/assets/image (1) (3) (1).png>)
 
 ### Use grid or angle snapping
 

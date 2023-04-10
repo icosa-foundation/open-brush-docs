@@ -20,11 +20,11 @@ In return you'll get to try out the real cutting edge features first and potenti
 
 On Github there is a list of [open pull requests](https://github.com/icosa-gallery/open-brush/pulls?q=is%3Apr+is%3Aopen+-is%3Adraft+). You can click on any one and then scroll down to the bottom:
 
-![](<../.gitbook/assets/image (1).png>)
+![](../.gitbook/assets/image.png)
 
 Click on any of the blue "details" links and then click "Summary" on the left followed by the number underneath "Artifacts" on the right:
 
-![](<../.gitbook/assets/image (2) (2).png>)
+![](<../.gitbook/assets/image (2) (7).png>)
 
 You'll then be taken to the bottom of the page where there is a list of all the builds:
 
