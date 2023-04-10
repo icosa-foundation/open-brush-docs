@@ -40,7 +40,7 @@ First, grab Open Brush from the Steam store. Once you have added it to your libr
 
 ![The beta unlocks!](<../../.gitbook/assets/image (15) (1).png>)
 
-Select 'Betas' from the sidebar. In the text box, add the access code: **`openbrushxrbeta` ** and click 'Check Code'. A blue banner will appear below, confirming your access!
+Select 'Betas' from the sidebar. In the text box, add the access code: **`openbrushxrbeta`** and click 'Check Code'. A blue banner will appear below, confirming your access!
 
 ![Selecting the beta branch after opting in.](<../../.gitbook/assets/image (17) (1).png>)
 

@@ -22,6 +22,7 @@
   * [Using Reference Images on Oculus Quest](user-guide/using-reference-images-on-oculus-quest.md)
   * [Remixing and Creative Commons](user-guide/remixing-and-creative-commons.md)
   * [Accessing Autosave Files](user-guide/accessing-autosave-files.md)
+  * [Settings](user-guide/settings.md)
   * [The Open Brush config file](user-guide/the-open-brush-config-file.md)
   * [Exporting Open Brush sketches to other apps](user-guide/exporting-open-brush-sketches-to-other-apps.md)
   * [Open Brush Unity SDK](user-guide/open-brush-unity-sdk.md)
