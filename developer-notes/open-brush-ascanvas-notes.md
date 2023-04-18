@@ -16,15 +16,15 @@ RHS convert transform to canvas space TrTransform:
 * return Coords.AsCanvas\[InputManager.m\_Instance.GetBrushControllerAttachPoint()].translation;
 * m\_vOriginalPos\_CS = Coords.AsCanvas\[transform].translation;
 * var xf\_CS = Coords.AsCanvas\[transform];
+* return ChangeBasis(App.Scene.AsScene\[xfInput], basis, basisInverse)
+* m\_Rotation\_SS = App.Scene.AsScene\[transform].rotation;
+* CanvasTransformInSceneSpace = App.Scene.AsScene\[App.Instance.m\_CanvasTransform],
+* m\_Transform\_SS = App.Scene.AsScene\[m\_Owner];
+* Vector3 vOwnerEulers\_SS = App.Scene.AsScene\[m\_Owner].rotation.eulerAngles;
 
 LHS convert canvas space TrTransform to transform:
 
 * m\_canvas.AsCanvas\[transform] = m\_xfLocal;
 * canvas.AsCanvas\[m\_MainPointerData.m\_Script.transform] = mainPointerXf\_CS;
 * Coords.AsCanvas\[transform] = xf\_CS;
-* return ChangeBasis(App.Scene.AsScene\[xfInput], basis, basisInverse)
-* m\_Rotation\_SS = App.Scene.AsScene\[transform].rotation;
-* CanvasTransformInSceneSpace = App.Scene.AsScene\[App.Instance.m\_CanvasTransform],
-* m\_Transform\_SS = App.Scene.AsScene\[m\_Owner];
-* Vector3 vOwnerEulers\_SS = App.Scene.AsScene\[m\_Owner].rotation.eulerAngles;
 * App.Scene.AsScene\[transform] = m\_Transform\_SS;
