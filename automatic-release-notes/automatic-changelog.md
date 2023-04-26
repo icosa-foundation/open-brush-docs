@@ -1,6 +1,13 @@
 # Changelog since v2.2
 
-[Full release details](https://github.com/icosa-gallery/open-brush/compare/v2.2...71f735a5a110f90c316f53ce00a8769c0f6ff6d6)
+[Full release details](https://github.com/icosa-gallery/open-brush/compare/v2.2...f678ff8bf3f578c062afef050871fbec0bf2514b)
+
+## 🚀 Features
+
+- Reset eye texture scale to 1 ([PR #430](https://github.com/icosa-gallery/open-brush/pull/430) by @mikeskydev)
+
+- Feat: Internationalization (i18n) ([PR #419](https://github.com/icosa-gallery/open-brush/pull/419) by @mikeskydev)
+
 
 ## 🐛 Fixes
 
@@ -17,8 +24,6 @@
 ## 💬 Uncategorized
 
 - Temporarily disable snap grab icon ([PR #427](https://github.com/icosa-gallery/open-brush/pull/427) by @mikeskydev)
-
-- Reset eye texture scale to 1 ([PR #430](https://github.com/icosa-gallery/open-brush/pull/430) by @mikeskydev)
 
 
 
