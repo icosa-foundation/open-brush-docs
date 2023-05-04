@@ -1,6 +1,6 @@
 # Changelog since v2.2
 
-[Full release details](https://github.com/icosa-gallery/open-brush/compare/v2.2...e6afbee6011dcf757eb585ed46ed47c3da3a6125)
+[Full release details](https://github.com/icosa-gallery/open-brush/compare/v2.2...1ee9e2986b94c2c9a1076932e1521642f9b65a6d)
 
 ## 🚀 Features
 
@@ -25,6 +25,8 @@
 - Bump mikepenz/release-changelog-builder-action from 3.7.0 to 3.7.1 ([PR #428](https://github.com/icosa-gallery/open-brush/pull/428) by @dependabot[bot])
 
 - Bump actions/setup-python from 4.5.0 to 4.6.0 ([PR #433](https://github.com/icosa-gallery/open-brush/pull/433) by @dependabot[bot])
+
+- Bump mikepenz/release-changelog-builder-action from 3.7.1 to 3.7.2 ([PR #441](https://github.com/icosa-gallery/open-brush/pull/441) by @dependabot[bot])
 
 
 ## 💬 Uncategorized
