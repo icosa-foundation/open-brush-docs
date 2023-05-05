@@ -1,8 +1,9 @@
 # Brush List
 
 * **Type**: Most brushes fall into one of three categories: **Flat** (ribbon shaped), **Tube** (a cylinder or other shape with thickness) or **Particle** (the brush stroke generates multiple small objects that only roughly follow the path of the stroke)
-* **Animated**?: Does the brush stroke have any automatic movement either to it's shape or texture?
-* **Self-lit**?: A self-lit brush doesn't react to lighting and will still be visible even without any lights in the scene. It appears to give off it's own light (although brush strokes don't actually illuminate other objects nearby)
+* **Animated?**: Does the brush stroke have any automatic movement either to it's shape or texture?
+* **Self-lit?**: A self-lit brush doesn't react to lighting and will still be visible even without any lights in the scene. It appears to give off it's own light (although brush strokes don't actually illuminate other objects nearby)
+* **Audio Reactive?:** Does the brush respond to audio when you turn on [audio reactivity](../make-moving-creations-using-audio-reactive-brushes.md#to-use-audio-reactive-brushes)
 
 ## Standard Brushes
 
