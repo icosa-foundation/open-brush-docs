@@ -41,7 +41,7 @@ We are working with Sketchfab to have Open Brush import correctly, but if the st
 
 ## Unity <a href="#unity" id="unity"></a>
 
-We recommend using the [Open Brush Toolkit](open-brush-unity-sdk.md) and the .glb format. Open Brush Toolkit also understands the .fbx format. More info
+We recommend using the [Open Brush Toolkit](../open-brush-unity-sdk.md) and the .glb format. Open Brush Toolkit also understands the .fbx format. More info
 
 ## Unity WebGL
 
@@ -50,7 +50,7 @@ You'll need to delete the following 2 scripts if you want to build for Unity Web
 ## Flipside XR
 
 1. Follow the instructions for installing and configuring [Flipside Creator Tools](https://www.flipsidexr.com/docs/2023.1/creator-tools/getting-started)
-2. Download the .unitypackage for the latest release of the [Open Brush Unity SDK](open-brush-unity-sdk.md#\_iqjwk94xwdgd)
+2. Download the .unitypackage for the latest release of the [Open Brush Unity SDK](../open-brush-unity-sdk.md#\_iqjwk94xwdgd)
 3. You'll also need the [Json.Net.for.open.brush.toolkit.unitypackage](https://github.com/icosa-gallery/open-brush-toolkit/releases/download/v24.0.0/Json.Net.for.open.brush.toolkit.unitypackage)  from the same page
 4. Add both to your Flipside Unity project
 5. Export your Open Brush sketch and import the .glb file into the Flipside project

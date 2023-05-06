@@ -1,6 +1,6 @@
 # Brushes
 
-Open Brush comes with a wide selection of brushes and there are even more if you switch on [Experimental Mode](../experimental-mode.md). But be warned that the experimental brushes can be more problemmatic if you need to export to other apps. See the docs on the [Unity Toolkit/SDK](../open-brush-unity-sdk.md) and on [Exporting ](../exporting-open-brush-sketches-to-other-apps.md)for more information. We plan to move many of the experimental brushes into normal mode when we're satisfied that they work everywhere the regular brushes work.
+Open Brush comes with a wide selection of brushes and there are even more if you switch on [Experimental Mode](../experimental-mode.md). But be warned that the experimental brushes can be more problemmatic if you need to export to other apps. See the docs on the [Unity Toolkit/SDK](../open-brush-unity-sdk.md) and on [Exporting ](../exporting-open-brush-sketches-to-other-apps/)for more information. We plan to move many of the experimental brushes into normal mode when we're satisfied that they work everywhere the regular brushes work.
 
 ## Customizing Brushes
 

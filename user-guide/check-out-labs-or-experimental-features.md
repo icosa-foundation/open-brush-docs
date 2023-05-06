@@ -71,7 +71,7 @@ If you want to see an image or 3D model while you paint in Open Brush, you can a
 
 ### Export your sketch as a 3d object
 
-See the section on [Exporting](exporting-open-brush-sketches-to-other-apps.md)
+See the section on [Exporting](exporting-open-brush-sketches-to-other-apps/)
 
 ![](<../.gitbook/assets/image (4) (1).png>)
 

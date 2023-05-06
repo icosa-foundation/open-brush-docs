@@ -153,7 +153,7 @@ Google Poly was a website that allowed users to share 3d models and upload their
 
 With regard to publishing your sketches on the web - it's a little bare bones but you can upload your sketches to [Icosa](https://beta.icosa.gallery) manually. We'll improve the workflow around this so it can all be done without taking off your headset.
 
-Also see the section on [exporting to other apps  ](../exporting-open-brush-sketches-to-other-apps.md)
+Also see the section on [exporting to other apps  ](../exporting-open-brush-sketches-to-other-apps/)
 
 ## ![](../../.gitbook/assets/20.png) **Lights**
 
