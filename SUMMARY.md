@@ -25,7 +25,7 @@
   * [Settings](user-guide/settings.md)
   * [The Open Brush config file](user-guide/the-open-brush-config-file.md)
   * [Exporting Open Brush sketches to other apps](user-guide/exporting-open-brush-sketches-to-other-apps/README.md)
-    * [Exporting to Unreal Editor 5](user-guide/exporting-open-brush-sketches-to-other-apps/exporting-to-unreal-editor-5.md)
+    * [Exporting to Unreal Engine 5](user-guide/exporting-open-brush-sketches-to-other-apps/exporting-to-unreal-engine-5.md)
     * [Exporting to Snapchat Lens Studio](user-guide/exporting-open-brush-sketches-to-other-apps/exporting-to-snapchat-lens-studio.md)
   * [Open Brush Unity SDK](user-guide/open-brush-unity-sdk.md)
   * [Open Brush API](user-guide/open-brush-api/README.md)

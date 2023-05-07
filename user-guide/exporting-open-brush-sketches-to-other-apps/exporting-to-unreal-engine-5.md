@@ -1,4 +1,4 @@
-# Exporting to Unreal Editor 5
+# Exporting to Unreal Engine 5
 
 How to Import OpenBrush FBX files & edit Materials to appear correctly
 
@@ -122,3 +122,5 @@ Make sure to view this in "unlit" mode.
 Also hide the Light Source, etc to prevent any shadows from showing up in the scene.
 
 Reward yourself with ice cream.
+
+_Docs contributed by_ [_Estella Tse_](https://www.estellatse.com/)_. Additional thanks to_ [_Steve Bowler_](https://www.linkedin.com/in/stevebowler/)&#x20;

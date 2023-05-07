@@ -58,3 +58,7 @@ This helps merge vertices that are close together, and saves on polys
   *   For the Base Texture, check to enable, add the Tilt Brush texture here
 
       ![](../../.gitbook/assets/3.jpeg)
+
+
+
+      _Docs contributed by_ [_Estella Tse_](https://www.estellatse.com/)_. Additional thanks to_ [_Jose Andres Rosero_](https://twitter.com/never\_render)
