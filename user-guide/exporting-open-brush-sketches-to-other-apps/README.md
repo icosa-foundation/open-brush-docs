@@ -23,6 +23,15 @@ Each script has a set of command-line options that fine-tune the generated file.
 
 The USD contains both geometry and curve information. If your DCC tool doesn’t support USD, the [Open Brush Toolkit](https://github.com/icosa-gallery/open-brush-toolkit) contains a Python 2.7 script that can convert the .tilt file to a Collada .dae containing the curves.
 
+## Flipside XR
+
+1. Follow the instructions for installing and configuring [Flipside Creator Tools](https://www.flipsidexr.com/docs/2023.1/creator-tools/getting-started)
+2. Download the .unitypackage for the latest release of the [Open Brush Unity SDK](../open-brush-unity-sdk.md#\_iqjwk94xwdgd)
+3. You'll also need the [Json.Net.for.open.brush.toolkit.unitypackage](https://github.com/icosa-gallery/open-brush-toolkit/releases/download/v24.0.0/Json.Net.for.open.brush.toolkit.unitypackage)  from the same page
+4. Add both to your Flipside Unity project
+5. Export your Open Brush sketch and import the .glb file into the Flipside project
+6. Follow the Flipside instructions for uploading a Unity scene as a Flipside Set
+
 ## Maya <a href="#maya" id="maya"></a>
 
 After importing the FBX file into Maya you will need to turn off the _Alpha is Luminance_ attribute in the _Color Balance_ section for each texture node. To see the brush colors in the viewport turn on the _Display Colors_ attribute and set _Material Blend_ to Multiply in the _Mesh Component Display_ section on each mesh shape node.
@@ -39,6 +48,8 @@ To post to Sketchfab you will need to upload the FBX file and the textures.
 
 We are working with Sketchfab to have Open Brush import correctly, but if the strokes look wrong you can try opening the 3D Settings Editor in Sketchfab and under the Materials tab set the material properties manually.
 
+## [Snapchat Lens Studio🔗](./#snapchat-lens-studio)
+
 ## Unity <a href="#unity" id="unity"></a>
 
 We recommend using the [Open Brush Toolkit](../open-brush-unity-sdk.md) and the .glb format. Open Brush Toolkit also understands the .fbx format. More info
@@ -47,14 +58,7 @@ We recommend using the [Open Brush Toolkit](../open-brush-unity-sdk.md) and the 
 
 You'll need to delete the following 2 scripts if you want to build for Unity WebGL targets: `GenericAudioInputEditor.cs` and `GenericAudioInput.cs`&#x20;
 
-## Flipside XR
-
-1. Follow the instructions for installing and configuring [Flipside Creator Tools](https://www.flipsidexr.com/docs/2023.1/creator-tools/getting-started)
-2. Download the .unitypackage for the latest release of the [Open Brush Unity SDK](../open-brush-unity-sdk.md#\_iqjwk94xwdgd)
-3. You'll also need the [Json.Net.for.open.brush.toolkit.unitypackage](https://github.com/icosa-gallery/open-brush-toolkit/releases/download/v24.0.0/Json.Net.for.open.brush.toolkit.unitypackage)  from the same page
-4. Add both to your Flipside Unity project
-5. Export your Open Brush sketch and import the .glb file into the Flipside project
-6. Follow the Flipside instructions for uploading a Unity scene as a Flipside Set
+## [Unreal Engine](exporting-to-unreal-editor-5.md)🔗
 
 ## Styly
 
