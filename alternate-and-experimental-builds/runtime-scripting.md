@@ -58,11 +58,10 @@ For example:
 function WhileTriggerPressed()
     speed = 5
     radius = 0.25
-    angle = app.time * speed
-    r = brush.pressure * radius;
-    pos = {math.sin(angle) * r, math.cos(angle) * r, 0}
-    rot = {0, 0, 0}
-    return {pos, rot}
+    angle = App.time * speed
+    r = Brush.pressure * radius;
+    pos = Vector3:New(Math.Sin(angle) * r, Math.Cos(angle) * r, 0)
+    return Transform:New(pos)
 end
 
 ```
@@ -81,14 +80,13 @@ For example:
 function WhileTriggerPressed()
     speed = 16
     radius = 1
-    angle = app.time * speed
+    angle = App.time * speed
     r = 0
-    if (brush.triggerIsPressed) then
-        r = radius * brush.timeSincePressed
+    if (Brush.triggerIsPressed) then
+        r = radius * Brush.timeSincePressed
     end
-    pos = {math.sin(angle) * r, math.cos(angle) * r, 0}
-    rot = {0, 0, 0}
-    return {pos, rot}
+    pos = Vector3:New(Math.Sin(angle) * r, Math.Cos(angle) * r, 0)
+    return Transform:New(pos)
 end
 ```
 
@@ -107,16 +105,20 @@ For example:
 ```lua
 function Main()
     copies = 12
-    pointers = {}
+    pointers = Path:New()
     theta = 360.0 / copies
     for i = 1, copies - 1 do
-        table.insert(pointers, {position=symmetry.brushOffset, rotation={0, i * theta, 0}})
+        pointer = Transform:New(
+            Symmetry.brushOffset,
+            Rotation:New(0, i * theta, 0)
+        )
+        pointers.Insert(pointer)
     end
     return pointers
 end
 ```
 
-Note the use of `symmetry.brushOffset` instead of the usual `brush.position`. This is because by default, symmetry scripts use coordinates centered on the symmetry widget and you'd have to do a some complicated calculations to get from there to the current brush position. If you use `symmetry.brushOffset` this is done for you.
+Note the use of S`ymmetry.brushOffset` instead of the usual `Brush.position`. This is because by default, symmetry scripts use coordinates centered on the symmetry widget and you'd have to do a some complicated calculations to get from there to the current brush position. If you use `symmetry.brushOffset` this is done for you.
 
 #### Background Scripts
 
@@ -124,15 +126,8 @@ Background Scripts run constantly. They are useful for animating layers or conti
 
 ```lua
 function Main()
-    --Layers are numbered from 0 so 1 is the second layer
-    layerNumber = 1
-    position = {
-        x = unityMathf.lerp(0, 1, app.time % 1),
-        y = 0,
-        z = 0
-    }
-    rotation = {0, 0, 0}
-    layers.setPosition(layerNumber, position)
+    x = Mathf.Lerp(0, 1, App.time % 1)
+    Sketch.layers[1].position = Vector3:New(x, 0, 0)
 end
 ```
 
@@ -140,26 +135,26 @@ end
 
 The following realtime values from the sketch are examples of values available to use in your scripts. As the API is changing frequently at the moment this list is incomplete. Check out Scripts\LuaModules\\\_\_autocomplete.lua for an up to date list of available functions and properties.
 
-* **brush.position:** _{float x, float y, float z}_\
+* **Brush.position:** \
   The current position of the brush pointer relative to the canvas
-* **brush.rotation:** _{float x, float y, float z}_\
+* **Brush.rotation:** \
   The current orientation of the brush pointer relative to the canvas
-* **brush.colorRgb:** _{float r, float g, float b}_\
+* **Brush.colorRgb:** \
   The current brush color
-* **brush.colorHsv:** _{float h, float s, float v}_\
+* **Brush.colorHsv:** \
   The current brush colour converted to HSV
-* **brush.size:** _float_\
+* **Brush.size:** \
   The current brush size
-* **brush.pressure:** _float_\
+* **Brush.pressure:** \
   The current pressure of the brush pointer (how hard the trigger is being pressed)
-* **brush.type:** _string_\
+* **Brush.type:** \
   The current brush name
-* **app.time:** _float_\
+* **App.time:** \
   The time in seconds since Open Brush was launched
-* **app.currentScale:** _float_\
+* **App.currentScale:** \
   The current scale of the canvas
-* **strokes.count:** _int_\
-  The total number of strokes
+* **Sketch.strokes**\
+  A list of strokes in the current sketch
 
 ### Script Parameters
 
@@ -174,11 +169,10 @@ Parameters = {
 }
 
 function Main()
-    angle = app.time * speed
-    r = pointer.pressure * radius;
-    pos = {math.sin(angle) * r, math.cos(angle) * r, 0}
-    rot = {0, 0, 0}
-    return {pos, rot}
+    angle = App.time * speed
+    r = Brush.pressure * radius;
+    pos = Vector3:New(Math.Sin(angle) * r, Math.Cos(angle) * r, 0)
+    return Transform:New(pos)
 end
 ```
 
@@ -196,9 +190,9 @@ You can override this. For example, here's a PointerScript that is relative to t
 Settings = {space="canvas"}
 
 function Main()
-    return {
-        {pointer.position.x, 0, pointer.position.z}
-    };
+    return Transform:New(
+        Vector3:New(Brush.position.x, 0, Brush.position.z)
+    )
 end
 ```
 
