@@ -48,17 +48,9 @@ To post to Sketchfab you will need to upload the FBX file and the textures.
 
 We are working with Sketchfab to have Open Brush import correctly, but if the strokes look wrong you can try opening the 3D Settings Editor in Sketchfab and under the Materials tab set the material properties manually.
 
-## [Snapchat Lens Studio🔗](./#snapchat-lens-studio)
+## Snapchat Lens Studio🔗
 
-## Unity <a href="#unity" id="unity"></a>
-
-We recommend using the [Open Brush Toolkit](../open-brush-unity-sdk.md) and the .glb format. Open Brush Toolkit also understands the .fbx format. More info
-
-## Unity WebGL
-
-You'll need to delete the following 2 scripts if you want to build for Unity WebGL targets: `GenericAudioInputEditor.cs` and `GenericAudioInput.cs`&#x20;
-
-## [Unreal Engine](exporting-to-unreal-editor-5.md)🔗
+[See this page](./#snapchat-lens-studio)
 
 ## Styly
 
@@ -75,6 +67,18 @@ To upload your work to Styly, you'll need to remove all traces of the audio-reac
    3. TiltBrush/Scripts/Editor/VisualizerManagerEditor
 5. Also in the project window, drag the entire TiltBrush/Scripts/Gltf folder so it's inside TiltBrush/Scripts/Editor
 6. Carry on where you left off with the Styly docs.
+
+## Unity <a href="#unity" id="unity"></a>
+
+We recommend using the [Open Brush Toolkit](../open-brush-unity-sdk.md) and the .glb format. Open Brush Toolkit also understands the .fbx format. More info
+
+## Unity WebGL
+
+You'll need to delete the following 2 scripts if you want to build for Unity WebGL targets: `GenericAudioInputEditor.cs` and `GenericAudioInput.cs`&#x20;
+
+## Unreal Engine🔗
+
+[See this page](./#unreal-engine)
 
 ## Command-line Exporting <a href="#command-line-exporting" id="command-line-exporting"></a>
 
