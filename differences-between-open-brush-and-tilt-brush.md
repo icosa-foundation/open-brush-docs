@@ -22,5 +22,16 @@ This section only lists features currently in the main release. There is also a 
 * [Grid and Angle Snapping](user-guide/grid-and-angle-snapping.md)
 * Merging Sketches
 * [Scripting API](user-guide/open-brush-api/)
+* Passthrough Mode
+* [Layers](alternate-and-experimental-builds/old-or-completed-feature-builds/layers.md)
+* Snip/Join Strokes
+* Experimental mode&#x20;
+* Advanced camera tool
+* WebM video import
+* Point cloud import
+* Switching hands
+* Reset to "First Time"&#x20;
+* Support for more headsets
 
 Bear in mind this gives a misleading impression of the amount of work that has been put in. There's been a ton of effort on things that don't result in user-visible features but will help ease future development. Special props to [@mikeage](https://github.com/mikeage) for the amazing automated build system.
+
