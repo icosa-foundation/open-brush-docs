@@ -1,6 +1,6 @@
 # Changelog since v2.2
 
-[Full release details](https://github.com/icosa-gallery/open-brush/compare/v2.2...1ee9e2986b94c2c9a1076932e1521642f9b65a6d)
+[Full release details](https://github.com/icosa-gallery/open-brush/compare/v2.2...a9d389dfe9012cd70384701a5a37dc385dfd9a48)
 
 ## 🚀 Features
 
@@ -32,6 +32,8 @@
 ## 💬 Uncategorized
 
 - Revert "Add a HttpListener timeout" ([PR #438](https://github.com/icosa-gallery/open-brush/pull/438) by @andybak)
+
+- Quick fix for bug with images on layers sometimes breaking script loading ([PR #445](https://github.com/icosa-gallery/open-brush/pull/445) by @andybak)
 
 
 
