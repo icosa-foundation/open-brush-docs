@@ -232,10 +232,6 @@ Joins all strokes between the two indices (inclusive)
 
 Adds a point at the current brush position to the specified stroke
 
-**import.model** (string path)[ Try it](http://localhost:40074/api/v1?import.model=example.glb)
-
-Imports a model from your media libraries Models folder
-
 **tool.sketchsurface**[ Try it](http://localhost:40074/api/v1?tool.sketchsurface)
 
 Activates the SketchSurface

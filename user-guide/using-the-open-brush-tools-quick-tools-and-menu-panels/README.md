@@ -46,9 +46,9 @@ To virtually hop to a different spot in your environment, use Teleport.
 
 Note: The distance which you can teleport varies in each environment.
 
-## ![](<../../.gitbook/assets/4 (2) (1) (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (4).png>) **Undo & Redo**
+## ![](<../../.gitbook/assets/4 (2) (1) (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (4).png>) **Undo & Redo**
 
-### **Undo** ![](<../../.gitbook/assets/4 (2) (1) (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (3).png>)
+### **Undo** ![](<../../.gitbook/assets/4 (2) (1) (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (3).png>)
 
 To Undo your last brush stroke or action, you can select Undo. To select Undo on your palette:
 
@@ -66,9 +66,9 @@ To Redo an erased or undone action, you can select Redo. To select Redo on your 
 
 Note: There is a Redo shortcut on the right side of the palette controller’s disk. Press down to Redo.
 
-## ![](<../../.gitbook/assets/7 (1) (2) (1) (1) (1) (1) (1) (1) (1) (1) (1).png>) **Mirror Tools**
+## ![](<../../.gitbook/assets/7 (1) (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png>) **Mirror Tools**
 
-### **Mirror** ![](<../../.gitbook/assets/7 (1) (2) (1) (1) (1) (1) (1) (1) (1) (1) (2).png>)
+### **Mirror** ![](<../../.gitbook/assets/7 (1) (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)
 
 Use the mirror mode tool to paint symmetrically. To use the tool:
 
@@ -109,9 +109,9 @@ To change the color of a stroke:
 4. Your stroke's color will be changed.
 5. To disable the brush picker, select the icon again.
 
-## ![](<../../.gitbook/assets/13 (1) (2) (2) (1) (1) (1) (1) (1) (1) (1) (1) (2).png>) **Selection Tools**
+## ![](<../../.gitbook/assets/13 (1) (2) (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png>) **Selection Tools**
 
-### **Select** ![](<../../.gitbook/assets/13 (1) (2) (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (2).png>)
+### **Select** ![](<../../.gitbook/assets/13 (1) (2) (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (2).png>)
 
 Use Selection to select and duplicate strokes and models in your scene.
 
