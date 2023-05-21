@@ -18,3 +18,4 @@
 16. Document the Labs/camera button (which seems to be mobile only)
 17. Settings
 18. 2.0 new features (maybe check if we missed anything in earlier release also)
+19. Update info on "Sharing" page to be clear about Quest differences. Document how to access sketches on the Quest.
