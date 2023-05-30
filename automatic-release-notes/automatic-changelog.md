@@ -1,6 +1,6 @@
 # Changelog since v2.2
 
-[Full release details](https://github.com/icosa-gallery/open-brush/compare/v2.2...a9d389dfe9012cd70384701a5a37dc385dfd9a48)
+[Full release details](https://github.com/icosa-gallery/open-brush/compare/v2.2...6a410d0c1da5dca9016b059c81d766ae8b94ac65)
 
 ## 🚀 Features
 
@@ -17,7 +17,11 @@
 
 - Add a timeout to HttpListener to avoid loading for very long time when using China mobile hotspot ([PR #432](https://github.com/icosa-gallery/open-brush/pull/432) by @chengnay)
 
+- Revert "Add a HttpListener timeout" ([PR #438](https://github.com/icosa-gallery/open-brush/pull/438) by @andybak)
+
 - Temp remove system locale selector ([PR #436](https://github.com/icosa-gallery/open-brush/pull/436) by @mikeskydev)
+
+- Quick fix for bug with images on layers sometimes breaking script loading ([PR #445](https://github.com/icosa-gallery/open-brush/pull/445) by @andybak)
 
 
 ## 📦 Dependencies / Maintenance
@@ -28,12 +32,7 @@
 
 - Bump mikepenz/release-changelog-builder-action from 3.7.1 to 3.7.2 ([PR #441](https://github.com/icosa-gallery/open-brush/pull/441) by @dependabot[bot])
 
-
-## 💬 Uncategorized
-
-- Revert "Add a HttpListener timeout" ([PR #438](https://github.com/icosa-gallery/open-brush/pull/438) by @andybak)
-
-- Quick fix for bug with images on layers sometimes breaking script loading ([PR #445](https://github.com/icosa-gallery/open-brush/pull/445) by @andybak)
+- Bump actions/setup-python from 4.6.0 to 4.6.1 ([PR #448](https://github.com/icosa-gallery/open-brush/pull/448) by @dependabot[bot])
 
 
 
