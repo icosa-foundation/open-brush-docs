@@ -1,6 +1,6 @@
 # Changelog since v2.2
 
-[Full release details](https://github.com/icosa-gallery/open-brush/compare/v2.2...6a410d0c1da5dca9016b059c81d766ae8b94ac65)
+[Full release details](https://github.com/icosa-gallery/open-brush/compare/v2.2...cb5f6c0ce6e1054ceeea2464d2384f81488f2c2d)
 
 ## 🚀 Features
 
@@ -33,6 +33,8 @@
 - Bump mikepenz/release-changelog-builder-action from 3.7.1 to 3.7.2 ([PR #441](https://github.com/icosa-gallery/open-brush/pull/441) by @dependabot[bot])
 
 - Bump actions/setup-python from 4.6.0 to 4.6.1 ([PR #448](https://github.com/icosa-gallery/open-brush/pull/448) by @dependabot[bot])
+
+- Bump actions/setup-dotnet from 3.0.3 to 3.2.0 ([PR #451](https://github.com/icosa-gallery/open-brush/pull/451) by @dependabot[bot])
 
 
 
