@@ -1,6 +1,6 @@
 # Changelog since v2.2
 
-[Full release details](https://github.com/icosa-gallery/open-brush/compare/v2.2...cb5f6c0ce6e1054ceeea2464d2384f81488f2c2d)
+[Full release details](https://github.com/icosa-gallery/open-brush/compare/v2.2...40e91c23ae1b12610662b478fc6daa37ffe656b6)
 
 ## 🚀 Features
 
@@ -9,6 +9,8 @@
 - Feat: Internationalization (i18n) ([PR #419](https://github.com/icosa-gallery/open-brush/pull/419) by @mikeskydev)
 
 - Add websocket support to the API server ([PR #336](https://github.com/icosa-gallery/open-brush/pull/336) by @andybak)
+
+- Backport a simplified version of model import from EditableModels ([PR #446](https://github.com/icosa-gallery/open-brush/pull/446) by @andybak)
 
 
 ## 🐛 Fixes
@@ -22,6 +24,11 @@
 - Temp remove system locale selector ([PR #436](https://github.com/icosa-gallery/open-brush/pull/436) by @mikeskydev)
 
 - Quick fix for bug with images on layers sometimes breaking script loading ([PR #445](https://github.com/icosa-gallery/open-brush/pull/445) by @andybak)
+
+
+## 🛠️ Infrastructure
+
+- (Re-enable) Free disk space before starting the Android build ([PR #454](https://github.com/icosa-gallery/open-brush/pull/454) by @mikeage)
 
 
 ## 📦 Dependencies / Maintenance
