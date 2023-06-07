@@ -5,4 +5,3 @@ VR controllers can sometimes be a little too accurate and responsive, making it 
 Toggle it by HOLDING your off-hand trigger and TAPPING the button marked with the rabbit/turtle.
 
 {% embed url="https://www.youtube.com/watch?v=2CEyUrv3IZk" %}
-
