@@ -18,5 +18,5 @@ Currently this build combines the following features:
 * [Oculus PC VR](https://nightly.link/icosa-gallery/open-brush/workflows/build/feature%2Fkitchen-sink/Windows%20Rift.zip) (Rift, Quest via Link cable...)
 * [SteamVR](https://nightly.link/icosa-gallery/open-brush/workflows/build/feature%2Fkitchen-sink/Windows%20OpenXR.zip) (Vive, Index, Reverb...)
 * [Other Builds](https://nightly.link/icosa-gallery/open-brush/workflows/build/feature%2Fkitchen-sink) (Pico, Pimax etc...)
-* [Code](https://github.com/icosa-gallery/open-brush/tree/feature/kitchen-sing)
+* [Code](https://github.com/icosa-gallery/open-brush/tree/feature/kitchen-sink)
 
