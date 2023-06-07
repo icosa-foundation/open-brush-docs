@@ -52,6 +52,7 @@
   * [Feature: Plugin Scripting](alternate-and-experimental-builds/runtime-scripting.md)
   * [Feature: Improved GLTF Importer](alternate-and-experimental-builds/new-gltf-importer.md)
   * [Feature: New Monoscopic Mode](alternate-and-experimental-builds/new-monoscopic-mode.md)
+  * [Combined Testing Build](alternate-and-experimental-builds/transform-panel-1.md)
   * [Old or Completed Feature Builds](alternate-and-experimental-builds/old-or-completed-feature-builds/README.md)
     * [Feature: Polyhedra](alternate-and-experimental-builds/old-or-completed-feature-builds/polyhedra-and-symmetry.md)
     * [Feature: Snip Tool](alternate-and-experimental-builds/old-or-completed-feature-builds/snip-tool.md)
