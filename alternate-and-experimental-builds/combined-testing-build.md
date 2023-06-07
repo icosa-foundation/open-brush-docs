@@ -14,9 +14,9 @@ Currently this build combines the following features:
 
 ## Downloads
 
-* [Oculus Quest](https://nightly.link/IxxyXR/open-brush/workflows/build/feature%2Ftransform-panel/Oculus%20Quest.zip)
-* [Oculus PC VR](https://nightly.link/IxxyXR/open-brush/workflows/build/feature%2Ftransform-panel/Windows%20Rift.zip) (Rift, Quest via Link cable...)
-* [SteamVR](https://nightly.link/IxxyXR/open-brush/workflows/build/feature%2Ftransform-panel/Windows%20OpenXR.zip) (Vive, Index, Reverb...)
-* [Other Builds](https://nightly.link/IxxyXR/open-brush/workflows/build/feature%2Ftransform-panel) (Pico, Pimax etc...)
-* [Code](https://github.com/IxxyXR/open-brush/tree/feature/transform-panel)
+* [Oculus Quest](https://nightly.link/icosa-gallery/open-brush/workflows/build/feature%2Fkitchen-sink/Oculus%20Quest.zip)
+* [Oculus PC VR](https://nightly.link/icosa-gallery/open-brush/workflows/build/feature%2Fkitchen-sink/Windows%20Rift.zip) (Rift, Quest via Link cable...)
+* [SteamVR](https://nightly.link/icosa-gallery/open-brush/workflows/build/feature%2Fkitchen-sink/Windows%20OpenXR.zip) (Vive, Index, Reverb...)
+* [Other Builds](https://nightly.link/icosa-gallery/open-brush/workflows/build/feature%2Fkitchen-sink) (Pico, Pimax etc...)
+* [Code](https://github.com/icosa-gallery/open-brush/tree/feature/kitchen-sing)
 
