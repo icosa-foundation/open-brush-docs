@@ -1,6 +1,6 @@
 # Changelog since v2.2
 
-[Full release details](https://github.com/icosa-gallery/open-brush/compare/v2.2...40e91c23ae1b12610662b478fc6daa37ffe656b6)
+[Full release details](https://github.com/icosa-gallery/open-brush/compare/v2.2...2a504dfa11c09f0a4ad8c7fbcaf4d85180909ea5)
 
 ## 🚀 Features
 
@@ -42,6 +42,11 @@
 - Bump actions/setup-python from 4.6.0 to 4.6.1 ([PR #448](https://github.com/icosa-gallery/open-brush/pull/448) by @dependabot[bot])
 
 - Bump actions/setup-dotnet from 3.0.3 to 3.2.0 ([PR #451](https://github.com/icosa-gallery/open-brush/pull/451) by @dependabot[bot])
+
+
+## 💬 Uncategorized
+
+- Add missing swipe hint to Multicam tool ([PR #455](https://github.com/icosa-gallery/open-brush/pull/455) by @andybak)
 
 
 
