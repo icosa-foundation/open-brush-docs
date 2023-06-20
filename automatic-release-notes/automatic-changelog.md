@@ -1,6 +1,6 @@
-# Changelog since v2.2
+# Changelog since v2.3
 
-[Full release details](https://github.com/icosa-gallery/open-brush/compare/v2.2...5cb1fc8aa55c8a977cdc284fa96363468091cd02)
+[Full release details](https://github.com/icosa-gallery/open-brush/compare/v2.3...657a694d763ac7c376730b67ac902b8279bf9ad1)
 
 ## 🚀 Features
 
@@ -27,10 +27,14 @@
 
 - Add missing swipe hint to Multicam tool ([PR #455](https://github.com/icosa-gallery/open-brush/pull/455) by @andybak)
 
+- Hotfix/widget layers offby1 ([PR #457](https://github.com/icosa-gallery/open-brush/pull/457) by @andybak)
+
 
 ## 🛠️ Infrastructure
 
 - (Re-enable) Free disk space before starting the Android build ([PR #454](https://github.com/icosa-gallery/open-brush/pull/454) by @mikeage)
+
+- Merge v2.3 hotfix branch ([PR #459](https://github.com/icosa-gallery/open-brush/pull/459) by @mikeage)
 
 
 ## 📦 Dependencies / Maintenance
@@ -44,11 +48,6 @@
 - Bump actions/setup-python from 4.6.0 to 4.6.1 ([PR #448](https://github.com/icosa-gallery/open-brush/pull/448) by @dependabot[bot])
 
 - Bump actions/setup-dotnet from 3.0.3 to 3.2.0 ([PR #451](https://github.com/icosa-gallery/open-brush/pull/451) by @dependabot[bot])
-
-
-## 💬 Uncategorized
-
-- Merge v2.3 hotfix branch ([PR #459](https://github.com/icosa-gallery/open-brush/pull/459) by @mikeage)
 
 
 
