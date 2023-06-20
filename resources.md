@@ -2,19 +2,20 @@
 
 This page lists various useful sources of information for using or tinkering with Icosa Gallery and Open Brush and about the community around them both.
 
-If you’re mainly interested in getting into the actual Open Brush codebase then you probably want to look at the [Developer Notes](../developer-notes/) as well.
+If you’re mainly interested in getting into the actual Open Brush codebase then you probably want to look at the [Developer Notes](developer-notes/) as well.
 
-There’s some really useful info in the last [_**TIlt Brush release notes**_](../user-guide/tilt-brush-release-notes.md) that isn’t included here.
+There’s some really useful info in the last [_**TIlt Brush release notes**_](user-guide/tilt-brush-release-notes.md) that isn’t included here.
 
 Join our [Discord](https://discord.gg/NQv6QPus)
 
 ## Developer Resources:
 
-* [Developer Notes](../developer-notes/)
+* [Developer Notes](developer-notes/)
 * [Open Brush Feature Tracking](https://docs.google.com/spreadsheets/d/1MNqrgnUdM-g5qbW\_-rWgnLqqK2WJSSb51y4NTq-ooh0/edit?usp=sharing) (known forks and features)
 
 ## Other Resources
 
+* Archive of Forums and Questions on our Discord: [https://www.answeroverflow.com/c/783806589991780412](https://www.answeroverflow.com/c/783806589991780412)
 * A good explanation for non technical people about “Open Source and Tilt Brush”: [Shameless Mayhem - Teaching Tilt Brush: Going Open Source](https://www.youtube.com/watch?v=LNFl\_G1OXIw)
 * Unity Downloads:
   * [Download Unity - Personal Use](https://store.unity.com/download?ref=personal)
