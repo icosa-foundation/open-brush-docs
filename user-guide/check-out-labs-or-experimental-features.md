@@ -15,9 +15,9 @@ To try out newer features, you can open up the Labs panel. Here you will find so
 
 ## Labs Features:
 
-![](<../.gitbook/assets/image (5) (3).png>)![](<../.gitbook/assets/image (6).png>)
+![](<../.gitbook/assets/image (6).png>)
 
-### Display Twitch or YouTube Chat whilst streaming (PC Only)
+### Display YouTube Chat whilst streaming (PC Only)
 
 ### ![](<../.gitbook/assets/image (2) (5).png>)
 
