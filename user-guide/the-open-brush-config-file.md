@@ -32,11 +32,6 @@ Sample contents of a _Open Brush.cfg_ with various fields filled in:
    "User":{
       "Author":"Tiltasaurus"
    },
-   "Twitch":{
-      "Username":"TiltBrushStreamer",
-      "OAuth":"oauth:abcdefghijklmnopqrstuvwxyz0123",
-      "Channel":"#tiltbrushchannel"
-   },
    "YouTube":{
       "ChannelID":"abcdefghijklmnopqrstuvwx"
    },
