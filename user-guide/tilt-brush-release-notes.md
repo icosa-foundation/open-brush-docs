@@ -1,7 +1,7 @@
 ---
 description: >-
   These were the last release notes that were put out by Google and contain some
-  useful information not found elsewhere
+  useful information not found elsewhere.
 ---
 
 # Tilt Brush Version 23 Release Notes
@@ -34,105 +34,9 @@ description: >-
 
 Tilt Brush regularly saves your work into your Documents/Tilt Brush/Sketches/Autosave folder. Each sketch you make has a separate autosave file, and Tilt Brush keeps autosaves from your last five sketches. If you need to access an autosave, move it into your Documents/Tilt Brush/Sketches folder using Windows Explorer—it will have a Tilt Brush logo as its thumbnail in the Sketchbook.
 
-## Tilt Brush Config File
+## ~~Tilt Brush Config File~~
 
-### Using the Tilt Brush.cfg File
-
-The Tilt Brush config file can be used to tweak various options for advanced users. A blank Tilt Brush.cfg file will be created in the Tilt Brush folder on application startup if one does not exist.
-
-Example path: **C:\Users\\**_\<username>_**\Documents\Tilt Brush\Tilt Brush.cfg**.
-
-Contents of the default _Tilt Brush.cfg:_
-
-```
-{
-   "User":{
-      
-   },
-   "Video":{
-      
-   },
-   "Flags":{
-      
-   },
-   "Export":{
-      
-   }
-}
-```
-
-Sample contents of a _Tilt Brush.cfg_ with various fields filled in:
-
-```
-{
-   "User":{
-      "Author":"Tiltasaurus"
-   },
-   "Twitch":{
-      "Username":"TiltBrushStreamer",
-      "OAuth":"oauth:abcdefghijklmnopqrstuvwxyz0123",
-      "Channel":"#tiltbrushchannel"
-   },
-   "YouTube":{
-      "ChannelID":"abcdefghijklmnopqrstuvwx"
-   },
-   "Video":{
-      "Resolution":1280,
-      "OfflineResolution":1920,
-      "FPS":30,
-      "OfflineFPS":60,
-      "ContainerType":"mp4",
-      "CameraSmoothing":0.98,
-      "Encoder":"h.264",
-      "SaveCameraPath":true,
-      "FOV":80
-   },
-   "Flags":{
-      "PostEffectsOnCapture":true,
-      "ShowWatermark":true,
-      "ShowHeadset":true,
-      "ShowControllers":true,
-      "SnapshotWidth":1920,
-      "SnapshotHeight":1080,
-      "FOV":80,
-      "DisableAudio":false,
-      "UnlockScale":false
-   },
-   "Export":{
-      "ExportBinaryFbx":true,
-      "ExportFbxVersion":"FBX201400"
-   }
-}
-```
-
-### Config file valid values
-
-* [How to get an OAuth key for Twitch.](https://twitchapps.com/tokengen/)
-* [How to find your YouTube Channel ID.](https://support.google.com/youtube/answer/3250431)
-* PostEffectsOnCapture: true | false
-* ShowWatermark: true | false
-* ShowHeadset: true | false
-* UnlockScale: true | false
-* SnapshotWidth: 1 - some reasonably large number
-* SnapshotHeight: 1 - some reasonably large number
-* FOV: 1 - 179
-* DisableAudio: true | false
-* ExportBinaryFbx: true | false
-* ExportFbxVersion: FBX201600 | FBX201400 | FBX201300 | FBX2012 | FBX201100\
-  Unless set in the config file it will default to the 2014 version. If you have older software that has problems importing the FBX file try an older version.
-* Encoder: h.264
-
-### Setting config values from the command line
-
-Any of the above settings in the Tilt Brush.cfg file can also be specified on the command line. The format is --Section.Setting \<value>. For example:
-
-```
---Flags.ShowWatermark true
-
---Video.CameraSmoothing 0.99
-
---User.Author "Captain Tilt Brush"
-```
+Outdated See [Open Brush Config File](the-open-brush-config-file.md)
 
 ## Exporting Tilt Brush Sketches
 
@@ -147,7 +51,7 @@ Each sketch exported from Tilt Brush creates a separate folder in **Documents/Ti
 
 The .json is a “raw” format which you can use if you need a different file format. See the [Tilt Brush Toolkit](https://github.com/googlevr/tilt-brush-toolkit) for sample [Python 2.7](https://www.python.org/download/releases/2.7/) scripts that convert the raw .json to .obj.
 
-python convert_to_fbx.py "c:\Users\\_username_\Documents\Tilt Brush\Exports\Untitled\_1.json"
+python convert\_to\_fbx.py "c:\Users\\_username_\Documents\Tilt Brush\Exports\Untitled\_1.json"
 
 Each script has a set of command-line options that fine-tune the generated file.
 
@@ -187,9 +91,9 @@ TiltBrush.exe --export Untitled_15.tilt Untitled_2*.tilt C:\Downloads\downloaded
 
 When you create a video from inside Tilt Brush using the Camera tool, Tilt Brush will create a Windows batch file alongside the video (In Documents\Tilt Brush\Videos) that you can run to re-render the video at a higher resolution. For example:
 
- _Untitled\_13\_00.mp4_
+_Untitled\_13\_00.mp4_
 
- _Untitled\_13\_00.HQ_Render.bat_
+_Untitled\_13\_00.HQ\_Render.bat_
 
 Double-clicking the ".bat" batch file will give you several options for re-rendering your video:
 
@@ -245,19 +149,12 @@ Videos can be rendered ‘offline’ faster and at a much higher resolution and 
 10. Record your video by moving camera or keeping camera stationary
 11. After saving, exit Tilt Brush
 12. **Rendering**\
-    ****Note: When you create a video from inside Tilt Brush using the Camera tool with configuration "SaveCameraPath" flag set to _true_, Tilt Brush will create a Windows batch file alongside the video (In Documents\Tilt Brush\Videos) that you can run to re-render the video at a higher resolution
+    \*\*\*\*Note: When you create a video from inside Tilt Brush using the Camera tool with configuration "SaveCameraPath" flag set to _true_, Tilt Brush will create a Windows batch file alongside the video (In Documents\Tilt Brush\Videos) that you can run to re-render the video at a higher resolution
 13. Go to C:\Documents\Tilt Brush\Videos . There should be .usda, .bat and video file which corresponds to the .tilt file
 14. Double click on .bat file
 15. If you run that batch file a command window will appear giving you several options for re-rendering your video:![](<../.gitbook/assets/2 (1).png>)Press a number to get whichever format you prefer. It will then launch Tilt Brush, which will reload your sketch, and re-render the video. Once it is done, Tilt Brush will exit. As rendering at higher quality tends to affect the framerate, it is suggested that you do not wear your headset while this process completes.
 16. Once the render is complete, it will pop open the “VRVideos” folder which should contain an video file with your stereo render.
-17.  **Converting into 360 video**
-    1. [Download the 360° Video Metadata app](https://support.google.com/youtube/answer/6178631?hl=en) for [Mac](https://github.com/google/spatial-media/releases/download/v2.0/360.Video.Metadata.Tool.mac.zip) or [Windows](https://github.com/google/spatial-media/releases/tag/v2.0). The dialog should look like this:![](<../.gitbook/assets/3 (1).png>)
-    2. Un-zip the file, then open the 360 Video Metadata app. If you're on a Mac, you may need to right-click the app and then click Open.
-    3. Select the video file.
-    4. Select the checkbox for My Video is stereoscopic 3D (top/bottom layout)
-    5. Click Inject Metadata
-    6. Enter a name for the file that will be created.
-    7. Save the file. A new file will be created automatically in the same location as the original file.
+17. **Converting into 360 video** 1. [Download the 360° Video Metadata app](https://support.google.com/youtube/answer/6178631?hl=en) for [Mac](https://github.com/google/spatial-media/releases/download/v2.0/360.Video.Metadata.Tool.mac.zip) or [Windows](https://github.com/google/spatial-media/releases/tag/v2.0). The dialog should look like this:![](<../.gitbook/assets/3 (1).png>) 2. Un-zip the file, then open the 360 Video Metadata app. If you're on a Mac, you may need to right-click the app and then click Open. 3. Select the video file. 4. Select the checkbox for My Video is stereoscopic 3D (top/bottom layout) 5. Click Inject Metadata 6. Enter a name for the file that will be created. 7. Save the file. A new file will be created automatically in the same location as the original file.
 18. **Uploading to Youtube**
     1. Upload the new “injected” video file to YouTube
     2. Note that it takes YouTube some additional time to process 360 videos, until this process is finished, you may see the raw over/under and the “View in Cardboard” option will not be available.
@@ -488,7 +385,7 @@ Also inside the zip is "metadata.json", the metadata for the sketch in json form
       * x,y = the earliest/latest timestamp in the stroke which contains that vertex.
       * z = the timestamp for that vertex.
     * This can be disabled in the Tilt Brush config Export section with “ExportStrokeTimestamp”: false
-    * [How to use the Tilt Brush config file.](broken-reference)
+    * [How to use the Tilt Brush config file.](broken-reference/)
   * **glb, fbx**: Media Library models are now included in exports.
   * **glb, fbx**: Various quality of life improvements in the exported file.
 * New tool tip descriptions.
@@ -503,7 +400,7 @@ Also inside the zip is "metadata.json", the metadata for the sketch in json form
   * Contains Reference Image Panel, Pin Tool, Export, and experimental Cameras.
 * Added Reference Image support.
   * Requires connecting your Quest to a PC and side loading images into a Tilt Brush folder. Some restrictions apply.
-  * See the [Help Center](https://support.google.com/tiltbrush/answer/9427219?hl=en\&ref_topic=7074683) for a more detailed explanation of how to use Reference Images.
+  * See the [Help Center](https://support.google.com/tiltbrush/answer/9427219?hl=en\&ref\_topic=7074683) for a more detailed explanation of how to use Reference Images.
 * Added Export to .glb1 (binary glTF).
   * Updated Tilt Brush Toolkit to support .glb1 import.
   * Previously, Reference Images would appear in the export as as empty transform nodes. They are now included in the export.
@@ -563,22 +460,22 @@ Also inside the zip is "metadata.json", the metadata for the sketch in json form
 
 {
 
- "Video": {
+"Video": {
 
- "FOV": 90,
+"FOV": 90,
 
- },
+},
 
- "Flags": {
+"Flags": {
 
- "FOV": 100,
+"FOV": 100,
 
- },
+},
 
 }
 
 *
-  * [How to use the Tilt Brush config file.](broken-reference)
+  * [How to use the Tilt Brush config file.](broken-reference/)
 * Added a button in the Settings to link to the [Help Center](https://support.google.com/tiltbrush/).
 * Import and apply normal maps for .fbx models in Media Library.
 * Fix screen tearing bugs with video recording.
@@ -630,7 +527,7 @@ Also inside the zip is "metadata.json", the metadata for the sketch in json form
   * Located on the Settings Panel.
 * Pixar's Universal Scene Description (USD) is now exported when pressing ‘Export’ on the Labs Panel.
   * This new export includes geometry, models, brush curves, and stroke timing.
-* Support for [changing eye scale](broken-reference) when rendering ODS 360 videos.
+* Support for [changing eye scale](broken-reference/) when rendering ODS 360 videos.
   * You can now create a camera path with everything scaled down, and then scale the camera back up when doing an offline render.
 * General performance improvements.
   * Sped up rendering of UI.
@@ -656,7 +553,7 @@ Also inside the zip is "metadata.json", the metadata for the sketch in json form
 * Video Recording
   * 360 videos now render 5x as fast.
   * Added the option to use “h.264” encoder, see user config for details.
-  * Videos can now be rendered ‘offline’ at a higher resolution and framerate than feasible from inside Tilt Brush. See [Rendering ‘Offline’ Videos](broken-reference).
+  * Videos can now be rendered ‘offline’ at a higher resolution and framerate than feasible from inside Tilt Brush. See [Rendering ‘Offline’ Videos](broken-reference/).
 
 ####
 
@@ -798,7 +695,7 @@ Also inside the zip is "metadata.json", the metadata for the sketch in json form
 * Straightedge now shows the final stroke you’re painting.
 * Increased size range for a couple dozen brushes.
 * “DisableAudio” field added to the Tilt Brush.cfg.
-  * [How to use the Tilt Brush config file.](broken-reference)
+  * [How to use the Tilt Brush config file.](broken-reference/)
 * Change to save file naming.
 * Fixed bug where Tilt Brush would be unplayable when the Documents folder was moved or inaccessible due to virus detection software.
 * Minor improvements to models.
@@ -830,7 +727,7 @@ Also inside the zip is "metadata.json", the metadata for the sketch in json form
     * In the Pedestal environment, models and images snap to the pedestal.
 * Video Recorder Improvements
   * Video capture now records with audio.
-  * Ability to customize video resolution, FPS, container type in the Tilt Brush.cfg. [How to use the Tilt Brush config file.](broken-reference)
+  * Ability to customize video resolution, FPS, container type in the Tilt Brush.cfg. [How to use the Tilt Brush config file.](broken-reference/)
 * Misc. improvements
   * "Animal Ruler" shows relative size when using the scale feature.
   * Mirror position saved with sketch.
@@ -842,7 +739,7 @@ Also inside the zip is "metadata.json", the metadata for the sketch in json form
   * Updated SteamVR plugin to v1.1.1.
   * “Author” field added to the Tilt Brush.cfg.
     * When the Author field is set, all sketches created will have the author name embedded in saved .tilt files.
-    * [How to use the Tilt Brush config file.](broken-reference)
+    * [How to use the Tilt Brush config file.](broken-reference/)
   * Support scripts have moved to the [Tilt Brush Toolkit](https://github.com/googlevr/tilt-brush-toolkit).
 
 #### Version 7
@@ -888,17 +785,17 @@ Also inside the zip is "metadata.json", the metadata for the sketch in json form
 * Controller Swapping
   * Point the controllers away from each other and tap the bottoms to swap the palette and paint brush.
 * High resolution snapshot mode
-  * Added flag “HighResolutionSnapshots” to the Tilt Brush.cfg. [How to use the Tilt Brush config file.](broken-reference)
+  * Added flag “HighResolutionSnapshots” to the Tilt Brush.cfg. [How to use the Tilt Brush config file.](broken-reference/)
   * Setting the flag to true causes the Camera tool to take snapshots at 6x the default resolution (11,880 x 6,588px).
 * Exporting to Sketchfab
-  * Many important material properties are now preserved when exporting .fbx files and then uploading to Sketchfab. [Posting to Sketchfab.](broken-reference)
+  * Many important material properties are now preserved when exporting .fbx files and then uploading to Sketchfab. [Posting to Sketchfab.](broken-reference/)
 * Misc. improvements
   * More aggressive video camera stabilization.
   * Fire brush bloom effect fixed on “Future Desktop” settings.
   * Cleaned up the progress bar images, added info text during loading.
   * Added new tips to the Tips ‘N Tricks.
   * Changed video file extension to .mp4.
-  * Exports binary FBX by default, configurable in Tilt Brush.cfg. [How to use the Tilt Brush config file.](broken-reference)
+  * Exports binary FBX by default, configurable in Tilt Brush.cfg. [How to use the Tilt Brush config file.](broken-reference/)
   * Pressing the pad no longer activates teleport with Teleport Tool. Trigger only.
   * Teleport Tool boundaries are extended when the sketch has been resized.
   * Changed selection icon for Sketchbook to trash can.
@@ -934,7 +831,7 @@ Also inside the zip is "metadata.json", the metadata for the sketch in json form
   * Mirror can be reset by dragging it to the target above the center of the floor.
   * Mirror now snaps to vertical and horizontal planes.
 * Added Tips ‘N Tricks tutorial section, under “More” menu.
-* Export button now generates textured .fbx files. See the [Exporting Tilt Brush Sketches](broken-reference) section below for more details.
+* Export button now generates textured .fbx files. See the [Exporting Tilt Brush Sketches](broken-reference/) section below for more details.
 * Improved visual quality at all performance levels.
 * Unlit brushes made more efficient by using single-sided geometry.
 * Added progress bar when exporting or loading sketches.
@@ -975,7 +872,7 @@ Also inside the zip is "metadata.json", the metadata for the sketch in json form
 
 *
   * Note: [How to find your YouTube Channel ID.](https://support.google.com/youtube/answer/3250431)
-  * [How to use the Tilt Brush config file.](broken-reference)
+  * [How to use the Tilt Brush config file.](broken-reference/)
   * Use Grip button to move chat widget.
   * Use both Grip buttons to scale chat widget.
   * Toss the widget to dismiss it.
@@ -995,7 +892,7 @@ Also inside the zip is "metadata.json", the metadata for the sketch in json form
 
 *
   * Note: [How to get an OAuth key for Twitch.](https://twitchapps.com/tokengen/)
-  * [How to use the Tilt Brush config file.](broken-reference)
+  * [How to use the Tilt Brush config file.](broken-reference/)
   * Use Grip button to move chat widget.
   * Use both Grip buttons to scale chat widget.
   * Toss the widget to dismiss it.
@@ -1023,10 +920,10 @@ Also inside the zip is "metadata.json", the metadata for the sketch in json form
   * _Caution!_ Extra large images, such as 4k, may cause performance hitches in Tilt Brush.
 * Export
   * Exports current scene's metadata and 3D geometry to a json file in **Documents/Tilt Brush/Exports**.
-  * Tilt Brush ships with sample [Python 2.7](https://www.python.org/download/releases/2.7/) scripts to convert the .json to .obj and .fbx formats. These scripts are in the **Support/bin** folder, which is next to TiltBrush.exe. The fbx conversion also requires the [Autodesk FBX Python SDK](http://images.autodesk.com/adsk/files/fbx20151\_fbxpythonsdk_win.exe). To find TiltBrush.exe from Steam, right-click "Tilt Brush" → Properties → Local Files → Browse Local Files...
+  * Tilt Brush ships with sample [Python 2.7](https://www.python.org/download/releases/2.7/) scripts to convert the .json to .obj and .fbx formats. These scripts are in the **Support/bin** folder, which is next to TiltBrush.exe. The fbx conversion also requires the [Autodesk FBX Python SDK](http://images.autodesk.com/adsk/files/fbx20151\_fbxpythonsdk\_win.exe). To find TiltBrush.exe from Steam, right-click "Tilt Brush" → Properties → Local Files → Browse Local Files...
   *   Example script usage:
 
-      python convert_to_fbx.py "c:\Users\\_username_\Documents\Tilt Brush\Exports\Untitled\_1.json"
+      python convert\_to\_fbx.py "c:\Users\\_username_\Documents\Tilt Brush\Exports\Untitled\_1.json"
 
       Each script has a set of command-line options that fine-tune the generated file.
   * Note that this initial preview **does not export textures or materials**. In addition, the .obj file format does not support vertex colors. We’re looking into solutions to provide users with more of this data, but didn’t want to delay sharing what we have now. The .fbx does support vertex colors, but to see them you will need to apply a shader that uses vertex color information like the two example Unity shaders below.
@@ -1052,7 +949,7 @@ Also inside the zip is "metadata.json", the metadata for the sketch in json form
 Note: [How to get an OAuth key for Twitch.](http://help.twitch.tv/customer/portal/articles/1302780-twitch-irc)
 
 *
-  * [How to use the Tilt Brush config file.](broken-reference)
+  * [How to use the Tilt Brush config file.](broken-reference/)
   * Use Grip button to move chat widget.
   * Use both Grip buttons to scale chat widget.
   * Toss the widget to dismiss it.
@@ -1067,7 +964,5 @@ Note: [How to get an OAuth key for Twitch.](http://help.twitch.tv/customer/porta
 }
 ```
 
-
-
 *
-  * [How to use the Tilt Brush config file.](broken-reference)
+  * [How to use the Tilt Brush config file.](broken-reference/)
