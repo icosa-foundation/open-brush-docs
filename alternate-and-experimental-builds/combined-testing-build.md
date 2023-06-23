@@ -8,7 +8,7 @@ Currently this build combines the following features:
 
 * [3D Shapes](3d-shapes.md)
 * [Multi-Mirror](multi-mirror.md)
-* [Plugin Scripting](runtime-scripting.md)
+* [Plugin Scripting](runtime-scripting/)
 * [Transform Panel](transform-panel.md)
 * [Virtual Keyboard](https://github.com/icosa-gallery/open-brush/pull/406)
 * [Repaint Selected](https://github.com/icosa-gallery/open-brush/pull/409)

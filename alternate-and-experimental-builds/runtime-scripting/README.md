@@ -14,7 +14,7 @@
 
 ### What does it do?
 
-Unlike the existing [OpenBrush API](../user-guide/open-brush-api/), plugin scripting is designed to run small scripts that directly modify the behaviour of various features while you are actually using them. For example a script might move the pointer as you are painting or add new strokes in response to your actions.
+Unlike the existing [OpenBrush API](../../user-guide/open-brush-api/), plugin scripting is designed to run small scripts that directly modify the behaviour of various features while you are actually using them. For example a script might move the pointer as you are painting or add new strokes in response to your actions.
 
 ### What's it good for?
 
@@ -22,13 +22,13 @@ Changing the way Open Brush responds to user actions. Adding new mirror modes or
 
 ### How do I install it?
 
-[Download](runtime-scripting.md#download) a build for your headset from the link above and unzip it. You can run the Windows exe directly. To install the Quest apk use SideQuest: [https://uploadvr.com/sideloading-quest-how-to/](https://uploadvr.com/sideloading-quest-how-to/)
+[Download](./#download) a build for your headset from the link above and unzip it. You can run the Windows exe directly. To install the Quest apk use SideQuest: [https://uploadvr.com/sideloading-quest-how-to/](https://uploadvr.com/sideloading-quest-how-to/)
 
 ### How do I use it?
 
-![](<../.gitbook/assets/image (1) (3).png>)
+![](<../../.gitbook/assets/image (1) (3).png>)
 
-There are new buttons on the scipts panel that allow you to set an active runtime script in one of four categories. From the top down: [Tool Scripts](runtime-scripting.md#tool-scripts), [Symmetry Scripts](runtime-scripting.md#symmetry-scripts), [Pointer Scripts](runtime-scripting.md#pointer-scripts) and [Background Scripts](runtime-scripting.md#background-scripts). For the first three categories you can use the arrow buttons to choose a script and activate it with the large button on the left of each row.
+There are new buttons on the scipts panel that allow you to set an active runtime script in one of four categories. From the top down: [Tool Scripts](./#tool-scripts), [Symmetry Scripts](./#symmetry-scripts), [Pointer Scripts](./#pointer-scripts) and [Background Scripts](./#background-scripts). For the first three categories you can use the arrow buttons to choose a script and activate it with the large button on the left of each row.
 
 Background Scripts are a bit different as you can have several active at once. The big button enables/disables all of them and the smaller "eye" button turns the currently selected script on or off.
 
@@ -36,7 +36,7 @@ Background Scripts are a bit different as you can have several active at once. T
 
 Note that this is in the early stage of development and I'm still changing my mind about many parts
 
-All scripts are written in [Lua](https://www.lua.org/) (this is different to the [Http Api](../user-guide/open-brush-api/) where you can use any language as commands are simply messages sent over Http)
+All scripts are written in [Lua](https://www.lua.org/) (this is different to the [Http Api](../../user-guide/open-brush-api/) where you can use any language as commands are simply messages sent over Http)
 
 The best reference is probably the [examples scripts themselves](https://github.com/IxxyXR/open-brush/tree/experiments/moonsharp/Assets/Resources/LuaScriptExamples). Most API commands are listed in the [Lua Autocomplete File](https://github.com/IxxyXR/open-brush/blob/experiments/moonsharp/Assets/Resources/LuaScriptExamples/\_\_autocomplete.lua) (which you can copy to your scripts folder and many code editors will automatically use it to give you some level of autocomplete).
 
