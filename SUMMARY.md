@@ -49,7 +49,6 @@
   * [Feature: Multi-Mirror](alternate-and-experimental-builds/multi-mirror.md)
   * [Feature: Transform Panel](alternate-and-experimental-builds/transform-panel.md)
   * [Feature: Brush Editing](alternate-and-experimental-builds/brush-editing.md)
-  * [Writing Plugins](alternate-and-experimental-builds/writing-plugins.md)
   * [Feature: Plugin Scripting](alternate-and-experimental-builds/runtime-scripting/README.md)
     * [Using Plugins](alternate-and-experimental-builds/runtime-scripting/using-plugins.md)
     * [Writing Plugins](alternate-and-experimental-builds/runtime-scripting/writing-plugins.md)
