@@ -16,18 +16,18 @@
 <tr><td>y</td><td>number</td><td></td></tr>
 <tr><td>z</td><td>number</td><td></td></tr>
 <tr><td>magnitude</td><td>number</td><td></td></tr>
-<tr><td>normalized</td><td>Vector3</td><td></td></tr>
+<tr><td>normalized</td><td><a href="vector3.md">Vector3</a></td><td></td></tr>
 <tr><td>sqrMagnitude</td><td>number</td><td></td></tr>
-<tr><td>back</td><td>Vector3</td><td></td></tr>
-<tr><td>down</td><td>Vector3</td><td></td></tr>
-<tr><td>forward</td><td>Vector3</td><td></td></tr>
-<tr><td>left</td><td>Vector3</td><td></td></tr>
-<tr><td>negativeInfinity</td><td>Vector3</td><td></td></tr>
-<tr><td>one</td><td>Vector3</td><td></td></tr>
-<tr><td>positiveInfinity</td><td>Vector3</td><td></td></tr>
-<tr><td>right</td><td>Vector3</td><td></td></tr>
-<tr><td>up</td><td>Vector3</td><td></td></tr>
-<tr><td>zero</td><td>Vector3</td><td></td></tr>
+<tr><td>back</td><td><a href="vector3.md">Vector3</a></td><td></td></tr>
+<tr><td>down</td><td><a href="vector3.md">Vector3</a></td><td></td></tr>
+<tr><td>forward</td><td><a href="vector3.md">Vector3</a></td><td></td></tr>
+<tr><td>left</td><td><a href="vector3.md">Vector3</a></td><td></td></tr>
+<tr><td>negativeInfinity</td><td><a href="vector3.md">Vector3</a></td><td></td></tr>
+<tr><td>one</td><td><a href="vector3.md">Vector3</a></td><td></td></tr>
+<tr><td>positiveInfinity</td><td><a href="vector3.md">Vector3</a></td><td></td></tr>
+<tr><td>right</td><td><a href="vector3.md">Vector3</a></td><td></td></tr>
+<tr><td>up</td><td><a href="vector3.md">Vector3</a></td><td></td></tr>
+<tr><td>zero</td><td><a href="vector3.md">Vector3</a></td><td></td></tr>
 <tr><td></td><td></td><td></td></tr></tbody></table>
 
 
@@ -40,7 +40,7 @@
 
 
 
-**Returns:** Vector3
+**Returns:** <a href="vector3.md">Vector3</a>
 
 
 **Parameters:**
@@ -67,8 +67,8 @@
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>a</td><td>Vector3</td><td></td></tr>
-<tr><td>b</td><td>Vector3</td><td></td></tr></tbody></table>
+<tbody><tr><td>a</td><td><a href="vector3.md">Vector3</a></td><td></td></tr>
+<tr><td>b</td><td><a href="vector3.md">Vector3</a></td><td></td></tr></tbody></table>
 
 
 
@@ -79,14 +79,14 @@
 
 
 
-**Returns:** Vector3
+**Returns:** <a href="vector3.md">Vector3</a>
 
 
 **Parameters:**
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>v</td><td>Vector3</td><td></td></tr>
+<tbody><tr><td>v</td><td><a href="vector3.md">Vector3</a></td><td></td></tr>
 <tr><td>maxLength</td><td>number</td><td></td></tr></tbody></table>
 
 
@@ -98,15 +98,15 @@
 
 
 
-**Returns:** Vector3
+**Returns:** <a href="vector3.md">Vector3</a>
 
 
 **Parameters:**
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>a</td><td>Vector3</td><td></td></tr>
-<tr><td>b</td><td>Vector3</td><td></td></tr></tbody></table>
+<tbody><tr><td>a</td><td><a href="vector3.md">Vector3</a></td><td></td></tr>
+<tr><td>b</td><td><a href="vector3.md">Vector3</a></td><td></td></tr></tbody></table>
 
 
 
@@ -124,8 +124,8 @@
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>a</td><td>Vector3</td><td></td></tr>
-<tr><td>b</td><td>Vector3</td><td></td></tr></tbody></table>
+<tbody><tr><td>a</td><td><a href="vector3.md">Vector3</a></td><td></td></tr>
+<tr><td>b</td><td><a href="vector3.md">Vector3</a></td><td></td></tr></tbody></table>
 
 
 
@@ -143,7 +143,7 @@
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>a</td><td>Vector3</td><td></td></tr></tbody></table>
+<tbody><tr><td>a</td><td><a href="vector3.md">Vector3</a></td><td></td></tr></tbody></table>
 
 
 
@@ -161,7 +161,7 @@
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>a</td><td>Vector3</td><td></td></tr></tbody></table>
+<tbody><tr><td>a</td><td><a href="vector3.md">Vector3</a></td><td></td></tr></tbody></table>
 
 
 
@@ -179,8 +179,8 @@
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>a</td><td>Vector3</td><td></td></tr>
-<tr><td>b</td><td>Vector3</td><td></td></tr></tbody></table>
+<tbody><tr><td>a</td><td><a href="vector3.md">Vector3</a></td><td></td></tr>
+<tr><td>b</td><td><a href="vector3.md">Vector3</a></td><td></td></tr></tbody></table>
 
 
 
@@ -191,15 +191,15 @@
 
 
 
-**Returns:** Vector3
+**Returns:** <a href="vector3.md">Vector3</a>
 
 
 **Parameters:**
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>a</td><td>Vector3</td><td></td></tr>
-<tr><td>b</td><td>Vector3</td><td></td></tr>
+<tbody><tr><td>a</td><td><a href="vector3.md">Vector3</a></td><td></td></tr>
+<tr><td>b</td><td><a href="vector3.md">Vector3</a></td><td></td></tr>
 <tr><td>t</td><td>number</td><td></td></tr></tbody></table>
 
 
@@ -211,15 +211,15 @@
 
 
 
-**Returns:** Vector3
+**Returns:** <a href="vector3.md">Vector3</a>
 
 
 **Parameters:**
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>a</td><td>Vector3</td><td></td></tr>
-<tr><td>b</td><td>Vector3</td><td></td></tr>
+<tbody><tr><td>a</td><td><a href="vector3.md">Vector3</a></td><td></td></tr>
+<tr><td>b</td><td><a href="vector3.md">Vector3</a></td><td></td></tr>
 <tr><td>t</td><td>number</td><td></td></tr></tbody></table>
 
 
@@ -231,15 +231,15 @@
 
 
 
-**Returns:** Vector3
+**Returns:** <a href="vector3.md">Vector3</a>
 
 
 **Parameters:**
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>a</td><td>Vector3</td><td></td></tr>
-<tr><td>b</td><td>Vector3</td><td></td></tr></tbody></table>
+<tbody><tr><td>a</td><td><a href="vector3.md">Vector3</a></td><td></td></tr>
+<tr><td>b</td><td><a href="vector3.md">Vector3</a></td><td></td></tr></tbody></table>
 
 
 
@@ -250,15 +250,15 @@
 
 
 
-**Returns:** Vector3
+**Returns:** <a href="vector3.md">Vector3</a>
 
 
 **Parameters:**
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>a</td><td>Vector3</td><td></td></tr>
-<tr><td>b</td><td>Vector3</td><td></td></tr></tbody></table>
+<tbody><tr><td>a</td><td><a href="vector3.md">Vector3</a></td><td></td></tr>
+<tr><td>b</td><td><a href="vector3.md">Vector3</a></td><td></td></tr></tbody></table>
 
 
 
@@ -269,15 +269,15 @@
 
 
 
-**Returns:** Vector3
+**Returns:** <a href="vector3.md">Vector3</a>
 
 
 **Parameters:**
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>current</td><td>Vector3</td><td></td></tr>
-<tr><td>target</td><td>Vector3</td><td></td></tr>
+<tbody><tr><td>current</td><td><a href="vector3.md">Vector3</a></td><td></td></tr>
+<tr><td>target</td><td><a href="vector3.md">Vector3</a></td><td></td></tr>
 <tr><td>maxDistanceDelta</td><td>number</td><td></td></tr></tbody></table>
 
 
@@ -289,14 +289,14 @@
 
 
 
-**Returns:** Vector3
+**Returns:** <a href="vector3.md">Vector3</a>
 
 
 **Parameters:**
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>a</td><td>Vector3</td><td></td></tr></tbody></table>
+<tbody><tr><td>a</td><td><a href="vector3.md">Vector3</a></td><td></td></tr></tbody></table>
 
 
 
@@ -307,15 +307,15 @@
 
 
 
-**Returns:** Vector3
+**Returns:** <a href="vector3.md">Vector3</a>
 
 
 **Parameters:**
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>a</td><td>Vector3</td><td></td></tr>
-<tr><td>b</td><td>Vector3</td><td></td></tr></tbody></table>
+<tbody><tr><td>a</td><td><a href="vector3.md">Vector3</a></td><td></td></tr>
+<tr><td>b</td><td><a href="vector3.md">Vector3</a></td><td></td></tr></tbody></table>
 
 
 
@@ -326,15 +326,15 @@
 
 
 
-**Returns:** Vector3
+**Returns:** <a href="vector3.md">Vector3</a>
 
 
 **Parameters:**
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>vector</td><td>Vector3</td><td></td></tr>
-<tr><td>planeNormal</td><td>Vector3</td><td></td></tr></tbody></table>
+<tbody><tr><td>vector</td><td><a href="vector3.md">Vector3</a></td><td></td></tr>
+<tr><td>planeNormal</td><td><a href="vector3.md">Vector3</a></td><td></td></tr></tbody></table>
 
 
 
@@ -345,15 +345,15 @@
 
 
 
-**Returns:** Vector3
+**Returns:** <a href="vector3.md">Vector3</a>
 
 
 **Parameters:**
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>a</td><td>Vector3</td><td></td></tr>
-<tr><td>b</td><td>Vector3</td><td></td></tr></tbody></table>
+<tbody><tr><td>a</td><td><a href="vector3.md">Vector3</a></td><td></td></tr>
+<tr><td>b</td><td><a href="vector3.md">Vector3</a></td><td></td></tr></tbody></table>
 
 
 
@@ -364,15 +364,15 @@
 
 
 
-**Returns:** Vector3
+**Returns:** <a href="vector3.md">Vector3</a>
 
 
 **Parameters:**
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>current</td><td>Vector3</td><td></td></tr>
-<tr><td>target</td><td>Vector3</td><td></td></tr>
+<tbody><tr><td>current</td><td><a href="vector3.md">Vector3</a></td><td></td></tr>
+<tr><td>target</td><td><a href="vector3.md">Vector3</a></td><td></td></tr>
 <tr><td>maxRadiansDelta</td><td>number</td><td></td></tr>
 <tr><td>maxMagnitudeDelta</td><td>number</td><td></td></tr></tbody></table>
 
@@ -385,15 +385,15 @@
 
 
 
-**Returns:** Vector3
+**Returns:** <a href="vector3.md">Vector3</a>
 
 
 **Parameters:**
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>a</td><td>Vector3</td><td></td></tr>
-<tr><td>b</td><td>Vector3</td><td></td></tr></tbody></table>
+<tbody><tr><td>a</td><td><a href="vector3.md">Vector3</a></td><td></td></tr>
+<tr><td>b</td><td><a href="vector3.md">Vector3</a></td><td></td></tr></tbody></table>
 
 
 
@@ -411,9 +411,9 @@
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>from</td><td>Vector3</td><td></td></tr>
-<tr><td>to</td><td>Vector3</td><td></td></tr>
-<tr><td>axis</td><td>Vector3</td><td></td></tr></tbody></table>
+<tbody><tr><td>from</td><td><a href="vector3.md">Vector3</a></td><td></td></tr>
+<tr><td>to</td><td><a href="vector3.md">Vector3</a></td><td></td></tr>
+<tr><td>axis</td><td><a href="vector3.md">Vector3</a></td><td></td></tr></tbody></table>
 
 
 
@@ -424,15 +424,15 @@
 
 
 
-**Returns:** Vector3
+**Returns:** <a href="vector3.md">Vector3</a>
 
 
 **Parameters:**
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>a</td><td>Vector3</td><td></td></tr>
-<tr><td>b</td><td>Vector3</td><td></td></tr>
+<tbody><tr><td>a</td><td><a href="vector3.md">Vector3</a></td><td></td></tr>
+<tr><td>b</td><td><a href="vector3.md">Vector3</a></td><td></td></tr>
 <tr><td>t</td><td>number</td><td></td></tr></tbody></table>
 
 
@@ -444,15 +444,15 @@
 
 
 
-**Returns:** Vector3
+**Returns:** <a href="vector3.md">Vector3</a>
 
 
 **Parameters:**
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>a</td><td>Vector3</td><td></td></tr>
-<tr><td>b</td><td>Vector3</td><td></td></tr>
+<tbody><tr><td>a</td><td><a href="vector3.md">Vector3</a></td><td></td></tr>
+<tr><td>b</td><td><a href="vector3.md">Vector3</a></td><td></td></tr>
 <tr><td>t</td><td>number</td><td></td></tr></tbody></table>
 
 
@@ -464,14 +464,14 @@
 
 
 
-**Returns:** Vector3
+**Returns:** <a href="vector3.md">Vector3</a>
 
 
 **Parameters:**
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>b</td><td>Vector3</td><td></td></tr></tbody></table>
+<tbody><tr><td>b</td><td><a href="vector3.md">Vector3</a></td><td></td></tr></tbody></table>
 
 
 
@@ -482,7 +482,7 @@
 
 
 
-**Returns:** Vector3
+**Returns:** <a href="vector3.md">Vector3</a>
 
 
 **Parameters:**
@@ -502,14 +502,14 @@
 
 
 
-**Returns:** Vector3
+**Returns:** <a href="vector3.md">Vector3</a>
 
 
 **Parameters:**
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>b</td><td>Vector3</td><td></td></tr></tbody></table>
+<tbody><tr><td>b</td><td><a href="vector3.md">Vector3</a></td><td></td></tr></tbody></table>
 
 
 
@@ -520,7 +520,7 @@
 
 
 
-**Returns:** Vector3
+**Returns:** <a href="vector3.md">Vector3</a>
 
 
 **Parameters:**
@@ -540,7 +540,7 @@
 
 
 
-**Returns:** Vector3
+**Returns:** <a href="vector3.md">Vector3</a>
 
 
 **Parameters:**
@@ -558,14 +558,14 @@
 
 
 
-**Returns:** Vector3
+**Returns:** <a href="vector3.md">Vector3</a>
 
 
 **Parameters:**
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>b</td><td>Vector3</td><td></td></tr></tbody></table>
+<tbody><tr><td>b</td><td><a href="vector3.md">Vector3</a></td><td></td></tr></tbody></table>
 
 
 
@@ -576,7 +576,7 @@
 
 
 
-**Returns:** Vector3
+**Returns:** <a href="vector3.md">Vector3</a>
 
 
 **Parameters:**
@@ -596,7 +596,7 @@
 
 
 
-**Returns:** Vector3
+**Returns:** <a href="vector3.md">Vector3</a>
 
 
 **Parameters:**
@@ -621,7 +621,7 @@
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>b</td><td>Vector3</td><td></td></tr></tbody></table>
+<tbody><tr><td>b</td><td><a href="vector3.md">Vector3</a></td><td></td></tr></tbody></table>
 
 
 
@@ -652,15 +652,15 @@
 
 
 
-**Returns:** Vector3
+**Returns:** <a href="vector3.md">Vector3</a>
 
 
 **Parameters:**
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>a</td><td>Vector3</td><td></td></tr>
-<tr><td>b</td><td>Vector3</td><td></td></tr></tbody></table>
+<tbody><tr><td>a</td><td><a href="vector3.md">Vector3</a></td><td></td></tr>
+<tr><td>b</td><td><a href="vector3.md">Vector3</a></td><td></td></tr></tbody></table>
 
 
 
@@ -671,15 +671,15 @@
 
 
 
-**Returns:** Vector3
+**Returns:** <a href="vector3.md">Vector3</a>
 
 
 **Parameters:**
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>a</td><td>Vector3</td><td></td></tr>
-<tr><td>b</td><td>Vector3</td><td></td></tr></tbody></table>
+<tbody><tr><td>a</td><td><a href="vector3.md">Vector3</a></td><td></td></tr>
+<tr><td>b</td><td><a href="vector3.md">Vector3</a></td><td></td></tr></tbody></table>
 
 
 
@@ -690,14 +690,14 @@
 
 
 
-**Returns:** Vector3
+**Returns:** <a href="vector3.md">Vector3</a>
 
 
 **Parameters:**
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>a</td><td>Vector3</td><td></td></tr>
+<tbody><tr><td>a</td><td><a href="vector3.md">Vector3</a></td><td></td></tr>
 <tr><td>b</td><td>number</td><td></td></tr></tbody></table>
 
 
@@ -709,14 +709,14 @@
 
 
 
-**Returns:** Vector3
+**Returns:** <a href="vector3.md">Vector3</a>
 
 
 **Parameters:**
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>a</td><td>Vector3</td><td></td></tr>
+<tbody><tr><td>a</td><td><a href="vector3.md">Vector3</a></td><td></td></tr>
 <tr><td>b</td><td>number</td><td></td></tr></tbody></table>
 
 
@@ -735,8 +735,8 @@
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>a</td><td>Vector3</td><td></td></tr>
-<tr><td>b</td><td>Vector3</td><td></td></tr></tbody></table>
+<tbody><tr><td>a</td><td><a href="vector3.md">Vector3</a></td><td></td></tr>
+<tr><td>b</td><td><a href="vector3.md">Vector3</a></td><td></td></tr></tbody></table>
 
 
 

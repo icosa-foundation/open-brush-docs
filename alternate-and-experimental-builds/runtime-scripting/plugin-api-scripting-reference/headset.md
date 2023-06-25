@@ -51,7 +51,7 @@
 
 
 
-**Returns:** Vector3
+**Returns:** <a href="vector3.md">Vector3</a>
 
 
 **Parameters:**
@@ -69,7 +69,7 @@
 
 
 
-**Returns:** Rotation
+**Returns:** <a href="rotation.md">Rotation</a>
 
 
 **Parameters:**

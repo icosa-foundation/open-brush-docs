@@ -11,8 +11,8 @@
 <table>
 <thead><tr><th width="225">Name</th><th width="160">Return Type</th><th>Description</th></tr></thead>
 <tbody>
-<tr><td>Item</td><td>Transform</td><td></td></tr>
-<tr><td>last</td><td>Transform</td><td></td></tr>
+<tr><td>Item</td><td><a href="transform.md">Transform</a></td><td></td></tr>
+<tr><td>last</td><td><a href="transform.md">Transform</a></td><td></td></tr>
 <tr><td>count</td><td>number</td><td></td></tr>
 <tr><td></td><td></td><td></td></tr></tbody></table>
 
@@ -26,7 +26,7 @@
 
 
 
-**Returns:** Path
+**Returns:** <a href="path.md">Path</a>
 
 
 
@@ -37,7 +37,7 @@
 
 
 
-**Returns:** Path
+**Returns:** <a href="path.md">Path</a>
 
 
 **Parameters:**
@@ -55,7 +55,7 @@
 
 
 
-**Returns:** Path
+**Returns:** <a href="path.md">Path</a>
 
 
 **Parameters:**
@@ -73,7 +73,7 @@
 
 
 
-**Returns:** Vector3
+**Returns:** <a href="vector3.md">Vector3</a>
 
 
 **Parameters:**
@@ -91,7 +91,7 @@
 
 
 
-**Returns:** Vector3
+**Returns:** <a href="vector3.md">Vector3</a>
 
 
 **Parameters:**
@@ -109,7 +109,7 @@
 
 
 
-**Returns:** Vector3
+**Returns:** <a href="vector3.md">Vector3</a>
 
 
 **Parameters:**
@@ -145,7 +145,7 @@
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>transform</td><td>Transform</td><td></td></tr></tbody></table>
+<tbody><tr><td>transform</td><td><a href="transform.md">Transform</a></td><td></td></tr></tbody></table>
 
 
 
@@ -163,7 +163,7 @@
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>transform</td><td>Transform</td><td></td></tr></tbody></table>
+<tbody><tr><td>transform</td><td><a href="transform.md">Transform</a></td><td></td></tr></tbody></table>
 
 
 
@@ -181,7 +181,7 @@
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>amount</td><td>Vector3</td><td></td></tr></tbody></table>
+<tbody><tr><td>amount</td><td><a href="vector3.md">Vector3</a></td><td></td></tr></tbody></table>
 
 
 
@@ -199,7 +199,7 @@
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>amount</td><td>Rotation</td><td></td></tr></tbody></table>
+<tbody><tr><td>amount</td><td><a href="rotation.md">Rotation</a></td><td></td></tr></tbody></table>
 
 
 
@@ -217,7 +217,7 @@
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>scale</td><td>Vector3</td><td></td></tr></tbody></table>
+<tbody><tr><td>scale</td><td><a href="vector3.md">Vector3</a></td><td></td></tr></tbody></table>
 
 
 
@@ -264,7 +264,7 @@
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>point</td><td>Vector3</td><td></td></tr></tbody></table>
+<tbody><tr><td>point</td><td><a href="vector3.md">Vector3</a></td><td></td></tr></tbody></table>
 
 
 
@@ -433,17 +433,17 @@
 
 
 
-**Returns:** Path
+**Returns:** <a href="path.md">Path</a>
 
 
 **Parameters:**
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>startTransform</td><td>Transform</td><td></td></tr>
-<tr><td>endTransform</td><td>Transform</td><td></td></tr>
-<tr><td>startTangent</td><td>Vector3</td><td></td></tr>
-<tr><td>endTangent</td><td>Vector3</td><td></td></tr>
+<tbody><tr><td>startTransform</td><td><a href="transform.md">Transform</a></td><td></td></tr>
+<tr><td>endTransform</td><td><a href="transform.md">Transform</a></td><td></td></tr>
+<tr><td>startTangent</td><td><a href="vector3.md">Vector3</a></td><td></td></tr>
+<tr><td>endTangent</td><td><a href="vector3.md">Vector3</a></td><td></td></tr>
 <tr><td>resolution</td><td>number</td><td></td></tr>
 <tr><td>tangentStrength</td><td>number</td><td></td></tr></tbody></table>
 

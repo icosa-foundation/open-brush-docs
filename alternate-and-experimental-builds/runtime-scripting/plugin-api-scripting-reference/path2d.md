@@ -24,7 +24,7 @@
 
 
 
-**Returns:** Path2d
+**Returns:** <a href="path2d.md">Path2d</a>
 
 
 
@@ -35,7 +35,7 @@
 
 
 
-**Returns:** Path2d
+**Returns:** <a href="path2d.md">Path2d</a>
 
 
 **Parameters:**
@@ -53,7 +53,7 @@
 
 
 
-**Returns:** Path2d
+**Returns:** <a href="path2d.md">Path2d</a>
 
 
 **Parameters:**
@@ -78,7 +78,7 @@
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>transform</td><td>Vector2</td><td></td></tr></tbody></table>
+<tbody><tr><td>transform</td><td><a href="vector2.md">Vector2</a></td><td></td></tr></tbody></table>
 
 
 
@@ -89,7 +89,7 @@
 
 
 
-**Returns:** Path
+**Returns:** <a href="path.md">Path</a>
 
 
 
@@ -100,7 +100,7 @@
 
 
 
-**Returns:** Path
+**Returns:** <a href="path.md">Path</a>
 
 
 
@@ -111,7 +111,7 @@
 
 
 
-**Returns:** Path
+**Returns:** <a href="path.md">Path</a>
 
 
 
@@ -129,7 +129,7 @@
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>transform</td><td>Transform</td><td></td></tr></tbody></table>
+<tbody><tr><td>transform</td><td><a href="transform.md">Transform</a></td><td></td></tr></tbody></table>
 
 
 
@@ -147,7 +147,7 @@
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>amount</td><td>Vector2</td><td></td></tr></tbody></table>
+<tbody><tr><td>amount</td><td><a href="vector2.md">Vector2</a></td><td></td></tr></tbody></table>
 
 
 
@@ -165,7 +165,7 @@
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>amount</td><td>Rotation</td><td></td></tr></tbody></table>
+<tbody><tr><td>amount</td><td><a href="rotation.md">Rotation</a></td><td></td></tr></tbody></table>
 
 
 
@@ -183,7 +183,7 @@
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>scale</td><td>Vector2</td><td></td></tr></tbody></table>
+<tbody><tr><td>scale</td><td><a href="vector2.md">Vector2</a></td><td></td></tr></tbody></table>
 
 
 
@@ -230,7 +230,7 @@
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>point</td><td>Vector2</td><td></td></tr></tbody></table>
+<tbody><tr><td>point</td><td><a href="vector2.md">Vector2</a></td><td></td></tr></tbody></table>
 
 
 
@@ -325,7 +325,7 @@
 
 
 
-**Returns:** Path2d
+**Returns:** <a href="path2d.md">Path2d</a>
 
 
 **Parameters:**

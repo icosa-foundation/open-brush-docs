@@ -11,12 +11,12 @@
 <table>
 <thead><tr><th width="225">Name</th><th width="160">Return Type</th><th>Description</th></tr></thead>
 <tbody>
-<tr><td>path</td><td>Path</td><td></td></tr>
+<tr><td>path</td><td><a href="path.md">Path</a></td><td></td></tr>
 <tr><td>brushType</td><td>string</td><td></td></tr>
 <tr><td>brushSize</td><td>number</td><td></td></tr>
-<tr><td>brushColor</td><td>Color</td><td></td></tr>
-<tr><td>layer</td><td>Layer</td><td></td></tr>
-<tr><td>Item</td><td>Transform</td><td></td></tr>
+<tr><td>brushColor</td><td><a href="color.md">Color</a></td><td></td></tr>
+<tr><td>layer</td><td><a href="layer.md">Layer</a></td><td></td></tr>
+<tr><td>Item</td><td><a href="transform.md">Transform</a></td><td></td></tr>
 <tr><td>count</td><td>number</td><td></td></tr>
 <tr><td></td><td></td><td></td></tr></tbody></table>
 

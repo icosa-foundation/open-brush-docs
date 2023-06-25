@@ -17,19 +17,19 @@
 <tr><td>triggerIsPressedThisFrame</td><td>boolean</td><td></td></tr>
 <tr><td>distanceMoved</td><td>number</td><td></td></tr>
 <tr><td>distanceDrawn</td><td>number</td><td></td></tr>
-<tr><td>position</td><td>Vector3</td><td></td></tr>
-<tr><td>rotation</td><td>Rotation</td><td></td></tr>
-<tr><td>direction</td><td>Vector3</td><td></td></tr>
+<tr><td>position</td><td><a href="vector3.md">Vector3</a></td><td></td></tr>
+<tr><td>rotation</td><td><a href="rotation.md">Rotation</a></td><td></td></tr>
+<tr><td>direction</td><td><a href="vector3.md">Vector3</a></td><td></td></tr>
 <tr><td>size</td><td>number</td><td></td></tr>
 <tr><td>pressure</td><td>number</td><td></td></tr>
 <tr><td>type</td><td>string</td><td></td></tr>
 <tr><td>speed</td><td>number</td><td></td></tr>
-<tr><td>colorRgb</td><td>Color</td><td></td></tr>
-<tr><td>colorHsv</td><td>Vector3</td><td></td></tr>
+<tr><td>colorRgb</td><td><a href="color.md">Color</a></td><td></td></tr>
+<tr><td>colorHsv</td><td><a href="vector3.md">Vector3</a></td><td></td></tr>
 <tr><td>colorHtml</td><td>string</td><td></td></tr>
-<tr><td>lastColorPicked</td><td>Color</td><td></td></tr>
-<tr><td>currentPath</td><td>Path</td><td></td></tr>
-<tr><td>LastColorPickedHsv</td><td>Vector3</td><td></td></tr>
+<tr><td>lastColorPicked</td><td><a href="color.md">Color</a></td><td></td></tr>
+<tr><td>currentPath</td><td><a href="path.md">Path</a></td><td></td></tr>
+<tr><td>LastColorPickedHsv</td><td><a href="vector3.md">Vector3</a></td><td></td></tr>
 <tr><td></td><td></td><td></td></tr></tbody></table>
 
 
@@ -89,7 +89,7 @@
 
 
 
-**Returns:** Vector3
+**Returns:** <a href="vector3.md">Vector3</a>
 
 
 **Parameters:**
@@ -107,7 +107,7 @@
 
 
 
-**Returns:** Rotation
+**Returns:** <a href="rotation.md">Rotation</a>
 
 
 **Parameters:**

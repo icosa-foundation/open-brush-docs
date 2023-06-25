@@ -17,20 +17,20 @@
 <tr><td>b</td><td>number</td><td></td></tr>
 <tr><td>a</td><td>number</td><td></td></tr>
 <tr><td>grayscale</td><td>number</td><td></td></tr>
-<tr><td>gamma</td><td>Color</td><td></td></tr>
-<tr><td>linear</td><td>Color</td><td></td></tr>
+<tr><td>gamma</td><td><a href="color.md">Color</a></td><td></td></tr>
+<tr><td>linear</td><td><a href="color.md">Color</a></td><td></td></tr>
 <tr><td>maxColorComponent</td><td>number</td><td></td></tr>
-<tr><td>black</td><td>Color</td><td></td></tr>
-<tr><td>blue</td><td>Color</td><td></td></tr>
-<tr><td>clear</td><td>Color</td><td></td></tr>
-<tr><td>cyan</td><td>Color</td><td></td></tr>
-<tr><td>gray</td><td>Color</td><td></td></tr>
-<tr><td>green</td><td>Color</td><td></td></tr>
-<tr><td>grey</td><td>Color</td><td></td></tr>
-<tr><td>magenta</td><td>Color</td><td></td></tr>
-<tr><td>red</td><td>Color</td><td></td></tr>
-<tr><td>white</td><td>Color</td><td></td></tr>
-<tr><td>yellow</td><td>Color</td><td></td></tr>
+<tr><td>black</td><td><a href="color.md">Color</a></td><td></td></tr>
+<tr><td>blue</td><td><a href="color.md">Color</a></td><td></td></tr>
+<tr><td>clear</td><td><a href="color.md">Color</a></td><td></td></tr>
+<tr><td>cyan</td><td><a href="color.md">Color</a></td><td></td></tr>
+<tr><td>gray</td><td><a href="color.md">Color</a></td><td></td></tr>
+<tr><td>green</td><td><a href="color.md">Color</a></td><td></td></tr>
+<tr><td>grey</td><td><a href="color.md">Color</a></td><td></td></tr>
+<tr><td>magenta</td><td><a href="color.md">Color</a></td><td></td></tr>
+<tr><td>red</td><td><a href="color.md">Color</a></td><td></td></tr>
+<tr><td>white</td><td><a href="color.md">Color</a></td><td></td></tr>
+<tr><td>yellow</td><td><a href="color.md">Color</a></td><td></td></tr>
 <tr><td></td><td></td><td></td></tr></tbody></table>
 
 
@@ -43,7 +43,7 @@
 
 
 
-**Returns:** Color
+**Returns:** <a href="color.md">Color</a>
 
 
 **Parameters:**
@@ -63,7 +63,7 @@
 
 
 
-**Returns:** Color
+**Returns:** <a href="color.md">Color</a>
 
 
 **Parameters:**
@@ -88,7 +88,7 @@
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>col</td><td>Color</td><td></td></tr></tbody></table>
+<tbody><tr><td>col</td><td><a href="color.md">Color</a></td><td></td></tr></tbody></table>
 
 
 
@@ -106,7 +106,7 @@
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>col</td><td>Color</td><td></td></tr></tbody></table>
+<tbody><tr><td>col</td><td><a href="color.md">Color</a></td><td></td></tr></tbody></table>
 
 
 
@@ -124,7 +124,7 @@
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>col</td><td>Color</td><td></td></tr></tbody></table>
+<tbody><tr><td>col</td><td><a href="color.md">Color</a></td><td></td></tr></tbody></table>
 
 
 
@@ -135,7 +135,7 @@
 
 
 
-**Returns:** Color
+**Returns:** <a href="color.md">Color</a>
 
 
 **Parameters:**
@@ -153,15 +153,15 @@
 
 
 
-**Returns:** Color
+**Returns:** <a href="color.md">Color</a>
 
 
 **Parameters:**
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>a</td><td>Color</td><td></td></tr>
-<tr><td>b</td><td>Color</td><td></td></tr>
+<tbody><tr><td>a</td><td><a href="color.md">Color</a></td><td></td></tr>
+<tr><td>b</td><td><a href="color.md">Color</a></td><td></td></tr>
 <tr><td>t</td><td>number</td><td></td></tr></tbody></table>
 
 
@@ -173,15 +173,15 @@
 
 
 
-**Returns:** Color
+**Returns:** <a href="color.md">Color</a>
 
 
 **Parameters:**
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>a</td><td>Color</td><td></td></tr>
-<tr><td>b</td><td>Color</td><td></td></tr>
+<tbody><tr><td>a</td><td><a href="color.md">Color</a></td><td></td></tr>
+<tr><td>b</td><td><a href="color.md">Color</a></td><td></td></tr>
 <tr><td>t</td><td>number</td><td></td></tr></tbody></table>
 
 
@@ -193,7 +193,7 @@
 
 
 
-**Returns:** Color
+**Returns:** <a href="color.md">Color</a>
 
 
 **Parameters:**
@@ -213,14 +213,14 @@
 
 
 
-**Returns:** Vector3
+**Returns:** <a href="vector3.md">Vector3</a>
 
 
 **Parameters:**
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>rgb</td><td>Color</td><td></td></tr></tbody></table>
+<tbody><tr><td>rgb</td><td><a href="color.md">Color</a></td><td></td></tr></tbody></table>
 
 
 
@@ -231,14 +231,14 @@
 
 
 
-**Returns:** Color
+**Returns:** <a href="color.md">Color</a>
 
 
 **Parameters:**
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>b</td><td>Color</td><td></td></tr></tbody></table>
+<tbody><tr><td>b</td><td><a href="color.md">Color</a></td><td></td></tr></tbody></table>
 
 
 
@@ -249,7 +249,7 @@
 
 
 
-**Returns:** Color
+**Returns:** <a href="color.md">Color</a>
 
 
 **Parameters:**
@@ -269,14 +269,14 @@
 
 
 
-**Returns:** Color
+**Returns:** <a href="color.md">Color</a>
 
 
 **Parameters:**
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>b</td><td>Color</td><td></td></tr></tbody></table>
+<tbody><tr><td>b</td><td><a href="color.md">Color</a></td><td></td></tr></tbody></table>
 
 
 
@@ -287,7 +287,7 @@
 
 
 
-**Returns:** Color
+**Returns:** <a href="color.md">Color</a>
 
 
 **Parameters:**
@@ -307,7 +307,7 @@
 
 
 
-**Returns:** Color
+**Returns:** <a href="color.md">Color</a>
 
 
 **Parameters:**
@@ -325,7 +325,7 @@
 
 
 
-**Returns:** Color
+**Returns:** <a href="color.md">Color</a>
 
 
 **Parameters:**
@@ -345,7 +345,7 @@
 
 
 
-**Returns:** Color
+**Returns:** <a href="color.md">Color</a>
 
 
 **Parameters:**
@@ -370,7 +370,7 @@
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>b</td><td>Color</td><td></td></tr></tbody></table>
+<tbody><tr><td>b</td><td><a href="color.md">Color</a></td><td></td></tr></tbody></table>
 
 
 
@@ -401,15 +401,15 @@
 
 
 
-**Returns:** Color
+**Returns:** <a href="color.md">Color</a>
 
 
 **Parameters:**
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>a</td><td>Color</td><td></td></tr>
-<tr><td>b</td><td>Color</td><td></td></tr></tbody></table>
+<tbody><tr><td>a</td><td><a href="color.md">Color</a></td><td></td></tr>
+<tr><td>b</td><td><a href="color.md">Color</a></td><td></td></tr></tbody></table>
 
 
 
@@ -420,15 +420,15 @@
 
 
 
-**Returns:** Color
+**Returns:** <a href="color.md">Color</a>
 
 
 **Parameters:**
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>a</td><td>Color</td><td></td></tr>
-<tr><td>b</td><td>Color</td><td></td></tr></tbody></table>
+<tbody><tr><td>a</td><td><a href="color.md">Color</a></td><td></td></tr>
+<tr><td>b</td><td><a href="color.md">Color</a></td><td></td></tr></tbody></table>
 
 
 
@@ -439,14 +439,14 @@
 
 
 
-**Returns:** Color
+**Returns:** <a href="color.md">Color</a>
 
 
 **Parameters:**
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>a</td><td>Color</td><td></td></tr>
+<tbody><tr><td>a</td><td><a href="color.md">Color</a></td><td></td></tr>
 <tr><td>b</td><td>number</td><td></td></tr></tbody></table>
 
 
@@ -458,14 +458,14 @@
 
 
 
-**Returns:** Color
+**Returns:** <a href="color.md">Color</a>
 
 
 **Parameters:**
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>a</td><td>Color</td><td></td></tr>
+<tbody><tr><td>a</td><td><a href="color.md">Color</a></td><td></td></tr>
 <tr><td>b</td><td>number</td><td></td></tr></tbody></table>
 
 
@@ -484,8 +484,8 @@
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>a</td><td>Color</td><td></td></tr>
-<tr><td>b</td><td>Color</td><td></td></tr></tbody></table>
+<tbody><tr><td>a</td><td><a href="color.md">Color</a></td><td></td></tr>
+<tr><td>b</td><td><a href="color.md">Color</a></td><td></td></tr></tbody></table>
 
 
 

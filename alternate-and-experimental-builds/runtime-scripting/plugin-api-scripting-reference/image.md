@@ -12,9 +12,9 @@
 <thead><tr><th width="225">Name</th><th width="160">Return Type</th><th>Description</th></tr></thead>
 <tbody>
 <tr><td>index</td><td>number</td><td></td></tr>
-<tr><td>transform</td><td>Transform</td><td></td></tr>
-<tr><td>position</td><td>Vector3</td><td></td></tr>
-<tr><td>rotation</td><td>Rotation</td><td></td></tr>
+<tr><td>transform</td><td><a href="transform.md">Transform</a></td><td></td></tr>
+<tr><td>position</td><td><a href="vector3.md">Vector3</a></td><td></td></tr>
+<tr><td>rotation</td><td><a href="rotation.md">Rotation</a></td><td></td></tr>
 <tr><td>scale</td><td>number</td><td></td></tr>
 <tr><td></td><td></td><td></td></tr></tbody></table>
 
@@ -36,7 +36,7 @@
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>depth</td><td>number</td><td></td></tr>
-<tr><td>color</td><td>Color</td><td></td></tr></tbody></table>
+<tr><td>color</td><td><a href="color.md">Color</a></td><td></td></tr></tbody></table>
 
 
 
@@ -47,7 +47,7 @@
 
 
 
-**Returns:** Image
+**Returns:** <a href="image.md">Image</a>
 
 
 **Parameters:**

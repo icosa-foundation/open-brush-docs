@@ -15,14 +15,14 @@
 <tr><td>x</td><td>number</td><td></td></tr>
 <tr><td>y</td><td>number</td><td></td></tr>
 <tr><td>z</td><td>number</td><td></td></tr>
-<tr><td>zero</td><td>Rotation</td><td></td></tr>
-<tr><td>left</td><td>Rotation</td><td></td></tr>
-<tr><td>right</td><td>Rotation</td><td></td></tr>
-<tr><td>up</td><td>Rotation</td><td></td></tr>
-<tr><td>down</td><td>Rotation</td><td></td></tr>
-<tr><td>anticlockwise</td><td>Rotation</td><td></td></tr>
-<tr><td>clockwise</td><td>Rotation</td><td></td></tr>
-<tr><td>normalized</td><td>Rotation</td><td></td></tr>
+<tr><td>zero</td><td><a href="rotation.md">Rotation</a></td><td></td></tr>
+<tr><td>left</td><td><a href="rotation.md">Rotation</a></td><td></td></tr>
+<tr><td>right</td><td><a href="rotation.md">Rotation</a></td><td></td></tr>
+<tr><td>up</td><td><a href="rotation.md">Rotation</a></td><td></td></tr>
+<tr><td>down</td><td><a href="rotation.md">Rotation</a></td><td></td></tr>
+<tr><td>anticlockwise</td><td><a href="rotation.md">Rotation</a></td><td></td></tr>
+<tr><td>clockwise</td><td><a href="rotation.md">Rotation</a></td><td></td></tr>
+<tr><td>normalized</td><td><a href="rotation.md">Rotation</a></td><td></td></tr>
 <tr><td>kEpsilon</td><td>number</td><td></td></tr>
 <tr><td></td><td></td><td></td></tr></tbody></table>
 
@@ -36,7 +36,7 @@
 
 
 
-**Returns:** Rotation
+**Returns:** <a href="rotation.md">Rotation</a>
 
 
 **Parameters:**
@@ -56,15 +56,15 @@
 
 
 
-**Returns:** Rotation
+**Returns:** <a href="rotation.md">Rotation</a>
 
 
 **Parameters:**
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>fromDirection</td><td>Vector3</td><td></td></tr>
-<tr><td>toDirection</td><td>Vector3</td><td></td></tr></tbody></table>
+<tbody><tr><td>fromDirection</td><td><a href="vector3.md">Vector3</a></td><td></td></tr>
+<tr><td>toDirection</td><td><a href="vector3.md">Vector3</a></td><td></td></tr></tbody></table>
 
 
 
@@ -75,14 +75,14 @@
 
 
 
-**Returns:** Rotation
+**Returns:** <a href="rotation.md">Rotation</a>
 
 
 **Parameters:**
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>view</td><td>Vector3</td><td></td></tr></tbody></table>
+<tbody><tr><td>view</td><td><a href="vector3.md">Vector3</a></td><td></td></tr></tbody></table>
 
 
 
@@ -93,15 +93,15 @@
 
 
 
-**Returns:** Rotation
+**Returns:** <a href="rotation.md">Rotation</a>
 
 
 **Parameters:**
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>view</td><td>Vector3</td><td></td></tr>
-<tr><td>up</td><td>Vector3</td><td></td></tr></tbody></table>
+<tbody><tr><td>view</td><td><a href="vector3.md">Vector3</a></td><td></td></tr>
+<tr><td>up</td><td><a href="vector3.md">Vector3</a></td><td></td></tr></tbody></table>
 
 
 
@@ -112,7 +112,7 @@
 
 
 
-**Returns:** Number, Vector3
+**Returns:** <a href="number, vector3.md">Number, Vector3</a>
 
 
 
@@ -130,8 +130,8 @@
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>a</td><td>Rotation</td><td></td></tr>
-<tr><td>b</td><td>Rotation</td><td></td></tr></tbody></table>
+<tbody><tr><td>a</td><td><a href="rotation.md">Rotation</a></td><td></td></tr>
+<tr><td>b</td><td><a href="rotation.md">Rotation</a></td><td></td></tr></tbody></table>
 
 
 
@@ -142,7 +142,7 @@
 
 
 
-**Returns:** Rotation
+**Returns:** <a href="rotation.md">Rotation</a>
 
 
 **Parameters:**
@@ -150,7 +150,7 @@
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>angle</td><td>number</td><td></td></tr>
-<tr><td>axis</td><td>Vector3</td><td></td></tr></tbody></table>
+<tr><td>axis</td><td><a href="vector3.md">Vector3</a></td><td></td></tr></tbody></table>
 
 
 
@@ -168,8 +168,8 @@
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>a</td><td>Rotation</td><td></td></tr>
-<tr><td>b</td><td>Rotation</td><td></td></tr></tbody></table>
+<tbody><tr><td>a</td><td><a href="rotation.md">Rotation</a></td><td></td></tr>
+<tr><td>b</td><td><a href="rotation.md">Rotation</a></td><td></td></tr></tbody></table>
 
 
 
@@ -180,15 +180,15 @@
 
 
 
-**Returns:** Rotation
+**Returns:** <a href="rotation.md">Rotation</a>
 
 
 **Parameters:**
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>from</td><td>Vector3</td><td></td></tr>
-<tr><td>to</td><td>Vector3</td><td></td></tr></tbody></table>
+<tbody><tr><td>from</td><td><a href="vector3.md">Vector3</a></td><td></td></tr>
+<tr><td>to</td><td><a href="vector3.md">Vector3</a></td><td></td></tr></tbody></table>
 
 
 
@@ -199,14 +199,14 @@
 
 
 
-**Returns:** Rotation
+**Returns:** <a href="rotation.md">Rotation</a>
 
 
 **Parameters:**
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>a</td><td>Rotation</td><td></td></tr></tbody></table>
+<tbody><tr><td>a</td><td><a href="rotation.md">Rotation</a></td><td></td></tr></tbody></table>
 
 
 
@@ -217,15 +217,15 @@
 
 
 
-**Returns:** Rotation
+**Returns:** <a href="rotation.md">Rotation</a>
 
 
 **Parameters:**
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>a</td><td>Rotation</td><td></td></tr>
-<tr><td>b</td><td>Rotation</td><td></td></tr>
+<tbody><tr><td>a</td><td><a href="rotation.md">Rotation</a></td><td></td></tr>
+<tr><td>b</td><td><a href="rotation.md">Rotation</a></td><td></td></tr>
 <tr><td>t</td><td>number</td><td></td></tr></tbody></table>
 
 
@@ -237,15 +237,15 @@
 
 
 
-**Returns:** Rotation
+**Returns:** <a href="rotation.md">Rotation</a>
 
 
 **Parameters:**
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>a</td><td>Rotation</td><td></td></tr>
-<tr><td>b</td><td>Rotation</td><td></td></tr>
+<tbody><tr><td>a</td><td><a href="rotation.md">Rotation</a></td><td></td></tr>
+<tr><td>b</td><td><a href="rotation.md">Rotation</a></td><td></td></tr>
 <tr><td>t</td><td>number</td><td></td></tr></tbody></table>
 
 
@@ -257,14 +257,14 @@
 
 
 
-**Returns:** Rotation
+**Returns:** <a href="rotation.md">Rotation</a>
 
 
 **Parameters:**
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>forward</td><td>Vector3</td><td></td></tr></tbody></table>
+<tbody><tr><td>forward</td><td><a href="vector3.md">Vector3</a></td><td></td></tr></tbody></table>
 
 
 
@@ -275,15 +275,15 @@
 
 
 
-**Returns:** Rotation
+**Returns:** <a href="rotation.md">Rotation</a>
 
 
 **Parameters:**
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>forward</td><td>Vector3</td><td></td></tr>
-<tr><td>up</td><td>Vector3</td><td></td></tr></tbody></table>
+<tbody><tr><td>forward</td><td><a href="vector3.md">Vector3</a></td><td></td></tr>
+<tr><td>up</td><td><a href="vector3.md">Vector3</a></td><td></td></tr></tbody></table>
 
 
 
@@ -294,14 +294,14 @@
 
 
 
-**Returns:** Rotation
+**Returns:** <a href="rotation.md">Rotation</a>
 
 
 **Parameters:**
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>a</td><td>Rotation</td><td></td></tr></tbody></table>
+<tbody><tr><td>a</td><td><a href="rotation.md">Rotation</a></td><td></td></tr></tbody></table>
 
 
 
@@ -312,15 +312,15 @@
 
 
 
-**Returns:** Rotation
+**Returns:** <a href="rotation.md">Rotation</a>
 
 
 **Parameters:**
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>from</td><td>Rotation</td><td></td></tr>
-<tr><td>to</td><td>Rotation</td><td></td></tr>
+<tbody><tr><td>from</td><td><a href="rotation.md">Rotation</a></td><td></td></tr>
+<tr><td>to</td><td><a href="rotation.md">Rotation</a></td><td></td></tr>
 <tr><td>maxDegreesDelta</td><td>number</td><td></td></tr></tbody></table>
 
 
@@ -332,15 +332,15 @@
 
 
 
-**Returns:** Rotation
+**Returns:** <a href="rotation.md">Rotation</a>
 
 
 **Parameters:**
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>a</td><td>Rotation</td><td></td></tr>
-<tr><td>b</td><td>Rotation</td><td></td></tr>
+<tbody><tr><td>a</td><td><a href="rotation.md">Rotation</a></td><td></td></tr>
+<tr><td>b</td><td><a href="rotation.md">Rotation</a></td><td></td></tr>
 <tr><td>t</td><td>number</td><td></td></tr></tbody></table>
 
 
@@ -352,15 +352,15 @@
 
 
 
-**Returns:** Rotation
+**Returns:** <a href="rotation.md">Rotation</a>
 
 
 **Parameters:**
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>a</td><td>Rotation</td><td></td></tr>
-<tr><td>b</td><td>Rotation</td><td></td></tr>
+<tbody><tr><td>a</td><td><a href="rotation.md">Rotation</a></td><td></td></tr>
+<tr><td>b</td><td><a href="rotation.md">Rotation</a></td><td></td></tr>
 <tr><td>t</td><td>number</td><td></td></tr></tbody></table>
 
 
@@ -372,14 +372,14 @@
 
 
 
-**Returns:** Rotation
+**Returns:** <a href="rotation.md">Rotation</a>
 
 
 **Parameters:**
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>b</td><td>Rotation</td><td></td></tr></tbody></table>
+<tbody><tr><td>b</td><td><a href="rotation.md">Rotation</a></td><td></td></tr></tbody></table>
 
 
 
@@ -390,7 +390,7 @@
 
 
 
-**Returns:** Rotation
+**Returns:** <a href="rotation.md">Rotation</a>
 
 
 **Parameters:**
@@ -410,7 +410,7 @@
 
 
 
-**Returns:** Rotation
+**Returns:** <a href="rotation.md">Rotation</a>
 
 
 **Parameters:**
@@ -428,15 +428,15 @@
 
 
 
-**Returns:** Rotation
+**Returns:** <a href="rotation.md">Rotation</a>
 
 
 **Parameters:**
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>a</td><td>Rotation</td><td></td></tr>
-<tr><td>b</td><td>Rotation</td><td></td></tr></tbody></table>
+<tbody><tr><td>a</td><td><a href="rotation.md">Rotation</a></td><td></td></tr>
+<tr><td>b</td><td><a href="rotation.md">Rotation</a></td><td></td></tr></tbody></table>
 
 
 
