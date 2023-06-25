@@ -3,7 +3,7 @@
 
 ## Summary
 
-
+Various maths functions
 
 
 ## Properties

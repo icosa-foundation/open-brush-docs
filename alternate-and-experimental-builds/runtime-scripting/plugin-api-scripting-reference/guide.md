@@ -3,7 +3,7 @@
 
 ## Summary
 
-
+A guide widget
 
 
 ## Properties

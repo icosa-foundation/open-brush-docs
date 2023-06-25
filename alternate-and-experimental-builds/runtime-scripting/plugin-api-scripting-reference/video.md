@@ -3,7 +3,7 @@
 
 ## Summary
 
-
+A video widget
 
 
 ## Properties

@@ -3,7 +3,7 @@
 
 ## Summary
 
-
+Various actions related to selections of strokes and widgets
 
 
 

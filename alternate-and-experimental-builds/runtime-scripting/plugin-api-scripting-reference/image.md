@@ -3,7 +3,7 @@
 
 ## Summary
 
-
+A reference image widget
 
 
 ## Properties

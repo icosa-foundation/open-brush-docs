@@ -3,7 +3,7 @@
 
 ## Summary
 
-
+Various functions for generating random data
 
 
 ## Properties

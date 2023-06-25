@@ -3,7 +3,7 @@
 
 ## Summary
 
-
+Represents the user's wand (the controller that isn't the brush controller)
 
 
 ## Properties

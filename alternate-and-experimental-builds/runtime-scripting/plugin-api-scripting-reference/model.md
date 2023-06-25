@@ -3,7 +3,7 @@
 
 ## Summary
 
-
+A 3D model widget
 
 
 ## Properties

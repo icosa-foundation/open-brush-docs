@@ -3,7 +3,7 @@
 
 ## Summary
 
-
+Represents a rotation or orientation in 3D space
 
 
 ## Properties

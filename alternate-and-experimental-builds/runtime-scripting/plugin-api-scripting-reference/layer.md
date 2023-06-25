@@ -3,7 +3,7 @@
 
 ## Summary
 
-
+A layer in the current sketch
 
 
 ## Properties

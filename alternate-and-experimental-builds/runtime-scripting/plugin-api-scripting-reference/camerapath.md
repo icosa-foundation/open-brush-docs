@@ -3,7 +3,7 @@
 
 ## Summary
 
-
+A camera path and it's position, speed or FOV knots
 
 
 ## Properties

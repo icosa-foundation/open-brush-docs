@@ -3,7 +3,7 @@
 
 ## Summary
 
-
+A position or offset in 3D space
 
 
 ## Properties

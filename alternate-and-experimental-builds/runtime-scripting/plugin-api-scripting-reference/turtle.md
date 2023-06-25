@@ -3,7 +3,7 @@
 
 ## Summary
 
-
+The turtle can be used to draw strokes in a classic LOGO style for moving and turning in space
 
 
 ## Properties

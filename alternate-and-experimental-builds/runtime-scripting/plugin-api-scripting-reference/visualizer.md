@@ -3,7 +3,7 @@
 
 ## Summary
 
-
+Settings and controls for audio visualization mode
 
 
 ## Properties

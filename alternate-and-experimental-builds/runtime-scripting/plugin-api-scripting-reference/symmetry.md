@@ -3,7 +3,7 @@
 
 ## Summary
 
-
+Functions for controlling the mirror symmetry mode
 
 
 ## Properties

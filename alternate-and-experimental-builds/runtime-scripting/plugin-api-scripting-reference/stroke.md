@@ -3,7 +3,7 @@
 
 ## Summary
 
-
+A specific brush stroke
 
 
 ## Properties

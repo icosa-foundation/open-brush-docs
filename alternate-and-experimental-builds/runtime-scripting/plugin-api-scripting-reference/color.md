@@ -3,7 +3,7 @@
 
 ## Summary
 
-
+An RGB color
 
 
 ## Properties

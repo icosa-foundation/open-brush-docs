@@ -3,7 +3,7 @@
 
 ## Summary
 
-
+Functions to generate a variety of waveforms
 
 
 

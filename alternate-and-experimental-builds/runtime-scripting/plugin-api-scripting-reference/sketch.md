@@ -3,7 +3,7 @@
 
 ## Summary
 
-
+Represents the current sketch
 
 
 ## Properties

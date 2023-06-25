@@ -3,7 +3,7 @@
 
 ## Summary
 
-
+A set of Vector2 points forming a 2D path
 
 
 ## Properties

@@ -3,7 +3,7 @@
 
 ## Summary
 
-
+Timers can be used to call functions at a predetermined time (or multiple times)
 
 
 
