@@ -1,6 +1,6 @@
-# Changelog since v2.3
+# Changelog since v2.2
 
-[Full release details](https://github.com/icosa-gallery/open-brush/compare/v2.3...657a694d763ac7c376730b67ac902b8279bf9ad1)
+[Full release details](https://github.com/icosa-gallery/open-brush/compare/v2.2...a18f652bf4997cad1610ab744237c5cc96495c12)
 
 ## 🚀 Features
 
@@ -35,6 +35,8 @@
 - (Re-enable) Free disk space before starting the Android build ([PR #454](https://github.com/icosa-gallery/open-brush/pull/454) by @mikeage)
 
 - Merge v2.3 hotfix branch ([PR #459](https://github.com/icosa-gallery/open-brush/pull/459) by @mikeage)
+
+- Correctly calculate changelogs commensurate on commencement of correctional commit ([PR #460](https://github.com/icosa-gallery/open-brush/pull/460) by @mikeage)
 
 
 ## 📦 Dependencies / Maintenance
