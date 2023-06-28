@@ -11,25 +11,25 @@ The user's brush
 <table>
 <thead><tr><th width="225">Name</th><th width="160">Return Type</th><th>Description</th></tr></thead>
 <tbody>
-<tr><td>timeSincePressed</td><td>number</td><td></td></tr>
-<tr><td>timeSinceReleased</td><td>number</td><td></td></tr>
-<tr><td>triggerIsPressed</td><td>boolean</td><td></td></tr>
-<tr><td>triggerIsPressedThisFrame</td><td>boolean</td><td></td></tr>
-<tr><td>distanceMoved</td><td>number</td><td></td></tr>
-<tr><td>distanceDrawn</td><td>number</td><td></td></tr>
-<tr><td>position</td><td><a href="vector3.md">Vector3</a></td><td></td></tr>
-<tr><td>rotation</td><td><a href="rotation.md">Rotation</a></td><td></td></tr>
-<tr><td>direction</td><td><a href="vector3.md">Vector3</a></td><td></td></tr>
-<tr><td>size</td><td>number</td><td></td></tr>
-<tr><td>pressure</td><td>number</td><td></td></tr>
-<tr><td>type</td><td>string</td><td></td></tr>
-<tr><td>speed</td><td>number</td><td></td></tr>
-<tr><td>colorRgb</td><td><a href="color.md">Color</a></td><td></td></tr>
-<tr><td>colorHsv</td><td><a href="vector3.md">Vector3</a></td><td></td></tr>
-<tr><td>colorHtml</td><td>string</td><td></td></tr>
-<tr><td>lastColorPicked</td><td><a href="color.md">Color</a></td><td></td></tr>
-<tr><td>currentPath</td><td><a href="path.md">Path</a></td><td></td></tr>
-<tr><td>LastColorPickedHsv</td><td><a href="vector3.md">Vector3</a></td><td></td></tr>
+<tr><td>timeSincePressed</td><td>number</td><td>Time in seconds since the brush trigger was last pressed</td></tr>
+<tr><td>timeSinceReleased</td><td>number</td><td>Time in seconds since the brush trigger was last released</td></tr>
+<tr><td>triggerIsPressed</td><td>boolean</td><td>Check whether the brush trigger is currently pressed</td></tr>
+<tr><td>triggerIsPressedThisFrame</td><td>boolean</td><td>Check whether the brush trigger was pressed in the current frame</td></tr>
+<tr><td>distanceMoved</td><td>number</td><td>The distance moved by the brush</td></tr>
+<tr><td>distanceDrawn</td><td>number</td><td>The distance drawn by the brush (i.e. distance since the trigger was last pressed)</td></tr>
+<tr><td>position</td><td><a href="vector3.md">Vector3</a></td><td>The 3D position of the Brush Controller's tip</td></tr>
+<tr><td>rotation</td><td><a href="rotation.md">Rotation</a></td><td>The 3D orientation of the Brush Controller's tip</td></tr>
+<tr><td>direction</td><td><a href="vector3.md">Vector3</a></td><td>The vector representing the forward direction of the brush</td></tr>
+<tr><td>size</td><td>number</td><td>The current brush size</td></tr>
+<tr><td>pressure</td><td>number</td><td>Brush pressure is determined by how far the trigger is pushed in</td></tr>
+<tr><td>type</td><td>string</td><td>The current brush type</td></tr>
+<tr><td>speed</td><td>number</td><td>How fast the brush is currently moving</td></tr>
+<tr><td>colorRgb</td><td><a href="color.md">Color</a></td><td>Gets or set brush color</td></tr>
+<tr><td>colorHsv</td><td><a href="vector3.md">Vector3</a></td><td>Gets or set brush color using a Vector3 representing hue, saturation and brightness</td></tr>
+<tr><td>colorHtml</td><td>string</td><td>The color of the brush as a valid HTML color string (either hex values or a color name)</td></tr>
+<tr><td>lastColorPicked</td><td><a href="color.md">Color</a></td><td>The last color picked by the brush.</td></tr>
+<tr><td>LastColorPickedHsv</td><td><a href="vector3.md">Vector3</a></td><td>The last color picked by the brush in HSV.</td></tr>
+<tr><td>currentPath</td><td><a href="path.md">Path</a></td><td>Gets or sets the current path of the brush. Assumes a stroke is in progress.</td></tr>
 <tr><td></td><td></td><td></td></tr></tbody></table>
 
 
@@ -40,18 +40,23 @@ The user's brush
 
 ### Brush:JitterColor
 
-
+Applies the current jitter settings to the brush color
 
 **Returns:** nil
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>Brush:JitterColor()</strong></code></pre>
 
 
 
 
 ### Brush:ResizeHistory
 
-
+Clears the history and sets it's size
 
 **Returns:** nil
 
@@ -60,16 +65,21 @@ The user's brush
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>size</td><td>number</td><td></td></tr></tbody></table>
+<tbody><tr><td>size</td><td>number</td><td>How many frames of position/rotation to remember</td></tr></tbody></table>
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>Brush:ResizeHistory(10)</strong></code></pre>
 
 
 
 
 ### Brush:SetHistorySize
 
-
+Sets the size of the history. Only clears it if the size has changed
 
 **Returns:** nil
 
@@ -78,16 +88,21 @@ The user's brush
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>size</td><td>number</td><td></td></tr></tbody></table>
+<tbody><tr><td>size</td><td>number</td><td>How many frames of position/rotation to remember</td></tr></tbody></table>
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>Brush:SetHistorySize(10)</strong></code></pre>
 
 
 
 
 ### Brush:GetPastPosition
 
-
+Recalls previous positions of the Brush from the history buffer
 
 **Returns:** <a href="vector3.md">Vector3</a>
 
@@ -96,16 +111,21 @@ The user's brush
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>back</td><td>number</td><td></td></tr></tbody></table>
+<tbody><tr><td>back</td><td>number</td><td>How many frames back in the history to look</td></tr></tbody></table>
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>Brush:GetPastPosition(3)</strong></code></pre>
 
 
 
 
 ### Brush:GetPastRotation
 
-
+Recalls previous orientations of the Brush from the history buffer
 
 **Returns:** <a href="rotation.md">Rotation</a>
 
@@ -114,16 +134,21 @@ The user's brush
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>back</td><td>number</td><td></td></tr></tbody></table>
+<tbody><tr><td>back</td><td>number</td><td>How many frames back in the history to look</td></tr></tbody></table>
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>Brush:GetPastRotation(3)</strong></code></pre>
 
 
 
 
 ### Brush:ForcePaintingOn
 
-
+If set to true then the brush will draw strokes even if the trigger isn't being pressed.
 
 **Returns:** nil
 
@@ -132,16 +157,21 @@ The user's brush
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>active</td><td>boolean</td><td></td></tr></tbody></table>
+<tbody><tr><td>active</td><td>boolean</td><td>True means forced painting, false is normal behaviour</td></tr></tbody></table>
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>Brush:ForcePaintingOn(true)</strong></code></pre>
 
 
 
 
 ### Brush:ForcePaintingOff
 
-
+If set to true then the brush will stop drawing strokes even if the trigger is still pressed.
 
 **Returns:** nil
 
@@ -150,20 +180,30 @@ The user's brush
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>active</td><td>boolean</td><td></td></tr></tbody></table>
+<tbody><tr><td>active</td><td>boolean</td><td>True means painting is forced off, false is normal behaviour</td></tr></tbody></table>
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>Brush:ForcePaintingOff(true)</strong></code></pre>
 
 
 
 
 ### Brush:ForceNewStroke
 
-
+Forces the start of a new stroke - will stop painting this frame and start again the next.
 
 **Returns:** nil
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>Brush:ForceNewStroke(true)</strong></code></pre>
 
 
 

@@ -13,9 +13,9 @@ A 3D model widget
 <tbody>
 <tr><td>index</td><td>number</td><td></td></tr>
 <tr><td>transform</td><td><a href="transform.md">Transform</a></td><td></td></tr>
-<tr><td>position</td><td><a href="vector3.md">Vector3</a></td><td></td></tr>
-<tr><td>rotation</td><td><a href="rotation.md">Rotation</a></td><td></td></tr>
-<tr><td>scale</td><td>number</td><td></td></tr>
+<tr><td>position</td><td><a href="vector3.md">Vector3</a></td><td>The 3D position of the Model Widget</td></tr>
+<tr><td>rotation</td><td><a href="rotation.md">Rotation</a></td><td>The 3D orientation of the Model Widget</td></tr>
+<tr><td>scale</td><td>number</td><td>The scale of the Model Widget</td></tr>
 <tr><td></td><td></td><td></td></tr></tbody></table>
 
 
@@ -26,7 +26,7 @@ A 3D model widget
 
 ### Model:Import
 
-
+Method to import a new model at a specific location. Returns a wrapper of the imported model's API
 
 **Returns:** <a href="model.md">Model</a>
 
@@ -44,7 +44,7 @@ A 3D model widget
 
 ### Model:Select
 
-
+Method to select the current Model Widget in the API
 
 **Returns:** nil
 
@@ -55,7 +55,7 @@ A 3D model widget
 
 ### Model:Delete
 
-
+Method to delete the current Model Widget from the API
 
 **Returns:** nil
 

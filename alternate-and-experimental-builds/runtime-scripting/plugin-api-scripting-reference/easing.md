@@ -11,27 +11,9 @@ Each easing function takes a value between 0 and 1 and modifies it to speed up o
 ## Methods
 
 
-### Easing:linear
+### Easing:Linear
 
-
-
-**Returns:** number
-
-
-**Parameters:**
-
-<table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>t</td><td>number</td><td></td></tr></tbody></table>
-
-
-
-
-
-
-### Easing:inQuad
-
-
+Linear easing function
 
 **Returns:** number
 
@@ -40,34 +22,21 @@ Each easing function takes a value between 0 and 1 and modifies it to speed up o
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>t</td><td>number</td><td></td></tr></tbody></table>
+<tbody><tr><td>t</td><td>number</td><td>The input value between 0 and 1</td></tr></tbody></table>
 
 
 
 
+#### Example
 
-
-### Easing:outQuad
-
-
-
-**Returns:** number
-
-
-**Parameters:**
-
-<table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>t</td><td>number</td><td></td></tr></tbody></table>
+<pre class="language-lua"><code class="lang-lua"><strong>value = Easing:Linear(value)</strong></code></pre>
 
 
 
 
+### Easing:InQuad
 
-
-### Easing:inOutQuad
-
-
+InQuad easing function
 
 **Returns:** number
 
@@ -76,34 +45,21 @@ Each easing function takes a value between 0 and 1 and modifies it to speed up o
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>t</td><td>number</td><td></td></tr></tbody></table>
+<tbody><tr><td>t</td><td>number</td><td>The input value between 0 and 1</td></tr></tbody></table>
 
 
 
 
+#### Example
 
-
-### Easing:inCubic
-
-
-
-**Returns:** number
-
-
-**Parameters:**
-
-<table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>t</td><td>number</td><td></td></tr></tbody></table>
+<pre class="language-lua"><code class="lang-lua"><strong>value = Easing:InQuad(value)</strong></code></pre>
 
 
 
 
+### Easing:OutQuad
 
-
-### Easing:outCubic
-
-
+OutQuad easing function
 
 **Returns:** number
 
@@ -112,34 +68,21 @@ Each easing function takes a value between 0 and 1 and modifies it to speed up o
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>t</td><td>number</td><td></td></tr></tbody></table>
+<tbody><tr><td>t</td><td>number</td><td>The input value between 0 and 1</td></tr></tbody></table>
 
 
 
 
+#### Example
 
-
-### Easing:inOutCubic
-
-
-
-**Returns:** number
-
-
-**Parameters:**
-
-<table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>t</td><td>number</td><td></td></tr></tbody></table>
+<pre class="language-lua"><code class="lang-lua"><strong>value = Easing:OutQuad(value)</strong></code></pre>
 
 
 
 
+### Easing:InOutQuad
 
-
-### Easing:inQuart
-
-
+InOutQuad easing function
 
 **Returns:** number
 
@@ -148,34 +91,21 @@ Each easing function takes a value between 0 and 1 and modifies it to speed up o
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>t</td><td>number</td><td></td></tr></tbody></table>
+<tbody><tr><td>t</td><td>number</td><td>The input value between 0 and 1</td></tr></tbody></table>
 
 
 
 
+#### Example
 
-
-### Easing:outQuart
-
-
-
-**Returns:** number
-
-
-**Parameters:**
-
-<table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>t</td><td>number</td><td></td></tr></tbody></table>
+<pre class="language-lua"><code class="lang-lua"><strong>value = Easing:InOutQuad(value)</strong></code></pre>
 
 
 
 
+### Easing:InCubic
 
-
-### Easing:inOutQuart
-
-
+InCubic easing function
 
 **Returns:** number
 
@@ -184,34 +114,21 @@ Each easing function takes a value between 0 and 1 and modifies it to speed up o
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>t</td><td>number</td><td></td></tr></tbody></table>
+<tbody><tr><td>t</td><td>number</td><td>The input value between 0 and 1</td></tr></tbody></table>
 
 
 
 
+#### Example
 
-
-### Easing:inQuint
-
-
-
-**Returns:** number
-
-
-**Parameters:**
-
-<table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>t</td><td>number</td><td></td></tr></tbody></table>
+<pre class="language-lua"><code class="lang-lua"><strong>value = Easing:InCubic(value)</strong></code></pre>
 
 
 
 
+### Easing:OutCubic
 
-
-### Easing:outQuint
-
-
+OutCubic easing function
 
 **Returns:** number
 
@@ -220,34 +137,21 @@ Each easing function takes a value between 0 and 1 and modifies it to speed up o
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>t</td><td>number</td><td></td></tr></tbody></table>
+<tbody><tr><td>t</td><td>number</td><td>The input value between 0 and 1</td></tr></tbody></table>
 
 
 
 
+#### Example
 
-
-### Easing:inOutQuint
-
-
-
-**Returns:** number
-
-
-**Parameters:**
-
-<table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>t</td><td>number</td><td></td></tr></tbody></table>
+<pre class="language-lua"><code class="lang-lua"><strong>value = Easing:OutCubic(value)</strong></code></pre>
 
 
 
 
+### Easing:InOutCubic
 
-
-### Easing:inSine
-
-
+InOutCubic easing function
 
 **Returns:** number
 
@@ -256,34 +160,21 @@ Each easing function takes a value between 0 and 1 and modifies it to speed up o
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>t</td><td>number</td><td></td></tr></tbody></table>
+<tbody><tr><td>t</td><td>number</td><td>The input value between 0 and 1</td></tr></tbody></table>
 
 
 
 
+#### Example
 
-
-### Easing:outSine
-
-
-
-**Returns:** number
-
-
-**Parameters:**
-
-<table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>t</td><td>number</td><td></td></tr></tbody></table>
+<pre class="language-lua"><code class="lang-lua"><strong>value = Easing:InOutCubic(value)</strong></code></pre>
 
 
 
 
+### Easing:InQuart
 
-
-### Easing:inOutSine
-
-
+InQuart easing function
 
 **Returns:** number
 
@@ -292,34 +183,21 @@ Each easing function takes a value between 0 and 1 and modifies it to speed up o
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>t</td><td>number</td><td></td></tr></tbody></table>
+<tbody><tr><td>t</td><td>number</td><td>The input value between 0 and 1</td></tr></tbody></table>
 
 
 
 
+#### Example
 
-
-### Easing:inExpo
-
-
-
-**Returns:** number
-
-
-**Parameters:**
-
-<table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>t</td><td>number</td><td></td></tr></tbody></table>
+<pre class="language-lua"><code class="lang-lua"><strong>value = Easing:InQuart(value)</strong></code></pre>
 
 
 
 
+### Easing:OutQuart
 
-
-### Easing:outExpo
-
-
+OutQuart easing function
 
 **Returns:** number
 
@@ -328,34 +206,21 @@ Each easing function takes a value between 0 and 1 and modifies it to speed up o
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>t</td><td>number</td><td></td></tr></tbody></table>
+<tbody><tr><td>t</td><td>number</td><td>The input value between 0 and 1</td></tr></tbody></table>
 
 
 
 
+#### Example
 
-
-### Easing:inOutExpo
-
-
-
-**Returns:** number
-
-
-**Parameters:**
-
-<table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>t</td><td>number</td><td></td></tr></tbody></table>
+<pre class="language-lua"><code class="lang-lua"><strong>value = Easing:OutQuart(value)</strong></code></pre>
 
 
 
 
+### Easing:InOutQuart
 
-
-### Easing:inCirc
-
-
+InQuart easing function
 
 **Returns:** number
 
@@ -364,34 +229,21 @@ Each easing function takes a value between 0 and 1 and modifies it to speed up o
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>t</td><td>number</td><td></td></tr></tbody></table>
+<tbody><tr><td>t</td><td>number</td><td>The input value between 0 and 1</td></tr></tbody></table>
 
 
 
 
+#### Example
 
-
-### Easing:outCirc
-
-
-
-**Returns:** number
-
-
-**Parameters:**
-
-<table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>t</td><td>number</td><td></td></tr></tbody></table>
+<pre class="language-lua"><code class="lang-lua"><strong>value = Easing:InQuart(value)</strong></code></pre>
 
 
 
 
+### Easing:InQuint
 
-
-### Easing:inOutCirc
-
-
+InQuint easing function
 
 **Returns:** number
 
@@ -400,34 +252,21 @@ Each easing function takes a value between 0 and 1 and modifies it to speed up o
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>t</td><td>number</td><td></td></tr></tbody></table>
+<tbody><tr><td>t</td><td>number</td><td>The input value between 0 and 1</td></tr></tbody></table>
 
 
 
 
+#### Example
 
-
-### Easing:inElastic
-
-
-
-**Returns:** number
-
-
-**Parameters:**
-
-<table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>t</td><td>number</td><td></td></tr></tbody></table>
+<pre class="language-lua"><code class="lang-lua"><strong>value = Easing:InQuint(value)</strong></code></pre>
 
 
 
 
+### Easing:OutQuint
 
-
-### Easing:outElastic
-
-
+OutQuint easing function
 
 **Returns:** number
 
@@ -436,34 +275,21 @@ Each easing function takes a value between 0 and 1 and modifies it to speed up o
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>t</td><td>number</td><td></td></tr></tbody></table>
+<tbody><tr><td>t</td><td>number</td><td>The input value between 0 and 1</td></tr></tbody></table>
 
 
 
 
+#### Example
 
-
-### Easing:inOutElastic
-
-
-
-**Returns:** number
-
-
-**Parameters:**
-
-<table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>t</td><td>number</td><td></td></tr></tbody></table>
+<pre class="language-lua"><code class="lang-lua"><strong>value = Easing:OutQuint(value)</strong></code></pre>
 
 
 
 
+### Easing:InOutQuint
 
-
-### Easing:inBack
-
-
+InOutQuint easing function
 
 **Returns:** number
 
@@ -472,34 +298,21 @@ Each easing function takes a value between 0 and 1 and modifies it to speed up o
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>t</td><td>number</td><td></td></tr></tbody></table>
+<tbody><tr><td>t</td><td>number</td><td>The input value between 0 and 1</td></tr></tbody></table>
 
 
 
 
+#### Example
 
-
-### Easing:outBack
-
-
-
-**Returns:** number
-
-
-**Parameters:**
-
-<table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>t</td><td>number</td><td></td></tr></tbody></table>
+<pre class="language-lua"><code class="lang-lua"><strong>value = Easing:InOutQuint(value)</strong></code></pre>
 
 
 
 
+### Easing:InSine
 
-
-### Easing:inOutBack
-
-
+InSine easing function
 
 **Returns:** number
 
@@ -508,34 +321,21 @@ Each easing function takes a value between 0 and 1 and modifies it to speed up o
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>t</td><td>number</td><td></td></tr></tbody></table>
+<tbody><tr><td>t</td><td>number</td><td>The input value between 0 and 1</td></tr></tbody></table>
 
 
 
 
+#### Example
 
-
-### Easing:inBounce
-
-
-
-**Returns:** number
-
-
-**Parameters:**
-
-<table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>t</td><td>number</td><td></td></tr></tbody></table>
+<pre class="language-lua"><code class="lang-lua"><strong>value = Easing:InSine(value)</strong></code></pre>
 
 
 
 
+### Easing:OutSine
 
-
-### Easing:outBounce
-
-
+OutSine easing function
 
 **Returns:** number
 
@@ -544,16 +344,21 @@ Each easing function takes a value between 0 and 1 and modifies it to speed up o
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>t</td><td>number</td><td></td></tr></tbody></table>
+<tbody><tr><td>t</td><td>number</td><td>The input value between 0 and 1</td></tr></tbody></table>
 
 
 
 
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>value = Easing:OutSine(value)</strong></code></pre>
 
 
-### Easing:inOutBounce
 
 
+### Easing:InOutSine
+
+InOutSine easing function
 
 **Returns:** number
 
@@ -562,9 +367,359 @@ Each easing function takes a value between 0 and 1 and modifies it to speed up o
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>t</td><td>number</td><td></td></tr></tbody></table>
+<tbody><tr><td>t</td><td>number</td><td>The input value between 0 and 1</td></tr></tbody></table>
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>value = Easing:InOutSine(value)</strong></code></pre>
+
+
+
+
+### Easing:InExpo
+
+InExpo easing function
+
+**Returns:** number
+
+
+**Parameters:**
+
+<table data-full-width="false">
+<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<tbody><tr><td>t</td><td>number</td><td>The input value between 0 and 1</td></tr></tbody></table>
+
+
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>value = Easing:InExpo(value)</strong></code></pre>
+
+
+
+
+### Easing:OutExpo
+
+OutExpo easing function
+
+**Returns:** number
+
+
+**Parameters:**
+
+<table data-full-width="false">
+<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<tbody><tr><td>t</td><td>number</td><td>The input value between 0 and 1</td></tr></tbody></table>
+
+
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>value = Easing:OutExpo(value)</strong></code></pre>
+
+
+
+
+### Easing:InOutExpo
+
+InOutExpo easing function
+
+**Returns:** number
+
+
+**Parameters:**
+
+<table data-full-width="false">
+<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<tbody><tr><td>t</td><td>number</td><td>The input value between 0 and 1</td></tr></tbody></table>
+
+
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>value = Easing:InOutExpo(value)</strong></code></pre>
+
+
+
+
+### Easing:InCirc
+
+InCirc easing function
+
+**Returns:** number
+
+
+**Parameters:**
+
+<table data-full-width="false">
+<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<tbody><tr><td>t</td><td>number</td><td>The input value between 0 and 1</td></tr></tbody></table>
+
+
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>value = Easing:InCirc(value)</strong></code></pre>
+
+
+
+
+### Easing:OutCirc
+
+OutCirc easing function
+
+**Returns:** number
+
+
+**Parameters:**
+
+<table data-full-width="false">
+<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<tbody><tr><td>t</td><td>number</td><td>The input value between 0 and 1</td></tr></tbody></table>
+
+
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>value = Easing:OutCirc(value)</strong></code></pre>
+
+
+
+
+### Easing:InOutCirc
+
+InOutCirc easing function
+
+**Returns:** number
+
+
+**Parameters:**
+
+<table data-full-width="false">
+<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<tbody><tr><td>t</td><td>number</td><td>The input value between 0 and 1</td></tr></tbody></table>
+
+
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>value = Easing:InOutCirc(value)</strong></code></pre>
+
+
+
+
+### Easing:InElastic
+
+InElastic easing function
+
+**Returns:** number
+
+
+**Parameters:**
+
+<table data-full-width="false">
+<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<tbody><tr><td>t</td><td>number</td><td>The input value between 0 and 1</td></tr></tbody></table>
+
+
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>value = Easing:InElastic(value)</strong></code></pre>
+
+
+
+
+### Easing:OutElastic
+
+OutElastic easing function
+
+**Returns:** number
+
+
+**Parameters:**
+
+<table data-full-width="false">
+<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<tbody><tr><td>t</td><td>number</td><td>The input value between 0 and 1</td></tr></tbody></table>
+
+
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>value = Easing:OutElastic(value)</strong></code></pre>
+
+
+
+
+### Easing:InOutElastic
+
+InOutElastic easing function
+
+**Returns:** number
+
+
+**Parameters:**
+
+<table data-full-width="false">
+<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<tbody><tr><td>t</td><td>number</td><td>The input value between 0 and 1</td></tr></tbody></table>
+
+
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>value = Easing:InOutElastic(value)</strong></code></pre>
+
+
+
+
+### Easing:InBack
+
+InBack easing function
+
+**Returns:** number
+
+
+**Parameters:**
+
+<table data-full-width="false">
+<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<tbody><tr><td>t</td><td>number</td><td>The input value between 0 and 1</td></tr></tbody></table>
+
+
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>value = Easing:InBack(value)</strong></code></pre>
+
+
+
+
+### Easing:OutBack
+
+OutBack easing function
+
+**Returns:** number
+
+
+**Parameters:**
+
+<table data-full-width="false">
+<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<tbody><tr><td>t</td><td>number</td><td>The input value between 0 and 1</td></tr></tbody></table>
+
+
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>value = Easing:OutBack(value)</strong></code></pre>
+
+
+
+
+### Easing:InOutBack
+
+InOutBack easing function
+
+**Returns:** number
+
+
+**Parameters:**
+
+<table data-full-width="false">
+<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<tbody><tr><td>t</td><td>number</td><td>The input value between 0 and 1</td></tr></tbody></table>
+
+
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>value = Easing:InOutBack(value)</strong></code></pre>
+
+
+
+
+### Easing:InBounce
+
+InBounce easing function
+
+**Returns:** number
+
+
+**Parameters:**
+
+<table data-full-width="false">
+<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<tbody><tr><td>t</td><td>number</td><td>The input value between 0 and 1</td></tr></tbody></table>
+
+
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>value = Easing:InBounce(value)</strong></code></pre>
+
+
+
+
+### Easing:OutBounce
+
+OutBounce easing function
+
+**Returns:** number
+
+
+**Parameters:**
+
+<table data-full-width="false">
+<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<tbody><tr><td>t</td><td>number</td><td>The input value between 0 and 1</td></tr></tbody></table>
+
+
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>value = Easing:OutBounce(value)</strong></code></pre>
+
+
+
+
+### Easing:InOutBounce
+
+InOutBounce easing function
+
+**Returns:** number
+
+
+**Parameters:**
+
+<table data-full-width="false">
+<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<tbody><tr><td>t</td><td>number</td><td>The input value between 0 and 1</td></tr></tbody></table>
+
+
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>value = Easing:InOutBounce(value)</strong></code></pre>
 
 
 

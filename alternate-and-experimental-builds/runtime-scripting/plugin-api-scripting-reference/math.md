@@ -11,12 +11,12 @@ Various maths functions
 <table>
 <thead><tr><th width="225">Name</th><th width="160">Return Type</th><th>Description</th></tr></thead>
 <tbody>
-<tr><td>deg2Rad</td><td>number</td><td></td></tr>
-<tr><td>epsilon</td><td>number</td><td></td></tr>
-<tr><td>positiveInfinity</td><td>number</td><td></td></tr>
-<tr><td>negativeInfinity</td><td>number</td><td></td></tr>
-<tr><td>pi</td><td>number</td><td></td></tr>
-<tr><td>rad2Deg</td><td>number</td><td></td></tr>
+<tr><td>deg2Rad</td><td>number</td><td>A constant that when multiplied by a value in degrees converts it to radians</td></tr>
+<tr><td>epsilon</td><td>number</td><td>The smallest value that a float can have such that 1.0+ ε != 1.0</td></tr>
+<tr><td>positiveInfinity</td><td>number</td><td>Positive Infinity</td></tr>
+<tr><td>negativeInfinity</td><td>number</td><td>Negative Infinity</td></tr>
+<tr><td>pi</td><td>number</td><td>The value of Pi</td></tr>
+<tr><td>rad2Deg</td><td>number</td><td>A constant that when multiplied by a value in radians converts it to degrees</td></tr>
 <tr><td></td><td></td><td></td></tr></tbody></table>
 
 
@@ -27,7 +27,7 @@ Various maths functions
 
 ### Math:Abs
 
-
+Returns the absolute value of f
 
 **Returns:** number
 
@@ -45,7 +45,7 @@ Various maths functions
 
 ### Math:Acos
 
-
+Returns the arc-cosine of f - the angle in radians whose cosine is f
 
 **Returns:** number
 
@@ -63,7 +63,7 @@ Various maths functions
 
 ### Math:Approximately
 
-
+Compares two floating point values if they are similar
 
 **Returns:** boolean
 
@@ -82,7 +82,7 @@ Various maths functions
 
 ### Math:Asin
 
-
+Returns the arc-sine of f - the angle in radians whose sine is f
 
 **Returns:** number
 
@@ -100,7 +100,7 @@ Various maths functions
 
 ### Math:Atan
 
-
+Returns the arc-tangent of f - the angle in radians whose tangent is f
 
 **Returns:** number
 
@@ -118,7 +118,7 @@ Various maths functions
 
 ### Math:Atan2
 
-
+Returns the angle in radians whose tan is y/x
 
 **Returns:** number
 
@@ -137,7 +137,7 @@ Various maths functions
 
 ### Math:Ceil
 
-
+Returns the smallest integer greater to or equal to f
 
 **Returns:** number
 
@@ -155,7 +155,7 @@ Various maths functions
 
 ### Math:Clamp
 
-
+Clamps the given value between the given minimum float and maximum float values. Returns the given value if it is within the min and max range
 
 **Returns:** number
 
@@ -175,7 +175,7 @@ Various maths functions
 
 ### Math:Clamp01
 
-
+Clamps value between 0 and 1 and returns value
 
 **Returns:** number
 
@@ -193,7 +193,7 @@ Various maths functions
 
 ### Math:ClosestPowerOfTwo
 
-
+Returns the closest power of two value
 
 **Returns:** number
 
@@ -211,7 +211,7 @@ Various maths functions
 
 ### Math:Cos
 
-
+Returns the cosine of angle f
 
 **Returns:** number
 
@@ -229,7 +229,7 @@ Various maths functions
 
 ### Math:DeltaAngle
 
-
+Calculates the shortest difference between two given angles
 
 **Returns:** number
 
@@ -248,7 +248,7 @@ Various maths functions
 
 ### Math:Exp
 
-
+Returns e raised to the specified power
 
 **Returns:** number
 
@@ -266,7 +266,7 @@ Various maths functions
 
 ### Math:Floor
 
-
+Rounds a float down to the largest integer less than or equal to it
 
 **Returns:** number
 
@@ -284,7 +284,7 @@ Various maths functions
 
 ### Math:InverseLerp
 
-
+Inverse linear interpolation between two values by given ratio
 
 **Returns:** number
 
@@ -304,7 +304,7 @@ Various maths functions
 
 ### Math:IsPowerOfTwo
 
-
+Determines whether a value is a power of two
 
 **Returns:** boolean
 
@@ -322,7 +322,7 @@ Various maths functions
 
 ### Math:Lerp
 
-
+Linearly interpolates two floats by a ratio
 
 **Returns:** number
 
@@ -342,7 +342,7 @@ Various maths functions
 
 ### Math:LerpAngle
 
-
+Linearly interpolates two angles by a ratio
 
 **Returns:** number
 
@@ -362,7 +362,7 @@ Various maths functions
 
 ### Math:LerpUnclamped
 
-
+Linearly interpolates two floats by a ratio. The interpolation is not clamped
 
 **Returns:** number
 
@@ -382,7 +382,7 @@ Various maths functions
 
 ### Math:Log
 
-
+Returns the logarithm of a specified number in a specified base
 
 **Returns:** number
 
@@ -401,7 +401,7 @@ Various maths functions
 
 ### Math:Log10
 
-
+Returns the base 10 logarithm of a specified number
 
 **Returns:** number
 
@@ -419,7 +419,7 @@ Various maths functions
 
 ### Math:Max
 
-
+Returns the larger of two float numbers
 
 **Returns:** number
 
@@ -438,7 +438,7 @@ Various maths functions
 
 ### Math:Max
 
-
+Returns the largest value in a sequence of float numbers
 
 **Returns:** number
 
@@ -456,7 +456,7 @@ Various maths functions
 
 ### Math:Min
 
-
+Returns the smaller of two float numbers
 
 **Returns:** number
 
@@ -475,7 +475,7 @@ Various maths functions
 
 ### Math:Min
 
-
+Returns the smallest value in a sequence of float numbers
 
 **Returns:** number
 
@@ -493,7 +493,7 @@ Various maths functions
 
 ### Math:MoveTowards
 
-
+Moves a value current towards target
 
 **Returns:** number
 
@@ -513,7 +513,7 @@ Various maths functions
 
 ### Math:NextPowerOfTwo
 
-
+Returns the smallest power of two greater than or equal to the specified number
 
 **Returns:** number
 
@@ -531,7 +531,7 @@ Various maths functions
 
 ### Math:PerlinNoise
 
-
+Creates a two-dimensional Perlin noise map
 
 **Returns:** number
 
@@ -550,7 +550,7 @@ Various maths functions
 
 ### Math:PingPong
 
-
+Loops the value t, so that it is never larger than length and never smaller than 0
 
 **Returns:** number
 
@@ -569,7 +569,7 @@ Various maths functions
 
 ### Math:Pow
 
-
+Returns f raised to the specified power
 
 **Returns:** number
 
@@ -588,7 +588,7 @@ Various maths functions
 
 ### Math:Repeater
 
-
+Loops the value t, so that it is never larger than length and never smaller than 0
 
 **Returns:** number
 
@@ -607,7 +607,7 @@ Various maths functions
 
 ### Math:Round
 
-
+Rounds a float to the nearest integer
 
 **Returns:** number
 
@@ -625,7 +625,7 @@ Various maths functions
 
 ### Math:Sign
 
-
+Returns the sign of a float
 
 **Returns:** number
 
@@ -643,7 +643,7 @@ Various maths functions
 
 ### Math:Sin
 
-
+Returns the sine of an angle
 
 **Returns:** number
 
@@ -661,7 +661,7 @@ Various maths functions
 
 ### Math:Sqrt
 
-
+Returns the square root of a float
 
 **Returns:** number
 
@@ -679,7 +679,7 @@ Various maths functions
 
 ### Math:SmoothStep
 
-
+Smoothly interpolates between the range [from, to] by the ratio t
 
 **Returns:** number
 
@@ -699,7 +699,7 @@ Various maths functions
 
 ### Math:Tan
 
-
+Returns the tangent of an angle
 
 **Returns:** number
 
@@ -717,7 +717,7 @@ Various maths functions
 
 ### Math:Sinh
 
-
+Returns the hyperbolic sine of a float
 
 **Returns:** number
 
@@ -735,7 +735,7 @@ Various maths functions
 
 ### Math:Cosh
 
-
+Returns the hyperbolic cosine of a float
 
 **Returns:** number
 
@@ -753,7 +753,7 @@ Various maths functions
 
 ### Math:Tanh
 
-
+Returns the hyperbolic tangent of a float
 
 **Returns:** number
 

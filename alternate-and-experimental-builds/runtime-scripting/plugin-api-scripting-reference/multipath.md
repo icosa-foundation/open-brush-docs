@@ -11,8 +11,8 @@ Multiple disconnected path segments
 <table>
 <thead><tr><th width="225">Name</th><th width="160">Return Type</th><th>Description</th></tr></thead>
 <tbody>
-<tr><td>count</td><td>number</td><td></td></tr>
-<tr><td>pointCount</td><td>number</td><td></td></tr>
+<tr><td>count</td><td>number</td><td>Returns number of paths contained in the multipath</td></tr>
+<tr><td>pointCount</td><td>number</td><td>Returns the number of points in all paths in the multipath</td></tr>
 <tr><td></td><td></td><td></td></tr></tbody></table>
 
 
@@ -52,7 +52,7 @@ Multiple disconnected path segments
 
 ### MultiPath:Draw
 
-
+Draws this path as a brush stroke using current settings
 
 **Returns:** nil
 
@@ -63,7 +63,7 @@ Multiple disconnected path segments
 
 ### MultiPath:FromText
 
-
+Creates a new MultiPath that draws the shape of the given text. Use App:SetFont to set the letter shapes
 
 **Returns:** <a href="multipath.md">MultiPath</a>
 
@@ -81,7 +81,7 @@ Multiple disconnected path segments
 
 ### MultiPath:Insert
 
-
+Inserts the given path at the end of the multipath
 
 **Returns:** nil
 
@@ -97,9 +97,28 @@ Multiple disconnected path segments
 
 
 
+### MultiPath:Insert
+
+Inserts a new path at the given index
+
+**Returns:** nil
+
+
+**Parameters:**
+
+<table data-full-width="false">
+<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<tbody><tr><td>path</td><td><a href="path.md">Path</a></td><td></td></tr>
+<tr><td>index</td><td>number</td><td></td></tr></tbody></table>
+
+
+
+
+
+
 ### MultiPath:InsertPoint
 
-
+Inserts a point at the end of the last path in the multipath
 
 **Returns:** nil
 
@@ -115,9 +134,29 @@ Multiple disconnected path segments
 
 
 
+### MultiPath:InsertPoint
+
+Inserts a point at the given index of the given path
+
+**Returns:** nil
+
+
+**Parameters:**
+
+<table data-full-width="false">
+<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<tbody><tr><td>transform</td><td><a href="transform.md">Transform</a></td><td></td></tr>
+<tr><td>pathIndex</td><td>number</td><td></td></tr>
+<tr><td>pointIndex</td><td>number</td><td></td></tr></tbody></table>
+
+
+
+
+
+
 ### MultiPath:TransformBy
 
-
+Transforms all paths in the multipath
 
 **Returns:** nil
 
@@ -135,7 +174,7 @@ Multiple disconnected path segments
 
 ### MultiPath:TranslateBy
 
-
+Translates all paths by a given offset
 
 **Returns:** nil
 
@@ -153,7 +192,7 @@ Multiple disconnected path segments
 
 ### MultiPath:RotateBy
 
-
+Rotates all paths by a specified amount around the origin
 
 **Returns:** nil
 
@@ -171,7 +210,7 @@ Multiple disconnected path segments
 
 ### MultiPath:ScaleBy
 
-
+Scales all paths by a specified amount towards or away from the origin
 
 **Returns:** nil
 
@@ -189,7 +228,7 @@ Multiple disconnected path segments
 
 ### MultiPath:Center
 
-
+Offsets all points on the path so that their common center is at the origin
 
 **Returns:** nil
 
@@ -200,7 +239,7 @@ Multiple disconnected path segments
 
 ### MultiPath:Normalize
 
-
+Scales all paths to fit inside a 1x1x1 cube at the origin
 
 **Returns:** nil
 
@@ -218,7 +257,7 @@ Multiple disconnected path segments
 
 ### MultiPath:Resample
 
-
+Resamples the multipath at a specified spacing
 
 **Returns:** nil
 
@@ -236,7 +275,7 @@ Multiple disconnected path segments
 
 ### MultiPath:Join
 
-
+Joins all the paths in the multipath and returns a single Path
 
 **Returns:** <a href="path.md">Path</a>
 
@@ -247,7 +286,7 @@ Multiple disconnected path segments
 
 ### MultiPath:Longest
 
-
+Returns the longest path in the multipath
 
 **Returns:** <a href="path.md">Path</a>
 

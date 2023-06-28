@@ -35,7 +35,7 @@ Determines if physics simulation is active
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>active</td><td>boolean</td><td></td></tr></tbody></table>
+<tbody><tr><td>active</td><td>boolean</td><td>True means on, false means off (the default is off)</td></tr></tbody></table>
 
 
 
@@ -120,7 +120,7 @@ Reset all panels
 
 ### App:ShowScriptsFolder
 
-Show the user scripts folder
+Opens an Explorer/Finder window outside of VR showing the user's Scripts folder on the desktop (Mac/Windows only)
 
 **Returns:** nil
 
@@ -136,7 +136,7 @@ Show the user scripts folder
 
 ### App:ShowExportFolder
 
-Show the export folder
+Opens an Explorer/Finder window outside of VR showing the user's Export folder on the desktop (Mac/Windows only)
 
 **Returns:** nil
 
@@ -152,23 +152,16 @@ Show the export folder
 
 ### App:ShowSketchesFolder
 
-Show the sketches folder
+Opens an Explorer/Finder window outside of VR showing the user's Sketches folder on the desktop (Mac/Windows only)
 
 **Returns:** nil
-
-
-**Parameters:**
-
-<table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>index</td><td>number</td><td></td></tr></tbody></table>
 
 
 
 
 #### Example
 
-<pre class="language-lua"><code class="lang-lua"><strong>App:ShowSketchesFolder(1)</strong></code></pre>
+<pre class="language-lua"><code class="lang-lua"><strong>App:ShowSketchesFolder()</strong></code></pre>
 
 
 

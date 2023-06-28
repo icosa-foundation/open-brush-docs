@@ -1,2 +1,0 @@
-# Plugin API Scripting Reference
-

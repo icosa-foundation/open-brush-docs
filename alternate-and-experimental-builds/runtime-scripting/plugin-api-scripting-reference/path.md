@@ -11,9 +11,9 @@ A set of transforms that form a path in 3D space. These form the basis for brush
 <table>
 <thead><tr><th width="225">Name</th><th width="160">Return Type</th><th>Description</th></tr></thead>
 <tbody>
+<tr><td>count</td><td>number</td><td>Returns the number of points in this path</td></tr>
 <tr><td>Item</td><td><a href="transform.md">Transform</a></td><td></td></tr>
-<tr><td>last</td><td><a href="transform.md">Transform</a></td><td></td></tr>
-<tr><td>count</td><td>number</td><td></td></tr>
+<tr><td>last</td><td><a href="transform.md">Transform</a></td><td>Returns the last point in this path</td></tr>
 <tr><td></td><td></td><td></td></tr></tbody></table>
 
 
@@ -71,7 +71,7 @@ A set of transforms that form a path in 3D space. These form the basis for brush
 
 ### Path:GetDirection
 
-
+Returns a vector representing the direction of the path at the given point
 
 **Returns:** <a href="vector3.md">Vector3</a>
 
@@ -89,7 +89,7 @@ A set of transforms that form a path in 3D space. These form the basis for brush
 
 ### Path:GetNormal
 
-
+Returns a vector representing the normal of the path at the given point
 
 **Returns:** <a href="vector3.md">Vector3</a>
 
@@ -107,7 +107,7 @@ A set of transforms that form a path in 3D space. These form the basis for brush
 
 ### Path:GetTangent
 
-
+Returns a vector representing the tangent of the path at the given point
 
 **Returns:** <a href="vector3.md">Vector3</a>
 
@@ -125,7 +125,7 @@ A set of transforms that form a path in 3D space. These form the basis for brush
 
 ### Path:Draw
 
-
+Draws this path as a brush stroke using current settings
 
 **Returns:** nil
 
@@ -136,7 +136,7 @@ A set of transforms that form a path in 3D space. These form the basis for brush
 
 ### Path:Insert
 
-
+Inserts a new point at the end of the path
 
 **Returns:** nil
 
@@ -152,9 +152,28 @@ A set of transforms that form a path in 3D space. These form the basis for brush
 
 
 
+### Path:Insert
+
+Inserts a new point at the given path index
+
+**Returns:** nil
+
+
+**Parameters:**
+
+<table data-full-width="false">
+<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<tbody><tr><td>transform</td><td><a href="transform.md">Transform</a></td><td></td></tr>
+<tr><td>index</td><td>number</td><td></td></tr></tbody></table>
+
+
+
+
+
+
 ### Path:TransformBy
 
-
+Transforms all points in the path by the given amount
 
 **Returns:** nil
 
@@ -172,7 +191,7 @@ A set of transforms that form a path in 3D space. These form the basis for brush
 
 ### Path:TranslateBy
 
-
+Changes the position of all points in the path by a given amount
 
 **Returns:** nil
 
@@ -190,7 +209,7 @@ A set of transforms that form a path in 3D space. These form the basis for brush
 
 ### Path:RotateBy
 
-
+Rotates all points in the path around the origin by a given amount
 
 **Returns:** nil
 
@@ -208,7 +227,7 @@ A set of transforms that form a path in 3D space. These form the basis for brush
 
 ### Path:ScaleBy
 
-
+Scales all points the path away or towards the origin
 
 **Returns:** nil
 
@@ -226,7 +245,7 @@ A set of transforms that form a path in 3D space. These form the basis for brush
 
 ### Path:Center
 
-
+Offsets all points on the path so that their common center is at the origin
 
 **Returns:** nil
 
@@ -237,7 +256,7 @@ A set of transforms that form a path in 3D space. These form the basis for brush
 
 ### Path:StartingFrom
 
-
+Reorders the points so that point at the given index is shifted to be the first point
 
 **Returns:** nil
 
@@ -255,7 +274,7 @@ A set of transforms that form a path in 3D space. These form the basis for brush
 
 ### Path:FindClosest
 
-
+Returns the index of the point closest to the given position
 
 **Returns:** number
 
@@ -273,7 +292,7 @@ A set of transforms that form a path in 3D space. These form the basis for brush
 
 ### Path:FindMinimumX
 
-
+Returns the index of the point with the smallest X value
 
 **Returns:** number
 
@@ -284,7 +303,7 @@ A set of transforms that form a path in 3D space. These form the basis for brush
 
 ### Path:FindMinimumY
 
-
+Returns the index of the point with the smallest Y value
 
 **Returns:** number
 
@@ -295,7 +314,7 @@ A set of transforms that form a path in 3D space. These form the basis for brush
 
 ### Path:FindMinimumZ
 
-
+Returns the index of the point with the smallest Z value
 
 **Returns:** number
 
@@ -306,7 +325,7 @@ A set of transforms that form a path in 3D space. These form the basis for brush
 
 ### Path:FindMaximumX
 
-
+Returns the index of the point with the biggest X value
 
 **Returns:** number
 
@@ -317,7 +336,7 @@ A set of transforms that form a path in 3D space. These form the basis for brush
 
 ### Path:FindMaximumY
 
-
+Returns the index of the point with the biggest Y value
 
 **Returns:** number
 
@@ -328,7 +347,7 @@ A set of transforms that form a path in 3D space. These form the basis for brush
 
 ### Path:FindMaximumZ
 
-
+Returns the index of the point with the biggest Z value
 
 **Returns:** number
 
@@ -339,7 +358,7 @@ A set of transforms that form a path in 3D space. These form the basis for brush
 
 ### Path:Normalize
 
-
+Scales and shifts all points so that they fit in a 1 unit cube at the origin
 
 **Returns:** nil
 
@@ -376,26 +395,7 @@ A set of transforms that form a path in 3D space. These form the basis for brush
 
 ### Path:Resample
 
-
-
-**Returns:** Transform[]
-
-
-**Parameters:**
-
-<table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>trs</td><td>Transform[]</td><td></td></tr>
-<tr><td>spacing</td><td>number</td><td></td></tr></tbody></table>
-
-
-
-
-
-
-### Path:Resample
-
-
+Resamples the path at a specified spacing
 
 **Returns:** nil
 
@@ -413,7 +413,7 @@ A set of transforms that form a path in 3D space. These form the basis for brush
 
 ### Path:Subdivide
 
-
+Splits each path segment into smaller parts
 
 **Returns:** nil
 
@@ -431,7 +431,7 @@ A set of transforms that form a path in 3D space. These form the basis for brush
 
 ### Path:Hermite
 
-
+Generates a hermite spline
 
 **Returns:** <a href="path.md">Path</a>
 
