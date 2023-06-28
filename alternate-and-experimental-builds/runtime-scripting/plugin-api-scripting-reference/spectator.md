@@ -21,7 +21,7 @@ The spectator camera
 ## Methods
 
 
-### Spectator:Turn
+### Spectator:Turn(angle)
 
 
 
@@ -39,7 +39,7 @@ The spectator camera
 
 
 
-### Spectator:TurnX
+### Spectator:TurnX(angle)
 
 
 
@@ -57,7 +57,7 @@ The spectator camera
 
 
 
-### Spectator:TurnZ
+### Spectator:TurnZ(angle)
 
 
 
@@ -75,7 +75,7 @@ The spectator camera
 
 
 
-### Spectator:Direction
+### Spectator:Direction(direction)
 
 
 
@@ -93,7 +93,7 @@ The spectator camera
 
 
 
-### Spectator:LookAt
+### Spectator:LookAt(position)
 
 
 
@@ -111,7 +111,7 @@ The spectator camera
 
 
 
-### Spectator:Mode
+### Spectator:Mode(mode)
 
 
 
@@ -129,7 +129,7 @@ The spectator camera
 
 
 
-### Spectator:Show
+### Spectator:Show(type)
 
 
 
@@ -147,7 +147,7 @@ The spectator camera
 
 
 
-### Spectator:Hide
+### Spectator:Hide(type)
 
 
 
@@ -165,7 +165,7 @@ The spectator camera
 
 
 
-### Spectator:Toggle
+### Spectator:Toggle()
 
 
 
@@ -176,7 +176,7 @@ The spectator camera
 
 
 
-### Spectator:On
+### Spectator:On()
 
 
 
@@ -187,7 +187,7 @@ The spectator camera
 
 
 
-### Spectator:Off
+### Spectator:Off()
 
 
 
@@ -198,7 +198,7 @@ The spectator camera
 
 
 
-### Spectator:LockToScene
+### Spectator:LockToScene(locked)
 
 
 

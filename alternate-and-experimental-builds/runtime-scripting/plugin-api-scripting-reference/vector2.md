@@ -30,7 +30,7 @@ A position or offset in 2D space
 ## Methods
 
 
-### Vector2:New
+### Vector2:New(x, y)
 
 
 
@@ -49,7 +49,7 @@ A position or offset in 2D space
 
 
 
-### Vector2:Angle
+### Vector2:Angle(a, b)
 
 
 
@@ -68,7 +68,7 @@ A position or offset in 2D space
 
 
 
-### Vector2:ClampMagnitude
+### Vector2:ClampMagnitude(v, maxLength)
 
 
 
@@ -87,7 +87,7 @@ A position or offset in 2D space
 
 
 
-### Vector2:Distance
+### Vector2:Distance(a, b)
 
 
 
@@ -106,7 +106,7 @@ A position or offset in 2D space
 
 
 
-### Vector2:Magnitude
+### Vector2:Magnitude(a)
 
 
 
@@ -124,7 +124,7 @@ A position or offset in 2D space
 
 
 
-### Vector2:SqrMagnitude
+### Vector2:SqrMagnitude(a)
 
 
 
@@ -142,7 +142,7 @@ A position or offset in 2D space
 
 
 
-### Vector2:Dot
+### Vector2:Dot(a, b)
 
 
 
@@ -161,7 +161,7 @@ A position or offset in 2D space
 
 
 
-### Vector2:Lerp
+### Vector2:Lerp(a, b, t)
 
 
 
@@ -181,7 +181,7 @@ A position or offset in 2D space
 
 
 
-### Vector2:LerpUnclamped
+### Vector2:LerpUnclamped(a, b, t)
 
 
 
@@ -201,7 +201,7 @@ A position or offset in 2D space
 
 
 
-### Vector2:Max
+### Vector2:Max(a, b)
 
 
 
@@ -220,7 +220,7 @@ A position or offset in 2D space
 
 
 
-### Vector2:Min
+### Vector2:Min(a, b)
 
 
 
@@ -239,7 +239,7 @@ A position or offset in 2D space
 
 
 
-### Vector2:MoveTowards
+### Vector2:MoveTowards(current, target, maxDistanceDelta)
 
 
 
@@ -259,7 +259,7 @@ A position or offset in 2D space
 
 
 
-### Vector2:Normalized
+### Vector2:Normalized(a)
 
 
 
@@ -277,7 +277,7 @@ A position or offset in 2D space
 
 
 
-### Vector2:Reflect
+### Vector2:Reflect(a, b)
 
 
 
@@ -296,7 +296,7 @@ A position or offset in 2D space
 
 
 
-### Vector2:Scale
+### Vector2:Scale(a, b)
 
 
 
@@ -315,7 +315,7 @@ A position or offset in 2D space
 
 
 
-### Vector2:SignedAngle
+### Vector2:SignedAngle(from, to, axis)
 
 
 
@@ -335,7 +335,7 @@ A position or offset in 2D space
 
 
 
-### Vector2:Slerp
+### Vector2:Slerp(a, b, t)
 
 
 
@@ -355,7 +355,7 @@ A position or offset in 2D space
 
 
 
-### Vector2:SlerpUnclamped
+### Vector2:SlerpUnclamped(a, b, t)
 
 
 
@@ -375,7 +375,7 @@ A position or offset in 2D space
 
 
 
-### Vector2:PointOnCircle
+### Vector2:PointOnCircle(degrees)
 
 
 
@@ -393,7 +393,7 @@ A position or offset in 2D space
 
 
 
-### Vector2:OnX
+### Vector2:OnX()
 
 
 
@@ -404,7 +404,7 @@ A position or offset in 2D space
 
 
 
-### Vector2:OnY
+### Vector2:OnY()
 
 
 
@@ -415,7 +415,7 @@ A position or offset in 2D space
 
 
 
-### Vector2:OnZ
+### Vector2:OnZ()
 
 
 
@@ -426,7 +426,7 @@ A position or offset in 2D space
 
 
 
-### Vector2:Add
+### Vector2:Add(b)
 
 
 
@@ -444,7 +444,7 @@ A position or offset in 2D space
 
 
 
-### Vector2:Add
+### Vector2:Add(x, y)
 
 
 
@@ -463,7 +463,7 @@ A position or offset in 2D space
 
 
 
-### Vector2:Subtract
+### Vector2:Subtract(b)
 
 
 
@@ -481,7 +481,7 @@ A position or offset in 2D space
 
 
 
-### Vector2:Subtract
+### Vector2:Subtract(x, y)
 
 
 
@@ -500,7 +500,7 @@ A position or offset in 2D space
 
 
 
-### Vector2:Multiply
+### Vector2:Multiply(b)
 
 
 
@@ -518,7 +518,7 @@ A position or offset in 2D space
 
 
 
-### Vector2:ScaleBy
+### Vector2:ScaleBy(b)
 
 
 
@@ -536,7 +536,7 @@ A position or offset in 2D space
 
 
 
-### Vector2:ScaleBy
+### Vector2:ScaleBy(x, y)
 
 
 
@@ -555,7 +555,7 @@ A position or offset in 2D space
 
 
 
-### Vector2:Divide
+### Vector2:Divide(b)
 
 
 
@@ -573,7 +573,7 @@ A position or offset in 2D space
 
 
 
-### Vector2:NotEquals
+### Vector2:NotEquals(b)
 
 
 
@@ -591,7 +591,7 @@ A position or offset in 2D space
 
 
 
-### Vector2:NotEquals
+### Vector2:NotEquals(x, y)
 
 
 
@@ -610,7 +610,7 @@ A position or offset in 2D space
 
 
 
-### Vector2:Add
+### Vector2:Add(a, b)
 
 
 
@@ -629,7 +629,7 @@ A position or offset in 2D space
 
 
 
-### Vector2:Subtract
+### Vector2:Subtract(a, b)
 
 
 
@@ -648,7 +648,7 @@ A position or offset in 2D space
 
 
 
-### Vector2:Multiply
+### Vector2:Multiply(a, b)
 
 
 
@@ -667,7 +667,7 @@ A position or offset in 2D space
 
 
 
-### Vector2:Divide
+### Vector2:Divide(a, b)
 
 
 
@@ -686,7 +686,7 @@ A position or offset in 2D space
 
 
 
-### Vector2:NotEquals
+### Vector2:NotEquals(a, b)
 
 
 

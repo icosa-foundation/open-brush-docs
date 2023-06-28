@@ -24,7 +24,7 @@ A reference image widget
 ## Methods
 
 
-### Image:Extrude
+### Image:Extrude(depth, color)
 
 Extrudes the image widget with the specified depth and color
 
@@ -48,7 +48,7 @@ Extrudes the image widget with the specified depth and color
 
 
 
-### Image:Import
+### Image:Import(location)
 
 Imports an image widget based on the specified location
 
@@ -71,7 +71,7 @@ Imports an image widget based on the specified location
 
 
 
-### Image:Select
+### Image:Select()
 
 Selects the image widget
 
@@ -87,7 +87,7 @@ Selects the image widget
 
 
 
-### Image:Delete
+### Image:Delete()
 
 Deletes the image widget
 
@@ -103,7 +103,7 @@ Deletes the image widget
 
 
 
-### Image:FormEncode
+### Image:FormEncode()
 
 Encodes the image as a form
 
@@ -119,7 +119,7 @@ Encodes the image as a form
 
 
 
-### Image:SaveBase64
+### Image:SaveBase64(base64, filename)
 
 Saves an image as a png based on base64 data
 

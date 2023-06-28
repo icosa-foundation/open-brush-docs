@@ -21,7 +21,7 @@ Multiple disconnected path segments
 ## Methods
 
 
-### MultiPath:New
+### MultiPath:New()
 
 
 
@@ -32,7 +32,7 @@ Multiple disconnected path segments
 
 
 
-### MultiPath:New
+### MultiPath:New(pathList)
 
 
 
@@ -50,7 +50,7 @@ Multiple disconnected path segments
 
 
 
-### MultiPath:Draw
+### MultiPath:Draw()
 
 Draws this path as a brush stroke using current settings
 
@@ -61,7 +61,7 @@ Draws this path as a brush stroke using current settings
 
 
 
-### MultiPath:FromText
+### MultiPath:FromText(text)
 
 Creates a new MultiPath that draws the shape of the given text. Use App:SetFont to set the letter shapes
 
@@ -79,7 +79,7 @@ Creates a new MultiPath that draws the shape of the given text. Use App:SetFont 
 
 
 
-### MultiPath:Insert
+### MultiPath:Insert(path)
 
 Inserts the given path at the end of the multipath
 
@@ -97,7 +97,7 @@ Inserts the given path at the end of the multipath
 
 
 
-### MultiPath:Insert
+### MultiPath:Insert(path, index)
 
 Inserts a new path at the given index
 
@@ -116,7 +116,7 @@ Inserts a new path at the given index
 
 
 
-### MultiPath:InsertPoint
+### MultiPath:InsertPoint(transform)
 
 Inserts a point at the end of the last path in the multipath
 
@@ -134,7 +134,7 @@ Inserts a point at the end of the last path in the multipath
 
 
 
-### MultiPath:InsertPoint
+### MultiPath:InsertPoint(transform, pathIndex, pointIndex)
 
 Inserts a point at the given index of the given path
 
@@ -154,7 +154,7 @@ Inserts a point at the given index of the given path
 
 
 
-### MultiPath:TransformBy
+### MultiPath:TransformBy(transform)
 
 Transforms all paths in the multipath
 
@@ -172,7 +172,7 @@ Transforms all paths in the multipath
 
 
 
-### MultiPath:TranslateBy
+### MultiPath:TranslateBy(amount)
 
 Translates all paths by a given offset
 
@@ -190,7 +190,7 @@ Translates all paths by a given offset
 
 
 
-### MultiPath:RotateBy
+### MultiPath:RotateBy(amount)
 
 Rotates all paths by a specified amount around the origin
 
@@ -208,7 +208,7 @@ Rotates all paths by a specified amount around the origin
 
 
 
-### MultiPath:ScaleBy
+### MultiPath:ScaleBy(scale)
 
 Scales all paths by a specified amount towards or away from the origin
 
@@ -226,7 +226,7 @@ Scales all paths by a specified amount towards or away from the origin
 
 
 
-### MultiPath:Center
+### MultiPath:Center()
 
 Offsets all points on the path so that their common center is at the origin
 
@@ -237,7 +237,7 @@ Offsets all points on the path so that their common center is at the origin
 
 
 
-### MultiPath:Normalize
+### MultiPath:Normalize(scale)
 
 Scales all paths to fit inside a 1x1x1 cube at the origin
 
@@ -255,7 +255,7 @@ Scales all paths to fit inside a 1x1x1 cube at the origin
 
 
 
-### MultiPath:Resample
+### MultiPath:Resample(spacing)
 
 Resamples the multipath at a specified spacing
 
@@ -273,7 +273,7 @@ Resamples the multipath at a specified spacing
 
 
 
-### MultiPath:Join
+### MultiPath:Join()
 
 Joins all the paths in the multipath and returns a single Path
 
@@ -284,7 +284,7 @@ Joins all the paths in the multipath and returns a single Path
 
 
 
-### MultiPath:Longest
+### MultiPath:Longest()
 
 Returns the longest path in the multipath
 

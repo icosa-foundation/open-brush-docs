@@ -22,7 +22,7 @@ A set of Vector2 points forming a 2D path
 ## Methods
 
 
-### Path2d:New
+### Path2d:New()
 
 
 
@@ -33,7 +33,7 @@ A set of Vector2 points forming a 2D path
 
 
 
-### Path2d:New
+### Path2d:New(transformList)
 
 
 
@@ -51,7 +51,7 @@ A set of Vector2 points forming a 2D path
 
 
 
-### Path2d:New
+### Path2d:New(positionList)
 
 
 
@@ -69,7 +69,7 @@ A set of Vector2 points forming a 2D path
 
 
 
-### Path2d:Insert
+### Path2d:Insert(transform)
 
 Inserts a new point at the end of the path
 
@@ -87,7 +87,7 @@ Inserts a new point at the end of the path
 
 
 
-### Path2d:Insert
+### Path2d:Insert(transform, index)
 
 Inserts a new point at the given path index
 
@@ -106,7 +106,7 @@ Inserts a new point at the given path index
 
 
 
-### Path2d:OnX
+### Path2d:OnX()
 
 Converts the 2D path to a 3D path on the YZ plane (i.e. with all x values set to 0)
 
@@ -117,7 +117,7 @@ Converts the 2D path to a 3D path on the YZ plane (i.e. with all x values set to
 
 
 
-### Path2d:OnY
+### Path2d:OnY()
 
 Converts the 2D path to a 3D path on the XZ plane (i.e. with all y values set to 0)
 
@@ -128,7 +128,7 @@ Converts the 2D path to a 3D path on the XZ plane (i.e. with all y values set to
 
 
 
-### Path2d:OnZ
+### Path2d:OnZ()
 
 Converts the 2D path to a 3D path on the XY plane (i.e. with all z values set to 0)
 
@@ -139,7 +139,7 @@ Converts the 2D path to a 3D path on the XY plane (i.e. with all z values set to
 
 
 
-### Path2d:TransformBy
+### Path2d:TransformBy(transform)
 
 Transforms all points in the path by the given amount
 
@@ -157,7 +157,7 @@ Transforms all points in the path by the given amount
 
 
 
-### Path2d:TranslateBy
+### Path2d:TranslateBy(amount)
 
 Changes the position of all points in the path by a given amount
 
@@ -175,7 +175,7 @@ Changes the position of all points in the path by a given amount
 
 
 
-### Path2d:RotateBy
+### Path2d:RotateBy(amount)
 
 Rotates all points in the path around the origin by a given amount
 
@@ -193,7 +193,7 @@ Rotates all points in the path around the origin by a given amount
 
 
 
-### Path2d:ScaleBy
+### Path2d:ScaleBy(scale)
 
 Scales all points the path away or towards the origin
 
@@ -211,7 +211,7 @@ Scales all points the path away or towards the origin
 
 
 
-### Path2d:Center
+### Path2d:Center()
 
 Offsets all points on the path so that their common center is at the origin
 
@@ -222,7 +222,7 @@ Offsets all points on the path so that their common center is at the origin
 
 
 
-### Path2d:StartingFrom
+### Path2d:StartingFrom(index)
 
 Reorders the points so that point at the given index is shifted to be the first point
 
@@ -240,7 +240,7 @@ Reorders the points so that point at the given index is shifted to be the first 
 
 
 
-### Path2d:FindClosest
+### Path2d:FindClosest(point)
 
 Returns the index of the point closest to the given position
 
@@ -258,7 +258,7 @@ Returns the index of the point closest to the given position
 
 
 
-### Path2d:FindMinimumX
+### Path2d:FindMinimumX()
 
 Returns the index of the point with the smallest X value
 
@@ -269,7 +269,7 @@ Returns the index of the point with the smallest X value
 
 
 
-### Path2d:FindMinimumY
+### Path2d:FindMinimumY()
 
 Returns the index of the point with the smallest Y value
 
@@ -280,7 +280,7 @@ Returns the index of the point with the smallest Y value
 
 
 
-### Path2d:FindMaximumX
+### Path2d:FindMaximumX()
 
 Returns the index of the point with the biggest X value
 
@@ -291,7 +291,7 @@ Returns the index of the point with the biggest X value
 
 
 
-### Path2d:FindMaximumY
+### Path2d:FindMaximumY()
 
 Returns the index of the point with the biggest Y value
 
@@ -302,7 +302,7 @@ Returns the index of the point with the biggest Y value
 
 
 
-### Path2d:Normalize
+### Path2d:Normalize(scale)
 
 Scales and shifts all points so that they fit in a 1 unit square at the origin
 
@@ -320,7 +320,7 @@ Scales and shifts all points so that they fit in a 1 unit square at the origin
 
 
 
-### Path2d:Polygon
+### Path2d:Polygon(sides)
 
 
 
@@ -338,7 +338,7 @@ Scales and shifts all points so that they fit in a 1 unit square at the origin
 
 
 
-### Path2d:Resample
+### Path2d:Resample(spacing)
 
 
 

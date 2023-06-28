@@ -32,7 +32,7 @@ Represents the current sketch
 ## Methods
 
 
-### Sketch:Open
+### Sketch:Open(name)
 
 
 
@@ -50,7 +50,7 @@ Represents the current sketch
 
 
 
-### Sketch:Save
+### Sketch:Save(overwrite)
 
 
 
@@ -68,7 +68,7 @@ Represents the current sketch
 
 
 
-### Sketch:SaveAs
+### Sketch:SaveAs(name)
 
 
 
@@ -86,7 +86,7 @@ Represents the current sketch
 
 
 
-### Sketch:Export
+### Sketch:Export()
 
 
 
@@ -97,7 +97,7 @@ Represents the current sketch
 
 
 
-### Sketch:NewSketch
+### Sketch:NewSketch()
 
 
 
@@ -108,7 +108,7 @@ Represents the current sketch
 
 
 
-### Sketch:ImportSkybox
+### Sketch:ImportSkybox(location)
 
 
 

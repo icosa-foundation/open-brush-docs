@@ -30,7 +30,7 @@ Represents a position, rotation and scale in one object
 ## Methods
 
 
-### Transform:TransformBy
+### Transform:TransformBy(transform)
 
 
 
@@ -48,7 +48,7 @@ Represents a position, rotation and scale in one object
 
 
 
-### Transform:TranslateBy
+### Transform:TranslateBy(translation)
 
 
 
@@ -66,7 +66,7 @@ Represents a position, rotation and scale in one object
 
 
 
-### Transform:RotateBy
+### Transform:RotateBy(rotation)
 
 
 
@@ -84,7 +84,7 @@ Represents a position, rotation and scale in one object
 
 
 
-### Transform:ScaleBy
+### Transform:ScaleBy(scale)
 
 
 
@@ -102,7 +102,7 @@ Represents a position, rotation and scale in one object
 
 
 
-### Transform:New
+### Transform:New(translation, rotation, scale)
 
 
 
@@ -122,7 +122,7 @@ Represents a position, rotation and scale in one object
 
 
 
-### Transform:New
+### Transform:New(translation, scale)
 
 
 
@@ -141,7 +141,7 @@ Represents a position, rotation and scale in one object
 
 
 
-### Transform:New
+### Transform:New(scale)
 
 
 
@@ -159,7 +159,7 @@ Represents a position, rotation and scale in one object
 
 
 
-### Transform:New
+### Transform:New(x, y, z)
 
 
 
@@ -179,7 +179,7 @@ Represents a position, rotation and scale in one object
 
 
 
-### Transform:Multiply
+### Transform:Multiply(b)
 
 
 
@@ -197,7 +197,7 @@ Represents a position, rotation and scale in one object
 
 
 
-### Transform:Multiply
+### Transform:Multiply(a, b)
 
 
 

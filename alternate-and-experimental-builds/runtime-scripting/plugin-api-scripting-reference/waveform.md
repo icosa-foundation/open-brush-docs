@@ -11,7 +11,7 @@ Functions to generate a variety of waveforms
 ## Methods
 
 
-### Waveform:Sine
+### Waveform:Sine(time, frequency)
 
 
 
@@ -30,7 +30,7 @@ Functions to generate a variety of waveforms
 
 
 
-### Waveform:Cosine
+### Waveform:Cosine(time, frequency)
 
 
 
@@ -49,7 +49,7 @@ Functions to generate a variety of waveforms
 
 
 
-### Waveform:Triangle
+### Waveform:Triangle(time, frequency)
 
 
 
@@ -68,7 +68,7 @@ Functions to generate a variety of waveforms
 
 
 
-### Waveform:Sawtooth
+### Waveform:Sawtooth(time, frequency)
 
 
 
@@ -87,7 +87,7 @@ Functions to generate a variety of waveforms
 
 
 
-### Waveform:Square
+### Waveform:Square(time, frequency)
 
 
 
@@ -106,7 +106,7 @@ Functions to generate a variety of waveforms
 
 
 
-### Waveform:Pulse
+### Waveform:Pulse(time, frequency, pulseWidth)
 
 
 
@@ -126,7 +126,7 @@ Functions to generate a variety of waveforms
 
 
 
-### Waveform:Exponent
+### Waveform:Exponent(time, frequency)
 
 
 
@@ -145,7 +145,7 @@ Functions to generate a variety of waveforms
 
 
 
-### Waveform:Power
+### Waveform:Power(time, frequency, power)
 
 
 
@@ -165,7 +165,7 @@ Functions to generate a variety of waveforms
 
 
 
-### Waveform:Parabolic
+### Waveform:Parabolic(time, frequency)
 
 
 
@@ -184,7 +184,7 @@ Functions to generate a variety of waveforms
 
 
 
-### Waveform:ExponentialSawtooth
+### Waveform:ExponentialSawtooth(time, frequency, exponent)
 
 
 
@@ -204,7 +204,7 @@ Functions to generate a variety of waveforms
 
 
 
-### Waveform:PerlinNoise
+### Waveform:PerlinNoise(time, frequency)
 
 
 
@@ -223,7 +223,7 @@ Functions to generate a variety of waveforms
 
 
 
-### Waveform:WhiteNoise
+### Waveform:WhiteNoise()
 
 
 
@@ -234,25 +234,7 @@ Functions to generate a variety of waveforms
 
 
 
-### Waveform:BrownNoise
-
-
-
-**Returns:** number
-
-
-**Parameters:**
-
-<table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>previous</td><td>number</td><td></td></tr></tbody></table>
-
-
-
-
-
-
-### Waveform:BlueNoise
+### Waveform:BrownNoise(previous)
 
 
 
@@ -270,7 +252,25 @@ Functions to generate a variety of waveforms
 
 
 
-### Waveform:Sine
+### Waveform:BlueNoise(previous)
+
+
+
+**Returns:** number
+
+
+**Parameters:**
+
+<table data-full-width="false">
+<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<tbody><tr><td>previous</td><td>number</td><td></td></tr></tbody></table>
+
+
+
+
+
+
+### Waveform:Sine(time, frequency, duration, sampleRate, amplitude)
 
 
 
@@ -292,7 +292,7 @@ Functions to generate a variety of waveforms
 
 
 
-### Waveform:Cosine
+### Waveform:Cosine(time, frequency, duration, sampleRate, amplitude)
 
 
 
@@ -314,7 +314,7 @@ Functions to generate a variety of waveforms
 
 
 
-### Waveform:Triangle
+### Waveform:Triangle(time, frequency, duration, sampleRate, amplitude)
 
 
 
@@ -336,7 +336,7 @@ Functions to generate a variety of waveforms
 
 
 
-### Waveform:Sawtooth
+### Waveform:Sawtooth(time, frequency, duration, sampleRate, amplitude)
 
 
 
@@ -358,7 +358,7 @@ Functions to generate a variety of waveforms
 
 
 
-### Waveform:Square
+### Waveform:Square(time, frequency, duration, sampleRate, amplitude)
 
 
 
@@ -380,7 +380,7 @@ Functions to generate a variety of waveforms
 
 
 
-### Waveform:Exponent
+### Waveform:Exponent(time, frequency, duration, sampleRate, amplitude)
 
 
 
@@ -402,7 +402,7 @@ Functions to generate a variety of waveforms
 
 
 
-### Waveform:Parabolic
+### Waveform:Parabolic(time, frequency, duration, sampleRate, amplitude)
 
 
 
@@ -424,7 +424,7 @@ Functions to generate a variety of waveforms
 
 
 
-### Waveform:Pulse
+### Waveform:Pulse(time, frequency, pulseWidth, duration, sampleRate, amplitude)
 
 
 
@@ -447,7 +447,7 @@ Functions to generate a variety of waveforms
 
 
 
-### Waveform:Power
+### Waveform:Power(time, frequency, power, duration, sampleRate, amplitude)
 
 
 
@@ -470,7 +470,7 @@ Functions to generate a variety of waveforms
 
 
 
-### Waveform:ExponentialSawtoothWave
+### Waveform:ExponentialSawtoothWave(time, frequency, exponent, duration, sampleRate, amplitude)
 
 
 
@@ -493,7 +493,7 @@ Functions to generate a variety of waveforms
 
 
 
-### Waveform:PerlinNoise
+### Waveform:PerlinNoise(time, frequency, duration, sampleRate, amplitude)
 
 
 
@@ -515,7 +515,7 @@ Functions to generate a variety of waveforms
 
 
 
-### Waveform:WhiteNoise
+### Waveform:WhiteNoise(duration, sampleRate, amplitude)
 
 
 
@@ -535,7 +535,7 @@ Functions to generate a variety of waveforms
 
 
 
-### Waveform:BrownNoise
+### Waveform:BrownNoise(previous, duration, sampleRate, amplitude)
 
 
 
@@ -556,7 +556,7 @@ Functions to generate a variety of waveforms
 
 
 
-### Waveform:BlueNoise
+### Waveform:BlueNoise(previous, duration, sampleRate, amplitude)
 
 
 

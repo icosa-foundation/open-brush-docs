@@ -11,7 +11,7 @@ Various actions related to selections of strokes and widgets
 ## Methods
 
 
-### Selection:Duplicate
+### Selection:Duplicate()
 
 Duplicates the currently selected items
 
@@ -27,7 +27,7 @@ Duplicates the currently selected items
 
 
 
-### Selection:Group
+### Selection:Group()
 
 Groups or ungroups the currently selected strokes and widgets
 
@@ -43,7 +43,7 @@ Groups or ungroups the currently selected strokes and widgets
 
 
 
-### Selection:Invert
+### Selection:Invert()
 
 Inverts the current selection
 
@@ -59,7 +59,7 @@ Inverts the current selection
 
 
 
-### Selection:Flip
+### Selection:Flip()
 
 Flips (mirrors) the current selected items horizontally
 
@@ -75,7 +75,7 @@ Flips (mirrors) the current selected items horizontally
 
 
 
-### Selection:Recolor
+### Selection:Recolor()
 
 Changes the color of all currently selected brush strokes
 
@@ -91,7 +91,7 @@ Changes the color of all currently selected brush strokes
 
 
 
-### Selection:Rebrush
+### Selection:Rebrush()
 
 Changes the brush type for all currently selected brush strokes
 
@@ -107,7 +107,7 @@ Changes the brush type for all currently selected brush strokes
 
 
 
-### Selection:Resize
+### Selection:Resize()
 
 Changes the size of all currently selected brush strokes
 
@@ -123,7 +123,7 @@ Changes the size of all currently selected brush strokes
 
 
 
-### Selection:Trim
+### Selection:Trim(count)
 
 Trims control points from all selected brush strokes. Resulting empty strokes are deleted.
 
@@ -146,7 +146,7 @@ Trims control points from all selected brush strokes. Resulting empty strokes ar
 
 
 
-### Selection:SelectAll
+### Selection:SelectAll()
 
 Selects all brush strokes and widgets on the current layer
 

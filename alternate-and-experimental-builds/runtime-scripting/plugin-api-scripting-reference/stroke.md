@@ -26,7 +26,7 @@ A specific brush stroke
 ## Methods
 
 
-### Stroke:ChangeMaterial
+### Stroke:ChangeMaterial(brushName)
 
 
 
@@ -44,7 +44,7 @@ A specific brush stroke
 
 
 
-### Stroke:Delete
+### Stroke:Delete()
 
 
 
@@ -55,7 +55,7 @@ A specific brush stroke
 
 
 
-### Stroke:Select
+### Stroke:Select()
 
 
 
@@ -66,26 +66,7 @@ A specific brush stroke
 
 
 
-### Stroke:SelectMultiple
-
-
-
-**Returns:** nil
-
-
-**Parameters:**
-
-<table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>from</td><td>number</td><td></td></tr>
-<tr><td>to</td><td>number</td><td></td></tr></tbody></table>
-
-
-
-
-
-
-### Stroke:Join
+### Stroke:SelectMultiple(from, to)
 
 
 
@@ -104,7 +85,26 @@ A specific brush stroke
 
 
 
-### Stroke:JoinPrevious
+### Stroke:Join(from, to)
+
+
+
+**Returns:** nil
+
+
+**Parameters:**
+
+<table data-full-width="false">
+<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<tbody><tr><td>from</td><td>number</td><td></td></tr>
+<tr><td>to</td><td>number</td><td></td></tr></tbody></table>
+
+
+
+
+
+
+### Stroke:JoinPrevious()
 
 
 
@@ -115,7 +115,7 @@ A specific brush stroke
 
 
 
-### Stroke:Import
+### Stroke:Import(name)
 
 
 

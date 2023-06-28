@@ -24,7 +24,7 @@ A 3D model widget
 ## Methods
 
 
-### Model:Import
+### Model:Import(location)
 
 Method to import a new model at a specific location. Returns a wrapper of the imported model's API
 
@@ -42,7 +42,7 @@ Method to import a new model at a specific location. Returns a wrapper of the im
 
 
 
-### Model:Select
+### Model:Select()
 
 Method to select the current Model Widget in the API
 
@@ -53,7 +53,7 @@ Method to select the current Model Widget in the API
 
 
 
-### Model:Delete
+### Model:Delete()
 
 Method to delete the current Model Widget from the API
 

@@ -24,7 +24,7 @@ Various properties and methods that effect the entire app
 ## Methods
 
 
-### App:Physics
+### App:Physics(active)
 
 Determines if physics simulation is active
 
@@ -47,7 +47,7 @@ Determines if physics simulation is active
 
 
 
-### App:Undo
+### App:Undo()
 
 Undo the last action
 
@@ -63,7 +63,7 @@ Undo the last action
 
 
 
-### App:Redo
+### App:Redo()
 
 Redo the previously undone action
 
@@ -79,7 +79,7 @@ Redo the previously undone action
 
 
 
-### App:AddListener
+### App:AddListener(url)
 
 Adds a url that should be sent the data for each stroke as soon as the user finishes drawing it
 
@@ -102,7 +102,7 @@ Adds a url that should be sent the data for each stroke as soon as the user fini
 
 
 
-### App:ResetPanels
+### App:ResetPanels()
 
 Reset all panels
 
@@ -118,7 +118,7 @@ Reset all panels
 
 
 
-### App:ShowScriptsFolder
+### App:ShowScriptsFolder()
 
 Opens an Explorer/Finder window outside of VR showing the user's Scripts folder on the desktop (Mac/Windows only)
 
@@ -134,7 +134,7 @@ Opens an Explorer/Finder window outside of VR showing the user's Scripts folder 
 
 
 
-### App:ShowExportFolder
+### App:ShowExportFolder()
 
 Opens an Explorer/Finder window outside of VR showing the user's Export folder on the desktop (Mac/Windows only)
 
@@ -150,7 +150,7 @@ Opens an Explorer/Finder window outside of VR showing the user's Export folder o
 
 
 
-### App:ShowSketchesFolder
+### App:ShowSketchesFolder()
 
 Opens an Explorer/Finder window outside of VR showing the user's Sketches folder on the desktop (Mac/Windows only)
 
@@ -166,7 +166,7 @@ Opens an Explorer/Finder window outside of VR showing the user's Sketches folder
 
 
 
-### App:StraightEdge
+### App:StraightEdge(active)
 
 Activate or deactivate straight edge mode
 
@@ -189,7 +189,7 @@ Activate or deactivate straight edge mode
 
 
 
-### App:AutoOrient
+### App:AutoOrient(active)
 
 Activate or deactivate auto orientation mode
 
@@ -212,7 +212,7 @@ Activate or deactivate auto orientation mode
 
 
 
-### App:ViewOnly
+### App:ViewOnly(active)
 
 Activate or deactivate view only mode
 
@@ -235,7 +235,7 @@ Activate or deactivate view only mode
 
 
 
-### App:AutoSimplify
+### App:AutoSimplify(active)
 
 Activate or deactivate auto simplification mode
 
@@ -258,7 +258,7 @@ Activate or deactivate auto simplification mode
 
 
 
-### App:Disco
+### App:Disco(active)
 
 Activate or deactivate disco mode
 
@@ -281,7 +281,7 @@ Activate or deactivate disco mode
 
 
 
-### App:Profiling
+### App:Profiling(active)
 
 Activate or deactivate profiling mode
 
@@ -304,7 +304,7 @@ Activate or deactivate profiling mode
 
 
 
-### App:PostProcessing
+### App:PostProcessing(active)
 
 Activate or deactivate post-processing
 
@@ -327,7 +327,7 @@ Activate or deactivate post-processing
 
 
 
-### App:DraftingVisible
+### App:DraftingVisible()
 
 Set the drafting mode to visible
 
@@ -343,7 +343,7 @@ Set the drafting mode to visible
 
 
 
-### App:DraftingTransparent
+### App:DraftingTransparent()
 
 Set the drafting mode to transparent
 
@@ -359,7 +359,7 @@ Set the drafting mode to transparent
 
 
 
-### App:DraftingHidden
+### App:DraftingHidden()
 
 Set the drafting mode to hidden
 
@@ -375,7 +375,7 @@ Set the drafting mode to hidden
 
 
 
-### App:Watermark
+### App:Watermark(active)
 
 Activate or deactivate the watermark
 
@@ -398,7 +398,7 @@ Activate or deactivate the watermark
 
 
 
-### App:ReadFile
+### App:ReadFile(path)
 
 Read the contents of a file
 
@@ -421,7 +421,7 @@ Read the contents of a file
 
 
 
-### App:Error
+### App:Error(message)
 
 Displays an error message on the back of the user's brush controller
 
@@ -444,7 +444,7 @@ Displays an error message on the back of the user's brush controller
 
 
 
-### App:SetFont
+### App:SetFont(fontData)
 
 Set the font used for drawing text
 
@@ -467,7 +467,7 @@ Set the font used for drawing text
 
 
 
-### App:TakeSnapshot
+### App:TakeSnapshot(tr, filename, width, height, superSampling)
 
 Take a snapshot of your scene and save it to your Snapshots folder
 
@@ -482,7 +482,7 @@ Take a snapshot of your scene and save it to your Snapshots folder
 <tr><td>filename</td><td>string</td><td>The filename to use for the saved snapshot</td></tr>
 <tr><td>width</td><td>number</td><td>Image width</td></tr>
 <tr><td>height</td><td>number</td><td>Image height</td></tr>
-<tr><td>superSampling</td><td>number</td><td></td></tr></tbody></table>
+<tr><td>superSampling</td><td>number</td><td>The supersampling strength to apply (between 0.125 and 4.0)</td></tr></tbody></table>
 
 
 
@@ -494,7 +494,7 @@ Take a snapshot of your scene and save it to your Snapshots folder
 
 
 
-### App:Take360Snapshot
+### App:Take360Snapshot(tr, filename, width)
 
 Take a 360-degree snapshot of the scene and save it
 

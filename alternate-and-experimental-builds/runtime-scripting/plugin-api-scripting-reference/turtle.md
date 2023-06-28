@@ -22,7 +22,7 @@ The turtle can be used to draw strokes in a classic LOGO style for moving and tu
 ## Methods
 
 
-### Turtle:MoveTo
+### Turtle:MoveTo(position)
 
 
 
@@ -40,7 +40,7 @@ The turtle can be used to draw strokes in a classic LOGO style for moving and tu
 
 
 
-### Turtle:MoveBy
+### Turtle:MoveBy(amount)
 
 
 
@@ -58,7 +58,7 @@ The turtle can be used to draw strokes in a classic LOGO style for moving and tu
 
 
 
-### Turtle:Move
+### Turtle:Move(amount)
 
 
 
@@ -76,7 +76,7 @@ The turtle can be used to draw strokes in a classic LOGO style for moving and tu
 
 
 
-### Turtle:Draw
+### Turtle:Draw(amount)
 
 
 
@@ -94,7 +94,7 @@ The turtle can be used to draw strokes in a classic LOGO style for moving and tu
 
 
 
-### Turtle:DrawPolygon
+### Turtle:DrawPolygon(sides, radius, angle)
 
 
 
@@ -114,7 +114,7 @@ The turtle can be used to draw strokes in a classic LOGO style for moving and tu
 
 
 
-### Turtle:DrawText
+### Turtle:DrawText(text)
 
 
 
@@ -132,7 +132,7 @@ The turtle can be used to draw strokes in a classic LOGO style for moving and tu
 
 
 
-### Turtle:DrawSvg
+### Turtle:DrawSvg(svg)
 
 
 
@@ -150,7 +150,7 @@ The turtle can be used to draw strokes in a classic LOGO style for moving and tu
 
 
 
-### Turtle:TurnY
+### Turtle:TurnY(angle)
 
 
 
@@ -168,7 +168,7 @@ The turtle can be used to draw strokes in a classic LOGO style for moving and tu
 
 
 
-### Turtle:TurnX
+### Turtle:TurnX(angle)
 
 
 
@@ -186,7 +186,7 @@ The turtle can be used to draw strokes in a classic LOGO style for moving and tu
 
 
 
-### Turtle:TurnZ
+### Turtle:TurnZ(angle)
 
 
 
@@ -204,7 +204,7 @@ The turtle can be used to draw strokes in a classic LOGO style for moving and tu
 
 
 
-### Turtle:LookAt
+### Turtle:LookAt(amount)
 
 
 
@@ -222,7 +222,7 @@ The turtle can be used to draw strokes in a classic LOGO style for moving and tu
 
 
 
-### Turtle:LookForwards
+### Turtle:LookForwards()
 
 
 
@@ -233,7 +233,7 @@ The turtle can be used to draw strokes in a classic LOGO style for moving and tu
 
 
 
-### Turtle:LookUp
+### Turtle:LookUp()
 
 
 
@@ -244,7 +244,7 @@ The turtle can be used to draw strokes in a classic LOGO style for moving and tu
 
 
 
-### Turtle:LookDown
+### Turtle:LookDown()
 
 
 
@@ -255,7 +255,7 @@ The turtle can be used to draw strokes in a classic LOGO style for moving and tu
 
 
 
-### Turtle:LookLeft
+### Turtle:LookLeft()
 
 
 
@@ -266,7 +266,7 @@ The turtle can be used to draw strokes in a classic LOGO style for moving and tu
 
 
 
-### Turtle:LookRight
+### Turtle:LookRight()
 
 
 
@@ -277,7 +277,7 @@ The turtle can be used to draw strokes in a classic LOGO style for moving and tu
 
 
 
-### Turtle:LookBackwards
+### Turtle:LookBackwards()
 
 
 
@@ -288,7 +288,7 @@ The turtle can be used to draw strokes in a classic LOGO style for moving and tu
 
 
 
-### Turtle:HomeReset
+### Turtle:HomeReset()
 
 
 
@@ -299,7 +299,7 @@ The turtle can be used to draw strokes in a classic LOGO style for moving and tu
 
 
 
-### Turtle:HomeSet
+### Turtle:HomeSet()
 
 
 
@@ -310,7 +310,7 @@ The turtle can be used to draw strokes in a classic LOGO style for moving and tu
 
 
 
-### Turtle:TransformPush
+### Turtle:TransformPush()
 
 
 
@@ -321,7 +321,7 @@ The turtle can be used to draw strokes in a classic LOGO style for moving and tu
 
 
 
-### Turtle:TransformPop
+### Turtle:TransformPop()
 
 
 

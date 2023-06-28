@@ -32,7 +32,7 @@ Represents a rotation or orientation in 3D space
 ## Methods
 
 
-### Rotation:New
+### Rotation:New(x, y, z)
 
 
 
@@ -52,7 +52,7 @@ Represents a rotation or orientation in 3D space
 
 
 
-### Rotation:SetFromToRotation
+### Rotation:SetFromToRotation(fromDirection, toDirection)
 
 
 
@@ -71,7 +71,7 @@ Represents a rotation or orientation in 3D space
 
 
 
-### Rotation:SetLookRotation
+### Rotation:SetLookRotation(view)
 
 
 
@@ -89,7 +89,7 @@ Represents a rotation or orientation in 3D space
 
 
 
-### Rotation:SetLookRotation
+### Rotation:SetLookRotation(view, up)
 
 
 
@@ -108,7 +108,7 @@ Represents a rotation or orientation in 3D space
 
 
 
-### Rotation:ToAngleAxis
+### Rotation:ToAngleAxis()
 
 
 
@@ -119,7 +119,7 @@ Represents a rotation or orientation in 3D space
 
 
 
-### Rotation:Angle
+### Rotation:Angle(a, b)
 
 
 
@@ -138,7 +138,7 @@ Represents a rotation or orientation in 3D space
 
 
 
-### Rotation:AngleAxis
+### Rotation:AngleAxis(angle, axis)
 
 
 
@@ -157,7 +157,7 @@ Represents a rotation or orientation in 3D space
 
 
 
-### Rotation:Dot
+### Rotation:Dot(a, b)
 
 
 
@@ -176,7 +176,7 @@ Represents a rotation or orientation in 3D space
 
 
 
-### Rotation:FromToRotation
+### Rotation:FromToRotation(from, to)
 
 
 
@@ -195,7 +195,7 @@ Represents a rotation or orientation in 3D space
 
 
 
-### Rotation:Inverse
+### Rotation:Inverse(a)
 
 
 
@@ -213,7 +213,7 @@ Represents a rotation or orientation in 3D space
 
 
 
-### Rotation:Lerp
+### Rotation:Lerp(a, b, t)
 
 
 
@@ -233,7 +233,7 @@ Represents a rotation or orientation in 3D space
 
 
 
-### Rotation:LerpUnclamped
+### Rotation:LerpUnclamped(a, b, t)
 
 
 
@@ -253,7 +253,7 @@ Represents a rotation or orientation in 3D space
 
 
 
-### Rotation:LookRotation
+### Rotation:LookRotation(forward)
 
 
 
@@ -271,7 +271,7 @@ Represents a rotation or orientation in 3D space
 
 
 
-### Rotation:LookRotation
+### Rotation:LookRotation(forward, up)
 
 
 
@@ -290,7 +290,7 @@ Represents a rotation or orientation in 3D space
 
 
 
-### Rotation:Normalize
+### Rotation:Normalize(a)
 
 
 
@@ -308,7 +308,7 @@ Represents a rotation or orientation in 3D space
 
 
 
-### Rotation:RotateTowards
+### Rotation:RotateTowards(from, to, maxDegreesDelta)
 
 
 
@@ -328,7 +328,7 @@ Represents a rotation or orientation in 3D space
 
 
 
-### Rotation:Slerp
+### Rotation:Slerp(a, b, t)
 
 
 
@@ -348,7 +348,7 @@ Represents a rotation or orientation in 3D space
 
 
 
-### Rotation:SlerpUnclamped
+### Rotation:SlerpUnclamped(a, b, t)
 
 
 
@@ -368,7 +368,7 @@ Represents a rotation or orientation in 3D space
 
 
 
-### Rotation:Multiply
+### Rotation:Multiply(b)
 
 
 
@@ -386,7 +386,7 @@ Represents a rotation or orientation in 3D space
 
 
 
-### Rotation:Multiply
+### Rotation:Multiply(x, y, z)
 
 
 
@@ -406,7 +406,7 @@ Represents a rotation or orientation in 3D space
 
 
 
-### Rotation:Scale
+### Rotation:Scale(a)
 
 
 
@@ -424,7 +424,7 @@ Represents a rotation or orientation in 3D space
 
 
 
-### Rotation:Multiply
+### Rotation:Multiply(a, b)
 
 
 

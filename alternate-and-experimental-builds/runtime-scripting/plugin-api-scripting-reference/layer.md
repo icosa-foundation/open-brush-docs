@@ -25,7 +25,7 @@ A layer in the current sketch
 ## Methods
 
 
-### Layer:New
+### Layer:New()
 
 Creates and returns a new instance of a Layer
 
@@ -36,7 +36,7 @@ Creates and returns a new instance of a Layer
 
 
 
-### Layer:CenterPivot
+### Layer:CenterPivot()
 
 Centers the pivot of the layer
 
@@ -47,7 +47,7 @@ Centers the pivot of the layer
 
 
 
-### Layer:ShowPivot
+### Layer:ShowPivot()
 
 Shows the pivot of the layer
 
@@ -58,7 +58,7 @@ Shows the pivot of the layer
 
 
 
-### Layer:HidePivot
+### Layer:HidePivot()
 
 Hides the pivot of the layer
 
@@ -69,7 +69,7 @@ Hides the pivot of the layer
 
 
 
-### Layer:Clear
+### Layer:Clear()
 
 Clears the layer
 
@@ -80,7 +80,7 @@ Clears the layer
 
 
 
-### Layer:Delete
+### Layer:Delete()
 
 Deletes the layer
 
@@ -91,7 +91,7 @@ Deletes the layer
 
 
 
-### Layer:Squash
+### Layer:Squash()
 
 Squashes the layer and returns the resulting LayerApiWrapper instance
 
@@ -102,7 +102,7 @@ Squashes the layer and returns the resulting LayerApiWrapper instance
 
 
 
-### Layer:SquashTo
+### Layer:SquashTo(destinationLayer)
 
 Squashes the layer to the specified destination layer and returns the destination layer
 
@@ -120,7 +120,7 @@ Squashes the layer to the specified destination layer and returns the destinatio
 
 
 
-### Layer:Show
+### Layer:Show()
 
 Shows the layer
 
@@ -131,7 +131,7 @@ Shows the layer
 
 
 
-### Layer:Hide
+### Layer:Hide()
 
 Hides the layer
 
@@ -142,7 +142,7 @@ Hides the layer
 
 
 
-### Layer:Toggle
+### Layer:Toggle()
 
 Toggles the visibility of the layer
 

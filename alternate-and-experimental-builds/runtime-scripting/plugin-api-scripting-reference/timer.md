@@ -11,7 +11,7 @@ Timers can be used to call functions at a predetermined time (or multiple times)
 ## Methods
 
 
-### Timer:Set
+### Timer:Set(fn, interval, delay, repeats)
 
 
 
@@ -32,7 +32,7 @@ Timers can be used to call functions at a predetermined time (or multiple times)
 
 
 
-### Timer:Unset
+### Timer:Unset(fn)
 
 
 

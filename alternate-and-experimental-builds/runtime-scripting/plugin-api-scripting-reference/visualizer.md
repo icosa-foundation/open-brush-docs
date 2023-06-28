@@ -21,7 +21,7 @@ Settings and controls for audio visualization mode
 ## Methods
 
 
-### Visualizer:EnableScripting
+### Visualizer:EnableScripting(name)
 
 
 
@@ -39,7 +39,7 @@ Settings and controls for audio visualization mode
 
 
 
-### Visualizer:DisableScripting
+### Visualizer:DisableScripting()
 
 
 
@@ -50,7 +50,7 @@ Settings and controls for audio visualization mode
 
 
 
-### Visualizer:SetWaveform
+### Visualizer:SetWaveform(data)
 
 
 
@@ -68,7 +68,7 @@ Settings and controls for audio visualization mode
 
 
 
-### Visualizer:SetFft
+### Visualizer:SetFft(data1, data2, data3, data4)
 
 
 
@@ -89,7 +89,7 @@ Settings and controls for audio visualization mode
 
 
 
-### Visualizer:SetBeats
+### Visualizer:SetBeats(x, y, z, w)
 
 
 
@@ -110,7 +110,7 @@ Settings and controls for audio visualization mode
 
 
 
-### Visualizer:SetBeatAccumulators
+### Visualizer:SetBeatAccumulators(x, y, z, w)
 
 
 
@@ -131,7 +131,7 @@ Settings and controls for audio visualization mode
 
 
 
-### Visualizer:SetBandPeak
+### Visualizer:SetBandPeak(peak)
 
 
 

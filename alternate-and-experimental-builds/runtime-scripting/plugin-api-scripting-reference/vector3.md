@@ -36,7 +36,7 @@ A position or offset in 3D space
 ## Methods
 
 
-### Vector3:New
+### Vector3:New(x, y, z)
 
 
 
@@ -56,7 +56,7 @@ A position or offset in 3D space
 
 
 
-### Vector3:Angle
+### Vector3:Angle(a, b)
 
 
 
@@ -75,7 +75,7 @@ A position or offset in 3D space
 
 
 
-### Vector3:ClampMagnitude
+### Vector3:ClampMagnitude(v, maxLength)
 
 
 
@@ -94,7 +94,7 @@ A position or offset in 3D space
 
 
 
-### Vector3:Cross
+### Vector3:Cross(a, b)
 
 
 
@@ -113,7 +113,7 @@ A position or offset in 3D space
 
 
 
-### Vector3:Distance
+### Vector3:Distance(a, b)
 
 
 
@@ -132,7 +132,7 @@ A position or offset in 3D space
 
 
 
-### Vector3:Magnitude
+### Vector3:Magnitude(a)
 
 
 
@@ -150,7 +150,7 @@ A position or offset in 3D space
 
 
 
-### Vector3:SqrMagnitude
+### Vector3:SqrMagnitude(a)
 
 
 
@@ -168,7 +168,7 @@ A position or offset in 3D space
 
 
 
-### Vector3:Dot
+### Vector3:Dot(a, b)
 
 
 
@@ -187,7 +187,7 @@ A position or offset in 3D space
 
 
 
-### Vector3:Lerp
+### Vector3:Lerp(a, b, t)
 
 
 
@@ -207,7 +207,7 @@ A position or offset in 3D space
 
 
 
-### Vector3:LerpUnclamped
+### Vector3:LerpUnclamped(a, b, t)
 
 
 
@@ -227,7 +227,7 @@ A position or offset in 3D space
 
 
 
-### Vector3:Max
+### Vector3:Max(a, b)
 
 
 
@@ -246,7 +246,7 @@ A position or offset in 3D space
 
 
 
-### Vector3:Min
+### Vector3:Min(a, b)
 
 
 
@@ -265,7 +265,7 @@ A position or offset in 3D space
 
 
 
-### Vector3:MoveTowards
+### Vector3:MoveTowards(current, target, maxDistanceDelta)
 
 
 
@@ -285,7 +285,7 @@ A position or offset in 3D space
 
 
 
-### Vector3:Normalize
+### Vector3:Normalize(a)
 
 
 
@@ -303,7 +303,7 @@ A position or offset in 3D space
 
 
 
-### Vector3:Project
+### Vector3:Project(a, b)
 
 
 
@@ -322,7 +322,7 @@ A position or offset in 3D space
 
 
 
-### Vector3:ProjectOnPlane
+### Vector3:ProjectOnPlane(vector, planeNormal)
 
 
 
@@ -341,7 +341,7 @@ A position or offset in 3D space
 
 
 
-### Vector3:Reflect
+### Vector3:Reflect(a, b)
 
 
 
@@ -360,7 +360,7 @@ A position or offset in 3D space
 
 
 
-### Vector3:RotateTowards
+### Vector3:RotateTowards(current, target, maxRadiansDelta, maxMagnitudeDelta)
 
 
 
@@ -381,7 +381,7 @@ A position or offset in 3D space
 
 
 
-### Vector3:ScaleBy
+### Vector3:ScaleBy(a, b)
 
 
 
@@ -400,7 +400,7 @@ A position or offset in 3D space
 
 
 
-### Vector3:SignedAngle
+### Vector3:SignedAngle(from, to, axis)
 
 
 
@@ -420,7 +420,7 @@ A position or offset in 3D space
 
 
 
-### Vector3:Slerp
+### Vector3:Slerp(a, b, t)
 
 
 
@@ -440,7 +440,7 @@ A position or offset in 3D space
 
 
 
-### Vector3:SlerpUnclamped
+### Vector3:SlerpUnclamped(a, b, t)
 
 
 
@@ -460,7 +460,7 @@ A position or offset in 3D space
 
 
 
-### Vector3:Add
+### Vector3:Add(b)
 
 
 
@@ -478,7 +478,7 @@ A position or offset in 3D space
 
 
 
-### Vector3:Add
+### Vector3:Add(x, y, z)
 
 
 
@@ -498,7 +498,7 @@ A position or offset in 3D space
 
 
 
-### Vector3:Subtract
+### Vector3:Subtract(b)
 
 
 
@@ -516,7 +516,7 @@ A position or offset in 3D space
 
 
 
-### Vector3:Subtract
+### Vector3:Subtract(x, y, z)
 
 
 
@@ -536,7 +536,7 @@ A position or offset in 3D space
 
 
 
-### Vector3:Multiply
+### Vector3:Multiply(b)
 
 
 
@@ -554,7 +554,7 @@ A position or offset in 3D space
 
 
 
-### Vector3:ScaleBy
+### Vector3:ScaleBy(b)
 
 
 
@@ -572,7 +572,7 @@ A position or offset in 3D space
 
 
 
-### Vector3:ScaleBy
+### Vector3:ScaleBy(x, y, z)
 
 
 
@@ -592,7 +592,7 @@ A position or offset in 3D space
 
 
 
-### Vector3:Divide
+### Vector3:Divide(b)
 
 
 
@@ -610,7 +610,7 @@ A position or offset in 3D space
 
 
 
-### Vector3:NotEquals
+### Vector3:NotEquals(b)
 
 
 
@@ -628,7 +628,7 @@ A position or offset in 3D space
 
 
 
-### Vector3:NotEquals
+### Vector3:NotEquals(x, y, z)
 
 
 
@@ -648,7 +648,7 @@ A position or offset in 3D space
 
 
 
-### Vector3:Add
+### Vector3:Add(a, b)
 
 
 
@@ -667,7 +667,7 @@ A position or offset in 3D space
 
 
 
-### Vector3:Subtract
+### Vector3:Subtract(a, b)
 
 
 
@@ -686,7 +686,7 @@ A position or offset in 3D space
 
 
 
-### Vector3:Multiply
+### Vector3:Multiply(a, b)
 
 
 
@@ -705,7 +705,7 @@ A position or offset in 3D space
 
 
 
-### Vector3:Divide
+### Vector3:Divide(a, b)
 
 
 
@@ -724,7 +724,7 @@ A position or offset in 3D space
 
 
 
-### Vector3:NotEquals
+### Vector3:NotEquals(a, b)
 
 
 

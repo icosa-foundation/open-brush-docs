@@ -38,7 +38,7 @@ The user's brush
 ## Methods
 
 
-### Brush:JitterColor
+### Brush:JitterColor()
 
 Applies the current jitter settings to the brush color
 
@@ -54,7 +54,7 @@ Applies the current jitter settings to the brush color
 
 
 
-### Brush:ResizeHistory
+### Brush:ResizeHistory(size)
 
 Clears the history and sets it's size
 
@@ -77,7 +77,7 @@ Clears the history and sets it's size
 
 
 
-### Brush:SetHistorySize
+### Brush:SetHistorySize(size)
 
 Sets the size of the history. Only clears it if the size has changed
 
@@ -100,7 +100,7 @@ Sets the size of the history. Only clears it if the size has changed
 
 
 
-### Brush:GetPastPosition
+### Brush:GetPastPosition(back)
 
 Recalls previous positions of the Brush from the history buffer
 
@@ -123,7 +123,7 @@ Recalls previous positions of the Brush from the history buffer
 
 
 
-### Brush:GetPastRotation
+### Brush:GetPastRotation(back)
 
 Recalls previous orientations of the Brush from the history buffer
 
@@ -146,7 +146,7 @@ Recalls previous orientations of the Brush from the history buffer
 
 
 
-### Brush:ForcePaintingOn
+### Brush:ForcePaintingOn(active)
 
 If set to true then the brush will draw strokes even if the trigger isn't being pressed.
 
@@ -169,7 +169,7 @@ If set to true then the brush will draw strokes even if the trigger isn't being 
 
 
 
-### Brush:ForcePaintingOff
+### Brush:ForcePaintingOff(active)
 
 If set to true then the brush will stop drawing strokes even if the trigger is still pressed.
 
@@ -192,7 +192,7 @@ If set to true then the brush will stop drawing strokes even if the trigger is s
 
 
 
-### Brush:ForceNewStroke
+### Brush:ForceNewStroke()
 
 Forces the start of a new stroke - will stop painting this frame and start again the next.
 

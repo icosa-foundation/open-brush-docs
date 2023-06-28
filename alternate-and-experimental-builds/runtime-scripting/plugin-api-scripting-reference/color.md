@@ -39,7 +39,7 @@ An RGB color
 ## Methods
 
 
-### Color:New
+### Color:New(r, g, b)
 
 Creates a new instance of a color with the specified RGB values
 
@@ -64,7 +64,7 @@ Creates a new instance of a color with the specified RGB values
 
 
 
-### Color:New
+### Color:New(html)
 
 Creates a new instance of the Color with the color parsed from the specified HTML string
 
@@ -87,7 +87,7 @@ Creates a new instance of the Color with the color parsed from the specified HTM
 
 
 
-### Color:Greyscale
+### Color:Greyscale(col)
 
 Calculates the grayscale value of the specified color
 
@@ -110,7 +110,7 @@ Calculates the grayscale value of the specified color
 
 
 
-### Color:MaxColorComponent
+### Color:MaxColorComponent(col)
 
 Gets the maximum color component value of the specified color
 
@@ -133,7 +133,7 @@ Gets the maximum color component value of the specified color
 
 
 
-### Color:ToHtmlString
+### Color:ToHtmlString(col)
 
 Converts the specified color to its HTML string representation
 
@@ -156,7 +156,7 @@ Converts the specified color to its HTML string representation
 
 
 
-### Color:ParseHtmlString
+### Color:ParseHtmlString(html)
 
 Parses the specified HTML string and returns the color
 
@@ -179,7 +179,7 @@ Parses the specified HTML string and returns the color
 
 
 
-### Color:Lerp
+### Color:Lerp(a, b, t)
 
 Performs a linear interpolation between two colors
 
@@ -204,7 +204,7 @@ Performs a linear interpolation between two colors
 
 
 
-### Color:LerpUnclamped
+### Color:LerpUnclamped(a, b, t)
 
 Performs a linear interpolation between two colors without clamping the interpolation parameter
 
@@ -229,7 +229,7 @@ Performs a linear interpolation between two colors without clamping the interpol
 
 
 
-### Color:HsvToRgb
+### Color:HsvToRgb(h, s, v)
 
 Converts an HSV color to an RGB color
 
@@ -254,7 +254,7 @@ Converts an HSV color to an RGB color
 
 
 
-### Color:RgbToHsv
+### Color:RgbToHsv(rgb)
 
 Converts an RGB color to an HSV color
 
@@ -277,7 +277,7 @@ Converts an RGB color to an HSV color
 
 
 
-### Color:Add
+### Color:Add(b)
 
 Adds the specified color to this color
 
@@ -293,9 +293,14 @@ Adds the specified color to this color
 
 
 
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>newColor = color1:Add(color2)</strong></code></pre>
 
 
-### Color:Add
+
+
+### Color:Add(r, g, b)
 
 Adds the specified RGB values to this color
 
@@ -315,12 +320,12 @@ Adds the specified RGB values to this color
 
 #### Example
 
-<pre class="language-lua"><code class="lang-lua"><strong>newColor = color1:Add(color2)</strong></code></pre>
+<pre class="language-lua"><code class="lang-lua"><strong>newColor = color1:Add(0.5, 0, 0.1)</strong></code></pre>
 
 
 
 
-### Color:Subtract
+### Color:Subtract(b)
 
 Subtracts the specified color from this color
 
@@ -343,7 +348,7 @@ Subtracts the specified color from this color
 
 
 
-### Color:Subtract
+### Color:Subtract(r, g, b)
 
 Subtracts the specified RGB values from this color
 
@@ -368,7 +373,7 @@ Subtracts the specified RGB values from this color
 
 
 
-### Color:Multiply
+### Color:Multiply(b)
 
 Multiplies this color by the specified value
 
@@ -391,7 +396,7 @@ Multiplies this color by the specified value
 
 
 
-### Color:Multiply
+### Color:Multiply(r, g, b)
 
 Multiplies this color by the specified RGB values
 
@@ -416,7 +421,7 @@ Multiplies this color by the specified RGB values
 
 
 
-### Color:Divide
+### Color:Divide(b)
 
 Divides this color by the specified value
 
@@ -439,7 +444,7 @@ Divides this color by the specified value
 
 
 
-### Color:NotEquals
+### Color:NotEquals(b)
 
 Determines whether this color is not equal to the specified color
 
@@ -462,7 +467,7 @@ Determines whether this color is not equal to the specified color
 
 
 
-### Color:NotEquals
+### Color:NotEquals(r, g, b)
 
 Determines whether this color is not equal to the specified RGB values
 
@@ -487,7 +492,7 @@ Determines whether this color is not equal to the specified RGB values
 
 
 
-### Color:Add
+### Color:Add(a, b)
 
 Adds two colors together
 
@@ -511,7 +516,7 @@ Adds two colors together
 
 
 
-### Color:Subtract
+### Color:Subtract(a, b)
 
 Subtracts the second color from the first color
 
@@ -535,7 +540,7 @@ Subtracts the second color from the first color
 
 
 
-### Color:Multiply
+### Color:Multiply(a, b)
 
 Multiplies the color by the specified value
 
@@ -559,7 +564,7 @@ Multiplies the color by the specified value
 
 
 
-### Color:Divide
+### Color:Divide(a, b)
 
 Divides the color by the specified value
 
@@ -583,7 +588,7 @@ Divides the color by the specified value
 
 
 
-### Color:NotEquals
+### Color:NotEquals(a, b)
 
 Determines whether two colors are not equal
 

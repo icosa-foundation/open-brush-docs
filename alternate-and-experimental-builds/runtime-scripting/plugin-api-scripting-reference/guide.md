@@ -24,27 +24,9 @@ A guide widget
 ## Methods
 
 
-### Guide:NewCube
+### Guide:NewCube(transform)
 
-Creates a new GuideApiWrapper with a cube stencil
-
-**Returns:** <a href="guide.md">Guide</a>
-
-
-**Parameters:**
-
-<table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>transform</td><td><a href="transform.md">Transform</a></td><td>The transform of the Guide Widget</td></tr></tbody></table>
-
-
-
-
-
-
-### Guide:NewSphere
-
-Creates a new GuideApiWrapper with a sphere stencil
+Creates a new cube guide with a default size using the transform for position and orientation
 
 **Returns:** <a href="guide.md">Guide</a>
 
@@ -58,29 +40,16 @@ Creates a new GuideApiWrapper with a sphere stencil
 
 
 
+#### Example
 
-
-### Guide:NewCapsule
-
-Creates a new GuideApiWrapper with a capsule stencil
-
-**Returns:** <a href="guide.md">Guide</a>
-
-
-**Parameters:**
-
-<table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>transform</td><td><a href="transform.md">Transform</a></td><td>The transform of the Guide Widget</td></tr></tbody></table>
+<pre class="language-lua"><code class="lang-lua"><strong>myGuide = Guide:NewCube(Transform:New(0, 5, 2)</strong></code></pre>
 
 
 
 
+### Guide:NewSphere(transform)
 
-
-### Guide:NewCone
-
-Creates a new GuideApiWrapper with a cone stencil
+Creates a new sphere guide with a default size using the transform for position and orientation
 
 **Returns:** <a href="guide.md">Guide</a>
 
@@ -94,11 +63,16 @@ Creates a new GuideApiWrapper with a cone stencil
 
 
 
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>myGuide = Guide:NewSphere(Transform:New(0, 5, 2)</strong></code></pre>
 
 
-### Guide:NewEllipsoid
 
-Creates a new GuideApiWrapper with an ellipsoid stencil
+
+### Guide:NewCapsule(transform)
+
+Creates a new capsule guide with a default size using the transform for position and orientation
 
 **Returns:** <a href="guide.md">Guide</a>
 
@@ -112,11 +86,62 @@ Creates a new GuideApiWrapper with an ellipsoid stencil
 
 
 
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>myGuide = Guide:NewCapsule(Transform:New(0, 5, 2)</strong></code></pre>
 
 
-### Guide:NewCustom
 
-Creates a new GuideApiWrapper with a custom stencil
+
+### Guide:NewCone(transform)
+
+Creates a new cone guide with a default size using the transform for position and orientation
+
+**Returns:** <a href="guide.md">Guide</a>
+
+
+**Parameters:**
+
+<table data-full-width="false">
+<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<tbody><tr><td>transform</td><td><a href="transform.md">Transform</a></td><td>The transform of the Guide Widget</td></tr></tbody></table>
+
+
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>myGuide = Guide:NewCone(Transform:New(0, 5, 2)</strong></code></pre>
+
+
+
+
+### Guide:NewEllipsoid(transform)
+
+Creates a new ellipsoid guide with a default size using the transform for position and orientation
+
+**Returns:** <a href="guide.md">Guide</a>
+
+
+**Parameters:**
+
+<table data-full-width="false">
+<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<tbody><tr><td>transform</td><td><a href="transform.md">Transform</a></td><td>The transform of the Guide Widget</td></tr></tbody></table>
+
+
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>myGuide = Guide:NewEllipsoid(Transform:New(0, 5, 2)</strong></code></pre>
+
+
+
+
+### Guide:NewCustom(transform, model)
+
+Creates a new custom guide with a default size using the transform for position and orientation
 
 **Returns:** <a href="guide.md">Guide</a>
 
@@ -131,33 +156,48 @@ Creates a new GuideApiWrapper with a custom stencil
 
 
 
+#### Example
 
-
-### Guide:Select
-
-Selects the Guide Widget
-
-**Returns:** nil
+<pre class="language-lua"><code class="lang-lua"><strong>myGuide = Guide:NewCustom(Transform:New(0, 5, 2), myModel</strong></code></pre>
 
 
 
 
+### Guide:Select()
 
-
-### Guide:Delete
-
-Deletes the Guide Widget
+Adds the guide to the current selection
 
 **Returns:** nil
 
 
 
 
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>myGuide:Select()</strong></code></pre>
 
 
-### Guide:Scale
 
-Scales the Guide Widget
+
+### Guide:Delete()
+
+Deletes the guide
+
+**Returns:** nil
+
+
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>myGuide:Delete()</strong></code></pre>
+
+
+
+
+### Guide:Scale(scale)
+
+Scales the guide (scale can be non-uniform as some guide types can be stretched)
 
 **Returns:** nil
 
@@ -169,6 +209,11 @@ Scales the Guide Widget
 <tbody><tr><td>scale</td><td><a href="vector3.md">Vector3</a></td><td>The scale vector for scaling the Guide Widget</td></tr></tbody></table>
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>myGuide:Scale(Vector3:New(2, 0, 0)</strong></code></pre>
 
 
 

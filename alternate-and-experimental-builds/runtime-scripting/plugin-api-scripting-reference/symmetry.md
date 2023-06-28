@@ -25,7 +25,7 @@ Functions for controlling the mirror symmetry mode
 ## Methods
 
 
-### Symmetry:Mirror
+### Symmetry:Mirror()
 
 
 
@@ -36,7 +36,7 @@ Functions for controlling the mirror symmetry mode
 
 
 
-### Symmetry:DoubleMirror
+### Symmetry:DoubleMirror()
 
 
 
@@ -47,7 +47,7 @@ Functions for controlling the mirror symmetry mode
 
 
 
-### Symmetry:TwoHandeded
+### Symmetry:TwoHandeded()
 
 
 
@@ -58,7 +58,7 @@ Functions for controlling the mirror symmetry mode
 
 
 
-### Symmetry:SummonWidget
+### Symmetry:SummonWidget()
 
 
 
@@ -69,7 +69,7 @@ Functions for controlling the mirror symmetry mode
 
 
 
-### Symmetry:Spin
+### Symmetry:Spin(xSpeed, ySpeed, zSpeed)
 
 
 
@@ -89,7 +89,7 @@ Functions for controlling the mirror symmetry mode
 
 
 
-### Symmetry:Ellipse
+### Symmetry:Ellipse(angle, minorRadius)
 
 
 
@@ -108,7 +108,7 @@ Functions for controlling the mirror symmetry mode
 
 
 
-### Symmetry:Square
+### Symmetry:Square(angle)
 
 
 
@@ -126,7 +126,7 @@ Functions for controlling the mirror symmetry mode
 
 
 
-### Symmetry:Superellipse
+### Symmetry:Superellipse(angle, n, a, b)
 
 
 
@@ -147,7 +147,7 @@ Functions for controlling the mirror symmetry mode
 
 
 
-### Symmetry:Rsquare
+### Symmetry:Rsquare(angle, halfSideLength, cornerRadius)
 
 
 
@@ -167,7 +167,7 @@ Functions for controlling the mirror symmetry mode
 
 
 
-### Symmetry:Polygon
+### Symmetry:Polygon(angle, numSides, radius)
 
 
 
@@ -187,7 +187,7 @@ Functions for controlling the mirror symmetry mode
 
 
 
-### Symmetry:ClearColors
+### Symmetry:ClearColors(colors)
 
 
 
@@ -205,7 +205,7 @@ Functions for controlling the mirror symmetry mode
 
 
 
-### Symmetry:AddColor
+### Symmetry:AddColor(color)
 
 
 
@@ -223,7 +223,7 @@ Functions for controlling the mirror symmetry mode
 
 
 
-### Symmetry:SetColors
+### Symmetry:SetColors(colors)
 
 
 
@@ -241,7 +241,7 @@ Functions for controlling the mirror symmetry mode
 
 
 
-### Symmetry:GetColors
+### Symmetry:GetColors()
 
 
 
@@ -252,7 +252,7 @@ Functions for controlling the mirror symmetry mode
 
 
 
-### Symmetry:AddBrush
+### Symmetry:AddBrush(brush)
 
 
 
@@ -270,7 +270,7 @@ Functions for controlling the mirror symmetry mode
 
 
 
-### Symmetry:ClearBrushes
+### Symmetry:ClearBrushes(brushes)
 
 
 
@@ -288,7 +288,7 @@ Functions for controlling the mirror symmetry mode
 
 
 
-### Symmetry:SetBrushes
+### Symmetry:SetBrushes(brushes)
 
 
 
@@ -306,7 +306,7 @@ Functions for controlling the mirror symmetry mode
 
 
 
-### Symmetry:GetBrushNames
+### Symmetry:GetBrushNames()
 
 
 
@@ -317,7 +317,7 @@ Functions for controlling the mirror symmetry mode
 
 
 
-### Symmetry:GetBrushGuids
+### Symmetry:GetBrushGuids()
 
 
 
@@ -328,7 +328,7 @@ Functions for controlling the mirror symmetry mode
 
 
 
-### Symmetry:PathToPolar
+### Symmetry:PathToPolar(path)
 
 
 

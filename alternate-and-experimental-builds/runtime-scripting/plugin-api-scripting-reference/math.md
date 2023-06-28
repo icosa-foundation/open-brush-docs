@@ -25,7 +25,7 @@ Various maths functions
 ## Methods
 
 
-### Math:Abs
+### Math:Abs(f)
 
 Returns the absolute value of f
 
@@ -43,7 +43,7 @@ Returns the absolute value of f
 
 
 
-### Math:Acos
+### Math:Acos(f)
 
 Returns the arc-cosine of f - the angle in radians whose cosine is f
 
@@ -61,7 +61,7 @@ Returns the arc-cosine of f - the angle in radians whose cosine is f
 
 
 
-### Math:Approximately
+### Math:Approximately(a, b)
 
 Compares two floating point values if they are similar
 
@@ -80,7 +80,7 @@ Compares two floating point values if they are similar
 
 
 
-### Math:Asin
+### Math:Asin(f)
 
 Returns the arc-sine of f - the angle in radians whose sine is f
 
@@ -98,7 +98,7 @@ Returns the arc-sine of f - the angle in radians whose sine is f
 
 
 
-### Math:Atan
+### Math:Atan(f)
 
 Returns the arc-tangent of f - the angle in radians whose tangent is f
 
@@ -116,7 +116,7 @@ Returns the arc-tangent of f - the angle in radians whose tangent is f
 
 
 
-### Math:Atan2
+### Math:Atan2(y, x)
 
 Returns the angle in radians whose tan is y/x
 
@@ -135,7 +135,7 @@ Returns the angle in radians whose tan is y/x
 
 
 
-### Math:Ceil
+### Math:Ceil(f)
 
 Returns the smallest integer greater to or equal to f
 
@@ -153,7 +153,7 @@ Returns the smallest integer greater to or equal to f
 
 
 
-### Math:Clamp
+### Math:Clamp(value, min, max)
 
 Clamps the given value between the given minimum float and maximum float values. Returns the given value if it is within the min and max range
 
@@ -173,7 +173,7 @@ Clamps the given value between the given minimum float and maximum float values.
 
 
 
-### Math:Clamp01
+### Math:Clamp01(value)
 
 Clamps value between 0 and 1 and returns value
 
@@ -191,7 +191,7 @@ Clamps value between 0 and 1 and returns value
 
 
 
-### Math:ClosestPowerOfTwo
+### Math:ClosestPowerOfTwo(value)
 
 Returns the closest power of two value
 
@@ -209,7 +209,7 @@ Returns the closest power of two value
 
 
 
-### Math:Cos
+### Math:Cos(f)
 
 Returns the cosine of angle f
 
@@ -227,7 +227,7 @@ Returns the cosine of angle f
 
 
 
-### Math:DeltaAngle
+### Math:DeltaAngle(current, target)
 
 Calculates the shortest difference between two given angles
 
@@ -246,7 +246,7 @@ Calculates the shortest difference between two given angles
 
 
 
-### Math:Exp
+### Math:Exp(power)
 
 Returns e raised to the specified power
 
@@ -264,7 +264,7 @@ Returns e raised to the specified power
 
 
 
-### Math:Floor
+### Math:Floor(f)
 
 Rounds a float down to the largest integer less than or equal to it
 
@@ -282,7 +282,7 @@ Rounds a float down to the largest integer less than or equal to it
 
 
 
-### Math:InverseLerp
+### Math:InverseLerp(a, b, value)
 
 Inverse linear interpolation between two values by given ratio
 
@@ -302,7 +302,7 @@ Inverse linear interpolation between two values by given ratio
 
 
 
-### Math:IsPowerOfTwo
+### Math:IsPowerOfTwo(value)
 
 Determines whether a value is a power of two
 
@@ -320,7 +320,7 @@ Determines whether a value is a power of two
 
 
 
-### Math:Lerp
+### Math:Lerp(a, b, t)
 
 Linearly interpolates two floats by a ratio
 
@@ -340,7 +340,7 @@ Linearly interpolates two floats by a ratio
 
 
 
-### Math:LerpAngle
+### Math:LerpAngle(a, b, t)
 
 Linearly interpolates two angles by a ratio
 
@@ -360,7 +360,7 @@ Linearly interpolates two angles by a ratio
 
 
 
-### Math:LerpUnclamped
+### Math:LerpUnclamped(a, b, t)
 
 Linearly interpolates two floats by a ratio. The interpolation is not clamped
 
@@ -380,7 +380,7 @@ Linearly interpolates two floats by a ratio. The interpolation is not clamped
 
 
 
-### Math:Log
+### Math:Log(f, p)
 
 Returns the logarithm of a specified number in a specified base
 
@@ -399,7 +399,7 @@ Returns the logarithm of a specified number in a specified base
 
 
 
-### Math:Log10
+### Math:Log10(f)
 
 Returns the base 10 logarithm of a specified number
 
@@ -417,7 +417,7 @@ Returns the base 10 logarithm of a specified number
 
 
 
-### Math:Max
+### Math:Max(a, b)
 
 Returns the larger of two float numbers
 
@@ -436,7 +436,7 @@ Returns the larger of two float numbers
 
 
 
-### Math:Max
+### Math:Max(values)
 
 Returns the largest value in a sequence of float numbers
 
@@ -454,7 +454,7 @@ Returns the largest value in a sequence of float numbers
 
 
 
-### Math:Min
+### Math:Min(a, b)
 
 Returns the smaller of two float numbers
 
@@ -473,7 +473,7 @@ Returns the smaller of two float numbers
 
 
 
-### Math:Min
+### Math:Min(values)
 
 Returns the smallest value in a sequence of float numbers
 
@@ -491,7 +491,7 @@ Returns the smallest value in a sequence of float numbers
 
 
 
-### Math:MoveTowards
+### Math:MoveTowards(current, target, maxDelta)
 
 Moves a value current towards target
 
@@ -511,7 +511,7 @@ Moves a value current towards target
 
 
 
-### Math:NextPowerOfTwo
+### Math:NextPowerOfTwo(value)
 
 Returns the smallest power of two greater than or equal to the specified number
 
@@ -529,7 +529,7 @@ Returns the smallest power of two greater than or equal to the specified number
 
 
 
-### Math:PerlinNoise
+### Math:PerlinNoise(x, y)
 
 Creates a two-dimensional Perlin noise map
 
@@ -548,7 +548,7 @@ Creates a two-dimensional Perlin noise map
 
 
 
-### Math:PingPong
+### Math:PingPong(t, length)
 
 Loops the value t, so that it is never larger than length and never smaller than 0
 
@@ -567,7 +567,7 @@ Loops the value t, so that it is never larger than length and never smaller than
 
 
 
-### Math:Pow
+### Math:Pow(f, p)
 
 Returns f raised to the specified power
 
@@ -586,7 +586,7 @@ Returns f raised to the specified power
 
 
 
-### Math:Repeater
+### Math:Repeater(t, length)
 
 Loops the value t, so that it is never larger than length and never smaller than 0
 
@@ -605,7 +605,7 @@ Loops the value t, so that it is never larger than length and never smaller than
 
 
 
-### Math:Round
+### Math:Round(f)
 
 Rounds a float to the nearest integer
 
@@ -623,7 +623,7 @@ Rounds a float to the nearest integer
 
 
 
-### Math:Sign
+### Math:Sign(f)
 
 Returns the sign of a float
 
@@ -641,7 +641,7 @@ Returns the sign of a float
 
 
 
-### Math:Sin
+### Math:Sin(f)
 
 Returns the sine of an angle
 
@@ -659,7 +659,7 @@ Returns the sine of an angle
 
 
 
-### Math:Sqrt
+### Math:Sqrt(f)
 
 Returns the square root of a float
 
@@ -677,7 +677,7 @@ Returns the square root of a float
 
 
 
-### Math:SmoothStep
+### Math:SmoothStep(from, to, t)
 
 Smoothly interpolates between the range [from, to] by the ratio t
 
@@ -697,7 +697,7 @@ Smoothly interpolates between the range [from, to] by the ratio t
 
 
 
-### Math:Tan
+### Math:Tan(f)
 
 Returns the tangent of an angle
 
@@ -715,7 +715,7 @@ Returns the tangent of an angle
 
 
 
-### Math:Sinh
+### Math:Sinh(f)
 
 Returns the hyperbolic sine of a float
 
@@ -733,7 +733,7 @@ Returns the hyperbolic sine of a float
 
 
 
-### Math:Cosh
+### Math:Cosh(f)
 
 Returns the hyperbolic cosine of a float
 
@@ -751,7 +751,7 @@ Returns the hyperbolic cosine of a float
 
 
 
-### Math:Tanh
+### Math:Tanh(f)
 
 Returns the hyperbolic tangent of a float
 

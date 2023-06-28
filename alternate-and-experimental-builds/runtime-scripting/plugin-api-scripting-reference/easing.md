@@ -11,7 +11,7 @@ Each easing function takes a value between 0 and 1 and modifies it to speed up o
 ## Methods
 
 
-### Easing:Linear
+### Easing:Linear(t)
 
 Linear easing function
 
@@ -34,7 +34,7 @@ Linear easing function
 
 
 
-### Easing:InQuad
+### Easing:InQuad(t)
 
 InQuad easing function
 
@@ -57,7 +57,7 @@ InQuad easing function
 
 
 
-### Easing:OutQuad
+### Easing:OutQuad(t)
 
 OutQuad easing function
 
@@ -80,7 +80,7 @@ OutQuad easing function
 
 
 
-### Easing:InOutQuad
+### Easing:InOutQuad(t)
 
 InOutQuad easing function
 
@@ -103,7 +103,7 @@ InOutQuad easing function
 
 
 
-### Easing:InCubic
+### Easing:InCubic(t)
 
 InCubic easing function
 
@@ -126,7 +126,7 @@ InCubic easing function
 
 
 
-### Easing:OutCubic
+### Easing:OutCubic(t)
 
 OutCubic easing function
 
@@ -149,7 +149,7 @@ OutCubic easing function
 
 
 
-### Easing:InOutCubic
+### Easing:InOutCubic(t)
 
 InOutCubic easing function
 
@@ -172,7 +172,7 @@ InOutCubic easing function
 
 
 
-### Easing:InQuart
+### Easing:InQuart(t)
 
 InQuart easing function
 
@@ -195,7 +195,7 @@ InQuart easing function
 
 
 
-### Easing:OutQuart
+### Easing:OutQuart(t)
 
 OutQuart easing function
 
@@ -218,7 +218,7 @@ OutQuart easing function
 
 
 
-### Easing:InOutQuart
+### Easing:InOutQuart(t)
 
 InQuart easing function
 
@@ -241,7 +241,7 @@ InQuart easing function
 
 
 
-### Easing:InQuint
+### Easing:InQuint(t)
 
 InQuint easing function
 
@@ -264,7 +264,7 @@ InQuint easing function
 
 
 
-### Easing:OutQuint
+### Easing:OutQuint(t)
 
 OutQuint easing function
 
@@ -287,7 +287,7 @@ OutQuint easing function
 
 
 
-### Easing:InOutQuint
+### Easing:InOutQuint(t)
 
 InOutQuint easing function
 
@@ -310,7 +310,7 @@ InOutQuint easing function
 
 
 
-### Easing:InSine
+### Easing:InSine(t)
 
 InSine easing function
 
@@ -333,7 +333,7 @@ InSine easing function
 
 
 
-### Easing:OutSine
+### Easing:OutSine(t)
 
 OutSine easing function
 
@@ -356,7 +356,7 @@ OutSine easing function
 
 
 
-### Easing:InOutSine
+### Easing:InOutSine(t)
 
 InOutSine easing function
 
@@ -379,7 +379,7 @@ InOutSine easing function
 
 
 
-### Easing:InExpo
+### Easing:InExpo(t)
 
 InExpo easing function
 
@@ -402,7 +402,7 @@ InExpo easing function
 
 
 
-### Easing:OutExpo
+### Easing:OutExpo(t)
 
 OutExpo easing function
 
@@ -425,7 +425,7 @@ OutExpo easing function
 
 
 
-### Easing:InOutExpo
+### Easing:InOutExpo(t)
 
 InOutExpo easing function
 
@@ -448,7 +448,7 @@ InOutExpo easing function
 
 
 
-### Easing:InCirc
+### Easing:InCirc(t)
 
 InCirc easing function
 
@@ -471,7 +471,7 @@ InCirc easing function
 
 
 
-### Easing:OutCirc
+### Easing:OutCirc(t)
 
 OutCirc easing function
 
@@ -494,7 +494,7 @@ OutCirc easing function
 
 
 
-### Easing:InOutCirc
+### Easing:InOutCirc(t)
 
 InOutCirc easing function
 
@@ -517,7 +517,7 @@ InOutCirc easing function
 
 
 
-### Easing:InElastic
+### Easing:InElastic(t)
 
 InElastic easing function
 
@@ -540,7 +540,7 @@ InElastic easing function
 
 
 
-### Easing:OutElastic
+### Easing:OutElastic(t)
 
 OutElastic easing function
 
@@ -563,7 +563,7 @@ OutElastic easing function
 
 
 
-### Easing:InOutElastic
+### Easing:InOutElastic(t)
 
 InOutElastic easing function
 
@@ -586,7 +586,7 @@ InOutElastic easing function
 
 
 
-### Easing:InBack
+### Easing:InBack(t)
 
 InBack easing function
 
@@ -609,7 +609,7 @@ InBack easing function
 
 
 
-### Easing:OutBack
+### Easing:OutBack(t)
 
 OutBack easing function
 
@@ -632,7 +632,7 @@ OutBack easing function
 
 
 
-### Easing:InOutBack
+### Easing:InOutBack(t)
 
 InOutBack easing function
 
@@ -655,7 +655,7 @@ InOutBack easing function
 
 
 
-### Easing:InBounce
+### Easing:InBounce(t)
 
 InBounce easing function
 
@@ -678,7 +678,7 @@ InBounce easing function
 
 
 
-### Easing:OutBounce
+### Easing:OutBounce(t)
 
 OutBounce easing function
 
@@ -701,7 +701,7 @@ OutBounce easing function
 
 
 
-### Easing:InOutBounce
+### Easing:InOutBounce(t)
 
 InOutBounce easing function
 

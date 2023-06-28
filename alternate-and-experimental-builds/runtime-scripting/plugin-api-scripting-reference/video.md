@@ -24,7 +24,7 @@ A video widget
 ## Methods
 
 
-### Video:Import
+### Video:Import(location)
 
 
 
@@ -42,7 +42,7 @@ A video widget
 
 
 
-### Video:Select
+### Video:Select()
 
 
 
@@ -53,7 +53,7 @@ A video widget
 
 
 
-### Video:Delete
+### Video:Delete()
 
 
 

@@ -24,7 +24,7 @@ Represents the user's wand (the controller that isn't the brush controller)
 ## Methods
 
 
-### Wand:ResizeHistory
+### Wand:ResizeHistory(size)
 
 Clears the history and sets it's size
 
@@ -42,7 +42,7 @@ Clears the history and sets it's size
 
 
 
-### Wand:SetHistorySize
+### Wand:SetHistorySize(size)
 
 Sets the size of the history. Only clears it if the size has changed
 
@@ -60,7 +60,7 @@ Sets the size of the history. Only clears it if the size has changed
 
 
 
-### Wand:PastPosition
+### Wand:PastPosition(back)
 
 Recalls previous positions of the Wand from the history buffer
 
@@ -78,7 +78,7 @@ Recalls previous positions of the Wand from the history buffer
 
 
 
-### Wand:PastRotation
+### Wand:PastRotation(back)
 
 Recalls previous orientations of the Wand from the history buffer
 

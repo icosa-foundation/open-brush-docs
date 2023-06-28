@@ -11,7 +11,7 @@ Functions related to SVG images
 ## Methods
 
 
-### Svg:ParsePathString
+### Svg:ParsePathString(svgPath)
 
 
 
@@ -29,7 +29,7 @@ Functions related to SVG images
 
 
 
-### Svg:ParseDocument
+### Svg:ParseDocument(svg, offsetPerPath, includeColors)
 
 
 
@@ -49,7 +49,7 @@ Functions related to SVG images
 
 
 
-### Svg:DrawPathString
+### Svg:DrawPathString(svg, tr)
 
 
 
@@ -68,7 +68,7 @@ Functions related to SVG images
 
 
 
-### Svg:DrawDocument
+### Svg:DrawDocument(svg, tr)
 
 
 

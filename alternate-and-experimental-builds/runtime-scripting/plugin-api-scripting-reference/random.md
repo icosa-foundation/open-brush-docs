@@ -26,7 +26,7 @@ Various functions for generating random data
 ## Methods
 
 
-### Random:ColorHSV
+### Random:ColorHSV(hueMin, hueMax, saturationMin, saturationMax, valueMin, valueMax)
 
 
 
@@ -49,7 +49,7 @@ Various functions for generating random data
 
 
 
-### Random:InitState
+### Random:InitState(seed)
 
 
 
@@ -67,7 +67,7 @@ Various functions for generating random data
 
 
 
-### Random:Range
+### Random:Range(min, max)
 
 
 
@@ -86,7 +86,7 @@ Various functions for generating random data
 
 
 
-### Random:Range
+### Random:Range(min, max)
 
 
 

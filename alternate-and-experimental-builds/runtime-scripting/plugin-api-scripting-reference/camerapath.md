@@ -25,7 +25,7 @@ A camera path and its position, speed or FOV knots
 ## Methods
 
 
-### CameraPath:RenderActivePath
+### CameraPath:RenderActivePath()
 
 Renders the currently active path
 
@@ -41,7 +41,7 @@ Renders the currently active path
 
 
 
-### CameraPath:ShowAll
+### CameraPath:ShowAll()
 
 Shows all camera paths
 
@@ -57,7 +57,7 @@ Shows all camera paths
 
 
 
-### CameraPath:HideAll
+### CameraPath:HideAll()
 
 Hides all camera paths
 
@@ -73,7 +73,7 @@ Hides all camera paths
 
 
 
-### CameraPath:PreviewActivePath
+### CameraPath:PreviewActivePath(active)
 
 Turns previews on or off for the active path
 
@@ -96,7 +96,7 @@ Turns previews on or off for the active path
 
 
 
-### CameraPath:Delete
+### CameraPath:Delete()
 
 Deletes a camera path
 
@@ -112,7 +112,7 @@ Deletes a camera path
 
 
 
-### CameraPath:New
+### CameraPath:New()
 
 Creates a new empty camera path
 
@@ -128,7 +128,7 @@ Creates a new empty camera path
 
 
 
-### CameraPath:FromPath
+### CameraPath:FromPath(path, looped)
 
 Creates a camera path from a Path and whether it should be looped
 
@@ -152,7 +152,7 @@ Creates a camera path from a Path and whether it should be looped
 
 
 
-### CameraPath:AsPath
+### CameraPath:AsPath(step)
 
 Converts the camera path to a path with the specified step size
 
@@ -175,7 +175,7 @@ Converts the camera path to a path with the specified step size
 
 
 
-### CameraPath:Duplicate
+### CameraPath:Duplicate()
 
 Duplicates the camera path
 
@@ -191,7 +191,7 @@ Duplicates the camera path
 
 
 
-### CameraPath:InsertPosition
+### CameraPath:InsertPosition(position, rotation, smoothing)
 
 Inserts a new position knot. (Position must be close to the existing path)
 
@@ -216,7 +216,7 @@ Inserts a new position knot. (Position must be close to the existing path)
 
 
 
-### CameraPath:InsertPositionAtTime
+### CameraPath:InsertPositionAtTime(t, rotation, smoothing)
 
 Inserts a new position knot into the path at the specified time
 
@@ -241,7 +241,7 @@ Inserts a new position knot into the path at the specified time
 
 
 
-### CameraPath:InsertRotation
+### CameraPath:InsertRotation(position, rotation)
 
 Inserts a rotation knot at the specified position close to the existing path
 
@@ -265,7 +265,7 @@ Inserts a rotation knot at the specified position close to the existing path
 
 
 
-### CameraPath:InsertRotationAtTime
+### CameraPath:InsertRotationAtTime(t, rotation)
 
 Inserts a rotation knot at the specified time
 
@@ -289,7 +289,7 @@ Inserts a rotation knot at the specified time
 
 
 
-### CameraPath:InsertFov
+### CameraPath:InsertFov(position, fov)
 
 Inserts a field of view knot at the specified position close to the existing path
 
@@ -313,7 +313,7 @@ Inserts a field of view knot at the specified position close to the existing pat
 
 
 
-### CameraPath:InsertFovAtTime
+### CameraPath:InsertFovAtTime(t, fov)
 
 Inserts a fov knot at the specified time
 
@@ -337,7 +337,7 @@ Inserts a fov knot at the specified time
 
 
 
-### CameraPath:InsertSpeed
+### CameraPath:InsertSpeed(position, speed)
 
 Inserts a speed knot at the specified position close to the existing path
 
@@ -361,7 +361,7 @@ Inserts a speed knot at the specified position close to the existing path
 
 
 
-### CameraPath:InsertSpeedAtTime
+### CameraPath:InsertSpeedAtTime(t, speed)
 
 Inserts a speed knot at the specified time
 
@@ -385,7 +385,7 @@ Inserts a speed knot at the specified time
 
 
 
-### CameraPath:Extend
+### CameraPath:Extend(position, rotation, smoothing, atStart)
 
 Extends the camera path
 
@@ -411,7 +411,7 @@ Extends the camera path
 
 
 
-### CameraPath:Loop
+### CameraPath:Loop()
 
 Loops the camera path
 
@@ -427,7 +427,7 @@ Loops the camera path
 
 
 
-### CameraPath:RecordActivePath
+### CameraPath:RecordActivePath()
 
 Records the active camera path
 
@@ -443,7 +443,7 @@ Records the active camera path
 
 
 
-### CameraPath:Sample
+### CameraPath:Sample(time, loop, pingpong)
 
 Samples the camera path at the specified time
 
@@ -468,7 +468,7 @@ Samples the camera path at the specified time
 
 
 
-### CameraPath:Simplify
+### CameraPath:Simplify(tolerance, smoothing)
 
 Simplifies the camera path
 

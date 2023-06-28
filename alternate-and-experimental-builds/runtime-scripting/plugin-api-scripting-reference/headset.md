@@ -11,7 +11,7 @@ The user's headset
 ## Methods
 
 
-### Headset:ResizeHistory
+### Headset:ResizeHistory(size)
 
 Clears the history and sets it's size
 
@@ -29,7 +29,7 @@ Clears the history and sets it's size
 
 
 
-### Headset:SetHistorySize
+### Headset:SetHistorySize(size)
 
 Sets the size of the history. Only clears it if the size has changed
 
@@ -47,7 +47,7 @@ Sets the size of the history. Only clears it if the size has changed
 
 
 
-### Headset:PastPosition
+### Headset:PastPosition(back)
 
 Recalls previous positions of the Headset from the history buffer
 
@@ -65,7 +65,7 @@ Recalls previous positions of the Headset from the history buffer
 
 
 
-### Headset:PastRotation
+### Headset:PastRotation(back)
 
 Recalls previous orientations of the Headset from the history buffer
 

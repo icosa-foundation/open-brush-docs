@@ -11,7 +11,7 @@ Functions to call remote websites or APIs
 ## Methods
 
 
-### WebRequest:Get
+### WebRequest:Get(url, onSuccess, onError, headers, context)
 
 
 
@@ -33,7 +33,7 @@ Functions to call remote websites or APIs
 
 
 
-### WebRequest:Post
+### WebRequest:Post(url, postData, onSuccess, onError, headers, context)
 
 
 
