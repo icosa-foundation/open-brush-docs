@@ -9,11 +9,11 @@ A set of transforms that form a path in 3D space. These form the basis for brush
 ## Properties
 
 <table>
-<thead><tr><th width="225">Name</th><th width="160">Return Type</th><th>Description</th></tr></thead>
+<thead><tr><th width="225">Name</th><th width="160">Return Type</th><th width="120">Read/Write?</th><th>Description</th></tr></thead>
 <tbody>
-<tr><td>count</td><td>number</td><td>Returns the number of points in this path</td></tr>
-<tr><td>Item</td><td><a href="transform.md">Transform</a></td><td></td></tr>
-<tr><td>last</td><td><a href="transform.md">Transform</a></td><td>Returns the last point in this path</td></tr>
+<tr><td>count</td><td>number</td><td>Read-only</td><td>Returns the number of points in this path</td></tr>
+<tr><td>item</td><td><a href="transform.md">Transform</a></td><td>Read-only</td><td></td></tr>
+<tr><td>last</td><td><a href="transform.md">Transform</a></td><td>Read-only</td><td>Returns the last point in this path</td></tr>
 <tr><td></td><td></td><td></td></tr></tbody></table>
 
 
@@ -69,7 +69,7 @@ A set of transforms that form a path in 3D space. These form the basis for brush
 
 
 
-### Path:GetDirection(index)
+### Path:getdirection(index)
 
 Returns a vector representing the direction of the path at the given point
 
@@ -87,7 +87,7 @@ Returns a vector representing the direction of the path at the given point
 
 
 
-### Path:GetNormal(index)
+### Path:getnormal(index)
 
 Returns a vector representing the normal of the path at the given point
 
@@ -105,7 +105,7 @@ Returns a vector representing the normal of the path at the given point
 
 
 
-### Path:GetTangent(index)
+### Path:gettangent(index)
 
 Returns a vector representing the tangent of the path at the given point
 
@@ -123,7 +123,7 @@ Returns a vector representing the tangent of the path at the given point
 
 
 
-### Path:Draw()
+### Path:draw()
 
 Draws this path as a brush stroke using current settings
 
@@ -134,7 +134,7 @@ Draws this path as a brush stroke using current settings
 
 
 
-### Path:Insert(transform)
+### Path:insert(transform)
 
 Inserts a new point at the end of the path
 
@@ -152,7 +152,7 @@ Inserts a new point at the end of the path
 
 
 
-### Path:Insert(transform, index)
+### Path:insert(transform, index)
 
 Inserts a new point at the given path index
 
@@ -171,7 +171,7 @@ Inserts a new point at the given path index
 
 
 
-### Path:TransformBy(transform)
+### Path:transformby(transform)
 
 Transforms all points in the path by the given amount
 
@@ -189,7 +189,7 @@ Transforms all points in the path by the given amount
 
 
 
-### Path:TranslateBy(amount)
+### Path:translateby(amount)
 
 Changes the position of all points in the path by a given amount
 
@@ -207,7 +207,7 @@ Changes the position of all points in the path by a given amount
 
 
 
-### Path:RotateBy(amount)
+### Path:rotateby(amount)
 
 Rotates all points in the path around the origin by a given amount
 
@@ -225,7 +225,7 @@ Rotates all points in the path around the origin by a given amount
 
 
 
-### Path:ScaleBy(scale)
+### Path:scaleby(scale)
 
 Scales all points the path away or towards the origin
 
@@ -243,7 +243,7 @@ Scales all points the path away or towards the origin
 
 
 
-### Path:Center()
+### Path:center()
 
 Offsets all points on the path so that their common center is at the origin
 
@@ -254,7 +254,7 @@ Offsets all points on the path so that their common center is at the origin
 
 
 
-### Path:StartingFrom(index)
+### Path:startingfrom(index)
 
 Reorders the points so that point at the given index is shifted to be the first point
 
@@ -272,7 +272,7 @@ Reorders the points so that point at the given index is shifted to be the first 
 
 
 
-### Path:FindClosest(point)
+### Path:findclosest(point)
 
 Returns the index of the point closest to the given position
 
@@ -290,7 +290,7 @@ Returns the index of the point closest to the given position
 
 
 
-### Path:FindMinimumX()
+### Path:findminimumx()
 
 Returns the index of the point with the smallest X value
 
@@ -301,7 +301,7 @@ Returns the index of the point with the smallest X value
 
 
 
-### Path:FindMinimumY()
+### Path:findminimumy()
 
 Returns the index of the point with the smallest Y value
 
@@ -312,7 +312,7 @@ Returns the index of the point with the smallest Y value
 
 
 
-### Path:FindMinimumZ()
+### Path:findminimumz()
 
 Returns the index of the point with the smallest Z value
 
@@ -323,7 +323,7 @@ Returns the index of the point with the smallest Z value
 
 
 
-### Path:FindMaximumX()
+### Path:findmaximumx()
 
 Returns the index of the point with the biggest X value
 
@@ -334,7 +334,7 @@ Returns the index of the point with the biggest X value
 
 
 
-### Path:FindMaximumY()
+### Path:findmaximumy()
 
 Returns the index of the point with the biggest Y value
 
@@ -345,7 +345,7 @@ Returns the index of the point with the biggest Y value
 
 
 
-### Path:FindMaximumZ()
+### Path:findmaximumz()
 
 Returns the index of the point with the biggest Z value
 
@@ -356,7 +356,7 @@ Returns the index of the point with the biggest Z value
 
 
 
-### Path:Normalize(scale)
+### Path:normalize(scale)
 
 Scales and shifts all points so that they fit in a 1 unit cube at the origin
 
@@ -393,7 +393,7 @@ Scales and shifts all points so that they fit in a 1 unit cube at the origin
 
 
 
-### Path:Resample(spacing)
+### Path:resample(spacing)
 
 Resamples the path at a specified spacing
 
@@ -411,7 +411,7 @@ Resamples the path at a specified spacing
 
 
 
-### Path:Subdivide(parts)
+### Path:subdivide(parts)
 
 Splits each path segment into smaller parts
 

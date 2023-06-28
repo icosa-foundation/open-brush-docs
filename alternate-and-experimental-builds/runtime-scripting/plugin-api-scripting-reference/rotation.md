@@ -9,21 +9,21 @@ Represents a rotation or orientation in 3D space
 ## Properties
 
 <table>
-<thead><tr><th width="225">Name</th><th width="160">Return Type</th><th>Description</th></tr></thead>
+<thead><tr><th width="225">Name</th><th width="160">Return Type</th><th width="120">Read/Write?</th><th>Description</th></tr></thead>
 <tbody>
-<tr><td>Item</td><td>number</td><td></td></tr>
-<tr><td>x</td><td>number</td><td></td></tr>
-<tr><td>y</td><td>number</td><td></td></tr>
-<tr><td>z</td><td>number</td><td></td></tr>
-<tr><td>zero</td><td><a href="rotation.md">Rotation</a></td><td></td></tr>
-<tr><td>left</td><td><a href="rotation.md">Rotation</a></td><td></td></tr>
-<tr><td>right</td><td><a href="rotation.md">Rotation</a></td><td></td></tr>
-<tr><td>up</td><td><a href="rotation.md">Rotation</a></td><td></td></tr>
-<tr><td>down</td><td><a href="rotation.md">Rotation</a></td><td></td></tr>
-<tr><td>anticlockwise</td><td><a href="rotation.md">Rotation</a></td><td></td></tr>
-<tr><td>clockwise</td><td><a href="rotation.md">Rotation</a></td><td></td></tr>
-<tr><td>normalized</td><td><a href="rotation.md">Rotation</a></td><td></td></tr>
-<tr><td>kEpsilon</td><td>number</td><td></td></tr>
+<tr><td>item</td><td>number</td><td>Read/Write</td><td></td></tr>
+<tr><td>x</td><td>number</td><td>Read-only</td><td></td></tr>
+<tr><td>y</td><td>number</td><td>Read-only</td><td></td></tr>
+<tr><td>z</td><td>number</td><td>Read-only</td><td></td></tr>
+<tr><td>zero</td><td><a href="rotation.md">Rotation</a></td><td>Read-only</td><td></td></tr>
+<tr><td>left</td><td><a href="rotation.md">Rotation</a></td><td>Read-only</td><td></td></tr>
+<tr><td>right</td><td><a href="rotation.md">Rotation</a></td><td>Read-only</td><td></td></tr>
+<tr><td>up</td><td><a href="rotation.md">Rotation</a></td><td>Read-only</td><td></td></tr>
+<tr><td>down</td><td><a href="rotation.md">Rotation</a></td><td>Read-only</td><td></td></tr>
+<tr><td>anticlockwise</td><td><a href="rotation.md">Rotation</a></td><td>Read-only</td><td></td></tr>
+<tr><td>clockwise</td><td><a href="rotation.md">Rotation</a></td><td>Read-only</td><td></td></tr>
+<tr><td>normalized</td><td><a href="rotation.md">Rotation</a></td><td>Read-only</td><td></td></tr>
+<tr><td>kEpsilon</td><td>number</td><td>Read-only</td><td></td></tr>
 <tr><td></td><td></td><td></td></tr></tbody></table>
 
 
@@ -52,7 +52,7 @@ Represents a rotation or orientation in 3D space
 
 
 
-### Rotation:SetFromToRotation(fromDirection, toDirection)
+### Rotation:setfromtorotation(fromDirection, toDirection)
 
 
 
@@ -71,7 +71,7 @@ Represents a rotation or orientation in 3D space
 
 
 
-### Rotation:SetLookRotation(view)
+### Rotation:setlookrotation(view)
 
 
 
@@ -89,7 +89,7 @@ Represents a rotation or orientation in 3D space
 
 
 
-### Rotation:SetLookRotation(view, up)
+### Rotation:setlookrotation(view, up)
 
 
 
@@ -108,7 +108,7 @@ Represents a rotation or orientation in 3D space
 
 
 
-### Rotation:ToAngleAxis()
+### Rotation:toangleaxis()
 
 
 
@@ -368,7 +368,7 @@ Represents a rotation or orientation in 3D space
 
 
 
-### Rotation:Multiply(b)
+### Rotation:multiply(b)
 
 
 
@@ -386,7 +386,7 @@ Represents a rotation or orientation in 3D space
 
 
 
-### Rotation:Multiply(x, y, z)
+### Rotation:multiply(x, y, z)
 
 
 
@@ -406,7 +406,7 @@ Represents a rotation or orientation in 3D space
 
 
 
-### Rotation:Scale(a)
+### Rotation:scale(a)
 
 
 

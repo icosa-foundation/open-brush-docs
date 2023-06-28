@@ -9,28 +9,28 @@ An RGB color
 ## Properties
 
 <table>
-<thead><tr><th width="225">Name</th><th width="160">Return Type</th><th>Description</th></tr></thead>
+<thead><tr><th width="225">Name</th><th width="160">Return Type</th><th width="120">Read/Write?</th><th>Description</th></tr></thead>
 <tbody>
-<tr><td>Item</td><td>number</td><td>Gets or sets the color component at the specified index</td></tr>
-<tr><td>r</td><td>number</td><td>Gets the red component of the color</td></tr>
-<tr><td>g</td><td>number</td><td>Gets the green component of the color</td></tr>
-<tr><td>b</td><td>number</td><td>Gets the blue component of the color</td></tr>
-<tr><td>a</td><td>number</td><td>Gets the alpha component of the color</td></tr>
-<tr><td>grayscale</td><td>number</td><td>Gets the grayscale value of the color</td></tr>
-<tr><td>gamma</td><td><a href="color.md">Color</a></td><td>Gets the gamma color space representation of the color</td></tr>
-<tr><td>linear</td><td><a href="color.md">Color</a></td><td>Gets the linear color space representation of the color</td></tr>
-<tr><td>maxColorComponent</td><td>number</td><td>Gets the maximum color component value of the color</td></tr>
-<tr><td>black</td><td><a href="color.md">Color</a></td><td>Gets the black color</td></tr>
-<tr><td>blue</td><td><a href="color.md">Color</a></td><td>Gets the blue color</td></tr>
-<tr><td>clear</td><td><a href="color.md">Color</a></td><td>Gets the clear color</td></tr>
-<tr><td>cyan</td><td><a href="color.md">Color</a></td><td>Gets the cyan color</td></tr>
-<tr><td>gray</td><td><a href="color.md">Color</a></td><td>Gets the gray color</td></tr>
-<tr><td>green</td><td><a href="color.md">Color</a></td><td>Gets the green color</td></tr>
-<tr><td>grey</td><td><a href="color.md">Color</a></td><td>Gets the grey color</td></tr>
-<tr><td>magenta</td><td><a href="color.md">Color</a></td><td>Gets the magenta color</td></tr>
-<tr><td>red</td><td><a href="color.md">Color</a></td><td>Gets the red color</td></tr>
-<tr><td>white</td><td><a href="color.md">Color</a></td><td>Gets the white color</td></tr>
-<tr><td>yellow</td><td><a href="color.md">Color</a></td><td>Gets the yellow color</td></tr>
+<tr><td>item</td><td>number</td><td>Read/Write</td><td>Gets or sets the color component at the specified index</td></tr>
+<tr><td>r</td><td>number</td><td>Read-only</td><td>Gets the red component of the color</td></tr>
+<tr><td>g</td><td>number</td><td>Read-only</td><td>Gets the green component of the color</td></tr>
+<tr><td>b</td><td>number</td><td>Read-only</td><td>Gets the blue component of the color</td></tr>
+<tr><td>a</td><td>number</td><td>Read-only</td><td>Gets the alpha component of the color</td></tr>
+<tr><td>grayscale</td><td>number</td><td>Read-only</td><td>Gets the grayscale value of the color</td></tr>
+<tr><td>gamma</td><td><a href="color.md">Color</a></td><td>Read-only</td><td>Gets the gamma color space representation of the color</td></tr>
+<tr><td>linear</td><td><a href="color.md">Color</a></td><td>Read-only</td><td>Gets the linear color space representation of the color</td></tr>
+<tr><td>maxcolorcomponent</td><td>number</td><td>Read-only</td><td>Gets the maximum color component value of the color</td></tr>
+<tr><td>black</td><td><a href="color.md">Color</a></td><td>Read-only</td><td>Gets the black color</td></tr>
+<tr><td>blue</td><td><a href="color.md">Color</a></td><td>Read-only</td><td>Gets the blue color</td></tr>
+<tr><td>clear</td><td><a href="color.md">Color</a></td><td>Read-only</td><td>Gets the clear color</td></tr>
+<tr><td>cyan</td><td><a href="color.md">Color</a></td><td>Read-only</td><td>Gets the cyan color</td></tr>
+<tr><td>gray</td><td><a href="color.md">Color</a></td><td>Read-only</td><td>Gets the gray color</td></tr>
+<tr><td>green</td><td><a href="color.md">Color</a></td><td>Read-only</td><td>Gets the green color</td></tr>
+<tr><td>grey</td><td><a href="color.md">Color</a></td><td>Read-only</td><td>Gets the grey color</td></tr>
+<tr><td>magenta</td><td><a href="color.md">Color</a></td><td>Read-only</td><td>Gets the magenta color</td></tr>
+<tr><td>red</td><td><a href="color.md">Color</a></td><td>Read-only</td><td>Gets the red color</td></tr>
+<tr><td>white</td><td><a href="color.md">Color</a></td><td>Read-only</td><td>Gets the white color</td></tr>
+<tr><td>yellow</td><td><a href="color.md">Color</a></td><td>Read-only</td><td>Gets the yellow color</td></tr>
 <tr><td></td><td></td><td></td></tr></tbody></table>
 
 
@@ -59,7 +59,7 @@ Creates a new instance of a color with the specified RGB values
 
 #### Example
 
-<pre class="language-lua"><code class="lang-lua"><strong>myColor = Color:New(0.5, 0, 1</strong></code></pre>
+<pre class="language-lua"><code class="lang-lua"><strong>myColor = Color:New(0.5, 0, 1)</strong></code></pre>
 
 
 
@@ -87,7 +87,7 @@ Creates a new instance of the Color with the color parsed from the specified HTM
 
 
 
-### Color:Greyscale(col)
+### Color:Greyscale(color)
 
 Calculates the grayscale value of the specified color
 
@@ -98,7 +98,7 @@ Calculates the grayscale value of the specified color
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>col</td><td><a href="color.md">Color</a></td><td>The color</td></tr></tbody></table>
+<tbody><tr><td>color</td><td><a href="color.md">Color</a></td><td></td></tr></tbody></table>
 
 
 
@@ -110,7 +110,7 @@ Calculates the grayscale value of the specified color
 
 
 
-### Color:MaxColorComponent(col)
+### Color:MaxColorComponent(color)
 
 Gets the maximum color component value of the specified color
 
@@ -121,7 +121,7 @@ Gets the maximum color component value of the specified color
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>col</td><td><a href="color.md">Color</a></td><td>The color</td></tr></tbody></table>
+<tbody><tr><td>color</td><td><a href="color.md">Color</a></td><td></td></tr></tbody></table>
 
 
 
@@ -277,7 +277,7 @@ Converts an RGB color to an HSV color
 
 
 
-### Color:Add(b)
+### Color:add(b)
 
 Adds the specified color to this color
 
@@ -300,7 +300,7 @@ Adds the specified color to this color
 
 
 
-### Color:Add(r, g, b)
+### Color:add(r, g, b)
 
 Adds the specified RGB values to this color
 
@@ -325,7 +325,7 @@ Adds the specified RGB values to this color
 
 
 
-### Color:Subtract(b)
+### Color:subtract(b)
 
 Subtracts the specified color from this color
 
@@ -348,7 +348,7 @@ Subtracts the specified color from this color
 
 
 
-### Color:Subtract(r, g, b)
+### Color:subtract(r, g, b)
 
 Subtracts the specified RGB values from this color
 
@@ -373,7 +373,7 @@ Subtracts the specified RGB values from this color
 
 
 
-### Color:Multiply(b)
+### Color:multiply(b)
 
 Multiplies this color by the specified value
 
@@ -396,7 +396,7 @@ Multiplies this color by the specified value
 
 
 
-### Color:Multiply(r, g, b)
+### Color:multiply(r, g, b)
 
 Multiplies this color by the specified RGB values
 
@@ -421,7 +421,7 @@ Multiplies this color by the specified RGB values
 
 
 
-### Color:Divide(b)
+### Color:divide(b)
 
 Divides this color by the specified value
 
@@ -444,7 +444,7 @@ Divides this color by the specified value
 
 
 
-### Color:NotEquals(b)
+### Color:notequals(b)
 
 Determines whether this color is not equal to the specified color
 
@@ -467,7 +467,7 @@ Determines whether this color is not equal to the specified color
 
 
 
-### Color:NotEquals(r, g, b)
+### Color:notequals(r, g, b)
 
 Determines whether this color is not equal to the specified RGB values
 

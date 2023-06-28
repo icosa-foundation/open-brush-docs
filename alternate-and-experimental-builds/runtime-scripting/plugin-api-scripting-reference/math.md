@@ -9,14 +9,14 @@ Various maths functions
 ## Properties
 
 <table>
-<thead><tr><th width="225">Name</th><th width="160">Return Type</th><th>Description</th></tr></thead>
+<thead><tr><th width="225">Name</th><th width="160">Return Type</th><th width="120">Read/Write?</th><th>Description</th></tr></thead>
 <tbody>
-<tr><td>deg2Rad</td><td>number</td><td>A constant that when multiplied by a value in degrees converts it to radians</td></tr>
-<tr><td>epsilon</td><td>number</td><td>The smallest value that a float can have such that 1.0+ ε != 1.0</td></tr>
-<tr><td>positiveInfinity</td><td>number</td><td>Positive Infinity</td></tr>
-<tr><td>negativeInfinity</td><td>number</td><td>Negative Infinity</td></tr>
-<tr><td>pi</td><td>number</td><td>The value of Pi</td></tr>
-<tr><td>rad2Deg</td><td>number</td><td>A constant that when multiplied by a value in radians converts it to degrees</td></tr>
+<tr><td>deg2Rad</td><td>number</td><td>Read-only</td><td>A constant that when multiplied by a value in degrees converts it to radians</td></tr>
+<tr><td>epsilon</td><td>number</td><td>Read-only</td><td>The smallest value that a float can have such that 1.0+ ε != 1.0</td></tr>
+<tr><td>positiveInfinity</td><td>number</td><td>Read-only</td><td>Positive Infinity</td></tr>
+<tr><td>negativeInfinity</td><td>number</td><td>Read-only</td><td>Negative Infinity</td></tr>
+<tr><td>pi</td><td>number</td><td>Read-only</td><td>The value of Pi</td></tr>
+<tr><td>rad2Deg</td><td>number</td><td>Read-only</td><td>A constant that when multiplied by a value in radians converts it to degrees</td></tr>
 <tr><td></td><td></td><td></td></tr></tbody></table>
 
 

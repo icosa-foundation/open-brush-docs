@@ -9,14 +9,14 @@ A camera path and its position, speed or FOV knots
 ## Properties
 
 <table>
-<thead><tr><th width="225">Name</th><th width="160">Return Type</th><th>Description</th></tr></thead>
+<thead><tr><th width="225">Name</th><th width="160">Return Type</th><th width="120">Read/Write?</th><th>Description</th></tr></thead>
 <tbody>
-<tr><td>index</td><td>number</td><td>Returns the index of this Camera Path in Sketch.cameraPaths</td></tr>
-<tr><td>active</td><td>boolean</td><td>Gets or sets whether this Camera Path is active</td></tr>
-<tr><td>transform</td><td><a href="transform.md">Transform</a></td><td>The transform of the camera path</td></tr>
-<tr><td>position</td><td><a href="vector3.md">Vector3</a></td><td>The 3D position of the Camera Path (usually but not always its first position knot)</td></tr>
-<tr><td>rotation</td><td><a href="rotation.md">Rotation</a></td><td>The 3D orientation of the Brush Camera Path</td></tr>
-<tr><td>scale</td><td>number</td><td>The scale of the camera path</td></tr>
+<tr><td>index</td><td>number</td><td>Read-only</td><td>Returns the index of this Camera Path in Sketch.cameraPaths</td></tr>
+<tr><td>active</td><td>boolean</td><td>Read/Write</td><td>Gets or sets whether this Camera Path is active</td></tr>
+<tr><td>transform</td><td><a href="transform.md">Transform</a></td><td>Read/Write</td><td>The transform of the camera path</td></tr>
+<tr><td>position</td><td><a href="vector3.md">Vector3</a></td><td>Read/Write</td><td>The 3D position of the Camera Path (usually but not always its first position knot)</td></tr>
+<tr><td>rotation</td><td><a href="rotation.md">Rotation</a></td><td>Read/Write</td><td>The 3D orientation of the Brush Camera Path</td></tr>
+<tr><td>scale</td><td>number</td><td>Read/Write</td><td>The scale of the camera path</td></tr>
 <tr><td></td><td></td><td></td></tr></tbody></table>
 
 
@@ -96,7 +96,7 @@ Turns previews on or off for the active path
 
 
 
-### CameraPath:Delete()
+### CameraPath:delete()
 
 Deletes a camera path
 
@@ -152,7 +152,7 @@ Creates a camera path from a Path and whether it should be looped
 
 
 
-### CameraPath:AsPath(step)
+### CameraPath:aspath(step)
 
 Converts the camera path to a path with the specified step size
 
@@ -175,7 +175,7 @@ Converts the camera path to a path with the specified step size
 
 
 
-### CameraPath:Duplicate()
+### CameraPath:duplicate()
 
 Duplicates the camera path
 
@@ -191,7 +191,7 @@ Duplicates the camera path
 
 
 
-### CameraPath:InsertPosition(position, rotation, smoothing)
+### CameraPath:insertposition(position, rotation, smoothing)
 
 Inserts a new position knot. (Position must be close to the existing path)
 
@@ -216,7 +216,7 @@ Inserts a new position knot. (Position must be close to the existing path)
 
 
 
-### CameraPath:InsertPositionAtTime(t, rotation, smoothing)
+### CameraPath:insertpositionattime(t, rotation, smoothing)
 
 Inserts a new position knot into the path at the specified time
 
@@ -241,7 +241,7 @@ Inserts a new position knot into the path at the specified time
 
 
 
-### CameraPath:InsertRotation(position, rotation)
+### CameraPath:insertrotation(position, rotation)
 
 Inserts a rotation knot at the specified position close to the existing path
 
@@ -265,7 +265,7 @@ Inserts a rotation knot at the specified position close to the existing path
 
 
 
-### CameraPath:InsertRotationAtTime(t, rotation)
+### CameraPath:insertrotationattime(t, rotation)
 
 Inserts a rotation knot at the specified time
 
@@ -289,7 +289,7 @@ Inserts a rotation knot at the specified time
 
 
 
-### CameraPath:InsertFov(position, fov)
+### CameraPath:insertfov(position, fov)
 
 Inserts a field of view knot at the specified position close to the existing path
 
@@ -313,7 +313,7 @@ Inserts a field of view knot at the specified position close to the existing pat
 
 
 
-### CameraPath:InsertFovAtTime(t, fov)
+### CameraPath:insertfovattime(t, fov)
 
 Inserts a fov knot at the specified time
 
@@ -337,7 +337,7 @@ Inserts a fov knot at the specified time
 
 
 
-### CameraPath:InsertSpeed(position, speed)
+### CameraPath:insertspeed(position, speed)
 
 Inserts a speed knot at the specified position close to the existing path
 
@@ -361,7 +361,7 @@ Inserts a speed knot at the specified position close to the existing path
 
 
 
-### CameraPath:InsertSpeedAtTime(t, speed)
+### CameraPath:insertspeedattime(t, speed)
 
 Inserts a speed knot at the specified time
 
@@ -385,7 +385,7 @@ Inserts a speed knot at the specified time
 
 
 
-### CameraPath:Extend(position, rotation, smoothing, atStart)
+### CameraPath:extend(position, rotation, smoothing, atStart)
 
 Extends the camera path
 
@@ -411,7 +411,7 @@ Extends the camera path
 
 
 
-### CameraPath:Loop()
+### CameraPath:loop()
 
 Loops the camera path
 
@@ -443,7 +443,7 @@ Records the active camera path
 
 
 
-### CameraPath:Sample(time, loop, pingpong)
+### CameraPath:sample(time, loop, pingpong)
 
 Samples the camera path at the specified time
 
@@ -468,7 +468,7 @@ Samples the camera path at the specified time
 
 
 
-### CameraPath:Simplify(tolerance, smoothing)
+### CameraPath:simplify(tolerance, smoothing)
 
 Simplifies the camera path
 
