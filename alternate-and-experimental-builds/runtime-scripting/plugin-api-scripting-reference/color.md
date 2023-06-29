@@ -9,17 +9,17 @@ An RGB color
 <table>
 <thead><tr><th width="225">Name</th><th width="160">Return Type</th><th width="80">Read/Write?</th><th>Description</th></tr></thead>
 <tbody>
-<tr><td>black</td><td><a href="color.md">Color</a></td><td>Read-only</td><td>Gets the black color</td></tr>
-<tr><td>blue</td><td><a href="color.md">Color</a></td><td>Read-only</td><td>Gets the blue color</td></tr>
-<tr><td>clear</td><td><a href="color.md">Color</a></td><td>Read-only</td><td>Gets the clear color</td></tr>
-<tr><td>cyan</td><td><a href="color.md">Color</a></td><td>Read-only</td><td>Gets the cyan color</td></tr>
-<tr><td>gray</td><td><a href="color.md">Color</a></td><td>Read-only</td><td>Gets the gray color</td></tr>
-<tr><td>green</td><td><a href="color.md">Color</a></td><td>Read-only</td><td>Gets the green color</td></tr>
-<tr><td>grey</td><td><a href="color.md">Color</a></td><td>Read-only</td><td>Gets the grey color</td></tr>
-<tr><td>magenta</td><td><a href="color.md">Color</a></td><td>Read-only</td><td>Gets the magenta color</td></tr>
-<tr><td>red</td><td><a href="color.md">Color</a></td><td>Read-only</td><td>Gets the red color</td></tr>
-<tr><td>white</td><td><a href="color.md">Color</a></td><td>Read-only</td><td>Gets the white color</td></tr>
-<tr><td>yellow</td><td><a href="color.md">Color</a></td><td>Read-only</td><td>Gets the yellow color</td></tr>
+<tr><td>black</td><td><a href="color.md">Color</a></td><td>Read-only</td><td>The color black</td></tr>
+<tr><td>blue</td><td><a href="color.md">Color</a></td><td>Read-only</td><td>The color blue</td></tr>
+<tr><td>clear</td><td><a href="color.md">Color</a></td><td>Read-only</td><td>The color clear</td></tr>
+<tr><td>cyan</td><td><a href="color.md">Color</a></td><td>Read-only</td><td>The color cyan</td></tr>
+<tr><td>gray</td><td><a href="color.md">Color</a></td><td>Read-only</td><td>The color gray</td></tr>
+<tr><td>green</td><td><a href="color.md">Color</a></td><td>Read-only</td><td>The color green</td></tr>
+<tr><td>grey</td><td><a href="color.md">Color</a></td><td>Read-only</td><td>The color grey</td></tr>
+<tr><td>magenta</td><td><a href="color.md">Color</a></td><td>Read-only</td><td>The color magenta</td></tr>
+<tr><td>red</td><td><a href="color.md">Color</a></td><td>Read-only</td><td>The color red</td></tr>
+<tr><td>white</td><td><a href="color.md">Color</a></td><td>Read-only</td><td>The color white</td></tr>
+<tr><td>yellow</td><td><a href="color.md">Color</a></td><td>Read-only</td><td>The color yellow</td></tr>
 </tbody></table>
 
 
@@ -92,29 +92,6 @@ Creates a new instance of the Color with the color parsed from the specified HTM
 #### Example
 
 <pre class="language-lua"><code class="lang-lua"><strong>myColor = Color:New("D3B322")</strong></code></pre>
-
-
-
-
-### Color:ParseHtmlString(html)
-
-Parses the specified HTML string and returns the color
-
-**Returns:** <a href="color.md">Color</a>
-
-
-**Parameters:**
-
-<table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>html</td><td>string</td><td>The HTML string representing the color</td></tr></tbody></table>
-
-
-
-
-#### Example
-
-<pre class="language-lua"><code class="lang-lua"><strong>myColor = Color:ParseHtmlString(htmlColor)</strong></code></pre>
 
 
 
