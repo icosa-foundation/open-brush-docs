@@ -2,29 +2,54 @@
 # Image
 
 ## Summary
-
 A reference image widget
 
 
-## Properties
+## Class Properties
 
 <table>
-<thead><tr><th width="225">Name</th><th width="160">Return Type</th><th width="120">Read/Write?</th><th>Description</th></tr></thead>
+<thead><tr><th width="225">Name</th><th width="160">Return Type</th><th width="80">Read/Write?</th><th>Description</th></tr></thead>
 <tbody>
-<tr><td>index</td><td>number</td><td>Read-only</td><td>The index of the active widget</td></tr>
-<tr><td>transform</td><td><a href="transform.md">Transform</a></td><td>Read/Write</td><td>Gets or sets the transform of the image widget</td></tr>
-<tr><td>position</td><td><a href="vector3.md">Vector3</a></td><td>Read/Write</td><td>The 3D position of the Image Widget</td></tr>
-<tr><td>rotation</td><td><a href="rotation.md">Rotation</a></td><td>Read/Write</td><td>The 3D orientation of the Image Widget</td></tr>
-<tr><td>scale</td><td>number</td><td>Read/Write</td><td>The scale of the image widget</td></tr>
+<tr><td>index</td><td>number</td><td>Read-only</td><td>No</td><td>The index of the active widget</td></tr>
+<tr><td>transform</td><td><a href="transform.md">Transform</a></td><td>Read/Write</td><td>No</td><td>Gets or sets the transform of the image widget</td></tr>
+<tr><td>position</td><td><a href="vector3.md">Vector3</a></td><td>Read/Write</td><td>No</td><td>The 3D position of the Image Widget</td></tr>
+<tr><td>rotation</td><td><a href="rotation.md">Rotation</a></td><td>Read/Write</td><td>No</td><td>The 3D orientation of the Image Widget</td></tr>
+<tr><td>scale</td><td>number</td><td>Read/Write</td><td>No</td><td>The scale of the image widget</td></tr>
 <tr><td></td><td></td><td></td></tr></tbody></table>
 
 
 
+## Static Methods
 
-## Methods
+        
+### Image:Import(location)
+
+Imports an image widget based on the specified location
+
+**Returns:** <a href="image.md">Image</a>
 
 
-### Image:extrude(depth, color)
+**Parameters:**
+
+<table data-full-width="false">
+<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<tbody><tr><td>location</td><td>string</td><td>The location of the image</td></tr></tbody></table>
+
+
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>Image:Import("test.png")</strong></code></pre>
+
+
+
+    
+
+## Instance Methods
+
+        
+### image:Extrude(depth, color)
 
 Extrudes the image widget with the specified depth and color
 
@@ -48,30 +73,7 @@ Extrudes the image widget with the specified depth and color
 
 
 
-### Image:Import(location)
-
-Imports an image widget based on the specified location
-
-**Returns:** <a href="image.md">Image</a>
-
-
-**Parameters:**
-
-<table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>location</td><td>string</td><td>The location of the image</td></tr></tbody></table>
-
-
-
-
-#### Example
-
-<pre class="language-lua"><code class="lang-lua"><strong>Image:Import("test.png")</strong></code></pre>
-
-
-
-
-### Image:select()
+### image:Select()
 
 Selects the image widget
 
@@ -87,7 +89,7 @@ Selects the image widget
 
 
 
-### Image:delete()
+### image:Delete()
 
 Deletes the image widget
 
@@ -103,7 +105,7 @@ Deletes the image widget
 
 
 
-### Image:formencode()
+### image:FormEncode()
 
 Encodes the image as a form
 
@@ -119,7 +121,7 @@ Encodes the image as a form
 
 
 
-### Image:savebase64(base64, filename)
+### image:SaveBase64(base64, filename)
 
 Saves an image as a png based on base64 data
 
@@ -142,4 +144,4 @@ Saves an image as a png based on base64 data
 
 
 
-
+    

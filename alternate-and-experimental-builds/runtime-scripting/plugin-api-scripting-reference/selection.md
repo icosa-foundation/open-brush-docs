@@ -2,15 +2,13 @@
 # Selection
 
 ## Summary
-
 Various actions related to selections of strokes and widgets
 
 
 
+## Static Methods
 
-## Methods
-
-
+        
 ### Selection:Duplicate()
 
 Duplicates the currently selected items
@@ -161,4 +159,5 @@ Selects all brush strokes and widgets on the current layer
 
 
 
+    
 

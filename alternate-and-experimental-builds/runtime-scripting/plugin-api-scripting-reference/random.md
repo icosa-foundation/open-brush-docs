@@ -2,30 +2,28 @@
 # Random
 
 ## Summary
-
 Various functions for generating random data
 
-
-## Properties
+## Class Properties
 
 <table>
-<thead><tr><th width="225">Name</th><th width="160">Return Type</th><th width="120">Read/Write?</th><th>Description</th></tr></thead>
+<thead><tr><th width="225">Name</th><th width="160">Return Type</th><th width="80">Read/Write?</th><th>Description</th></tr></thead>
 <tbody>
-<tr><td>insideUnitCircle</td><td><a href="vector2.md">Vector2</a></td><td>Read-only</td><td></td></tr>
-<tr><td>insideUnitSphere</td><td><a href="vector3.md">Vector3</a></td><td>Read-only</td><td></td></tr>
-<tr><td>onUnitSphere</td><td><a href="vector3.md">Vector3</a></td><td>Read-only</td><td></td></tr>
-<tr><td>rotation</td><td><a href="rotation.md">Rotation</a></td><td>Read-only</td><td></td></tr>
-<tr><td>rotationUniform</td><td><a href="rotation.md">Rotation</a></td><td>Read-only</td><td></td></tr>
-<tr><td>value</td><td>number</td><td>Read-only</td><td></td></tr>
-<tr><td>color</td><td><a href="color.md">Color</a></td><td>Read-only</td><td></td></tr>
+<tr><td>insideUnitCircle</td><td><a href="vector2.md">Vector2</a></td><td>Read-only</td><td>Yes</td><td></td></tr>
+<tr><td>insideUnitSphere</td><td><a href="vector3.md">Vector3</a></td><td>Read-only</td><td>Yes</td><td></td></tr>
+<tr><td>onUnitSphere</td><td><a href="vector3.md">Vector3</a></td><td>Read-only</td><td>Yes</td><td></td></tr>
+<tr><td>rotation</td><td><a href="rotation.md">Rotation</a></td><td>Read-only</td><td>Yes</td><td></td></tr>
+<tr><td>rotationUniform</td><td><a href="rotation.md">Rotation</a></td><td>Read-only</td><td>Yes</td><td></td></tr>
+<tr><td>value</td><td>number</td><td>Read-only</td><td>Yes</td><td></td></tr>
+<tr><td>color</td><td><a href="color.md">Color</a></td><td>Read-only</td><td>Yes</td><td></td></tr>
 <tr><td></td><td></td><td></td></tr></tbody></table>
 
 
 
 
-## Methods
+## Static Methods
 
-
+        
 ### Random:ColorHSV(hueMin, hueMax, saturationMin, saturationMax, valueMin, valueMax)
 
 
@@ -104,4 +102,5 @@ Various functions for generating random data
 
 
 
+    
 

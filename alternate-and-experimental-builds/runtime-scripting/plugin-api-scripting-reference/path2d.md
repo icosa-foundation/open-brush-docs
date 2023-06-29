@@ -2,26 +2,24 @@
 # Path2d
 
 ## Summary
-
 A set of Vector2 points forming a 2D path
 
 
-## Properties
+## Class Properties
 
 <table>
-<thead><tr><th width="225">Name</th><th width="160">Return Type</th><th width="120">Read/Write?</th><th>Description</th></tr></thead>
+<thead><tr><th width="225">Name</th><th width="160">Return Type</th><th width="80">Read/Write?</th><th>Description</th></tr></thead>
 <tbody>
-<tr><td>count</td><td>number</td><td>Read-only</td><td>Returns the number of points in this path</td></tr>
-<tr><td>item</td><td><a href="transform.md">Transform</a></td><td>Read-only</td><td></td></tr>
-<tr><td>last</td><td><a href="transform.md">Transform</a></td><td>Read-only</td><td></td></tr>
+<tr><td>count</td><td>number</td><td>Read-only</td><td>No</td><td>Returns the number of points in this path</td></tr>
+<tr><td>Item</td><td><a href="transform.md">Transform</a></td><td>Read-only</td><td>No</td><td></td></tr>
+<tr><td>last</td><td><a href="transform.md">Transform</a></td><td>Read-only</td><td>No</td><td></td></tr>
 <tr><td></td><td></td><td></td></tr></tbody></table>
 
 
 
+## Static Methods
 
-## Methods
-
-
+        
 ### Path2d:New()
 
 
@@ -69,7 +67,29 @@ A set of Vector2 points forming a 2D path
 
 
 
-### Path2d:insert(transform)
+### Path2d:Polygon(sides)
+
+
+
+**Returns:** <a href="path2d.md">Path2d</a>
+
+
+**Parameters:**
+
+<table data-full-width="false">
+<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<tbody><tr><td>sides</td><td>number</td><td></td></tr></tbody></table>
+
+
+
+
+
+    
+
+## Instance Methods
+
+        
+### path2d:Insert(transform)
 
 Inserts a new point at the end of the path
 
@@ -87,7 +107,7 @@ Inserts a new point at the end of the path
 
 
 
-### Path2d:insert(transform, index)
+### path2d:Insert(transform, index)
 
 Inserts a new point at the given path index
 
@@ -106,7 +126,7 @@ Inserts a new point at the given path index
 
 
 
-### Path2d:onx()
+### path2d:OnX()
 
 Converts the 2D path to a 3D path on the YZ plane (i.e. with all x values set to 0)
 
@@ -117,7 +137,7 @@ Converts the 2D path to a 3D path on the YZ plane (i.e. with all x values set to
 
 
 
-### Path2d:ony()
+### path2d:OnY()
 
 Converts the 2D path to a 3D path on the XZ plane (i.e. with all y values set to 0)
 
@@ -128,7 +148,7 @@ Converts the 2D path to a 3D path on the XZ plane (i.e. with all y values set to
 
 
 
-### Path2d:onz()
+### path2d:OnZ()
 
 Converts the 2D path to a 3D path on the XY plane (i.e. with all z values set to 0)
 
@@ -139,7 +159,7 @@ Converts the 2D path to a 3D path on the XY plane (i.e. with all z values set to
 
 
 
-### Path2d:transformby(transform)
+### path2d:TransformBy(transform)
 
 Transforms all points in the path by the given amount
 
@@ -157,7 +177,7 @@ Transforms all points in the path by the given amount
 
 
 
-### Path2d:translateby(amount)
+### path2d:TranslateBy(amount)
 
 Changes the position of all points in the path by a given amount
 
@@ -175,7 +195,7 @@ Changes the position of all points in the path by a given amount
 
 
 
-### Path2d:rotateby(amount)
+### path2d:RotateBy(amount)
 
 Rotates all points in the path around the origin by a given amount
 
@@ -193,7 +213,7 @@ Rotates all points in the path around the origin by a given amount
 
 
 
-### Path2d:scaleby(scale)
+### path2d:ScaleBy(scale)
 
 Scales all points the path away or towards the origin
 
@@ -211,7 +231,7 @@ Scales all points the path away or towards the origin
 
 
 
-### Path2d:center()
+### path2d:Center()
 
 Offsets all points on the path so that their common center is at the origin
 
@@ -222,7 +242,7 @@ Offsets all points on the path so that their common center is at the origin
 
 
 
-### Path2d:startingfrom(index)
+### path2d:StartingFrom(index)
 
 Reorders the points so that point at the given index is shifted to be the first point
 
@@ -240,7 +260,7 @@ Reorders the points so that point at the given index is shifted to be the first 
 
 
 
-### Path2d:findclosest(point)
+### path2d:FindClosest(point)
 
 Returns the index of the point closest to the given position
 
@@ -258,7 +278,7 @@ Returns the index of the point closest to the given position
 
 
 
-### Path2d:findminimumx()
+### path2d:FindMinimumX()
 
 Returns the index of the point with the smallest X value
 
@@ -269,7 +289,7 @@ Returns the index of the point with the smallest X value
 
 
 
-### Path2d:findminimumy()
+### path2d:FindMinimumY()
 
 Returns the index of the point with the smallest Y value
 
@@ -280,7 +300,7 @@ Returns the index of the point with the smallest Y value
 
 
 
-### Path2d:findmaximumx()
+### path2d:FindMaximumX()
 
 Returns the index of the point with the biggest X value
 
@@ -291,7 +311,7 @@ Returns the index of the point with the biggest X value
 
 
 
-### Path2d:findmaximumy()
+### path2d:FindMaximumY()
 
 Returns the index of the point with the biggest Y value
 
@@ -302,7 +322,7 @@ Returns the index of the point with the biggest Y value
 
 
 
-### Path2d:normalize(scale)
+### path2d:Normalize(scale)
 
 Scales and shifts all points so that they fit in a 1 unit square at the origin
 
@@ -320,25 +340,7 @@ Scales and shifts all points so that they fit in a 1 unit square at the origin
 
 
 
-### Path2d:Polygon(sides)
-
-
-
-**Returns:** <a href="path2d.md">Path2d</a>
-
-
-**Parameters:**
-
-<table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>sides</td><td>number</td><td></td></tr></tbody></table>
-
-
-
-
-
-
-### Path2d:resample(spacing)
+### path2d:Resample(spacing)
 
 
 
@@ -355,4 +357,4 @@ Scales and shifts all points so that they fit in a 1 unit square at the origin
 
 
 
-
+    

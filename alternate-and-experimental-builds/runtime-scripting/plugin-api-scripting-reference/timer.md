@@ -2,15 +2,13 @@
 # Timer
 
 ## Summary
-
 Timers can be used to call functions at a predetermined time (or multiple times)
 
 
 
+## Static Methods
 
-## Methods
-
-
+        
 ### Timer:Set(fn, interval, delay, repeats)
 
 
@@ -49,4 +47,5 @@ Timers can be used to call functions at a predetermined time (or multiple times)
 
 
 
+    
 

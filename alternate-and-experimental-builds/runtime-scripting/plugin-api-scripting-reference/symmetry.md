@@ -2,29 +2,27 @@
 # Symmetry
 
 ## Summary
-
 Functions for controlling the mirror symmetry mode
 
-
-## Properties
+## Class Properties
 
 <table>
-<thead><tr><th width="225">Name</th><th width="160">Return Type</th><th width="120">Read/Write?</th><th>Description</th></tr></thead>
+<thead><tr><th width="225">Name</th><th width="160">Return Type</th><th width="80">Read/Write?</th><th>Description</th></tr></thead>
 <tbody>
-<tr><td>transform</td><td><a href="transform.md">Transform</a></td><td>Read/Write</td><td></td></tr>
-<tr><td>position</td><td><a href="vector3.md">Vector3</a></td><td>Read/Write</td><td>The 3D position of the Symmetry Widget</td></tr>
-<tr><td>rotation</td><td><a href="rotation.md">Rotation</a></td><td>Read/Write</td><td>The 3D orientation of the Symmetry Widget</td></tr>
-<tr><td>brushOffset</td><td><a href="vector3.md">Vector3</a></td><td>Read-only</td><td></td></tr>
-<tr><td>wandOffset</td><td><a href="vector3.md">Vector3</a></td><td>Read-only</td><td></td></tr>
-<tr><td>direction</td><td><a href="vector3.md">Vector3</a></td><td>Read-only</td><td></td></tr>
+<tr><td>transform</td><td><a href="transform.md">Transform</a></td><td>Read/Write</td><td>Yes</td><td></td></tr>
+<tr><td>position</td><td><a href="vector3.md">Vector3</a></td><td>Read/Write</td><td>Yes</td><td>The 3D position of the Symmetry Widget</td></tr>
+<tr><td>rotation</td><td><a href="rotation.md">Rotation</a></td><td>Read/Write</td><td>Yes</td><td>The 3D orientation of the Symmetry Widget</td></tr>
+<tr><td>brushOffset</td><td><a href="vector3.md">Vector3</a></td><td>Read-only</td><td>Yes</td><td></td></tr>
+<tr><td>wandOffset</td><td><a href="vector3.md">Vector3</a></td><td>Read-only</td><td>Yes</td><td></td></tr>
+<tr><td>direction</td><td><a href="vector3.md">Vector3</a></td><td>Read-only</td><td>Yes</td><td></td></tr>
 <tr><td></td><td></td><td></td></tr></tbody></table>
 
 
 
 
-## Methods
+## Static Methods
 
-
+        
 ### Symmetry:Mirror()
 
 
@@ -345,4 +343,5 @@ Functions for controlling the mirror symmetry mode
 
 
 
+    
 

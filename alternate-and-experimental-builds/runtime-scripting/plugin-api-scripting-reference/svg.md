@@ -2,15 +2,13 @@
 # Svg
 
 ## Summary
-
 Functions related to SVG images
 
 
 
+## Static Methods
 
-## Methods
-
-
+        
 ### Svg:ParsePathString(svgPath)
 
 
@@ -86,4 +84,5 @@ Functions related to SVG images
 
 
 
+    
 

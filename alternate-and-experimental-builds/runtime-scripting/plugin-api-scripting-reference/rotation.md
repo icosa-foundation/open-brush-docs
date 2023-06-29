@@ -2,36 +2,42 @@
 # Rotation
 
 ## Summary
-
 Represents a rotation or orientation in 3D space
 
-
-## Properties
+## Class Properties
 
 <table>
-<thead><tr><th width="225">Name</th><th width="160">Return Type</th><th width="120">Read/Write?</th><th>Description</th></tr></thead>
+<thead><tr><th width="225">Name</th><th width="160">Return Type</th><th width="80">Read/Write?</th><th>Description</th></tr></thead>
 <tbody>
-<tr><td>item</td><td>number</td><td>Read/Write</td><td></td></tr>
-<tr><td>x</td><td>number</td><td>Read-only</td><td></td></tr>
-<tr><td>y</td><td>number</td><td>Read-only</td><td></td></tr>
-<tr><td>z</td><td>number</td><td>Read-only</td><td></td></tr>
-<tr><td>zero</td><td><a href="rotation.md">Rotation</a></td><td>Read-only</td><td></td></tr>
-<tr><td>left</td><td><a href="rotation.md">Rotation</a></td><td>Read-only</td><td></td></tr>
-<tr><td>right</td><td><a href="rotation.md">Rotation</a></td><td>Read-only</td><td></td></tr>
-<tr><td>up</td><td><a href="rotation.md">Rotation</a></td><td>Read-only</td><td></td></tr>
-<tr><td>down</td><td><a href="rotation.md">Rotation</a></td><td>Read-only</td><td></td></tr>
-<tr><td>anticlockwise</td><td><a href="rotation.md">Rotation</a></td><td>Read-only</td><td></td></tr>
-<tr><td>clockwise</td><td><a href="rotation.md">Rotation</a></td><td>Read-only</td><td></td></tr>
-<tr><td>normalized</td><td><a href="rotation.md">Rotation</a></td><td>Read-only</td><td></td></tr>
-<tr><td>kEpsilon</td><td>number</td><td>Read-only</td><td></td></tr>
+<tr><td>zero</td><td><a href="rotation.md">Rotation</a></td><td>Read-only</td><td>Yes</td><td></td></tr>
+<tr><td>left</td><td><a href="rotation.md">Rotation</a></td><td>Read-only</td><td>Yes</td><td></td></tr>
+<tr><td>right</td><td><a href="rotation.md">Rotation</a></td><td>Read-only</td><td>Yes</td><td></td></tr>
+<tr><td>up</td><td><a href="rotation.md">Rotation</a></td><td>Read-only</td><td>Yes</td><td></td></tr>
+<tr><td>down</td><td><a href="rotation.md">Rotation</a></td><td>Read-only</td><td>Yes</td><td></td></tr>
+<tr><td>anticlockwise</td><td><a href="rotation.md">Rotation</a></td><td>Read-only</td><td>Yes</td><td></td></tr>
+<tr><td>clockwise</td><td><a href="rotation.md">Rotation</a></td><td>Read-only</td><td>Yes</td><td></td></tr>
+<tr><td>kEpsilon</td><td>number</td><td>Read-only</td><td>Yes</td><td></td></tr>
 <tr><td></td><td></td><td></td></tr></tbody></table>
 
 
 
+## Class Properties
 
-## Methods
+<table>
+<thead><tr><th width="225">Name</th><th width="160">Return Type</th><th width="80">Read/Write?</th><th>Description</th></tr></thead>
+<tbody>
+<tr><td>Item</td><td>number</td><td>Read/Write</td><td>No</td><td></td></tr>
+<tr><td>x</td><td>number</td><td>Read-only</td><td>No</td><td></td></tr>
+<tr><td>y</td><td>number</td><td>Read-only</td><td>No</td><td></td></tr>
+<tr><td>z</td><td>number</td><td>Read-only</td><td>No</td><td></td></tr>
+<tr><td>normalized</td><td><a href="rotation.md">Rotation</a></td><td>Read-only</td><td>No</td><td></td></tr>
+<tr><td></td><td></td><td></td></tr></tbody></table>
 
 
+
+## Static Methods
+
+        
 ### Rotation:New(x, y, z)
 
 
@@ -46,73 +52,6 @@ Represents a rotation or orientation in 3D space
 <tbody><tr><td>x</td><td>number</td><td></td></tr>
 <tr><td>y</td><td>number</td><td></td></tr>
 <tr><td>z</td><td>number</td><td></td></tr></tbody></table>
-
-
-
-
-
-
-### Rotation:setfromtorotation(fromDirection, toDirection)
-
-
-
-**Returns:** <a href="rotation.md">Rotation</a>
-
-
-**Parameters:**
-
-<table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>fromDirection</td><td><a href="vector3.md">Vector3</a></td><td></td></tr>
-<tr><td>toDirection</td><td><a href="vector3.md">Vector3</a></td><td></td></tr></tbody></table>
-
-
-
-
-
-
-### Rotation:setlookrotation(view)
-
-
-
-**Returns:** <a href="rotation.md">Rotation</a>
-
-
-**Parameters:**
-
-<table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>view</td><td><a href="vector3.md">Vector3</a></td><td></td></tr></tbody></table>
-
-
-
-
-
-
-### Rotation:setlookrotation(view, up)
-
-
-
-**Returns:** <a href="rotation.md">Rotation</a>
-
-
-**Parameters:**
-
-<table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>view</td><td><a href="vector3.md">Vector3</a></td><td></td></tr>
-<tr><td>up</td><td><a href="vector3.md">Vector3</a></td><td></td></tr></tbody></table>
-
-
-
-
-
-
-### Rotation:toangleaxis()
-
-
-
-**Returns:** <a href="number, vector3.md">Number, Vector3</a>
 
 
 
@@ -368,7 +307,97 @@ Represents a rotation or orientation in 3D space
 
 
 
-### Rotation:multiply(b)
+### Rotation:Multiply(a, b)
+
+
+
+**Returns:** <a href="rotation.md">Rotation</a>
+
+
+**Parameters:**
+
+<table data-full-width="false">
+<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<tbody><tr><td>a</td><td><a href="rotation.md">Rotation</a></td><td></td></tr>
+<tr><td>b</td><td><a href="rotation.md">Rotation</a></td><td></td></tr></tbody></table>
+
+
+
+
+
+    
+
+## Instance Methods
+
+        
+### rotation:SetFromToRotation(fromDirection, toDirection)
+
+
+
+**Returns:** <a href="rotation.md">Rotation</a>
+
+
+**Parameters:**
+
+<table data-full-width="false">
+<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<tbody><tr><td>fromDirection</td><td><a href="vector3.md">Vector3</a></td><td></td></tr>
+<tr><td>toDirection</td><td><a href="vector3.md">Vector3</a></td><td></td></tr></tbody></table>
+
+
+
+
+
+
+### rotation:SetLookRotation(view)
+
+
+
+**Returns:** <a href="rotation.md">Rotation</a>
+
+
+**Parameters:**
+
+<table data-full-width="false">
+<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<tbody><tr><td>view</td><td><a href="vector3.md">Vector3</a></td><td></td></tr></tbody></table>
+
+
+
+
+
+
+### rotation:SetLookRotation(view, up)
+
+
+
+**Returns:** <a href="rotation.md">Rotation</a>
+
+
+**Parameters:**
+
+<table data-full-width="false">
+<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<tbody><tr><td>view</td><td><a href="vector3.md">Vector3</a></td><td></td></tr>
+<tr><td>up</td><td><a href="vector3.md">Vector3</a></td><td></td></tr></tbody></table>
+
+
+
+
+
+
+### rotation:ToAngleAxis()
+
+
+
+**Returns:** <a href="number, vector3.md">Number, Vector3</a>
+
+
+
+
+
+
+### rotation:Multiply(b)
 
 
 
@@ -386,7 +415,7 @@ Represents a rotation or orientation in 3D space
 
 
 
-### Rotation:multiply(x, y, z)
+### rotation:Multiply(x, y, z)
 
 
 
@@ -406,7 +435,7 @@ Represents a rotation or orientation in 3D space
 
 
 
-### Rotation:scale(a)
+### rotation:Scale(a)
 
 
 
@@ -423,23 +452,4 @@ Represents a rotation or orientation in 3D space
 
 
 
-
-### Rotation:Multiply(a, b)
-
-
-
-**Returns:** <a href="rotation.md">Rotation</a>
-
-
-**Parameters:**
-
-<table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>a</td><td><a href="rotation.md">Rotation</a></td><td></td></tr>
-<tr><td>b</td><td><a href="rotation.md">Rotation</a></td><td></td></tr></tbody></table>
-
-
-
-
-
-
+    

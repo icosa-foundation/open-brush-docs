@@ -2,15 +2,13 @@
 # Headset
 
 ## Summary
-
 The user's headset
 
 
 
+## Static Methods
 
-## Methods
-
-
+        
 ### Headset:ResizeHistory(size)
 
 Clears the history and sets it's size
@@ -25,6 +23,11 @@ Clears the history and sets it's size
 <tbody><tr><td>size</td><td>number</td><td>How many frames of position/rotation to remember</td></tr></tbody></table>
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>Headset.size = 4</strong></code></pre>
 
 
 
@@ -82,4 +85,5 @@ Recalls previous orientations of the Headset from the history buffer
 
 
 
+    
 

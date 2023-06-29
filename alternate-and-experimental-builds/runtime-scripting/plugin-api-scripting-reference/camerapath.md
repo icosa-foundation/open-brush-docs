@@ -2,29 +2,27 @@
 # CameraPath
 
 ## Summary
-
 A camera path and its position, speed or FOV knots
 
 
-## Properties
+## Class Properties
 
 <table>
-<thead><tr><th width="225">Name</th><th width="160">Return Type</th><th width="120">Read/Write?</th><th>Description</th></tr></thead>
+<thead><tr><th width="225">Name</th><th width="160">Return Type</th><th width="80">Read/Write?</th><th>Description</th></tr></thead>
 <tbody>
-<tr><td>index</td><td>number</td><td>Read-only</td><td>Returns the index of this Camera Path in Sketch.cameraPaths</td></tr>
-<tr><td>active</td><td>boolean</td><td>Read/Write</td><td>Gets or sets whether this Camera Path is active</td></tr>
-<tr><td>transform</td><td><a href="transform.md">Transform</a></td><td>Read/Write</td><td>The transform of the camera path</td></tr>
-<tr><td>position</td><td><a href="vector3.md">Vector3</a></td><td>Read/Write</td><td>The 3D position of the Camera Path (usually but not always its first position knot)</td></tr>
-<tr><td>rotation</td><td><a href="rotation.md">Rotation</a></td><td>Read/Write</td><td>The 3D orientation of the Brush Camera Path</td></tr>
-<tr><td>scale</td><td>number</td><td>Read/Write</td><td>The scale of the camera path</td></tr>
+<tr><td>index</td><td>number</td><td>Read-only</td><td>No</td><td>Returns the index of this Camera Path in Sketch.cameraPaths</td></tr>
+<tr><td>active</td><td>boolean</td><td>Read/Write</td><td>No</td><td>Gets or sets whether this Camera Path is active</td></tr>
+<tr><td>transform</td><td><a href="transform.md">Transform</a></td><td>Read/Write</td><td>No</td><td>The transform of the camera path</td></tr>
+<tr><td>position</td><td><a href="vector3.md">Vector3</a></td><td>Read/Write</td><td>No</td><td>The 3D position of the Camera Path (usually but not always its first position knot)</td></tr>
+<tr><td>rotation</td><td><a href="rotation.md">Rotation</a></td><td>Read/Write</td><td>No</td><td>The 3D orientation of the Brush Camera Path</td></tr>
+<tr><td>scale</td><td>number</td><td>Read/Write</td><td>No</td><td>The scale of the camera path</td></tr>
 <tr><td></td><td></td><td></td></tr></tbody></table>
 
 
 
+## Static Methods
 
-## Methods
-
-
+        
 ### CameraPath:RenderActivePath()
 
 Renders the currently active path
@@ -96,22 +94,6 @@ Turns previews on or off for the active path
 
 
 
-### CameraPath:delete()
-
-Deletes a camera path
-
-**Returns:** nil
-
-
-
-
-#### Example
-
-<pre class="language-lua"><code class="lang-lua"><strong>mycameraPath:Delete()</strong></code></pre>
-
-
-
-
 ### CameraPath:New()
 
 Creates a new empty camera path
@@ -152,7 +134,43 @@ Creates a camera path from a Path and whether it should be looped
 
 
 
-### CameraPath:aspath(step)
+### CameraPath:RecordActivePath()
+
+Records the active camera path
+
+**Returns:** nil
+
+
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>CameraPath:</strong></code></pre>
+
+
+
+    
+
+## Instance Methods
+
+        
+### cameraPath:Delete()
+
+Deletes a camera path
+
+**Returns:** nil
+
+
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>mycameraPath:Delete()</strong></code></pre>
+
+
+
+
+### cameraPath:AsPath(step)
 
 Converts the camera path to a path with the specified step size
 
@@ -175,7 +193,7 @@ Converts the camera path to a path with the specified step size
 
 
 
-### CameraPath:duplicate()
+### cameraPath:Duplicate()
 
 Duplicates the camera path
 
@@ -191,7 +209,7 @@ Duplicates the camera path
 
 
 
-### CameraPath:insertposition(position, rotation, smoothing)
+### cameraPath:InsertPosition(position, rotation, smoothing)
 
 Inserts a new position knot. (Position must be close to the existing path)
 
@@ -216,7 +234,7 @@ Inserts a new position knot. (Position must be close to the existing path)
 
 
 
-### CameraPath:insertpositionattime(t, rotation, smoothing)
+### cameraPath:InsertPositionAtTime(t, rotation, smoothing)
 
 Inserts a new position knot into the path at the specified time
 
@@ -241,7 +259,7 @@ Inserts a new position knot into the path at the specified time
 
 
 
-### CameraPath:insertrotation(position, rotation)
+### cameraPath:InsertRotation(position, rotation)
 
 Inserts a rotation knot at the specified position close to the existing path
 
@@ -265,7 +283,7 @@ Inserts a rotation knot at the specified position close to the existing path
 
 
 
-### CameraPath:insertrotationattime(t, rotation)
+### cameraPath:InsertRotationAtTime(t, rotation)
 
 Inserts a rotation knot at the specified time
 
@@ -289,7 +307,7 @@ Inserts a rotation knot at the specified time
 
 
 
-### CameraPath:insertfov(position, fov)
+### cameraPath:InsertFov(position, fov)
 
 Inserts a field of view knot at the specified position close to the existing path
 
@@ -313,7 +331,7 @@ Inserts a field of view knot at the specified position close to the existing pat
 
 
 
-### CameraPath:insertfovattime(t, fov)
+### cameraPath:InsertFovAtTime(t, fov)
 
 Inserts a fov knot at the specified time
 
@@ -337,7 +355,7 @@ Inserts a fov knot at the specified time
 
 
 
-### CameraPath:insertspeed(position, speed)
+### cameraPath:InsertSpeed(position, speed)
 
 Inserts a speed knot at the specified position close to the existing path
 
@@ -361,7 +379,7 @@ Inserts a speed knot at the specified position close to the existing path
 
 
 
-### CameraPath:insertspeedattime(t, speed)
+### cameraPath:InsertSpeedAtTime(t, speed)
 
 Inserts a speed knot at the specified time
 
@@ -385,7 +403,7 @@ Inserts a speed knot at the specified time
 
 
 
-### CameraPath:extend(position, rotation, smoothing, atStart)
+### cameraPath:Extend(position, rotation, smoothing, atStart)
 
 Extends the camera path
 
@@ -411,7 +429,7 @@ Extends the camera path
 
 
 
-### CameraPath:loop()
+### cameraPath:Loop()
 
 Loops the camera path
 
@@ -427,23 +445,7 @@ Loops the camera path
 
 
 
-### CameraPath:RecordActivePath()
-
-Records the active camera path
-
-**Returns:** nil
-
-
-
-
-#### Example
-
-<pre class="language-lua"><code class="lang-lua"><strong>CameraPath:</strong></code></pre>
-
-
-
-
-### CameraPath:sample(time, loop, pingpong)
+### cameraPath:Sample(time, loop, pingpong)
 
 Samples the camera path at the specified time
 
@@ -468,7 +470,7 @@ Samples the camera path at the specified time
 
 
 
-### CameraPath:simplify(tolerance, smoothing)
+### cameraPath:Simplify(tolerance, smoothing)
 
 Simplifies the camera path
 
@@ -491,4 +493,4 @@ Simplifies the camera path
 
 
 
-
+    

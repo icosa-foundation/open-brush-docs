@@ -2,15 +2,13 @@
 # WebRequest
 
 ## Summary
-
 Functions to call remote websites or APIs
 
 
 
+## Static Methods
 
-## Methods
-
-
+        
 ### WebRequest:Get(url, onSuccess, onError, headers, context)
 
 
@@ -55,4 +53,5 @@ Functions to call remote websites or APIs
 
 
 
+    
 

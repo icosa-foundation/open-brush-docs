@@ -2,28 +2,26 @@
 # Wand
 
 ## Summary
-
 Represents the user's wand (the controller that isn't the brush controller)
 
-
-## Properties
+## Class Properties
 
 <table>
-<thead><tr><th width="225">Name</th><th width="160">Return Type</th><th width="120">Read/Write?</th><th>Description</th></tr></thead>
+<thead><tr><th width="225">Name</th><th width="160">Return Type</th><th width="80">Read/Write?</th><th>Description</th></tr></thead>
 <tbody>
-<tr><td>position</td><td><a href="vector3.md">Vector3</a></td><td>Read-only</td><td>The 3D position of the Wand</td></tr>
-<tr><td>rotation</td><td><a href="rotation.md">Rotation</a></td><td>Read-only</td><td>The 3D orientation of the Wand</td></tr>
-<tr><td>direction</td><td><a href="vector3.md">Vector3</a></td><td>Read-only</td><td></td></tr>
-<tr><td>pressure</td><td>number</td><td>Read-only</td><td></td></tr>
-<tr><td>speed</td><td><a href="vector3.md">Vector3</a></td><td>Read-only</td><td></td></tr>
+<tr><td>position</td><td><a href="vector3.md">Vector3</a></td><td>Read-only</td><td>Yes</td><td>The 3D position of the Wand</td></tr>
+<tr><td>rotation</td><td><a href="rotation.md">Rotation</a></td><td>Read-only</td><td>Yes</td><td>The 3D orientation of the Wand</td></tr>
+<tr><td>direction</td><td><a href="vector3.md">Vector3</a></td><td>Read-only</td><td>Yes</td><td></td></tr>
+<tr><td>pressure</td><td>number</td><td>Read-only</td><td>Yes</td><td></td></tr>
+<tr><td>speed</td><td><a href="vector3.md">Vector3</a></td><td>Read-only</td><td>Yes</td><td></td></tr>
 <tr><td></td><td></td><td></td></tr></tbody></table>
 
 
 
 
-## Methods
+## Static Methods
 
-
+        
 ### Wand:ResizeHistory(size)
 
 Clears the history and sets it's size
@@ -95,4 +93,5 @@ Recalls previous orientations of the Wand from the history buffer
 
 
 
+    
 

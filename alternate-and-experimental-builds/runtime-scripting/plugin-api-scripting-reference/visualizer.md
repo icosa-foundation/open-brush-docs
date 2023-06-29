@@ -2,25 +2,23 @@
 # Visualizer
 
 ## Summary
-
 Settings and controls for audio visualization mode
 
-
-## Properties
+## Class Properties
 
 <table>
-<thead><tr><th width="225">Name</th><th width="160">Return Type</th><th width="120">Read/Write?</th><th>Description</th></tr></thead>
+<thead><tr><th width="225">Name</th><th width="160">Return Type</th><th width="80">Read/Write?</th><th>Description</th></tr></thead>
 <tbody>
-<tr><td>sampleRate</td><td>number</td><td>Read-only</td><td></td></tr>
-<tr><td>duration</td><td>number</td><td>Read-only</td><td></td></tr>
+<tr><td>sampleRate</td><td>number</td><td>Read-only</td><td>Yes</td><td></td></tr>
+<tr><td>duration</td><td>number</td><td>Read-only</td><td>Yes</td><td></td></tr>
 <tr><td></td><td></td><td></td></tr></tbody></table>
 
 
 
 
-## Methods
+## Static Methods
 
-
+        
 ### Visualizer:EnableScripting(name)
 
 
@@ -148,4 +146,5 @@ Settings and controls for audio visualization mode
 
 
 
+    
 

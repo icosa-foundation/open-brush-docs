@@ -2,43 +2,49 @@
 # Color
 
 ## Summary
-
 An RGB color
 
-
-## Properties
+## Class Properties
 
 <table>
-<thead><tr><th width="225">Name</th><th width="160">Return Type</th><th width="120">Read/Write?</th><th>Description</th></tr></thead>
+<thead><tr><th width="225">Name</th><th width="160">Return Type</th><th width="80">Read/Write?</th><th>Description</th></tr></thead>
 <tbody>
-<tr><td>item</td><td>number</td><td>Read/Write</td><td>Gets or sets the color component at the specified index</td></tr>
-<tr><td>r</td><td>number</td><td>Read-only</td><td>Gets the red component of the color</td></tr>
-<tr><td>g</td><td>number</td><td>Read-only</td><td>Gets the green component of the color</td></tr>
-<tr><td>b</td><td>number</td><td>Read-only</td><td>Gets the blue component of the color</td></tr>
-<tr><td>a</td><td>number</td><td>Read-only</td><td>Gets the alpha component of the color</td></tr>
-<tr><td>grayscale</td><td>number</td><td>Read-only</td><td>Gets the grayscale value of the color</td></tr>
-<tr><td>gamma</td><td><a href="color.md">Color</a></td><td>Read-only</td><td>Gets the gamma color space representation of the color</td></tr>
-<tr><td>linear</td><td><a href="color.md">Color</a></td><td>Read-only</td><td>Gets the linear color space representation of the color</td></tr>
-<tr><td>maxcolorcomponent</td><td>number</td><td>Read-only</td><td>Gets the maximum color component value of the color</td></tr>
-<tr><td>black</td><td><a href="color.md">Color</a></td><td>Read-only</td><td>Gets the black color</td></tr>
-<tr><td>blue</td><td><a href="color.md">Color</a></td><td>Read-only</td><td>Gets the blue color</td></tr>
-<tr><td>clear</td><td><a href="color.md">Color</a></td><td>Read-only</td><td>Gets the clear color</td></tr>
-<tr><td>cyan</td><td><a href="color.md">Color</a></td><td>Read-only</td><td>Gets the cyan color</td></tr>
-<tr><td>gray</td><td><a href="color.md">Color</a></td><td>Read-only</td><td>Gets the gray color</td></tr>
-<tr><td>green</td><td><a href="color.md">Color</a></td><td>Read-only</td><td>Gets the green color</td></tr>
-<tr><td>grey</td><td><a href="color.md">Color</a></td><td>Read-only</td><td>Gets the grey color</td></tr>
-<tr><td>magenta</td><td><a href="color.md">Color</a></td><td>Read-only</td><td>Gets the magenta color</td></tr>
-<tr><td>red</td><td><a href="color.md">Color</a></td><td>Read-only</td><td>Gets the red color</td></tr>
-<tr><td>white</td><td><a href="color.md">Color</a></td><td>Read-only</td><td>Gets the white color</td></tr>
-<tr><td>yellow</td><td><a href="color.md">Color</a></td><td>Read-only</td><td>Gets the yellow color</td></tr>
+<tr><td>black</td><td><a href="color.md">Color</a></td><td>Read-only</td><td>Yes</td><td>Gets the black color</td></tr>
+<tr><td>blue</td><td><a href="color.md">Color</a></td><td>Read-only</td><td>Yes</td><td>Gets the blue color</td></tr>
+<tr><td>clear</td><td><a href="color.md">Color</a></td><td>Read-only</td><td>Yes</td><td>Gets the clear color</td></tr>
+<tr><td>cyan</td><td><a href="color.md">Color</a></td><td>Read-only</td><td>Yes</td><td>Gets the cyan color</td></tr>
+<tr><td>gray</td><td><a href="color.md">Color</a></td><td>Read-only</td><td>Yes</td><td>Gets the gray color</td></tr>
+<tr><td>green</td><td><a href="color.md">Color</a></td><td>Read-only</td><td>Yes</td><td>Gets the green color</td></tr>
+<tr><td>grey</td><td><a href="color.md">Color</a></td><td>Read-only</td><td>Yes</td><td>Gets the grey color</td></tr>
+<tr><td>magenta</td><td><a href="color.md">Color</a></td><td>Read-only</td><td>Yes</td><td>Gets the magenta color</td></tr>
+<tr><td>red</td><td><a href="color.md">Color</a></td><td>Read-only</td><td>Yes</td><td>Gets the red color</td></tr>
+<tr><td>white</td><td><a href="color.md">Color</a></td><td>Read-only</td><td>Yes</td><td>Gets the white color</td></tr>
+<tr><td>yellow</td><td><a href="color.md">Color</a></td><td>Read-only</td><td>Yes</td><td>Gets the yellow color</td></tr>
 <tr><td></td><td></td><td></td></tr></tbody></table>
 
 
 
+## Class Properties
 
-## Methods
+<table>
+<thead><tr><th width="225">Name</th><th width="160">Return Type</th><th width="80">Read/Write?</th><th>Description</th></tr></thead>
+<tbody>
+<tr><td>Item</td><td>number</td><td>Read/Write</td><td>No</td><td>Gets or sets the color component at the specified index</td></tr>
+<tr><td>r</td><td>number</td><td>Read-only</td><td>No</td><td>Gets the red component of the color</td></tr>
+<tr><td>g</td><td>number</td><td>Read-only</td><td>No</td><td>Gets the green component of the color</td></tr>
+<tr><td>b</td><td>number</td><td>Read-only</td><td>No</td><td>Gets the blue component of the color</td></tr>
+<tr><td>a</td><td>number</td><td>Read-only</td><td>No</td><td>Gets the alpha component of the color</td></tr>
+<tr><td>grayscale</td><td>number</td><td>Read-only</td><td>No</td><td>Gets the grayscale value of the color</td></tr>
+<tr><td>gamma</td><td><a href="color.md">Color</a></td><td>Read-only</td><td>No</td><td>Gets the gamma color space representation of the color</td></tr>
+<tr><td>linear</td><td><a href="color.md">Color</a></td><td>Read-only</td><td>No</td><td>Gets the linear color space representation of the color</td></tr>
+<tr><td>maxColorComponent</td><td>number</td><td>Read-only</td><td>No</td><td>Gets the maximum color component value of the color</td></tr>
+<tr><td></td><td></td><td></td></tr></tbody></table>
 
 
+
+## Static Methods
+
+        
 ### Color:New(r, g, b)
 
 Creates a new instance of a color with the specified RGB values
@@ -277,221 +283,6 @@ Converts an RGB color to an HSV color
 
 
 
-### Color:add(b)
-
-Adds the specified color to this color
-
-**Returns:** <a href="color.md">Color</a>
-
-
-**Parameters:**
-
-<table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>b</td><td><a href="color.md">Color</a></td><td>The color to add</td></tr></tbody></table>
-
-
-
-
-#### Example
-
-<pre class="language-lua"><code class="lang-lua"><strong>newColor = color1:Add(color2)</strong></code></pre>
-
-
-
-
-### Color:add(r, g, b)
-
-Adds the specified RGB values to this color
-
-**Returns:** <a href="color.md">Color</a>
-
-
-**Parameters:**
-
-<table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>r</td><td>number</td><td>The red component value to add</td></tr>
-<tr><td>g</td><td>number</td><td>The green component value to add</td></tr>
-<tr><td>b</td><td>number</td><td>The blue component value to add</td></tr></tbody></table>
-
-
-
-
-#### Example
-
-<pre class="language-lua"><code class="lang-lua"><strong>newColor = color1:Add(0.5, 0, 0.1)</strong></code></pre>
-
-
-
-
-### Color:subtract(b)
-
-Subtracts the specified color from this color
-
-**Returns:** <a href="color.md">Color</a>
-
-
-**Parameters:**
-
-<table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>b</td><td><a href="color.md">Color</a></td><td>The color to subtract</td></tr></tbody></table>
-
-
-
-
-#### Example
-
-<pre class="language-lua"><code class="lang-lua"><strong>newColor = color1:Subtract(color2)</strong></code></pre>
-
-
-
-
-### Color:subtract(r, g, b)
-
-Subtracts the specified RGB values from this color
-
-**Returns:** <a href="color.md">Color</a>
-
-
-**Parameters:**
-
-<table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>r</td><td>number</td><td>The red component value to subtract</td></tr>
-<tr><td>g</td><td>number</td><td>The green component value to subtract</td></tr>
-<tr><td>b</td><td>number</td><td>The blue component value to subtract</td></tr></tbody></table>
-
-
-
-
-#### Example
-
-<pre class="language-lua"><code class="lang-lua"><strong>newColor = color1:Subtract(0.5, 0.25, 0)</strong></code></pre>
-
-
-
-
-### Color:multiply(b)
-
-Multiplies this color by the specified value
-
-**Returns:** <a href="color.md">Color</a>
-
-
-**Parameters:**
-
-<table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>b</td><td>number</td><td>The value to multiply</td></tr></tbody></table>
-
-
-
-
-#### Example
-
-<pre class="language-lua"><code class="lang-lua"><strong>newColor = color1:Multiply(0.5)</strong></code></pre>
-
-
-
-
-### Color:multiply(r, g, b)
-
-Multiplies this color by the specified RGB values
-
-**Returns:** <a href="color.md">Color</a>
-
-
-**Parameters:**
-
-<table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>r</td><td>number</td><td>The red component value to multiply</td></tr>
-<tr><td>g</td><td>number</td><td>The green component value to multiply</td></tr>
-<tr><td>b</td><td>number</td><td>The blue component value to multiply</td></tr></tbody></table>
-
-
-
-
-#### Example
-
-<pre class="language-lua"><code class="lang-lua"><strong>newColor = color1:Multiply(0.85, 0, 0)</strong></code></pre>
-
-
-
-
-### Color:divide(b)
-
-Divides this color by the specified value
-
-**Returns:** <a href="color.md">Color</a>
-
-
-**Parameters:**
-
-<table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>b</td><td>number</td><td>The value to divide</td></tr></tbody></table>
-
-
-
-
-#### Example
-
-<pre class="language-lua"><code class="lang-lua"><strong>newColor = color1:Divide(0.5)</strong></code></pre>
-
-
-
-
-### Color:notequals(b)
-
-Determines whether this color is not equal to the specified color
-
-**Returns:** boolean
-
-
-**Parameters:**
-
-<table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>b</td><td><a href="color.md">Color</a></td><td>The color to compare</td></tr></tbody></table>
-
-
-
-
-#### Example
-
-<pre class="language-lua"><code class="lang-lua"><strong>if color1:NotEquals(color2) then print("colors are different") end</strong></code></pre>
-
-
-
-
-### Color:notequals(r, g, b)
-
-Determines whether this color is not equal to the specified RGB values
-
-**Returns:** boolean
-
-
-**Parameters:**
-
-<table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>r</td><td>number</td><td>The red component value to compare</td></tr>
-<tr><td>g</td><td>number</td><td>The green component value to compare</td></tr>
-<tr><td>b</td><td>number</td><td>The blue component value to compare</td></tr></tbody></table>
-
-
-
-
-#### Example
-
-<pre class="language-lua"><code class="lang-lua"><strong>if color1:NotEquals(0, 1, 0) then print("color is not green") end</strong></code></pre>
-
-
-
-
 ### Color:Add(a, b)
 
 Adds two colors together
@@ -611,4 +402,223 @@ Determines whether two colors are not equal
 
 
 
+    
 
+## Instance Methods
+
+        
+### color:Add(b)
+
+Adds the specified color to this color
+
+**Returns:** <a href="color.md">Color</a>
+
+
+**Parameters:**
+
+<table data-full-width="false">
+<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<tbody><tr><td>b</td><td><a href="color.md">Color</a></td><td>The color to add</td></tr></tbody></table>
+
+
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>newColor = color1:Add(color2)</strong></code></pre>
+
+
+
+
+### color:Add(r, g, b)
+
+Adds the specified RGB values to this color
+
+**Returns:** <a href="color.md">Color</a>
+
+
+**Parameters:**
+
+<table data-full-width="false">
+<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<tbody><tr><td>r</td><td>number</td><td>The red component value to add</td></tr>
+<tr><td>g</td><td>number</td><td>The green component value to add</td></tr>
+<tr><td>b</td><td>number</td><td>The blue component value to add</td></tr></tbody></table>
+
+
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>newColor = color1:Add(0.5, 0, 0.1)</strong></code></pre>
+
+
+
+
+### color:Subtract(b)
+
+Subtracts the specified color from this color
+
+**Returns:** <a href="color.md">Color</a>
+
+
+**Parameters:**
+
+<table data-full-width="false">
+<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<tbody><tr><td>b</td><td><a href="color.md">Color</a></td><td>The color to subtract</td></tr></tbody></table>
+
+
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>newColor = color1:Subtract(color2)</strong></code></pre>
+
+
+
+
+### color:Subtract(r, g, b)
+
+Subtracts the specified RGB values from this color
+
+**Returns:** <a href="color.md">Color</a>
+
+
+**Parameters:**
+
+<table data-full-width="false">
+<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<tbody><tr><td>r</td><td>number</td><td>The red component value to subtract</td></tr>
+<tr><td>g</td><td>number</td><td>The green component value to subtract</td></tr>
+<tr><td>b</td><td>number</td><td>The blue component value to subtract</td></tr></tbody></table>
+
+
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>newColor = color1:Subtract(0.5, 0.25, 0)</strong></code></pre>
+
+
+
+
+### color:Multiply(b)
+
+Multiplies this color by the specified value
+
+**Returns:** <a href="color.md">Color</a>
+
+
+**Parameters:**
+
+<table data-full-width="false">
+<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<tbody><tr><td>b</td><td>number</td><td>The value to multiply</td></tr></tbody></table>
+
+
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>newColor = color1:Multiply(0.5)</strong></code></pre>
+
+
+
+
+### color:Multiply(r, g, b)
+
+Multiplies this color by the specified RGB values
+
+**Returns:** <a href="color.md">Color</a>
+
+
+**Parameters:**
+
+<table data-full-width="false">
+<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<tbody><tr><td>r</td><td>number</td><td>The red component value to multiply</td></tr>
+<tr><td>g</td><td>number</td><td>The green component value to multiply</td></tr>
+<tr><td>b</td><td>number</td><td>The blue component value to multiply</td></tr></tbody></table>
+
+
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>newColor = color1:Multiply(0.85, 0, 0)</strong></code></pre>
+
+
+
+
+### color:Divide(b)
+
+Divides this color by the specified value
+
+**Returns:** <a href="color.md">Color</a>
+
+
+**Parameters:**
+
+<table data-full-width="false">
+<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<tbody><tr><td>b</td><td>number</td><td>The value to divide</td></tr></tbody></table>
+
+
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>newColor = color1:Divide(0.5)</strong></code></pre>
+
+
+
+
+### color:NotEquals(b)
+
+Determines whether this color is not equal to the specified color
+
+**Returns:** boolean
+
+
+**Parameters:**
+
+<table data-full-width="false">
+<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<tbody><tr><td>b</td><td><a href="color.md">Color</a></td><td>The color to compare</td></tr></tbody></table>
+
+
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>if color1:NotEquals(color2) then print("colors are different") end</strong></code></pre>
+
+
+
+
+### color:NotEquals(r, g, b)
+
+Determines whether this color is not equal to the specified RGB values
+
+**Returns:** boolean
+
+
+**Parameters:**
+
+<table data-full-width="false">
+<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<tbody><tr><td>r</td><td>number</td><td>The red component value to compare</td></tr>
+<tr><td>g</td><td>number</td><td>The green component value to compare</td></tr>
+<tr><td>b</td><td>number</td><td>The blue component value to compare</td></tr></tbody></table>
+
+
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>if color1:NotEquals(0, 1, 0) then print("color is not green") end</strong></code></pre>
+
+
+
+    

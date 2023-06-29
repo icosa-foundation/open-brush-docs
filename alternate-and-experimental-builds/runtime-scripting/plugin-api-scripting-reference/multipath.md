@@ -2,25 +2,23 @@
 # MultiPath
 
 ## Summary
-
 Multiple disconnected path segments
 
 
-## Properties
+## Class Properties
 
 <table>
-<thead><tr><th width="225">Name</th><th width="160">Return Type</th><th width="120">Read/Write?</th><th>Description</th></tr></thead>
+<thead><tr><th width="225">Name</th><th width="160">Return Type</th><th width="80">Read/Write?</th><th>Description</th></tr></thead>
 <tbody>
-<tr><td>count</td><td>number</td><td>Read-only</td><td>Returns number of paths contained in the multipath</td></tr>
-<tr><td>pointcount</td><td>number</td><td>Read-only</td><td>Returns the number of points in all paths in the multipath</td></tr>
+<tr><td>count</td><td>number</td><td>Read-only</td><td>No</td><td>Returns number of paths contained in the multipath</td></tr>
+<tr><td>pointCount</td><td>number</td><td>Read-only</td><td>No</td><td>Returns the number of points in all paths in the multipath</td></tr>
 <tr><td></td><td></td><td></td></tr></tbody></table>
 
 
 
+## Static Methods
 
-## Methods
-
-
+        
 ### MultiPath:New()
 
 
@@ -50,17 +48,6 @@ Multiple disconnected path segments
 
 
 
-### MultiPath:draw()
-
-Draws this path as a brush stroke using current settings
-
-**Returns:** nil
-
-
-
-
-
-
 ### MultiPath:FromText(text)
 
 Creates a new MultiPath that draws the shape of the given text. Use App:SetFont to set the letter shapes
@@ -78,8 +65,23 @@ Creates a new MultiPath that draws the shape of the given text. Use App:SetFont 
 
 
 
+    
 
-### MultiPath:insert(path)
+## Instance Methods
+
+        
+### multiPath:Draw()
+
+Draws this path as a brush stroke using current settings
+
+**Returns:** nil
+
+
+
+
+
+
+### multiPath:Insert(path)
 
 Inserts the given path at the end of the multipath
 
@@ -97,7 +99,7 @@ Inserts the given path at the end of the multipath
 
 
 
-### MultiPath:insert(path, index)
+### multiPath:Insert(path, index)
 
 Inserts a new path at the given index
 
@@ -116,7 +118,7 @@ Inserts a new path at the given index
 
 
 
-### MultiPath:insertpoint(transform)
+### multiPath:InsertPoint(transform)
 
 Inserts a point at the end of the last path in the multipath
 
@@ -134,7 +136,7 @@ Inserts a point at the end of the last path in the multipath
 
 
 
-### MultiPath:insertpoint(transform, pathIndex, pointIndex)
+### multiPath:InsertPoint(transform, pathIndex, pointIndex)
 
 Inserts a point at the given index of the given path
 
@@ -154,7 +156,7 @@ Inserts a point at the given index of the given path
 
 
 
-### MultiPath:transformby(transform)
+### multiPath:TransformBy(transform)
 
 Transforms all paths in the multipath
 
@@ -172,7 +174,7 @@ Transforms all paths in the multipath
 
 
 
-### MultiPath:translateby(amount)
+### multiPath:TranslateBy(amount)
 
 Translates all paths by a given offset
 
@@ -190,7 +192,7 @@ Translates all paths by a given offset
 
 
 
-### MultiPath:rotateby(amount)
+### multiPath:RotateBy(amount)
 
 Rotates all paths by a specified amount around the origin
 
@@ -208,7 +210,7 @@ Rotates all paths by a specified amount around the origin
 
 
 
-### MultiPath:scaleby(scale)
+### multiPath:ScaleBy(scale)
 
 Scales all paths by a specified amount towards or away from the origin
 
@@ -226,7 +228,7 @@ Scales all paths by a specified amount towards or away from the origin
 
 
 
-### MultiPath:center()
+### multiPath:Center()
 
 Offsets all points on the path so that their common center is at the origin
 
@@ -237,7 +239,7 @@ Offsets all points on the path so that their common center is at the origin
 
 
 
-### MultiPath:normalize(scale)
+### multiPath:Normalize(scale)
 
 Scales all paths to fit inside a 1x1x1 cube at the origin
 
@@ -255,7 +257,7 @@ Scales all paths to fit inside a 1x1x1 cube at the origin
 
 
 
-### MultiPath:resample(spacing)
+### multiPath:Resample(spacing)
 
 Resamples the multipath at a specified spacing
 
@@ -273,7 +275,7 @@ Resamples the multipath at a specified spacing
 
 
 
-### MultiPath:join()
+### multiPath:Join()
 
 Joins all the paths in the multipath and returns a single Path
 
@@ -284,7 +286,7 @@ Joins all the paths in the multipath and returns a single Path
 
 
 
-### MultiPath:longest()
+### multiPath:Longest()
 
 Returns the longest path in the multipath
 
@@ -294,4 +296,4 @@ Returns the longest path in the multipath
 
 
 
-
+    

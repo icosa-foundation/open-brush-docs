@@ -2,28 +2,26 @@
 # Guide
 
 ## Summary
-
 A guide widget
 
 
-## Properties
+## Class Properties
 
 <table>
-<thead><tr><th width="225">Name</th><th width="160">Return Type</th><th width="120">Read/Write?</th><th>Description</th></tr></thead>
+<thead><tr><th width="225">Name</th><th width="160">Return Type</th><th width="80">Read/Write?</th><th>Description</th></tr></thead>
 <tbody>
-<tr><td>index</td><td>number</td><td>Read-only</td><td>The index of the active widget</td></tr>
-<tr><td>transform</td><td><a href="transform.md">Transform</a></td><td>Read/Write</td><td>The transform of the Guide Widget</td></tr>
-<tr><td>position</td><td><a href="vector3.md">Vector3</a></td><td>Read/Write</td><td>The 3D position of the Guide Widget</td></tr>
-<tr><td>rotation</td><td><a href="rotation.md">Rotation</a></td><td>Read/Write</td><td>The 3D orientation of the Guide Widget</td></tr>
-<tr><td>scale</td><td>number</td><td>Read/Write</td><td>The scale of the Guide Widget</td></tr>
+<tr><td>index</td><td>number</td><td>Read-only</td><td>No</td><td>The index of the active widget</td></tr>
+<tr><td>transform</td><td><a href="transform.md">Transform</a></td><td>Read/Write</td><td>No</td><td>The transform of the Guide Widget</td></tr>
+<tr><td>position</td><td><a href="vector3.md">Vector3</a></td><td>Read/Write</td><td>No</td><td>The 3D position of the Guide Widget</td></tr>
+<tr><td>rotation</td><td><a href="rotation.md">Rotation</a></td><td>Read/Write</td><td>No</td><td>The 3D orientation of the Guide Widget</td></tr>
+<tr><td>scale</td><td>number</td><td>Read/Write</td><td>No</td><td>The scale of the Guide Widget</td></tr>
 <tr><td></td><td></td><td></td></tr></tbody></table>
 
 
 
+## Static Methods
 
-## Methods
-
-
+        
 ### Guide:NewCube(transform)
 
 Creates a new cube guide with a default size using the transform for position and orientation
@@ -162,8 +160,12 @@ Creates a new custom guide with a default size using the transform for position 
 
 
 
+    
 
-### Guide:select()
+## Instance Methods
+
+        
+### guide:Select()
 
 Adds the guide to the current selection
 
@@ -179,7 +181,7 @@ Adds the guide to the current selection
 
 
 
-### Guide:delete()
+### guide:Delete()
 
 Deletes the guide
 
@@ -195,7 +197,7 @@ Deletes the guide
 
 
 
-### Guide:scale(scale)
+### guide:Scale(scale)
 
 Scales the guide (scale can be non-uniform as some guide types can be stretched)
 
@@ -217,4 +219,4 @@ Scales the guide (scale can be non-uniform as some guide types can be stretched)
 
 
 
-
+    

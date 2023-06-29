@@ -2,34 +2,40 @@
 # Vector2
 
 ## Summary
-
 A position or offset in 2D space
 
-
-## Properties
+## Class Properties
 
 <table>
-<thead><tr><th width="225">Name</th><th width="160">Return Type</th><th width="120">Read/Write?</th><th>Description</th></tr></thead>
+<thead><tr><th width="225">Name</th><th width="160">Return Type</th><th width="80">Read/Write?</th><th>Description</th></tr></thead>
 <tbody>
-<tr><td>item</td><td>number</td><td>Read/Write</td><td></td></tr>
-<tr><td>x</td><td>number</td><td>Read/Write</td><td></td></tr>
-<tr><td>y</td><td>number</td><td>Read/Write</td><td></td></tr>
-<tr><td>down</td><td><a href="vector2.md">Vector2</a></td><td>Read-only</td><td></td></tr>
-<tr><td>left</td><td><a href="vector2.md">Vector2</a></td><td>Read-only</td><td></td></tr>
-<tr><td>negativeInfinity</td><td><a href="vector2.md">Vector2</a></td><td>Read-only</td><td></td></tr>
-<tr><td>one</td><td><a href="vector2.md">Vector2</a></td><td>Read-only</td><td></td></tr>
-<tr><td>positiveInfinity</td><td><a href="vector2.md">Vector2</a></td><td>Read-only</td><td></td></tr>
-<tr><td>right</td><td><a href="vector2.md">Vector2</a></td><td>Read-only</td><td></td></tr>
-<tr><td>up</td><td><a href="vector2.md">Vector2</a></td><td>Read-only</td><td></td></tr>
-<tr><td>zero</td><td><a href="vector2.md">Vector2</a></td><td>Read-only</td><td></td></tr>
+<tr><td>down</td><td><a href="vector2.md">Vector2</a></td><td>Read-only</td><td>Yes</td><td></td></tr>
+<tr><td>left</td><td><a href="vector2.md">Vector2</a></td><td>Read-only</td><td>Yes</td><td></td></tr>
+<tr><td>negativeInfinity</td><td><a href="vector2.md">Vector2</a></td><td>Read-only</td><td>Yes</td><td></td></tr>
+<tr><td>one</td><td><a href="vector2.md">Vector2</a></td><td>Read-only</td><td>Yes</td><td></td></tr>
+<tr><td>positiveInfinity</td><td><a href="vector2.md">Vector2</a></td><td>Read-only</td><td>Yes</td><td></td></tr>
+<tr><td>right</td><td><a href="vector2.md">Vector2</a></td><td>Read-only</td><td>Yes</td><td></td></tr>
+<tr><td>up</td><td><a href="vector2.md">Vector2</a></td><td>Read-only</td><td>Yes</td><td></td></tr>
+<tr><td>zero</td><td><a href="vector2.md">Vector2</a></td><td>Read-only</td><td>Yes</td><td></td></tr>
 <tr><td></td><td></td><td></td></tr></tbody></table>
 
 
 
+## Class Properties
 
-## Methods
+<table>
+<thead><tr><th width="225">Name</th><th width="160">Return Type</th><th width="80">Read/Write?</th><th>Description</th></tr></thead>
+<tbody>
+<tr><td>Item</td><td>number</td><td>Read/Write</td><td>No</td><td></td></tr>
+<tr><td>x</td><td>number</td><td>Read/Write</td><td>No</td><td></td></tr>
+<tr><td>y</td><td>number</td><td>Read/Write</td><td>No</td><td></td></tr>
+<tr><td></td><td></td><td></td></tr></tbody></table>
 
 
+
+## Static Methods
+
+        
 ### Vector2:New(x, y)
 
 
@@ -393,223 +399,6 @@ A position or offset in 2D space
 
 
 
-### Vector2:onx()
-
-
-
-**Returns:** <a href="vector3.md">Vector3</a>
-
-
-
-
-
-
-### Vector2:ony()
-
-
-
-**Returns:** <a href="vector3.md">Vector3</a>
-
-
-
-
-
-
-### Vector2:onz()
-
-
-
-**Returns:** <a href="vector3.md">Vector3</a>
-
-
-
-
-
-
-### Vector2:add(b)
-
-
-
-**Returns:** <a href="vector2.md">Vector2</a>
-
-
-**Parameters:**
-
-<table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>b</td><td><a href="vector2.md">Vector2</a></td><td></td></tr></tbody></table>
-
-
-
-
-
-
-### Vector2:add(x, y)
-
-
-
-**Returns:** <a href="vector2.md">Vector2</a>
-
-
-**Parameters:**
-
-<table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>x</td><td>number</td><td></td></tr>
-<tr><td>y</td><td>number</td><td></td></tr></tbody></table>
-
-
-
-
-
-
-### Vector2:subtract(b)
-
-
-
-**Returns:** <a href="vector2.md">Vector2</a>
-
-
-**Parameters:**
-
-<table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>b</td><td><a href="vector2.md">Vector2</a></td><td></td></tr></tbody></table>
-
-
-
-
-
-
-### Vector2:subtract(x, y)
-
-
-
-**Returns:** <a href="vector2.md">Vector2</a>
-
-
-**Parameters:**
-
-<table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>x</td><td>number</td><td></td></tr>
-<tr><td>y</td><td>number</td><td></td></tr></tbody></table>
-
-
-
-
-
-
-### Vector2:multiply(b)
-
-
-
-**Returns:** <a href="vector2.md">Vector2</a>
-
-
-**Parameters:**
-
-<table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>b</td><td>number</td><td></td></tr></tbody></table>
-
-
-
-
-
-
-### Vector2:scaleby(b)
-
-
-
-**Returns:** <a href="vector2.md">Vector2</a>
-
-
-**Parameters:**
-
-<table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>b</td><td><a href="vector2.md">Vector2</a></td><td></td></tr></tbody></table>
-
-
-
-
-
-
-### Vector2:scaleby(x, y)
-
-
-
-**Returns:** <a href="vector2.md">Vector2</a>
-
-
-**Parameters:**
-
-<table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>x</td><td>number</td><td></td></tr>
-<tr><td>y</td><td>number</td><td></td></tr></tbody></table>
-
-
-
-
-
-
-### Vector2:divide(b)
-
-
-
-**Returns:** <a href="vector2.md">Vector2</a>
-
-
-**Parameters:**
-
-<table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>b</td><td>number</td><td></td></tr></tbody></table>
-
-
-
-
-
-
-### Vector2:notequals(b)
-
-
-
-**Returns:** boolean
-
-
-**Parameters:**
-
-<table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>b</td><td><a href="vector2.md">Vector2</a></td><td></td></tr></tbody></table>
-
-
-
-
-
-
-### Vector2:notequals(x, y)
-
-
-
-**Returns:** boolean
-
-
-**Parameters:**
-
-<table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>x</td><td>number</td><td></td></tr>
-<tr><td>y</td><td>number</td><td></td></tr></tbody></table>
-
-
-
-
-
-
 ### Vector2:Add(a, b)
 
 
@@ -704,4 +493,225 @@ A position or offset in 2D space
 
 
 
+    
 
+## Instance Methods
+
+        
+### vector2:OnX()
+
+
+
+**Returns:** <a href="vector3.md">Vector3</a>
+
+
+
+
+
+
+### vector2:OnY()
+
+
+
+**Returns:** <a href="vector3.md">Vector3</a>
+
+
+
+
+
+
+### vector2:OnZ()
+
+
+
+**Returns:** <a href="vector3.md">Vector3</a>
+
+
+
+
+
+
+### vector2:Add(b)
+
+
+
+**Returns:** <a href="vector2.md">Vector2</a>
+
+
+**Parameters:**
+
+<table data-full-width="false">
+<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<tbody><tr><td>b</td><td><a href="vector2.md">Vector2</a></td><td></td></tr></tbody></table>
+
+
+
+
+
+
+### vector2:Add(x, y)
+
+
+
+**Returns:** <a href="vector2.md">Vector2</a>
+
+
+**Parameters:**
+
+<table data-full-width="false">
+<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<tbody><tr><td>x</td><td>number</td><td></td></tr>
+<tr><td>y</td><td>number</td><td></td></tr></tbody></table>
+
+
+
+
+
+
+### vector2:Subtract(b)
+
+
+
+**Returns:** <a href="vector2.md">Vector2</a>
+
+
+**Parameters:**
+
+<table data-full-width="false">
+<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<tbody><tr><td>b</td><td><a href="vector2.md">Vector2</a></td><td></td></tr></tbody></table>
+
+
+
+
+
+
+### vector2:Subtract(x, y)
+
+
+
+**Returns:** <a href="vector2.md">Vector2</a>
+
+
+**Parameters:**
+
+<table data-full-width="false">
+<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<tbody><tr><td>x</td><td>number</td><td></td></tr>
+<tr><td>y</td><td>number</td><td></td></tr></tbody></table>
+
+
+
+
+
+
+### vector2:Multiply(b)
+
+
+
+**Returns:** <a href="vector2.md">Vector2</a>
+
+
+**Parameters:**
+
+<table data-full-width="false">
+<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<tbody><tr><td>b</td><td>number</td><td></td></tr></tbody></table>
+
+
+
+
+
+
+### vector2:ScaleBy(b)
+
+
+
+**Returns:** <a href="vector2.md">Vector2</a>
+
+
+**Parameters:**
+
+<table data-full-width="false">
+<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<tbody><tr><td>b</td><td><a href="vector2.md">Vector2</a></td><td></td></tr></tbody></table>
+
+
+
+
+
+
+### vector2:ScaleBy(x, y)
+
+
+
+**Returns:** <a href="vector2.md">Vector2</a>
+
+
+**Parameters:**
+
+<table data-full-width="false">
+<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<tbody><tr><td>x</td><td>number</td><td></td></tr>
+<tr><td>y</td><td>number</td><td></td></tr></tbody></table>
+
+
+
+
+
+
+### vector2:Divide(b)
+
+
+
+**Returns:** <a href="vector2.md">Vector2</a>
+
+
+**Parameters:**
+
+<table data-full-width="false">
+<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<tbody><tr><td>b</td><td>number</td><td></td></tr></tbody></table>
+
+
+
+
+
+
+### vector2:NotEquals(b)
+
+
+
+**Returns:** boolean
+
+
+**Parameters:**
+
+<table data-full-width="false">
+<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<tbody><tr><td>b</td><td><a href="vector2.md">Vector2</a></td><td></td></tr></tbody></table>
+
+
+
+
+
+
+### vector2:NotEquals(x, y)
+
+
+
+**Returns:** boolean
+
+
+**Parameters:**
+
+<table data-full-width="false">
+<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<tbody><tr><td>x</td><td>number</td><td></td></tr>
+<tr><td>y</td><td>number</td><td></td></tr></tbody></table>
+
+
+
+
+
+    

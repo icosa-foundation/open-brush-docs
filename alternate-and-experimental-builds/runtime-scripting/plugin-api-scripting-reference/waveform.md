@@ -2,15 +2,13 @@
 # Waveform
 
 ## Summary
-
 Functions to generate a variety of waveforms
 
 
 
+## Static Methods
 
-## Methods
-
-
+        
 ### Waveform:Sine(time, frequency)
 
 
@@ -576,4 +574,5 @@ Functions to generate a variety of waveforms
 
 
 
+    
 
