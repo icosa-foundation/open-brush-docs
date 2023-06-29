@@ -9,14 +9,14 @@ A position or offset in 2D space
 <table>
 <thead><tr><th width="225">Name</th><th width="160">Return Type</th><th width="80">Read/Write?</th><th>Description</th></tr></thead>
 <tbody>
-<tr><td>down</td><td><a href="vector2.md">Vector2</a></td><td>Read-only</td><td>Yes</td><td></td></tr>
-<tr><td>left</td><td><a href="vector2.md">Vector2</a></td><td>Read-only</td><td>Yes</td><td></td></tr>
-<tr><td>negativeInfinity</td><td><a href="vector2.md">Vector2</a></td><td>Read-only</td><td>Yes</td><td></td></tr>
-<tr><td>one</td><td><a href="vector2.md">Vector2</a></td><td>Read-only</td><td>Yes</td><td></td></tr>
-<tr><td>positiveInfinity</td><td><a href="vector2.md">Vector2</a></td><td>Read-only</td><td>Yes</td><td></td></tr>
-<tr><td>right</td><td><a href="vector2.md">Vector2</a></td><td>Read-only</td><td>Yes</td><td></td></tr>
-<tr><td>up</td><td><a href="vector2.md">Vector2</a></td><td>Read-only</td><td>Yes</td><td></td></tr>
-<tr><td>zero</td><td><a href="vector2.md">Vector2</a></td><td>Read-only</td><td>Yes</td><td></td></tr>
+<tr><td>down</td><td><a href="vector2.md">Vector2</a></td><td>Read-only</td><td></td></tr>
+<tr><td>left</td><td><a href="vector2.md">Vector2</a></td><td>Read-only</td><td></td></tr>
+<tr><td>negativeInfinity</td><td><a href="vector2.md">Vector2</a></td><td>Read-only</td><td></td></tr>
+<tr><td>one</td><td><a href="vector2.md">Vector2</a></td><td>Read-only</td><td></td></tr>
+<tr><td>positiveInfinity</td><td><a href="vector2.md">Vector2</a></td><td>Read-only</td><td></td></tr>
+<tr><td>right</td><td><a href="vector2.md">Vector2</a></td><td>Read-only</td><td></td></tr>
+<tr><td>up</td><td><a href="vector2.md">Vector2</a></td><td>Read-only</td><td></td></tr>
+<tr><td>zero</td><td><a href="vector2.md">Vector2</a></td><td>Read-only</td><td></td></tr>
 </tbody></table>
 
 
@@ -26,9 +26,9 @@ A position or offset in 2D space
 <table>
 <thead><tr><th width="225">Name</th><th width="160">Return Type</th><th width="80">Read/Write?</th><th>Description</th></tr></thead>
 <tbody>
-<tr><td>Item</td><td>number</td><td>Read/Write</td><td>No</td><td></td></tr>
-<tr><td>x</td><td>number</td><td>Read/Write</td><td>No</td><td></td></tr>
-<tr><td>y</td><td>number</td><td>Read/Write</td><td>No</td><td></td></tr>
+<tr><td>Item</td><td>number</td><td>Read/Write</td><td></td></tr>
+<tr><td>x</td><td>number</td><td>Read/Write</td><td></td></tr>
+<tr><td>y</td><td>number</td><td>Read/Write</td><td></td></tr>
 </tbody></table>
 
 
@@ -398,101 +398,6 @@ A position or offset in 2D space
 
 
 
-
-### Vector2:Add(a, b)
-
-
-
-**Returns:** <a href="vector2.md">Vector2</a>
-
-
-**Parameters:**
-
-<table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>a</td><td><a href="vector2.md">Vector2</a></td><td></td></tr>
-<tr><td>b</td><td><a href="vector2.md">Vector2</a></td><td></td></tr></tbody></table>
-
-
-
-
-
-
-### Vector2:Subtract(a, b)
-
-
-
-**Returns:** <a href="vector2.md">Vector2</a>
-
-
-**Parameters:**
-
-<table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>a</td><td><a href="vector2.md">Vector2</a></td><td></td></tr>
-<tr><td>b</td><td><a href="vector2.md">Vector2</a></td><td></td></tr></tbody></table>
-
-
-
-
-
-
-### Vector2:Multiply(a, b)
-
-
-
-**Returns:** <a href="vector2.md">Vector2</a>
-
-
-**Parameters:**
-
-<table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>a</td><td><a href="vector2.md">Vector2</a></td><td></td></tr>
-<tr><td>b</td><td>number</td><td></td></tr></tbody></table>
-
-
-
-
-
-
-### Vector2:Divide(a, b)
-
-
-
-**Returns:** <a href="vector2.md">Vector2</a>
-
-
-**Parameters:**
-
-<table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>a</td><td><a href="vector2.md">Vector2</a></td><td></td></tr>
-<tr><td>b</td><td>number</td><td></td></tr></tbody></table>
-
-
-
-
-
-
-### Vector2:NotEquals(a, b)
-
-
-
-**Returns:** boolean
-
-
-**Parameters:**
-
-<table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>a</td><td><a href="vector2.md">Vector2</a></td><td></td></tr>
-<tr><td>b</td><td><a href="vector2.md">Vector2</a></td><td></td></tr></tbody></table>
-
-
-
-
-
     
 
 ## Instance Methods
@@ -531,7 +436,7 @@ A position or offset in 2D space
 
 
 
-### vector2:Add(b)
+### vector2:Add(other)
 
 
 
@@ -542,7 +447,7 @@ A position or offset in 2D space
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>b</td><td><a href="vector2.md">Vector2</a></td><td></td></tr></tbody></table>
+<tbody><tr><td>other</td><td><a href="vector2.md">Vector2</a></td><td></td></tr></tbody></table>
 
 
 
@@ -568,7 +473,7 @@ A position or offset in 2D space
 
 
 
-### vector2:Subtract(b)
+### vector2:Subtract(other)
 
 
 
@@ -579,7 +484,7 @@ A position or offset in 2D space
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>b</td><td><a href="vector2.md">Vector2</a></td><td></td></tr></tbody></table>
+<tbody><tr><td>other</td><td><a href="vector2.md">Vector2</a></td><td></td></tr></tbody></table>
 
 
 
@@ -605,7 +510,7 @@ A position or offset in 2D space
 
 
 
-### vector2:Multiply(b)
+### vector2:Multiply(value)
 
 
 
@@ -616,14 +521,14 @@ A position or offset in 2D space
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>b</td><td>number</td><td></td></tr></tbody></table>
+<tbody><tr><td>value</td><td>number</td><td></td></tr></tbody></table>
 
 
 
 
 
 
-### vector2:ScaleBy(b)
+### vector2:ScaleBy(other)
 
 
 
@@ -634,7 +539,7 @@ A position or offset in 2D space
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>b</td><td><a href="vector2.md">Vector2</a></td><td></td></tr></tbody></table>
+<tbody><tr><td>other</td><td><a href="vector2.md">Vector2</a></td><td></td></tr></tbody></table>
 
 
 
@@ -660,7 +565,7 @@ A position or offset in 2D space
 
 
 
-### vector2:Divide(b)
+### vector2:Divide(value)
 
 
 
@@ -671,14 +576,14 @@ A position or offset in 2D space
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>b</td><td>number</td><td></td></tr></tbody></table>
+<tbody><tr><td>value</td><td>number</td><td></td></tr></tbody></table>
 
 
 
 
 
 
-### vector2:NotEquals(b)
+### vector2:NotEquals(other)
 
 
 
@@ -689,7 +594,7 @@ A position or offset in 2D space
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>b</td><td><a href="vector2.md">Vector2</a></td><td></td></tr></tbody></table>
+<tbody><tr><td>other</td><td><a href="vector2.md">Vector2</a></td><td></td></tr></tbody></table>
 
 
 

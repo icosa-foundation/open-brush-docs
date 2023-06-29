@@ -9,11 +9,11 @@ Various properties and methods that effect the entire app
 <table>
 <thead><tr><th width="225">Name</th><th width="160">Return Type</th><th width="80">Read/Write?</th><th>Description</th></tr></thead>
 <tbody>
-<tr><td>time</td><td>number</td><td>Read-only</td><td>Yes</td><td>The time in seconds since Open Brush was launched</td></tr>
-<tr><td>frames</td><td>number</td><td>Read-only</td><td>Yes</td><td>The number of frames that have been rendered since Open Brush was launched</td></tr>
-<tr><td>currentScale</td><td>number</td><td>Read-only</td><td>Yes</td><td>The current scale of the scene</td></tr>
-<tr><td>environment</td><td>string</td><td>Read/Write</td><td>Yes</td><td>Get or set the current environment by name</td></tr>
-<tr><td>clipboardText</td><td>string</td><td>Read/Write</td><td>Yes</td><td>Get or set the clipboard text</td></tr>
+<tr><td>time</td><td>number</td><td>Read-only</td><td>The time in seconds since Open Brush was launched</td></tr>
+<tr><td>frames</td><td>number</td><td>Read-only</td><td>The number of frames that have been rendered since Open Brush was launched</td></tr>
+<tr><td>currentScale</td><td>number</td><td>Read-only</td><td>The current scale of the scene</td></tr>
+<tr><td>environment</td><td>string</td><td>Read/Write</td><td>Get or set the current environment by name</td></tr>
+<tr><td>clipboardText</td><td>string</td><td>Read/Write</td><td>Get or set the clipboard text</td></tr>
 </tbody></table>
 
 

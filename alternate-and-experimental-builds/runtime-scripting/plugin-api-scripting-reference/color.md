@@ -9,17 +9,17 @@ An RGB color
 <table>
 <thead><tr><th width="225">Name</th><th width="160">Return Type</th><th width="80">Read/Write?</th><th>Description</th></tr></thead>
 <tbody>
-<tr><td>black</td><td><a href="color.md">Color</a></td><td>Read-only</td><td>Yes</td><td>Gets the black color</td></tr>
-<tr><td>blue</td><td><a href="color.md">Color</a></td><td>Read-only</td><td>Yes</td><td>Gets the blue color</td></tr>
-<tr><td>clear</td><td><a href="color.md">Color</a></td><td>Read-only</td><td>Yes</td><td>Gets the clear color</td></tr>
-<tr><td>cyan</td><td><a href="color.md">Color</a></td><td>Read-only</td><td>Yes</td><td>Gets the cyan color</td></tr>
-<tr><td>gray</td><td><a href="color.md">Color</a></td><td>Read-only</td><td>Yes</td><td>Gets the gray color</td></tr>
-<tr><td>green</td><td><a href="color.md">Color</a></td><td>Read-only</td><td>Yes</td><td>Gets the green color</td></tr>
-<tr><td>grey</td><td><a href="color.md">Color</a></td><td>Read-only</td><td>Yes</td><td>Gets the grey color</td></tr>
-<tr><td>magenta</td><td><a href="color.md">Color</a></td><td>Read-only</td><td>Yes</td><td>Gets the magenta color</td></tr>
-<tr><td>red</td><td><a href="color.md">Color</a></td><td>Read-only</td><td>Yes</td><td>Gets the red color</td></tr>
-<tr><td>white</td><td><a href="color.md">Color</a></td><td>Read-only</td><td>Yes</td><td>Gets the white color</td></tr>
-<tr><td>yellow</td><td><a href="color.md">Color</a></td><td>Read-only</td><td>Yes</td><td>Gets the yellow color</td></tr>
+<tr><td>black</td><td><a href="color.md">Color</a></td><td>Read-only</td><td>Gets the black color</td></tr>
+<tr><td>blue</td><td><a href="color.md">Color</a></td><td>Read-only</td><td>Gets the blue color</td></tr>
+<tr><td>clear</td><td><a href="color.md">Color</a></td><td>Read-only</td><td>Gets the clear color</td></tr>
+<tr><td>cyan</td><td><a href="color.md">Color</a></td><td>Read-only</td><td>Gets the cyan color</td></tr>
+<tr><td>gray</td><td><a href="color.md">Color</a></td><td>Read-only</td><td>Gets the gray color</td></tr>
+<tr><td>green</td><td><a href="color.md">Color</a></td><td>Read-only</td><td>Gets the green color</td></tr>
+<tr><td>grey</td><td><a href="color.md">Color</a></td><td>Read-only</td><td>Gets the grey color</td></tr>
+<tr><td>magenta</td><td><a href="color.md">Color</a></td><td>Read-only</td><td>Gets the magenta color</td></tr>
+<tr><td>red</td><td><a href="color.md">Color</a></td><td>Read-only</td><td>Gets the red color</td></tr>
+<tr><td>white</td><td><a href="color.md">Color</a></td><td>Read-only</td><td>Gets the white color</td></tr>
+<tr><td>yellow</td><td><a href="color.md">Color</a></td><td>Read-only</td><td>Gets the yellow color</td></tr>
 </tbody></table>
 
 
@@ -29,15 +29,18 @@ An RGB color
 <table>
 <thead><tr><th width="225">Name</th><th width="160">Return Type</th><th width="80">Read/Write?</th><th>Description</th></tr></thead>
 <tbody>
-<tr><td>Item</td><td>number</td><td>Read/Write</td><td>No</td><td>Gets or sets the color component at the specified index</td></tr>
-<tr><td>r</td><td>number</td><td>Read-only</td><td>No</td><td>Gets the red component of the color</td></tr>
-<tr><td>g</td><td>number</td><td>Read-only</td><td>No</td><td>Gets the green component of the color</td></tr>
-<tr><td>b</td><td>number</td><td>Read-only</td><td>No</td><td>Gets the blue component of the color</td></tr>
-<tr><td>a</td><td>number</td><td>Read-only</td><td>No</td><td>Gets the alpha component of the color</td></tr>
-<tr><td>grayscale</td><td>number</td><td>Read-only</td><td>No</td><td>Gets the grayscale value of the color</td></tr>
-<tr><td>gamma</td><td><a href="color.md">Color</a></td><td>Read-only</td><td>No</td><td>Gets the gamma color space representation of the color</td></tr>
-<tr><td>linear</td><td><a href="color.md">Color</a></td><td>Read-only</td><td>No</td><td>Gets the linear color space representation of the color</td></tr>
-<tr><td>maxColorComponent</td><td>number</td><td>Read-only</td><td>No</td><td>Gets the maximum color component value of the color</td></tr>
+<tr><td>Item</td><td>number</td><td>Read/Write</td><td>Gets or sets the color component at the specified index</td></tr>
+<tr><td>r</td><td>number</td><td>Read-only</td><td>The red component</td></tr>
+<tr><td>g</td><td>number</td><td>Read-only</td><td>The green component</td></tr>
+<tr><td>b</td><td>number</td><td>Read-only</td><td>The blue component</td></tr>
+<tr><td>a</td><td>number</td><td>Read-only</td><td>The alpha component</td></tr>
+<tr><td>grayscale</td><td>number</td><td>Read-only</td><td>The grayscale value</td></tr>
+<tr><td>gamma</td><td><a href="color.md">Color</a></td><td>Read-only</td><td>The gamma color space representation</td></tr>
+<tr><td>linear</td><td><a href="color.md">Color</a></td><td>Read-only</td><td>The linear color space representation</td></tr>
+<tr><td>maxColorComponent</td><td>number</td><td>Read-only</td><td>The maximum color component value</td></tr>
+<tr><td>html</td><td>string</td><td>Read-only</td><td>The HTML hex string of the color (for example "A4D0FF")</td></tr>
+<tr><td>greyscale</td><td>number</td><td>Read-only</td><td>The grayscale value</td></tr>
+<tr><td>hsv</td><td><a href="vector3.md">Vector3</a></td><td>Read-only</td><td>The hue, saturation and brightess</td></tr>
 </tbody></table>
 
 
@@ -89,75 +92,6 @@ Creates a new instance of the Color with the color parsed from the specified HTM
 #### Example
 
 <pre class="language-lua"><code class="lang-lua"><strong>myColor = Color:New("D3B322")</strong></code></pre>
-
-
-
-
-### Color:Greyscale(color)
-
-Calculates the grayscale value of the specified color
-
-**Returns:** number
-
-
-**Parameters:**
-
-<table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>color</td><td><a href="color.md">Color</a></td><td></td></tr></tbody></table>
-
-
-
-
-#### Example
-
-<pre class="language-lua"><code class="lang-lua"><strong>grayAmount = myColor:Greyscale()</strong></code></pre>
-
-
-
-
-### Color:MaxColorComponent(color)
-
-Gets the maximum color component value of the specified color
-
-**Returns:** number
-
-
-**Parameters:**
-
-<table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>color</td><td><a href="color.md">Color</a></td><td></td></tr></tbody></table>
-
-
-
-
-#### Example
-
-<pre class="language-lua"><code class="lang-lua"><strong>amount = myColor:MaxColorComponent()</strong></code></pre>
-
-
-
-
-### Color:ToHtmlString(col)
-
-Converts the specified color to its HTML string representation
-
-**Returns:** string
-
-
-**Parameters:**
-
-<table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>col</td><td><a href="color.md">Color</a></td><td>The color</td></tr></tbody></table>
-
-
-
-
-#### Example
-
-<pre class="language-lua"><code class="lang-lua"><strong>htmlColor = myColor:ToHtmlString()</strong></code></pre>
 
 
 
@@ -260,32 +194,9 @@ Converts an HSV color to an RGB color
 
 
 
-### Color:RgbToHsv(rgb)
+### Color:HsvToRgb(hsv)
 
-Converts an RGB color to an HSV color
-
-**Returns:** <a href="vector3.md">Vector3</a>
-
-
-**Parameters:**
-
-<table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>rgb</td><td><a href="color.md">Color</a></td><td>The RGB color</td></tr></tbody></table>
-
-
-
-
-#### Example
-
-<pre class="language-lua"><code class="lang-lua"><strong>myVector = Color:RgbToHsv(myColor</strong></code></pre>
-
-
-
-
-### Color:Add(a, b)
-
-Adds two colors together
+Converts an HSV Vector3 to an RGB color
 
 **Returns:** <a href="color.md">Color</a>
 
@@ -294,111 +205,14 @@ Adds two colors together
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>a</td><td><a href="color.md">Color</a></td><td>The first color</td></tr>
-<tr><td>b</td><td><a href="color.md">Color</a></td><td>The second color</td></tr></tbody></table>
+<tbody><tr><td>hsv</td><td><a href="vector3.md">Vector3</a></td><td>A Vector3 with xyz representing hsv. All values between 0 and 1</td></tr></tbody></table>
 
 
 
 
 #### Example
 
-<pre class="language-lua"><code class="lang-lua"><strong>newColor = Color:Add(color1, color2)</strong></code></pre>
-
-
-
-
-### Color:Subtract(a, b)
-
-Subtracts the second color from the first color
-
-**Returns:** <a href="color.md">Color</a>
-
-
-**Parameters:**
-
-<table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>a</td><td><a href="color.md">Color</a></td><td>The first color</td></tr>
-<tr><td>b</td><td><a href="color.md">Color</a></td><td>The second color</td></tr></tbody></table>
-
-
-
-
-#### Example
-
-<pre class="language-lua"><code class="lang-lua"><strong>newColor = Color:Subtract(color1, color2)</strong></code></pre>
-
-
-
-
-### Color:Multiply(a, b)
-
-Multiplies the color by the specified value
-
-**Returns:** <a href="color.md">Color</a>
-
-
-**Parameters:**
-
-<table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>a</td><td><a href="color.md">Color</a></td><td>The color</td></tr>
-<tr><td>b</td><td>number</td><td>The value to multiply</td></tr></tbody></table>
-
-
-
-
-#### Example
-
-<pre class="language-lua"><code class="lang-lua"><strong>newColor = Color:Multiply(color1, color2)</strong></code></pre>
-
-
-
-
-### Color:Divide(a, b)
-
-Divides the color by the specified value
-
-**Returns:** <a href="color.md">Color</a>
-
-
-**Parameters:**
-
-<table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>a</td><td><a href="color.md">Color</a></td><td>The color</td></tr>
-<tr><td>b</td><td>number</td><td>The value to divide</td></tr></tbody></table>
-
-
-
-
-#### Example
-
-<pre class="language-lua"><code class="lang-lua"><strong>newColor = Color:Divide(color1, color2)</strong></code></pre>
-
-
-
-
-### Color:NotEquals(a, b)
-
-Determines whether two colors are not equal
-
-**Returns:** boolean
-
-
-**Parameters:**
-
-<table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>a</td><td><a href="color.md">Color</a></td><td>The first color</td></tr>
-<tr><td>b</td><td><a href="color.md">Color</a></td><td>The second color</td></tr></tbody></table>
-
-
-
-
-#### Example
-
-<pre class="language-lua"><code class="lang-lua"><strong>colorsAreDifferent = Color:NotEquals(color1, color2)</strong></code></pre>
+<pre class="language-lua"><code class="lang-lua"><strong>newColor = Color:HsvToRgb(myHsv)</strong></code></pre>
 
 
 
@@ -407,7 +221,7 @@ Determines whether two colors are not equal
 ## Instance Methods
 
         
-### color:Add(b)
+### color:Add(other)
 
 Adds the specified color to this color
 
@@ -418,7 +232,7 @@ Adds the specified color to this color
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>b</td><td><a href="color.md">Color</a></td><td>The color to add</td></tr></tbody></table>
+<tbody><tr><td>other</td><td><a href="color.md">Color</a></td><td>The color to add</td></tr></tbody></table>
 
 
 
@@ -455,7 +269,7 @@ Adds the specified RGB values to this color
 
 
 
-### color:Subtract(b)
+### color:Subtract(other)
 
 Subtracts the specified color from this color
 
@@ -466,7 +280,7 @@ Subtracts the specified color from this color
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>b</td><td><a href="color.md">Color</a></td><td>The color to subtract</td></tr></tbody></table>
+<tbody><tr><td>other</td><td><a href="color.md">Color</a></td><td>The color to subtract</td></tr></tbody></table>
 
 
 
@@ -503,7 +317,7 @@ Subtracts the specified RGB values from this color
 
 
 
-### color:Multiply(b)
+### color:Multiply(value)
 
 Multiplies this color by the specified value
 
@@ -514,7 +328,7 @@ Multiplies this color by the specified value
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>b</td><td>number</td><td>The value to multiply</td></tr></tbody></table>
+<tbody><tr><td>value</td><td>number</td><td>The value to multiply</td></tr></tbody></table>
 
 
 
@@ -551,7 +365,7 @@ Multiplies this color by the specified RGB values
 
 
 
-### color:Divide(b)
+### color:Divide(value)
 
 Divides this color by the specified value
 
@@ -562,7 +376,7 @@ Divides this color by the specified value
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>b</td><td>number</td><td>The value to divide</td></tr></tbody></table>
+<tbody><tr><td>value</td><td>number</td><td>The value to divide</td></tr></tbody></table>
 
 
 
@@ -574,7 +388,7 @@ Divides this color by the specified value
 
 
 
-### color:NotEquals(b)
+### color:NotEquals(other)
 
 Determines whether this color is not equal to the specified color
 
@@ -585,7 +399,7 @@ Determines whether this color is not equal to the specified color
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>b</td><td><a href="color.md">Color</a></td><td>The color to compare</td></tr></tbody></table>
+<tbody><tr><td>other</td><td><a href="color.md">Color</a></td><td>The color to compare</td></tr></tbody></table>
 
 
 

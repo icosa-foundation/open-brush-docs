@@ -10,8 +10,8 @@ Multiple disconnected path segments
 <table>
 <thead><tr><th width="225">Name</th><th width="160">Return Type</th><th width="80">Read/Write?</th><th>Description</th></tr></thead>
 <tbody>
-<tr><td>count</td><td>number</td><td>Read-only</td><td>No</td><td>Returns number of paths contained in the multipath</td></tr>
-<tr><td>pointCount</td><td>number</td><td>Read-only</td><td>No</td><td>Returns the number of points in all paths in the multipath</td></tr>
+<tr><td>count</td><td>number</td><td>Read-only</td><td>Returns number of paths contained in the multipath</td></tr>
+<tr><td>pointCount</td><td>number</td><td>Read-only</td><td>Returns the number of points in all paths in the multipath</td></tr>
 </tbody></table>
 
 

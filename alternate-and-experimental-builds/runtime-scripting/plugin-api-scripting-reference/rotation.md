@@ -9,14 +9,14 @@ Represents a rotation or orientation in 3D space
 <table>
 <thead><tr><th width="225">Name</th><th width="160">Return Type</th><th width="80">Read/Write?</th><th>Description</th></tr></thead>
 <tbody>
-<tr><td>zero</td><td><a href="rotation.md">Rotation</a></td><td>Read-only</td><td>Yes</td><td></td></tr>
-<tr><td>left</td><td><a href="rotation.md">Rotation</a></td><td>Read-only</td><td>Yes</td><td></td></tr>
-<tr><td>right</td><td><a href="rotation.md">Rotation</a></td><td>Read-only</td><td>Yes</td><td></td></tr>
-<tr><td>up</td><td><a href="rotation.md">Rotation</a></td><td>Read-only</td><td>Yes</td><td></td></tr>
-<tr><td>down</td><td><a href="rotation.md">Rotation</a></td><td>Read-only</td><td>Yes</td><td></td></tr>
-<tr><td>anticlockwise</td><td><a href="rotation.md">Rotation</a></td><td>Read-only</td><td>Yes</td><td></td></tr>
-<tr><td>clockwise</td><td><a href="rotation.md">Rotation</a></td><td>Read-only</td><td>Yes</td><td></td></tr>
-<tr><td>kEpsilon</td><td>number</td><td>Read-only</td><td>Yes</td><td></td></tr>
+<tr><td>zero</td><td><a href="rotation.md">Rotation</a></td><td>Read-only</td><td></td></tr>
+<tr><td>left</td><td><a href="rotation.md">Rotation</a></td><td>Read-only</td><td></td></tr>
+<tr><td>right</td><td><a href="rotation.md">Rotation</a></td><td>Read-only</td><td></td></tr>
+<tr><td>up</td><td><a href="rotation.md">Rotation</a></td><td>Read-only</td><td></td></tr>
+<tr><td>down</td><td><a href="rotation.md">Rotation</a></td><td>Read-only</td><td></td></tr>
+<tr><td>anticlockwise</td><td><a href="rotation.md">Rotation</a></td><td>Read-only</td><td></td></tr>
+<tr><td>clockwise</td><td><a href="rotation.md">Rotation</a></td><td>Read-only</td><td></td></tr>
+<tr><td>kEpsilon</td><td>number</td><td>Read-only</td><td></td></tr>
 </tbody></table>
 
 
@@ -26,11 +26,11 @@ Represents a rotation or orientation in 3D space
 <table>
 <thead><tr><th width="225">Name</th><th width="160">Return Type</th><th width="80">Read/Write?</th><th>Description</th></tr></thead>
 <tbody>
-<tr><td>Item</td><td>number</td><td>Read/Write</td><td>No</td><td></td></tr>
-<tr><td>x</td><td>number</td><td>Read-only</td><td>No</td><td></td></tr>
-<tr><td>y</td><td>number</td><td>Read-only</td><td>No</td><td></td></tr>
-<tr><td>z</td><td>number</td><td>Read-only</td><td>No</td><td></td></tr>
-<tr><td>normalized</td><td><a href="rotation.md">Rotation</a></td><td>Read-only</td><td>No</td><td></td></tr>
+<tr><td>Item</td><td>number</td><td>Read/Write</td><td></td></tr>
+<tr><td>x</td><td>number</td><td>Read-only</td><td></td></tr>
+<tr><td>y</td><td>number</td><td>Read-only</td><td></td></tr>
+<tr><td>z</td><td>number</td><td>Read-only</td><td></td></tr>
+<tr><td>normalized</td><td><a href="rotation.md">Rotation</a></td><td>Read-only</td><td></td></tr>
 </tbody></table>
 
 
@@ -306,25 +306,6 @@ Represents a rotation or orientation in 3D space
 
 
 
-
-### Rotation:Multiply(a, b)
-
-
-
-**Returns:** <a href="rotation.md">Rotation</a>
-
-
-**Parameters:**
-
-<table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>a</td><td><a href="rotation.md">Rotation</a></td><td></td></tr>
-<tr><td>b</td><td><a href="rotation.md">Rotation</a></td><td></td></tr></tbody></table>
-
-
-
-
-
     
 
 ## Instance Methods
@@ -397,7 +378,7 @@ Represents a rotation or orientation in 3D space
 
 
 
-### rotation:Multiply(b)
+### rotation:Multiply(other)
 
 
 
@@ -408,7 +389,7 @@ Represents a rotation or orientation in 3D space
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>b</td><td><a href="rotation.md">Rotation</a></td><td></td></tr></tbody></table>
+<tbody><tr><td>other</td><td><a href="rotation.md">Rotation</a></td><td></td></tr></tbody></table>
 
 
 
@@ -435,7 +416,7 @@ Represents a rotation or orientation in 3D space
 
 
 
-### rotation:Scale(a)
+### rotation:Scale(amount)
 
 
 
@@ -446,7 +427,7 @@ Represents a rotation or orientation in 3D space
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>a</td><td>number</td><td></td></tr></tbody></table>
+<tbody><tr><td>amount</td><td>number</td><td></td></tr></tbody></table>
 
 
 

@@ -9,8 +9,8 @@ Settings and controls for audio visualization mode
 <table>
 <thead><tr><th width="225">Name</th><th width="160">Return Type</th><th width="80">Read/Write?</th><th>Description</th></tr></thead>
 <tbody>
-<tr><td>sampleRate</td><td>number</td><td>Read-only</td><td>Yes</td><td></td></tr>
-<tr><td>duration</td><td>number</td><td>Read-only</td><td>Yes</td><td></td></tr>
+<tr><td>sampleRate</td><td>number</td><td>Read-only</td><td></td></tr>
+<tr><td>duration</td><td>number</td><td>Read-only</td><td></td></tr>
 </tbody></table>
 
 

@@ -9,16 +9,16 @@ A position or offset in 3D space
 <table>
 <thead><tr><th width="225">Name</th><th width="160">Return Type</th><th width="80">Read/Write?</th><th>Description</th></tr></thead>
 <tbody>
-<tr><td>back</td><td><a href="vector3.md">Vector3</a></td><td>Read-only</td><td>Yes</td><td></td></tr>
-<tr><td>down</td><td><a href="vector3.md">Vector3</a></td><td>Read-only</td><td>Yes</td><td></td></tr>
-<tr><td>forward</td><td><a href="vector3.md">Vector3</a></td><td>Read-only</td><td>Yes</td><td></td></tr>
-<tr><td>left</td><td><a href="vector3.md">Vector3</a></td><td>Read-only</td><td>Yes</td><td></td></tr>
-<tr><td>negativeInfinity</td><td><a href="vector3.md">Vector3</a></td><td>Read-only</td><td>Yes</td><td></td></tr>
-<tr><td>one</td><td><a href="vector3.md">Vector3</a></td><td>Read-only</td><td>Yes</td><td></td></tr>
-<tr><td>positiveInfinity</td><td><a href="vector3.md">Vector3</a></td><td>Read-only</td><td>Yes</td><td></td></tr>
-<tr><td>right</td><td><a href="vector3.md">Vector3</a></td><td>Read-only</td><td>Yes</td><td></td></tr>
-<tr><td>up</td><td><a href="vector3.md">Vector3</a></td><td>Read-only</td><td>Yes</td><td></td></tr>
-<tr><td>zero</td><td><a href="vector3.md">Vector3</a></td><td>Read-only</td><td>Yes</td><td></td></tr>
+<tr><td>back</td><td><a href="vector3.md">Vector3</a></td><td>Read-only</td><td></td></tr>
+<tr><td>down</td><td><a href="vector3.md">Vector3</a></td><td>Read-only</td><td></td></tr>
+<tr><td>forward</td><td><a href="vector3.md">Vector3</a></td><td>Read-only</td><td></td></tr>
+<tr><td>left</td><td><a href="vector3.md">Vector3</a></td><td>Read-only</td><td></td></tr>
+<tr><td>negativeInfinity</td><td><a href="vector3.md">Vector3</a></td><td>Read-only</td><td></td></tr>
+<tr><td>one</td><td><a href="vector3.md">Vector3</a></td><td>Read-only</td><td></td></tr>
+<tr><td>positiveInfinity</td><td><a href="vector3.md">Vector3</a></td><td>Read-only</td><td></td></tr>
+<tr><td>right</td><td><a href="vector3.md">Vector3</a></td><td>Read-only</td><td></td></tr>
+<tr><td>up</td><td><a href="vector3.md">Vector3</a></td><td>Read-only</td><td></td></tr>
+<tr><td>zero</td><td><a href="vector3.md">Vector3</a></td><td>Read-only</td><td></td></tr>
 </tbody></table>
 
 
@@ -28,13 +28,13 @@ A position or offset in 3D space
 <table>
 <thead><tr><th width="225">Name</th><th width="160">Return Type</th><th width="80">Read/Write?</th><th>Description</th></tr></thead>
 <tbody>
-<tr><td>Item</td><td>number</td><td>Read/Write</td><td>No</td><td></td></tr>
-<tr><td>x</td><td>number</td><td>Read/Write</td><td>No</td><td></td></tr>
-<tr><td>y</td><td>number</td><td>Read/Write</td><td>No</td><td></td></tr>
-<tr><td>z</td><td>number</td><td>Read/Write</td><td>No</td><td></td></tr>
-<tr><td>magnitude</td><td>number</td><td>Read-only</td><td>No</td><td></td></tr>
-<tr><td>normalized</td><td><a href="vector3.md">Vector3</a></td><td>Read-only</td><td>No</td><td></td></tr>
-<tr><td>sqrMagnitude</td><td>number</td><td>Read-only</td><td>No</td><td></td></tr>
+<tr><td>Item</td><td>number</td><td>Read/Write</td><td></td></tr>
+<tr><td>x</td><td>number</td><td>Read/Write</td><td></td></tr>
+<tr><td>y</td><td>number</td><td>Read/Write</td><td></td></tr>
+<tr><td>z</td><td>number</td><td>Read/Write</td><td></td></tr>
+<tr><td>magnitude</td><td>number</td><td>Read-only</td><td></td></tr>
+<tr><td>normalized</td><td><a href="vector3.md">Vector3</a></td><td>Read-only</td><td></td></tr>
+<tr><td>sqrMagnitude</td><td>number</td><td>Read-only</td><td></td></tr>
 </tbody></table>
 
 
@@ -465,107 +465,12 @@ A position or offset in 3D space
 
 
 
-
-### Vector3:Add(a, b)
-
-
-
-**Returns:** <a href="vector3.md">Vector3</a>
-
-
-**Parameters:**
-
-<table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>a</td><td><a href="vector3.md">Vector3</a></td><td></td></tr>
-<tr><td>b</td><td><a href="vector3.md">Vector3</a></td><td></td></tr></tbody></table>
-
-
-
-
-
-
-### Vector3:Subtract(a, b)
-
-
-
-**Returns:** <a href="vector3.md">Vector3</a>
-
-
-**Parameters:**
-
-<table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>a</td><td><a href="vector3.md">Vector3</a></td><td></td></tr>
-<tr><td>b</td><td><a href="vector3.md">Vector3</a></td><td></td></tr></tbody></table>
-
-
-
-
-
-
-### Vector3:Multiply(a, b)
-
-
-
-**Returns:** <a href="vector3.md">Vector3</a>
-
-
-**Parameters:**
-
-<table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>a</td><td><a href="vector3.md">Vector3</a></td><td></td></tr>
-<tr><td>b</td><td>number</td><td></td></tr></tbody></table>
-
-
-
-
-
-
-### Vector3:Divide(a, b)
-
-
-
-**Returns:** <a href="vector3.md">Vector3</a>
-
-
-**Parameters:**
-
-<table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>a</td><td><a href="vector3.md">Vector3</a></td><td></td></tr>
-<tr><td>b</td><td>number</td><td></td></tr></tbody></table>
-
-
-
-
-
-
-### Vector3:NotEquals(a, b)
-
-
-
-**Returns:** boolean
-
-
-**Parameters:**
-
-<table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>a</td><td><a href="vector3.md">Vector3</a></td><td></td></tr>
-<tr><td>b</td><td><a href="vector3.md">Vector3</a></td><td></td></tr></tbody></table>
-
-
-
-
-
     
 
 ## Instance Methods
 
         
-### vector3:Add(b)
+### vector3:Add(other)
 
 
 
@@ -576,7 +481,7 @@ A position or offset in 3D space
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>b</td><td><a href="vector3.md">Vector3</a></td><td></td></tr></tbody></table>
+<tbody><tr><td>other</td><td><a href="vector3.md">Vector3</a></td><td></td></tr></tbody></table>
 
 
 
@@ -603,7 +508,7 @@ A position or offset in 3D space
 
 
 
-### vector3:Subtract(b)
+### vector3:Subtract(other)
 
 
 
@@ -614,7 +519,7 @@ A position or offset in 3D space
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>b</td><td><a href="vector3.md">Vector3</a></td><td></td></tr></tbody></table>
+<tbody><tr><td>other</td><td><a href="vector3.md">Vector3</a></td><td></td></tr></tbody></table>
 
 
 
@@ -641,7 +546,7 @@ A position or offset in 3D space
 
 
 
-### vector3:Multiply(b)
+### vector3:Multiply(value)
 
 
 
@@ -652,14 +557,14 @@ A position or offset in 3D space
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>b</td><td>number</td><td></td></tr></tbody></table>
+<tbody><tr><td>value</td><td>number</td><td></td></tr></tbody></table>
 
 
 
 
 
 
-### vector3:ScaleBy(b)
+### vector3:ScaleBy(other)
 
 
 
@@ -670,7 +575,7 @@ A position or offset in 3D space
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>b</td><td><a href="vector3.md">Vector3</a></td><td></td></tr></tbody></table>
+<tbody><tr><td>other</td><td><a href="vector3.md">Vector3</a></td><td></td></tr></tbody></table>
 
 
 
@@ -697,7 +602,7 @@ A position or offset in 3D space
 
 
 
-### vector3:Divide(b)
+### vector3:Divide(value)
 
 
 
@@ -708,14 +613,14 @@ A position or offset in 3D space
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>b</td><td>number</td><td></td></tr></tbody></table>
+<tbody><tr><td>value</td><td>number</td><td></td></tr></tbody></table>
 
 
 
 
 
 
-### vector3:NotEquals(b)
+### vector3:NotEquals(other)
 
 
 
@@ -726,7 +631,7 @@ A position or offset in 3D space
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>b</td><td><a href="vector3.md">Vector3</a></td><td></td></tr></tbody></table>
+<tbody><tr><td>other</td><td><a href="vector3.md">Vector3</a></td><td></td></tr></tbody></table>
 
 
 
