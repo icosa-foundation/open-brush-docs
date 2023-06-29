@@ -6,7 +6,7 @@ Functions to call remote websites or APIs
 
 
 
-## Static Methods
+## Class Methods
 
         
 ### WebRequest:Get(url, onSuccess, onError, headers, context)

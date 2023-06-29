@@ -11,12 +11,12 @@ Settings and controls for audio visualization mode
 <tbody>
 <tr><td>sampleRate</td><td>number</td><td>Read-only</td><td>Yes</td><td></td></tr>
 <tr><td>duration</td><td>number</td><td>Read-only</td><td>Yes</td><td></td></tr>
-<tr><td></td><td></td><td></td></tr></tbody></table>
+</tbody></table>
 
 
 
 
-## Static Methods
+## Class Methods
 
         
 ### Visualizer:EnableScripting(name)

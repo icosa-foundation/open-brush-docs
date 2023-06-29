@@ -6,7 +6,7 @@ Timers can be used to call functions at a predetermined time (or multiple times)
 
 
 
-## Static Methods
+## Class Methods
 
         
 ### Timer:Set(fn, interval, delay, repeats)

@@ -6,7 +6,7 @@ Each easing function takes a value between 0 and 1 and modifies it to speed up o
 
 
 
-## Static Methods
+## Class Methods
 
         
 ### Easing:Linear(t)

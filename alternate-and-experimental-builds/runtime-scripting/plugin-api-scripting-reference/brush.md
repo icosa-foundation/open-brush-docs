@@ -28,12 +28,12 @@ The user's brush
 <tr><td>lastColorPicked</td><td><a href="color.md">Color</a></td><td>Read-only</td><td>Yes</td><td>The last color picked by the brush.</td></tr>
 <tr><td>LastColorPickedHsv</td><td><a href="vector3.md">Vector3</a></td><td>Read-only</td><td>Yes</td><td>The last color picked by the brush in HSV.</td></tr>
 <tr><td>currentPath</td><td><a href="path.md">Path</a></td><td>Read/Write</td><td>Yes</td><td>Gets or sets the current path of the brush. Assumes a stroke is in progress.</td></tr>
-<tr><td></td><td></td><td></td></tr></tbody></table>
+</tbody></table>
 
 
 
 
-## Static Methods
+## Class Methods
 
         
 ### Brush:JitterColor()

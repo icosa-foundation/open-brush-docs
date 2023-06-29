@@ -6,7 +6,7 @@ Various actions related to selections of strokes and widgets
 
 
 
-## Static Methods
+## Class Methods
 
         
 ### Selection:Duplicate()

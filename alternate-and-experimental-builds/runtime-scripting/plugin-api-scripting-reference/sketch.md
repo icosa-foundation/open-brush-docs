@@ -22,12 +22,12 @@ Represents the current sketch
 <tr><td>secondaryLightColor</td><td><a href="color.md">Color</a></td><td>Read/Write</td><td>Yes</td><td></td></tr>
 <tr><td>mainLightRotation</td><td><a href="rotation.md">Rotation</a></td><td>Read/Write</td><td>Yes</td><td></td></tr>
 <tr><td>secondaryLightRotation</td><td><a href="rotation.md">Rotation</a></td><td>Read/Write</td><td>Yes</td><td></td></tr>
-<tr><td></td><td></td><td></td></tr></tbody></table>
+</tbody></table>
 
 
 
 
-## Static Methods
+## Class Methods
 
         
 ### Sketch:Open(name)

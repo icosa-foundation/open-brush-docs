@@ -6,7 +6,7 @@ The user's headset
 
 
 
-## Static Methods
+## Class Methods
 
         
 ### Headset:ResizeHistory(size)

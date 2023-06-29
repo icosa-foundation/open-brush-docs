@@ -16,12 +16,12 @@ Various functions for generating random data
 <tr><td>rotationUniform</td><td><a href="rotation.md">Rotation</a></td><td>Read-only</td><td>Yes</td><td></td></tr>
 <tr><td>value</td><td>number</td><td>Read-only</td><td>Yes</td><td></td></tr>
 <tr><td>color</td><td><a href="color.md">Color</a></td><td>Read-only</td><td>Yes</td><td></td></tr>
-<tr><td></td><td></td><td></td></tr></tbody></table>
+</tbody></table>
 
 
 
 
-## Static Methods
+## Class Methods
 
         
 ### Random:ColorHSV(hueMin, hueMax, saturationMin, saturationMax, valueMin, valueMax)

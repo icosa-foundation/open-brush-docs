@@ -5,7 +5,7 @@
 A set of transforms that form a path in 3D space. These form the basis for brush strokes and camera paths
 
 
-## Class Properties
+## Instance Properties
 
 <table>
 <thead><tr><th width="225">Name</th><th width="160">Return Type</th><th width="80">Read/Write?</th><th>Description</th></tr></thead>
@@ -13,11 +13,11 @@ A set of transforms that form a path in 3D space. These form the basis for brush
 <tr><td>count</td><td>number</td><td>Read-only</td><td>No</td><td>Returns the number of points in this path</td></tr>
 <tr><td>Item</td><td><a href="transform.md">Transform</a></td><td>Read-only</td><td>No</td><td></td></tr>
 <tr><td>last</td><td><a href="transform.md">Transform</a></td><td>Read-only</td><td>No</td><td>Returns the last point in this path</td></tr>
-<tr><td></td><td></td><td></td></tr></tbody></table>
+</tbody></table>
 
 
 
-## Static Methods
+## Class Methods
 
         
 ### Path:New()

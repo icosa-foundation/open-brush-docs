@@ -6,7 +6,7 @@ Functions related to SVG images
 
 
 
-## Static Methods
+## Class Methods
 
         
 ### Svg:ParsePathString(svgPath)

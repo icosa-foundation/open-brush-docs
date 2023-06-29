@@ -14,12 +14,12 @@ Represents the user's wand (the controller that isn't the brush controller)
 <tr><td>direction</td><td><a href="vector3.md">Vector3</a></td><td>Read-only</td><td>Yes</td><td></td></tr>
 <tr><td>pressure</td><td>number</td><td>Read-only</td><td>Yes</td><td></td></tr>
 <tr><td>speed</td><td><a href="vector3.md">Vector3</a></td><td>Read-only</td><td>Yes</td><td></td></tr>
-<tr><td></td><td></td><td></td></tr></tbody></table>
+</tbody></table>
 
 
 
 
-## Static Methods
+## Class Methods
 
         
 ### Wand:ResizeHistory(size)

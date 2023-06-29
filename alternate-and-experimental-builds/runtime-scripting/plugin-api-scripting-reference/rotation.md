@@ -17,11 +17,11 @@ Represents a rotation or orientation in 3D space
 <tr><td>anticlockwise</td><td><a href="rotation.md">Rotation</a></td><td>Read-only</td><td>Yes</td><td></td></tr>
 <tr><td>clockwise</td><td><a href="rotation.md">Rotation</a></td><td>Read-only</td><td>Yes</td><td></td></tr>
 <tr><td>kEpsilon</td><td>number</td><td>Read-only</td><td>Yes</td><td></td></tr>
-<tr><td></td><td></td><td></td></tr></tbody></table>
+</tbody></table>
 
 
 
-## Class Properties
+## Instance Properties
 
 <table>
 <thead><tr><th width="225">Name</th><th width="160">Return Type</th><th width="80">Read/Write?</th><th>Description</th></tr></thead>
@@ -31,11 +31,11 @@ Represents a rotation or orientation in 3D space
 <tr><td>y</td><td>number</td><td>Read-only</td><td>No</td><td></td></tr>
 <tr><td>z</td><td>number</td><td>Read-only</td><td>No</td><td></td></tr>
 <tr><td>normalized</td><td><a href="rotation.md">Rotation</a></td><td>Read-only</td><td>No</td><td></td></tr>
-<tr><td></td><td></td><td></td></tr></tbody></table>
+</tbody></table>
 
 
 
-## Static Methods
+## Class Methods
 
         
 ### Rotation:New(x, y, z)

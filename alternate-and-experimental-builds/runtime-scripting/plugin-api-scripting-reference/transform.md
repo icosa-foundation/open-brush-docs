@@ -10,11 +10,11 @@ Represents a position, rotation and scale in one object
 <thead><tr><th width="225">Name</th><th width="160">Return Type</th><th width="80">Read/Write?</th><th>Description</th></tr></thead>
 <tbody>
 <tr><td>zero</td><td><a href="transform.md">Transform</a></td><td>Read-only</td><td>Yes</td><td></td></tr>
-<tr><td></td><td></td><td></td></tr></tbody></table>
+</tbody></table>
 
 
 
-## Class Properties
+## Instance Properties
 
 <table>
 <thead><tr><th width="225">Name</th><th width="160">Return Type</th><th width="80">Read/Write?</th><th>Description</th></tr></thead>
@@ -29,11 +29,11 @@ Represents a position, rotation and scale in one object
 <tr><td>position</td><td><a href="vector3.md">Vector3</a></td><td>Read-only</td><td>No</td><td></td></tr>
 <tr><td>rotation</td><td><a href="rotation.md">Rotation</a></td><td>Read-only</td><td>No</td><td></td></tr>
 <tr><td>scale</td><td>number</td><td>Read-only</td><td>No</td><td></td></tr>
-<tr><td></td><td></td><td></td></tr></tbody></table>
+</tbody></table>
 
 
 
-## Static Methods
+## Class Methods
 
         
 ### Transform:New(translation, rotation, scale)

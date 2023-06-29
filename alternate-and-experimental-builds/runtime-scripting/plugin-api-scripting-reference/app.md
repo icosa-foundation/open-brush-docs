@@ -14,12 +14,12 @@ Various properties and methods that effect the entire app
 <tr><td>currentScale</td><td>number</td><td>Read-only</td><td>Yes</td><td>The current scale of the scene</td></tr>
 <tr><td>environment</td><td>string</td><td>Read/Write</td><td>Yes</td><td>Get or set the current environment by name</td></tr>
 <tr><td>clipboardText</td><td>string</td><td>Read/Write</td><td>Yes</td><td>Get or set the clipboard text</td></tr>
-<tr><td></td><td></td><td></td></tr></tbody></table>
+</tbody></table>
 
 
 
 
-## Static Methods
+## Class Methods
 
         
 ### App:Physics(active)

@@ -12,12 +12,12 @@ The turtle can be used to draw strokes in a classic LOGO style for moving and tu
 <tr><td>transform</td><td><a href="transform.md">Transform</a></td><td>Read-only</td><td>Yes</td><td></td></tr>
 <tr><td>position</td><td><a href="vector3.md">Vector3</a></td><td>Read-only</td><td>Yes</td><td>The current 3D position of the turtle</td></tr>
 <tr><td>rotation</td><td><a href="rotation.md">Rotation</a></td><td>Read-only</td><td>Yes</td><td>The current 3D orientation of the Turtle</td></tr>
-<tr><td></td><td></td><td></td></tr></tbody></table>
+</tbody></table>
 
 
 
 
-## Static Methods
+## Class Methods
 
         
 ### Turtle:MoveTo(position)

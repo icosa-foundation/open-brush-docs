@@ -5,7 +5,7 @@
 A 3D model widget
 
 
-## Class Properties
+## Instance Properties
 
 <table>
 <thead><tr><th width="225">Name</th><th width="160">Return Type</th><th width="80">Read/Write?</th><th>Description</th></tr></thead>
@@ -15,11 +15,11 @@ A 3D model widget
 <tr><td>position</td><td><a href="vector3.md">Vector3</a></td><td>Read/Write</td><td>No</td><td>The 3D position of the Model Widget</td></tr>
 <tr><td>rotation</td><td><a href="rotation.md">Rotation</a></td><td>Read/Write</td><td>No</td><td>The 3D orientation of the Model Widget</td></tr>
 <tr><td>scale</td><td>number</td><td>Read/Write</td><td>No</td><td>The scale of the Model Widget</td></tr>
-<tr><td></td><td></td><td></td></tr></tbody></table>
+</tbody></table>
 
 
 
-## Static Methods
+## Class Methods
 
         
 ### Model:Import(location)

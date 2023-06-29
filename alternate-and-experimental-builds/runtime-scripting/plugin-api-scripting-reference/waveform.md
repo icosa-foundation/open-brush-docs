@@ -6,7 +6,7 @@ Functions to generate a variety of waveforms
 
 
 
-## Static Methods
+## Class Methods
 
         
 ### Waveform:Sine(time, frequency)

@@ -15,12 +15,12 @@ Functions for controlling the mirror symmetry mode
 <tr><td>brushOffset</td><td><a href="vector3.md">Vector3</a></td><td>Read-only</td><td>Yes</td><td></td></tr>
 <tr><td>wandOffset</td><td><a href="vector3.md">Vector3</a></td><td>Read-only</td><td>Yes</td><td></td></tr>
 <tr><td>direction</td><td><a href="vector3.md">Vector3</a></td><td>Read-only</td><td>Yes</td><td></td></tr>
-<tr><td></td><td></td><td></td></tr></tbody></table>
+</tbody></table>
 
 
 
 
-## Static Methods
+## Class Methods
 
         
 ### Symmetry:Mirror()

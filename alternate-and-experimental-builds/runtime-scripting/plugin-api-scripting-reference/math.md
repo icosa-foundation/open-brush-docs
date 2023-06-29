@@ -15,12 +15,12 @@ Various maths functions
 <tr><td>negativeInfinity</td><td>number</td><td>Read-only</td><td>Yes</td><td>Negative Infinity</td></tr>
 <tr><td>pi</td><td>number</td><td>Read-only</td><td>Yes</td><td>The value of Pi</td></tr>
 <tr><td>rad2Deg</td><td>number</td><td>Read-only</td><td>Yes</td><td>A constant that when multiplied by a value in radians converts it to degrees</td></tr>
-<tr><td></td><td></td><td></td></tr></tbody></table>
+</tbody></table>
 
 
 
 
-## Static Methods
+## Class Methods
 
         
 ### Math:Abs(f)

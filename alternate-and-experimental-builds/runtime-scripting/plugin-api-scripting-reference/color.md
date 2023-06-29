@@ -20,11 +20,11 @@ An RGB color
 <tr><td>red</td><td><a href="color.md">Color</a></td><td>Read-only</td><td>Yes</td><td>Gets the red color</td></tr>
 <tr><td>white</td><td><a href="color.md">Color</a></td><td>Read-only</td><td>Yes</td><td>Gets the white color</td></tr>
 <tr><td>yellow</td><td><a href="color.md">Color</a></td><td>Read-only</td><td>Yes</td><td>Gets the yellow color</td></tr>
-<tr><td></td><td></td><td></td></tr></tbody></table>
+</tbody></table>
 
 
 
-## Class Properties
+## Instance Properties
 
 <table>
 <thead><tr><th width="225">Name</th><th width="160">Return Type</th><th width="80">Read/Write?</th><th>Description</th></tr></thead>
@@ -38,11 +38,11 @@ An RGB color
 <tr><td>gamma</td><td><a href="color.md">Color</a></td><td>Read-only</td><td>No</td><td>Gets the gamma color space representation of the color</td></tr>
 <tr><td>linear</td><td><a href="color.md">Color</a></td><td>Read-only</td><td>No</td><td>Gets the linear color space representation of the color</td></tr>
 <tr><td>maxColorComponent</td><td>number</td><td>Read-only</td><td>No</td><td>Gets the maximum color component value of the color</td></tr>
-<tr><td></td><td></td><td></td></tr></tbody></table>
+</tbody></table>
 
 
 
-## Static Methods
+## Class Methods
 
         
 ### Color:New(r, g, b)
