@@ -11,7 +11,6 @@ An RGB color
 <tbody>
 <tr><td>black</td><td><a href="color.md">Color</a></td><td>Read-only</td><td>The color black</td></tr>
 <tr><td>blue</td><td><a href="color.md">Color</a></td><td>Read-only</td><td>The color blue</td></tr>
-<tr><td>clear</td><td><a href="color.md">Color</a></td><td>Read-only</td><td>The color clear</td></tr>
 <tr><td>cyan</td><td><a href="color.md">Color</a></td><td>Read-only</td><td>The color cyan</td></tr>
 <tr><td>gray</td><td><a href="color.md">Color</a></td><td>Read-only</td><td>The color gray</td></tr>
 <tr><td>green</td><td><a href="color.md">Color</a></td><td>Read-only</td><td>The color green</td></tr>
