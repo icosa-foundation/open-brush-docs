@@ -10,8 +10,8 @@ A 3D model widget
 <table>
 <thead><tr><th width="225">Name</th><th width="160">Return Type</th><th width="80">Read/Write?</th><th>Description</th></tr></thead>
 <tbody>
-<tr><td>index</td><td>number</td><td>Read-only</td><td></td></tr>
-<tr><td>transform</td><td><a href="transform.md">Transform</a></td><td>Read/Write</td><td></td></tr>
+<tr><td>index</td><td>number</td><td>Read-only</td><td>The index of the active Model Widget</td></tr>
+<tr><td>transform</td><td><a href="transform.md">Transform</a></td><td>Read/Write</td><td>The transformation of the Model Widget</td></tr>
 <tr><td>position</td><td><a href="vector3.md">Vector3</a></td><td>Read/Write</td><td>The 3D position of the Model Widget</td></tr>
 <tr><td>rotation</td><td><a href="rotation.md">Rotation</a></td><td>Read/Write</td><td>The 3D orientation of the Model Widget</td></tr>
 <tr><td>scale</td><td>number</td><td>Read/Write</td><td>The scale of the Model Widget</td></tr>
@@ -22,9 +22,9 @@ A 3D model widget
 ## Class Methods
 
         
-### Model:Import(location)
+### Model:Import(filename)
 
-Method to import a new model at a specific location. Returns a wrapper of the imported model's API
+Imports a new model from the MediaLibrary/Models folder
 
 **Returns:** <a href="model.md">Model</a>
 
@@ -33,9 +33,14 @@ Method to import a new model at a specific location. Returns a wrapper of the im
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>location</td><td>string</td><td></td></tr></tbody></table>
+<tbody><tr><td>filename</td><td>string</td><td>The filename of the model to be imported</td></tr></tbody></table>
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>ModelApiWrapper:Import("Andy.obj")</strong></code></pre>
 
 
 
@@ -46,22 +51,32 @@ Method to import a new model at a specific location. Returns a wrapper of the im
         
 ### model:Select()
 
-Method to select the current Model Widget in the API
+Adds this model to the current selection
 
 **Returns:** nil
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>myModel:Select()</strong></code></pre>
 
 
 
 
 ### model:Delete()
 
-Method to delete the current Model Widget from the API
+Deletes this model
 
 **Returns:** nil
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>myModel:Delete()</strong></code></pre>
 
 
 

@@ -11,7 +11,7 @@ A set of transforms that form a path in 3D space. These form the basis for brush
 <thead><tr><th width="225">Name</th><th width="160">Return Type</th><th width="80">Read/Write?</th><th>Description</th></tr></thead>
 <tbody>
 <tr><td>count</td><td>number</td><td>Read-only</td><td>Returns the number of points in this path</td></tr>
-<tr><td>Item</td><td><a href="transform.md">Transform</a></td><td>Read-only</td><td></td></tr>
+<tr><td>Item</td><td><a href="transform.md">Transform</a></td><td>Read-only</td><td>Returns the Transform of the point at the specified index</td></tr>
 <tr><td>last</td><td><a href="transform.md">Transform</a></td><td>Read-only</td><td>Returns the last point in this path</td></tr>
 </tbody></table>
 
@@ -22,18 +22,23 @@ A set of transforms that form a path in 3D space. These form the basis for brush
         
 ### Path:New()
 
-
+Returns a new empty Path
 
 **Returns:** <a href="path.md">Path</a>
 
 
 
 
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>myPath = Path:New()</strong></code></pre>
+
+
 
 
 ### Path:New(transformList)
 
-
+Creates a path from a list of Transforms
 
 **Returns:** <a href="path.md">Path</a>
 
@@ -42,16 +47,21 @@ A set of transforms that form a path in 3D space. These form the basis for brush
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>transformList</td><td>Transform[]</td><td></td></tr></tbody></table>
+<tbody><tr><td>transformList</td><td>Transform[]</td><td>The list of transforms</td></tr></tbody></table>
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>myPath = Path:New({transform1, transform2, transform3})</strong></code></pre>
 
 
 
 
 ### Path:New(positionList)
 
-
+Creates a path from a list of Vector3 positions
 
 **Returns:** <a href="path.md">Path</a>
 
@@ -65,23 +75,9 @@ A set of transforms that form a path in 3D space. These form the basis for brush
 
 
 
+#### Example
 
-
-### Path:Subdivide(trs, parts)
-
-
-
-**Returns:** Transform[]
-
-
-**Parameters:**
-
-<table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>trs</td><td>Transform[]</td><td></td></tr>
-<tr><td>parts</td><td>number</td><td></td></tr></tbody></table>
-
-
+<pre class="language-lua"><code class="lang-lua"><strong>myPath = Path:New({position1, position2, position3})</strong></code></pre>
 
 
 
@@ -97,14 +93,19 @@ Generates a hermite spline
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>startTransform</td><td><a href="transform.md">Transform</a></td><td></td></tr>
-<tr><td>endTransform</td><td><a href="transform.md">Transform</a></td><td></td></tr>
-<tr><td>startTangent</td><td><a href="vector3.md">Vector3</a></td><td></td></tr>
-<tr><td>endTangent</td><td><a href="vector3.md">Vector3</a></td><td></td></tr>
-<tr><td>resolution</td><td>number</td><td></td></tr>
-<tr><td>tangentStrength</td><td>number</td><td></td></tr></tbody></table>
+<tbody><tr><td>startTransform</td><td><a href="transform.md">Transform</a></td><td>Starting transformation</td></tr>
+<tr><td>endTransform</td><td><a href="transform.md">Transform</a></td><td>End transformation</td></tr>
+<tr><td>startTangent</td><td><a href="vector3.md">Vector3</a></td><td>Starting tangent</td></tr>
+<tr><td>endTangent</td><td><a href="vector3.md">Vector3</a></td><td>End tangent</td></tr>
+<tr><td>resolution</td><td>number</td><td>Resolution of the spline</td></tr>
+<tr><td>tangentStrength</td><td>number</td><td>Strength of the tangent</td></tr></tbody></table>
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>myPath:Hermite(startTransform, endTransform, startTangent, endTangent, resolution, tangentStrength)</strong></code></pre>
 
 
 
@@ -124,9 +125,14 @@ Returns a vector representing the direction of the path at the given point
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>index</td><td>number</td><td></td></tr></tbody></table>
+<tbody><tr><td>index</td><td>number</td><td>Index of control point to use</td></tr></tbody></table>
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>myPath:GetDirection(3)</strong></code></pre>
 
 
 
@@ -142,9 +148,14 @@ Returns a vector representing the normal of the path at the given point
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>index</td><td>number</td><td></td></tr></tbody></table>
+<tbody><tr><td>index</td><td>number</td><td>Index of control point to use</td></tr></tbody></table>
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>myPath:GetNormal(3)</strong></code></pre>
 
 
 
@@ -160,9 +171,14 @@ Returns a vector representing the tangent of the path at the given point
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>index</td><td>number</td><td></td></tr></tbody></table>
+<tbody><tr><td>index</td><td>number</td><td>Index of control point to use</td></tr></tbody></table>
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>myPath:GetTangent(3)</strong></code></pre>
 
 
 
@@ -174,6 +190,11 @@ Draws this path as a brush stroke using current settings
 **Returns:** nil
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>myPath:Draw()</strong></code></pre>
 
 
 
@@ -189,16 +210,21 @@ Inserts a new point at the end of the path
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>transform</td><td><a href="transform.md">Transform</a></td><td></td></tr></tbody></table>
+<tbody><tr><td>transform</td><td><a href="transform.md">Transform</a></td><td>The transform to be inserted at the end of the path</td></tr></tbody></table>
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>myPath:Insert(Transform:New(pos, rot)</strong></code></pre>
 
 
 
 
 ### path:Insert(transform, index)
 
-Inserts a new point at the given path index
+Inserts a new point at the specified index
 
 **Returns:** nil
 
@@ -207,17 +233,22 @@ Inserts a new point at the given path index
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>transform</td><td><a href="transform.md">Transform</a></td><td></td></tr>
-<tr><td>index</td><td>number</td><td></td></tr></tbody></table>
+<tbody><tr><td>transform</td><td><a href="transform.md">Transform</a></td><td>The transform to be inserted</td></tr>
+<tr><td>index</td><td>number</td><td>The index at which to insert the transform</td></tr></tbody></table>
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>myPath:Insert(transform, index)</strong></code></pre>
 
 
 
 
 ### path:TransformBy(transform)
 
-Transforms all points in the path by the given amount
+Transforms all points in the path by the specific amount
 
 **Returns:** nil
 
@@ -226,9 +257,14 @@ Transforms all points in the path by the given amount
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>transform</td><td><a href="transform.md">Transform</a></td><td></td></tr></tbody></table>
+<tbody><tr><td>transform</td><td><a href="transform.md">Transform</a></td><td>The transform to be applied to all points in the path</td></tr></tbody></table>
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>myPath:TransformBy(transform)</strong></code></pre>
 
 
 
@@ -244,9 +280,14 @@ Changes the position of all points in the path by a given amount
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>amount</td><td><a href="vector3.md">Vector3</a></td><td></td></tr></tbody></table>
+<tbody><tr><td>amount</td><td><a href="vector3.md">Vector3</a></td><td>The distance to move the points</td></tr></tbody></table>
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>myPath:TranslateBy(Vector3:up)</strong></code></pre>
 
 
 
@@ -262,16 +303,21 @@ Rotates all points in the path around the origin by a given amount
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>amount</td><td><a href="rotation.md">Rotation</a></td><td></td></tr></tbody></table>
+<tbody><tr><td>amount</td><td><a href="rotation.md">Rotation</a></td><td>The amount by which to rotate the path</td></tr></tbody></table>
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>myPath:RotateBy(Rotation.New(45, 0, 0)</strong></code></pre>
 
 
 
 
 ### path:ScaleBy(scale)
 
-Scales all points the path away or towards the origin
+Scales the path
 
 **Returns:** nil
 
@@ -280,20 +326,30 @@ Scales all points the path away or towards the origin
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>scale</td><td><a href="vector3.md">Vector3</a></td><td></td></tr></tbody></table>
+<tbody><tr><td>scale</td><td><a href="vector3.md">Vector3</a></td><td>The scaling factor to apply to the path</td></tr></tbody></table>
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>myPath:ScaleBy(Vector3:New(2, 1, 1)</strong></code></pre>
 
 
 
 
 ### path:Center()
 
-Offsets all points on the path so that their common center is at the origin
+Moves all points on the path so that their common center is the origin
 
 **Returns:** nil
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>myPath:Center()</strong></code></pre>
 
 
 
@@ -309,9 +365,14 @@ Reorders the points so that point at the given index is shifted to be the first 
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>index</td><td>number</td><td></td></tr></tbody></table>
+<tbody><tr><td>index</td><td>number</td><td>The index of the point to make the new first point</td></tr></tbody></table>
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>myPath:StartingFrom(3)</strong></code></pre>
 
 
 
@@ -327,9 +388,14 @@ Returns the index of the point closest to the given position
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>point</td><td><a href="vector3.md">Vector3</a></td><td></td></tr></tbody></table>
+<tbody><tr><td>point</td><td><a href="vector3.md">Vector3</a></td><td>The 3D position that we are seeking the closest to</td></tr></tbody></table>
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>myPath:FindClosest(Vector3:New(10, 2, 4)</strong></code></pre>
 
 
 
@@ -343,6 +409,11 @@ Returns the index of the point with the smallest X value
 
 
 
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>myPath:FindMinimumX()</strong></code></pre>
+
+
 
 
 ### path:FindMinimumY()
@@ -352,6 +423,11 @@ Returns the index of the point with the smallest Y value
 **Returns:** number
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>myPath:FindMinimumY()</strong></code></pre>
 
 
 
@@ -365,6 +441,11 @@ Returns the index of the point with the smallest Z value
 
 
 
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>myPath:FindMinimumZ()</strong></code></pre>
+
+
 
 
 ### path:FindMaximumX()
@@ -374,6 +455,11 @@ Returns the index of the point with the biggest X value
 **Returns:** number
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>myPath:FindMaximumX()</strong></code></pre>
 
 
 
@@ -387,6 +473,11 @@ Returns the index of the point with the biggest Y value
 
 
 
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>myPath:FindMaximumY()</strong></code></pre>
+
+
 
 
 ### path:FindMaximumZ()
@@ -398,11 +489,16 @@ Returns the index of the point with the biggest Z value
 
 
 
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>myPath:FindMaximumZ()</strong></code></pre>
 
 
-### path:Normalize(scale)
 
-Scales and shifts all points so that they fit in a 1 unit cube at the origin
+
+### path:Normalize(size)
+
+Scales and shifts all points so that they fit in a cube of the given size at the origin
 
 **Returns:** nil
 
@@ -411,9 +507,14 @@ Scales and shifts all points so that they fit in a 1 unit cube at the origin
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>scale</td><td>number</td><td></td></tr></tbody></table>
+<tbody><tr><td>size</td><td>number</td><td>The size of the cube to fit the path into</td></tr></tbody></table>
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>myPath:Normalize(size)</strong></code></pre>
 
 
 
@@ -429,16 +530,21 @@ Resamples the path at a specified spacing
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>spacing</td><td>number</td><td></td></tr></tbody></table>
+<tbody><tr><td>spacing</td><td>number</td><td>The space between points in the new pat</td></tr></tbody></table>
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>myPath:Resample(spacing)</strong></code></pre>
 
 
 
 
 ### path:Subdivide(parts)
 
-Splits each path segment into smaller parts
+Subdivides the path into given number of parts.
 
 **Returns:** nil
 
@@ -447,9 +553,14 @@ Splits each path segment into smaller parts
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>parts</td><td>number</td><td></td></tr></tbody></table>
+<tbody><tr><td>parts</td><td>number</td><td>Number of parts to subdivide into</td></tr></tbody></table>
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>myPath:Subdivide(parts)</strong></code></pre>
 
 
 

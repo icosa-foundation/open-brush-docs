@@ -10,8 +10,8 @@ Multiple disconnected path segments
 <table>
 <thead><tr><th width="225">Name</th><th width="160">Return Type</th><th width="80">Read/Write?</th><th>Description</th></tr></thead>
 <tbody>
-<tr><td>count</td><td>number</td><td>Read-only</td><td>Returns number of paths contained in the multipath</td></tr>
-<tr><td>pointCount</td><td>number</td><td>Read-only</td><td>Returns the number of points in all paths in the multipath</td></tr>
+<tr><td>count</td><td>number</td><td>Read-only</td><td>Gets the number of paths in the multipath</td></tr>
+<tr><td>pointCount</td><td>number</td><td>Read-only</td><td>Gets the number of points in all paths in the multipath</td></tr>
 </tbody></table>
 
 
@@ -21,18 +21,23 @@ Multiple disconnected path segments
         
 ### MultiPath:New()
 
-
+Creates a new empty MultiPath
 
 **Returns:** <a href="multipath.md">MultiPath</a>
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>MultiPathApiWrapper:New()</strong></code></pre>
 
 
 
 
 ### MultiPath:New(pathList)
 
-
+Creates a new MultiPath from a list of Paths
 
 **Returns:** <a href="multipath.md">MultiPath</a>
 
@@ -41,16 +46,21 @@ Multiple disconnected path segments
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>pathList</td><td>Path[]</td><td></td></tr></tbody></table>
+<tbody><tr><td>pathList</td><td>Path[]</td><td>A list of pathApiWrapper objects.</td></tr></tbody></table>
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>MultiPathApiWrapper:New(pathList)</strong></code></pre>
 
 
 
 
 ### MultiPath:FromText(text)
 
-Creates a new MultiPath that draws the shape of the given text. Use App:SetFont to set the letter shapes
+Creates a new MultiPath from a text
 
 **Returns:** <a href="multipath.md">MultiPath</a>
 
@@ -59,9 +69,14 @@ Creates a new MultiPath that draws the shape of the given text. Use App:SetFont 
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>text</td><td>string</td><td></td></tr></tbody></table>
+<tbody><tr><td>text</td><td>string</td><td>Input text to generate a path.</td></tr></tbody></table>
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>MultiPathApiWrapper.FromText('example')</strong></code></pre>
 
 
 
@@ -72,18 +87,23 @@ Creates a new MultiPath that draws the shape of the given text. Use App:SetFont 
         
 ### multiPath:Draw()
 
-Draws this path as a brush stroke using current settings
+Draws this multipath using current settings
 
 **Returns:** nil
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>myPaths:Draw()</strong></code></pre>
 
 
 
 
 ### multiPath:Insert(path)
 
-Inserts the given path at the end of the multipath
+Inserts a path at the end of the multipath
 
 **Returns:** nil
 
@@ -92,16 +112,21 @@ Inserts the given path at the end of the multipath
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>path</td><td><a href="path.md">Path</a></td><td></td></tr></tbody></table>
+<tbody><tr><td>path</td><td><a href="path.md">Path</a></td><td>The path to be inserted.</td></tr></tbody></table>
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>myPaths:Insert(myPath)</strong></code></pre>
 
 
 
 
 ### multiPath:Insert(path, index)
 
-Inserts a new path at the given index
+Inserts a path at the specified index of the multipath
 
 **Returns:** nil
 
@@ -110,10 +135,15 @@ Inserts a new path at the given index
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>path</td><td><a href="path.md">Path</a></td><td></td></tr>
-<tr><td>index</td><td>number</td><td></td></tr></tbody></table>
+<tbody><tr><td>path</td><td><a href="path.md">Path</a></td><td>The path to be inserted</td></tr>
+<tr><td>index</td><td>number</td><td>Inserts the new path at this position in the list of paths</td></tr></tbody></table>
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>myPaths:Insert(myPath, 3)</strong></code></pre>
 
 
 
@@ -129,16 +159,21 @@ Inserts a point at the end of the last path in the multipath
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>transform</td><td><a href="transform.md">Transform</a></td><td></td></tr></tbody></table>
+<tbody><tr><td>transform</td><td><a href="transform.md">Transform</a></td><td>The point to be inserted</td></tr></tbody></table>
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>myPaths:InsertPoint(myTransform)</strong></code></pre>
 
 
 
 
 ### multiPath:InsertPoint(transform, pathIndex, pointIndex)
 
-Inserts a point at the given index of the given path
+Inserts a point at the specified index of the specified path
 
 **Returns:** nil
 
@@ -147,18 +182,23 @@ Inserts a point at the given index of the given path
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>transform</td><td><a href="transform.md">Transform</a></td><td></td></tr>
-<tr><td>pathIndex</td><td>number</td><td></td></tr>
-<tr><td>pointIndex</td><td>number</td><td></td></tr></tbody></table>
+<tbody><tr><td>transform</td><td><a href="transform.md">Transform</a></td><td>The point to be inserted</td></tr>
+<tr><td>pathIndex</td><td>number</td><td>Index of the path to add the point to</td></tr>
+<tr><td>pointIndex</td><td>number</td><td>Inserts the point at this index in the list of points</td></tr></tbody></table>
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>myPaths:InsertPoint(myTransform, 3, 0)</strong></code></pre>
 
 
 
 
 ### multiPath:TransformBy(transform)
 
-Transforms all paths in the multipath
+Transforms the whole set of paths
 
 **Returns:** nil
 
@@ -167,16 +207,21 @@ Transforms all paths in the multipath
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>transform</td><td><a href="transform.md">Transform</a></td><td></td></tr></tbody></table>
+<tbody><tr><td>transform</td><td><a href="transform.md">Transform</a></td><td>A Transform specifying the translation, rotation and scale to apply</td></tr></tbody></table>
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>myPaths:TransformBy(myTransform)</strong></code></pre>
 
 
 
 
 ### multiPath:TranslateBy(amount)
 
-Translates all paths by a given offset
+Translates the whole set of paths by a given amount
 
 **Returns:** nil
 
@@ -185,16 +230,21 @@ Translates all paths by a given offset
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>amount</td><td><a href="vector3.md">Vector3</a></td><td></td></tr></tbody></table>
+<tbody><tr><td>amount</td><td><a href="vector3.md">Vector3</a></td><td>The amount to move the paths by</td></tr></tbody></table>
 
 
 
 
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>myPaths:TranslateBy(Vector3.up:Multiply(4))</strong></code></pre>
 
 
-### multiPath:RotateBy(amount)
 
-Rotates all paths by a specified amount around the origin
+
+### multiPath:RotateBy(rotation)
+
+Rotates the whole set of paths by a specified amount
 
 **Returns:** nil
 
@@ -203,16 +253,21 @@ Rotates all paths by a specified amount around the origin
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>amount</td><td><a href="rotation.md">Rotation</a></td><td></td></tr></tbody></table>
+<tbody><tr><td>rotation</td><td><a href="rotation.md">Rotation</a></td><td>The amount to rotate the paths by</td></tr></tbody></table>
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>myPaths:RotateBy(Rotation.anticlockwise)</strong></code></pre>
 
 
 
 
 ### multiPath:ScaleBy(scale)
 
-Scales all paths by a specified amount towards or away from the origin
+Scales the whole set of paths by a specified factor
 
 **Returns:** nil
 
@@ -221,9 +276,14 @@ Scales all paths by a specified amount towards or away from the origin
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>scale</td><td><a href="vector3.md">Vector3</a></td><td></td></tr></tbody></table>
+<tbody><tr><td>scale</td><td><a href="vector3.md">Vector3</a></td><td>The amount to scale the paths by</td></tr></tbody></table>
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>myPaths:ScaleBy(vector3)</strong></code></pre>
 
 
 
@@ -237,11 +297,16 @@ Offsets all points on the path so that their common center is at the origin
 
 
 
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>myPaths:Center()</strong></code></pre>
 
 
-### multiPath:Normalize(scale)
 
-Scales all paths to fit inside a 1x1x1 cube at the origin
+
+### multiPath:Normalize(size)
+
+Scales the whole multipath to fit inside a cube of given size at the origin
 
 **Returns:** nil
 
@@ -250,16 +315,21 @@ Scales all paths to fit inside a 1x1x1 cube at the origin
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>scale</td><td>number</td><td></td></tr></tbody></table>
+<tbody><tr><td>size</td><td>number</td><td>The size of the cube to fit inside</td></tr></tbody></table>
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>myPaths:Normalize(1.5)</strong></code></pre>
 
 
 
 
 ### multiPath:Resample(spacing)
 
-Resamples the multipath at a specified spacing
+Resamples all paths with a specified spacing between points
 
 **Returns:** nil
 
@@ -268,20 +338,30 @@ Resamples the multipath at a specified spacing
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>spacing</td><td>number</td><td></td></tr></tbody></table>
+<tbody><tr><td>spacing</td><td>number</td><td>The distance between each new point</td></tr></tbody></table>
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>myPaths:Resample(0.2)</strong></code></pre>
 
 
 
 
 ### multiPath:Join()
 
-Joins all the paths in the multipath and returns a single Path
+Joins all the paths in order connecting each end to the following start
 
 **Returns:** <a href="path.md">Path</a>
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>myPaths:Join()</strong></code></pre>
 
 
 
@@ -293,6 +373,11 @@ Returns the longest path in the multipath
 **Returns:** <a href="path.md">Path</a>
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>path = myPaths:Longest()</strong></code></pre>
 
 
 

@@ -9,19 +9,19 @@ Represents the current sketch
 <table>
 <thead><tr><th width="225">Name</th><th width="160">Return Type</th><th width="80">Read/Write?</th><th>Description</th></tr></thead>
 <tbody>
-<tr><td>cameraPaths</td><td><a href="camerapathlist.md">CameraPathList</a></td><td>Read-only</td><td></td></tr>
-<tr><td>strokes</td><td><a href="strokelist.md">StrokeList</a></td><td>Read-only</td><td></td></tr>
-<tr><td>layers</td><td><a href="layerlist.md">LayerList</a></td><td>Read-only</td><td></td></tr>
-<tr><td>images</td><td><a href="imagelist.md">ImageList</a></td><td>Read-only</td><td></td></tr>
-<tr><td>videos</td><td><a href="videolist.md">VideoList</a></td><td>Read-only</td><td></td></tr>
-<tr><td>models</td><td><a href="modellist.md">ModelList</a></td><td>Read-only</td><td></td></tr>
-<tr><td>guides</td><td><a href="guidelist.md">GuideList</a></td><td>Read-only</td><td></td></tr>
-<tr><td>environments</td><td><a href="environmentlist.md">EnvironmentList</a></td><td>Read-only</td><td></td></tr>
-<tr><td>ambientLightColor</td><td><a href="color.md">Color</a></td><td>Read/Write</td><td></td></tr>
-<tr><td>mainLightColor</td><td><a href="color.md">Color</a></td><td>Read/Write</td><td></td></tr>
-<tr><td>secondaryLightColor</td><td><a href="color.md">Color</a></td><td>Read/Write</td><td></td></tr>
-<tr><td>mainLightRotation</td><td><a href="rotation.md">Rotation</a></td><td>Read/Write</td><td></td></tr>
-<tr><td>secondaryLightRotation</td><td><a href="rotation.md">Rotation</a></td><td>Read/Write</td><td></td></tr>
+<tr><td>cameraPaths</td><td><a href="camerapathlist.md">CameraPathList</a></td><td>Read-only</td><td>Returns a list of active camera paths in the sketch</td></tr>
+<tr><td>strokes</td><td><a href="strokelist.md">StrokeList</a></td><td>Read-only</td><td>Returns a list of all active strokes in the sketch</td></tr>
+<tr><td>layers</td><td><a href="layerlist.md">LayerList</a></td><td>Read-only</td><td>Returns a list of all layers in the sketch</td></tr>
+<tr><td>images</td><td><a href="imagelist.md">ImageList</a></td><td>Read-only</td><td>Returns a list of active image widgets in the sketch</td></tr>
+<tr><td>videos</td><td><a href="videolist.md">VideoList</a></td><td>Read-only</td><td>Returns a list of active video widgets in the sketch</td></tr>
+<tr><td>models</td><td><a href="modellist.md">ModelList</a></td><td>Read-only</td><td>Returns a list of active model widgets in the sketch</td></tr>
+<tr><td>guides</td><td><a href="guidelist.md">GuideList</a></td><td>Read-only</td><td>Returns a list of active stencil widgets in the sketch</td></tr>
+<tr><td>environments</td><td><a href="environmentlist.md">EnvironmentList</a></td><td>Read-only</td><td>Returns a list of all the available environments</td></tr>
+<tr><td>ambientLightColor</td><td><a href="color.md">Color</a></td><td>Read/Write</td><td>The ambient light color</td></tr>
+<tr><td>mainLightColor</td><td><a href="color.md">Color</a></td><td>Read/Write</td><td>The main light's color</td></tr>
+<tr><td>secondaryLightColor</td><td><a href="color.md">Color</a></td><td>Read/Write</td><td>The secondary light's color</td></tr>
+<tr><td>mainLightRotation</td><td><a href="rotation.md">Rotation</a></td><td>Read/Write</td><td>The main light's rotation</td></tr>
+<tr><td>secondaryLightRotation</td><td><a href="rotation.md">Rotation</a></td><td>Read/Write</td><td>The secondary light's rotation</td></tr>
 </tbody></table>
 
 
@@ -32,7 +32,7 @@ Represents the current sketch
         
 ### Sketch:Open(name)
 
-
+Opens a sketch with the specified name in the User's Sketches folder
 
 **Returns:** nil
 
@@ -41,16 +41,21 @@ Represents the current sketch
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>name</td><td>string</td><td></td></tr></tbody></table>
+<tbody><tr><td>name</td><td>string</td><td>The filename of the sketch</td></tr></tbody></table>
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>Sketch:Open("MySketch.tilt")</strong></code></pre>
 
 
 
 
 ### Sketch:Save(overwrite)
 
-
+Saves the current sketch, possibly overwriting an existing one
 
 **Returns:** nil
 
@@ -59,16 +64,21 @@ Represents the current sketch
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>overwrite</td><td>boolean</td><td></td></tr></tbody></table>
+<tbody><tr><td>overwrite</td><td>boolean</td><td>If set to true, overwrite the existing file. If false, the method will not overwrite the file</td></tr></tbody></table>
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>Sketch:Save(overwrite)</strong></code></pre>
 
 
 
 
 ### Sketch:SaveAs(name)
 
-
+Saves the current sketch with a new name
 
 **Returns:** nil
 
@@ -77,38 +87,53 @@ Represents the current sketch
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>name</td><td>string</td><td></td></tr></tbody></table>
+<tbody><tr><td>name</td><td>string</td><td>The new name for the sketch</td></tr></tbody></table>
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>Sketch:SaveAs("NewName.tilt")</strong></code></pre>
 
 
 
 
 ### Sketch:Export()
 
-
+Exports the sketch in all supported export formats
 
 **Returns:** nil
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>Sketch:Export()</strong></code></pre>
 
 
 
 
 ### Sketch:NewSketch()
 
-
+Creates a new sketch
 
 **Returns:** nil
 
 
 
 
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>Sketch:NewSketch()</strong></code></pre>
 
 
-### Sketch:ImportSkybox(location)
 
 
+### Sketch:ImportSkybox(filename)
+
+Imports a image with the specified name from the MediaLibrary/BackgroundImages folder and assigns it as a custom skybox
 
 **Returns:** nil
 
@@ -117,9 +142,14 @@ Represents the current sketch
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>location</td><td>string</td><td></td></tr></tbody></table>
+<tbody><tr><td>filename</td><td>string</td><td>The filename of the image</td></tr></tbody></table>
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>App:ImportSkybox("landscape.hdr")</strong></code></pre>
 
 
 

@@ -233,11 +233,16 @@ Scales all points the path away or towards the origin
 
 ### path2d:Center()
 
-Offsets all points on the path so that their common center is at the origin
+Moves all points on the path so that their common center is the origin
 
 **Returns:** nil
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>myPath:Center()</strong></code></pre>
 
 
 
