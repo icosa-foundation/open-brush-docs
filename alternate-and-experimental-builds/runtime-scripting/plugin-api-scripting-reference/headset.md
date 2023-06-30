@@ -27,7 +27,7 @@ Clears the history and sets it's size
 
 #### Example
 
-<pre class="language-lua"><code class="lang-lua"><strong>Headset.size = 4</strong></code></pre>
+<pre class="language-lua"><code class="lang-lua"><strong>Headset:ResizeHistory(4)</strong></code></pre>
 
 
 
@@ -48,6 +48,11 @@ Sets the size of the history. Only clears it if the size has changed
 
 
 
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>Headset:SetHistorySize(4)</strong></code></pre>
+
+
 
 
 ### Headset:PastPosition(back)
@@ -66,6 +71,11 @@ Recalls previous positions of the Headset from the history buffer
 
 
 
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>Headset:PastPosition(4)</strong></code></pre>
+
+
 
 
 ### Headset:PastRotation(back)
@@ -82,6 +92,11 @@ Recalls previous orientations of the Headset from the history buffer
 <tbody><tr><td>back</td><td>number</td><td>How many frames back in the history to look</td></tr></tbody></table>
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>Headset:PastRotation(4)</strong></code></pre>
 
 
 

@@ -32,6 +32,11 @@ Creates and returns a new instance of a Layer
 
 
 
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>Layer:New()</strong></code></pre>
+
+
 
     
 
@@ -40,75 +45,105 @@ Creates and returns a new instance of a Layer
         
 ### layer:CenterPivot()
 
-Centers the pivot of the layer
+Move the pivot point of the layer to the average center of it's contents
 
 **Returns:** nil
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>myLayer:CenterPivot()</strong></code></pre>
 
 
 
 
 ### layer:ShowPivot()
 
-Shows the pivot of the layer
+Shows a visible widget indicating the pivot point of the layer
 
 **Returns:** nil
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>myLayer:ShowPivot()</strong></code></pre>
 
 
 
 
 ### layer:HidePivot()
 
-Hides the pivot of the layer
+Hides the visible widget indicating the pivot point of the layer
 
 **Returns:** nil
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>myLayer:HidePivot()</strong></code></pre>
 
 
 
 
 ### layer:Clear()
 
-Clears the layer
+Deletes all content from the layer
 
 **Returns:** nil
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>myLayer:Clear()</strong></code></pre>
 
 
 
 
 ### layer:Delete()
 
-Deletes the layer
+Deletes the layer and all it's content
 
 **Returns:** nil
 
 
 
 
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>myLayer:Delete()</strong></code></pre>
+
+
 
 
 ### layer:Squash()
 
-Squashes the layer and returns the resulting LayerApiWrapper instance
+Combines this layer and the one above it. If this layer is the first layer do nothing
 
 **Returns:** <a href="layer.md">Layer</a>
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>combinedLayer = myLayer:Squash()</strong></code></pre>
 
 
 
 
 ### layer:SquashTo(destinationLayer)
 
-Squashes the layer to the specified destination layer and returns the destination layer
+Combines this layer with the specified layer
 
-**Returns:** <a href="layer.md">Layer</a>
+**Returns:** nil
 
 
 **Parameters:**
@@ -118,6 +153,11 @@ Squashes the layer to the specified destination layer and returns the destinatio
 <tbody><tr><td>destinationLayer</td><td><a href="layer.md">Layer</a></td><td>The destination layer</td></tr></tbody></table>
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>myLayer:SquashTo(otherLayer)</strong></code></pre>
 
 
 
@@ -131,6 +171,11 @@ Shows the layer
 
 
 
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>myLayer:Show()</strong></code></pre>
+
+
 
 
 ### layer:Hide()
@@ -142,6 +187,11 @@ Hides the layer
 
 
 
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>myLayer:Hide()</strong></code></pre>
+
+
 
 
 ### layer:Toggle()
@@ -151,6 +201,11 @@ Toggles the visibility of the layer
 **Returns:** nil
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>myLayer:Toggle()</strong></code></pre>
 
 
 
