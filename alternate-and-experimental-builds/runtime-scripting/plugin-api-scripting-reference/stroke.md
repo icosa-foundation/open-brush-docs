@@ -10,11 +10,11 @@ A specific brush stroke
 <table>
 <thead><tr><th width="225">Name</th><th width="160">Return Type</th><th width="80">Read/Write?</th><th>Description</th></tr></thead>
 <tbody>
-<tr><td>path</td><td><a href="path.md">Path</a></td><td>Read/Write</td><td></td></tr>
-<tr><td>brushType</td><td>string</td><td>Read-only</td><td></td></tr>
-<tr><td>brushSize</td><td>number</td><td>Read-only</td><td></td></tr>
-<tr><td>brushColor</td><td><a href="color.md">Color</a></td><td>Read-only</td><td></td></tr>
-<tr><td>layer</td><td><a href="layer.md">Layer</a></td><td>Read-only</td><td></td></tr>
+<tr><td>path</td><td><a href="path.md">Path</a></td><td>Read/Write</td><td>Gets or sets the control points of this stroke from a Path</td></tr>
+<tr><td>brushType</td><td>string</td><td>Read/Write</td><td>Gets or sets the stroke's brush type</td></tr>
+<tr><td>brushSize</td><td>number</td><td>Read/Write</td><td>Gets or sets the stroke's size</td></tr>
+<tr><td>brushColor</td><td><a href="color.md">Color</a></td><td>Read/Write</td><td>Gets or sets the stroke's Color</td></tr>
+<tr><td>layer</td><td><a href="layer.md">Layer</a></td><td>Read/Write</td><td>Gets or sets the layer the stroke is on</td></tr>
 <tr><td>Item</td><td><a href="transform.md">Transform</a></td><td>Read/Write</td><td></td></tr>
 <tr><td>count</td><td>number</td><td>Read-only</td><td>The number of control points in this stroke</td></tr>
 </tbody></table>
@@ -54,7 +54,7 @@ Adds multiple strokes to the current selection
         
 ### stroke:ChangeMaterial(brushName)
 
-
+Assigns the material from another brush type to this stroke (Experimental. Results are unpredictable and are not saved with the scene)
 
 **Returns:** nil
 
@@ -63,9 +63,14 @@ Adds multiple strokes to the current selection
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>brushName</td><td>string</td><td></td></tr></tbody></table>
+<tbody><tr><td>brushName</td><td>string</td><td>The name (or guid) of the brush to get the material from</td></tr></tbody></table>
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>myStroke.ChangeMaterial("Light")</strong></code></pre>
 
 
 
@@ -153,7 +158,7 @@ Joins a stroke with the previous stroke
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>stroke2</td><td><a href="stroke.md">Stroke</a></td><td></td></tr></tbody></table>
+<tbody><tr><td>stroke2</td><td><a href="stroke.md">Stroke</a></td><td>The stroke to join to this one</td></tr></tbody></table>
 
 
 

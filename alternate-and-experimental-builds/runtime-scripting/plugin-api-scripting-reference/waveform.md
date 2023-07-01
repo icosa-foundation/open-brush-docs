@@ -11,7 +11,7 @@ Functions to generate a variety of waveforms
         
 ### Waveform:Sine(time, frequency)
 
-
+Returns the value of a sine wave at the given time and frequency
 
 **Returns:** number
 
@@ -30,7 +30,7 @@ Functions to generate a variety of waveforms
 
 ### Waveform:Cosine(time, frequency)
 
-
+Returns the value of a cosine wave at the given time and frequency
 
 **Returns:** number
 
@@ -49,7 +49,7 @@ Functions to generate a variety of waveforms
 
 ### Waveform:Triangle(time, frequency)
 
-
+Returns the value of a triangle wave at the given time and frequency
 
 **Returns:** number
 
@@ -68,7 +68,7 @@ Functions to generate a variety of waveforms
 
 ### Waveform:Sawtooth(time, frequency)
 
-
+Returns the value of a sawtooth wave at the given time and frequency
 
 **Returns:** number
 
@@ -87,7 +87,7 @@ Functions to generate a variety of waveforms
 
 ### Waveform:Square(time, frequency)
 
-
+Returns the value of a square wave at the given time and frequency
 
 **Returns:** number
 
@@ -106,7 +106,7 @@ Functions to generate a variety of waveforms
 
 ### Waveform:Pulse(time, frequency, pulseWidth)
 
-
+Returns the value of a pulse wave with a specified pulse width at the given time, frequency
 
 **Returns:** number
 
@@ -126,7 +126,7 @@ Functions to generate a variety of waveforms
 
 ### Waveform:Exponent(time, frequency)
 
-
+Returns the value of an exponential wave at the given time and frequency
 
 **Returns:** number
 
@@ -145,7 +145,7 @@ Functions to generate a variety of waveforms
 
 ### Waveform:Power(time, frequency, power)
 
-
+Returns the value of a power wave at the given time, frequency, and power
 
 **Returns:** number
 
@@ -165,7 +165,7 @@ Functions to generate a variety of waveforms
 
 ### Waveform:Parabolic(time, frequency)
 
-
+Returns the value of a parabolic wave at the given time and frequency
 
 **Returns:** number
 
@@ -184,7 +184,7 @@ Functions to generate a variety of waveforms
 
 ### Waveform:ExponentialSawtooth(time, frequency, exponent)
 
-
+Returns the value of an exponential sawtooth wave with the specified exponent at the given time, frequency
 
 **Returns:** number
 
@@ -204,7 +204,7 @@ Functions to generate a variety of waveforms
 
 ### Waveform:PerlinNoise(time, frequency)
 
-
+Returns the value of a perlin noise function at the given time and frequency
 
 **Returns:** number
 
@@ -223,7 +223,7 @@ Functions to generate a variety of waveforms
 
 ### Waveform:WhiteNoise()
 
-
+Returns the value of a white noise function
 
 **Returns:** number
 
@@ -234,7 +234,7 @@ Functions to generate a variety of waveforms
 
 ### Waveform:BrownNoise(previous)
 
-
+Returns the value of a brown noise function
 
 **Returns:** number
 
@@ -252,7 +252,7 @@ Functions to generate a variety of waveforms
 
 ### Waveform:BlueNoise(previous)
 
-
+Returns the value of a blue noise function
 
 **Returns:** number
 
@@ -270,7 +270,7 @@ Functions to generate a variety of waveforms
 
 ### Waveform:Sine(time, frequency, duration, sampleRate, amplitude)
 
-
+Returns a sine wave with the given frequency, duration, and sample rate
 
 **Returns:** number[]
 
@@ -292,7 +292,7 @@ Functions to generate a variety of waveforms
 
 ### Waveform:Cosine(time, frequency, duration, sampleRate, amplitude)
 
-
+Returns a cosine wave with the given frequency, duration, and sample rate
 
 **Returns:** number[]
 
@@ -314,7 +314,7 @@ Functions to generate a variety of waveforms
 
 ### Waveform:Triangle(time, frequency, duration, sampleRate, amplitude)
 
-
+Returns a triangle wave with the given frequency, duration, and sample rate
 
 **Returns:** number[]
 
@@ -336,7 +336,7 @@ Functions to generate a variety of waveforms
 
 ### Waveform:Sawtooth(time, frequency, duration, sampleRate, amplitude)
 
-
+Returns a sawtooth wave with the given frequency, duration, and sample rate
 
 **Returns:** number[]
 
@@ -358,7 +358,7 @@ Functions to generate a variety of waveforms
 
 ### Waveform:Square(time, frequency, duration, sampleRate, amplitude)
 
-
+Returns a square wave with the given frequency, duration, and sample rate
 
 **Returns:** number[]
 
@@ -380,7 +380,7 @@ Functions to generate a variety of waveforms
 
 ### Waveform:Exponent(time, frequency, duration, sampleRate, amplitude)
 
-
+Returns an exponential wave with the given frequency, duration, and sample rate
 
 **Returns:** number[]
 
@@ -402,7 +402,7 @@ Functions to generate a variety of waveforms
 
 ### Waveform:Parabolic(time, frequency, duration, sampleRate, amplitude)
 
-
+Returns a parabolic wave with the given frequency, duration, and sample rate
 
 **Returns:** number[]
 
@@ -424,7 +424,7 @@ Functions to generate a variety of waveforms
 
 ### Waveform:Pulse(time, frequency, pulseWidth, duration, sampleRate, amplitude)
 
-
+Returns a pulse wave with the given frequency, pulse width, duration, and sample rate
 
 **Returns:** number[]
 
@@ -447,7 +447,7 @@ Functions to generate a variety of waveforms
 
 ### Waveform:Power(time, frequency, power, duration, sampleRate, amplitude)
 
-
+Returns a power wave with the given frequency, power, duration, and sample rate
 
 **Returns:** number[]
 
@@ -470,7 +470,7 @@ Functions to generate a variety of waveforms
 
 ### Waveform:ExponentialSawtoothWave(time, frequency, exponent, duration, sampleRate, amplitude)
 
-
+Returns an exponential sawtooth wave with the given frequency, exponent, duration, and sample rate
 
 **Returns:** number[]
 
@@ -493,7 +493,7 @@ Functions to generate a variety of waveforms
 
 ### Waveform:PerlinNoise(time, frequency, duration, sampleRate, amplitude)
 
-
+Returns a perlin noise wave with the given frequency, duration, and sample rate
 
 **Returns:** number[]
 
@@ -515,7 +515,7 @@ Functions to generate a variety of waveforms
 
 ### Waveform:WhiteNoise(duration, sampleRate, amplitude)
 
-
+Returns a white noise wave with the given duration and sample rate
 
 **Returns:** number[]
 
@@ -535,7 +535,7 @@ Functions to generate a variety of waveforms
 
 ### Waveform:BrownNoise(previous, duration, sampleRate, amplitude)
 
-
+Returns a brown noise wave with the given duration and sample rate
 
 **Returns:** number[]
 
@@ -556,7 +556,7 @@ Functions to generate a variety of waveforms
 
 ### Waveform:BlueNoise(previous, duration, sampleRate, amplitude)
 
-
+Returns a blue noise wave with the given duration and sample rate
 
 **Returns:** number[]
 

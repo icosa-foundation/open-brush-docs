@@ -2,7 +2,7 @@
 # VideoList
 
 ## Summary
-The list of Videos in the scene. (You don't instantiate this yourself. Access this via Sketch.videos 
+The list of Videos in the scene. (You don't instantiate this yourself. Access this via Sketch.videos)
 
 
 ## Instance Properties

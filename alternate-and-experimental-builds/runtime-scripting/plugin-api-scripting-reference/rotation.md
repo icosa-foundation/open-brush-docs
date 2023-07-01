@@ -39,7 +39,7 @@ Represents a rotation or orientation in 3D space. See https://docs.unity3d.com/S
         
 ### Rotation:New(x, y, z)
 
-
+Creates a new Rotation
 
 **Returns:** <a href="rotation.md">Rotation</a>
 
@@ -48,11 +48,16 @@ Represents a rotation or orientation in 3D space. See https://docs.unity3d.com/S
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>x</td><td>number</td><td></td></tr>
-<tr><td>y</td><td>number</td><td></td></tr>
-<tr><td>z</td><td>number</td><td></td></tr></tbody></table>
+<tbody><tr><td>x</td><td>number</td><td>The angle of rotation on the x axis in degrees</td></tr>
+<tr><td>y</td><td>number</td><td>The angle of rotation on the y axis in degrees</td></tr>
+<tr><td>z</td><td>number</td><td>The angle of rotation on the z axis in degrees</td></tr></tbody></table>
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>myRotation = Rotation:New(45, -90, 0)</strong></code></pre>
 
 
 

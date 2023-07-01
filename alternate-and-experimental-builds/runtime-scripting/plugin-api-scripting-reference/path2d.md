@@ -93,7 +93,7 @@ Generates a regular polygon path
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>sides</td><td>number</td><td></td></tr></tbody></table>
+<tbody><tr><td>sides</td><td>number</td><td>The number of sides for the polygon</td></tr></tbody></table>
 
 
 
@@ -422,7 +422,7 @@ Returns the index of the point with the biggest Y value
 
 
 
-### path2d:Normalize(scale)
+### path2d:Normalize(size)
 
 Scales and shifts all points so that they fit in a 1 unit square at the origin
 
@@ -433,7 +433,7 @@ Scales and shifts all points so that they fit in a 1 unit square at the origin
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>scale</td><td>number</td><td></td></tr></tbody></table>
+<tbody><tr><td>size</td><td>number</td><td>The size of the square to fit the path into</td></tr></tbody></table>
 
 
 

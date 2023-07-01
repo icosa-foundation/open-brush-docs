@@ -2,7 +2,7 @@
 # EnvironmentList
 
 ## Summary
-The list of available environments. (You don't instantiate this yourself. Access this via Sketch.environments 
+The list of available environments. (You don't instantiate this yourself. Access this via Sketch.environments)
 
 
 ## Instance Properties

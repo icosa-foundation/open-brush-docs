@@ -28,24 +28,6 @@ The spectator camera
 ## Class Methods
 
         
-### Spectator:Direction(direction)
-
-Changes the rotation of the spectator camera to a specific direction vector
-
-**Returns:** nil
-
-
-**Parameters:**
-
-<table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>direction</td><td><a href="vector3.md">Vector3</a></td><td></td></tr></tbody></table>
-
-
-
-
-
-
 ### Spectator:LookAt(position)
 
 Changes the rotation of the spectator camera to look towards a specific point
@@ -57,9 +39,14 @@ Changes the rotation of the spectator camera to look towards a specific point
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>position</td><td><a href="vector3.md">Vector3</a></td><td></td></tr></tbody></table>
+<tbody><tr><td>position</td><td><a href="vector3.md">Vector3</a></td><td>The point in the scene to look towards</td></tr></tbody></table>
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>Spectator:LookAt(5, -4, 10)</strong></code></pre>
 
 
 
@@ -73,6 +60,11 @@ Sets the spectator camera's movement mode to stationary
 
 
 
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>Spectator:Stationary()</strong></code></pre>
+
+
 
 
 ### Spectator:SlowFollow()
@@ -82,6 +74,11 @@ Sets the spectator camera's movement mode to slowFollow
 **Returns:** nil
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>Spectator:SlowFollow()</strong></code></pre>
 
 
 
@@ -95,6 +92,11 @@ Sets the spectator camera's movement mode to wobble
 
 
 
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>Spectator:Wobble()</strong></code></pre>
+
+
 
 
 ### Spectator:Circular()
@@ -104,6 +106,11 @@ Sets the spectator camera's movement mode to circular
 **Returns:** nil
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>Spectator:Circular()</strong></code></pre>
 
 
 

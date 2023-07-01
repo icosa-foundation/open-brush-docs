@@ -9,8 +9,8 @@ Settings and controls for audio visualization mode
 <table>
 <thead><tr><th width="225">Name</th><th width="160">Return Type</th><th width="80">Read/Write?</th><th>Description</th></tr></thead>
 <tbody>
-<tr><td>sampleRate</td><td>number</td><td>Read-only</td><td></td></tr>
-<tr><td>duration</td><td>number</td><td>Read-only</td><td></td></tr>
+<tr><td>sampleRate</td><td>number</td><td>Read-only</td><td>The current audio sample rate</td></tr>
+<tr><td>duration</td><td>number</td><td>Read-only</td><td>The current duration of the audio buffer</td></tr>
 </tbody></table>
 
 
@@ -21,7 +21,7 @@ Settings and controls for audio visualization mode
         
 ### Visualizer:EnableScripting(name)
 
-
+Enables scripted access to the audio visualization buffer
 
 **Returns:** nil
 
@@ -39,7 +39,7 @@ Settings and controls for audio visualization mode
 
 ### Visualizer:DisableScripting()
 
-
+Disables scripted access to the audio visualization buffer
 
 **Returns:** nil
 
@@ -50,7 +50,7 @@ Settings and controls for audio visualization mode
 
 ### Visualizer:SetWaveform(data)
 
-
+Passes the given waveform data to the audio visualizer
 
 **Returns:** nil
 
@@ -68,7 +68,7 @@ Settings and controls for audio visualization mode
 
 ### Visualizer:SetFft(data1, data2, data3, data4)
 
-
+Passes the given FFT data to the audio visualizer
 
 **Returns:** nil
 
@@ -89,7 +89,7 @@ Settings and controls for audio visualization mode
 
 ### Visualizer:SetBeats(x, y, z, w)
 
-
+Passes the given beat data to the audio visualizer
 
 **Returns:** nil
 
@@ -110,7 +110,7 @@ Settings and controls for audio visualization mode
 
 ### Visualizer:SetBeatAccumulators(x, y, z, w)
 
-
+Passes the given beat accumulator data to the audio visualizer
 
 **Returns:** nil
 
@@ -131,7 +131,7 @@ Settings and controls for audio visualization mode
 
 ### Visualizer:SetBandPeak(peak)
 
-
+Passes the given band peak data to the audio visualizer
 
 **Returns:** nil
 

@@ -9,14 +9,14 @@ A position or offset in 2D space
 <table>
 <thead><tr><th width="225">Name</th><th width="160">Return Type</th><th width="80">Read/Write?</th><th>Description</th></tr></thead>
 <tbody>
-<tr><td>down</td><td><a href="vector2.md">Vector2</a></td><td>Read-only</td><td></td></tr>
-<tr><td>left</td><td><a href="vector2.md">Vector2</a></td><td>Read-only</td><td></td></tr>
-<tr><td>negativeInfinity</td><td><a href="vector2.md">Vector2</a></td><td>Read-only</td><td></td></tr>
-<tr><td>one</td><td><a href="vector2.md">Vector2</a></td><td>Read-only</td><td></td></tr>
-<tr><td>positiveInfinity</td><td><a href="vector2.md">Vector2</a></td><td>Read-only</td><td></td></tr>
-<tr><td>right</td><td><a href="vector2.md">Vector2</a></td><td>Read-only</td><td></td></tr>
-<tr><td>up</td><td><a href="vector2.md">Vector2</a></td><td>Read-only</td><td></td></tr>
-<tr><td>zero</td><td><a href="vector2.md">Vector2</a></td><td>Read-only</td><td></td></tr>
+<tr><td>down</td><td><a href="vector2.md">Vector2</a></td><td>Read-only</td><td>A vector of -1 in the y axis</td></tr>
+<tr><td>left</td><td><a href="vector2.md">Vector2</a></td><td>Read-only</td><td>A vector of -1 in the x axis</td></tr>
+<tr><td>negativeInfinity</td><td><a href="vector2.md">Vector2</a></td><td>Read-only</td><td>A vector of negative infinity in all axes</td></tr>
+<tr><td>one</td><td><a href="vector2.md">Vector2</a></td><td>Read-only</td><td>A vector of 1 in all axes</td></tr>
+<tr><td>positiveInfinity</td><td><a href="vector2.md">Vector2</a></td><td>Read-only</td><td>A vector of positive infinity in all axes</td></tr>
+<tr><td>right</td><td><a href="vector2.md">Vector2</a></td><td>Read-only</td><td>A vector of 1 in the x axis</td></tr>
+<tr><td>up</td><td><a href="vector2.md">Vector2</a></td><td>Read-only</td><td>A vector of 1 in the y axis</td></tr>
+<tr><td>zero</td><td><a href="vector2.md">Vector2</a></td><td>Read-only</td><td>A vector of 0 in all axes</td></tr>
 </tbody></table>
 
 
@@ -27,8 +27,11 @@ A position or offset in 2D space
 <thead><tr><th width="225">Name</th><th width="160">Return Type</th><th width="80">Read/Write?</th><th>Description</th></tr></thead>
 <tbody>
 <tr><td>Item</td><td>number</td><td>Read/Write</td><td></td></tr>
-<tr><td>x</td><td>number</td><td>Read/Write</td><td></td></tr>
-<tr><td>y</td><td>number</td><td>Read/Write</td><td></td></tr>
+<tr><td>x</td><td>number</td><td>Read/Write</td><td>Gets or sets the x coordinate</td></tr>
+<tr><td>y</td><td>number</td><td>Read/Write</td><td>Gets or sets the y coordinate</td></tr>
+<tr><td>magnitude</td><td>number</td><td>Read-only</td><td>The length of this vector</td></tr>
+<tr><td>sqrMagnitude</td><td>number</td><td>Read-only</td><td>The square of the length of this vector (faster to calculate if you're just comparing two lengths)</td></tr>
+<tr><td>normalized</td><td><a href="vector2.md">Vector2</a></td><td>Read-only</td><td>Returns a vector with the same distance but witha length of 1</td></tr>
 </tbody></table>
 
 
@@ -57,7 +60,7 @@ A position or offset in 2D space
 
 ### Vector2:Angle(a, b)
 
-
+Returns the angle between two points and the origin
 
 **Returns:** number
 
@@ -68,25 +71,6 @@ A position or offset in 2D space
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>a</td><td><a href="vector2.md">Vector2</a></td><td></td></tr>
 <tr><td>b</td><td><a href="vector2.md">Vector2</a></td><td></td></tr></tbody></table>
-
-
-
-
-
-
-### Vector2:ClampMagnitude(v, maxLength)
-
-
-
-**Returns:** <a href="vector2.md">Vector2</a>
-
-
-**Parameters:**
-
-<table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>v</td><td><a href="vector2.md">Vector2</a></td><td></td></tr>
-<tr><td>maxLength</td><td>number</td><td></td></tr></tbody></table>
 
 
 
@@ -95,26 +79,7 @@ A position or offset in 2D space
 
 ### Vector2:Distance(a, b)
 
-
-
-**Returns:** number
-
-
-**Parameters:**
-
-<table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>a</td><td><a href="vector2.md">Vector2</a></td><td></td></tr>
-<tr><td>b</td><td><a href="vector2.md">Vector2</a></td><td></td></tr></tbody></table>
-
-
-
-
-
-
-### Vector2:Magnitude(a)
-
-
+The distance between two points
 
 **Returns:** number
 
@@ -123,34 +88,22 @@ A position or offset in 2D space
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>a</td><td><a href="vector2.md">Vector2</a></td><td></td></tr></tbody></table>
+<tbody><tr><td>a</td><td><a href="vector2.md">Vector2</a></td><td>The first vector</td></tr>
+<tr><td>b</td><td><a href="vector2.md">Vector2</a></td><td>The second vector</td></tr></tbody></table>
 
 
 
 
+#### Example
 
-
-### Vector2:SqrMagnitude(a)
-
-
-
-**Returns:** number
-
-
-**Parameters:**
-
-<table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>a</td><td><a href="vector2.md">Vector2</a></td><td></td></tr></tbody></table>
-
-
+<pre class="language-lua"><code class="lang-lua"><strong>distance = Vector2:Distance(firstPoint, secondPoint)</strong></code></pre>
 
 
 
 
 ### Vector2:Dot(a, b)
 
-
+The dot product of two vectors
 
 **Returns:** number
 
@@ -159,17 +112,22 @@ A position or offset in 2D space
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>a</td><td><a href="vector2.md">Vector2</a></td><td></td></tr>
-<tr><td>b</td><td><a href="vector2.md">Vector2</a></td><td></td></tr></tbody></table>
+<tbody><tr><td>a</td><td><a href="vector2.md">Vector2</a></td><td>The first vector</td></tr>
+<tr><td>b</td><td><a href="vector2.md">Vector2</a></td><td>The second vector</td></tr></tbody></table>
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>result = Vector3:Dot(myVector, otherVector</strong></code></pre>
 
 
 
 
 ### Vector2:Lerp(a, b, t)
 
-
+Linearly interpolates between two points
 
 **Returns:** <a href="vector2.md">Vector2</a>
 
@@ -178,18 +136,23 @@ A position or offset in 2D space
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>a</td><td><a href="vector2.md">Vector2</a></td><td></td></tr>
-<tr><td>b</td><td><a href="vector2.md">Vector2</a></td><td></td></tr>
-<tr><td>t</td><td>number</td><td></td></tr></tbody></table>
+<tbody><tr><td>a</td><td><a href="vector2.md">Vector2</a></td><td>The first point</td></tr>
+<tr><td>b</td><td><a href="vector2.md">Vector2</a></td><td>The second point</td></tr>
+<tr><td>t</td><td>number</td><td>The value between 0 and 1 that controls how far between a and b the new point is</td></tr></tbody></table>
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>newPoint = Vector2:Lerp(pointA, PointB, 0.25)</strong></code></pre>
 
 
 
 
 ### Vector2:LerpUnclamped(a, b, t)
 
-
+Linearly interpolates (or extrapolates) between two points
 
 **Returns:** <a href="vector2.md">Vector2</a>
 
@@ -198,18 +161,23 @@ A position or offset in 2D space
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>a</td><td><a href="vector2.md">Vector2</a></td><td></td></tr>
-<tr><td>b</td><td><a href="vector2.md">Vector2</a></td><td></td></tr>
-<tr><td>t</td><td>number</td><td></td></tr></tbody></table>
+<tbody><tr><td>a</td><td><a href="vector2.md">Vector2</a></td><td>The first point</td></tr>
+<tr><td>b</td><td><a href="vector2.md">Vector2</a></td><td>The second point</td></tr>
+<tr><td>t</td><td>number</td><td>The value that controls how far between (or beyond) a and b the new point is</td></tr></tbody></table>
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>newPoint = Vector2:Lerp(pointA, PointB, 0.25)</strong></code></pre>
 
 
 
 
 ### Vector2:Max(a, b)
 
-
+Creates a vector made from the largest components of the inputs
 
 **Returns:** <a href="vector2.md">Vector2</a>
 
@@ -218,17 +186,22 @@ A position or offset in 2D space
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>a</td><td><a href="vector2.md">Vector2</a></td><td></td></tr>
-<tr><td>b</td><td><a href="vector2.md">Vector2</a></td><td></td></tr></tbody></table>
+<tbody><tr><td>a</td><td><a href="vector2.md">Vector2</a></td><td>The first vector</td></tr>
+<tr><td>b</td><td><a href="vector2.md">Vector2</a></td><td>The second vector</td></tr></tbody></table>
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>result = Vector2:Max(firstVector, secondVector</strong></code></pre>
 
 
 
 
 ### Vector2:Min(a, b)
 
-
+Creates a vector made from the largest components of the inputs
 
 **Returns:** <a href="vector2.md">Vector2</a>
 
@@ -237,37 +210,22 @@ A position or offset in 2D space
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>a</td><td><a href="vector2.md">Vector2</a></td><td></td></tr>
-<tr><td>b</td><td><a href="vector2.md">Vector2</a></td><td></td></tr></tbody></table>
+<tbody><tr><td>a</td><td><a href="vector2.md">Vector2</a></td><td>The first vector</td></tr>
+<tr><td>b</td><td><a href="vector2.md">Vector2</a></td><td>The second vector</td></tr></tbody></table>
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>result = Vector2:Min(firstVector, secondVector</strong></code></pre>
 
 
 
 
 ### Vector2:MoveTowards(current, target, maxDistanceDelta)
 
-
-
-**Returns:** <a href="vector2.md">Vector2</a>
-
-
-**Parameters:**
-
-<table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>current</td><td><a href="vector2.md">Vector2</a></td><td></td></tr>
-<tr><td>target</td><td><a href="vector2.md">Vector2</a></td><td></td></tr>
-<tr><td>maxDistanceDelta</td><td>number</td><td></td></tr></tbody></table>
-
-
-
-
-
-
-### Vector2:Normalized(a)
-
-
+Moves a point towards a target point
 
 **Returns:** <a href="vector2.md">Vector2</a>
 
@@ -276,35 +234,23 @@ A position or offset in 2D space
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>a</td><td><a href="vector2.md">Vector2</a></td><td></td></tr></tbody></table>
+<tbody><tr><td>current</td><td><a href="vector2.md">Vector2</a></td><td>The current point</td></tr>
+<tr><td>target</td><td><a href="vector2.md">Vector2</a></td><td>The target point</td></tr>
+<tr><td>maxDistanceDelta</td><td>number</td><td>The maximum distance to move</td></tr></tbody></table>
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>newPoint = Vector2:MoveTowards(currentPoint, targetPoint, 0.25)</strong></code></pre>
 
 
 
 
 ### Vector2:Reflect(a, b)
 
-
-
-**Returns:** <a href="vector2.md">Vector2</a>
-
-
-**Parameters:**
-
-<table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>a</td><td><a href="vector2.md">Vector2</a></td><td></td></tr>
-<tr><td>b</td><td><a href="vector2.md">Vector2</a></td><td></td></tr></tbody></table>
-
-
-
-
-
-
-### Vector2:Scale(a, b)
-
-
+Reflects a vector off the vector defined by a normal
 
 **Returns:** <a href="vector2.md">Vector2</a>
 
@@ -315,26 +261,6 @@ A position or offset in 2D space
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>a</td><td><a href="vector2.md">Vector2</a></td><td></td></tr>
 <tr><td>b</td><td><a href="vector2.md">Vector2</a></td><td></td></tr></tbody></table>
-
-
-
-
-
-
-### Vector2:SignedAngle(from, to, axis)
-
-
-
-**Returns:** number
-
-
-**Parameters:**
-
-<table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>from</td><td><a href="vector2.md">Vector2</a></td><td></td></tr>
-<tr><td>to</td><td><a href="vector2.md">Vector2</a></td><td></td></tr>
-<tr><td>axis</td><td><a href="vector2.md">Vector2</a></td><td></td></tr></tbody></table>
 
 
 
@@ -343,7 +269,7 @@ A position or offset in 2D space
 
 ### Vector2:Slerp(a, b, t)
 
-
+Spherically interpolates between two vectors
 
 **Returns:** <a href="vector2.md">Vector2</a>
 
@@ -352,18 +278,23 @@ A position or offset in 2D space
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>a</td><td><a href="vector2.md">Vector2</a></td><td></td></tr>
-<tr><td>b</td><td><a href="vector2.md">Vector2</a></td><td></td></tr>
-<tr><td>t</td><td>number</td><td></td></tr></tbody></table>
+<tbody><tr><td>a</td><td><a href="vector2.md">Vector2</a></td><td>The first point</td></tr>
+<tr><td>b</td><td><a href="vector2.md">Vector2</a></td><td>The second point</td></tr>
+<tr><td>t</td><td>number</td><td>The value that controls how far between (or beyond) a and b the new point is</td></tr></tbody></table>
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>newPoint = Vector3:Slerp(pointA, PointB, 0.25)</strong></code></pre>
 
 
 
 
 ### Vector2:SlerpUnclamped(a, b, t)
 
-
+Spherically interpolates (or extrapolates) between two vectors
 
 **Returns:** <a href="vector2.md">Vector2</a>
 
@@ -372,18 +303,23 @@ A position or offset in 2D space
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>a</td><td><a href="vector2.md">Vector2</a></td><td></td></tr>
-<tr><td>b</td><td><a href="vector2.md">Vector2</a></td><td></td></tr>
-<tr><td>t</td><td>number</td><td></td></tr></tbody></table>
+<tbody><tr><td>a</td><td><a href="vector2.md">Vector2</a></td><td>The first point</td></tr>
+<tr><td>b</td><td><a href="vector2.md">Vector2</a></td><td>The second point</td></tr>
+<tr><td>t</td><td>number</td><td>The value that controls how far between (or beyond) a and b the new point is</td></tr></tbody></table>
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>newPoint = Vector3:SlerpUnclamped(pointA, PointB, 0.25)</strong></code></pre>
 
 
 
 
 ### Vector2:PointOnCircle(degrees)
 
-
+Returns the point the given number of degrees around a circle with radius 1
 
 **Returns:** <a href="vector2.md">Vector2</a>
 
@@ -403,42 +339,117 @@ A position or offset in 2D space
 ## Instance Methods
 
         
+### vector2:ClampMagnitude(maxLength)
+
+Returns a vector with the same direction but with it's length clamped to a maximum
+
+**Returns:** <a href="vector2.md">Vector2</a>
+
+
+**Parameters:**
+
+<table data-full-width="false">
+<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<tbody><tr><td>maxLength</td><td>number</td><td>The maximum length of the new vector</td></tr></tbody></table>
+
+
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>newVector = myVector:ClampMagnitude</strong></code></pre>
+
+
+
+
+### vector2:Scale(other)
+
+Scales a vector by multiplying it's components by the components of another vector
+
+**Returns:** <a href="vector2.md">Vector2</a>
+
+
+**Parameters:**
+
+<table data-full-width="false">
+<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<tbody><tr><td>other</td><td><a href="vector2.md">Vector2</a></td><td></td></tr></tbody></table>
+
+
+
+
+
+
+### vector2:SignedAngle(other, axis)
+
+Returns the signed angle between this vector and another
+
+**Returns:** number
+
+
+**Parameters:**
+
+<table data-full-width="false">
+<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<tbody><tr><td>other</td><td><a href="vector2.md">Vector2</a></td><td></td></tr>
+<tr><td>axis</td><td><a href="vector2.md">Vector2</a></td><td></td></tr></tbody></table>
+
+
+
+
+
+
 ### vector2:OnX()
 
-
+Converts this 2D vector to a 3D vector on the YZ plane (i.e. with all x values set to 0)
 
 **Returns:** <a href="vector3.md">Vector3</a>
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>myVector3 = myVector2:OnX()</strong></code></pre>
 
 
 
 
 ### vector2:OnY()
 
-
+Converts this 2D vector to a 3D vector on the XZ plane (i.e. with all y values set to 0)
 
 **Returns:** <a href="vector3.md">Vector3</a>
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>myVector3 = myVector2:OnY()</strong></code></pre>
 
 
 
 
 ### vector2:OnZ()
 
-
+Converts this 2D vector to a 3D vector on the XY plane (i.e. with all z values set to 0)
 
 **Returns:** <a href="vector3.md">Vector3</a>
 
 
 
 
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>myVector3 = myVector2:OnZ()</strong></code></pre>
+
+
 
 
 ### vector2:Add(other)
 
-
+Adds this vector to another
 
 **Returns:** <a href="vector2.md">Vector2</a>
 
@@ -456,7 +467,7 @@ A position or offset in 2D space
 
 ### vector2:Add(x, y)
 
-
+Adds the given x and y values to this vector
 
 **Returns:** <a href="vector2.md">Vector2</a>
 
@@ -475,7 +486,7 @@ A position or offset in 2D space
 
 ### vector2:Subtract(other)
 
-
+Subtracts another vector from this one
 
 **Returns:** <a href="vector2.md">Vector2</a>
 
@@ -493,7 +504,7 @@ A position or offset in 2D space
 
 ### vector2:Subtract(x, y)
 
-
+Subtracts the given x and y values from this vector
 
 **Returns:** <a href="vector2.md">Vector2</a>
 
@@ -512,7 +523,7 @@ A position or offset in 2D space
 
 ### vector2:Multiply(value)
 
-
+Multiplies a vector by a scalar value
 
 **Returns:** <a href="vector2.md">Vector2</a>
 
@@ -530,7 +541,7 @@ A position or offset in 2D space
 
 ### vector2:ScaleBy(other)
 
-
+Multiplies this vector by another component-wise
 
 **Returns:** <a href="vector2.md">Vector2</a>
 
@@ -548,7 +559,7 @@ A position or offset in 2D space
 
 ### vector2:ScaleBy(x, y)
 
-
+Multiplies each component of this vector by the given x and y values
 
 **Returns:** <a href="vector2.md">Vector2</a>
 
@@ -567,7 +578,7 @@ A position or offset in 2D space
 
 ### vector2:Divide(value)
 
-
+Divides this vector by another
 
 **Returns:** <a href="vector2.md">Vector2</a>
 
@@ -585,7 +596,7 @@ A position or offset in 2D space
 
 ### vector2:NotEquals(other)
 
-
+Is this vector not equal to another?
 
 **Returns:** boolean
 
@@ -603,7 +614,7 @@ A position or offset in 2D space
 
 ### vector2:NotEquals(x, y)
 
-
+Is this vector not equal to the given x and y values?
 
 **Returns:** boolean
 

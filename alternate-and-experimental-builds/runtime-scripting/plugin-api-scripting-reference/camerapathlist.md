@@ -2,7 +2,7 @@
 # CameraPathList
 
 ## Summary
-The list of Camera Paths in the scene. (You don't instantiate this yourself. Access this via Sketch.cameraPaths 
+The list of Camera Paths in the scene. (You don't instantiate this yourself. Access this via Sketch.cameraPaths)
 
 
 ## Instance Properties

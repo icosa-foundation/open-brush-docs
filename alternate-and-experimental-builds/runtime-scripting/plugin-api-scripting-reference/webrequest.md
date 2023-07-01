@@ -11,7 +11,7 @@ Functions to call remote websites or APIs
         
 ### WebRequest:Get(url, onSuccess, onError, headers, context)
 
-
+Sends a GET request to the given URL
 
 **Returns:** nil
 
@@ -33,7 +33,7 @@ Functions to call remote websites or APIs
 
 ### WebRequest:Post(url, postData, onSuccess, onError, headers, context)
 
-
+Sends a POST request to the given URL with the given data
 
 **Returns:** nil
 
