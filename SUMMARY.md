@@ -56,7 +56,7 @@
       * [App](alternate-and-experimental-builds/runtime-scripting/plugin-api-scripting-reference/app.md)
       * [Brush](alternate-and-experimental-builds/runtime-scripting/plugin-api-scripting-reference/brush.md)        
       * [Camera Path](alternate-and-experimental-builds/runtime-scripting/plugin-api-scripting-reference/camerapath.md)
-      * [Camera Path List](alternate-and-experimental-builds/runtime-scripting/plugin-api-scripting-reference/camerapath.md)
+      * [Camera Path List](alternate-and-experimental-builds/runtime-scripting/plugin-api-scripting-reference/camerapathlist.md)
       * [Color](alternate-and-experimental-builds/runtime-scripting/plugin-api-scripting-reference/color.md)
       * [Easing](alternate-and-experimental-builds/runtime-scripting/plugin-api-scripting-reference/easing.md)
       * [Environment List](alternate-and-experimental-builds/runtime-scripting/plugin-api-scripting-reference/environmentlist.md)
