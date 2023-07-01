@@ -11,7 +11,7 @@ A set of transforms that form a path in 3D space. These form the basis for brush
 <thead><tr><th width="225">Name</th><th width="160">Return Type</th><th width="80">Read/Write?</th><th>Description</th></tr></thead>
 <tbody>
 <tr><td>count</td><td>number</td><td>Read-only</td><td>Returns the number of points in this path</td></tr>
-<tr><td>Item</td><td><a href="transform.md">Transform</a></td><td>Read-only</td><td>Returns the Transform of the point at the specified index</td></tr>
+<tr><td>Item</td><td><a href="transform.md">Transform</a></td><td>Read-only</td><td>Returns the point at the specified index</td></tr>
 <tr><td>last</td><td><a href="transform.md">Transform</a></td><td>Read-only</td><td>Returns the last point in this path</td></tr>
 </tbody></table>
 
@@ -22,7 +22,7 @@ A set of transforms that form a path in 3D space. These form the basis for brush
         
 ### Path:New()
 
-Returns a new empty Path
+Creates a new empty Path
 
 **Returns:** <a href="path.md">Path</a>
 
@@ -70,7 +70,7 @@ Creates a path from a list of Vector3 positions
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>positionList</td><td>Vector3[]</td><td></td></tr></tbody></table>
+<tbody><tr><td>positionList</td><td>Vector3[]</td><td>The list of positions</td></tr></tbody></table>
 
 
 

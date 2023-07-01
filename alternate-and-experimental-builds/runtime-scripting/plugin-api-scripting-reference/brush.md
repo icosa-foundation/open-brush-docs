@@ -21,6 +21,7 @@ The user's brush
 <tr><td>size</td><td>number</td><td>Read/Write</td><td>The current brush size</td></tr>
 <tr><td>pressure</td><td>number</td><td>Read-only</td><td>Brush pressure is determined by how far the trigger is pushed in</td></tr>
 <tr><td>type</td><td>string</td><td>Read/Write</td><td>The current brush type</td></tr>
+<tr><td>types</td><td>string[]</td><td>Read-only</td><td>All available brush types</td></tr>
 <tr><td>speed</td><td>number</td><td>Read-only</td><td>How fast the brush is currently moving</td></tr>
 <tr><td>colorRgb</td><td><a href="color.md">Color</a></td><td>Read/Write</td><td>Gets or set brush color</td></tr>
 <tr><td>colorHsv</td><td><a href="vector3.md">Vector3</a></td><td>Read/Write</td><td>Gets or set brush color using a Vector3 representing hue, saturation and brightness</td></tr>

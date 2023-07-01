@@ -193,20 +193,4 @@ Hides the layer
 
 
 
-
-### layer:Toggle()
-
-Toggles the visibility of the layer
-
-**Returns:** nil
-
-
-
-
-#### Example
-
-<pre class="language-lua"><code class="lang-lua"><strong>myLayer:Toggle()</strong></code></pre>
-
-
-
     

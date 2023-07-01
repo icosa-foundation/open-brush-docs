@@ -16,11 +16,38 @@ A specific brush stroke
 <tr><td>brushColor</td><td><a href="color.md">Color</a></td><td>Read-only</td><td></td></tr>
 <tr><td>layer</td><td><a href="layer.md">Layer</a></td><td>Read-only</td><td></td></tr>
 <tr><td>Item</td><td><a href="transform.md">Transform</a></td><td>Read/Write</td><td></td></tr>
-<tr><td>count</td><td>number</td><td>Read-only</td><td></td></tr>
+<tr><td>count</td><td>number</td><td>Read-only</td><td>The number of control points in this stroke</td></tr>
 </tbody></table>
 
 
 
+## Class Methods
+
+        
+### Stroke:SelectRange(from, to)
+
+Adds multiple strokes to the current selection
+
+**Returns:** nil
+
+
+**Parameters:**
+
+<table data-full-width="false">
+<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<tbody><tr><td>from</td><td>number</td><td>Start stroke index (0 is the first stroke that was drawn</td></tr>
+<tr><td>to</td><td>number</td><td>End stroke index</td></tr></tbody></table>
+
+
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>Stroke:SelectMultiple(0, 4) --Adds the first 5 strokes on the sketch</strong></code></pre>
+
+
+
+    
 
 ## Instance Methods
 
@@ -45,29 +72,102 @@ A specific brush stroke
 
 ### stroke:Delete()
 
-
+Deletes the current stroke
 
 **Returns:** nil
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>myStroke:Delete()</strong></code></pre>
 
 
 
 
 ### stroke:Select()
 
-
+Adds this stroke to the current selection
 
 **Returns:** nil
 
 
 
 
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>myStroke:Select()</strong></code></pre>
 
 
-### stroke:SelectMultiple(from, to)
 
 
+### stroke:JoinRange(from, to)
+
+Joins joins multiple strokes into one stroke
+
+**Returns:** <a href="stroke.md">Stroke</a>
+
+
+**Parameters:**
+
+<table data-full-width="false">
+<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<tbody><tr><td>from</td><td>number</td><td>Start stroke index (0 is the first stroke that was drawn</td></tr>
+<tr><td>to</td><td>number</td><td>End stroke index</td></tr></tbody></table>
+
+
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>newStroke = Stroke:Join(0, 10)</strong></code></pre>
+
+
+
+
+### stroke:JoinToPrevious()
+
+Joins a stroke with the previous stroke
+
+**Returns:** <a href="stroke.md">Stroke</a>
+
+
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>newStroke = myStroke:JoinPrevious()</strong></code></pre>
+
+
+
+
+### stroke:Join(stroke2)
+
+Joins a stroke with the previous stroke
+
+**Returns:** <a href="stroke.md">Stroke</a>
+
+
+**Parameters:**
+
+<table data-full-width="false">
+<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<tbody><tr><td>stroke2</td><td><a href="stroke.md">Stroke</a></td><td></td></tr></tbody></table>
+
+
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>newStroke = myStroke:JoinPrevious()</strong></code></pre>
+
+
+
+
+### stroke:MergeFrom(name)
+
+Imports the file with the specified name from the user's Sketches folder and merges it's strokes into the current sketch
 
 **Returns:** nil
 
@@ -76,58 +176,14 @@ A specific brush stroke
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>from</td><td>number</td><td></td></tr>
-<tr><td>to</td><td>number</td><td></td></tr></tbody></table>
+<tbody><tr><td>name</td><td>string</td><td>Name of the file to be merged</td></tr></tbody></table>
 
 
 
 
+#### Example
 
-
-### stroke:Join(from, to)
-
-
-
-**Returns:** nil
-
-
-**Parameters:**
-
-<table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>from</td><td>number</td><td></td></tr>
-<tr><td>to</td><td>number</td><td></td></tr></tbody></table>
-
-
-
-
-
-
-### stroke:JoinPrevious()
-
-
-
-**Returns:** nil
-
-
-
-
-
-
-### stroke:Import(name)
-
-
-
-**Returns:** nil
-
-
-**Parameters:**
-
-<table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>name</td><td>string</td><td></td></tr></tbody></table>
-
-
+<pre class="language-lua"><code class="lang-lua"><strong>Stroke:MergeFrom(string name)</strong></code></pre>
 
 
 

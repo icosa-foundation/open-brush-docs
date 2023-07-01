@@ -11,8 +11,8 @@ A set of Vector2 points forming a 2D path
 <thead><tr><th width="225">Name</th><th width="160">Return Type</th><th width="80">Read/Write?</th><th>Description</th></tr></thead>
 <tbody>
 <tr><td>count</td><td>number</td><td>Read-only</td><td>Returns the number of points in this path</td></tr>
-<tr><td>Item</td><td><a href="transform.md">Transform</a></td><td>Read-only</td><td></td></tr>
-<tr><td>last</td><td><a href="transform.md">Transform</a></td><td>Read-only</td><td></td></tr>
+<tr><td>Item</td><td><a href="transform.md">Transform</a></td><td>Read-only</td><td>Returns the point at the specified index</td></tr>
+<tr><td>last</td><td><a href="transform.md">Transform</a></td><td>Read-only</td><td>Returns the last point in this path</td></tr>
 </tbody></table>
 
 
@@ -22,36 +22,23 @@ A set of Vector2 points forming a 2D path
         
 ### Path2d:New()
 
-
-
-**Returns:** <a href="path2d.md">Path2d</a>
-
-
-
-
-
-
-### Path2d:New(transformList)
-
-
+Creates a new empty 2d Path
 
 **Returns:** <a href="path2d.md">Path2d</a>
 
 
-**Parameters:**
-
-<table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>transformList</td><td>Vector2[]</td><td></td></tr></tbody></table>
 
 
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>myPath = Path2d:New()</strong></code></pre>
 
 
 
 
 ### Path2d:New(positionList)
 
-
+Creates a 2d path from a list of Vector2 points
 
 **Returns:** <a href="path2d.md">Path2d</a>
 
@@ -60,16 +47,44 @@ A set of Vector2 points forming a 2D path
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>positionList</td><td>Vector3[]</td><td></td></tr></tbody></table>
+<tbody><tr><td>positionList</td><td>Vector2[]</td><td>The list of points</td></tr></tbody></table>
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>myPath = Path2d:New({point1, point2, point3})</strong></code></pre>
+
+
+
+
+### Path2d:New(positionList)
+
+Creates a path from a list of Vector3 points
+
+**Returns:** <a href="path2d.md">Path2d</a>
+
+
+**Parameters:**
+
+<table data-full-width="false">
+<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<tbody><tr><td>positionList</td><td>Vector3[]</td><td>The list of points</td></tr></tbody></table>
+
+
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>myPath = Path:New({point1, point2, point3})</strong></code></pre>
 
 
 
 
 ### Path2d:Polygon(sides)
 
-
+Generates a regular polygon path
 
 **Returns:** <a href="path2d.md">Path2d</a>
 
@@ -83,13 +98,18 @@ A set of Vector2 points forming a 2D path
 
 
 
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>myPath = Path2d:Polygon(6)</strong></code></pre>
+
+
 
     
 
 ## Instance Methods
 
         
-### path2d:Insert(transform)
+### path2d:Insert(point)
 
 Inserts a new point at the end of the path
 
@@ -100,16 +120,21 @@ Inserts a new point at the end of the path
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>transform</td><td><a href="vector2.md">Vector2</a></td><td></td></tr></tbody></table>
+<tbody><tr><td>point</td><td><a href="vector2.md">Vector2</a></td><td>The point to be inserted at the end of the path</td></tr></tbody></table>
 
 
 
 
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>myPath:Insert(Transform:New(pos, rot)</strong></code></pre>
 
 
-### path2d:Insert(transform, index)
 
-Inserts a new point at the given path index
+
+### path2d:Insert(point, index)
+
+Inserts a new point at the specified index
 
 **Returns:** nil
 
@@ -118,10 +143,15 @@ Inserts a new point at the given path index
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>transform</td><td><a href="vector2.md">Vector2</a></td><td></td></tr>
-<tr><td>index</td><td>number</td><td></td></tr></tbody></table>
+<tbody><tr><td>point</td><td><a href="vector2.md">Vector2</a></td><td>The point to be inserted</td></tr>
+<tr><td>index</td><td>number</td><td>The index at which to insert the point</td></tr></tbody></table>
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>myPath:Insert(transform, index)</strong></code></pre>
 
 
 
@@ -135,6 +165,11 @@ Converts the 2D path to a 3D path on the YZ plane (i.e. with all x values set to
 
 
 
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>my3dPath = my2dPath:OnX()</strong></code></pre>
+
+
 
 
 ### path2d:OnY()
@@ -144,6 +179,11 @@ Converts the 2D path to a 3D path on the XZ plane (i.e. with all y values set to
 **Returns:** <a href="path.md">Path</a>
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>my3dPath = my2dPath:OnY()</strong></code></pre>
 
 
 
@@ -157,11 +197,16 @@ Converts the 2D path to a 3D path on the XY plane (i.e. with all z values set to
 
 
 
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>my3dPath = my2dPath:OnZ()</strong></code></pre>
+
+
 
 
 ### path2d:TransformBy(transform)
 
-Transforms all points in the path by the given amount
+Transforms all points in the path by the specific amount
 
 **Returns:** nil
 
@@ -170,9 +215,14 @@ Transforms all points in the path by the given amount
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>transform</td><td><a href="transform.md">Transform</a></td><td></td></tr></tbody></table>
+<tbody><tr><td>transform</td><td><a href="transform.md">Transform</a></td><td>The transform to be applied to all points in the path</td></tr></tbody></table>
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>myPath:TransformBy(transform)</strong></code></pre>
 
 
 
@@ -188,9 +238,14 @@ Changes the position of all points in the path by a given amount
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>amount</td><td><a href="vector2.md">Vector2</a></td><td></td></tr></tbody></table>
+<tbody><tr><td>amount</td><td><a href="vector2.md">Vector2</a></td><td>The distance to move the points</td></tr></tbody></table>
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>myPath:TranslateBy(Vector3:up)</strong></code></pre>
 
 
 
@@ -206,16 +261,21 @@ Rotates all points in the path around the origin by a given amount
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>amount</td><td><a href="rotation.md">Rotation</a></td><td></td></tr></tbody></table>
+<tbody><tr><td>amount</td><td><a href="rotation.md">Rotation</a></td><td>The amount by which to rotate the path</td></tr></tbody></table>
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>myPath:RotateBy(Rotation.New(45, 0, 0)</strong></code></pre>
 
 
 
 
 ### path2d:ScaleBy(scale)
 
-Scales all points the path away or towards the origin
+Scales the path
 
 **Returns:** nil
 
@@ -224,9 +284,14 @@ Scales all points the path away or towards the origin
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>scale</td><td><a href="vector2.md">Vector2</a></td><td></td></tr></tbody></table>
+<tbody><tr><td>scale</td><td><a href="vector2.md">Vector2</a></td><td>The scaling factor to apply to the path</td></tr></tbody></table>
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>myPath:ScaleBy(Vector2:New(2, 1)</strong></code></pre>
 
 
 
@@ -258,9 +323,14 @@ Reorders the points so that point at the given index is shifted to be the first 
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>index</td><td>number</td><td></td></tr></tbody></table>
+<tbody><tr><td>index</td><td>number</td><td>The index of the point to make the new first point</td></tr></tbody></table>
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>myPath:StartingFrom(3)</strong></code></pre>
 
 
 
@@ -276,9 +346,14 @@ Returns the index of the point closest to the given position
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>point</td><td><a href="vector2.md">Vector2</a></td><td></td></tr></tbody></table>
+<tbody><tr><td>point</td><td><a href="vector2.md">Vector2</a></td><td>The 3D position that we are seeking the closest to</td></tr></tbody></table>
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>myPath:FindClosest(Vector3:New(10, 2, 4)</strong></code></pre>
 
 
 
@@ -292,6 +367,11 @@ Returns the index of the point with the smallest X value
 
 
 
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>myPath:FindMinimumX()</strong></code></pre>
+
+
 
 
 ### path2d:FindMinimumY()
@@ -301,6 +381,11 @@ Returns the index of the point with the smallest Y value
 **Returns:** number
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>myPath:FindMinimumY()</strong></code></pre>
 
 
 
@@ -314,6 +399,11 @@ Returns the index of the point with the biggest X value
 
 
 
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>myPath:FindMaximumX()</strong></code></pre>
+
+
 
 
 ### path2d:FindMaximumY()
@@ -323,6 +413,11 @@ Returns the index of the point with the biggest Y value
 **Returns:** number
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>myPath:FindMaximumY()</strong></code></pre>
 
 
 
@@ -343,11 +438,16 @@ Scales and shifts all points so that they fit in a 1 unit square at the origin
 
 
 
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>myPath:Normalize(size)</strong></code></pre>
+
+
 
 
 ### path2d:Resample(spacing)
 
-
+Resamples the path at a specified spacing
 
 **Returns:** nil
 
@@ -356,9 +456,14 @@ Scales and shifts all points so that they fit in a 1 unit square at the origin
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>spacing</td><td>number</td><td></td></tr></tbody></table>
+<tbody><tr><td>spacing</td><td>number</td><td>The space between points in the new pat</td></tr></tbody></table>
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>myPath:Resample(spacing)</strong></code></pre>
 
 
 
