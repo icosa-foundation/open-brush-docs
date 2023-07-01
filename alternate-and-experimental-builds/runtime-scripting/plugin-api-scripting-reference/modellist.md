@@ -2,7 +2,7 @@
 # ModelList
 
 ## Summary
-
+The list of 3d Models in the scene. (You don't instantiate this yourself. Access this via Sketch.models 
 
 
 ## Instance Properties

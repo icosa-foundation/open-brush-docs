@@ -2,7 +2,7 @@
 # GuideList
 
 ## Summary
-
+The list of Guides in the scene. (You don't instantiate this yourself. Access this via Sketch.guides 
 
 
 ## Instance Properties

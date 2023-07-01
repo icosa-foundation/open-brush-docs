@@ -2,7 +2,7 @@
 # LayerList
 
 ## Summary
-
+The list of Layers in the scene. (You don't instantiate this yourself. Access this via Sketch.layers 
 
 
 ## Instance Properties

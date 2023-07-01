@@ -2,7 +2,7 @@
 # ImageList
 
 ## Summary
-
+The list of Images in the scene. (You don't instantiate this yourself. Access this via Sketch.images 
 
 
 ## Instance Properties

@@ -2,7 +2,7 @@
 # StrokeList
 
 ## Summary
-
+The list of Strokes in the scene. (You don't instantiate this yourself. Access this via Sketch.strokes 
 
 
 ## Instance Properties
