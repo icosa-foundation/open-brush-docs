@@ -27,7 +27,7 @@ A camera path and its position, speed or FOV knots
 
 Renders the currently active path
 
-**Returns:** nil
+**Returns:** nil 
 
 
 
@@ -43,7 +43,7 @@ Renders the currently active path
 
 Shows all camera paths
 
-**Returns:** nil
+**Returns:** nil 
 
 
 
@@ -59,7 +59,7 @@ Shows all camera paths
 
 Hides all camera paths
 
-**Returns:** nil
+**Returns:** nil 
 
 
 
@@ -75,7 +75,7 @@ Hides all camera paths
 
 Turns previews on or off for the active path
 
-**Returns:** nil
+**Returns:** nil 
 
 
 **Parameters:**
@@ -98,7 +98,7 @@ Turns previews on or off for the active path
 
 Creates a new empty camera path
 
-**Returns:** <a href="camerapath.md">CameraPath</a>
+**Returns:** <a href="camerapath.md">CameraPath</a> 
 
 
 
@@ -114,7 +114,7 @@ Creates a new empty camera path
 
 Creates a camera path from a Path and whether it should be looped
 
-**Returns:** <a href="camerapath.md">CameraPath</a>
+**Returns:** <a href="camerapath.md">CameraPath</a> 
 
 
 **Parameters:**
@@ -138,7 +138,7 @@ Creates a camera path from a Path and whether it should be looped
 
 Records the active camera path
 
-**Returns:** nil
+**Returns:** nil 
 
 
 
@@ -158,7 +158,7 @@ Records the active camera path
 
 Deletes a camera path
 
-**Returns:** nil
+**Returns:** nil 
 
 
 
@@ -174,7 +174,7 @@ Deletes a camera path
 
 Converts the camera path to a path with the specified step size
 
-**Returns:** <a href="path.md">Path</a>
+**Returns:** <a href="path.md">Path</a> 
 
 
 **Parameters:**
@@ -197,7 +197,7 @@ Converts the camera path to a path with the specified step size
 
 Duplicates the camera path
 
-**Returns:** <a href="camerapathwidget.md">CameraPathWidget</a>
+**Returns:** <a href="camerapathwidget.md">CameraPathWidget</a> 
 
 
 
@@ -213,7 +213,7 @@ Duplicates the camera path
 
 Inserts a new position knot. (Position must be close to the existing path)
 
-**Returns:** number
+**Returns:** number 
 
 
 **Parameters:**
@@ -238,7 +238,7 @@ Inserts a new position knot. (Position must be close to the existing path)
 
 Inserts a new position knot into the path at the specified time
 
-**Returns:** number
+**Returns:** number 
 
 
 **Parameters:**
@@ -263,7 +263,7 @@ Inserts a new position knot into the path at the specified time
 
 Inserts a rotation knot at the specified position close to the existing path
 
-**Returns:** number
+**Returns:** number 
 
 
 **Parameters:**
@@ -287,7 +287,7 @@ Inserts a rotation knot at the specified position close to the existing path
 
 Inserts a rotation knot at the specified time
 
-**Returns:** number
+**Returns:** number 
 
 
 **Parameters:**
@@ -311,7 +311,7 @@ Inserts a rotation knot at the specified time
 
 Inserts a field of view knot at the specified position close to the existing path
 
-**Returns:** number
+**Returns:** number 
 
 
 **Parameters:**
@@ -335,7 +335,7 @@ Inserts a field of view knot at the specified position close to the existing pat
 
 Inserts a fov knot at the specified time
 
-**Returns:** number
+**Returns:** number 
 
 
 **Parameters:**
@@ -359,7 +359,7 @@ Inserts a fov knot at the specified time
 
 Inserts a speed knot at the specified position close to the existing path
 
-**Returns:** number
+**Returns:** number 
 
 
 **Parameters:**
@@ -383,7 +383,7 @@ Inserts a speed knot at the specified position close to the existing path
 
 Inserts a speed knot at the specified time
 
-**Returns:** number
+**Returns:** number 
 
 
 **Parameters:**
@@ -407,7 +407,7 @@ Inserts a speed knot at the specified time
 
 Extends the camera path
 
-**Returns:** nil
+**Returns:** nil 
 
 
 **Parameters:**
@@ -433,7 +433,7 @@ Extends the camera path
 
 Loops the camera path
 
-**Returns:** nil
+**Returns:** nil 
 
 
 
@@ -449,7 +449,7 @@ Loops the camera path
 
 Samples the camera path at the specified time
 
-**Returns:** <a href="transform.md">Transform</a>
+**Returns:** <a href="transform.md">Transform</a>  (The sampled transform of the camera at the specified time)
 
 
 **Parameters:**
@@ -474,7 +474,7 @@ Samples the camera path at the specified time
 
 Simplifies the camera path
 
-**Returns:** <a href="camerapath.md">CameraPath</a>
+**Returns:** <a href="camerapath.md">CameraPath</a>  (A new simplified Camera Path)
 
 
 **Parameters:**

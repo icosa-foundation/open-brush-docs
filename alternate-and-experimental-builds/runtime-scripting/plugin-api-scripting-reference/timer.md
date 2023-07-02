@@ -13,7 +13,7 @@ Timers can be used to call functions at a predetermined time (or multiple times)
 
 Sets up a function to be called in the future
 
-**Returns:** nil
+**Returns:** nil 
 
 
 **Parameters:**
@@ -39,7 +39,7 @@ Sets up a function to be called in the future
 
 Removes a future function timer
 
-**Returns:** nil
+**Returns:** nil 
 
 
 **Parameters:**

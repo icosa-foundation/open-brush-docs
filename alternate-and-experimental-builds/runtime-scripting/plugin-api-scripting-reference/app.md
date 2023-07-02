@@ -26,7 +26,7 @@ Various properties and methods that effect the entire app
 
 Determines if physics simulation is active
 
-**Returns:** boolean
+**Returns:** boolean 
 
 
 **Parameters:**
@@ -49,7 +49,7 @@ Determines if physics simulation is active
 
 Undo the last action
 
-**Returns:** nil
+**Returns:** nil 
 
 
 
@@ -65,7 +65,7 @@ Undo the last action
 
 Redo the previously undone action
 
-**Returns:** nil
+**Returns:** nil 
 
 
 
@@ -81,7 +81,7 @@ Redo the previously undone action
 
 Adds a url that should be sent the data for each stroke as soon as the user finishes drawing it
 
-**Returns:** nil
+**Returns:** nil 
 
 
 **Parameters:**
@@ -104,7 +104,7 @@ Adds a url that should be sent the data for each stroke as soon as the user fini
 
 Reset all panels
 
-**Returns:** nil
+**Returns:** nil 
 
 
 
@@ -120,7 +120,7 @@ Reset all panels
 
 Opens an Explorer/Finder window outside of VR showing the user's Scripts folder on the desktop (Mac/Windows only)
 
-**Returns:** nil
+**Returns:** nil 
 
 
 
@@ -136,7 +136,7 @@ Opens an Explorer/Finder window outside of VR showing the user's Scripts folder 
 
 Opens an Explorer/Finder window outside of VR showing the user's Export folder on the desktop (Mac/Windows only)
 
-**Returns:** nil
+**Returns:** nil 
 
 
 
@@ -152,7 +152,7 @@ Opens an Explorer/Finder window outside of VR showing the user's Export folder o
 
 Opens an Explorer/Finder window outside of VR showing the user's Sketches folder on the desktop (Mac/Windows only)
 
-**Returns:** nil
+**Returns:** nil 
 
 
 
@@ -168,7 +168,7 @@ Opens an Explorer/Finder window outside of VR showing the user's Sketches folder
 
 Activate or deactivate straight edge mode
 
-**Returns:** nil
+**Returns:** nil 
 
 
 **Parameters:**
@@ -191,7 +191,7 @@ Activate or deactivate straight edge mode
 
 Activate or deactivate auto orientation mode
 
-**Returns:** nil
+**Returns:** nil 
 
 
 **Parameters:**
@@ -214,7 +214,7 @@ Activate or deactivate auto orientation mode
 
 Activate or deactivate view only mode
 
-**Returns:** nil
+**Returns:** nil 
 
 
 **Parameters:**
@@ -237,7 +237,7 @@ Activate or deactivate view only mode
 
 Activate or deactivate auto simplification mode
 
-**Returns:** nil
+**Returns:** nil 
 
 
 **Parameters:**
@@ -260,7 +260,7 @@ Activate or deactivate auto simplification mode
 
 Activate or deactivate disco mode
 
-**Returns:** nil
+**Returns:** nil 
 
 
 **Parameters:**
@@ -283,7 +283,7 @@ Activate or deactivate disco mode
 
 Activate or deactivate profiling mode
 
-**Returns:** nil
+**Returns:** nil 
 
 
 **Parameters:**
@@ -306,7 +306,7 @@ Activate or deactivate profiling mode
 
 Activate or deactivate post-processing
 
-**Returns:** nil
+**Returns:** nil 
 
 
 **Parameters:**
@@ -329,7 +329,7 @@ Activate or deactivate post-processing
 
 Set the drafting mode to visible
 
-**Returns:** nil
+**Returns:** nil 
 
 
 
@@ -345,7 +345,7 @@ Set the drafting mode to visible
 
 Set the drafting mode to transparent
 
-**Returns:** nil
+**Returns:** nil 
 
 
 
@@ -361,7 +361,7 @@ Set the drafting mode to transparent
 
 Set the drafting mode to hidden
 
-**Returns:** nil
+**Returns:** nil 
 
 
 
@@ -377,7 +377,7 @@ Set the drafting mode to hidden
 
 Activate or deactivate the watermark
 
-**Returns:** nil
+**Returns:** nil 
 
 
 **Parameters:**
@@ -400,7 +400,7 @@ Activate or deactivate the watermark
 
 Read the contents of a file
 
-**Returns:** string
+**Returns:** string 
 
 
 **Parameters:**
@@ -423,7 +423,7 @@ Read the contents of a file
 
 Displays an error message on the back of the user's brush controller
 
-**Returns:** nil
+**Returns:** nil 
 
 
 **Parameters:**
@@ -446,7 +446,7 @@ Displays an error message on the back of the user's brush controller
 
 Set the font used for drawing text
 
-**Returns:** nil
+**Returns:** nil 
 
 
 **Parameters:**
@@ -469,7 +469,7 @@ Set the font used for drawing text
 
 Take a snapshot of your scene and save it to your Snapshots folder
 
-**Returns:** nil
+**Returns:** nil 
 
 
 **Parameters:**
@@ -496,7 +496,7 @@ Take a snapshot of your scene and save it to your Snapshots folder
 
 Take a 360-degree snapshot of the scene and save it
 
-**Returns:** nil
+**Returns:** nil 
 
 
 **Parameters:**

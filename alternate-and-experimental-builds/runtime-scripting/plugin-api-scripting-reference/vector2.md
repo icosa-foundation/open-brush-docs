@@ -43,7 +43,7 @@ A position or offset in 2D space
 
 Creates a new vector
 
-**Returns:** <a href="vector2.md">Vector2</a>
+**Returns:** <a href="vector2.md">Vector2</a> 
 
 
 **Parameters:**
@@ -67,7 +67,7 @@ Creates a new vector
 
 The dot product of two vectors
 
-**Returns:** number
+**Returns:** number 
 
 
 **Parameters:**
@@ -91,7 +91,7 @@ The dot product of two vectors
 
 Linearly interpolates between two points
 
-**Returns:** <a href="vector2.md">Vector2</a>
+**Returns:** <a href="vector2.md">Vector2</a>  (A point somewhere between a and b based on the value of t)
 
 
 **Parameters:**
@@ -116,7 +116,7 @@ Linearly interpolates between two points
 
 Linearly interpolates (or extrapolates) between two points
 
-**Returns:** <a href="vector2.md">Vector2</a>
+**Returns:** <a href="vector2.md">Vector2</a>  (A point somewhere between a and b based on the value of t)
 
 
 **Parameters:**
@@ -141,7 +141,7 @@ Linearly interpolates (or extrapolates) between two points
 
 Creates a vector made from the largest components of the inputs
 
-**Returns:** <a href="vector2.md">Vector2</a>
+**Returns:** <a href="vector2.md">Vector2</a> 
 
 
 **Parameters:**
@@ -165,7 +165,7 @@ Creates a vector made from the largest components of the inputs
 
 Creates a vector made from the largest components of the inputs
 
-**Returns:** <a href="vector2.md">Vector2</a>
+**Returns:** <a href="vector2.md">Vector2</a> 
 
 
 **Parameters:**
@@ -189,7 +189,7 @@ Creates a vector made from the largest components of the inputs
 
 Spherically interpolates between two vectors
 
-**Returns:** <a href="vector2.md">Vector2</a>
+**Returns:** <a href="vector2.md">Vector2</a>  (A point somewhere between a and b based on the value of t)
 
 
 **Parameters:**
@@ -214,7 +214,7 @@ Spherically interpolates between two vectors
 
 Spherically interpolates (or extrapolates) between two vectors
 
-**Returns:** <a href="vector2.md">Vector2</a>
+**Returns:** <a href="vector2.md">Vector2</a>  (A point somewhere between a and b based on the value of t)
 
 
 **Parameters:**
@@ -239,7 +239,7 @@ Spherically interpolates (or extrapolates) between two vectors
 
 Returns the point the given number of degrees around a circle with radius 1
 
-**Returns:** <a href="vector2.md">Vector2</a>
+**Returns:** <a href="vector2.md">Vector2</a> 
 
 
 **Parameters:**
@@ -266,7 +266,7 @@ Returns the point the given number of degrees around a circle with radius 1
 
 The unsigned angle in degrees between this vector and another
 
-**Returns:** number
+**Returns:** number 
 
 
 **Parameters:**
@@ -289,7 +289,7 @@ The unsigned angle in degrees between this vector and another
 
 Returns a vector with the same direction but with it's length clamped to a maximum
 
-**Returns:** <a href="vector2.md">Vector2</a>
+**Returns:** <a href="vector2.md">Vector2</a> 
 
 
 **Parameters:**
@@ -312,7 +312,7 @@ Returns a vector with the same direction but with it's length clamped to a maxim
 
 The distance between two points
 
-**Returns:** number
+**Returns:** number 
 
 
 **Parameters:**
@@ -335,7 +335,7 @@ The distance between two points
 
 Moves a point towards a target point
 
-**Returns:** <a href="vector2.md">Vector2</a>
+**Returns:** <a href="vector2.md">Vector2</a> 
 
 
 **Parameters:**
@@ -359,7 +359,7 @@ Moves a point towards a target point
 
 Reflects a vector off the vector defined by a normal
 
-**Returns:** <a href="vector2.md">Vector2</a>
+**Returns:** <a href="vector2.md">Vector2</a> 
 
 
 **Parameters:**
@@ -382,7 +382,7 @@ Reflects a vector off the vector defined by a normal
 
 Scales a vector by multiplying it's components by the components of another vector
 
-**Returns:** <a href="vector2.md">Vector2</a>
+**Returns:** <a href="vector2.md">Vector2</a> 
 
 
 **Parameters:**
@@ -405,7 +405,7 @@ Scales a vector by multiplying it's components by the components of another vect
 
 Returns the signed angle in degrees between this vector and another
 
-**Returns:** number
+**Returns:** number 
 
 
 **Parameters:**
@@ -428,7 +428,7 @@ Returns the signed angle in degrees between this vector and another
 
 Converts this 2D vector to a 3D vector on the YZ plane (i.e. with all x values set to 0)
 
-**Returns:** <a href="vector3.md">Vector3</a>
+**Returns:** <a href="vector3.md">Vector3</a> 
 
 
 
@@ -444,7 +444,7 @@ Converts this 2D vector to a 3D vector on the YZ plane (i.e. with all x values s
 
 Converts this 2D vector to a 3D vector on the XZ plane (i.e. with all y values set to 0)
 
-**Returns:** <a href="vector3.md">Vector3</a>
+**Returns:** <a href="vector3.md">Vector3</a> 
 
 
 
@@ -460,7 +460,7 @@ Converts this 2D vector to a 3D vector on the XZ plane (i.e. with all y values s
 
 Converts this 2D vector to a 3D vector on the XY plane (i.e. with all z values set to 0)
 
-**Returns:** <a href="vector3.md">Vector3</a>
+**Returns:** <a href="vector3.md">Vector3</a> 
 
 
 
@@ -476,7 +476,7 @@ Converts this 2D vector to a 3D vector on the XY plane (i.e. with all z values s
 
 Adds this vector to another
 
-**Returns:** <a href="vector2.md">Vector2</a>
+**Returns:** <a href="vector2.md">Vector2</a> 
 
 
 **Parameters:**
@@ -499,7 +499,7 @@ Adds this vector to another
 
 Adds the given x and y values to this vector
 
-**Returns:** <a href="vector2.md">Vector2</a>
+**Returns:** <a href="vector2.md">Vector2</a> 
 
 
 **Parameters:**
@@ -523,7 +523,7 @@ Adds the given x and y values to this vector
 
 Subtracts another vector from this one
 
-**Returns:** <a href="vector2.md">Vector2</a>
+**Returns:** <a href="vector2.md">Vector2</a> 
 
 
 **Parameters:**
@@ -546,7 +546,7 @@ Subtracts another vector from this one
 
 Subtracts the given x and y values from this vector
 
-**Returns:** <a href="vector2.md">Vector2</a>
+**Returns:** <a href="vector2.md">Vector2</a> 
 
 
 **Parameters:**
@@ -570,7 +570,7 @@ Subtracts the given x and y values from this vector
 
 Multiplies a vector by a scalar value
 
-**Returns:** <a href="vector2.md">Vector2</a>
+**Returns:** <a href="vector2.md">Vector2</a> 
 
 
 **Parameters:**
@@ -593,7 +593,7 @@ Multiplies a vector by a scalar value
 
 Multiplies this vector by another component-wise
 
-**Returns:** <a href="vector2.md">Vector2</a>
+**Returns:** <a href="vector2.md">Vector2</a> 
 
 
 **Parameters:**
@@ -616,7 +616,7 @@ Multiplies this vector by another component-wise
 
 Multiplies each component of this vector by the given x and y values
 
-**Returns:** <a href="vector2.md">Vector2</a>
+**Returns:** <a href="vector2.md">Vector2</a> 
 
 
 **Parameters:**
@@ -640,7 +640,7 @@ Multiplies each component of this vector by the given x and y values
 
 Divides this vector by another
 
-**Returns:** <a href="vector2.md">Vector2</a>
+**Returns:** <a href="vector2.md">Vector2</a> 
 
 
 **Parameters:**
@@ -663,7 +663,7 @@ Divides this vector by another
 
 Is this vector not equal to another?
 
-**Returns:** boolean
+**Returns:** boolean 
 
 
 **Parameters:**
@@ -686,7 +686,7 @@ Is this vector not equal to another?
 
 Is this vector not equal to the given x and y values?
 
-**Returns:** boolean
+**Returns:** boolean 
 
 
 **Parameters:**

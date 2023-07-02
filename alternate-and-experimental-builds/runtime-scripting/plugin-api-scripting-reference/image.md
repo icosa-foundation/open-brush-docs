@@ -26,7 +26,7 @@ A reference image widget
 
 Imports an image widget based on the specified location
 
-**Returns:** <a href="image.md">Image</a>
+**Returns:** <a href="image.md">Image</a>  (The imported image widget)
 
 
 **Parameters:**
@@ -53,7 +53,7 @@ Imports an image widget based on the specified location
 
 Extrudes the image widget with the specified depth and color
 
-**Returns:** nil
+**Returns:** nil 
 
 
 **Parameters:**
@@ -77,7 +77,7 @@ Extrudes the image widget with the specified depth and color
 
 Selects the image widget
 
-**Returns:** nil
+**Returns:** nil 
 
 
 
@@ -93,7 +93,7 @@ Selects the image widget
 
 Deletes the image widget
 
-**Returns:** nil
+**Returns:** nil 
 
 
 
@@ -109,7 +109,7 @@ Deletes the image widget
 
 Encodes the image as a form
 
-**Returns:** string
+**Returns:** string  (The encoded image so it can be submitted as a response to a HTML form)
 
 
 
@@ -125,7 +125,7 @@ Encodes the image as a form
 
 Saves an image as a png based on base64 data
 
-**Returns:** string
+**Returns:** string 
 
 
 **Parameters:**

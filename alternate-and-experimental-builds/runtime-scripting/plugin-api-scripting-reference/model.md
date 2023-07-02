@@ -26,7 +26,7 @@ A 3D model widget
 
 Imports a new model from the MediaLibrary/Models folder
 
-**Returns:** <a href="model.md">Model</a>
+**Returns:** <a href="model.md">Model</a>  (Returns the Model instance)
 
 
 **Parameters:**
@@ -53,7 +53,7 @@ Imports a new model from the MediaLibrary/Models folder
 
 Adds this model to the current selection
 
-**Returns:** nil
+**Returns:** nil 
 
 
 
@@ -69,7 +69,7 @@ Adds this model to the current selection
 
 Deletes this model
 
-**Returns:** nil
+**Returns:** nil 
 
 
 

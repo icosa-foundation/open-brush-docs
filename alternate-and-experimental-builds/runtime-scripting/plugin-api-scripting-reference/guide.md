@@ -26,7 +26,7 @@ A guide widget
 
 Creates a new cube guide with a default size using the transform for position and orientation
 
-**Returns:** <a href="guide.md">Guide</a>
+**Returns:** <a href="guide.md">Guide</a>  (A new GuideApiWrapper with a cube stencil)
 
 
 **Parameters:**
@@ -49,7 +49,7 @@ Creates a new cube guide with a default size using the transform for position an
 
 Creates a new sphere guide with a default size using the transform for position and orientation
 
-**Returns:** <a href="guide.md">Guide</a>
+**Returns:** <a href="guide.md">Guide</a>  (A new GuideApiWrapper with a sphere stencil)
 
 
 **Parameters:**
@@ -72,7 +72,7 @@ Creates a new sphere guide with a default size using the transform for position 
 
 Creates a new capsule guide with a default size using the transform for position and orientation
 
-**Returns:** <a href="guide.md">Guide</a>
+**Returns:** <a href="guide.md">Guide</a>  (A new GuideApiWrapper with a capsule stencil)
 
 
 **Parameters:**
@@ -95,7 +95,7 @@ Creates a new capsule guide with a default size using the transform for position
 
 Creates a new cone guide with a default size using the transform for position and orientation
 
-**Returns:** <a href="guide.md">Guide</a>
+**Returns:** <a href="guide.md">Guide</a>  (A new GuideApiWrapper with a cone stencil)
 
 
 **Parameters:**
@@ -118,7 +118,7 @@ Creates a new cone guide with a default size using the transform for position an
 
 Creates a new ellipsoid guide with a default size using the transform for position and orientation
 
-**Returns:** <a href="guide.md">Guide</a>
+**Returns:** <a href="guide.md">Guide</a>  (A new GuideApiWrapper with an ellipsoid stencil)
 
 
 **Parameters:**
@@ -141,7 +141,7 @@ Creates a new ellipsoid guide with a default size using the transform for positi
 
 Creates a new custom guide with a default size using the transform for position and orientation
 
-**Returns:** <a href="guide.md">Guide</a>
+**Returns:** <a href="guide.md">Guide</a>  (A new GuideApiWrapper with a custom stencil)
 
 
 **Parameters:**
@@ -169,7 +169,7 @@ Creates a new custom guide with a default size using the transform for position 
 
 Adds the guide to the current selection
 
-**Returns:** nil
+**Returns:** nil 
 
 
 
@@ -185,7 +185,7 @@ Adds the guide to the current selection
 
 Deletes the guide
 
-**Returns:** nil
+**Returns:** nil 
 
 
 
@@ -201,7 +201,7 @@ Deletes the guide
 
 Scales the guide (scale can be non-uniform as some guide types can be stretched)
 
-**Returns:** nil
+**Returns:** nil 
 
 
 **Parameters:**

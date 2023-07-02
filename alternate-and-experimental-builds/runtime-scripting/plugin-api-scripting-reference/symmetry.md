@@ -27,7 +27,7 @@ Functions for controlling the mirror symmetry mode
 
 
 
-**Returns:** nil
+**Returns:** nil 
 
 
 
@@ -38,7 +38,7 @@ Functions for controlling the mirror symmetry mode
 
 
 
-**Returns:** nil
+**Returns:** nil 
 
 
 
@@ -49,7 +49,7 @@ Functions for controlling the mirror symmetry mode
 
 
 
-**Returns:** nil
+**Returns:** nil 
 
 
 
@@ -60,7 +60,7 @@ Functions for controlling the mirror symmetry mode
 
 
 
-**Returns:** nil
+**Returns:** nil 
 
 
 
@@ -71,7 +71,7 @@ Functions for controlling the mirror symmetry mode
 
 
 
-**Returns:** nil
+**Returns:** nil 
 
 
 **Parameters:**
@@ -91,7 +91,7 @@ Functions for controlling the mirror symmetry mode
 
 
 
-**Returns:** number
+**Returns:** number 
 
 
 **Parameters:**
@@ -110,7 +110,7 @@ Functions for controlling the mirror symmetry mode
 
 
 
-**Returns:** number
+**Returns:** number 
 
 
 **Parameters:**
@@ -128,7 +128,7 @@ Functions for controlling the mirror symmetry mode
 
 
 
-**Returns:** number
+**Returns:** number 
 
 
 **Parameters:**
@@ -149,7 +149,7 @@ Functions for controlling the mirror symmetry mode
 
 
 
-**Returns:** number
+**Returns:** number 
 
 
 **Parameters:**
@@ -169,7 +169,7 @@ Functions for controlling the mirror symmetry mode
 
 
 
-**Returns:** number
+**Returns:** number 
 
 
 **Parameters:**
@@ -189,7 +189,7 @@ Functions for controlling the mirror symmetry mode
 
 
 
-**Returns:** nil
+**Returns:** nil 
 
 
 **Parameters:**
@@ -207,7 +207,7 @@ Functions for controlling the mirror symmetry mode
 
 
 
-**Returns:** nil
+**Returns:** nil 
 
 
 **Parameters:**
@@ -225,7 +225,7 @@ Functions for controlling the mirror symmetry mode
 
 
 
-**Returns:** nil
+**Returns:** nil 
 
 
 **Parameters:**
@@ -243,7 +243,7 @@ Functions for controlling the mirror symmetry mode
 
 
 
-**Returns:** Color[]
+**Returns:** Color[] 
 
 
 
@@ -254,7 +254,7 @@ Functions for controlling the mirror symmetry mode
 
 
 
-**Returns:** nil
+**Returns:** nil 
 
 
 **Parameters:**
@@ -272,7 +272,7 @@ Functions for controlling the mirror symmetry mode
 
 
 
-**Returns:** nil
+**Returns:** nil 
 
 
 **Parameters:**
@@ -290,7 +290,7 @@ Functions for controlling the mirror symmetry mode
 
 
 
-**Returns:** nil
+**Returns:** nil 
 
 
 **Parameters:**
@@ -308,7 +308,7 @@ Functions for controlling the mirror symmetry mode
 
 
 
-**Returns:** string[]
+**Returns:** string[] 
 
 
 
@@ -319,7 +319,7 @@ Functions for controlling the mirror symmetry mode
 
 
 
-**Returns:** string[]
+**Returns:** string[] 
 
 
 
@@ -330,7 +330,7 @@ Functions for controlling the mirror symmetry mode
 
 
 
-**Returns:** <a href="path.md">Path</a>
+**Returns:** <a href="path.md">Path</a> 
 
 
 **Parameters:**

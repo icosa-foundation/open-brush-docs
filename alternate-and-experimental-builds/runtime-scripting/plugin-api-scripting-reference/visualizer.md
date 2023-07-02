@@ -23,7 +23,7 @@ Settings and controls for audio visualization mode
 
 Enables scripted access to the audio visualization buffer
 
-**Returns:** nil
+**Returns:** nil 
 
 
 
@@ -39,7 +39,7 @@ Enables scripted access to the audio visualization buffer
 
 Disables scripted access to the audio visualization buffer
 
-**Returns:** nil
+**Returns:** nil 
 
 
 
@@ -55,7 +55,7 @@ Disables scripted access to the audio visualization buffer
 
 Passes the given waveform data to the audio visualizer
 
-**Returns:** nil
+**Returns:** nil 
 
 
 **Parameters:**
@@ -67,13 +67,18 @@ Passes the given waveform data to the audio visualizer
 
 
 
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>Visualizer.SetWaveform(data)</strong></code></pre>
+
+
 
 
 ### Visualizer:SetFft(data1, data2, data3, data4)
 
 Passes the given FFT data to the audio visualizer
 
-**Returns:** nil
+**Returns:** nil 
 
 
 **Parameters:**
@@ -99,7 +104,7 @@ Passes the given FFT data to the audio visualizer
 
 Passes the given beat data to the audio visualizer
 
-**Returns:** nil
+**Returns:** nil 
 
 
 **Parameters:**
@@ -125,7 +130,7 @@ Passes the given beat data to the audio visualizer
 
 Passes the given beat accumulator data to the audio visualizer
 
-**Returns:** nil
+**Returns:** nil 
 
 
 **Parameters:**
@@ -151,7 +156,7 @@ Passes the given beat accumulator data to the audio visualizer
 
 Passes the given band peak data to the audio visualizer
 
-**Returns:** nil
+**Returns:** nil 
 
 
 **Parameters:**

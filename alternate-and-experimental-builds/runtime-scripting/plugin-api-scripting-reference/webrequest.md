@@ -13,7 +13,7 @@ Functions to call remote websites or APIs
 
 Sends a GET request to the given URL
 
-**Returns:** nil
+**Returns:** nil 
 
 
 **Parameters:**
@@ -40,7 +40,7 @@ Sends a GET request to the given URL
 
 Sends a POST request to the given URL with the given data
 
-**Returns:** nil
+**Returns:** nil 
 
 
 **Parameters:**

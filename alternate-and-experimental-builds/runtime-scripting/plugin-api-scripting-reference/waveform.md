@@ -13,7 +13,7 @@ Functions to generate a variety of waveforms
 
 Returns the value of a sine wave at the given time and frequency
 
-**Returns:** number
+**Returns:** number 
 
 
 **Parameters:**
@@ -37,7 +37,7 @@ Returns the value of a sine wave at the given time and frequency
 
 Returns the value of a cosine wave at the given time and frequency
 
-**Returns:** number
+**Returns:** number 
 
 
 **Parameters:**
@@ -61,7 +61,7 @@ Returns the value of a cosine wave at the given time and frequency
 
 Returns the value of a triangle wave at the given time and frequency
 
-**Returns:** number
+**Returns:** number 
 
 
 **Parameters:**
@@ -85,7 +85,7 @@ Returns the value of a triangle wave at the given time and frequency
 
 Returns the value of a sawtooth wave at the given time and frequency
 
-**Returns:** number
+**Returns:** number 
 
 
 **Parameters:**
@@ -109,7 +109,7 @@ Returns the value of a sawtooth wave at the given time and frequency
 
 Returns the value of a square wave at the given time and frequency
 
-**Returns:** number
+**Returns:** number 
 
 
 **Parameters:**
@@ -133,7 +133,7 @@ Returns the value of a square wave at the given time and frequency
 
 Returns the value of a pulse wave with a specified pulse width at the given time, frequency
 
-**Returns:** number
+**Returns:** number 
 
 
 **Parameters:**
@@ -158,7 +158,7 @@ Returns the value of a pulse wave with a specified pulse width at the given time
 
 Returns the value of an exponential wave at the given time and frequency
 
-**Returns:** number
+**Returns:** number 
 
 
 **Parameters:**
@@ -182,7 +182,7 @@ Returns the value of an exponential wave at the given time and frequency
 
 Returns the value of a power wave at the given time, frequency, and power
 
-**Returns:** number
+**Returns:** number 
 
 
 **Parameters:**
@@ -207,7 +207,7 @@ Returns the value of a power wave at the given time, frequency, and power
 
 Returns the value of a parabolic wave at the given time and frequency
 
-**Returns:** number
+**Returns:** number 
 
 
 **Parameters:**
@@ -231,7 +231,7 @@ Returns the value of a parabolic wave at the given time and frequency
 
 Returns the value of an exponential sawtooth wave with the specified exponent at the given time, frequency
 
-**Returns:** number
+**Returns:** number 
 
 
 **Parameters:**
@@ -256,7 +256,7 @@ Returns the value of an exponential sawtooth wave with the specified exponent at
 
 Returns the value of a perlin noise function at the given time and frequency
 
-**Returns:** number
+**Returns:** number 
 
 
 **Parameters:**
@@ -280,7 +280,7 @@ Returns the value of a perlin noise function at the given time and frequency
 
 Returns the value of a white noise function
 
-**Returns:** number
+**Returns:** number 
 
 
 
@@ -296,14 +296,14 @@ Returns the value of a white noise function
 
 Returns the value of a brown noise function
 
-**Returns:** number
+**Returns:** number 
 
 
 **Parameters:**
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>previous</td><td>number</td><td></td></tr></tbody></table>
+<tbody><tr><td>previous</td><td>number</td><td>The previous calculated value to feed back into the function</td></tr></tbody></table>
 
 
 
@@ -319,14 +319,14 @@ Returns the value of a brown noise function
 
 Returns the value of a blue noise function
 
-**Returns:** number
+**Returns:** number 
 
 
 **Parameters:**
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>previous</td><td>number</td><td></td></tr></tbody></table>
+<tbody><tr><td>previous</td><td>number</td><td>The previous calculated value to feed back into the function</td></tr></tbody></table>
 
 
 
@@ -342,7 +342,7 @@ Returns the value of a blue noise function
 
 Returns a sine wave with the given frequency, duration, and sample rate
 
-**Returns:** number[]
+**Returns:** number[] 
 
 
 **Parameters:**
@@ -369,7 +369,7 @@ Returns a sine wave with the given frequency, duration, and sample rate
 
 Returns a cosine wave with the given frequency, duration, and sample rate
 
-**Returns:** number[]
+**Returns:** number[] 
 
 
 **Parameters:**
@@ -396,7 +396,7 @@ Returns a cosine wave with the given frequency, duration, and sample rate
 
 Returns a triangle wave with the given frequency, duration, and sample rate
 
-**Returns:** number[]
+**Returns:** number[] 
 
 
 **Parameters:**
@@ -423,7 +423,7 @@ Returns a triangle wave with the given frequency, duration, and sample rate
 
 Returns a sawtooth wave with the given frequency, duration, and sample rate
 
-**Returns:** number[]
+**Returns:** number[] 
 
 
 **Parameters:**
@@ -450,7 +450,7 @@ Returns a sawtooth wave with the given frequency, duration, and sample rate
 
 Returns a square wave with the given frequency, duration, and sample rate
 
-**Returns:** number[]
+**Returns:** number[] 
 
 
 **Parameters:**
@@ -477,7 +477,7 @@ Returns a square wave with the given frequency, duration, and sample rate
 
 Returns an exponential wave with the given frequency, duration, and sample rate
 
-**Returns:** number[]
+**Returns:** number[] 
 
 
 **Parameters:**
@@ -504,7 +504,7 @@ Returns an exponential wave with the given frequency, duration, and sample rate
 
 Returns a parabolic wave with the given frequency, duration, and sample rate
 
-**Returns:** number[]
+**Returns:** number[] 
 
 
 **Parameters:**
@@ -531,7 +531,7 @@ Returns a parabolic wave with the given frequency, duration, and sample rate
 
 Returns a pulse wave with the given frequency, pulse width, duration, and sample rate
 
-**Returns:** number[]
+**Returns:** number[] 
 
 
 **Parameters:**
@@ -540,7 +540,7 @@ Returns a pulse wave with the given frequency, pulse width, duration, and sample
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>time</td><td>number</td><td>The time to start sampling the waveform at</td></tr>
 <tr><td>frequency</td><td>number</td><td>The frequency of the wave</td></tr>
-<tr><td>pulseWidth</td><td>number</td><td></td></tr>
+<tr><td>pulseWidth</td><td>number</td><td>The width of the pulse</td></tr>
 <tr><td>duration</td><td>number</td><td>The duration of samples to generate</td></tr>
 <tr><td>sampleRate</td><td>number</td><td>The sample rate of the generated waveform</td></tr>
 <tr><td>amplitude</td><td>number</td><td>The amplitude of the generated waveform</td></tr></tbody></table>
@@ -559,7 +559,7 @@ Returns a pulse wave with the given frequency, pulse width, duration, and sample
 
 Returns a power wave with the given frequency, power, duration, and sample rate
 
-**Returns:** number[]
+**Returns:** number[] 
 
 
 **Parameters:**
@@ -568,7 +568,7 @@ Returns a power wave with the given frequency, power, duration, and sample rate
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>time</td><td>number</td><td>The time to start sampling the waveform at</td></tr>
 <tr><td>frequency</td><td>number</td><td>The frequency of the wave</td></tr>
-<tr><td>power</td><td>number</td><td></td></tr>
+<tr><td>power</td><td>number</td><td>The power exponent of the wave</td></tr>
 <tr><td>duration</td><td>number</td><td>The duration of samples to generate</td></tr>
 <tr><td>sampleRate</td><td>number</td><td>The sample rate of the generated waveform</td></tr>
 <tr><td>amplitude</td><td>number</td><td>The amplitude of the generated waveform</td></tr></tbody></table>
@@ -587,7 +587,7 @@ Returns a power wave with the given frequency, power, duration, and sample rate
 
 Returns an exponential sawtooth wave with the given frequency, exponent, duration, and sample rate
 
-**Returns:** number[]
+**Returns:** number[] 
 
 
 **Parameters:**
@@ -615,7 +615,7 @@ Returns an exponential sawtooth wave with the given frequency, exponent, duratio
 
 Returns a perlin noise wave with the given frequency, duration, and sample rate
 
-**Returns:** number[]
+**Returns:** number[] 
 
 
 **Parameters:**
@@ -642,7 +642,7 @@ Returns a perlin noise wave with the given frequency, duration, and sample rate
 
 Returns a white noise wave with the given duration and sample rate
 
-**Returns:** number[]
+**Returns:** number[] 
 
 
 **Parameters:**
@@ -667,7 +667,7 @@ Returns a white noise wave with the given duration and sample rate
 
 Returns a brown noise wave with the given duration and sample rate
 
-**Returns:** number[]
+**Returns:** number[] 
 
 
 **Parameters:**
@@ -692,7 +692,7 @@ Returns a brown noise wave with the given duration and sample rate
 
 Returns a blue noise wave with the given duration and sample rate
 
-**Returns:** number[]
+**Returns:** number[] 
 
 
 **Parameters:**

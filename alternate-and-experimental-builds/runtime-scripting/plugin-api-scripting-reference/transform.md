@@ -40,7 +40,7 @@ Represents a position, rotation and scale in one object
 
 Creates a new translation, rotation and scale transform
 
-**Returns:** <a href="transform.md">Transform</a>
+**Returns:** <a href="transform.md">Transform</a> 
 
 
 **Parameters:**
@@ -65,7 +65,7 @@ Creates a new translation, rotation and scale transform
 
 Creates a new translation transform
 
-**Returns:** <a href="transform.md">Transform</a>
+**Returns:** <a href="transform.md">Transform</a> 
 
 
 **Parameters:**
@@ -88,7 +88,7 @@ Creates a new translation transform
 
 Creates a new translation and scale transform
 
-**Returns:** <a href="transform.md">Transform</a>
+**Returns:** <a href="transform.md">Transform</a> 
 
 
 **Parameters:**
@@ -112,7 +112,7 @@ Creates a new translation and scale transform
 
 Creates a new translation transform based on the x, y, z values
 
-**Returns:** <a href="transform.md">Transform</a>
+**Returns:** <a href="transform.md">Transform</a> 
 
 
 **Parameters:**
@@ -141,7 +141,7 @@ Creates a new translation transform based on the x, y, z values
 
 Applies another transform to this transform
 
-**Returns:** <a href="transform.md">Transform</a>
+**Returns:** <a href="transform.md">Transform</a> 
 
 
 **Parameters:**
@@ -164,7 +164,7 @@ Applies another transform to this transform
 
 Applies a translation to this transform
 
-**Returns:** <a href="transform.md">Transform</a>
+**Returns:** <a href="transform.md">Transform</a> 
 
 
 **Parameters:**
@@ -187,7 +187,7 @@ Applies a translation to this transform
 
 Applies a rotation to this transform
 
-**Returns:** <a href="transform.md">Transform</a>
+**Returns:** <a href="transform.md">Transform</a> 
 
 
 **Parameters:**
@@ -210,7 +210,7 @@ Applies a rotation to this transform
 
 Applies a scale to this transform
 
-**Returns:** <a href="transform.md">Transform</a>
+**Returns:** <a href="transform.md">Transform</a> 
 
 
 **Parameters:**
@@ -233,7 +233,7 @@ Applies a scale to this transform
 
 Combines another transform with this one (Does the same as "TransformBy")
 
-**Returns:** <a href="transform.md">Transform</a>
+**Returns:** <a href="transform.md">Transform</a> 
 
 
 **Parameters:**

@@ -41,7 +41,7 @@ The user's brush
 
 Applies the current jitter settings to the brush color
 
-**Returns:** nil
+**Returns:** nil 
 
 
 
@@ -57,7 +57,7 @@ Applies the current jitter settings to the brush color
 
 Clears the history and sets it's size
 
-**Returns:** nil
+**Returns:** nil 
 
 
 **Parameters:**
@@ -80,7 +80,7 @@ Clears the history and sets it's size
 
 Sets the size of the history. Only clears it if the size has changed
 
-**Returns:** nil
+**Returns:** nil 
 
 
 **Parameters:**
@@ -103,7 +103,7 @@ Sets the size of the history. Only clears it if the size has changed
 
 Recalls previous positions of the Brush from the history buffer
 
-**Returns:** <a href="vector3.md">Vector3</a>
+**Returns:** <a href="vector3.md">Vector3</a> 
 
 
 **Parameters:**
@@ -126,7 +126,7 @@ Recalls previous positions of the Brush from the history buffer
 
 Recalls previous orientations of the Brush from the history buffer
 
-**Returns:** <a href="rotation.md">Rotation</a>
+**Returns:** <a href="rotation.md">Rotation</a> 
 
 
 **Parameters:**
@@ -149,7 +149,7 @@ Recalls previous orientations of the Brush from the history buffer
 
 If set to true then the brush will draw strokes even if the trigger isn't being pressed.
 
-**Returns:** nil
+**Returns:** nil 
 
 
 **Parameters:**
@@ -172,7 +172,7 @@ If set to true then the brush will draw strokes even if the trigger isn't being 
 
 If set to true then the brush will stop drawing strokes even if the trigger is still pressed.
 
-**Returns:** nil
+**Returns:** nil 
 
 
 **Parameters:**
@@ -195,7 +195,7 @@ If set to true then the brush will stop drawing strokes even if the trigger is s
 
 Forces the start of a new stroke - will stop painting this frame and start again the next.
 
-**Returns:** nil
+**Returns:** nil 
 
 
 

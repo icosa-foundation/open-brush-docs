@@ -28,7 +28,7 @@ Various functions for generating random data
 
 Returns a random color within given ranges
 
-**Returns:** <a href="color.md">Color</a>
+**Returns:** <a href="color.md">Color</a>  (The new random color)
 
 
 **Parameters:**
@@ -56,7 +56,7 @@ Returns a random color within given ranges
 
 Initializes the random number generator with a specified seed
 
-**Returns:** nil
+**Returns:** nil 
 
 
 **Parameters:**
@@ -79,7 +79,7 @@ Initializes the random number generator with a specified seed
 
 Returns a random float number between min and max (inclusive
 
-**Returns:** number
+**Returns:** number  (A random whole number >= min and <= max)
 
 
 **Parameters:**
@@ -103,7 +103,7 @@ Returns a random float number between min and max (inclusive
 
 Returns a random float number between min and max
 
-**Returns:** number
+**Returns:** number  (The random number  >= min and <= max)
 
 
 **Parameters:**

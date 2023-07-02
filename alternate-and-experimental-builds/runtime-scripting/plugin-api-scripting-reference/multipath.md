@@ -23,7 +23,7 @@ Multiple disconnected path segments
 
 Creates a new empty MultiPath
 
-**Returns:** <a href="multipath.md">MultiPath</a>
+**Returns:** <a href="multipath.md">MultiPath</a> 
 
 
 
@@ -39,7 +39,7 @@ Creates a new empty MultiPath
 
 Creates a new MultiPath from a list of Paths
 
-**Returns:** <a href="multipath.md">MultiPath</a>
+**Returns:** <a href="multipath.md">MultiPath</a> 
 
 
 **Parameters:**
@@ -62,7 +62,7 @@ Creates a new MultiPath from a list of Paths
 
 Creates a new MultiPath from a text
 
-**Returns:** <a href="multipath.md">MultiPath</a>
+**Returns:** <a href="multipath.md">MultiPath</a> 
 
 
 **Parameters:**
@@ -89,7 +89,7 @@ Creates a new MultiPath from a text
 
 Draws this multipath using current settings
 
-**Returns:** nil
+**Returns:** nil 
 
 
 
@@ -105,7 +105,7 @@ Draws this multipath using current settings
 
 Inserts a path at the end of the multipath
 
-**Returns:** nil
+**Returns:** nil 
 
 
 **Parameters:**
@@ -128,7 +128,7 @@ Inserts a path at the end of the multipath
 
 Inserts a path at the specified index of the multipath
 
-**Returns:** nil
+**Returns:** nil 
 
 
 **Parameters:**
@@ -152,7 +152,7 @@ Inserts a path at the specified index of the multipath
 
 Inserts a point at the end of the last path in the multipath
 
-**Returns:** nil
+**Returns:** nil 
 
 
 **Parameters:**
@@ -175,7 +175,7 @@ Inserts a point at the end of the last path in the multipath
 
 Inserts a point at the specified index of the specified path
 
-**Returns:** nil
+**Returns:** nil 
 
 
 **Parameters:**
@@ -200,7 +200,7 @@ Inserts a point at the specified index of the specified path
 
 Transforms the whole set of paths
 
-**Returns:** nil
+**Returns:** nil 
 
 
 **Parameters:**
@@ -223,7 +223,7 @@ Transforms the whole set of paths
 
 Translates the whole set of paths by a given amount
 
-**Returns:** nil
+**Returns:** nil 
 
 
 **Parameters:**
@@ -246,7 +246,7 @@ Translates the whole set of paths by a given amount
 
 Rotates the whole set of paths by a specified amount
 
-**Returns:** nil
+**Returns:** nil 
 
 
 **Parameters:**
@@ -269,7 +269,7 @@ Rotates the whole set of paths by a specified amount
 
 Scales the whole set of paths by a specified factor
 
-**Returns:** nil
+**Returns:** nil 
 
 
 **Parameters:**
@@ -292,7 +292,7 @@ Scales the whole set of paths by a specified factor
 
 Offsets all points on the path so that their common center is at the origin
 
-**Returns:** nil
+**Returns:** nil 
 
 
 
@@ -308,7 +308,7 @@ Offsets all points on the path so that their common center is at the origin
 
 Scales the whole multipath to fit inside a cube of given size at the origin
 
-**Returns:** nil
+**Returns:** nil 
 
 
 **Parameters:**
@@ -331,7 +331,7 @@ Scales the whole multipath to fit inside a cube of given size at the origin
 
 Resamples all paths with a specified spacing between points
 
-**Returns:** nil
+**Returns:** nil 
 
 
 **Parameters:**
@@ -354,7 +354,7 @@ Resamples all paths with a specified spacing between points
 
 Joins all the paths in order connecting each end to the following start
 
-**Returns:** <a href="path.md">Path</a>
+**Returns:** <a href="path.md">Path</a>  (A single path)
 
 
 
@@ -370,7 +370,7 @@ Joins all the paths in order connecting each end to the following start
 
 Returns the longest path in the multipath
 
-**Returns:** <a href="path.md">Path</a>
+**Returns:** <a href="path.md">Path</a>  (The path with the most control points)
 
 
 

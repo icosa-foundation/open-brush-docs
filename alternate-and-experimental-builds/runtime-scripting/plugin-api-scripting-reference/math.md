@@ -27,7 +27,7 @@ Various maths functions. See https://docs.unity3d.com/ScriptReference/Mathf.html
 
 The absolute value function
 
-**Returns:** number
+**Returns:** number  (The absolute value of f)
 
 
 **Parameters:**
@@ -50,7 +50,7 @@ The absolute value function
 
 The arc-cosine function
 
-**Returns:** number
+**Returns:** number  (The angle in radians whose cosine is f)
 
 
 **Parameters:**
@@ -73,7 +73,7 @@ The arc-cosine function
 
 Compares two floating point values if they are similar
 
-**Returns:** boolean
+**Returns:** boolean  (True if the difference between the values is less than Math.epsilon)
 
 
 **Parameters:**
@@ -97,7 +97,7 @@ Compares two floating point values if they are similar
 
 The arc-sine function
 
-**Returns:** number
+**Returns:** number  (The angle in radians whose sine is f)
 
 
 **Parameters:**
@@ -120,7 +120,7 @@ The arc-sine function
 
 The arc-tangent function
 
-**Returns:** number
+**Returns:** number  (The angle in radians whose tangent is f)
 
 
 **Parameters:**
@@ -143,7 +143,7 @@ The arc-tangent function
 
 The two argument arc-tangent function
 
-**Returns:** number
+**Returns:** number  (The angle in radians whose tan is y/x)
 
 
 **Parameters:**
@@ -167,7 +167,7 @@ The two argument arc-tangent function
 
 The ceiling function
 
-**Returns:** number
+**Returns:** number  (The smallest integer greater to or equal to f)
 
 
 **Parameters:**
@@ -190,7 +190,7 @@ The ceiling function
 
 Clamps the given value between the given minimum float and maximum float values. Returns the given value if it is within the min and max range
 
-**Returns:** number
+**Returns:** number  (min if f < min, max if f > max otherwise f)
 
 
 **Parameters:**
@@ -215,7 +215,7 @@ Clamps the given value between the given minimum float and maximum float values.
 
 Clamps value between 0 and 1 and returns value
 
-**Returns:** number
+**Returns:** number  (0 if f < 0, 1 if f > 1 otherwise f)
 
 
 **Parameters:**
@@ -238,7 +238,7 @@ Clamps value between 0 and 1 and returns value
 
 Calculates the closest power of two
 
-**Returns:** number
+**Returns:** number  (The closest power of two)
 
 
 **Parameters:**
@@ -261,7 +261,7 @@ Calculates the closest power of two
 
 The cosine function
 
-**Returns:** number
+**Returns:** number  (The cosine of angle f)
 
 
 **Parameters:**
@@ -284,7 +284,7 @@ The cosine function
 
 Calculates the shortest difference between two given angles
 
-**Returns:** number
+**Returns:** number  (The smaller of the two angles in degrees between input and target)
 
 
 **Parameters:**
@@ -308,7 +308,7 @@ Calculates the shortest difference between two given angles
 
 The exponent function
 
-**Returns:** number
+**Returns:** number  (Returns e raised to the specified power)
 
 
 **Parameters:**
@@ -331,7 +331,7 @@ The exponent function
 
 The floor function
 
-**Returns:** number
+**Returns:** number  (The largest integer that is less than or equal to the input)
 
 
 **Parameters:**
@@ -354,7 +354,7 @@ The floor function
 
 Inverse linear interpolation between two values by given ratio
 
-**Returns:** number
+**Returns:** number  (A value between 0 and 1 representing how far t is between min and max)
 
 
 **Parameters:**
@@ -379,7 +379,7 @@ Inverse linear interpolation between two values by given ratio
 
 Determines whether a value is a power of two
 
-**Returns:** boolean
+**Returns:** boolean  (The logarithm of f in base b)
 
 
 **Parameters:**
@@ -402,7 +402,7 @@ Determines whether a value is a power of two
 
 Linearly interpolates two floats by a ratio
 
-**Returns:** number
+**Returns:** number  (A value between min and max representing how far t is between 0 and 1)
 
 
 **Parameters:**
@@ -427,7 +427,7 @@ Linearly interpolates two floats by a ratio
 
 Same as Lerp but takes the shortest path between the specified angles wrapping around a circle
 
-**Returns:** number
+**Returns:** number  (An angle between min and max representing how far t is between 0 and 1)
 
 
 **Parameters:**
@@ -452,7 +452,7 @@ Same as Lerp but takes the shortest path between the specified angles wrapping a
 
 Same as Math:Lerp but allows extrapolated values
 
-**Returns:** number
+**Returns:** number  (A value representing t scaled from the range 0:1 to a new range min:max)
 
 
 **Parameters:**
@@ -477,7 +477,7 @@ Same as Math:Lerp but allows extrapolated values
 
 The logarithm of a specified number in a specified base
 
-**Returns:** number
+**Returns:** number  (The logarithm of f in base b)
 
 
 **Parameters:**
@@ -501,7 +501,7 @@ The logarithm of a specified number in a specified base
 
 The base 10 logarithm of a specified number
 
-**Returns:** number
+**Returns:** number  (The base 10 logarithm of a specified number)
 
 
 **Parameters:**
@@ -524,7 +524,7 @@ The base 10 logarithm of a specified number
 
 The larger of two float numbers
 
-**Returns:** number
+**Returns:** number  (The largest of a and b)
 
 
 **Parameters:**
@@ -548,7 +548,7 @@ The larger of two float numbers
 
 The largest value in a sequence of float numbers
 
-**Returns:** number
+**Returns:** number  (The largest value in the list)
 
 
 **Parameters:**
@@ -571,7 +571,7 @@ The largest value in a sequence of float numbers
 
 The smaller of two float numbers
 
-**Returns:** number
+**Returns:** number  (The smaller of a and b)
 
 
 **Parameters:**
@@ -595,7 +595,7 @@ The smaller of two float numbers
 
 The smallest value in a sequence of float numbers
 
-**Returns:** number
+**Returns:** number  (The smallest value in a sequence of float numbers)
 
 
 **Parameters:**
@@ -618,7 +618,7 @@ The smallest value in a sequence of float numbers
 
 Moves a value towards a target value by a given amount
 
-**Returns:** number
+**Returns:** number  (The input + or - maxDelta but clamped to it won't overshoot the target value)
 
 
 **Parameters:**
@@ -643,7 +643,7 @@ Moves a value towards a target value by a given amount
 
 The smallest power of two greater than or equal to the specified number
 
-**Returns:** number
+**Returns:** number  (The smallest power of two greater than or equal to the specified number)
 
 
 **Parameters:**
@@ -666,7 +666,7 @@ The smallest power of two greater than or equal to the specified number
 
 Samples a two-dimensional Perlin noise map
 
-**Returns:** number
+**Returns:** number  (Returns the value of the perlin noise as coordinates x,y)
 
 
 **Parameters:**
@@ -690,7 +690,7 @@ Samples a two-dimensional Perlin noise map
 
 Similar to Math:Round except the values alternate between forward and backwards in the range
 
-**Returns:** number
+**Returns:** number  (A value that is never larger than length and never smaller than 0)
 
 
 **Parameters:**
@@ -714,7 +714,7 @@ Similar to Math:Round except the values alternate between forward and backwards 
 
 The raised to the specified power
 
-**Returns:** number
+**Returns:** number  (Returns f raised to the specified power)
 
 
 **Parameters:**
@@ -738,7 +738,7 @@ The raised to the specified power
 
 Loops the value t - similar to "clock" arithmetic
 
-**Returns:** number
+**Returns:** number  (A value that is never larger than length and never smaller than 0)
 
 
 **Parameters:**
@@ -762,7 +762,7 @@ Loops the value t - similar to "clock" arithmetic
 
 The rounding function
 
-**Returns:** number
+**Returns:** number  (The nearest integer value to f)
 
 
 **Parameters:**
@@ -785,7 +785,7 @@ The rounding function
 
 The sign function
 
-**Returns:** number
+**Returns:** number  (The sign of f)
 
 
 **Parameters:**
@@ -808,7 +808,7 @@ The sign function
 
 The sine function
 
-**Returns:** number
+**Returns:** number  (The sine of angle f)
 
 
 **Parameters:**
@@ -831,7 +831,7 @@ The sine function
 
 The square root function
 
-**Returns:** number
+**Returns:** number  (The square root of f)
 
 
 **Parameters:**
@@ -854,7 +854,7 @@ The square root function
 
 The smoothstep function
 
-**Returns:** number
+**Returns:** number  (The input smoothly interpolated between the range [from, to] by the ratio t)
 
 
 **Parameters:**
@@ -879,7 +879,7 @@ The smoothstep function
 
 The tangent of an angle
 
-**Returns:** number
+**Returns:** number  (The tangent of an angle)
 
 
 **Parameters:**
@@ -902,7 +902,7 @@ The tangent of an angle
 
 The hyperbolic sine function
 
-**Returns:** number
+**Returns:** number  (The hyperbolic sine of f)
 
 
 **Parameters:**
@@ -925,7 +925,7 @@ The hyperbolic sine function
 
 The hyperbolic cosine function
 
-**Returns:** number
+**Returns:** number  (The hyperbolic cosine of f)
 
 
 **Parameters:**
@@ -948,7 +948,7 @@ The hyperbolic cosine function
 
 The hyperbolic tangent function
 
-**Returns:** number
+**Returns:** number  (The hyperbolic tangent of f)
 
 
 **Parameters:**

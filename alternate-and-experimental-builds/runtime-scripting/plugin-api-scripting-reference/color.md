@@ -51,7 +51,7 @@ An RGB color
 
 Creates a new instance of a color with the specified RGB values
 
-**Returns:** <a href="color.md">Color</a>
+**Returns:** <a href="color.md">Color</a>  (instance of the Color)
 
 
 **Parameters:**
@@ -76,7 +76,7 @@ Creates a new instance of a color with the specified RGB values
 
 Creates a new instance of the Color with the color parsed from the specified HTML string
 
-**Returns:** <a href="color.md">Color</a>
+**Returns:** <a href="color.md">Color</a>  (Returns the color. Invalid html inputs return bright magenta (r=1, g=0, b=1))
 
 
 **Parameters:**
@@ -99,7 +99,7 @@ Creates a new instance of the Color with the color parsed from the specified HTM
 
 Performs a linear interpolation between two colors
 
-**Returns:** <a href="color.md">Color</a>
+**Returns:** <a href="color.md">Color</a>  (The interpolated color)
 
 
 **Parameters:**
@@ -124,7 +124,7 @@ Performs a linear interpolation between two colors
 
 Performs a linear interpolation between two colors without clamping the interpolation parameter
 
-**Returns:** <a href="color.md">Color</a>
+**Returns:** <a href="color.md">Color</a>  (color)
 
 
 **Parameters:**
@@ -149,7 +149,7 @@ Performs a linear interpolation between two colors without clamping the interpol
 
 Converts an HSV color to an RGB color
 
-**Returns:** <a href="color.md">Color</a>
+**Returns:** <a href="color.md">Color</a>  (color)
 
 
 **Parameters:**
@@ -174,7 +174,7 @@ Converts an HSV color to an RGB color
 
 Converts an HSV Vector3 to an RGB color
 
-**Returns:** <a href="color.md">Color</a>
+**Returns:** <a href="color.md">Color</a>  (color)
 
 
 **Parameters:**
@@ -201,7 +201,7 @@ Converts an HSV Vector3 to an RGB color
 
 Adds the specified color to this color
 
-**Returns:** <a href="color.md">Color</a>
+**Returns:** <a href="color.md">Color</a>  (color)
 
 
 **Parameters:**
@@ -224,7 +224,7 @@ Adds the specified color to this color
 
 Adds the specified RGB values to this color
 
-**Returns:** <a href="color.md">Color</a>
+**Returns:** <a href="color.md">Color</a>  (color)
 
 
 **Parameters:**
@@ -249,7 +249,7 @@ Adds the specified RGB values to this color
 
 Subtracts the specified color from this color
 
-**Returns:** <a href="color.md">Color</a>
+**Returns:** <a href="color.md">Color</a>  (color)
 
 
 **Parameters:**
@@ -272,7 +272,7 @@ Subtracts the specified color from this color
 
 Subtracts the specified RGB values from this color
 
-**Returns:** <a href="color.md">Color</a>
+**Returns:** <a href="color.md">Color</a>  (color)
 
 
 **Parameters:**
@@ -297,7 +297,7 @@ Subtracts the specified RGB values from this color
 
 Multiplies this color by the specified value
 
-**Returns:** <a href="color.md">Color</a>
+**Returns:** <a href="color.md">Color</a>  (color)
 
 
 **Parameters:**
@@ -320,7 +320,7 @@ Multiplies this color by the specified value
 
 Multiplies this color by the specified RGB values
 
-**Returns:** <a href="color.md">Color</a>
+**Returns:** <a href="color.md">Color</a>  (color)
 
 
 **Parameters:**
@@ -345,7 +345,7 @@ Multiplies this color by the specified RGB values
 
 Divides this color by the specified value
 
-**Returns:** <a href="color.md">Color</a>
+**Returns:** <a href="color.md">Color</a>  (color)
 
 
 **Parameters:**
@@ -368,7 +368,7 @@ Divides this color by the specified value
 
 Determines whether this color is not equal to the specified color
 
-**Returns:** boolean
+**Returns:** boolean  (true if this color is not equal to the specified color; otherwise, false)
 
 
 **Parameters:**
@@ -391,7 +391,7 @@ Determines whether this color is not equal to the specified color
 
 Determines whether this color is not equal to the specified RGB values
 
-**Returns:** boolean
+**Returns:** boolean  (true if this color is not equal to the specified RGB values; otherwise, false)
 
 
 **Parameters:**

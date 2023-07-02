@@ -46,7 +46,7 @@ A position or offset in 3D space
 
 Creates a new vector
 
-**Returns:** <a href="vector3.md">Vector3</a>
+**Returns:** <a href="vector3.md">Vector3</a> 
 
 
 **Parameters:**
@@ -71,7 +71,7 @@ Creates a new vector
 
 Returns the cross product of two vectors
 
-**Returns:** <a href="vector3.md">Vector3</a>
+**Returns:** <a href="vector3.md">Vector3</a> 
 
 
 **Parameters:**
@@ -95,7 +95,7 @@ Returns the cross product of two vectors
 
 Linearly interpolates between two points
 
-**Returns:** <a href="vector3.md">Vector3</a>
+**Returns:** <a href="vector3.md">Vector3</a>  (A point somewhere between a and b based on the value of t)
 
 
 **Parameters:**
@@ -120,7 +120,7 @@ Linearly interpolates between two points
 
 Linearly interpolates (or extrapolates) between two points
 
-**Returns:** <a href="vector3.md">Vector3</a>
+**Returns:** <a href="vector3.md">Vector3</a>  (A point somewhere between a and b based on the value of t)
 
 
 **Parameters:**
@@ -145,7 +145,7 @@ Linearly interpolates (or extrapolates) between two points
 
 Creates a vector made from the largest components of the inputs
 
-**Returns:** <a href="vector3.md">Vector3</a>
+**Returns:** <a href="vector3.md">Vector3</a> 
 
 
 **Parameters:**
@@ -169,7 +169,7 @@ Creates a vector made from the largest components of the inputs
 
 Creates a vector made from the smallest components of the inputs
 
-**Returns:** <a href="vector3.md">Vector3</a>
+**Returns:** <a href="vector3.md">Vector3</a> 
 
 
 **Parameters:**
@@ -193,7 +193,7 @@ Creates a vector made from the smallest components of the inputs
 
 Spherically interpolates between two vectors
 
-**Returns:** <a href="vector3.md">Vector3</a>
+**Returns:** <a href="vector3.md">Vector3</a>  (A point somewhere between a and b based on the value of t)
 
 
 **Parameters:**
@@ -218,7 +218,7 @@ Spherically interpolates between two vectors
 
 Spherically interpolates (or extrapolates) between two vectors
 
-**Returns:** <a href="vector3.md">Vector3</a>
+**Returns:** <a href="vector3.md">Vector3</a>  (A point somewhere between a and b based on the value of t)
 
 
 **Parameters:**
@@ -247,7 +247,7 @@ Spherically interpolates (or extrapolates) between two vectors
 
 The unsigned angle in degrees between this vector and another
 
-**Returns:** number
+**Returns:** number 
 
 
 **Parameters:**
@@ -270,7 +270,7 @@ The unsigned angle in degrees between this vector and another
 
 Returns a vector with the same direction but with it's length clamped to a maximum
 
-**Returns:** <a href="vector3.md">Vector3</a>
+**Returns:** <a href="vector3.md">Vector3</a> 
 
 
 **Parameters:**
@@ -293,7 +293,7 @@ Returns a vector with the same direction but with it's length clamped to a maxim
 
 Returns the distance between two points
 
-**Returns:** number
+**Returns:** number 
 
 
 **Parameters:**
@@ -316,7 +316,7 @@ Returns the distance between two points
 
 Moves a point towards a target point
 
-**Returns:** <a href="vector3.md">Vector3</a>
+**Returns:** <a href="vector3.md">Vector3</a> 
 
 
 **Parameters:**
@@ -340,7 +340,7 @@ Moves a point towards a target point
 
 Projects this vector onto another
 
-**Returns:** <a href="vector3.md">Vector3</a>
+**Returns:** <a href="vector3.md">Vector3</a> 
 
 
 **Parameters:**
@@ -363,7 +363,7 @@ Projects this vector onto another
 
 Projects this vector onto a plane defined by a normal orthogonal to the plane
 
-**Returns:** <a href="vector3.md">Vector3</a>
+**Returns:** <a href="vector3.md">Vector3</a> 
 
 
 **Parameters:**
@@ -386,7 +386,7 @@ Projects this vector onto a plane defined by a normal orthogonal to the plane
 
 Reflects a vector off the vector defined by a normal
 
-**Returns:** <a href="vector3.md">Vector3</a>
+**Returns:** <a href="vector3.md">Vector3</a> 
 
 
 **Parameters:**
@@ -409,7 +409,7 @@ Reflects a vector off the vector defined by a normal
 
 Moves this vector towards another with a maximum change in angle
 
-**Returns:** <a href="vector3.md">Vector3</a>
+**Returns:** <a href="vector3.md">Vector3</a> 
 
 
 **Parameters:**
@@ -434,7 +434,7 @@ Moves this vector towards another with a maximum change in angle
 
 Multiplies two vectors component-wise
 
-**Returns:** <a href="vector3.md">Vector3</a>
+**Returns:** <a href="vector3.md">Vector3</a> 
 
 
 **Parameters:**
@@ -457,7 +457,7 @@ Multiplies two vectors component-wise
 
 Returns the signed angle in degrees between two points and the origin
 
-**Returns:** number
+**Returns:** number 
 
 
 **Parameters:**
@@ -481,7 +481,7 @@ Returns the signed angle in degrees between two points and the origin
 
 Adds two vectors
 
-**Returns:** <a href="vector3.md">Vector3</a>
+**Returns:** <a href="vector3.md">Vector3</a> 
 
 
 **Parameters:**
@@ -504,7 +504,7 @@ Adds two vectors
 
 Adds x, y and z values to this vector
 
-**Returns:** <a href="vector3.md">Vector3</a>
+**Returns:** <a href="vector3.md">Vector3</a> 
 
 
 **Parameters:**
@@ -529,7 +529,7 @@ Adds x, y and z values to this vector
 
 Subtracts a Vector3 from this vector
 
-**Returns:** <a href="vector3.md">Vector3</a>
+**Returns:** <a href="vector3.md">Vector3</a> 
 
 
 **Parameters:**
@@ -552,7 +552,7 @@ Subtracts a Vector3 from this vector
 
 Subtracts x, y and z values from this vector
 
-**Returns:** <a href="vector3.md">Vector3</a>
+**Returns:** <a href="vector3.md">Vector3</a> 
 
 
 **Parameters:**
@@ -577,7 +577,7 @@ Subtracts x, y and z values from this vector
 
 Multiplies this vector by a scalar value
 
-**Returns:** <a href="vector3.md">Vector3</a>
+**Returns:** <a href="vector3.md">Vector3</a> 
 
 
 **Parameters:**
@@ -600,7 +600,7 @@ Multiplies this vector by a scalar value
 
 Multiplies this vector by x, y and z values component-wise
 
-**Returns:** <a href="vector3.md">Vector3</a>
+**Returns:** <a href="vector3.md">Vector3</a> 
 
 
 **Parameters:**
@@ -625,7 +625,7 @@ Multiplies this vector by x, y and z values component-wise
 
 Divides this vector by a scalar value
 
-**Returns:** <a href="vector3.md">Vector3</a>
+**Returns:** <a href="vector3.md">Vector3</a> 
 
 
 **Parameters:**
@@ -648,7 +648,7 @@ Divides this vector by a scalar value
 
 Is this vector not equal to another?
 
-**Returns:** boolean
+**Returns:** boolean 
 
 
 **Parameters:**
@@ -671,7 +671,7 @@ Is this vector not equal to another?
 
 Is this vector not equal to these x, y and z values?
 
-**Returns:** boolean
+**Returns:** boolean 
 
 
 **Parameters:**

@@ -26,7 +26,7 @@ A video widget
 
 Imports a video file from the user's MediaLibrary/Videos folder
 
-**Returns:** <a href="video.md">Video</a>
+**Returns:** <a href="video.md">Video</a> 
 
 
 **Parameters:**
@@ -40,7 +40,7 @@ Imports a video file from the user's MediaLibrary/Videos folder
 
 #### Example
 
-<pre class="language-lua"><code class="lang-lua"><strong>myVideo = Video.Import("myVideo.mp4"</strong></code></pre>
+<pre class="language-lua"><code class="lang-lua"><strong>myVideo = Video.Import("myVideo.mp4")</strong></code></pre>
 
 
 
@@ -53,7 +53,7 @@ Imports a video file from the user's MediaLibrary/Videos folder
 
 Adds this Video Widget to the current selection
 
-**Returns:** nil
+**Returns:** nil 
 
 
 
@@ -69,7 +69,7 @@ Adds this Video Widget to the current selection
 
 Deletes this Video Widget
 
-**Returns:** nil
+**Returns:** nil 
 
 
 

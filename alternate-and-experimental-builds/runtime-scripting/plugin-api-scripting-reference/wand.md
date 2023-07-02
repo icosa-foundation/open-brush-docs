@@ -26,7 +26,7 @@ Represents the user's wand (the controller that isn't the brush controller)
 
 Clears the history and sets it's size
 
-**Returns:** nil
+**Returns:** nil 
 
 
 **Parameters:**
@@ -49,7 +49,7 @@ Clears the history and sets it's size
 
 Sets the size of the history. Only clears it if the size has changed
 
-**Returns:** nil
+**Returns:** nil 
 
 
 **Parameters:**
@@ -72,7 +72,7 @@ Sets the size of the history. Only clears it if the size has changed
 
 Recalls previous positions of the Wand from the history buffer
 
-**Returns:** <a href="vector3.md">Vector3</a>
+**Returns:** <a href="vector3.md">Vector3</a> 
 
 
 **Parameters:**
@@ -95,7 +95,7 @@ Recalls previous positions of the Wand from the history buffer
 
 Recalls previous orientations of the Wand from the history buffer
 
-**Returns:** <a href="rotation.md">Rotation</a>
+**Returns:** <a href="rotation.md">Rotation</a> 
 
 
 **Parameters:**

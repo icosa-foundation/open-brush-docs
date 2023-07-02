@@ -32,7 +32,7 @@ The spectator camera
 
 Changes the rotation of the spectator camera to look towards a specific point
 
-**Returns:** nil
+**Returns:** nil 
 
 
 **Parameters:**
@@ -55,7 +55,7 @@ Changes the rotation of the spectator camera to look towards a specific point
 
 Sets the spectator camera's movement mode to stationary
 
-**Returns:** nil
+**Returns:** nil 
 
 
 
@@ -71,7 +71,7 @@ Sets the spectator camera's movement mode to stationary
 
 Sets the spectator camera's movement mode to slowFollow
 
-**Returns:** nil
+**Returns:** nil 
 
 
 
@@ -87,7 +87,7 @@ Sets the spectator camera's movement mode to slowFollow
 
 Sets the spectator camera's movement mode to wobble
 
-**Returns:** nil
+**Returns:** nil 
 
 
 
@@ -103,7 +103,7 @@ Sets the spectator camera's movement mode to wobble
 
 Sets the spectator camera's movement mode to circular
 
-**Returns:** nil
+**Returns:** nil 
 
 
 

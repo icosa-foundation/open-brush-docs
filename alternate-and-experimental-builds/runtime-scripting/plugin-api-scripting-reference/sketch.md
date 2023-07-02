@@ -34,7 +34,7 @@ Represents the current sketch
 
 Opens a sketch with the specified name in the User's Sketches folder
 
-**Returns:** nil
+**Returns:** nil 
 
 
 **Parameters:**
@@ -57,7 +57,7 @@ Opens a sketch with the specified name in the User's Sketches folder
 
 Saves the current sketch, possibly overwriting an existing one
 
-**Returns:** nil
+**Returns:** nil 
 
 
 **Parameters:**
@@ -80,7 +80,7 @@ Saves the current sketch, possibly overwriting an existing one
 
 Saves the current sketch with a new name
 
-**Returns:** nil
+**Returns:** nil 
 
 
 **Parameters:**
@@ -103,7 +103,7 @@ Saves the current sketch with a new name
 
 Exports the sketch in all supported export formats
 
-**Returns:** nil
+**Returns:** nil 
 
 
 
@@ -119,7 +119,7 @@ Exports the sketch in all supported export formats
 
 Creates a new sketch
 
-**Returns:** nil
+**Returns:** nil 
 
 
 
@@ -135,7 +135,7 @@ Creates a new sketch
 
 Imports a image with the specified name from the MediaLibrary/BackgroundImages folder and assigns it as a custom skybox
 
-**Returns:** nil
+**Returns:** nil 
 
 
 **Parameters:**

@@ -13,7 +13,7 @@ Various actions related to selections of strokes and widgets
 
 Duplicates the currently selected items
 
-**Returns:** nil
+**Returns:** nil 
 
 
 
@@ -29,7 +29,7 @@ Duplicates the currently selected items
 
 Groups or ungroups the currently selected strokes and widgets
 
-**Returns:** nil
+**Returns:** nil 
 
 
 
@@ -45,7 +45,7 @@ Groups or ungroups the currently selected strokes and widgets
 
 Inverts the current selection
 
-**Returns:** nil
+**Returns:** nil 
 
 
 
@@ -61,7 +61,7 @@ Inverts the current selection
 
 Flips (mirrors) the current selected items horizontally
 
-**Returns:** nil
+**Returns:** nil 
 
 
 
@@ -77,7 +77,7 @@ Flips (mirrors) the current selected items horizontally
 
 Changes the color of all currently selected brush strokes
 
-**Returns:** nil
+**Returns:** nil 
 
 
 
@@ -93,7 +93,7 @@ Changes the color of all currently selected brush strokes
 
 Changes the brush type for all currently selected brush strokes
 
-**Returns:** nil
+**Returns:** nil 
 
 
 
@@ -109,7 +109,7 @@ Changes the brush type for all currently selected brush strokes
 
 Changes the size of all currently selected brush strokes
 
-**Returns:** nil
+**Returns:** nil 
 
 
 
@@ -125,7 +125,7 @@ Changes the size of all currently selected brush strokes
 
 Trims control points from all selected brush strokes. Resulting empty strokes are deleted.
 
-**Returns:** nil
+**Returns:** nil 
 
 
 **Parameters:**
@@ -148,7 +148,7 @@ Trims control points from all selected brush strokes. Resulting empty strokes ar
 
 Selects all brush strokes and widgets on the current layer
 
-**Returns:** nil
+**Returns:** nil 
 
 
 

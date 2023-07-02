@@ -13,7 +13,7 @@ Each easing function takes a value between 0 and 1 and modifies it to speed up o
 
 Linear easing function
 
-**Returns:** number
+**Returns:** number  (The input is returned unchanged)
 
 
 **Parameters:**
@@ -36,7 +36,7 @@ Linear easing function
 
 InQuad easing function
 
-**Returns:** number
+**Returns:** number  (The value smoothed in the in direction only)
 
 
 **Parameters:**
@@ -59,7 +59,7 @@ InQuad easing function
 
 OutQuad easing function
 
-**Returns:** number
+**Returns:** number  (The value smoothed in the out direction only)
 
 
 **Parameters:**
@@ -82,7 +82,7 @@ OutQuad easing function
 
 InOutQuad easing function
 
-**Returns:** number
+**Returns:** number  (The value smoothed in and out)
 
 
 **Parameters:**
@@ -105,7 +105,7 @@ InOutQuad easing function
 
 InCubic easing function
 
-**Returns:** number
+**Returns:** number  (The value smoothed in the in direction only)
 
 
 **Parameters:**
@@ -128,7 +128,7 @@ InCubic easing function
 
 OutCubic easing function
 
-**Returns:** number
+**Returns:** number  (The value smoothed in the out direction only)
 
 
 **Parameters:**
@@ -151,7 +151,7 @@ OutCubic easing function
 
 InOutCubic easing function
 
-**Returns:** number
+**Returns:** number  (The value smoothed in and out)
 
 
 **Parameters:**
@@ -174,7 +174,7 @@ InOutCubic easing function
 
 InQuart easing function
 
-**Returns:** number
+**Returns:** number  (The value smoothed in the in direction only)
 
 
 **Parameters:**
@@ -197,7 +197,7 @@ InQuart easing function
 
 OutQuart easing function
 
-**Returns:** number
+**Returns:** number  (The value smoothed in the out direction only)
 
 
 **Parameters:**
@@ -220,7 +220,7 @@ OutQuart easing function
 
 InQuart easing function
 
-**Returns:** number
+**Returns:** number  (The value smoothed in and out)
 
 
 **Parameters:**
@@ -243,7 +243,7 @@ InQuart easing function
 
 InQuint easing function
 
-**Returns:** number
+**Returns:** number  (The value smoothed in the in direction only)
 
 
 **Parameters:**
@@ -266,7 +266,7 @@ InQuint easing function
 
 OutQuint easing function
 
-**Returns:** number
+**Returns:** number  (The value smoothed in the out direction only)
 
 
 **Parameters:**
@@ -289,7 +289,7 @@ OutQuint easing function
 
 InOutQuint easing function
 
-**Returns:** number
+**Returns:** number  (The value smoothed in and out)
 
 
 **Parameters:**
@@ -312,7 +312,7 @@ InOutQuint easing function
 
 InSine easing function
 
-**Returns:** number
+**Returns:** number  (The value smoothed in the in direction only)
 
 
 **Parameters:**
@@ -335,7 +335,7 @@ InSine easing function
 
 OutSine easing function
 
-**Returns:** number
+**Returns:** number  (The value smoothed in the out direction only)
 
 
 **Parameters:**
@@ -358,7 +358,7 @@ OutSine easing function
 
 InOutSine easing function
 
-**Returns:** number
+**Returns:** number  (The value smoothed in and out)
 
 
 **Parameters:**
@@ -381,7 +381,7 @@ InOutSine easing function
 
 InExpo easing function
 
-**Returns:** number
+**Returns:** number  (The value smoothed in the in direction only)
 
 
 **Parameters:**
@@ -404,7 +404,7 @@ InExpo easing function
 
 OutExpo easing function
 
-**Returns:** number
+**Returns:** number  (The value smoothed in the out direction only)
 
 
 **Parameters:**
@@ -427,7 +427,7 @@ OutExpo easing function
 
 InOutExpo easing function
 
-**Returns:** number
+**Returns:** number  (The value smoothed in and out)
 
 
 **Parameters:**
@@ -450,7 +450,7 @@ InOutExpo easing function
 
 InCirc easing function
 
-**Returns:** number
+**Returns:** number  (The value smoothed in the in direction only)
 
 
 **Parameters:**
@@ -473,7 +473,7 @@ InCirc easing function
 
 OutCirc easing function
 
-**Returns:** number
+**Returns:** number  (The value smoothed in the out direction only)
 
 
 **Parameters:**
@@ -496,7 +496,7 @@ OutCirc easing function
 
 InOutCirc easing function
 
-**Returns:** number
+**Returns:** number  (The value smoothed in and out)
 
 
 **Parameters:**
@@ -519,7 +519,7 @@ InOutCirc easing function
 
 InElastic easing function
 
-**Returns:** number
+**Returns:** number  (The value smoothed in the in direction only)
 
 
 **Parameters:**
@@ -542,7 +542,7 @@ InElastic easing function
 
 OutElastic easing function
 
-**Returns:** number
+**Returns:** number  (The value smoothed in the out direction only)
 
 
 **Parameters:**
@@ -565,7 +565,7 @@ OutElastic easing function
 
 InOutElastic easing function
 
-**Returns:** number
+**Returns:** number  (The value smoothed in and out)
 
 
 **Parameters:**
@@ -588,7 +588,7 @@ InOutElastic easing function
 
 InBack easing function
 
-**Returns:** number
+**Returns:** number  (The value smoothed in the in direction only)
 
 
 **Parameters:**
@@ -611,7 +611,7 @@ InBack easing function
 
 OutBack easing function
 
-**Returns:** number
+**Returns:** number  (The value smoothed in the out direction only)
 
 
 **Parameters:**
@@ -634,7 +634,7 @@ OutBack easing function
 
 InOutBack easing function
 
-**Returns:** number
+**Returns:** number  (The value smoothed in and out)
 
 
 **Parameters:**
@@ -657,7 +657,7 @@ InOutBack easing function
 
 InBounce easing function
 
-**Returns:** number
+**Returns:** number  (The value smoothed in the in direction only)
 
 
 **Parameters:**
@@ -680,7 +680,7 @@ InBounce easing function
 
 OutBounce easing function
 
-**Returns:** number
+**Returns:** number  (The value smoothed in the out direction only)
 
 
 **Parameters:**
@@ -703,7 +703,7 @@ OutBounce easing function
 
 InOutBounce easing function
 
-**Returns:** number
+**Returns:** number  (The value smoothed in and out)
 
 
 **Parameters:**

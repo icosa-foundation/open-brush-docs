@@ -41,7 +41,7 @@ Represents a rotation or orientation in 3D space. See https://docs.unity3d.com/S
 
 Creates a new Rotation
 
-**Returns:** <a href="rotation.md">Rotation</a>
+**Returns:** <a href="rotation.md">Rotation</a> 
 
 
 **Parameters:**
@@ -66,7 +66,7 @@ Creates a new Rotation
 
 Returns the angle in degrees between two rotations
 
-**Returns:** number
+**Returns:** number  (Returns the angle in degrees between two rotations)
 
 
 **Parameters:**
@@ -90,7 +90,7 @@ Returns the angle in degrees between two rotations
 
 Creates a rotation which rotates angle degrees around axis
 
-**Returns:** <a href="rotation.md">Rotation</a>
+**Returns:** <a href="rotation.md">Rotation</a>  (Returns a Quaternion that represents the rotation)
 
 
 **Parameters:**
@@ -114,7 +114,7 @@ Creates a rotation which rotates angle degrees around axis
 
 The dot product between two rotations
 
-**Returns:** number
+**Returns:** number  (Returns the dot product between two rotations)
 
 
 **Parameters:**
@@ -138,7 +138,7 @@ The dot product between two rotations
 
 Creates a rotation which rotates from fromDirection to toDirection
 
-**Returns:** <a href="rotation.md">Rotation</a>
+**Returns:** <a href="rotation.md">Rotation</a>  (Returns a Quaternion that represents the rotation)
 
 
 **Parameters:**
@@ -162,7 +162,7 @@ Creates a rotation which rotates from fromDirection to toDirection
 
 Returns the Inverse of a rotation
 
-**Returns:** <a href="rotation.md">Rotation</a>
+**Returns:** <a href="rotation.md">Rotation</a>  (Returns the inverse of the provided rotation)
 
 
 **Parameters:**
@@ -185,7 +185,7 @@ Returns the Inverse of a rotation
 
 Interpolates between a and b by t and normalizes the result afterwards. The parameter t is clamped to the range [0, 1]
 
-**Returns:** <a href="rotation.md">Rotation</a>
+**Returns:** <a href="rotation.md">Rotation</a>  (Interpolated rotation)
 
 
 **Parameters:**
@@ -210,7 +210,7 @@ Interpolates between a and b by t and normalizes the result afterwards. The para
 
 Interpolates between a and b by t and normalizes the result afterwards. The parameter t is not clamped
 
-**Returns:** <a href="rotation.md">Rotation</a>
+**Returns:** <a href="rotation.md">Rotation</a>  (Interpolated rotation)
 
 
 **Parameters:**
@@ -235,7 +235,7 @@ Interpolates between a and b by t and normalizes the result afterwards. The para
 
 Creates a rotation with the specified forward and upwards directions
 
-**Returns:** <a href="rotation.md">Rotation</a>
+**Returns:** <a href="rotation.md">Rotation</a>  (Rotation with specified forward direction)
 
 
 **Parameters:**
@@ -258,7 +258,7 @@ Creates a rotation with the specified forward and upwards directions
 
 Creates a rotation with the specified forward and upwards directions
 
-**Returns:** <a href="rotation.md">Rotation</a>
+**Returns:** <a href="rotation.md">Rotation</a>  (Rotation with specified forward and up directions)
 
 
 **Parameters:**
@@ -282,7 +282,7 @@ Creates a rotation with the specified forward and upwards directions
 
 Converts this quaternion to one with the same orientation but with a magnitude of 1
 
-**Returns:** <a href="rotation.md">Rotation</a>
+**Returns:** <a href="rotation.md">Rotation</a>  (Normalized rotation)
 
 
 **Parameters:**
@@ -305,7 +305,7 @@ Converts this quaternion to one with the same orientation but with a magnitude o
 
 Rotates a rotation from towards to
 
-**Returns:** <a href="rotation.md">Rotation</a>
+**Returns:** <a href="rotation.md">Rotation</a>  (Rotation rotated from towards to)
 
 
 **Parameters:**
@@ -330,7 +330,7 @@ Rotates a rotation from towards to
 
 Spherically interpolates between quaternions a and b by ratio t. The parameter t is clamped to the range [0, 1]
 
-**Returns:** <a href="rotation.md">Rotation</a>
+**Returns:** <a href="rotation.md">Rotation</a>  (Spherically interpolated rotation)
 
 
 **Parameters:**
@@ -355,7 +355,7 @@ Spherically interpolates between quaternions a and b by ratio t. The parameter t
 
 Spherically interpolates between a and b by t. The parameter t is not clamped
 
-**Returns:** <a href="rotation.md">Rotation</a>
+**Returns:** <a href="rotation.md">Rotation</a>  (Spherically interpolated rotation)
 
 
 **Parameters:**
@@ -384,7 +384,7 @@ Spherically interpolates between a and b by t. The parameter t is not clamped
 
 Creates a rotation which rotates from one direction to another
 
-**Returns:** <a href="rotation.md">Rotation</a>
+**Returns:** <a href="rotation.md">Rotation</a>  (A rotation that would change one direction to the other)
 
 
 **Parameters:**
@@ -408,7 +408,7 @@ Creates a rotation which rotates from one direction to another
 
 Creates a rotation with the specified forward directions
 
-**Returns:** <a href="rotation.md">Rotation</a>
+**Returns:** <a href="rotation.md">Rotation</a>  (The new Rotation)
 
 
 **Parameters:**
@@ -431,7 +431,7 @@ Creates a rotation with the specified forward directions
 
 Creates a rotation with the specified forward and upwards directions
 
-**Returns:** <a href="rotation.md">Rotation</a>
+**Returns:** <a href="rotation.md">Rotation</a>  (The new Rotation)
 
 
 **Parameters:**
@@ -455,7 +455,7 @@ Creates a rotation with the specified forward and upwards directions
 
 Converts a rotation to angle-axis representation
 
-**Returns:** <a href="system.collections.generic.list`1[system.single].md">System.Collections.Generic.List`1[System.Single]</a>
+**Returns:** <a href="system.collections.generic.list`1[system.single].md">System.Collections.Generic.List`1[System.Single]</a>  (A list of 4 numbers: the angle followed by the axis vector x,y and z values)
 
 
 
@@ -471,7 +471,7 @@ Converts a rotation to angle-axis representation
 
 Combines two rotations
 
-**Returns:** <a href="rotation.md">Rotation</a>
+**Returns:** <a href="rotation.md">Rotation</a>  (The rotation that represents applying both rotations in turn)
 
 
 **Parameters:**

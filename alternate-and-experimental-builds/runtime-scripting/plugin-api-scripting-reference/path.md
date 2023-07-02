@@ -24,7 +24,7 @@ A set of transforms that form a path in 3D space. These form the basis for brush
 
 Creates a new empty Path
 
-**Returns:** <a href="path.md">Path</a>
+**Returns:** <a href="path.md">Path</a> 
 
 
 
@@ -40,7 +40,7 @@ Creates a new empty Path
 
 Creates a path from a list of Transforms
 
-**Returns:** <a href="path.md">Path</a>
+**Returns:** <a href="path.md">Path</a> 
 
 
 **Parameters:**
@@ -63,7 +63,7 @@ Creates a path from a list of Transforms
 
 Creates a path from a list of Vector3 positions
 
-**Returns:** <a href="path.md">Path</a>
+**Returns:** <a href="path.md">Path</a> 
 
 
 **Parameters:**
@@ -86,7 +86,7 @@ Creates a path from a list of Vector3 positions
 
 Generates a hermite spline
 
-**Returns:** <a href="path.md">Path</a>
+**Returns:** <a href="path.md">Path</a>  (Instance of PathApiWrapper)
 
 
 **Parameters:**
@@ -118,7 +118,7 @@ Generates a hermite spline
 
 Returns a vector representing the direction of the path at the given point
 
-**Returns:** <a href="vector3.md">Vector3</a>
+**Returns:** <a href="vector3.md">Vector3</a> 
 
 
 **Parameters:**
@@ -141,7 +141,7 @@ Returns a vector representing the direction of the path at the given point
 
 Returns a vector representing the normal of the path at the given point
 
-**Returns:** <a href="vector3.md">Vector3</a>
+**Returns:** <a href="vector3.md">Vector3</a> 
 
 
 **Parameters:**
@@ -164,7 +164,7 @@ Returns a vector representing the normal of the path at the given point
 
 Returns a vector representing the tangent of the path at the given point
 
-**Returns:** <a href="vector3.md">Vector3</a>
+**Returns:** <a href="vector3.md">Vector3</a> 
 
 
 **Parameters:**
@@ -187,7 +187,7 @@ Returns a vector representing the tangent of the path at the given point
 
 Draws this path as a brush stroke using current settings
 
-**Returns:** nil
+**Returns:** nil 
 
 
 
@@ -203,7 +203,7 @@ Draws this path as a brush stroke using current settings
 
 Inserts a new point at the end of the path
 
-**Returns:** nil
+**Returns:** nil 
 
 
 **Parameters:**
@@ -226,7 +226,7 @@ Inserts a new point at the end of the path
 
 Inserts a new point at the specified index
 
-**Returns:** nil
+**Returns:** nil 
 
 
 **Parameters:**
@@ -250,7 +250,7 @@ Inserts a new point at the specified index
 
 Transforms all points in the path by the specific amount
 
-**Returns:** nil
+**Returns:** nil 
 
 
 **Parameters:**
@@ -273,7 +273,7 @@ Transforms all points in the path by the specific amount
 
 Changes the position of all points in the path by a given amount
 
-**Returns:** nil
+**Returns:** nil 
 
 
 **Parameters:**
@@ -296,7 +296,7 @@ Changes the position of all points in the path by a given amount
 
 Rotates all points in the path around the origin by a given amount
 
-**Returns:** nil
+**Returns:** nil 
 
 
 **Parameters:**
@@ -319,7 +319,7 @@ Rotates all points in the path around the origin by a given amount
 
 Scales the path
 
-**Returns:** nil
+**Returns:** nil 
 
 
 **Parameters:**
@@ -342,7 +342,7 @@ Scales the path
 
 Moves all points on the path so that their common center is the origin
 
-**Returns:** nil
+**Returns:** nil 
 
 
 
@@ -358,7 +358,7 @@ Moves all points on the path so that their common center is the origin
 
 Reorders the points so that point at the given index is shifted to be the first point
 
-**Returns:** nil
+**Returns:** nil 
 
 
 **Parameters:**
@@ -381,7 +381,7 @@ Reorders the points so that point at the given index is shifted to be the first 
 
 Returns the index of the point closest to the given position
 
-**Returns:** number
+**Returns:** number 
 
 
 **Parameters:**
@@ -404,7 +404,7 @@ Returns the index of the point closest to the given position
 
 Returns the index of the point with the smallest X value
 
-**Returns:** number
+**Returns:** number 
 
 
 
@@ -420,7 +420,7 @@ Returns the index of the point with the smallest X value
 
 Returns the index of the point with the smallest Y value
 
-**Returns:** number
+**Returns:** number 
 
 
 
@@ -436,7 +436,7 @@ Returns the index of the point with the smallest Y value
 
 Returns the index of the point with the smallest Z value
 
-**Returns:** number
+**Returns:** number 
 
 
 
@@ -452,7 +452,7 @@ Returns the index of the point with the smallest Z value
 
 Returns the index of the point with the biggest X value
 
-**Returns:** number
+**Returns:** number 
 
 
 
@@ -468,7 +468,7 @@ Returns the index of the point with the biggest X value
 
 Returns the index of the point with the biggest Y value
 
-**Returns:** number
+**Returns:** number 
 
 
 
@@ -484,7 +484,7 @@ Returns the index of the point with the biggest Y value
 
 Returns the index of the point with the biggest Z value
 
-**Returns:** number
+**Returns:** number 
 
 
 
@@ -500,7 +500,7 @@ Returns the index of the point with the biggest Z value
 
 Scales and shifts all points so that they fit in a cube of the given size at the origin
 
-**Returns:** nil
+**Returns:** nil 
 
 
 **Parameters:**
@@ -523,7 +523,7 @@ Scales and shifts all points so that they fit in a cube of the given size at the
 
 Resamples the path at a specified spacing
 
-**Returns:** nil
+**Returns:** nil  (The resampled path)
 
 
 **Parameters:**
@@ -546,7 +546,7 @@ Resamples the path at a specified spacing
 
 Subdivides the path into given number of parts.
 
-**Returns:** nil
+**Returns:** nil  (The new subdivided path)
 
 
 **Parameters:**

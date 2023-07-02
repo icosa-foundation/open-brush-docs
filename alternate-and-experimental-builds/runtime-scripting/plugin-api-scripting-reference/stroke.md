@@ -28,7 +28,7 @@ A specific brush stroke
 
 Adds multiple strokes to the current selection
 
-**Returns:** nil
+**Returns:** nil 
 
 
 **Parameters:**
@@ -56,7 +56,7 @@ Adds multiple strokes to the current selection
 
 Assigns the material from another brush type to this stroke (Experimental. Results are unpredictable and are not saved with the scene)
 
-**Returns:** nil
+**Returns:** nil 
 
 
 **Parameters:**
@@ -79,7 +79,7 @@ Assigns the material from another brush type to this stroke (Experimental. Resul
 
 Deletes the current stroke
 
-**Returns:** nil
+**Returns:** nil 
 
 
 
@@ -95,7 +95,7 @@ Deletes the current stroke
 
 Adds this stroke to the current selection
 
-**Returns:** nil
+**Returns:** nil 
 
 
 
@@ -111,7 +111,7 @@ Adds this stroke to the current selection
 
 Joins joins multiple strokes into one stroke
 
-**Returns:** <a href="stroke.md">Stroke</a>
+**Returns:** <a href="stroke.md">Stroke</a> 
 
 
 **Parameters:**
@@ -135,7 +135,7 @@ Joins joins multiple strokes into one stroke
 
 Joins a stroke with the previous stroke
 
-**Returns:** <a href="stroke.md">Stroke</a>
+**Returns:** <a href="stroke.md">Stroke</a> 
 
 
 
@@ -151,7 +151,7 @@ Joins a stroke with the previous stroke
 
 Joins a stroke with the previous stroke
 
-**Returns:** <a href="stroke.md">Stroke</a>
+**Returns:** <a href="stroke.md">Stroke</a> 
 
 
 **Parameters:**
@@ -174,7 +174,7 @@ Joins a stroke with the previous stroke
 
 Imports the file with the specified name from the user's Sketches folder and merges it's strokes into the current sketch
 
-**Returns:** nil
+**Returns:** nil 
 
 
 **Parameters:**

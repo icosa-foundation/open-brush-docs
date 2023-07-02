@@ -26,7 +26,7 @@ The list of Camera Paths in the scene. (You don't instantiate this yourself. Acc
 
 Makes all Camera Paths visible
 
-**Returns:** nil
+**Returns:** nil 
 
 
 
@@ -42,7 +42,7 @@ Makes all Camera Paths visible
 
 Hides all Camera Paths
 
-**Returns:** nil
+**Returns:** nil 
 
 
 
@@ -58,7 +58,7 @@ Hides all Camera Paths
 
 Sets whether to preview the active path or not
 
-**Returns:** nil
+**Returns:** nil 
 
 
 **Parameters:**

@@ -13,7 +13,7 @@ Functions related to SVG images
 
 Parses an SVG path string
 
-**Returns:** <a href="multipath.md">MultiPath</a>
+**Returns:** <a href="multipath.md">MultiPath</a>  (Returns a MultiPath representing the parsed SVG path)
 
 
 **Parameters:**
@@ -36,7 +36,7 @@ Parses an SVG path string
 
 Parses an SVG document
 
-**Returns:** <a href="multipath.md">MultiPath</a>
+**Returns:** <a href="multipath.md">MultiPath</a>  (Returns a MultiPath representing the parsed SVG document)
 
 
 **Parameters:**
@@ -61,7 +61,7 @@ Parses an SVG document
 
 Draws an SVG path string
 
-**Returns:** nil
+**Returns:** nil 
 
 
 **Parameters:**
@@ -85,7 +85,7 @@ Draws an SVG path string
 
 Draws an SVG document
 
-**Returns:** nil
+**Returns:** nil 
 
 
 **Parameters:**

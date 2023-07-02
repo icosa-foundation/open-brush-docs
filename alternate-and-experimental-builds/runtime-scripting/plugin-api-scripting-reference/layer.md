@@ -27,7 +27,7 @@ A layer in the current sketch
 
 Creates and returns a new instance of a Layer
 
-**Returns:** <a href="layer.md">Layer</a>
+**Returns:** <a href="layer.md">Layer</a>  (The new instance of LayerApiWrapper)
 
 
 
@@ -47,7 +47,7 @@ Creates and returns a new instance of a Layer
 
 Move the pivot point of the layer to the average center of it's contents
 
-**Returns:** nil
+**Returns:** nil 
 
 
 
@@ -63,7 +63,7 @@ Move the pivot point of the layer to the average center of it's contents
 
 Shows a visible widget indicating the pivot point of the layer
 
-**Returns:** nil
+**Returns:** nil 
 
 
 
@@ -79,7 +79,7 @@ Shows a visible widget indicating the pivot point of the layer
 
 Hides the visible widget indicating the pivot point of the layer
 
-**Returns:** nil
+**Returns:** nil 
 
 
 
@@ -95,7 +95,7 @@ Hides the visible widget indicating the pivot point of the layer
 
 Deletes all content from the layer
 
-**Returns:** nil
+**Returns:** nil 
 
 
 
@@ -111,7 +111,7 @@ Deletes all content from the layer
 
 Deletes the layer and all it's content
 
-**Returns:** nil
+**Returns:** nil 
 
 
 
@@ -127,7 +127,7 @@ Deletes the layer and all it's content
 
 Combines this layer and the one above it. If this layer is the first layer do nothing
 
-**Returns:** <a href="layer.md">Layer</a>
+**Returns:** <a href="layer.md">Layer</a>  (The resulting LayerApiWrapper instance)
 
 
 
@@ -143,7 +143,7 @@ Combines this layer and the one above it. If this layer is the first layer do no
 
 Combines this layer with the specified layer
 
-**Returns:** nil
+**Returns:** nil 
 
 
 **Parameters:**
@@ -166,7 +166,7 @@ Combines this layer with the specified layer
 
 Shows the layer
 
-**Returns:** nil
+**Returns:** nil 
 
 
 
@@ -182,7 +182,7 @@ Shows the layer
 
 Hides the layer
 
-**Returns:** nil
+**Returns:** nil 
 
 
 

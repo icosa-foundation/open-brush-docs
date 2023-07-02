@@ -26,7 +26,7 @@ The list of available environments. (You don't instantiate this yourself. Access
 
 Returns the environment with the given name, or nil if no environment has that name
 
-**Returns:** <a href="environment.md">Environment</a>
+**Returns:** <a href="environment.md">Environment</a> 
 
 
 **Parameters:**

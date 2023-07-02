@@ -24,7 +24,7 @@ A set of Vector2 points forming a 2D path
 
 Creates a new empty 2d Path
 
-**Returns:** <a href="path2d.md">Path2d</a>
+**Returns:** <a href="path2d.md">Path2d</a> 
 
 
 
@@ -40,7 +40,7 @@ Creates a new empty 2d Path
 
 Creates a 2d path from a list of Vector2 points
 
-**Returns:** <a href="path2d.md">Path2d</a>
+**Returns:** <a href="path2d.md">Path2d</a> 
 
 
 **Parameters:**
@@ -63,7 +63,7 @@ Creates a 2d path from a list of Vector2 points
 
 Creates a path from a list of Vector3 points
 
-**Returns:** <a href="path2d.md">Path2d</a>
+**Returns:** <a href="path2d.md">Path2d</a> 
 
 
 **Parameters:**
@@ -86,7 +86,7 @@ Creates a path from a list of Vector3 points
 
 Generates a regular polygon path
 
-**Returns:** <a href="path2d.md">Path2d</a>
+**Returns:** <a href="path2d.md">Path2d</a>  (The new path)
 
 
 **Parameters:**
@@ -113,7 +113,7 @@ Generates a regular polygon path
 
 Inserts a new point at the end of the path
 
-**Returns:** nil
+**Returns:** nil 
 
 
 **Parameters:**
@@ -136,7 +136,7 @@ Inserts a new point at the end of the path
 
 Inserts a new point at the specified index
 
-**Returns:** nil
+**Returns:** nil 
 
 
 **Parameters:**
@@ -160,7 +160,7 @@ Inserts a new point at the specified index
 
 Converts the 2D path to a 3D path on the YZ plane (i.e. with all x values set to 0)
 
-**Returns:** <a href="path.md">Path</a>
+**Returns:** <a href="path.md">Path</a> 
 
 
 
@@ -176,7 +176,7 @@ Converts the 2D path to a 3D path on the YZ plane (i.e. with all x values set to
 
 Converts the 2D path to a 3D path on the XZ plane (i.e. with all y values set to 0)
 
-**Returns:** <a href="path.md">Path</a>
+**Returns:** <a href="path.md">Path</a> 
 
 
 
@@ -192,7 +192,7 @@ Converts the 2D path to a 3D path on the XZ plane (i.e. with all y values set to
 
 Converts the 2D path to a 3D path on the XY plane (i.e. with all z values set to 0)
 
-**Returns:** <a href="path.md">Path</a>
+**Returns:** <a href="path.md">Path</a> 
 
 
 
@@ -208,7 +208,7 @@ Converts the 2D path to a 3D path on the XY plane (i.e. with all z values set to
 
 Transforms all points in the path by the specific amount
 
-**Returns:** nil
+**Returns:** nil 
 
 
 **Parameters:**
@@ -231,7 +231,7 @@ Transforms all points in the path by the specific amount
 
 Changes the position of all points in the path by a given amount
 
-**Returns:** nil
+**Returns:** nil 
 
 
 **Parameters:**
@@ -254,7 +254,7 @@ Changes the position of all points in the path by a given amount
 
 Rotates all points in the path around the origin by a given amount
 
-**Returns:** nil
+**Returns:** nil 
 
 
 **Parameters:**
@@ -277,7 +277,7 @@ Rotates all points in the path around the origin by a given amount
 
 Scales the path
 
-**Returns:** nil
+**Returns:** nil 
 
 
 **Parameters:**
@@ -300,7 +300,7 @@ Scales the path
 
 Moves all points on the path so that their common center is the origin
 
-**Returns:** nil
+**Returns:** nil 
 
 
 
@@ -316,7 +316,7 @@ Moves all points on the path so that their common center is the origin
 
 Reorders the points so that point at the given index is shifted to be the first point
 
-**Returns:** nil
+**Returns:** nil 
 
 
 **Parameters:**
@@ -339,7 +339,7 @@ Reorders the points so that point at the given index is shifted to be the first 
 
 Returns the index of the point closest to the given position
 
-**Returns:** number
+**Returns:** number 
 
 
 **Parameters:**
@@ -362,7 +362,7 @@ Returns the index of the point closest to the given position
 
 Returns the index of the point with the smallest X value
 
-**Returns:** number
+**Returns:** number 
 
 
 
@@ -378,7 +378,7 @@ Returns the index of the point with the smallest X value
 
 Returns the index of the point with the smallest Y value
 
-**Returns:** number
+**Returns:** number 
 
 
 
@@ -394,7 +394,7 @@ Returns the index of the point with the smallest Y value
 
 Returns the index of the point with the biggest X value
 
-**Returns:** number
+**Returns:** number 
 
 
 
@@ -410,7 +410,7 @@ Returns the index of the point with the biggest X value
 
 Returns the index of the point with the biggest Y value
 
-**Returns:** number
+**Returns:** number 
 
 
 
@@ -426,7 +426,7 @@ Returns the index of the point with the biggest Y value
 
 Scales and shifts all points so that they fit in a 1 unit square at the origin
 
-**Returns:** nil
+**Returns:** nil 
 
 
 **Parameters:**
@@ -449,7 +449,7 @@ Scales and shifts all points so that they fit in a 1 unit square at the origin
 
 Resamples the path at a specified spacing
 
-**Returns:** nil
+**Returns:** nil  (The resampled path)
 
 
 **Parameters:**
