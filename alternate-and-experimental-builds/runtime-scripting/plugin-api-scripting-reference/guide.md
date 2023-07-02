@@ -26,7 +26,7 @@ A guide widget
 
 Creates a new cube guide with a default size using the transform for position and orientation
 
-**Returns:** <a href="guide.md">Guide</a>  (A new GuideApiWrapper with a cube stencil)
+**Returns:** <a href="guide.md">Guide</a>  (A new cube guide)
 
 
 **Parameters:**
@@ -49,7 +49,7 @@ Creates a new cube guide with a default size using the transform for position an
 
 Creates a new sphere guide with a default size using the transform for position and orientation
 
-**Returns:** <a href="guide.md">Guide</a>  (A new GuideApiWrapper with a sphere stencil)
+**Returns:** <a href="guide.md">Guide</a>  (A new sphere guide)
 
 
 **Parameters:**
@@ -72,7 +72,7 @@ Creates a new sphere guide with a default size using the transform for position 
 
 Creates a new capsule guide with a default size using the transform for position and orientation
 
-**Returns:** <a href="guide.md">Guide</a>  (A new GuideApiWrapper with a capsule stencil)
+**Returns:** <a href="guide.md">Guide</a>  (A new capsule guide)
 
 
 **Parameters:**
@@ -95,7 +95,7 @@ Creates a new capsule guide with a default size using the transform for position
 
 Creates a new cone guide with a default size using the transform for position and orientation
 
-**Returns:** <a href="guide.md">Guide</a>  (A new GuideApiWrapper with a cone stencil)
+**Returns:** <a href="guide.md">Guide</a>  (A new cone guide)
 
 
 **Parameters:**
@@ -118,7 +118,7 @@ Creates a new cone guide with a default size using the transform for position an
 
 Creates a new ellipsoid guide with a default size using the transform for position and orientation
 
-**Returns:** <a href="guide.md">Guide</a>  (A new GuideApiWrapper with an ellipsoid stencil)
+**Returns:** <a href="guide.md">Guide</a>  (A new ellipsoid guide)
 
 
 **Parameters:**
@@ -139,9 +139,9 @@ Creates a new ellipsoid guide with a default size using the transform for positi
 
 ### Guide:NewCustom(transform, model)
 
-Creates a new custom guide with a default size using the transform for position and orientation
+Creates a new custom guide from a 3d model. Note that custom guides have to be convex so your model will be "wrapped" as a convex hull
 
-**Returns:** <a href="guide.md">Guide</a>  (A new GuideApiWrapper with a custom stencil)
+**Returns:** <a href="guide.md">Guide</a>  (A new custom guide based on the convex hull of the model)
 
 
 **Parameters:**

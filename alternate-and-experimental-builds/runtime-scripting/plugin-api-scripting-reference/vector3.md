@@ -2,7 +2,7 @@
 # Vector3
 
 ## Summary
-A position or offset in 3D space
+A position or offset in 3D space. See https://docs.unity3d.com/ScriptReference/Vector3.html for more detail on many of these methods or properties
 
 ## Class Properties
 

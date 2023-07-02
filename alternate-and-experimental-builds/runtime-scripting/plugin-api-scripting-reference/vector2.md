@@ -2,7 +2,7 @@
 # Vector2
 
 ## Summary
-A position or offset in 2D space
+A position or offset in 2D space. See https://docs.unity3d.com/ScriptReference/Vector2.html for more detail on many of these methods or properties
 
 ## Class Properties
 
