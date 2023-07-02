@@ -19,7 +19,7 @@ Returns the value of a sine wave at the given time and frequency
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>time</td><td>number</td><td>The time to sample the waveform at</td></tr>
 <tr><td>frequency</td><td>number</td><td>The frequency of the wave</td></tr></tbody></table>
 
@@ -43,7 +43,7 @@ Returns the value of a cosine wave at the given time and frequency
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>time</td><td>number</td><td>The time to sample the waveform at</td></tr>
 <tr><td>frequency</td><td>number</td><td>The frequency of the wave</td></tr></tbody></table>
 
@@ -67,7 +67,7 @@ Returns the value of a triangle wave at the given time and frequency
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>time</td><td>number</td><td>The time to sample the waveform at</td></tr>
 <tr><td>frequency</td><td>number</td><td>The frequency of the wave</td></tr></tbody></table>
 
@@ -91,7 +91,7 @@ Returns the value of a sawtooth wave at the given time and frequency
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>time</td><td>number</td><td>The time to sample the waveform at</td></tr>
 <tr><td>frequency</td><td>number</td><td>The frequency of the wave</td></tr></tbody></table>
 
@@ -115,7 +115,7 @@ Returns the value of a square wave at the given time and frequency
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>time</td><td>number</td><td>The time to sample the waveform at</td></tr>
 <tr><td>frequency</td><td>number</td><td>The frequency of the wave</td></tr></tbody></table>
 
@@ -139,7 +139,7 @@ Returns the value of a pulse wave with a specified pulse width at the given time
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>time</td><td>number</td><td>The time to sample the waveform at</td></tr>
 <tr><td>frequency</td><td>number</td><td>The frequency of the wave</td></tr>
 <tr><td>pulseWidth</td><td>number</td><td>The width of the pulse</td></tr></tbody></table>
@@ -164,7 +164,7 @@ Returns the value of an exponential wave at the given time and frequency
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>time</td><td>number</td><td>The time to sample the waveform at</td></tr>
 <tr><td>frequency</td><td>number</td><td>The frequency of the wave</td></tr></tbody></table>
 
@@ -188,7 +188,7 @@ Returns the value of a power wave at the given time, frequency, and power
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>time</td><td>number</td><td>The time to sample the waveform at</td></tr>
 <tr><td>frequency</td><td>number</td><td>The frequency of the wave</td></tr>
 <tr><td>power</td><td>number</td><td>The power exponent of the wave</td></tr></tbody></table>
@@ -213,7 +213,7 @@ Returns the value of a parabolic wave at the given time and frequency
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>time</td><td>number</td><td>The time to sample the waveform at</td></tr>
 <tr><td>frequency</td><td>number</td><td>The frequency of the wave</td></tr></tbody></table>
 
@@ -237,7 +237,7 @@ Returns the value of an exponential sawtooth wave with the specified exponent at
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>time</td><td>number</td><td>The time to sample the waveform at</td></tr>
 <tr><td>frequency</td><td>number</td><td>The frequency of the wave</td></tr>
 <tr><td>exponent</td><td>number</td><td>The exponent of the wave</td></tr></tbody></table>
@@ -262,7 +262,7 @@ Returns the value of a perlin noise function at the given time and frequency
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>time</td><td>number</td><td>The time to sample the waveform at</td></tr>
 <tr><td>frequency</td><td>number</td><td>The frequency of the wave</td></tr></tbody></table>
 
@@ -302,7 +302,7 @@ Returns the value of a brown noise function
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>previous</td><td>number</td><td>The previous calculated value to feed back into the function</td></tr></tbody></table>
 
 
@@ -325,7 +325,7 @@ Returns the value of a blue noise function
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>previous</td><td>number</td><td>The previous calculated value to feed back into the function</td></tr></tbody></table>
 
 
@@ -348,7 +348,7 @@ Returns a sine wave with the given frequency, duration, and sample rate
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>time</td><td>number</td><td>The time to start sampling the waveform at</td></tr>
 <tr><td>frequency</td><td>number</td><td>The frequency of the wave</td></tr>
 <tr><td>duration</td><td>number</td><td>The duration of samples to generate</td></tr>
@@ -375,7 +375,7 @@ Returns a cosine wave with the given frequency, duration, and sample rate
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>time</td><td>number</td><td>The time to start sampling the waveform at</td></tr>
 <tr><td>frequency</td><td>number</td><td>The frequency of the wave</td></tr>
 <tr><td>duration</td><td>number</td><td>The duration of samples to generate</td></tr>
@@ -402,7 +402,7 @@ Returns a triangle wave with the given frequency, duration, and sample rate
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>time</td><td>number</td><td>The time to start sampling the waveform at</td></tr>
 <tr><td>frequency</td><td>number</td><td>The frequency of the wave</td></tr>
 <tr><td>duration</td><td>number</td><td>The duration of samples to generate</td></tr>
@@ -429,7 +429,7 @@ Returns a sawtooth wave with the given frequency, duration, and sample rate
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>time</td><td>number</td><td>The time to start sampling the waveform at</td></tr>
 <tr><td>frequency</td><td>number</td><td>The frequency of the wave</td></tr>
 <tr><td>duration</td><td>number</td><td>The duration of samples to generate</td></tr>
@@ -456,7 +456,7 @@ Returns a square wave with the given frequency, duration, and sample rate
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>time</td><td>number</td><td>The time to start sampling the waveform at</td></tr>
 <tr><td>frequency</td><td>number</td><td>The frequency of the wave</td></tr>
 <tr><td>duration</td><td>number</td><td>The duration of samples to generate</td></tr>
@@ -483,7 +483,7 @@ Returns an exponential wave with the given frequency, duration, and sample rate
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>time</td><td>number</td><td>The time to start sampling the waveform at</td></tr>
 <tr><td>frequency</td><td>number</td><td>The frequency of the wave</td></tr>
 <tr><td>duration</td><td>number</td><td>The duration of samples to generate</td></tr>
@@ -510,7 +510,7 @@ Returns a parabolic wave with the given frequency, duration, and sample rate
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>time</td><td>number</td><td>The time to start sampling the waveform at</td></tr>
 <tr><td>frequency</td><td>number</td><td>The frequency of the wave</td></tr>
 <tr><td>duration</td><td>number</td><td>The duration of samples to generate</td></tr>
@@ -537,7 +537,7 @@ Returns a pulse wave with the given frequency, pulse width, duration, and sample
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>time</td><td>number</td><td>The time to start sampling the waveform at</td></tr>
 <tr><td>frequency</td><td>number</td><td>The frequency of the wave</td></tr>
 <tr><td>pulseWidth</td><td>number</td><td>The width of the pulse</td></tr>
@@ -565,7 +565,7 @@ Returns a power wave with the given frequency, power, duration, and sample rate
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>time</td><td>number</td><td>The time to start sampling the waveform at</td></tr>
 <tr><td>frequency</td><td>number</td><td>The frequency of the wave</td></tr>
 <tr><td>power</td><td>number</td><td>The power exponent of the wave</td></tr>
@@ -593,7 +593,7 @@ Returns an exponential sawtooth wave with the given frequency, exponent, duratio
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>time</td><td>number</td><td>The time to start sampling the waveform at</td></tr>
 <tr><td>frequency</td><td>number</td><td>The frequency of the wave</td></tr>
 <tr><td>exponent</td><td>number</td><td>The exponent of the wave</td></tr>
@@ -621,7 +621,7 @@ Returns a perlin noise wave with the given frequency, duration, and sample rate
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>time</td><td>number</td><td>The time to start sampling the waveform at</td></tr>
 <tr><td>frequency</td><td>number</td><td>The frequency of the wave</td></tr>
 <tr><td>duration</td><td>number</td><td>The duration of samples to generate</td></tr>
@@ -648,7 +648,7 @@ Returns a white noise wave with the given duration and sample rate
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>duration</td><td>number</td><td>The duration of samples to generate</td></tr>
 <tr><td>sampleRate</td><td>number</td><td>The sample rate of the generated waveform</td></tr>
 <tr><td>amplitude</td><td>number</td><td>The amplitude of the generated waveform</td></tr></tbody></table>
@@ -673,7 +673,7 @@ Returns a brown noise wave with the given duration and sample rate
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>duration</td><td>number</td><td>The duration of samples to generate</td></tr>
 <tr><td>sampleRate</td><td>number</td><td>The sample rate of the generated waveform</td></tr>
 <tr><td>amplitude</td><td>number</td><td>The amplitude of the generated waveform</td></tr></tbody></table>
@@ -698,7 +698,7 @@ Returns a blue noise wave with the given duration and sample rate
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>duration</td><td>number</td><td>The duration of samples to generate</td></tr>
 <tr><td>sampleRate</td><td>number</td><td>The sample rate of the generated waveform</td></tr>
 <tr><td>amplitude</td><td>number</td><td>The amplitude of the generated waveform</td></tr></tbody></table>

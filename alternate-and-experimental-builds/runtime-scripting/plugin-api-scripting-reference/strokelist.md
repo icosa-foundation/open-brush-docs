@@ -7,13 +7,13 @@ The list of Strokes in the scene. (You don't instantiate this yourself. Access t
 
 ## Instance Properties
 
-<table>
-<thead><tr><th width="225">Name</th><th width="160">Return Type</th><th width="80">Read/Write?</th><th>Description</th></tr></thead>
+<table data-full-width="false">
+<thead><tr><th>Name</th><th>Return Type</th><th>Description</th></tr></thead>
 <tbody>
-<tr><td>lastSelected</td><td><a href="stroke.md">Stroke</a></td><td>Read-only</td><td>Returns the last stroke that was selected</td></tr>
-<tr><td>last</td><td><a href="stroke.md">Stroke</a></td><td>Read-only</td><td>Returns the last Stroke</td></tr>
-<tr><td>Item</td><td><a href="stroke.md">Stroke</a></td><td>Read-only</td><td>Returns the Stroke at the given index</td></tr>
-<tr><td>count</td><td>number</td><td>Read-only</td><td>The number of strokes</td></tr>
+<tr><td>lastSelected</td><td><a href="stroke.md">Stroke</a><br>Read-only</td><td>Returns the last stroke that was selected</td></tr>
+<tr><td>last</td><td><a href="stroke.md">Stroke</a><br>Read-only</td><td>Returns the last Stroke</td></tr>
+<tr><td>Item</td><td><a href="stroke.md">Stroke</a><br>Read-only</td><td>Returns the Stroke at the given index</td></tr>
+<tr><td>count</td><td>number<br>Read-only</td><td>The number of strokes</td></tr>
 </tbody></table>
 
 

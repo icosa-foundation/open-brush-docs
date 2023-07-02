@@ -6,29 +6,29 @@ Represents a position, rotation and scale in one object
 
 ## Class Properties
 
-<table>
-<thead><tr><th width="225">Name</th><th width="160">Return Type</th><th width="80">Read/Write?</th><th>Description</th></tr></thead>
+<table data-full-width="false">
+<thead><tr><th>Name</th><th>Return Type</th><th>Description</th></tr></thead>
 <tbody>
-<tr><td>identity</td><td><a href="transform.md">Transform</a></td><td>Read-only</td><td>A transform that does nothing. No translation, rotation or scaling</td></tr>
+<tr><td>identity</td><td><a href="transform.md">Transform</a><br>Read-only</td><td>A transform that does nothing. No translation, rotation or scaling</td></tr>
 </tbody></table>
 
 
 
 ## Instance Properties
 
-<table>
-<thead><tr><th width="225">Name</th><th width="160">Return Type</th><th width="80">Read/Write?</th><th>Description</th></tr></thead>
+<table data-full-width="false">
+<thead><tr><th>Name</th><th>Return Type</th><th>Description</th></tr></thead>
 <tbody>
-<tr><td>inverse</td><td><a href="transform.md">Transform</a></td><td>Read-only</td><td>The inverse of this transform</td></tr>
-<tr><td>up</td><td><a href="vector3.md">Vector3</a></td><td>Read-only</td><td>A translation of 1 in the y axis</td></tr>
-<tr><td>down</td><td><a href="vector3.md">Vector3</a></td><td>Read-only</td><td>A translation of -1 in the y axis</td></tr>
-<tr><td>right</td><td><a href="vector3.md">Vector3</a></td><td>Read-only</td><td>A translation of 1 in the x axis</td></tr>
-<tr><td>left</td><td><a href="vector3.md">Vector3</a></td><td>Read-only</td><td>A translation of -1 in the x axis</td></tr>
-<tr><td>forward</td><td><a href="vector3.md">Vector3</a></td><td>Read-only</td><td>A translation of 1 in the z axis</td></tr>
-<tr><td>back</td><td><a href="vector3.md">Vector3</a></td><td>Read-only</td><td>A translation of -1 in the z axis</td></tr>
-<tr><td>position</td><td><a href="vector3.md">Vector3</a></td><td>Read/Write</td><td>Get or set the position of this transform</td></tr>
-<tr><td>rotation</td><td><a href="rotation.md">Rotation</a></td><td>Read/Write</td><td>Get or set the rotation of this transform</td></tr>
-<tr><td>scale</td><td>number</td><td>Read/Write</td><td>Get or set the scale of this transform</td></tr>
+<tr><td>inverse</td><td><a href="transform.md">Transform</a><br>Read-only</td><td>The inverse of this transform</td></tr>
+<tr><td>up</td><td><a href="vector3.md">Vector3</a><br>Read-only</td><td>A translation of 1 in the y axis</td></tr>
+<tr><td>down</td><td><a href="vector3.md">Vector3</a><br>Read-only</td><td>A translation of -1 in the y axis</td></tr>
+<tr><td>right</td><td><a href="vector3.md">Vector3</a><br>Read-only</td><td>A translation of 1 in the x axis</td></tr>
+<tr><td>left</td><td><a href="vector3.md">Vector3</a><br>Read-only</td><td>A translation of -1 in the x axis</td></tr>
+<tr><td>forward</td><td><a href="vector3.md">Vector3</a><br>Read-only</td><td>A translation of 1 in the z axis</td></tr>
+<tr><td>back</td><td><a href="vector3.md">Vector3</a><br>Read-only</td><td>A translation of -1 in the z axis</td></tr>
+<tr><td>position</td><td><a href="vector3.md">Vector3</a><br>Read/Write</td><td>Get or set the position of this transform</td></tr>
+<tr><td>rotation</td><td><a href="rotation.md">Rotation</a><br>Read/Write</td><td>Get or set the rotation of this transform</td></tr>
+<tr><td>scale</td><td>number<br>Read/Write</td><td>Get or set the scale of this transform</td></tr>
 </tbody></table>
 
 
@@ -46,7 +46,7 @@ Creates a new translation, rotation and scale transform
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>translation</td><td><a href="vector3.md">Vector3</a></td><td>The translation amount</td></tr>
 <tr><td>rotation</td><td><a href="rotation.md">Rotation</a></td><td>The rotation amount</td></tr>
 <tr><td>scale</td><td>number</td><td>The scale amount</td></tr></tbody></table>
@@ -71,7 +71,7 @@ Creates a new translation transform
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>translation</td><td><a href="vector3.md">Vector3</a></td><td>The translation amount</td></tr></tbody></table>
 
 
@@ -94,7 +94,7 @@ Creates a new translation and scale transform
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>translation</td><td><a href="vector3.md">Vector3</a></td><td>The translation amount</td></tr>
 <tr><td>scale</td><td>number</td><td>The scale amount</td></tr></tbody></table>
 
@@ -118,7 +118,7 @@ Creates a new translation transform based on the x, y, z values
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>x</td><td>number</td><td>The x translation amount</td></tr>
 <tr><td>y</td><td>number</td><td>The y translation amount</td></tr>
 <tr><td>z</td><td>number</td><td>The z translation amount</td></tr></tbody></table>
@@ -147,7 +147,7 @@ Applies another transform to this transform
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>transform</td><td><a href="transform.md">Transform</a></td><td>The transform to apply</td></tr></tbody></table>
 
 
@@ -170,7 +170,7 @@ Applies a translation to this transform
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>translation</td><td><a href="vector3.md">Vector3</a></td><td>The translation to apply</td></tr></tbody></table>
 
 
@@ -193,7 +193,7 @@ Applies a rotation to this transform
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>rotation</td><td><a href="rotation.md">Rotation</a></td><td>The rotation to apply</td></tr></tbody></table>
 
 
@@ -216,7 +216,7 @@ Applies a scale to this transform
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>scale</td><td>number</td><td>The scale value to apply</td></tr></tbody></table>
 
 
@@ -239,7 +239,7 @@ Combines another transform with this one (Does the same as "TransformBy")
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>other</td><td><a href="transform.md">Transform</a></td><td>The Transform to apply to this one</td></tr></tbody></table>
 
 

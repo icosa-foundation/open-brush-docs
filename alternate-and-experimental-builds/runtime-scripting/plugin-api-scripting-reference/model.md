@@ -7,14 +7,14 @@ A 3D model widget
 
 ## Instance Properties
 
-<table>
-<thead><tr><th width="225">Name</th><th width="160">Return Type</th><th width="80">Read/Write?</th><th>Description</th></tr></thead>
+<table data-full-width="false">
+<thead><tr><th>Name</th><th>Return Type</th><th>Description</th></tr></thead>
 <tbody>
-<tr><td>index</td><td>number</td><td>Read-only</td><td>The index of the active Model Widget</td></tr>
-<tr><td>transform</td><td><a href="transform.md">Transform</a></td><td>Read/Write</td><td>The transformation of the Model Widget</td></tr>
-<tr><td>position</td><td><a href="vector3.md">Vector3</a></td><td>Read/Write</td><td>The 3D position of the Model Widget</td></tr>
-<tr><td>rotation</td><td><a href="rotation.md">Rotation</a></td><td>Read/Write</td><td>The 3D orientation of the Model Widget</td></tr>
-<tr><td>scale</td><td>number</td><td>Read/Write</td><td>The scale of the Model Widget</td></tr>
+<tr><td>index</td><td>number<br>Read-only</td><td>The index of the active Model Widget</td></tr>
+<tr><td>transform</td><td><a href="transform.md">Transform</a><br>Read/Write</td><td>The transformation of the Model Widget</td></tr>
+<tr><td>position</td><td><a href="vector3.md">Vector3</a><br>Read/Write</td><td>The 3D position of the Model Widget</td></tr>
+<tr><td>rotation</td><td><a href="rotation.md">Rotation</a><br>Read/Write</td><td>The 3D orientation of the Model Widget</td></tr>
+<tr><td>scale</td><td>number<br>Read/Write</td><td>The scale of the Model Widget</td></tr>
 </tbody></table>
 
 
@@ -32,7 +32,7 @@ Imports a new model from the MediaLibrary/Models folder
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>filename</td><td>string</td><td>The filename of the model to be imported</td></tr></tbody></table>
 
 

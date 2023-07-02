@@ -6,22 +6,22 @@ Represents the current sketch
 
 ## Class Properties
 
-<table>
-<thead><tr><th width="225">Name</th><th width="160">Return Type</th><th width="80">Read/Write?</th><th>Description</th></tr></thead>
+<table data-full-width="false">
+<thead><tr><th>Name</th><th>Return Type</th><th>Description</th></tr></thead>
 <tbody>
-<tr><td>cameraPaths</td><td><a href="camerapathlist.md">CameraPathList</a></td><td>Read-only</td><td>Returns a list of active camera paths in the sketch</td></tr>
-<tr><td>strokes</td><td><a href="strokelist.md">StrokeList</a></td><td>Read-only</td><td>Returns a list of all active strokes in the sketch</td></tr>
-<tr><td>layers</td><td><a href="layerlist.md">LayerList</a></td><td>Read-only</td><td>Returns a list of all layers in the sketch</td></tr>
-<tr><td>images</td><td><a href="imagelist.md">ImageList</a></td><td>Read-only</td><td>Returns a list of active image widgets in the sketch</td></tr>
-<tr><td>videos</td><td><a href="videolist.md">VideoList</a></td><td>Read-only</td><td>Returns a list of active video widgets in the sketch</td></tr>
-<tr><td>models</td><td><a href="modellist.md">ModelList</a></td><td>Read-only</td><td>Returns a list of active model widgets in the sketch</td></tr>
-<tr><td>guides</td><td><a href="guidelist.md">GuideList</a></td><td>Read-only</td><td>Returns a list of active stencil widgets in the sketch</td></tr>
-<tr><td>environments</td><td><a href="environmentlist.md">EnvironmentList</a></td><td>Read-only</td><td>Returns a list of all the available environments</td></tr>
-<tr><td>ambientLightColor</td><td><a href="color.md">Color</a></td><td>Read/Write</td><td>The ambient light color</td></tr>
-<tr><td>mainLightColor</td><td><a href="color.md">Color</a></td><td>Read/Write</td><td>The main light's color</td></tr>
-<tr><td>secondaryLightColor</td><td><a href="color.md">Color</a></td><td>Read/Write</td><td>The secondary light's color</td></tr>
-<tr><td>mainLightRotation</td><td><a href="rotation.md">Rotation</a></td><td>Read/Write</td><td>The main light's rotation</td></tr>
-<tr><td>secondaryLightRotation</td><td><a href="rotation.md">Rotation</a></td><td>Read/Write</td><td>The secondary light's rotation</td></tr>
+<tr><td>cameraPaths</td><td><a href="camerapathlist.md">CameraPathList</a><br>Read-only</td><td>Returns a list of active camera paths in the sketch</td></tr>
+<tr><td>strokes</td><td><a href="strokelist.md">StrokeList</a><br>Read-only</td><td>Returns a list of all active strokes in the sketch</td></tr>
+<tr><td>layers</td><td><a href="layerlist.md">LayerList</a><br>Read-only</td><td>Returns a list of all layers in the sketch</td></tr>
+<tr><td>images</td><td><a href="imagelist.md">ImageList</a><br>Read-only</td><td>Returns a list of active image widgets in the sketch</td></tr>
+<tr><td>videos</td><td><a href="videolist.md">VideoList</a><br>Read-only</td><td>Returns a list of active video widgets in the sketch</td></tr>
+<tr><td>models</td><td><a href="modellist.md">ModelList</a><br>Read-only</td><td>Returns a list of active model widgets in the sketch</td></tr>
+<tr><td>guides</td><td><a href="guidelist.md">GuideList</a><br>Read-only</td><td>Returns a list of active stencil widgets in the sketch</td></tr>
+<tr><td>environments</td><td><a href="environmentlist.md">EnvironmentList</a><br>Read-only</td><td>Returns a list of all the available environments</td></tr>
+<tr><td>ambientLightColor</td><td><a href="color.md">Color</a><br>Read/Write</td><td>The ambient light color</td></tr>
+<tr><td>mainLightColor</td><td><a href="color.md">Color</a><br>Read/Write</td><td>The main light's color</td></tr>
+<tr><td>secondaryLightColor</td><td><a href="color.md">Color</a><br>Read/Write</td><td>The secondary light's color</td></tr>
+<tr><td>mainLightRotation</td><td><a href="rotation.md">Rotation</a><br>Read/Write</td><td>The main light's rotation</td></tr>
+<tr><td>secondaryLightRotation</td><td><a href="rotation.md">Rotation</a><br>Read/Write</td><td>The secondary light's rotation</td></tr>
 </tbody></table>
 
 
@@ -40,7 +40,7 @@ Opens a sketch with the specified name in the User's Sketches folder
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>name</td><td>string</td><td>The filename of the sketch</td></tr></tbody></table>
 
 
@@ -63,7 +63,7 @@ Saves the current sketch, possibly overwriting an existing one
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>overwrite</td><td>boolean</td><td>If set to true, overwrite the existing file. If false, the method will not overwrite the file</td></tr></tbody></table>
 
 
@@ -86,7 +86,7 @@ Saves the current sketch with a new name
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>name</td><td>string</td><td>The new name for the sketch</td></tr></tbody></table>
 
 
@@ -141,7 +141,7 @@ Imports a image with the specified name from the MediaLibrary/BackgroundImages f
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>filename</td><td>string</td><td>The filename of the image</td></tr></tbody></table>
 
 

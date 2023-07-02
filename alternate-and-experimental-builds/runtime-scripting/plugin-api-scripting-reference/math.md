@@ -6,15 +6,15 @@ Various maths functions. See https://docs.unity3d.com/ScriptReference/Mathf.html
 
 ## Class Properties
 
-<table>
-<thead><tr><th width="225">Name</th><th width="160">Return Type</th><th width="80">Read/Write?</th><th>Description</th></tr></thead>
+<table data-full-width="false">
+<thead><tr><th>Name</th><th>Return Type</th><th>Description</th></tr></thead>
 <tbody>
-<tr><td>deg2Rad</td><td>number</td><td>Read-only</td><td>A constant that you multiply with a value in degrees to convert it to radians</td></tr>
-<tr><td>epsilon</td><td>number</td><td>Read-only</td><td>The smallest value that a float can have such that 1.0 plus this does not equal 1.0</td></tr>
-<tr><td>positiveInfinity</td><td>number</td><td>Read-only</td><td>Positive Infinity</td></tr>
-<tr><td>negativeInfinity</td><td>number</td><td>Read-only</td><td>Negative Infinity</td></tr>
-<tr><td>pi</td><td>number</td><td>Read-only</td><td>The value of Pi</td></tr>
-<tr><td>rad2Deg</td><td>number</td><td>Read-only</td><td>A constant that you multiply with a value in radians to convert it to degrees</td></tr>
+<tr><td>deg2Rad</td><td>number<br>Read-only</td><td>A constant that you multiply with a value in degrees to convert it to radians</td></tr>
+<tr><td>epsilon</td><td>number<br>Read-only</td><td>The smallest value that a float can have such that 1.0 plus this does not equal 1.0</td></tr>
+<tr><td>positiveInfinity</td><td>number<br>Read-only</td><td>Positive Infinity</td></tr>
+<tr><td>negativeInfinity</td><td>number<br>Read-only</td><td>Negative Infinity</td></tr>
+<tr><td>pi</td><td>number<br>Read-only</td><td>The value of Pi</td></tr>
+<tr><td>rad2Deg</td><td>number<br>Read-only</td><td>A constant that you multiply with a value in radians to convert it to degrees</td></tr>
 </tbody></table>
 
 
@@ -33,7 +33,7 @@ The absolute value function
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>f</td><td>number</td><td>The input value</td></tr></tbody></table>
 
 
@@ -56,7 +56,7 @@ The arc-cosine function
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>f</td><td>number</td><td>The input value</td></tr></tbody></table>
 
 
@@ -79,7 +79,7 @@ Compares two floating point values if they are similar
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>a</td><td>number</td><td>The first value</td></tr>
 <tr><td>b</td><td>number</td><td>The second value</td></tr></tbody></table>
 
@@ -103,7 +103,7 @@ The arc-sine function
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>f</td><td>number</td><td>The input value</td></tr></tbody></table>
 
 
@@ -126,7 +126,7 @@ The arc-tangent function
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>f</td><td>number</td><td>The input value</td></tr></tbody></table>
 
 
@@ -149,7 +149,7 @@ The two argument arc-tangent function
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>y</td><td>number</td><td>The numerator value</td></tr>
 <tr><td>x</td><td>number</td><td>The denominator value</td></tr></tbody></table>
 
@@ -173,7 +173,7 @@ The ceiling function
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>f</td><td>number</td><td>The input value</td></tr></tbody></table>
 
 
@@ -196,7 +196,7 @@ Clamps the given value between the given minimum float and maximum float values.
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>f</td><td>number</td><td>The input value</td></tr>
 <tr><td>min</td><td>number</td><td>The minimum value</td></tr>
 <tr><td>max</td><td>number</td><td>The maximum value</td></tr></tbody></table>
@@ -221,7 +221,7 @@ Clamps value between 0 and 1 and returns value
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>value</td><td>number</td><td>The input value</td></tr></tbody></table>
 
 
@@ -244,7 +244,7 @@ Calculates the closest power of two
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>value</td><td>number</td><td>The input value</td></tr></tbody></table>
 
 
@@ -267,7 +267,7 @@ The cosine function
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>f</td><td>number</td><td>The input value in radians</td></tr></tbody></table>
 
 
@@ -290,7 +290,7 @@ Calculates the shortest difference between two given angles
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>a</td><td>number</td><td>The first value in degrees</td></tr>
 <tr><td>b</td><td>number</td><td>The second value in degrees</td></tr></tbody></table>
 
@@ -314,7 +314,7 @@ The exponent function
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>power</td><td>number</td><td>The input value</td></tr></tbody></table>
 
 
@@ -337,7 +337,7 @@ The floor function
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>f</td><td>number</td><td>The input value</td></tr></tbody></table>
 
 
@@ -360,7 +360,7 @@ Inverse linear interpolation between two values by given ratio
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>min</td><td>number</td><td>The minimum value</td></tr>
 <tr><td>max</td><td>number</td><td>The maximum value</td></tr>
 <tr><td>t</td><td>number</td><td>The input value</td></tr></tbody></table>
@@ -385,7 +385,7 @@ Determines whether a value is a power of two
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>value</td><td>number</td><td>The input value</td></tr></tbody></table>
 
 
@@ -408,7 +408,7 @@ Linearly interpolates two floats by a ratio
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>min</td><td>number</td><td>The minimum value</td></tr>
 <tr><td>max</td><td>number</td><td>The maximum value</td></tr>
 <tr><td>t</td><td>number</td><td>The input value</td></tr></tbody></table>
@@ -433,7 +433,7 @@ Same as Lerp but takes the shortest path between the specified angles wrapping a
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>min</td><td>number</td><td>The start angle in degrees</td></tr>
 <tr><td>max</td><td>number</td><td>The end angle in degrees</td></tr>
 <tr><td>a</td><td>number</td><td>The input value in degrees</td></tr></tbody></table>
@@ -458,7 +458,7 @@ Same as Math:Lerp but allows extrapolated values
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>min</td><td>number</td><td>The minimum value</td></tr>
 <tr><td>max</td><td>number</td><td>The maximum value</td></tr>
 <tr><td>t</td><td>number</td><td>The input value</td></tr></tbody></table>
@@ -483,7 +483,7 @@ The logarithm of a specified number in a specified base
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>f</td><td>number</td><td>The input value</td></tr>
 <tr><td>b</td><td>number</td><td>The base</td></tr></tbody></table>
 
@@ -507,7 +507,7 @@ The base 10 logarithm of a specified number
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>f</td><td>number</td><td>The input value</td></tr></tbody></table>
 
 
@@ -530,7 +530,7 @@ The larger of two float numbers
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>a</td><td>number</td><td>The first input value</td></tr>
 <tr><td>b</td><td>number</td><td>The second input value</td></tr></tbody></table>
 
@@ -554,7 +554,7 @@ The largest value in a sequence of float numbers
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>values</td><td>number[]</td><td>A list of numbers</td></tr></tbody></table>
 
 
@@ -577,7 +577,7 @@ The smaller of two float numbers
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>a</td><td>number</td><td>The first input value</td></tr>
 <tr><td>b</td><td>number</td><td>The second input value</td></tr></tbody></table>
 
@@ -601,7 +601,7 @@ The smallest value in a sequence of float numbers
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>values</td><td>number[]</td><td>A list of numbers</td></tr></tbody></table>
 
 
@@ -624,7 +624,7 @@ Moves a value towards a target value by a given amount
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>current</td><td>number</td><td>The input value</td></tr>
 <tr><td>target</td><td>number</td><td>The target value</td></tr>
 <tr><td>maxDelta</td><td>number</td><td>The largest change allowed each time</td></tr></tbody></table>
@@ -649,7 +649,7 @@ The smallest power of two greater than or equal to the specified number
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>value</td><td>number</td><td>The input value</td></tr></tbody></table>
 
 
@@ -672,7 +672,7 @@ Samples a two-dimensional Perlin noise map
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>x</td><td>number</td><td>The input value</td></tr>
 <tr><td>y</td><td>number</td><td>The power to raise to</td></tr></tbody></table>
 
@@ -696,7 +696,7 @@ Similar to Math:Round except the values alternate between forward and backwards 
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>t</td><td>number</td><td>The input value</td></tr>
 <tr><td>length</td><td>number</td><td>The upper limit</td></tr></tbody></table>
 
@@ -720,7 +720,7 @@ The raised to the specified power
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>f</td><td>number</td><td>The input value</td></tr>
 <tr><td>p</td><td>number</td><td>The power to raise to</td></tr></tbody></table>
 
@@ -744,7 +744,7 @@ Loops the value t - similar to "clock" arithmetic
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>t</td><td>number</td><td>The input value</td></tr>
 <tr><td>length</td><td>number</td><td>The upper limit</td></tr></tbody></table>
 
@@ -768,7 +768,7 @@ The rounding function
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>f</td><td>number</td><td>The input value</td></tr></tbody></table>
 
 
@@ -791,7 +791,7 @@ The sign function
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>f</td><td>number</td><td>The input value</td></tr></tbody></table>
 
 
@@ -814,7 +814,7 @@ The sine function
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>f</td><td>number</td><td>The input value in radians</td></tr></tbody></table>
 
 
@@ -837,7 +837,7 @@ The square root function
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>f</td><td>number</td><td>The input value</td></tr></tbody></table>
 
 
@@ -860,7 +860,7 @@ The smoothstep function
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>from</td><td>number</td><td>The lower range</td></tr>
 <tr><td>to</td><td>number</td><td>The upper range</td></tr>
 <tr><td>t</td><td>number</td><td>The input value</td></tr></tbody></table>
@@ -885,7 +885,7 @@ The tangent of an angle
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>f</td><td>number</td><td>The input value</td></tr></tbody></table>
 
 
@@ -908,7 +908,7 @@ The hyperbolic sine function
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>f</td><td>number</td><td>The input value in radians</td></tr></tbody></table>
 
 
@@ -931,7 +931,7 @@ The hyperbolic cosine function
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>f</td><td>number</td><td>The input value in radians</td></tr></tbody></table>
 
 
@@ -954,7 +954,7 @@ The hyperbolic tangent function
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>f</td><td>number</td><td>The input value in radians</td></tr></tbody></table>
 
 

@@ -131,7 +131,7 @@ Trims control points from all selected brush strokes. Resulting empty strokes ar
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>count</td><td>number</td><td>The number of points to trim from each stroke</td></tr></tbody></table>
 
 

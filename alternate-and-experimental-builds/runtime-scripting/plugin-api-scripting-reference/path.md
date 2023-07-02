@@ -7,12 +7,12 @@ A set of transforms that form a path in 3D space. These form the basis for brush
 
 ## Instance Properties
 
-<table>
-<thead><tr><th width="225">Name</th><th width="160">Return Type</th><th width="80">Read/Write?</th><th>Description</th></tr></thead>
+<table data-full-width="false">
+<thead><tr><th>Name</th><th>Return Type</th><th>Description</th></tr></thead>
 <tbody>
-<tr><td>count</td><td>number</td><td>Read-only</td><td>Returns the number of points in this path</td></tr>
-<tr><td>Item</td><td><a href="transform.md">Transform</a></td><td>Read-only</td><td>Returns the point at the specified index</td></tr>
-<tr><td>last</td><td><a href="transform.md">Transform</a></td><td>Read-only</td><td>Returns the last point in this path</td></tr>
+<tr><td>count</td><td>number<br>Read-only</td><td>Returns the number of points in this path</td></tr>
+<tr><td>Item</td><td><a href="transform.md">Transform</a><br>Read-only</td><td>Returns the point at the specified index</td></tr>
+<tr><td>last</td><td><a href="transform.md">Transform</a><br>Read-only</td><td>Returns the last point in this path</td></tr>
 </tbody></table>
 
 
@@ -46,7 +46,7 @@ Creates a path from a list of Transforms
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>transformList</td><td>Transform[]</td><td>The list of transforms</td></tr></tbody></table>
 
 
@@ -69,7 +69,7 @@ Creates a path from a list of Vector3 positions
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>positionList</td><td>Vector3[]</td><td>The list of positions</td></tr></tbody></table>
 
 
@@ -92,7 +92,7 @@ Generates a hermite spline
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>startTransform</td><td><a href="transform.md">Transform</a></td><td>Starting transformation</td></tr>
 <tr><td>endTransform</td><td><a href="transform.md">Transform</a></td><td>End transformation</td></tr>
 <tr><td>startTangent</td><td><a href="vector3.md">Vector3</a></td><td>Starting tangent</td></tr>
@@ -124,7 +124,7 @@ Returns a vector representing the direction of the path at the given point
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>index</td><td>number</td><td>Index of control point to use</td></tr></tbody></table>
 
 
@@ -147,7 +147,7 @@ Returns a vector representing the normal of the path at the given point
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>index</td><td>number</td><td>Index of control point to use</td></tr></tbody></table>
 
 
@@ -170,7 +170,7 @@ Returns a vector representing the tangent of the path at the given point
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>index</td><td>number</td><td>Index of control point to use</td></tr></tbody></table>
 
 
@@ -209,7 +209,7 @@ Inserts a new point at the end of the path
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>transform</td><td><a href="transform.md">Transform</a></td><td>The transform to be inserted at the end of the path</td></tr></tbody></table>
 
 
@@ -232,7 +232,7 @@ Inserts a new point at the specified index
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>transform</td><td><a href="transform.md">Transform</a></td><td>The transform to be inserted</td></tr>
 <tr><td>index</td><td>number</td><td>The index at which to insert the transform</td></tr></tbody></table>
 
@@ -256,7 +256,7 @@ Transforms all points in the path by the specific amount
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>transform</td><td><a href="transform.md">Transform</a></td><td>The transform to be applied to all points in the path</td></tr></tbody></table>
 
 
@@ -279,7 +279,7 @@ Changes the position of all points in the path by a given amount
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>amount</td><td><a href="vector3.md">Vector3</a></td><td>The distance to move the points</td></tr></tbody></table>
 
 
@@ -302,7 +302,7 @@ Rotates all points in the path around the origin by a given amount
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>amount</td><td><a href="rotation.md">Rotation</a></td><td>The amount by which to rotate the path</td></tr></tbody></table>
 
 
@@ -325,7 +325,7 @@ Scales the path
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>scale</td><td><a href="vector3.md">Vector3</a></td><td>The scaling factor to apply to the path</td></tr></tbody></table>
 
 
@@ -364,7 +364,7 @@ Reorders the points so that point at the given index is shifted to be the first 
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>index</td><td>number</td><td>The index of the point to make the new first point</td></tr></tbody></table>
 
 
@@ -387,7 +387,7 @@ Returns the index of the point closest to the given position
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>point</td><td><a href="vector3.md">Vector3</a></td><td>The 3D position that we are seeking the closest to</td></tr></tbody></table>
 
 
@@ -506,7 +506,7 @@ Scales and shifts all points so that they fit in a cube of the given size at the
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>size</td><td>number</td><td>The size of the cube to fit the path into</td></tr></tbody></table>
 
 
@@ -529,7 +529,7 @@ Resamples the path at a specified spacing
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>spacing</td><td>number</td><td>The space between points in the new pat</td></tr></tbody></table>
 
 
@@ -552,7 +552,7 @@ Subdivides the path into given number of parts.
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>parts</td><td>number</td><td>Number of parts to subdivide into</td></tr></tbody></table>
 
 

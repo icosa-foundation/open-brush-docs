@@ -7,15 +7,15 @@ A layer in the current sketch
 
 ## Instance Properties
 
-<table>
-<thead><tr><th width="225">Name</th><th width="160">Return Type</th><th width="80">Read/Write?</th><th>Description</th></tr></thead>
+<table data-full-width="false">
+<thead><tr><th>Name</th><th>Return Type</th><th>Description</th></tr></thead>
 <tbody>
-<tr><td>index</td><td>number</td><td>Read-only</td><td>Gets the index of the layer in the layer canvases</td></tr>
-<tr><td>active</td><td>boolean</td><td>Read/Write</td><td>Gets or sets a value indicating whether the layer is active</td></tr>
-<tr><td>transform</td><td><a href="transform.md">Transform</a></td><td>Read/Write</td><td>Gets or sets the transform of the layer</td></tr>
-<tr><td>position</td><td><a href="vector3.md">Vector3</a></td><td>Read/Write</td><td>The 3D position of the Layer (specifically the position of it's anchor point</td></tr>
-<tr><td>rotation</td><td><a href="rotation.md">Rotation</a></td><td>Read/Write</td><td>Gets or sets the rotation of the layer in 3D space</td></tr>
-<tr><td>scale</td><td>number</td><td>Read/Write</td><td>Gets or sets the scale of the layer</td></tr>
+<tr><td>index</td><td>number<br>Read-only</td><td>Gets the index of the layer in the layer canvases</td></tr>
+<tr><td>active</td><td>boolean<br>Read/Write</td><td>Gets or sets a value indicating whether the layer is active</td></tr>
+<tr><td>transform</td><td><a href="transform.md">Transform</a><br>Read/Write</td><td>Gets or sets the transform of the layer</td></tr>
+<tr><td>position</td><td><a href="vector3.md">Vector3</a><br>Read/Write</td><td>The 3D position of the Layer (specifically the position of it's anchor point</td></tr>
+<tr><td>rotation</td><td><a href="rotation.md">Rotation</a><br>Read/Write</td><td>Gets or sets the rotation of the layer in 3D space</td></tr>
+<tr><td>scale</td><td>number<br>Read/Write</td><td>Gets or sets the scale of the layer</td></tr>
 </tbody></table>
 
 
@@ -149,7 +149,7 @@ Combines this layer with the specified layer
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>destinationLayer</td><td><a href="layer.md">Layer</a></td><td>The destination layer</td></tr></tbody></table>
 
 

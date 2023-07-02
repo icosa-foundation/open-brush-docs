@@ -7,11 +7,11 @@ Multiple disconnected path segments
 
 ## Instance Properties
 
-<table>
-<thead><tr><th width="225">Name</th><th width="160">Return Type</th><th width="80">Read/Write?</th><th>Description</th></tr></thead>
+<table data-full-width="false">
+<thead><tr><th>Name</th><th>Return Type</th><th>Description</th></tr></thead>
 <tbody>
-<tr><td>count</td><td>number</td><td>Read-only</td><td>Gets the number of paths in the multipath</td></tr>
-<tr><td>pointCount</td><td>number</td><td>Read-only</td><td>Gets the number of points in all paths in the multipath</td></tr>
+<tr><td>count</td><td>number<br>Read-only</td><td>Gets the number of paths in the multipath</td></tr>
+<tr><td>pointCount</td><td>number<br>Read-only</td><td>Gets the number of points in all paths in the multipath</td></tr>
 </tbody></table>
 
 
@@ -45,7 +45,7 @@ Creates a new MultiPath from a list of Paths
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>pathList</td><td>Path[]</td><td>A list of pathApiWrapper objects.</td></tr></tbody></table>
 
 
@@ -68,7 +68,7 @@ Creates a new MultiPath from a text
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>text</td><td>string</td><td>Input text to generate a path.</td></tr></tbody></table>
 
 
@@ -111,7 +111,7 @@ Inserts a path at the end of the multipath
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>path</td><td><a href="path.md">Path</a></td><td>The path to be inserted.</td></tr></tbody></table>
 
 
@@ -134,7 +134,7 @@ Inserts a path at the specified index of the multipath
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>path</td><td><a href="path.md">Path</a></td><td>The path to be inserted</td></tr>
 <tr><td>index</td><td>number</td><td>Inserts the new path at this position in the list of paths</td></tr></tbody></table>
 
@@ -158,7 +158,7 @@ Inserts a point at the end of the last path in the multipath
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>transform</td><td><a href="transform.md">Transform</a></td><td>The point to be inserted</td></tr></tbody></table>
 
 
@@ -181,7 +181,7 @@ Inserts a point at the specified index of the specified path
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>transform</td><td><a href="transform.md">Transform</a></td><td>The point to be inserted</td></tr>
 <tr><td>pathIndex</td><td>number</td><td>Index of the path to add the point to</td></tr>
 <tr><td>pointIndex</td><td>number</td><td>Inserts the point at this index in the list of points</td></tr></tbody></table>
@@ -206,7 +206,7 @@ Transforms the whole set of paths
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>transform</td><td><a href="transform.md">Transform</a></td><td>A Transform specifying the translation, rotation and scale to apply</td></tr></tbody></table>
 
 
@@ -229,7 +229,7 @@ Translates the whole set of paths by a given amount
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>amount</td><td><a href="vector3.md">Vector3</a></td><td>The amount to move the paths by</td></tr></tbody></table>
 
 
@@ -252,7 +252,7 @@ Rotates the whole set of paths by a specified amount
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>rotation</td><td><a href="rotation.md">Rotation</a></td><td>The amount to rotate the paths by</td></tr></tbody></table>
 
 
@@ -275,7 +275,7 @@ Scales the whole set of paths by a specified factor
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>scale</td><td><a href="vector3.md">Vector3</a></td><td>The amount to scale the paths by</td></tr></tbody></table>
 
 
@@ -314,7 +314,7 @@ Scales the whole multipath to fit inside a cube of given size at the origin
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>size</td><td>number</td><td>The size of the cube to fit inside</td></tr></tbody></table>
 
 
@@ -337,7 +337,7 @@ Resamples all paths with a specified spacing between points
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>spacing</td><td>number</td><td>The distance between each new point</td></tr></tbody></table>
 
 

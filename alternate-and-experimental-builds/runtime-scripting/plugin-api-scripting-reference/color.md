@@ -6,40 +6,40 @@ An RGB color
 
 ## Class Properties
 
-<table>
-<thead><tr><th width="225">Name</th><th width="160">Return Type</th><th width="80">Read/Write?</th><th>Description</th></tr></thead>
+<table data-full-width="false">
+<thead><tr><th>Name</th><th>Return Type</th><th>Description</th></tr></thead>
 <tbody>
-<tr><td>black</td><td><a href="color.md">Color</a></td><td>Read-only</td><td>The color black</td></tr>
-<tr><td>blue</td><td><a href="color.md">Color</a></td><td>Read-only</td><td>The color blue</td></tr>
-<tr><td>cyan</td><td><a href="color.md">Color</a></td><td>Read-only</td><td>The color cyan</td></tr>
-<tr><td>gray</td><td><a href="color.md">Color</a></td><td>Read-only</td><td>The color gray</td></tr>
-<tr><td>green</td><td><a href="color.md">Color</a></td><td>Read-only</td><td>The color green</td></tr>
-<tr><td>grey</td><td><a href="color.md">Color</a></td><td>Read-only</td><td>The color grey</td></tr>
-<tr><td>magenta</td><td><a href="color.md">Color</a></td><td>Read-only</td><td>The color magenta</td></tr>
-<tr><td>red</td><td><a href="color.md">Color</a></td><td>Read-only</td><td>The color red</td></tr>
-<tr><td>white</td><td><a href="color.md">Color</a></td><td>Read-only</td><td>The color white</td></tr>
-<tr><td>yellow</td><td><a href="color.md">Color</a></td><td>Read-only</td><td>The color yellow</td></tr>
+<tr><td>black</td><td><a href="color.md">Color</a><br>Read-only</td><td>The color black</td></tr>
+<tr><td>blue</td><td><a href="color.md">Color</a><br>Read-only</td><td>The color blue</td></tr>
+<tr><td>cyan</td><td><a href="color.md">Color</a><br>Read-only</td><td>The color cyan</td></tr>
+<tr><td>gray</td><td><a href="color.md">Color</a><br>Read-only</td><td>The color gray</td></tr>
+<tr><td>green</td><td><a href="color.md">Color</a><br>Read-only</td><td>The color green</td></tr>
+<tr><td>grey</td><td><a href="color.md">Color</a><br>Read-only</td><td>The color grey</td></tr>
+<tr><td>magenta</td><td><a href="color.md">Color</a><br>Read-only</td><td>The color magenta</td></tr>
+<tr><td>red</td><td><a href="color.md">Color</a><br>Read-only</td><td>The color red</td></tr>
+<tr><td>white</td><td><a href="color.md">Color</a><br>Read-only</td><td>The color white</td></tr>
+<tr><td>yellow</td><td><a href="color.md">Color</a><br>Read-only</td><td>The color yellow</td></tr>
 </tbody></table>
 
 
 
 ## Instance Properties
 
-<table>
-<thead><tr><th width="225">Name</th><th width="160">Return Type</th><th width="80">Read/Write?</th><th>Description</th></tr></thead>
+<table data-full-width="false">
+<thead><tr><th>Name</th><th>Return Type</th><th>Description</th></tr></thead>
 <tbody>
-<tr><td>Item</td><td>number</td><td>Read/Write</td><td>Gets or sets the color component at the specified index</td></tr>
-<tr><td>r</td><td>number</td><td>Read-only</td><td>The red component</td></tr>
-<tr><td>g</td><td>number</td><td>Read-only</td><td>The green component</td></tr>
-<tr><td>b</td><td>number</td><td>Read-only</td><td>The blue component</td></tr>
-<tr><td>a</td><td>number</td><td>Read-only</td><td>The alpha component</td></tr>
-<tr><td>grayscale</td><td>number</td><td>Read-only</td><td>The grayscale value</td></tr>
-<tr><td>gamma</td><td><a href="color.md">Color</a></td><td>Read-only</td><td>The gamma color space representation</td></tr>
-<tr><td>linear</td><td><a href="color.md">Color</a></td><td>Read-only</td><td>The linear color space representation</td></tr>
-<tr><td>maxColorComponent</td><td>number</td><td>Read-only</td><td>The maximum color component value</td></tr>
-<tr><td>html</td><td>string</td><td>Read-only</td><td>The HTML hex string of the color (for example "A4D0FF")</td></tr>
-<tr><td>greyscale</td><td>number</td><td>Read-only</td><td>The grayscale value</td></tr>
-<tr><td>hsv</td><td><a href="vector3.md">Vector3</a></td><td>Read-only</td><td>The hue, saturation and brightess</td></tr>
+<tr><td>Item</td><td>number<br>Read/Write</td><td>Gets or sets the color component at the specified index</td></tr>
+<tr><td>r</td><td>number<br>Read-only</td><td>The red component</td></tr>
+<tr><td>g</td><td>number<br>Read-only</td><td>The green component</td></tr>
+<tr><td>b</td><td>number<br>Read-only</td><td>The blue component</td></tr>
+<tr><td>a</td><td>number<br>Read-only</td><td>The alpha component</td></tr>
+<tr><td>grayscale</td><td>number<br>Read-only</td><td>The grayscale value</td></tr>
+<tr><td>gamma</td><td><a href="color.md">Color</a><br>Read-only</td><td>The gamma color space representation</td></tr>
+<tr><td>linear</td><td><a href="color.md">Color</a><br>Read-only</td><td>The linear color space representation</td></tr>
+<tr><td>maxColorComponent</td><td>number<br>Read-only</td><td>The maximum color component value</td></tr>
+<tr><td>html</td><td>string<br>Read-only</td><td>The HTML hex string of the color (for example "A4D0FF")</td></tr>
+<tr><td>greyscale</td><td>number<br>Read-only</td><td>The grayscale value</td></tr>
+<tr><td>hsv</td><td><a href="vector3.md">Vector3</a><br>Read-only</td><td>The hue, saturation and brightess</td></tr>
 </tbody></table>
 
 
@@ -57,7 +57,7 @@ Creates a new instance of a color with the specified RGB values
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>r</td><td>number</td><td>The red component of the color. Default is 0</td></tr>
 <tr><td>g</td><td>number</td><td>The green component of the color. Default is 0</td></tr>
 <tr><td>b</td><td>number</td><td>The blue component of the color. Default is 0</td></tr></tbody></table>
@@ -82,7 +82,7 @@ Creates a new instance of the Color with the color parsed from the specified HTM
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>html</td><td>string</td><td>The HTML string representing the color</td></tr></tbody></table>
 
 
@@ -105,7 +105,7 @@ Performs a linear interpolation between two colors
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>a</td><td><a href="color.md">Color</a></td><td>The start color</td></tr>
 <tr><td>b</td><td><a href="color.md">Color</a></td><td>The end color</td></tr>
 <tr><td>t</td><td>number</td><td>The interpolation value. Should be between 0 and 1</td></tr></tbody></table>
@@ -130,7 +130,7 @@ Performs a linear interpolation between two colors without clamping the interpol
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>a</td><td><a href="color.md">Color</a></td><td>The start color</td></tr>
 <tr><td>b</td><td><a href="color.md">Color</a></td><td>The end color</td></tr>
 <tr><td>t</td><td>number</td><td>The interpolation value</td></tr></tbody></table>
@@ -155,7 +155,7 @@ Converts an HSV color to an RGB color
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>h</td><td>number</td><td>The hue value. Should be between 0 and 1</td></tr>
 <tr><td>s</td><td>number</td><td>The saturation value. Should be between 0 and 1</td></tr>
 <tr><td>v</td><td>number</td><td>The value value. Should be between 0 and 1</td></tr></tbody></table>
@@ -180,7 +180,7 @@ Converts an HSV Vector3 to an RGB color
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>hsv</td><td><a href="vector3.md">Vector3</a></td><td>A Vector3 with xyz representing hsv. All values between 0 and 1</td></tr></tbody></table>
 
 
@@ -207,7 +207,7 @@ Adds the specified color to this color
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>other</td><td><a href="color.md">Color</a></td><td>The color to add</td></tr></tbody></table>
 
 
@@ -230,7 +230,7 @@ Adds the specified RGB values to this color
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>r</td><td>number</td><td>The red component value to add</td></tr>
 <tr><td>g</td><td>number</td><td>The green component value to add</td></tr>
 <tr><td>b</td><td>number</td><td>The blue component value to add</td></tr></tbody></table>
@@ -255,7 +255,7 @@ Subtracts the specified color from this color
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>other</td><td><a href="color.md">Color</a></td><td>The color to subtract</td></tr></tbody></table>
 
 
@@ -278,7 +278,7 @@ Subtracts the specified RGB values from this color
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>r</td><td>number</td><td>The red component value to subtract</td></tr>
 <tr><td>g</td><td>number</td><td>The green component value to subtract</td></tr>
 <tr><td>b</td><td>number</td><td>The blue component value to subtract</td></tr></tbody></table>
@@ -303,7 +303,7 @@ Multiplies this color by the specified value
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>value</td><td>number</td><td>The value to multiply</td></tr></tbody></table>
 
 
@@ -326,7 +326,7 @@ Multiplies this color by the specified RGB values
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>r</td><td>number</td><td>The red component value to multiply</td></tr>
 <tr><td>g</td><td>number</td><td>The green component value to multiply</td></tr>
 <tr><td>b</td><td>number</td><td>The blue component value to multiply</td></tr></tbody></table>
@@ -351,7 +351,7 @@ Divides this color by the specified value
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>value</td><td>number</td><td>The value to divide</td></tr></tbody></table>
 
 
@@ -374,7 +374,7 @@ Determines whether this color is not equal to the specified color
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>other</td><td><a href="color.md">Color</a></td><td>The color to compare</td></tr></tbody></table>
 
 
@@ -397,7 +397,7 @@ Determines whether this color is not equal to the specified RGB values
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>r</td><td>number</td><td>The red component value to compare</td></tr>
 <tr><td>g</td><td>number</td><td>The green component value to compare</td></tr>
 <tr><td>b</td><td>number</td><td>The blue component value to compare</td></tr></tbody></table>

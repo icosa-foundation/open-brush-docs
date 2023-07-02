@@ -6,32 +6,32 @@ A position or offset in 2D space. See https://docs.unity3d.com/ScriptReference/V
 
 ## Class Properties
 
-<table>
-<thead><tr><th width="225">Name</th><th width="160">Return Type</th><th width="80">Read/Write?</th><th>Description</th></tr></thead>
+<table data-full-width="false">
+<thead><tr><th>Name</th><th>Return Type</th><th>Description</th></tr></thead>
 <tbody>
-<tr><td>down</td><td><a href="vector2.md">Vector2</a></td><td>Read-only</td><td>A vector of -1 in the y axis</td></tr>
-<tr><td>left</td><td><a href="vector2.md">Vector2</a></td><td>Read-only</td><td>A vector of -1 in the x axis</td></tr>
-<tr><td>negativeInfinity</td><td><a href="vector2.md">Vector2</a></td><td>Read-only</td><td>A vector of negative infinity in all axes</td></tr>
-<tr><td>one</td><td><a href="vector2.md">Vector2</a></td><td>Read-only</td><td>A vector of 1 in all axes</td></tr>
-<tr><td>positiveInfinity</td><td><a href="vector2.md">Vector2</a></td><td>Read-only</td><td>A vector of positive infinity in all axes</td></tr>
-<tr><td>right</td><td><a href="vector2.md">Vector2</a></td><td>Read-only</td><td>A vector of 1 in the x axis</td></tr>
-<tr><td>up</td><td><a href="vector2.md">Vector2</a></td><td>Read-only</td><td>A vector of 1 in the y axis</td></tr>
-<tr><td>zero</td><td><a href="vector2.md">Vector2</a></td><td>Read-only</td><td>A vector of 0 in all axes</td></tr>
+<tr><td>down</td><td><a href="vector2.md">Vector2</a><br>Read-only</td><td>A vector of -1 in the y axis</td></tr>
+<tr><td>left</td><td><a href="vector2.md">Vector2</a><br>Read-only</td><td>A vector of -1 in the x axis</td></tr>
+<tr><td>negativeInfinity</td><td><a href="vector2.md">Vector2</a><br>Read-only</td><td>A vector of negative infinity in all axes</td></tr>
+<tr><td>one</td><td><a href="vector2.md">Vector2</a><br>Read-only</td><td>A vector of 1 in all axes</td></tr>
+<tr><td>positiveInfinity</td><td><a href="vector2.md">Vector2</a><br>Read-only</td><td>A vector of positive infinity in all axes</td></tr>
+<tr><td>right</td><td><a href="vector2.md">Vector2</a><br>Read-only</td><td>A vector of 1 in the x axis</td></tr>
+<tr><td>up</td><td><a href="vector2.md">Vector2</a><br>Read-only</td><td>A vector of 1 in the y axis</td></tr>
+<tr><td>zero</td><td><a href="vector2.md">Vector2</a><br>Read-only</td><td>A vector of 0 in all axes</td></tr>
 </tbody></table>
 
 
 
 ## Instance Properties
 
-<table>
-<thead><tr><th width="225">Name</th><th width="160">Return Type</th><th width="80">Read/Write?</th><th>Description</th></tr></thead>
+<table data-full-width="false">
+<thead><tr><th>Name</th><th>Return Type</th><th>Description</th></tr></thead>
 <tbody>
-<tr><td>Item</td><td>number</td><td>Read/Write</td><td>Gets or sets the component at the specified index</td></tr>
-<tr><td>x</td><td>number</td><td>Read/Write</td><td>Gets or sets the x coordinate</td></tr>
-<tr><td>y</td><td>number</td><td>Read/Write</td><td>Gets or sets the y coordinate</td></tr>
-<tr><td>magnitude</td><td>number</td><td>Read-only</td><td>The length of this vector</td></tr>
-<tr><td>sqrMagnitude</td><td>number</td><td>Read-only</td><td>The square of the length of this vector (faster to calculate if you're just comparing two lengths)</td></tr>
-<tr><td>normalized</td><td><a href="vector2.md">Vector2</a></td><td>Read-only</td><td>Returns a vector with the same distance but witha length of 1</td></tr>
+<tr><td>Item</td><td>number<br>Read/Write</td><td>Gets or sets the component at the specified index</td></tr>
+<tr><td>x</td><td>number<br>Read/Write</td><td>Gets or sets the x coordinate</td></tr>
+<tr><td>y</td><td>number<br>Read/Write</td><td>Gets or sets the y coordinate</td></tr>
+<tr><td>magnitude</td><td>number<br>Read-only</td><td>The length of this vector</td></tr>
+<tr><td>sqrMagnitude</td><td>number<br>Read-only</td><td>The square of the length of this vector (faster to calculate if you're just comparing two lengths)</td></tr>
+<tr><td>normalized</td><td><a href="vector2.md">Vector2</a><br>Read-only</td><td>Returns a vector with the same distance but witha length of 1</td></tr>
 </tbody></table>
 
 
@@ -49,7 +49,7 @@ Creates a new vector
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>x</td><td>number</td><td>The x coordinate</td></tr>
 <tr><td>y</td><td>number</td><td>The y coordinate</td></tr></tbody></table>
 
@@ -73,7 +73,7 @@ The dot product of two vectors
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>a</td><td><a href="vector2.md">Vector2</a></td><td>The first vector</td></tr>
 <tr><td>b</td><td><a href="vector2.md">Vector2</a></td><td>The second vector</td></tr></tbody></table>
 
@@ -97,7 +97,7 @@ Linearly interpolates between two points
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>a</td><td><a href="vector2.md">Vector2</a></td><td>The first point</td></tr>
 <tr><td>b</td><td><a href="vector2.md">Vector2</a></td><td>The second point</td></tr>
 <tr><td>t</td><td>number</td><td>The value between 0 and 1 that controls how far between a and b the new point is</td></tr></tbody></table>
@@ -122,7 +122,7 @@ Linearly interpolates (or extrapolates) between two points
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>a</td><td><a href="vector2.md">Vector2</a></td><td>The first point</td></tr>
 <tr><td>b</td><td><a href="vector2.md">Vector2</a></td><td>The second point</td></tr>
 <tr><td>t</td><td>number</td><td>The value that controls how far between (or beyond) a and b the new point is</td></tr></tbody></table>
@@ -147,7 +147,7 @@ Creates a vector made from the largest components of the inputs
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>a</td><td><a href="vector2.md">Vector2</a></td><td>The first vector</td></tr>
 <tr><td>b</td><td><a href="vector2.md">Vector2</a></td><td>The second vector</td></tr></tbody></table>
 
@@ -171,7 +171,7 @@ Creates a vector made from the largest components of the inputs
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>a</td><td><a href="vector2.md">Vector2</a></td><td>The first vector</td></tr>
 <tr><td>b</td><td><a href="vector2.md">Vector2</a></td><td>The second vector</td></tr></tbody></table>
 
@@ -195,7 +195,7 @@ Spherically interpolates between two vectors
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>a</td><td><a href="vector2.md">Vector2</a></td><td>The first point</td></tr>
 <tr><td>b</td><td><a href="vector2.md">Vector2</a></td><td>The second point</td></tr>
 <tr><td>t</td><td>number</td><td>The value that controls how far between (or beyond) a and b the new point is</td></tr></tbody></table>
@@ -220,7 +220,7 @@ Spherically interpolates (or extrapolates) between two vectors
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>a</td><td><a href="vector2.md">Vector2</a></td><td>The first point</td></tr>
 <tr><td>b</td><td><a href="vector2.md">Vector2</a></td><td>The second point</td></tr>
 <tr><td>t</td><td>number</td><td>The value that controls how far between (or beyond) a and b the new point is</td></tr></tbody></table>
@@ -245,7 +245,7 @@ Returns the point the given number of degrees around a circle with radius 1
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>degrees</td><td>number</td><td>The angle in degrees</td></tr></tbody></table>
 
 
@@ -272,7 +272,7 @@ The unsigned angle in degrees between this vector and another
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>other</td><td><a href="vector2.md">Vector2</a></td><td>The other vector</td></tr></tbody></table>
 
 
@@ -295,7 +295,7 @@ Returns a vector with the same direction but with it's length clamped to a maxim
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>maxLength</td><td>number</td><td>The maximum length of the new vector</td></tr></tbody></table>
 
 
@@ -318,7 +318,7 @@ The distance between two points
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>other</td><td><a href="vector2.md">Vector2</a></td><td>The other vector</td></tr></tbody></table>
 
 
@@ -341,7 +341,7 @@ Moves a point towards a target point
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>target</td><td><a href="vector2.md">Vector2</a></td><td>The target point</td></tr>
 <tr><td>maxDistanceDelta</td><td>number</td><td>The maximum distance to move</td></tr></tbody></table>
 
@@ -365,7 +365,7 @@ Reflects a vector off the vector defined by a normal
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>normal</td><td><a href="vector2.md">Vector2</a></td><td>The normal vector</td></tr></tbody></table>
 
 
@@ -388,7 +388,7 @@ Scales a vector by multiplying it's components by the components of another vect
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>other</td><td><a href="vector2.md">Vector2</a></td><td>The vector to scale by</td></tr></tbody></table>
 
 
@@ -411,7 +411,7 @@ Returns the signed angle in degrees between this vector and another
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>other</td><td><a href="vector2.md">Vector2</a></td><td>The other vector</td></tr></tbody></table>
 
 
@@ -482,7 +482,7 @@ Adds this vector to another
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>other</td><td><a href="vector2.md">Vector2</a></td><td>The other vector</td></tr></tbody></table>
 
 
@@ -505,7 +505,7 @@ Adds the given x and y values to this vector
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>x</td><td>number</td><td>The x value</td></tr>
 <tr><td>y</td><td>number</td><td>The y value</td></tr></tbody></table>
 
@@ -529,7 +529,7 @@ Subtracts another vector from this one
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>other</td><td><a href="vector2.md">Vector2</a></td><td>The other vector</td></tr></tbody></table>
 
 
@@ -552,7 +552,7 @@ Subtracts the given x and y values from this vector
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>x</td><td>number</td><td>The x value</td></tr>
 <tr><td>y</td><td>number</td><td>The y value</td></tr></tbody></table>
 
@@ -576,7 +576,7 @@ Multiplies a vector by a scalar value
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>value</td><td>number</td><td>The value to multiply by</td></tr></tbody></table>
 
 
@@ -599,7 +599,7 @@ Multiplies this vector by another component-wise
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>other</td><td><a href="vector2.md">Vector2</a></td><td>The other vector</td></tr></tbody></table>
 
 
@@ -622,7 +622,7 @@ Multiplies each component of this vector by the given x and y values
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>x</td><td>number</td><td>The x value</td></tr>
 <tr><td>y</td><td>number</td><td>The y value</td></tr></tbody></table>
 
@@ -646,7 +646,7 @@ Divides this vector by another
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>value</td><td>number</td><td>The value to divide by</td></tr></tbody></table>
 
 
@@ -669,7 +669,7 @@ Is this vector not equal to another?
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>other</td><td><a href="vector2.md">Vector2</a></td><td>The other vector</td></tr></tbody></table>
 
 
@@ -692,7 +692,7 @@ Is this vector not equal to the given x and y values?
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>x</td><td>number</td><td>The x value</td></tr>
 <tr><td>y</td><td>number</td><td>The y value</td></tr></tbody></table>
 

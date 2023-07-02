@@ -7,14 +7,14 @@ A reference image widget
 
 ## Instance Properties
 
-<table>
-<thead><tr><th width="225">Name</th><th width="160">Return Type</th><th width="80">Read/Write?</th><th>Description</th></tr></thead>
+<table data-full-width="false">
+<thead><tr><th>Name</th><th>Return Type</th><th>Description</th></tr></thead>
 <tbody>
-<tr><td>index</td><td>number</td><td>Read-only</td><td>The index of the active widget</td></tr>
-<tr><td>transform</td><td><a href="transform.md">Transform</a></td><td>Read/Write</td><td>Gets or sets the transform of the image widget</td></tr>
-<tr><td>position</td><td><a href="vector3.md">Vector3</a></td><td>Read/Write</td><td>The 3D position of the Image Widget</td></tr>
-<tr><td>rotation</td><td><a href="rotation.md">Rotation</a></td><td>Read/Write</td><td>The 3D orientation of the Image Widget</td></tr>
-<tr><td>scale</td><td>number</td><td>Read/Write</td><td>The scale of the image widget</td></tr>
+<tr><td>index</td><td>number<br>Read-only</td><td>The index of the active widget</td></tr>
+<tr><td>transform</td><td><a href="transform.md">Transform</a><br>Read/Write</td><td>Gets or sets the transform of the image widget</td></tr>
+<tr><td>position</td><td><a href="vector3.md">Vector3</a><br>Read/Write</td><td>The 3D position of the Image Widget</td></tr>
+<tr><td>rotation</td><td><a href="rotation.md">Rotation</a><br>Read/Write</td><td>The 3D orientation of the Image Widget</td></tr>
+<tr><td>scale</td><td>number<br>Read/Write</td><td>The scale of the image widget</td></tr>
 </tbody></table>
 
 
@@ -32,7 +32,7 @@ Imports an image widget based on the specified location
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>location</td><td>string</td><td>The location of the image</td></tr></tbody></table>
 
 
@@ -59,7 +59,7 @@ Extrudes the image widget with the specified depth and color
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>depth</td><td>number</td><td>The depth of the extrusion</td></tr>
 <tr><td>color</td><td><a href="color.md">Color</a></td><td>The color of the extrusion</td></tr></tbody></table>
 
@@ -131,7 +131,7 @@ Saves an image as a png based on base64 data
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>base64</td><td>string</td><td>The base64 data for the image</td></tr>
 <tr><td>filename</td><td>string</td><td>The filename to save as</td></tr></tbody></table>
 

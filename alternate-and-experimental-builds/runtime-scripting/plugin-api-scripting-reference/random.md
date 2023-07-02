@@ -6,16 +6,16 @@ Various functions for generating random data
 
 ## Class Properties
 
-<table>
-<thead><tr><th width="225">Name</th><th width="160">Return Type</th><th width="80">Read/Write?</th><th>Description</th></tr></thead>
+<table data-full-width="false">
+<thead><tr><th>Name</th><th>Return Type</th><th>Description</th></tr></thead>
 <tbody>
-<tr><td>insideUnitCircle</td><td><a href="vector2.md">Vector2</a></td><td>Read-only</td><td>Returns a random 2d point inside a circle of radius 1</td></tr>
-<tr><td>insideUnitSphere</td><td><a href="vector3.md">Vector3</a></td><td>Read-only</td><td>Returns a random 3d point inside a sphere of radius 1</td></tr>
-<tr><td>onUnitSphere</td><td><a href="vector3.md">Vector3</a></td><td>Read-only</td><td>Returns a random 3d point on the surface of a sphere of radius 1</td></tr>
-<tr><td>rotation</td><td><a href="rotation.md">Rotation</a></td><td>Read-only</td><td>Returns a random rotation</td></tr>
-<tr><td>rotationUniform</td><td><a href="rotation.md">Rotation</a></td><td>Read-only</td><td>Returns a random rotation with uniform distribution</td></tr>
-<tr><td>value</td><td>number</td><td>Read-only</td><td>Returns a random number between 0 and 1</td></tr>
-<tr><td>color</td><td><a href="color.md">Color</a></td><td>Read-only</td><td>Returns a random color</td></tr>
+<tr><td>insideUnitCircle</td><td><a href="vector2.md">Vector2</a><br>Read-only</td><td>Returns a random 2d point inside a circle of radius 1</td></tr>
+<tr><td>insideUnitSphere</td><td><a href="vector3.md">Vector3</a><br>Read-only</td><td>Returns a random 3d point inside a sphere of radius 1</td></tr>
+<tr><td>onUnitSphere</td><td><a href="vector3.md">Vector3</a><br>Read-only</td><td>Returns a random 3d point on the surface of a sphere of radius 1</td></tr>
+<tr><td>rotation</td><td><a href="rotation.md">Rotation</a><br>Read-only</td><td>Returns a random rotation</td></tr>
+<tr><td>rotationUniform</td><td><a href="rotation.md">Rotation</a><br>Read-only</td><td>Returns a random rotation with uniform distribution</td></tr>
+<tr><td>value</td><td>number<br>Read-only</td><td>Returns a random number between 0 and 1</td></tr>
+<tr><td>color</td><td><a href="color.md">Color</a><br>Read-only</td><td>Returns a random color</td></tr>
 </tbody></table>
 
 
@@ -34,7 +34,7 @@ Returns a random color within given ranges
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>hueMin</td><td>number</td><td>Minimum hue</td></tr>
 <tr><td>hueMax</td><td>number</td><td>Maximum hue</td></tr>
 <tr><td>saturationMin</td><td>number</td><td>Minimum saturation</td></tr>
@@ -62,7 +62,7 @@ Initializes the random number generator with a specified seed
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>seed</td><td>number</td><td>The seed for the random number generator</td></tr></tbody></table>
 
 
@@ -85,7 +85,7 @@ Returns a random float number between min and max (inclusive
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>min</td><td>number</td><td>Minimum value</td></tr>
 <tr><td>max</td><td>number</td><td>Maximum value</td></tr></tbody></table>
 
@@ -109,7 +109,7 @@ Returns a random float number between min and max
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>min</td><td>number</td><td>Minimum value</td></tr>
 <tr><td>max</td><td>number</td><td>Maximum value</td></tr></tbody></table>
 
