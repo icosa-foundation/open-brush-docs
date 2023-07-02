@@ -12,6 +12,7 @@ The list of available environments. (You don't instantiate this yourself. Access
 <tbody>
 <tr><td>last</td><td><a href="environment.md">Environment</a><br>Read-only</td><td>Returns the last environment</td></tr>
 <tr><td>current</td><td><a href="environment.md">Environment</a><br>Read/Write</td><td>Returns the current environment</td></tr>
+<tr><td>this[index]</td><td><a href="environment.md">Environment</a><br>Read-only</td><td>Returns the environment at the given index</td></tr>
 <tr><td>count</td><td>number<br>Read-only</td><td>The number of available environments</td></tr>
 </tbody></table>
 

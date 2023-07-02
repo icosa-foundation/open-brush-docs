@@ -11,6 +11,7 @@ A set of transforms that form a path in 3D space. These form the basis for brush
 <thead><tr><th>Name</th><th>Return Type</th><th>Description</th></tr></thead>
 <tbody>
 <tr><td>count</td><td>number<br>Read-only</td><td>Returns the number of points in this path</td></tr>
+<tr><td>this[index]</td><td><a href="transform.md">Transform</a><br>Read-only</td><td>Returns the point at the specified index</td></tr>
 <tr><td>last</td><td><a href="transform.md">Transform</a><br>Read-only</td><td>Returns the last point in this path</td></tr>
 </tbody></table>
 

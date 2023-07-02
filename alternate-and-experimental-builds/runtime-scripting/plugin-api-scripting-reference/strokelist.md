@@ -12,6 +12,7 @@ The list of Strokes in the scene. (You don't instantiate this yourself. Access t
 <tbody>
 <tr><td>lastSelected</td><td><a href="stroke.md">Stroke</a><br>Read-only</td><td>Returns the last stroke that was selected</td></tr>
 <tr><td>last</td><td><a href="stroke.md">Stroke</a><br>Read-only</td><td>Returns the last Stroke</td></tr>
+<tr><td>this[index]</td><td><a href="stroke.md">Stroke</a><br>Read-only</td><td>Returns the Stroke at the given index</td></tr>
 <tr><td>count</td><td>number<br>Read-only</td><td>The number of strokes</td></tr>
 </tbody></table>
 

@@ -25,6 +25,7 @@ Represents a rotation or orientation in 3D space. See https://docs.unity3d.com/S
 <table data-full-width="false">
 <thead><tr><th>Name</th><th>Return Type</th><th>Description</th></tr></thead>
 <tbody>
+<tr><td>this[index]</td><td>number<br>Read/Write</td><td>The amount of rotation in degrees around a single axis (0=x, 1=y, 2=z)</td></tr>
 <tr><td>x</td><td>number<br>Read/Write</td><td>The amount of rotation around the x axis in degrees</td></tr>
 <tr><td>y</td><td>number<br>Read/Write</td><td>The amount of rotation around the y axis in degrees</td></tr>
 <tr><td>z</td><td>number<br>Read/Write</td><td>The amount of rotation around the z axis in degrees</td></tr>
