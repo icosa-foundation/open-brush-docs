@@ -26,7 +26,6 @@ A position or offset in 2D space. See https://docs.unity3d.com/ScriptReference/V
 <table data-full-width="false">
 <thead><tr><th>Name</th><th>Return Type</th><th>Description</th></tr></thead>
 <tbody>
-<tr><td>Item</td><td>number<br>Read/Write</td><td>Gets or sets the component at the specified index</td></tr>
 <tr><td>x</td><td>number<br>Read/Write</td><td>Gets or sets the x coordinate</td></tr>
 <tr><td>y</td><td>number<br>Read/Write</td><td>Gets or sets the y coordinate</td></tr>
 <tr><td>magnitude</td><td>number<br>Read-only</td><td>The length of this vector</td></tr>

@@ -11,7 +11,6 @@ A set of Vector2 points forming a 2D path
 <thead><tr><th>Name</th><th>Return Type</th><th>Description</th></tr></thead>
 <tbody>
 <tr><td>count</td><td>number<br>Read-only</td><td>Returns the number of points in this path</td></tr>
-<tr><td>Item</td><td><a href="transform.md">Transform</a><br>Read-only</td><td>Returns the point at the specified index</td></tr>
 <tr><td>last</td><td><a href="transform.md">Transform</a><br>Read-only</td><td>Returns the last point in this path</td></tr>
 </tbody></table>
 
