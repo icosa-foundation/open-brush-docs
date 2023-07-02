@@ -36,7 +36,7 @@ Represents a position, rotation and scale in one object
 ## Class Methods
 
         
-### Transform:New(translation, rotation, scale)
+### Transform:NewTRS(translation, rotation, scale)
 
 Creates a new translation, rotation and scale transform
 
@@ -108,29 +108,6 @@ Creates a new translation and scale transform
 
 
 
-### Transform:New(scale)
-
-Creates a new scale transform
-
-**Returns:** <a href="transform.md">Transform</a>
-
-
-**Parameters:**
-
-<table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>scale</td><td>number</td><td>The scale amount</td></tr></tbody></table>
-
-
-
-
-#### Example
-
-<pre class="language-lua"><code class="lang-lua"><strong>myTransform = Transform:New(2)</strong></code></pre>
-
-
-
-
 ### Transform:New(x, y, z)
 
 Creates a new translation transform based on the x, y, z values
@@ -171,9 +148,14 @@ Applies another transform to this transform
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>transform</td><td><a href="transform.md">Transform</a></td><td>The transform to apply to this transform</td></tr></tbody></table>
+<tbody><tr><td>transform</td><td><a href="transform.md">Transform</a></td><td>The transform to apply</td></tr></tbody></table>
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>newTransform = myTransform:TransformBy(myOtherTransform)</strong></code></pre>
 
 
 
@@ -189,9 +171,14 @@ Applies a translation to this transform
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>translation</td><td><a href="vector3.md">Vector3</a></td><td>The translation to apply to this transform</td></tr></tbody></table>
+<tbody><tr><td>translation</td><td><a href="vector3.md">Vector3</a></td><td>The translation to apply</td></tr></tbody></table>
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>newTransform = myTransform:TranslateBy(Vector3(1, 2, 3))</strong></code></pre>
 
 
 
@@ -207,16 +194,21 @@ Applies a rotation to this transform
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>rotation</td><td><a href="rotation.md">Rotation</a></td><td>The rotation to apply to this transform</td></tr></tbody></table>
+<tbody><tr><td>rotation</td><td><a href="rotation.md">Rotation</a></td><td>The rotation to apply</td></tr></tbody></table>
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>newTransform = myTransform:RotateBy(Rotation.New(0, 45, 0))</strong></code></pre>
 
 
 
 
 ### transform:ScaleBy(scale)
 
-Applies another transform to this transform
+Applies a scale to this transform
 
 **Returns:** <a href="transform.md">Transform</a>
 
@@ -225,9 +217,14 @@ Applies another transform to this transform
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>scale</td><td>number</td><td>The scale to apply to this transform</td></tr></tbody></table>
+<tbody><tr><td>scale</td><td>number</td><td>The scale value to apply</td></tr></tbody></table>
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>newTransform = myTransform:ScaleBy(2)</strong></code></pre>
 
 
 

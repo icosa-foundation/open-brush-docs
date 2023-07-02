@@ -28,7 +28,7 @@ A position or offset in 3D space
 <table>
 <thead><tr><th width="225">Name</th><th width="160">Return Type</th><th width="80">Read/Write?</th><th>Description</th></tr></thead>
 <tbody>
-<tr><td>Item</td><td>number</td><td>Read/Write</td><td></td></tr>
+<tr><td>Item</td><td>number</td><td>Read/Write</td><td>Gets or sets the component at the specified index</td></tr>
 <tr><td>x</td><td>number</td><td>Read/Write</td><td>Gets or sets the x coordinate</td></tr>
 <tr><td>y</td><td>number</td><td>Read/Write</td><td>Gets or sets the y coordinate</td></tr>
 <tr><td>z</td><td>number</td><td>Read/Write</td><td>Gets or sets the z coordinate</td></tr>
@@ -44,7 +44,7 @@ A position or offset in 3D space
         
 ### Vector3:New(x, y, z)
 
-
+Creates a new vector
 
 **Returns:** <a href="vector3.md">Vector3</a>
 
@@ -53,30 +53,16 @@ A position or offset in 3D space
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>x</td><td>number</td><td></td></tr>
-<tr><td>y</td><td>number</td><td></td></tr>
-<tr><td>z</td><td>number</td><td></td></tr></tbody></table>
+<tbody><tr><td>x</td><td>number</td><td>The x coordinate</td></tr>
+<tr><td>y</td><td>number</td><td>The y coordinate</td></tr>
+<tr><td>z</td><td>number</td><td>The z coordinate</td></tr></tbody></table>
 
 
 
 
+#### Example
 
-
-### Vector3:Angle(a, b)
-
-Returns the angle in degrees between two points and the origin
-
-**Returns:** number
-
-
-**Parameters:**
-
-<table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>a</td><td><a href="vector3.md">Vector3</a></td><td></td></tr>
-<tr><td>b</td><td><a href="vector3.md">Vector3</a></td><td></td></tr></tbody></table>
-
-
+<pre class="language-lua"><code class="lang-lua"><strong>newVector = Vector3(1, 2, 3)</strong></code></pre>
 
 
 
@@ -92,29 +78,15 @@ Returns the cross product of two vectors
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>a</td><td><a href="vector3.md">Vector3</a></td><td></td></tr>
-<tr><td>b</td><td><a href="vector3.md">Vector3</a></td><td></td></tr></tbody></table>
+<tbody><tr><td>a</td><td><a href="vector3.md">Vector3</a></td><td>The first vector</td></tr>
+<tr><td>b</td><td><a href="vector3.md">Vector3</a></td><td>The second vector</td></tr></tbody></table>
 
 
 
 
+#### Example
 
-
-### Vector3:Distance(a, b)
-
-Returns the distance between two points
-
-**Returns:** number
-
-
-**Parameters:**
-
-<table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>a</td><td><a href="vector3.md">Vector3</a></td><td></td></tr>
-<tr><td>b</td><td><a href="vector3.md">Vector3</a></td><td></td></tr></tbody></table>
-
-
+<pre class="language-lua"><code class="lang-lua"><strong>crossProduct = Vector3:Cross(firstVector, secondVector)</strong></code></pre>
 
 
 
@@ -180,8 +152,8 @@ Creates a vector made from the largest components of the inputs
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>a</td><td><a href="vector3.md">Vector3</a></td><td></td></tr>
-<tr><td>b</td><td><a href="vector3.md">Vector3</a></td><td></td></tr></tbody></table>
+<tbody><tr><td>a</td><td><a href="vector3.md">Vector3</a></td><td>The first vector</td></tr>
+<tr><td>b</td><td><a href="vector3.md">Vector3</a></td><td>The second vector</td></tr></tbody></table>
 
 
 
@@ -204,8 +176,8 @@ Creates a vector made from the smallest components of the inputs
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>a</td><td><a href="vector3.md">Vector3</a></td><td></td></tr>
-<tr><td>b</td><td><a href="vector3.md">Vector3</a></td><td></td></tr></tbody></table>
+<tbody><tr><td>a</td><td><a href="vector3.md">Vector3</a></td><td>The first vector</td></tr>
+<tr><td>b</td><td><a href="vector3.md">Vector3</a></td><td>The second vector</td></tr></tbody></table>
 
 
 
@@ -213,85 +185,6 @@ Creates a vector made from the smallest components of the inputs
 #### Example
 
 <pre class="language-lua"><code class="lang-lua"><strong>result = Vector3:Min(firstVector, secondVector</strong></code></pre>
-
-
-
-
-### Vector3:MoveTowards(current, target, maxDistanceDelta)
-
-Moves a point towards a target point
-
-**Returns:** <a href="vector3.md">Vector3</a>
-
-
-**Parameters:**
-
-<table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>current</td><td><a href="vector3.md">Vector3</a></td><td></td></tr>
-<tr><td>target</td><td><a href="vector3.md">Vector3</a></td><td></td></tr>
-<tr><td>maxDistanceDelta</td><td>number</td><td></td></tr></tbody></table>
-
-
-
-
-
-
-### Vector3:ProjectOnPlane(vector, planeNormal)
-
-Projects this vector onto a plane defined by a normal orthogonal to the plane
-
-**Returns:** <a href="vector3.md">Vector3</a>
-
-
-**Parameters:**
-
-<table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>vector</td><td><a href="vector3.md">Vector3</a></td><td></td></tr>
-<tr><td>planeNormal</td><td><a href="vector3.md">Vector3</a></td><td></td></tr></tbody></table>
-
-
-
-
-
-
-### Vector3:RotateTowards(current, target, maxRadiansDelta, maxMagnitudeDelta)
-
-Moves this vector towards another with a maximum change in angle
-
-**Returns:** <a href="vector3.md">Vector3</a>
-
-
-**Parameters:**
-
-<table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>current</td><td><a href="vector3.md">Vector3</a></td><td></td></tr>
-<tr><td>target</td><td><a href="vector3.md">Vector3</a></td><td></td></tr>
-<tr><td>maxRadiansDelta</td><td>number</td><td></td></tr>
-<tr><td>maxMagnitudeDelta</td><td>number</td><td></td></tr></tbody></table>
-
-
-
-
-
-
-### Vector3:ScaleBy(a, b)
-
-Multiplies two vectors component-wise
-
-**Returns:** <a href="vector3.md">Vector3</a>
-
-
-**Parameters:**
-
-<table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>a</td><td><a href="vector3.md">Vector3</a></td><td></td></tr>
-<tr><td>b</td><td><a href="vector3.md">Vector3</a></td><td></td></tr></tbody></table>
-
-
 
 
 
@@ -350,6 +243,29 @@ Spherically interpolates (or extrapolates) between two vectors
 ## Instance Methods
 
         
+### vector3:Angle(other)
+
+The unsigned angle in degrees between this vector and another
+
+**Returns:** number
+
+
+**Parameters:**
+
+<table data-full-width="false">
+<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<tbody><tr><td>other</td><td><a href="vector3.md">Vector3</a></td><td>The other vector</td></tr></tbody></table>
+
+
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>angle = myVector:Angle(otherVector)</strong></code></pre>
+
+
+
+
 ### vector3:ClampMagnitude(maxLength)
 
 Returns a vector with the same direction but with it's length clamped to a maximum
@@ -361,9 +277,61 @@ Returns a vector with the same direction but with it's length clamped to a maxim
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>maxLength</td><td>number</td><td></td></tr></tbody></table>
+<tbody><tr><td>maxLength</td><td>number</td><td>The maximum length of the returned vector</td></tr></tbody></table>
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>clampedVector = myVector:ClampMagnitude(5)</strong></code></pre>
+
+
+
+
+### vector3:Distance(other)
+
+Returns the distance between two points
+
+**Returns:** number
+
+
+**Parameters:**
+
+<table data-full-width="false">
+<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<tbody><tr><td>other</td><td><a href="vector3.md">Vector3</a></td><td>The other vector</td></tr></tbody></table>
+
+
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>distance = Vector3:Distance(firstPoint, secondPoint)</strong></code></pre>
+
+
+
+
+### vector3:MoveTowards(target, maxDistanceDelta)
+
+Moves a point towards a target point
+
+**Returns:** <a href="vector3.md">Vector3</a>
+
+
+**Parameters:**
+
+<table data-full-width="false">
+<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<tbody><tr><td>target</td><td><a href="vector3.md">Vector3</a></td><td>The target point</td></tr>
+<tr><td>maxDistanceDelta</td><td>number</td><td>The maximum distance to move towards the target point</td></tr></tbody></table>
+
+
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>newPoint = Vector3:MoveTowards(pointA, PointB, 0.25)</strong></code></pre>
 
 
 
@@ -379,16 +347,21 @@ Projects this vector onto another
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>other</td><td><a href="vector3.md">Vector3</a></td><td></td></tr></tbody></table>
+<tbody><tr><td>other</td><td><a href="vector3.md">Vector3</a></td><td>The other vector</td></tr></tbody></table>
 
 
 
 
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>newVector = myVector:Project(otherVector)</strong></code></pre>
 
 
-### vector3:Reflect(other)
 
-Reflects a vector off the plane defined by a normal
+
+### vector3:ProjectOnPlane(planeNormal)
+
+Projects this vector onto a plane defined by a normal orthogonal to the plane
 
 **Returns:** <a href="vector3.md">Vector3</a>
 
@@ -397,9 +370,85 @@ Reflects a vector off the plane defined by a normal
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>other</td><td><a href="vector3.md">Vector3</a></td><td></td></tr></tbody></table>
+<tbody><tr><td>planeNormal</td><td><a href="vector3.md">Vector3</a></td><td>The normal vector of the plane</td></tr></tbody></table>
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>newVector = myVector:ProjectOnPlane(planeNormal)</strong></code></pre>
+
+
+
+
+### vector3:Reflect(normal)
+
+Reflects a vector off the vector defined by a normal
+
+**Returns:** <a href="vector3.md">Vector3</a>
+
+
+**Parameters:**
+
+<table data-full-width="false">
+<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<tbody><tr><td>normal</td><td><a href="vector3.md">Vector3</a></td><td>The normal vector</td></tr></tbody></table>
+
+
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>newVector = myVector:Reflect(normalVector)</strong></code></pre>
+
+
+
+
+### vector3:RotateTowards(target, maxRadiansDelta, maxMagnitudeDelta)
+
+Moves this vector towards another with a maximum change in angle
+
+**Returns:** <a href="vector3.md">Vector3</a>
+
+
+**Parameters:**
+
+<table data-full-width="false">
+<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<tbody><tr><td>target</td><td><a href="vector3.md">Vector3</a></td><td>The target vector</td></tr>
+<tr><td>maxRadiansDelta</td><td>number</td><td>The maximum change in angle</td></tr>
+<tr><td>maxMagnitudeDelta</td><td>number</td><td>The maximum allowed change in vector magnitude for this rotation</td></tr></tbody></table>
+
+
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>newVector = myVector:RotateTowards(targetVector, Math.pi / 10, 0.25)</strong></code></pre>
+
+
+
+
+### vector3:ScaleBy(other)
+
+Multiplies two vectors component-wise
+
+**Returns:** <a href="vector3.md">Vector3</a>
+
+
+**Parameters:**
+
+<table data-full-width="false">
+<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<tbody><tr><td>other</td><td><a href="vector3.md">Vector3</a></td><td>The other vector</td></tr></tbody></table>
+
+
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>result = myVector:Scale(secondVector</strong></code></pre>
 
 
 
@@ -415,10 +464,15 @@ Returns the signed angle in degrees between two points and the origin
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>other</td><td><a href="vector3.md">Vector3</a></td><td></td></tr>
-<tr><td>axis</td><td><a href="vector3.md">Vector3</a></td><td></td></tr></tbody></table>
+<tbody><tr><td>other</td><td><a href="vector3.md">Vector3</a></td><td>The other vector</td></tr>
+<tr><td>axis</td><td><a href="vector3.md">Vector3</a></td><td>The axis around which the vectors are rotated</td></tr></tbody></table>
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>angle = myVector:SignedAngle(otherVector, axis)</strong></code></pre>
 
 
 
@@ -434,9 +488,14 @@ Adds two vectors
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>other</td><td><a href="vector3.md">Vector3</a></td><td></td></tr></tbody></table>
+<tbody><tr><td>other</td><td><a href="vector3.md">Vector3</a></td><td>The other vector</td></tr></tbody></table>
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>result = myVector:Add(secondVector)</strong></code></pre>
 
 
 
@@ -452,11 +511,16 @@ Adds x, y and z values to this vector
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>x</td><td>number</td><td></td></tr>
-<tr><td>y</td><td>number</td><td></td></tr>
-<tr><td>z</td><td>number</td><td></td></tr></tbody></table>
+<tbody><tr><td>x</td><td>number</td><td>The x value</td></tr>
+<tr><td>y</td><td>number</td><td>The y value</td></tr>
+<tr><td>z</td><td>number</td><td>The z value</td></tr></tbody></table>
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>result = myVector:Add(1, 2, 3)</strong></code></pre>
 
 
 
@@ -472,9 +536,14 @@ Subtracts a Vector3 from this vector
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>other</td><td><a href="vector3.md">Vector3</a></td><td></td></tr></tbody></table>
+<tbody><tr><td>other</td><td><a href="vector3.md">Vector3</a></td><td>The vector to subtract</td></tr></tbody></table>
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>result = myVector:Subtract(otherVector)</strong></code></pre>
 
 
 
@@ -490,11 +559,16 @@ Subtracts x, y and z values from this vector
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>x</td><td>number</td><td></td></tr>
-<tr><td>y</td><td>number</td><td></td></tr>
-<tr><td>z</td><td>number</td><td></td></tr></tbody></table>
+<tbody><tr><td>x</td><td>number</td><td>The x value</td></tr>
+<tr><td>y</td><td>number</td><td>The y value</td></tr>
+<tr><td>z</td><td>number</td><td>The z value</td></tr></tbody></table>
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>result = myVector:Subtract(1, 2, 3)</strong></code></pre>
 
 
 
@@ -510,27 +584,14 @@ Multiplies this vector by a scalar value
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>value</td><td>number</td><td></td></tr></tbody></table>
+<tbody><tr><td>value</td><td>number</td><td>The scalar value</td></tr></tbody></table>
 
 
 
 
+#### Example
 
-
-### vector3:ScaleBy(other)
-
-Multiplies this vector by another vector component-wise
-
-**Returns:** <a href="vector3.md">Vector3</a>
-
-
-**Parameters:**
-
-<table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>other</td><td><a href="vector3.md">Vector3</a></td><td></td></tr></tbody></table>
-
-
+<pre class="language-lua"><code class="lang-lua"><strong>result = myVector:Multiply(2)</strong></code></pre>
 
 
 
@@ -546,11 +607,16 @@ Multiplies this vector by x, y and z values component-wise
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>x</td><td>number</td><td></td></tr>
-<tr><td>y</td><td>number</td><td></td></tr>
-<tr><td>z</td><td>number</td><td></td></tr></tbody></table>
+<tbody><tr><td>x</td><td>number</td><td>The x value</td></tr>
+<tr><td>y</td><td>number</td><td>The y value</td></tr>
+<tr><td>z</td><td>number</td><td>The z value</td></tr></tbody></table>
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>result = myVector:Multiply(2, 3, 4)</strong></code></pre>
 
 
 
@@ -566,9 +632,14 @@ Divides this vector by a scalar value
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>value</td><td>number</td><td></td></tr></tbody></table>
+<tbody><tr><td>value</td><td>number</td><td>The scalar value</td></tr></tbody></table>
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>result = myVector:Divide(2)</strong></code></pre>
 
 
 
@@ -584,9 +655,14 @@ Is this vector not equal to another?
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>other</td><td><a href="vector3.md">Vector3</a></td><td></td></tr></tbody></table>
+<tbody><tr><td>other</td><td><a href="vector3.md">Vector3</a></td><td>The other vector</td></tr></tbody></table>
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>if myVector:NotEquals(Vector3.zero) then print("Vector is not zero") end</strong></code></pre>
 
 
 
@@ -602,11 +678,16 @@ Is this vector not equal to these x, y and z values?
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>x</td><td>number</td><td></td></tr>
-<tr><td>y</td><td>number</td><td></td></tr>
-<tr><td>z</td><td>number</td><td></td></tr></tbody></table>
+<tbody><tr><td>x</td><td>number</td><td>The x value</td></tr>
+<tr><td>y</td><td>number</td><td>The y value</td></tr>
+<tr><td>z</td><td>number</td><td>The z value</td></tr></tbody></table>
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>if myVector:NotEquals(1, 2, 3) then print("Vector is not 1,2,3") end</strong></code></pre>
 
 
 

@@ -482,7 +482,7 @@ Simplifies the camera path
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>tolerance</td><td>number</td><td>The tolerance used for simplification</td></tr>
-<tr><td>smoothing</td><td>number</td><td>The smoothing factor applied to the simplified camera path</td></tr></tbody></table>
+<tr><td>smoothing</td><td>number</td><td>The smoothing factor used for simplification</td></tr></tbody></table>
 
 
 

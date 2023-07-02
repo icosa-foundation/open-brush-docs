@@ -19,20 +19,18 @@ Settings and controls for audio visualization mode
 ## Class Methods
 
         
-### Visualizer:EnableScripting(name)
+### Visualizer:EnableScripting()
 
 Enables scripted access to the audio visualization buffer
 
 **Returns:** nil
 
 
-**Parameters:**
-
-<table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>name</td><td>string</td><td></td></tr></tbody></table>
 
 
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>Visualizer.EnableScripting()</strong></code></pre>
 
 
 
@@ -44,6 +42,11 @@ Disables scripted access to the audio visualization buffer
 **Returns:** nil
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>Visualizer.DisableScripting()</strong></code></pre>
 
 
 
@@ -59,7 +62,7 @@ Passes the given waveform data to the audio visualizer
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>data</td><td>number[]</td><td></td></tr></tbody></table>
+<tbody><tr><td>data</td><td>number[]</td><td>An array of numbers representing the waveform</td></tr></tbody></table>
 
 
 
@@ -77,12 +80,17 @@ Passes the given FFT data to the audio visualizer
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>data1</td><td>number[]</td><td></td></tr>
-<tr><td>data2</td><td>number[]</td><td></td></tr>
-<tr><td>data3</td><td>number[]</td><td></td></tr>
-<tr><td>data4</td><td>number[]</td><td></td></tr></tbody></table>
+<tbody><tr><td>data1</td><td>number[]</td><td>An array of numbers representing first FFT band</td></tr>
+<tr><td>data2</td><td>number[]</td><td>An array of numbers representing second FFT band</td></tr>
+<tr><td>data3</td><td>number[]</td><td>An array of numbers representing third FFT band</td></tr>
+<tr><td>data4</td><td>number[]</td><td>An array of numbers representing fourth FFT band</td></tr></tbody></table>
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>Visualizer.SetFft(data1, data2, data3, data4)</strong></code></pre>
 
 
 
@@ -98,12 +106,17 @@ Passes the given beat data to the audio visualizer
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>x</td><td>number</td><td></td></tr>
-<tr><td>y</td><td>number</td><td></td></tr>
-<tr><td>z</td><td>number</td><td></td></tr>
-<tr><td>w</td><td>number</td><td></td></tr></tbody></table>
+<tbody><tr><td>x</td><td>number</td><td>The first beat value</td></tr>
+<tr><td>y</td><td>number</td><td>The second beat value</td></tr>
+<tr><td>z</td><td>number</td><td>The third beat value</td></tr>
+<tr><td>w</td><td>number</td><td>The fourth beat value</td></tr></tbody></table>
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>Visualizer.SetBeats(x, y, z, w)</strong></code></pre>
 
 
 
@@ -119,12 +132,17 @@ Passes the given beat accumulator data to the audio visualizer
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>x</td><td>number</td><td></td></tr>
-<tr><td>y</td><td>number</td><td></td></tr>
-<tr><td>z</td><td>number</td><td></td></tr>
-<tr><td>w</td><td>number</td><td></td></tr></tbody></table>
+<tbody><tr><td>x</td><td>number</td><td>The first beat accumulator value</td></tr>
+<tr><td>y</td><td>number</td><td>The second beat accumulator value</td></tr>
+<tr><td>z</td><td>number</td><td>The third beat accumulator value</td></tr>
+<tr><td>w</td><td>number</td><td>The fourth beat accumulator value</td></tr></tbody></table>
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>Visualizer.SetBeatAccumulators(x, y, z, w)</strong></code></pre>
 
 
 
@@ -140,9 +158,14 @@ Passes the given band peak data to the audio visualizer
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>peak</td><td>number</td><td></td></tr></tbody></table>
+<tbody><tr><td>peak</td><td>number</td><td>The peak value</td></tr></tbody></table>
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>Visualizer.SetBandPeaks(0.5)</strong></code></pre>
 
 
 

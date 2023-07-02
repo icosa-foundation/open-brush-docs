@@ -26,7 +26,7 @@ A position or offset in 2D space
 <table>
 <thead><tr><th width="225">Name</th><th width="160">Return Type</th><th width="80">Read/Write?</th><th>Description</th></tr></thead>
 <tbody>
-<tr><td>Item</td><td>number</td><td>Read/Write</td><td></td></tr>
+<tr><td>Item</td><td>number</td><td>Read/Write</td><td>Gets or sets the component at the specified index</td></tr>
 <tr><td>x</td><td>number</td><td>Read/Write</td><td>Gets or sets the x coordinate</td></tr>
 <tr><td>y</td><td>number</td><td>Read/Write</td><td>Gets or sets the y coordinate</td></tr>
 <tr><td>magnitude</td><td>number</td><td>Read-only</td><td>The length of this vector</td></tr>
@@ -41,7 +41,7 @@ A position or offset in 2D space
         
 ### Vector2:New(x, y)
 
-
+Creates a new vector
 
 **Returns:** <a href="vector2.md">Vector2</a>
 
@@ -50,53 +50,15 @@ A position or offset in 2D space
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>x</td><td>number</td><td></td></tr>
-<tr><td>y</td><td>number</td><td></td></tr></tbody></table>
-
-
-
-
-
-
-### Vector2:Angle(a, b)
-
-Returns the angle between two points and the origin
-
-**Returns:** number
-
-
-**Parameters:**
-
-<table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>a</td><td><a href="vector2.md">Vector2</a></td><td></td></tr>
-<tr><td>b</td><td><a href="vector2.md">Vector2</a></td><td></td></tr></tbody></table>
-
-
-
-
-
-
-### Vector2:Distance(a, b)
-
-The distance between two points
-
-**Returns:** number
-
-
-**Parameters:**
-
-<table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>a</td><td><a href="vector2.md">Vector2</a></td><td>The first vector</td></tr>
-<tr><td>b</td><td><a href="vector2.md">Vector2</a></td><td>The second vector</td></tr></tbody></table>
+<tbody><tr><td>x</td><td>number</td><td>The x coordinate</td></tr>
+<tr><td>y</td><td>number</td><td>The y coordinate</td></tr></tbody></table>
 
 
 
 
 #### Example
 
-<pre class="language-lua"><code class="lang-lua"><strong>distance = Vector2:Distance(firstPoint, secondPoint)</strong></code></pre>
+<pre class="language-lua"><code class="lang-lua"><strong>newVector = Vector2(1, 2)</strong></code></pre>
 
 
 
@@ -223,50 +185,6 @@ Creates a vector made from the largest components of the inputs
 
 
 
-### Vector2:MoveTowards(current, target, maxDistanceDelta)
-
-Moves a point towards a target point
-
-**Returns:** <a href="vector2.md">Vector2</a>
-
-
-**Parameters:**
-
-<table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>current</td><td><a href="vector2.md">Vector2</a></td><td>The current point</td></tr>
-<tr><td>target</td><td><a href="vector2.md">Vector2</a></td><td>The target point</td></tr>
-<tr><td>maxDistanceDelta</td><td>number</td><td>The maximum distance to move</td></tr></tbody></table>
-
-
-
-
-#### Example
-
-<pre class="language-lua"><code class="lang-lua"><strong>newPoint = Vector2:MoveTowards(currentPoint, targetPoint, 0.25)</strong></code></pre>
-
-
-
-
-### Vector2:Reflect(a, b)
-
-Reflects a vector off the vector defined by a normal
-
-**Returns:** <a href="vector2.md">Vector2</a>
-
-
-**Parameters:**
-
-<table data-full-width="false">
-<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>a</td><td><a href="vector2.md">Vector2</a></td><td></td></tr>
-<tr><td>b</td><td><a href="vector2.md">Vector2</a></td><td></td></tr></tbody></table>
-
-
-
-
-
-
 ### Vector2:Slerp(a, b, t)
 
 Spherically interpolates between two vectors
@@ -328,9 +246,14 @@ Returns the point the given number of degrees around a circle with radius 1
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>degrees</td><td>number</td><td></td></tr></tbody></table>
+<tbody><tr><td>degrees</td><td>number</td><td>The angle in degrees</td></tr></tbody></table>
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>result = Vector2:PointOnCircle(45)</strong></code></pre>
 
 
 
@@ -339,6 +262,29 @@ Returns the point the given number of degrees around a circle with radius 1
 ## Instance Methods
 
         
+### vector2:Angle(other)
+
+The unsigned angle in degrees between this vector and another
+
+**Returns:** number
+
+
+**Parameters:**
+
+<table data-full-width="false">
+<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<tbody><tr><td>other</td><td><a href="vector2.md">Vector2</a></td><td>The other vector</td></tr></tbody></table>
+
+
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>angle = myVector:Angle(otherVector)</strong></code></pre>
+
+
+
+
 ### vector2:ClampMagnitude(maxLength)
 
 Returns a vector with the same direction but with it's length clamped to a maximum
@@ -362,6 +308,76 @@ Returns a vector with the same direction but with it's length clamped to a maxim
 
 
 
+### vector2:Distance(other)
+
+The distance between two points
+
+**Returns:** number
+
+
+**Parameters:**
+
+<table data-full-width="false">
+<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<tbody><tr><td>other</td><td><a href="vector2.md">Vector2</a></td><td>The other vector</td></tr></tbody></table>
+
+
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>distance = Vector2:Distance(firstPoint, secondPoint)</strong></code></pre>
+
+
+
+
+### vector2:MoveTowards(target, maxDistanceDelta)
+
+Moves a point towards a target point
+
+**Returns:** <a href="vector2.md">Vector2</a>
+
+
+**Parameters:**
+
+<table data-full-width="false">
+<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<tbody><tr><td>target</td><td><a href="vector2.md">Vector2</a></td><td>The target point</td></tr>
+<tr><td>maxDistanceDelta</td><td>number</td><td>The maximum distance to move</td></tr></tbody></table>
+
+
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>newPoint = Vector2:MoveTowards(currentPoint, targetPoint, 0.25)</strong></code></pre>
+
+
+
+
+### vector2:Reflect(normal)
+
+Reflects a vector off the vector defined by a normal
+
+**Returns:** <a href="vector2.md">Vector2</a>
+
+
+**Parameters:**
+
+<table data-full-width="false">
+<thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
+<tbody><tr><td>normal</td><td><a href="vector2.md">Vector2</a></td><td>The normal vector</td></tr></tbody></table>
+
+
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>newVector = myVector:Reflect(normalVector)</strong></code></pre>
+
+
+
+
 ### vector2:Scale(other)
 
 Scales a vector by multiplying it's components by the components of another vector
@@ -373,16 +389,21 @@ Scales a vector by multiplying it's components by the components of another vect
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>other</td><td><a href="vector2.md">Vector2</a></td><td></td></tr></tbody></table>
+<tbody><tr><td>other</td><td><a href="vector2.md">Vector2</a></td><td>The vector to scale by</td></tr></tbody></table>
 
 
 
 
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>newVector = myVector:Scale(otherVector)</strong></code></pre>
 
 
-### vector2:SignedAngle(other, axis)
 
-Returns the signed angle between this vector and another
+
+### vector2:SignedAngle(other)
+
+Returns the signed angle in degrees between this vector and another
 
 **Returns:** number
 
@@ -391,10 +412,14 @@ Returns the signed angle between this vector and another
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>other</td><td><a href="vector2.md">Vector2</a></td><td></td></tr>
-<tr><td>axis</td><td><a href="vector2.md">Vector2</a></td><td></td></tr></tbody></table>
+<tbody><tr><td>other</td><td><a href="vector2.md">Vector2</a></td><td>The other vector</td></tr></tbody></table>
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>result = myVector:SignedAngle(otherVector</strong></code></pre>
 
 
 
@@ -458,9 +483,14 @@ Adds this vector to another
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>other</td><td><a href="vector2.md">Vector2</a></td><td></td></tr></tbody></table>
+<tbody><tr><td>other</td><td><a href="vector2.md">Vector2</a></td><td>The other vector</td></tr></tbody></table>
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>result = myVector:Add(otherVector)</strong></code></pre>
 
 
 
@@ -476,10 +506,15 @@ Adds the given x and y values to this vector
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>x</td><td>number</td><td></td></tr>
-<tr><td>y</td><td>number</td><td></td></tr></tbody></table>
+<tbody><tr><td>x</td><td>number</td><td>The x value</td></tr>
+<tr><td>y</td><td>number</td><td>The y value</td></tr></tbody></table>
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>result = myVector:Add(2, 3)</strong></code></pre>
 
 
 
@@ -495,9 +530,14 @@ Subtracts another vector from this one
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>other</td><td><a href="vector2.md">Vector2</a></td><td></td></tr></tbody></table>
+<tbody><tr><td>other</td><td><a href="vector2.md">Vector2</a></td><td>The other vector</td></tr></tbody></table>
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>result = myVector:Subtract(otherVector)</strong></code></pre>
 
 
 
@@ -513,10 +553,15 @@ Subtracts the given x and y values from this vector
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>x</td><td>number</td><td></td></tr>
-<tr><td>y</td><td>number</td><td></td></tr></tbody></table>
+<tbody><tr><td>x</td><td>number</td><td>The x value</td></tr>
+<tr><td>y</td><td>number</td><td>The y value</td></tr></tbody></table>
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>result = myVector:Subtract(2, 3)</strong></code></pre>
 
 
 
@@ -532,9 +577,14 @@ Multiplies a vector by a scalar value
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>value</td><td>number</td><td></td></tr></tbody></table>
+<tbody><tr><td>value</td><td>number</td><td>The value to multiply by</td></tr></tbody></table>
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>result = myVector:Multiply(2)</strong></code></pre>
 
 
 
@@ -550,9 +600,14 @@ Multiplies this vector by another component-wise
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>other</td><td><a href="vector2.md">Vector2</a></td><td></td></tr></tbody></table>
+<tbody><tr><td>other</td><td><a href="vector2.md">Vector2</a></td><td>The other vector</td></tr></tbody></table>
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>result = myVector:ScaleBy(Vector2:New(2, 3)))</strong></code></pre>
 
 
 
@@ -568,10 +623,15 @@ Multiplies each component of this vector by the given x and y values
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>x</td><td>number</td><td></td></tr>
-<tr><td>y</td><td>number</td><td></td></tr></tbody></table>
+<tbody><tr><td>x</td><td>number</td><td>The x value</td></tr>
+<tr><td>y</td><td>number</td><td>The y value</td></tr></tbody></table>
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>result = myVector:ScaleBy(2, 3)</strong></code></pre>
 
 
 
@@ -587,9 +647,14 @@ Divides this vector by another
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>value</td><td>number</td><td></td></tr></tbody></table>
+<tbody><tr><td>value</td><td>number</td><td>The value to divide by</td></tr></tbody></table>
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>result = myVector:Divide(2)</strong></code></pre>
 
 
 
@@ -605,9 +670,14 @@ Is this vector not equal to another?
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>other</td><td><a href="vector2.md">Vector2</a></td><td></td></tr></tbody></table>
+<tbody><tr><td>other</td><td><a href="vector2.md">Vector2</a></td><td>The other vector</td></tr></tbody></table>
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>if myVector:NotEquals(Vector2.zero) then print("Vector is not zero") end</strong></code></pre>
 
 
 
@@ -623,10 +693,15 @@ Is this vector not equal to the given x and y values?
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>x</td><td>number</td><td></td></tr>
-<tr><td>y</td><td>number</td><td></td></tr></tbody></table>
+<tbody><tr><td>x</td><td>number</td><td>The x value</td></tr>
+<tr><td>y</td><td>number</td><td>The y value</td></tr></tbody></table>
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>if myVector:NotEquals(1, 2) then print("Vector is not 1,2") end</strong></code></pre>
 
 
 

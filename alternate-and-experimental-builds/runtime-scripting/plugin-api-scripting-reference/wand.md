@@ -33,9 +33,14 @@ Clears the history and sets it's size
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>size</td><td>number</td><td></td></tr></tbody></table>
+<tbody><tr><td>size</td><td>number</td><td>The size of the history buffer</td></tr></tbody></table>
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>Wand.ResizeHistory(100)</strong></code></pre>
 
 
 
@@ -51,9 +56,14 @@ Sets the size of the history. Only clears it if the size has changed
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>size</td><td>number</td><td></td></tr></tbody></table>
+<tbody><tr><td>size</td><td>number</td><td>The size of the history buffer</td></tr></tbody></table>
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>Wand.SetHistorySize(100)</strong></code></pre>
 
 
 
@@ -69,9 +79,14 @@ Recalls previous positions of the Wand from the history buffer
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>back</td><td>number</td><td></td></tr></tbody></table>
+<tbody><tr><td>back</td><td>number</td><td>How far back in the history to get the position from</td></tr></tbody></table>
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>myPosition = Wand.PastPosition(5)</strong></code></pre>
 
 
 
@@ -87,9 +102,14 @@ Recalls previous orientations of the Wand from the history buffer
 
 <table data-full-width="false">
 <thead><tr><th width="217">Name</th><th width="134">Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>back</td><td>number</td><td></td></tr></tbody></table>
+<tbody><tr><td>back</td><td>number</td><td>How far back in the history to get the rotation from</td></tr></tbody></table>
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>myRotation = Wand.PastRotation(5)</strong></code></pre>
 
 
 
