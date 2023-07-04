@@ -8,9 +8,17 @@ If you've never programmed at all then Lua is a great place to start. Copy an ex
 
 As soon as you save your changes, Open Brush will load the new version. If you've made a mistake then the console on the back of your brush hand will tell you what line the error is on.
 
-## Autocomplete
+## Autocomplete and Intellisense Using EmmyLua&#x20;
 
-If you look in your Plugins folder there is a subfolder called LuaModules and in there are a few commonly used libraries. However one file is different. It contains empty stubs for all available API methods and properties along with special comments that can be used with a code editor such as VS Code and the EmmyLua plugin to give you working autocomplete, intellisense and tooltips. This makes writing scripts and finding bugs much easier.
+If you look in your Plugins folder there is a subfolder called LuaModules and in there are a few commonly used libraries. However one file is different. It contains empty stubs for all available API methods and properties along with special comments that can be used by the EmmyLua plugin to give you working autocomplete, intellisense and tooltips. This makes writing scripts and finding bugs much easier.
+
+EmmyLua has been tested in Visual Studio Code, WebStorm (and other Jetbrains editors) but it also claims to support any editor that uses the language server protocol (LSP) standard. If you don't already have a passionate attachment to a particular editor then you should probably start with [Visual Studio Code](https://code.visualstudio.com/)
+
+[EmmyLua for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=tangzx.emmylua)
+
+[EmmyLua for Jetbrains](https://plugins.jetbrains.com/plugin/9768-emmylua)
+
+[EmmyLua Docs](https://emmylua.github.io/)
 
 ## Libraries
 
@@ -38,7 +46,7 @@ function WhileTriggerPressed()
     radius = 0.25
     angle = App.time * speed
     r = Brush.pressure * radius;
-    pos = Vector3:New(Math.Sin(angle) * r, Math.Cos(angle) * r, 0)
+    pos = Vector3:New(Math:Sin(angle) * r, Math:Cos(angle) * r, 0)
     return Transform:New(pos)
 end
 
@@ -63,7 +71,7 @@ function WhileTriggerPressed()
     if (Brush.triggerIsPressed) then
         r = radius * Brush.timeSincePressed
     end
-    pos = Vector3:New(Math.Sin(angle) * r, Math.Cos(angle) * r, 0)
+    pos = Vector3:New(Math:Sin(angle) * r, Math:Cos(angle) * r, 0)
     return Transform:New(pos)
 end
 ```
@@ -104,7 +112,7 @@ Background Scripts run constantly. They are useful for animating layers or conti
 
 ```lua
 function Main()
-    x = Mathf.Lerp(0, 1, App.time % 1)
+    x = Math:Lerp(0, 1, App.time % 1)
     Sketch.layers[1].position = Vector3:New(x, 0, 0)
 end
 ```
@@ -151,7 +159,7 @@ Parameters = {
 function Main()
     angle = App.time * speed
     r = Brush.pressure * radius;
-    pos = Vector3:New(Math.Sin(angle) * r, Math.Cos(angle) * r, 0)
+    pos = Vector3:New(Math.Sin(angle) * r, Math:Cos(angle) * r, 0)
     return Transform:New(pos)
 end
 ```
