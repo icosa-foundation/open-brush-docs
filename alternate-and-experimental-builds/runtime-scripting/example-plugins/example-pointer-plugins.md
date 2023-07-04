@@ -19,7 +19,7 @@ Stops and restarts the stroke at regular intervals as you draw resulting in a da
 
 #### How it works
 
-`Brush:ForcePaintingOn` and `Brush:ForcePaintingOn` are used based on the value of `Brush:DistanceDrawn`
+The script calls`Brush:ForcePaintingOn` and `Brush:ForcePaintingOn` based on the value of `Brush:DistanceDrawn`
 
 ### GridFollow
 
@@ -50,7 +50,7 @@ The pointer continues moving in the direction you were pointing when you initial
 
 #### Parameters
 
-* Speed:
+* **Speed:** The speed of the beam
 
 ### Loops
 
@@ -58,8 +58,8 @@ The pointer moves around a circlular path with your current hand position as it'
 
 #### Parameters
 
-* Speed:
-* Radius:
+* **Speed:**
+* **Radius:**
 
 ### Missile
 
@@ -67,11 +67,11 @@ Similar to [LaserBeam](example-pointer-plugins.md#laserbeam) except that you can
 
 #### Parameters
 
-* Speed:
+* **Speed:** The speed of the missile
 
 ### Oscilloscope
 
-
+Control your pointer with multiple waveforms to create patterns
 
 #### Parameters
 
@@ -88,8 +88,8 @@ The brush draws a path around your current hand position similar to [Loops](exam
 
 #### Parameters
 
-* Points:&#x20;
-* Size:
+* **Points:**&#x20;
+* **Size:**
 
 ### RainbowStrokes
 
@@ -97,17 +97,18 @@ The brush draws a path around your current hand position similar to [Loops](exam
 
 #### Parameters
 
-* Rate:&#x20;
-* Hue Shift Frequency:
-* Hue Shift Amount:
+* **Rate:**&#x20;
+* **Hue Shift Frequency:**
+* **Hue Shift Amount:**
 
 ### SineWave
 
-
+Moves the pointer in a simple wave pattern as you draw.
 
 #### Parameters
 
-*
+* **Frequency**
+* **Amplitude**
 
 ### Spherograph
 
@@ -115,15 +116,18 @@ The brush draws a path around your current hand position similar to [Loops](exam
 
 #### Parameters
 
-*
+* U Scaling
+* V Scaling
+* Radius
 
 ### Spirals
 
-The brush stroke loops around but the radius increases forming a spiral
+The brush stroke moves in a circle but the radius increases the longer you keep the trigger pressed.
 
 #### Parameters
 
-*
+* Speed
+* Radius
 
 ### StringArt
 
@@ -131,7 +135,7 @@ Additional lines are drawn from the initial point you started drawing to your cu
 
 #### Parameters
 
-*
+* Rate
 
 ### Terrain
 
@@ -139,7 +143,9 @@ As you draw you only control the x and z position of the stroke. The y position 
 
 #### Parameters
 
-*
+* Scale
+* Height
+* Offset
 
 ### Twist
 
@@ -147,7 +153,7 @@ As you draw the position is controlled by your hand as normal. However the orien
 
 #### Parameters
 
-*
+* Speed
 
 #### Tips
 
@@ -159,7 +165,8 @@ The brush position cycles back and forth between your brush hand and your other 
 
 #### Parameters
 
-*
+* Frequency
+* Amplitude
 
 #### Tips
 
@@ -167,25 +174,28 @@ Move your hands close together or further apart to see different effects
 
 ### Wander
 
-
+The brush stroke wanders off in random directions while you hold the trigger
 
 #### Parameters
 
-*
+* Speed
+* Frames Per Path
 
 ### Wiggle
 
-
+Randomizes the brush position
 
 #### Parameters
 
-*
+* Wiggle Amount
 
 ### Wobble
 
-
+Like Wiggle but uses a smooth noise function
 
 #### Parameters
 
-*
+* Position Amount
+* Rotation Amount
+* Frequency
 
