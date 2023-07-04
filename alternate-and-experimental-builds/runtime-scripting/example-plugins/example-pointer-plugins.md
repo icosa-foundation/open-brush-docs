@@ -2,6 +2,8 @@
 
 ### Connections
 
+![](<../../../.gitbook/assets/image (13).png>)
+
 Connects the two most recent strokes with a series of lines. Draw one stroke then another. As you finish the second stroke you will see new lines added
 
 #### Parameters
@@ -10,6 +12,8 @@ Connects the two most recent strokes with a series of lines. Draw one stroke the
 
 ### Dashes
 
+![](<../../../.gitbook/assets/image (9).png>)
+
 Stops and restarts the stroke at regular intervals as you draw resulting in a dashed line.
 
 #### Parameters
@@ -17,11 +21,17 @@ Stops and restarts the stroke at regular intervals as you draw resulting in a da
 * **Frequency:** How many dashes there are in a given distance. Shorter values gives a result closer to a dotted line.
 * **Spacing:** Controls the spacing between dashes
 
+#### Tips
+
+If you use this in conjunction with [Lazy Input Mode](../../../user-guide/lazy-input.md) then you'll need to draw very slowly on the default settings Dashes.
+
 #### How it works
 
 The script calls`Brush:ForcePaintingOn` and `Brush:ForcePaintingOn` based on the value of `Brush:DistanceDrawn`
 
 ### GridFollow
+
+![](<../../../.gitbook/assets/image (7).png>)
 
 Locks movement of the pointer to either the x, y or z axis depending on which direction your hand is mostly moving.&#x20;
 
@@ -32,17 +42,23 @@ Locks movement of the pointer to either the x, y or z axis depending on which di
 
 #### Tips
 
-Draw slowly and deliberately. It can be tricky to get the hang of originally
+Draw slowly and deliberately. It can be tricky to get the hang of initially.
 
 ### Lagging
+
+![](<../../../.gitbook/assets/image (1).png>)
 
 The pointer position cycles back and forth between the current position and where your hand was a short time before. The result is either loops or scribbles depending on the parameters and how quickly you move.
 
 #### Parameters
 
-* **Delay:**
-* **Frequency:**
-* **Amplitude:**&#x20;
+* **Delay:** How many frames back in time to get the other position from
+* **Frequency:** How quickly to cycle between past and present positions
+* **Amplitude:** Controls the amount of "overshoot". This exaggerates the difference between the past and present positions
+
+#### Tips
+
+The choice of parameters and choice of brush can radically change how this plugin looks. Play around!
 
 ### LaserBeam
 
@@ -52,14 +68,18 @@ The pointer continues moving in the direction you were pointing when you initial
 
 * **Speed:** The speed of the beam
 
+#### Tips
+
+You definitely want to try this in conjunction with Symmetry Plugins - especially if you also spin the mirror widget.
+
 ### Loops
 
 The pointer moves around a circlular path with your current hand position as it's center.
 
 #### Parameters
 
-* **Speed:**
-* **Radius:**
+* **Speed:** The speed of the pointer
+* **Radius:** The size of the circle it moves around
 
 ### Missile
 
@@ -133,6 +153,8 @@ The brush stroke moves in a circle but the radius increases the longer you keep 
 
 Additional lines are drawn from the initial point you started drawing to your current brush position.
 
+![](<../../../.gitbook/assets/image (20).png>)
+
 #### Parameters
 
 * Rate
@@ -146,6 +168,10 @@ As you draw you only control the x and z position of the stroke. The y position 
 * Scale
 * Height
 * Offset
+
+#### Tips
+
+If you want to use a hull brush then draw small patches or else any valleys will be filled in. For hull style results you will probably be better off using the [low poly landscape Tool Plugin](example-tool-plugins.md#lowpolylandscape)
 
 ### Twist
 

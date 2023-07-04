@@ -31,6 +31,8 @@ A flock of pointers follows your hand using simple rules to control how they fly
 
 ### Ducklings
 
+{% embed url="https://www.youtube.com/watch?v=WkGY_nXPehc" %}
+
 The pointers follow your brush position but each one moves towards a point where your hand was further back in time
 
 #### Parameters
@@ -40,6 +42,8 @@ The pointers follow your brush position but each one moves towards a point where
 * **Amount:** How far between the current and past position to move towards. 0.5 is the midpoint between past and current
 
 ### EllipseAround
+
+{% embed url="https://www.youtube.com/watch?v=e3JXcvarGkI" %}
 
 Copies of your stroke forming an ellipse - with optional color shifts
 
@@ -54,6 +58,8 @@ Copies of your stroke forming an ellipse - with optional color shifts
 A simple frame of points following your brush position
 
 ### HoldFirstClick
+
+{% embed url="https://www.youtube.com/watch?v=JS06ssbbCi0" %}
 
 Like [Many Around](example-symmetry-plugins.md#manyaround) except the widget always moves to where you start drawing
 
@@ -98,6 +104,8 @@ Like [Autolathe ](example-symmetry-plugins.md#autolathe)but you can vary the axi
 * **Speed Y:** How fast to spin the Y axis
 
 ### Pole
+
+{% embed url="https://www.youtube.com/watch?v=7YxjNvCY8ak" %}
 
 Multiple copies of your brush spaced between your left and right hand positions
 

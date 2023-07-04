@@ -6,6 +6,8 @@ Draws a circle centered on the position you first press the trigger with the rad
 
 ### CircularPath
 
+{% embed url="https://www.youtube.com/watch?v=RGpsjA3hUCc" %}
+
 Similar to [Circle ](example-tool-plugins.md#circle)except it creates a camera path instead of a brush stroke
 
 #### Parameters
@@ -23,6 +25,8 @@ Draws a cube centered on the position you first press the trigger with the size 
 
 ### LowPolyLandscape
 
+{% embed url="https://www.youtube.com/watch?v=uRlrzk91QN4" %}
+
 Draws tiles that follow a hilly landscape as you hold the trigger.
 
 #### Parameters
@@ -33,6 +37,8 @@ Draws tiles that follow a hilly landscape as you hold the trigger.
 * **Grid Size**
 
 ### RandomAvatar
+
+{% embed url="https://www.youtube.com/watch?v=S9TzdMAbAbU" %}
 
 Calls an API to generate a random SVG icon using the [MultiAvatar ](https://multiavatar.com/)library
 
@@ -125,6 +131,8 @@ Draws regular blocks in space as you draw (best used with the hull brush)
 * **Grid Size**
 
 ### Words
+
+{% embed url="https://www.youtube.com/watch?v=x-3K_0jT3Pg" %}
 
 Draws words that follows your brush. Tries to access the clipboard so try copying in some text.
 

@@ -22,7 +22,7 @@ Remember, these pre-release builds are labelled beta for a reason, and some feat
 
 2\. Choose "Betas" on the left, and in the dropdown, select whether you want to opt into the beta or [experimental mode](main-experimental-build.md) version. You can also return to the normal release version by choosing "None"
 
-<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
 
 3. Wait for Open Brush to update.
 

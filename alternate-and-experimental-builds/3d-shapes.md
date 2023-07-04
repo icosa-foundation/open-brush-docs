@@ -86,7 +86,7 @@ This opens a new panel that gives you access to the powerful underlying procedur
 
 ### Using the Shape Designer
 
-![The "Generate" panel showing the main shape categories](<../.gitbook/assets/image (13).png>)
+![The "Generate" panel showing the main shape categories](<../.gitbook/assets/image (13) (2).png>)
 
 ![The "Modify" panel showing 3 modifiers applied to the shape.](<../.gitbook/assets/image (14) (2).png>)
 

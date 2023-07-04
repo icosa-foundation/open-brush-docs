@@ -1,6 +1,6 @@
 # Check out Labs features
 
-![](<../.gitbook/assets/image (9).png>)
+![](<../.gitbook/assets/image (9) (2).png>)
 
 To try out newer features, you can open up the Labs panel. Here you will find some of the latest additions to Open Brush.
 
@@ -15,7 +15,7 @@ To try out newer features, you can open up the Labs panel. Here you will find so
 
 ## Labs Features:
 
-![](<../.gitbook/assets/image (6).png>)
+![](<../.gitbook/assets/image (6) (2).png>)
 
 ### Display YouTube Chat whilst streaming (PC Only)
 
@@ -33,7 +33,7 @@ Tiltasaurus is a virtual reality game where your friends can guess what you're d
 6. Once they guess correctly, you can switch and start again. Clear the current drawing and get a new word or phrase by hitting **Refresh** on the card.
 7. Adding Tiltasaurus.json to the Documents/Open Brush folder will let you add your own list of words.
 
-### <img src="../.gitbook/assets/image (8) (1).png" alt="" data-size="original">
+### <img src="../.gitbook/assets/image (8) (1) (1).png" alt="" data-size="original">
 
 ### **Add a reference image or 3D model**
 
@@ -61,7 +61,7 @@ If you want to see an image or 3D model while you paint in Open Brush, you can a
 
 **Remove an image or model:** With your controller near the reference image, press and hold a grip button. Then, flick the controller away from your body and release the grip button.
 
-![](<../.gitbook/assets/image (1) (1).png>)
+![](<../.gitbook/assets/image (1) (1) (3).png>)
 
 ### Use the "Pin" tool
 

@@ -28,7 +28,7 @@ Click on any of the blue "details" links and then click "Summary" on the left fo
 
 You'll then be taken to the bottom of the page where there is a list of all the builds:
 
-![](<../.gitbook/assets/image (8).png>)
+![](<../.gitbook/assets/image (8) (1).png>)
 
 Just click on the name that matches your headset and it will begin to download a zip file.
 
