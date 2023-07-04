@@ -1,6 +1,6 @@
 # Writing Plugins
 
-Plugins are written in the scripting language [Lua](https://www.lua.org) which is designed to be simple to learn and easy to understand. There's plenty of tutorials online and Lua is widely used in games and applications such as Factorio, Garry's Mod_,_ Roblox, [LÖVR](https://lovr.org/) and many others.
+Plugins are written in the scripting language [Lua](https://www.lua.org) which is designed to be simple to learn and easy to understand. There's plenty of tutorials online and Lua is widely used in games and applications such as [Factorio](https://wiki.factorio.com/Tutorial:Scripting), [Garry's Mod](https://wiki.facepunch.com/gmod/Beginner\_Tutorial\_Intro)_,_ [Roblox](https://create.roblox.com/docs/tutorials/scripting/basic-scripting/intro-to-scripting), [LÖVR](https://lovr.org/) and many others.
 
 If you've written scripts in any other language then you'll find it easy to pick up.&#x20;
 
