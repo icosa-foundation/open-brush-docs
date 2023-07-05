@@ -197,7 +197,7 @@ Converts the camera path to a path with the specified step size
 
 Duplicates the camera path
 
-**Returns:** <a href="camerapathwidget.md">CameraPathWidget</a> 
+**Returns:** <a href="camerapath.md">CameraPath</a> 
 
 
 

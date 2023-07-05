@@ -170,7 +170,7 @@ Passes the given band peak data to the audio visualizer
 
 #### Example
 
-<pre class="language-lua"><code class="lang-lua"><strong>Visualizer.SetBandPeaks(0.5)</strong></code></pre>
+<pre class="language-lua"><code class="lang-lua"><strong>Visualizer.SetBandPeak(0.5)</strong></code></pre>
 
 
 

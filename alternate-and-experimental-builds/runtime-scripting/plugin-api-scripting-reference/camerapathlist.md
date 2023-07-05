@@ -13,7 +13,7 @@ The list of Camera Paths in the scene. (You don't instantiate this yourself. Acc
 <tr><td>last</td><td><a href="camerapath.md">CameraPath</a><br>Read-only</td><td>Returns the last Camera Path</td></tr>
 <tr><td>this[index]</td><td><a href="camerapath.md">CameraPath</a><br>Read-only</td><td>Gets a Camera Path by it's index</td></tr>
 <tr><td>count</td><td>number<br>Read-only</td><td>The number of Camera Paths</td></tr>
-<tr><td>active</td><td><a href="camerapathwidget.md">CameraPathWidget</a><br>Read/Write</td><td>Gets or sets the active Camera Path</td></tr>
+<tr><td>active</td><td><a href="camerapath.md">CameraPath</a><br>Read/Write</td><td>Gets or sets the active Camera Path</td></tr>
 </tbody></table>
 
 

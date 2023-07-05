@@ -36,7 +36,7 @@ Represents a position, rotation and scale in one object
 ## Class Methods
 
         
-### Transform:NewTRS(translation, rotation, scale)
+### Transform:New(translation, rotation, scale)
 
 Creates a new translation, rotation and scale transform
 
@@ -57,6 +57,30 @@ Creates a new translation, rotation and scale transform
 #### Example
 
 <pre class="language-lua"><code class="lang-lua"><strong>myTransform = Transform:New(Vector3(1, 2, 3), Rotation.identity, 2)</strong></code></pre>
+
+
+
+
+### Transform:New(translation, rotation)
+
+Creates a new translation and rotation transform
+
+**Returns:** <a href="transform.md">Transform</a> 
+
+
+**Parameters:**
+
+<table data-full-width="false">
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
+<tbody><tr><td>translation</td><td><a href="vector3.md">Vector3</a></td><td>The translation amount</td></tr>
+<tr><td>rotation</td><td><a href="rotation.md">Rotation</a></td><td>The rotation amount</td></tr></tbody></table>
+
+
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>myTransform = Transform:New(Vector3(1, 2, 3), Rotation.identity)</strong></code></pre>
 
 
 

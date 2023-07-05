@@ -30,6 +30,8 @@ Represents a rotation or orientation in 3D space. See https://docs.unity3d.com/S
 <tr><td>y</td><td>number<br>Read/Write</td><td>The amount of rotation around the y axis in degrees</td></tr>
 <tr><td>z</td><td>number<br>Read/Write</td><td>The amount of rotation around the z axis in degrees</td></tr>
 <tr><td>normalized</td><td><a href="rotation.md">Rotation</a><br>Read-only</td><td>Converts this rotation to one with the same orientation but with a magnitude of 1</td></tr>
+<tr><td>angle</td><td>number<br>Read/Write</td><td>The angle in degrees of the angle-axis representation of this rotation</td></tr>
+<tr><td>axis</td><td><a href="vector3.md">Vector3</a><br>Read/Write</td><td>The axis part of the angle-axis representation of this rotation</td></tr>
 </tbody></table>
 
 
@@ -447,22 +449,6 @@ Creates a rotation with the specified forward and upwards directions
 #### Example
 
 <pre class="language-lua"><code class="lang-lua"><strong>result = myRotation:SetLookRotation(view, up)</strong></code></pre>
-
-
-
-
-### rotation:ToAngleAxis()
-
-Converts a rotation to angle-axis representation
-
-**Returns:** <a href="system.collections.generic.list`1[system.single].md">System.Collections.Generic.List`1[System.Single]</a>  (A list of 4 numbers: the angle followed by the axis vector x,y and z values)
-
-
-
-
-#### Example
-
-<pre class="language-lua"><code class="lang-lua"><strong>result = myRotation:ToAngleAxis()</strong></code></pre>
 
 
 
