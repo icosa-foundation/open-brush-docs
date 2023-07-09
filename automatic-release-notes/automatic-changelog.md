@@ -1,6 +1,6 @@
 # Changelog since v2.2
 
-[Full release details](https://github.com/icosa-gallery/open-brush/compare/v2.2...38a7d68dd4690ef911b83bb514859a131e72da7c)
+[Full release details](https://github.com/icosa-gallery/open-brush/compare/v2.2...9d3158b2cc333aef7fef6d30354fc6a53e59b27c)
 
 ## 🚀 Features
 
@@ -11,6 +11,8 @@
 - Add websocket support to the API server ([PR #336](https://github.com/icosa-gallery/open-brush/pull/336) by @andybak)
 
 - Backport a simplified version of model import from EditableModels ([PR #446](https://github.com/icosa-gallery/open-brush/pull/446) by @andybak)
+
+- Feature/xr keyboard ([PR #406](https://github.com/icosa-gallery/open-brush/pull/406) by @andybak)
 
 
 ## 🐛 Fixes
