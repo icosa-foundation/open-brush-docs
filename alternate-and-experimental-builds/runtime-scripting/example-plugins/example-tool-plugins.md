@@ -31,10 +31,10 @@ Draws tiles that follow a hilly landscape as you hold the trigger.
 
 #### Parameters
 
-* **Scale**
-* **Height**
-* **Offset**
-* **Grid Size**
+* **Scale:** The scale of the landscape. Smaller values make hills and valleys closer together
+* **Height:** The height of the landscape (Controls the vertical scaling)
+* **Offset:** The distance from the floor to position the landscape
+* **Grid Size:** The size of the grid used. Bigger values are more "low poly"
 
 ### RandomAvatar
 
@@ -52,7 +52,7 @@ Draws lines from the position you start drawing to your current position.
 
 #### Parameters
 
-* **Spacing:**&#x20;
+* **Spacing:** How often to draw a new stroke
 
 ### ReplayStroke
 
@@ -64,9 +64,9 @@ Switches to the Hull Brush and draws cubes of random size and color as you move 
 
 #### Parameters
 
-* **Maximum Size**
-* **Spread**
-* **Amount**
+* **Maximum Size:** Controls how big the cubes can be
+* **Spread:** Larger values allow cubes to be placed further from your brush position
+* **Amount:** 0.5 gives a random 50/50 chance of creating a new cube each frame. Smaller values produce less cubes, larger values more.
 
 ### Spiral
 
@@ -74,8 +74,8 @@ Draws a conical spiral.
 
 #### Parameters
 
-* **Number of turns**
-* **Number of steps per turn**
+* **Number of turns:**&#x20;
+* **Number of steps per turn:**&#x20;
 
 ### SpiralSphere
 
@@ -83,8 +83,8 @@ Draws a spherical spiral.
 
 #### Parameters
 
-* **Steps**
-* **Turns**
+* **Steps:**&#x20;
+* **Turns:**&#x20;
 
 ### SuperEllipse
 
@@ -92,7 +92,7 @@ Draws a [superellipse](https://en.wikipedia.org/wiki/Superellipse).
 
 #### Parameters
 
-* **n**
+* **n:**&#x20;
 
 ### SuperFormula
 
@@ -100,10 +100,10 @@ Draws a supershape using the [Super Formula](http://paulbourke.net/geometry/supe
 
 #### Parameters
 
-* **Symmetry**
-* **n1**
-* **n2**
-* **n3**
+* **Symmetry:**&#x20;
+* **n1:**&#x20;
+* **n2:**&#x20;
+* **n3:**&#x20;
 
 ### SvgHeart
 
@@ -111,7 +111,7 @@ Draws a heart shape using an [SVG Path](https://developer.mozilla.org/en-US/docs
 
 #### Parameters
 
-* **Point Spacing**
+* **Point Spacing:**&#x20;
 
 ### VoxelLandscape
 
@@ -119,8 +119,8 @@ Draws a blocky landscape (best used with a hull brush)",
 
 #### Parameters
 
-* **Horizontal Spacing**
-* **Verticle Spacing**
+* **Horizontal Spacing:**&#x20;
+* **Verticle Spacing:**&#x20;
 
 ### Voxels
 
@@ -128,7 +128,7 @@ Draws regular blocks in space as you draw (best used with the hull brush)
 
 #### Parameters
 
-* **Grid Size**
+* **Grid Size:**&#x20;
 
 ### Words
 
@@ -138,6 +138,6 @@ Draws words that follows your brush. Tries to access the clipboard so try copyin
 
 #### Parameters
 
-* **Size**
-* **Spacing**
+* **Size:**&#x20;
+* **Spacing:**&#x20;
 
