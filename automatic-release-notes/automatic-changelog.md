@@ -1,6 +1,6 @@
 # Changelog since v2.2
 
-[Full release details](https://github.com/icosa-gallery/open-brush/compare/v2.2...9d3158b2cc333aef7fef6d30354fc6a53e59b27c)
+[Full release details](https://github.com/icosa-gallery/open-brush/compare/v2.2...4f263f7f68a321524f8f0bec4b468282404ff37a)
 
 ## 🚀 Features
 
@@ -13,6 +13,8 @@
 - Backport a simplified version of model import from EditableModels ([PR #446](https://github.com/icosa-gallery/open-brush/pull/446) by @andybak)
 
 - Feature/xr keyboard ([PR #406](https://github.com/icosa-gallery/open-brush/pull/406) by @andybak)
+
+- Grab widgets snap to guides where appropriate ([PR #450](https://github.com/icosa-gallery/open-brush/pull/450) by @andybak)
 
 
 ## 🐛 Fixes
