@@ -1,6 +1,6 @@
 # Changelog since v2.2
 
-[Full release details](https://github.com/icosa-gallery/open-brush/compare/v2.2...4f263f7f68a321524f8f0bec4b468282404ff37a)
+[Full release details](https://github.com/icosa-gallery/open-brush/compare/v2.2...6810824d8a58d2cfe0550d740ee960b533db0544)
 
 ## 🚀 Features
 
@@ -33,6 +33,8 @@
 
 - Hotfix/widget layers offby1 ([PR #457](https://github.com/icosa-gallery/open-brush/pull/457) by @andybak)
 
+- Multicam recording fix ([PR #464](https://github.com/icosa-gallery/open-brush/pull/464) by @andybak)
+
 
 ## 🛠️ Infrastructure
 
@@ -54,9 +56,6 @@
 - Bump actions/setup-python from 4.6.0 to 4.6.1 ([PR #448](https://github.com/icosa-gallery/open-brush/pull/448) by @dependabot[bot])
 
 - Bump actions/setup-dotnet from 3.0.3 to 3.2.0 ([PR #451](https://github.com/icosa-gallery/open-brush/pull/451) by @dependabot[bot])
-
-
-## 💬 Uncategorized
 
 - Move user folder to Application.persistentDataPath ([PR #462](https://github.com/icosa-gallery/open-brush/pull/462) by @andybak)
 
