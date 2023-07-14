@@ -1,6 +1,6 @@
 # Changelog since v2.2
 
-[Full release details](https://github.com/icosa-gallery/open-brush/compare/v2.2...3673c0ebd231c1170ffe20be6c09d244eba7519b)
+[Full release details](https://github.com/icosa-gallery/open-brush/compare/v2.2...0dca2e2b471755634f3314522723b42d5c35a688)
 
 ## 🚀 Features
 
@@ -15,6 +15,8 @@
 - Feature/xr keyboard ([PR #406](https://github.com/icosa-gallery/open-brush/pull/406) by @andybak)
 
 - Grab widgets snap to guides where appropriate ([PR #450](https://github.com/icosa-gallery/open-brush/pull/450) by @andybak)
+
+- Simple 2D viewing mode when no headset is present ([PR #421](https://github.com/icosa-gallery/open-brush/pull/421) by @andybak)
 
 
 ## 🐛 Fixes
