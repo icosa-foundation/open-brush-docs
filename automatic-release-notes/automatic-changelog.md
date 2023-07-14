@@ -1,6 +1,6 @@
 # Changelog since v2.2
 
-[Full release details](https://github.com/icosa-gallery/open-brush/compare/v2.2...6810824d8a58d2cfe0550d740ee960b533db0544)
+[Full release details](https://github.com/icosa-gallery/open-brush/compare/v2.2...3673c0ebd231c1170ffe20be6c09d244eba7519b)
 
 ## 🚀 Features
 
@@ -58,6 +58,8 @@
 - Bump actions/setup-dotnet from 3.0.3 to 3.2.0 ([PR #451](https://github.com/icosa-gallery/open-brush/pull/451) by @dependabot[bot])
 
 - Move user folder to Application.persistentDataPath ([PR #462](https://github.com/icosa-gallery/open-brush/pull/462) by @andybak)
+
+- Bump actions/setup-python from 4.6.1 to 4.7.0 ([PR #466](https://github.com/icosa-gallery/open-brush/pull/466) by @dependabot[bot])
 
 
 
