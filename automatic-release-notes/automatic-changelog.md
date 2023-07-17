@@ -1,6 +1,6 @@
 # Changelog since v2.2
 
-[Full release details](https://github.com/icosa-gallery/open-brush/compare/v2.2...e655176af551404d4f52b54e9b1600a3fa74bba7)
+[Full release details](https://github.com/icosa-gallery/open-brush/compare/v2.2...51921dd77d5466ac8c903b28423de9b52b2ceb66)
 
 ## 🚀 Features
 
@@ -38,6 +38,8 @@
 - Multicam recording fix ([PR #464](https://github.com/icosa-gallery/open-brush/pull/464) by @andybak)
 
 - Keyboard code improvements and bug fixes ([PR #467](https://github.com/icosa-gallery/open-brush/pull/467) by @andybak)
+
+- Fix missing localization for a few promo popups ([PR #468](https://github.com/icosa-gallery/open-brush/pull/468) by @mikeskydev)
 
 
 ## 🛠️ Infrastructure
