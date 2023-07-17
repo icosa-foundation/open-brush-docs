@@ -1,6 +1,6 @@
 # Changelog since v2.2
 
-[Full release details](https://github.com/icosa-gallery/open-brush/compare/v2.2...0dca2e2b471755634f3314522723b42d5c35a688)
+[Full release details](https://github.com/icosa-gallery/open-brush/compare/v2.2...e655176af551404d4f52b54e9b1600a3fa74bba7)
 
 ## 🚀 Features
 
@@ -36,6 +36,8 @@
 - Hotfix/widget layers offby1 ([PR #457](https://github.com/icosa-gallery/open-brush/pull/457) by @andybak)
 
 - Multicam recording fix ([PR #464](https://github.com/icosa-gallery/open-brush/pull/464) by @andybak)
+
+- Keyboard code improvements and bug fixes ([PR #467](https://github.com/icosa-gallery/open-brush/pull/467) by @andybak)
 
 
 ## 🛠️ Infrastructure
