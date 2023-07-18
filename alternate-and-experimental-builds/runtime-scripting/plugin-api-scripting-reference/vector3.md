@@ -331,7 +331,7 @@ Moves a point towards a target point
 
 #### Example
 
-<pre class="language-lua"><code class="lang-lua"><strong>newPoint = Vector3:MoveTowards(pointA, PointB, 0.25)</strong></code></pre>
+<pre class="language-lua"><code class="lang-lua"><strong>position = position:MoveTowards(PointB, 0.25)</strong></code></pre>
 
 
 
