@@ -1,6 +1,6 @@
 # Changelog since v2.2
 
-[Full release details](https://github.com/icosa-gallery/open-brush/compare/v2.2...51921dd77d5466ac8c903b28423de9b52b2ceb66)
+[Full release details](https://github.com/icosa-gallery/open-brush/compare/v2.2...e9ff47db032a9d294d6ae84f14c6bd1f64456150)
 
 ## 🚀 Features
 
@@ -17,6 +17,8 @@
 - Grab widgets snap to guides where appropriate ([PR #450](https://github.com/icosa-gallery/open-brush/pull/450) by @andybak)
 
 - Simple 2D viewing mode when no headset is present ([PR #421](https://github.com/icosa-gallery/open-brush/pull/421) by @andybak)
+
+- Feature/repaint selected ([PR #409](https://github.com/icosa-gallery/open-brush/pull/409) by @andybak)
 
 
 ## 🐛 Fixes
