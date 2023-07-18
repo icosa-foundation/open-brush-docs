@@ -1,6 +1,6 @@
 # Changelog since v2.2
 
-[Full release details](https://github.com/icosa-gallery/open-brush/compare/v2.2...e9ff47db032a9d294d6ae84f14c6bd1f64456150)
+[Full release details](https://github.com/icosa-gallery/open-brush/compare/v2.2...10e180c931f86924e4e89332e95ed4e427c55b15)
 
 ## 🚀 Features
 
@@ -19,6 +19,8 @@
 - Simple 2D viewing mode when no headset is present ([PR #421](https://github.com/icosa-gallery/open-brush/pull/421) by @andybak)
 
 - Feature/repaint selected ([PR #409](https://github.com/icosa-gallery/open-brush/pull/409) by @andybak)
+
+- Add Quest support to the pure Android XR build ([PR #469](https://github.com/icosa-gallery/open-brush/pull/469) by @mikeskydev)
 
 
 ## 🐛 Fixes
