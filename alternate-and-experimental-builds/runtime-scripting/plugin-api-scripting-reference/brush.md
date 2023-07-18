@@ -12,7 +12,8 @@ The user's brush
 <tr><td>timeSincePressed</td><td>number<br>Read-only</td><td>Time in seconds since the brush trigger was last pressed</td></tr>
 <tr><td>timeSinceReleased</td><td>number<br>Read-only</td><td>Time in seconds since the brush trigger was last released</td></tr>
 <tr><td>triggerIsPressed</td><td>boolean<br>Read-only</td><td>Check whether the brush trigger is currently pressed</td></tr>
-<tr><td>triggerIsPressedThisFrame</td><td>boolean<br>Read-only</td><td>Check whether the brush trigger was pressed in the current frame</td></tr>
+<tr><td>triggerPressedThisFrame</td><td>boolean<br>Read-only</td><td>Check whether the brush trigger was pressed during the current frame</td></tr>
+<tr><td>triggerReleasedThisFrame</td><td>boolean<br>Read-only</td><td>Check whether the brush trigger was released during the current frame</td></tr>
 <tr><td>distanceMoved</td><td>number<br>Read-only</td><td>The distance moved by the brush</td></tr>
 <tr><td>distanceDrawn</td><td>number<br>Read-only</td><td>The distance drawn by the brush (i.e. distance since the trigger was last pressed)</td></tr>
 <tr><td>position</td><td><a href="vector3.md">Vector3</a><br>Read-only</td><td>The 3D position of the Brush Controller's tip</td></tr>
@@ -202,7 +203,7 @@ Forces the start of a new stroke - will stop painting this frame and start again
 
 #### Example
 
-<pre class="language-lua"><code class="lang-lua"><strong>Brush:ForceNewStroke(true)</strong></code></pre>
+<pre class="language-lua"><code class="lang-lua"><strong>Brush:ForceNewStroke()</strong></code></pre>
 
 
 

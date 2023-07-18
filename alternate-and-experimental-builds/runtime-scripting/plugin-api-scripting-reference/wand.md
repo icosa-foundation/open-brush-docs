@@ -14,6 +14,8 @@ Represents the user's wand (the controller that isn't the brush controller)
 <tr><td>direction</td><td><a href="vector3.md">Vector3</a><br>Read-only</td><td>The vector representing the forward direction of the wand controller</td></tr>
 <tr><td>pressure</td><td>number<br>Read-only</td><td>How far the trigger on the wand contrller is pressed in</td></tr>
 <tr><td>speed</td><td><a href="vector3.md">Vector3</a><br>Read-only</td><td>How fast the wand contrller is currently moving</td></tr>
+<tr><td>triggerIsPressed</td><td>boolean<br>Read-only</td><td>Check whether the wand trigger is currently pressed</td></tr>
+<tr><td>triggerPressedThisFrame</td><td>boolean<br>Read-only</td><td>Check whether the wand trigger was pressed during the current frame</td></tr>
 </tbody></table>
 
 

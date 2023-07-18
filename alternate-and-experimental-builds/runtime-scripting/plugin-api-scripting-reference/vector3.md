@@ -32,8 +32,8 @@ A position or offset in 3D space. See https://docs.unity3d.com/ScriptReference/V
 <tr><td>x</td><td>number<br>Read/Write</td><td>Gets or sets the x coordinate</td></tr>
 <tr><td>y</td><td>number<br>Read/Write</td><td>Gets or sets the y coordinate</td></tr>
 <tr><td>z</td><td>number<br>Read/Write</td><td>Gets or sets the z coordinate</td></tr>
-<tr><td>magnitude</td><td>number<br>Read-only</td><td>Returns the length of this vector</td></tr>
-<tr><td>sqrMagnitude</td><td>number<br>Read-only</td><td>Returns the squared length of this vector</td></tr>
+<tr><td>magnitude</td><td>number<br>Read/Write</td><td>Returns the length of this vector</td></tr>
+<tr><td>sqrMagnitude</td><td>number<br>Read/Write</td><td>Returns the squared length of this vector</td></tr>
 <tr><td>normalized</td><td><a href="vector3.md">Vector3</a><br>Read-only</td><td>Returns a vector with the same direction but with a length of 1</td></tr>
 </tbody></table>
 
