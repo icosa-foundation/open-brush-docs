@@ -8,18 +8,6 @@ If you've never programmed at all then Lua is a great place to start. Copy an ex
 
 As soon as you save your changes, Open Brush will load the new version. If you've made a mistake then the console on the back of your brush hand will tell you what line the error is on.
 
-## Autocomplete and Intellisense Using EmmyLua&#x20;
-
-If you look in your Plugins folder there is a subfolder called LuaModules and in there are a few commonly used libraries. However one file is different. It contains empty stubs for all available API methods and properties along with special comments that can be used by the EmmyLua plugin to give you working autocomplete, intellisense and tooltips. This makes writing scripts and finding bugs much easier.
-
-EmmyLua has been tested in Visual Studio Code, WebStorm (and other Jetbrains editors) but it also claims to support any editor that uses the language server protocol (LSP) standard. If you don't already have a passionate attachment to a particular editor then you should probably start with [Visual Studio Code](https://code.visualstudio.com/)
-
-[EmmyLua for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=tangzx.emmylua)
-
-[EmmyLua for Jetbrains](https://plugins.jetbrains.com/plugin/9768-emmylua)
-
-[EmmyLua Docs](https://emmylua.github.io/)
-
 ## Libraries
 
 In addition to the API commands you can use most of the [Lua Standard Library](https://www.moonsharp.org/MoonSharpStdLib.pdf) also.&#x20;
@@ -121,7 +109,7 @@ end
 
 The following realtime values from the sketch are examples of values available to use in your scripts.&#x20;
 
-Here are some common properties. You can also see a [full list of methods and properties for each type.](plugin-api-scripting-reference/)
+Here are some common properties. You can also see a [full list of methods and properties for each type.](../plugin-api-scripting-reference/)
 
 * **Brush.position:** \
   The current position of the brush pointer relative to the canvas

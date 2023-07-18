@@ -1,6 +1,6 @@
 # Changelog since v2.2
 
-[Full release details](https://github.com/icosa-gallery/open-brush/compare/v2.2...38a7d68dd4690ef911b83bb514859a131e72da7c)
+[Full release details](https://github.com/icosa-gallery/open-brush/compare/v2.2...51921dd77d5466ac8c903b28423de9b52b2ceb66)
 
 ## 🚀 Features
 
@@ -11,6 +11,12 @@
 - Add websocket support to the API server ([PR #336](https://github.com/icosa-gallery/open-brush/pull/336) by @andybak)
 
 - Backport a simplified version of model import from EditableModels ([PR #446](https://github.com/icosa-gallery/open-brush/pull/446) by @andybak)
+
+- Feature/xr keyboard ([PR #406](https://github.com/icosa-gallery/open-brush/pull/406) by @andybak)
+
+- Grab widgets snap to guides where appropriate ([PR #450](https://github.com/icosa-gallery/open-brush/pull/450) by @andybak)
+
+- Simple 2D viewing mode when no headset is present ([PR #421](https://github.com/icosa-gallery/open-brush/pull/421) by @andybak)
 
 
 ## 🐛 Fixes
@@ -28,6 +34,12 @@
 - Add missing swipe hint to Multicam tool ([PR #455](https://github.com/icosa-gallery/open-brush/pull/455) by @andybak)
 
 - Hotfix/widget layers offby1 ([PR #457](https://github.com/icosa-gallery/open-brush/pull/457) by @andybak)
+
+- Multicam recording fix ([PR #464](https://github.com/icosa-gallery/open-brush/pull/464) by @andybak)
+
+- Keyboard code improvements and bug fixes ([PR #467](https://github.com/icosa-gallery/open-brush/pull/467) by @andybak)
+
+- Fix missing localization for a few promo popups ([PR #468](https://github.com/icosa-gallery/open-brush/pull/468) by @mikeskydev)
 
 
 ## 🛠️ Infrastructure
@@ -51,10 +63,9 @@
 
 - Bump actions/setup-dotnet from 3.0.3 to 3.2.0 ([PR #451](https://github.com/icosa-gallery/open-brush/pull/451) by @dependabot[bot])
 
-
-## 💬 Uncategorized
-
 - Move user folder to Application.persistentDataPath ([PR #462](https://github.com/icosa-gallery/open-brush/pull/462) by @andybak)
+
+- Bump actions/setup-python from 4.6.1 to 4.7.0 ([PR #466](https://github.com/icosa-gallery/open-brush/pull/466) by @dependabot[bot])
 
 
 

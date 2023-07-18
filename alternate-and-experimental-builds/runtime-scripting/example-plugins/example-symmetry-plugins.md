@@ -51,7 +51,7 @@ Copies of your stroke forming an ellipse - with optional color shifts
 
 * **Copies:** The number of strokes to draw at once
 * **Eccentricity:** How elliptical the shape is
-* **Axis Consistency**
+* **Axis Consistency:** Controls how much the elliptical axis follows your brush position
 
 ### Frame
 
@@ -90,7 +90,7 @@ Autolathe but with multiple lathes"
 
 #### Parameters
 
-* **Speed**
+* **Speed:** The speed the lathe is spinning
 * **Angle X:** The axis tilt in the X direction
 * **Angle Y:** The axis tilt in the Y direction
 
@@ -140,8 +140,8 @@ Multiple copies of your brush spinning around your actual brush position
 #### Parameters
 
 * **Copies:** The number of strokes to draw at once
-* **Speed:**&#x20;
-* **Radius:**&#x20;
+* **Speed:** How fast the extra pointers are rotating
+* **Radius:** The radius of the circle they are rotating around
 
 ### SuperEllipseAround
 
@@ -152,7 +152,7 @@ Copies of your stroke forming a [superellipse](https://en.wikipedia.org/wiki/Sup
 * **Copies:** The number of strokes to draw at once
 * **n:** The parameter that controls the overall shape of the superellipse
 * **Eccentricity:** How elliptical to make the shape
-* **Axis Consistency:**&#x20;
+* **Axis Consistency:** Controls how much the elliptical axis follows your brush position
 
 ### Svg
 
@@ -164,7 +164,7 @@ Similar to [SVG](example-symmetry-plugins.md#svg) but centered around the Symmet
 
 #### Parameters
 
-* **Point Spacing**
+* **Point Spacing:** The distance between each pointer around the shape
 
 ### ToGuide
 

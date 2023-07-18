@@ -30,7 +30,7 @@ See [Using Plugins](using-plugins.md)
 
 ### How do I write my own plugin scripts?
 
-See [Writing Plugins](writing-plugins.md)
+See [Writing Plugins](writing-plugins/)
 
 ### Known Issues
 
