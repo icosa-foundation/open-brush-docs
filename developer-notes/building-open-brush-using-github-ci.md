@@ -42,7 +42,7 @@ It will prompt you for a code; check the email associated with the account and e
 
 After that, three more secrets need to be created. Check the steam directory (~/Library/Application Support/Steam on Mac, I don't know for other platforms), and run `base64 -i config/config.vdf` and store the output as `STEAM_CONFIG_VDK`
 
-Then find the file in that directory named `ssfnXXXXXX`. Save the file name to the secret named `STEAM_SSFN_FILENAME`, and the contents (using `base64 -i`) to `STEAM_SSFN`.
+If, at any point, Steam starts rejecting logins and sending a new OTP by email, simply use it locally, which will regenerate config.vdk. Upload the new version as a secret, and future build jobs will work again.
 
 ## Itch Publish
 
