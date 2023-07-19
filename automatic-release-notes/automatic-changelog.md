@@ -1,6 +1,6 @@
 # Changelog since v2.2
 
-[Full release details](https://github.com/icosa-gallery/open-brush/compare/v2.2...10e180c931f86924e4e89332e95ed4e427c55b15)
+[Full release details](https://github.com/icosa-gallery/open-brush/compare/v2.2...8cc0b39adfb45a39767f76c43c3edc1412b54882)
 
 ## 🚀 Features
 
@@ -53,6 +53,8 @@
 - Merge v2.3 hotfix branch ([PR #459](https://github.com/icosa-gallery/open-brush/pull/459) by @mikeage)
 
 - Correctly calculate changelogs commensurate on commencement of correctional commit ([PR #460](https://github.com/icosa-gallery/open-brush/pull/460) by @mikeage)
+
+- Update steam deployment to remove superflous parameters ([PR #470](https://github.com/icosa-gallery/open-brush/pull/470) by @mikeage)
 
 
 ## 📦 Dependencies / Maintenance
