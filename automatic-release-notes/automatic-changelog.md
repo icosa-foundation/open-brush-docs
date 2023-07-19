@@ -1,6 +1,6 @@
 # Changelog since v2.2
 
-[Full release details](https://github.com/icosa-gallery/open-brush/compare/v2.2...8cc0b39adfb45a39767f76c43c3edc1412b54882)
+[Full release details](https://github.com/icosa-gallery/open-brush/compare/v2.2...f3588569e26200d817752bfdd6efbd647de3707b)
 
 ## 🚀 Features
 
@@ -72,6 +72,8 @@
 - Move user folder to Application.persistentDataPath ([PR #462](https://github.com/icosa-gallery/open-brush/pull/462) by @andybak)
 
 - Bump actions/setup-python from 4.6.1 to 4.7.0 ([PR #466](https://github.com/icosa-gallery/open-brush/pull/466) by @dependabot[bot])
+
+- Restore Steam password; it seems to be needed ([PR #471](https://github.com/icosa-gallery/open-brush/pull/471) by @mikeage)
 
 
 
