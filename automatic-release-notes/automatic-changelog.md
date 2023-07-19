@@ -1,6 +1,6 @@
 # Changelog since v2.2
 
-[Full release details](https://github.com/icosa-gallery/open-brush/compare/v2.2...f3588569e26200d817752bfdd6efbd647de3707b)
+[Full release details](https://github.com/icosa-gallery/open-brush/compare/v2.2...ad4a03feb802044825e1f414be52a586720598d3)
 
 ## 🚀 Features
 
@@ -44,6 +44,8 @@
 - Keyboard code improvements and bug fixes ([PR #467](https://github.com/icosa-gallery/open-brush/pull/467) by @andybak)
 
 - Fix missing localization for a few promo popups ([PR #468](https://github.com/icosa-gallery/open-brush/pull/468) by @mikeskydev)
+
+- Update BrushController.cs ([PR #472](https://github.com/icosa-gallery/open-brush/pull/472) by @andybak)
 
 
 ## 🛠️ Infrastructure
