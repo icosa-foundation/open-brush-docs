@@ -10,11 +10,12 @@ A specific brush stroke
 <table data-full-width="false">
 <thead><tr><th>Name</th><th>Return Type</th><th>Description</th></tr></thead>
 <tbody>
-<tr><td>path</td><td><a href="path.md">Path</a><br>Read/Write</td><td>Gets or sets the control points of this stroke from a Path</td></tr>
-<tr><td>brushType</td><td>string<br>Read/Write</td><td>Gets or sets the stroke's brush type</td></tr>
-<tr><td>brushSize</td><td>number<br>Read/Write</td><td>Gets or sets the stroke's size</td></tr>
-<tr><td>brushColor</td><td><a href="color.md">Color</a><br>Read/Write</td><td>Gets or sets the stroke's Color</td></tr>
-<tr><td>layer</td><td><a href="layer.md">Layer</a><br>Read/Write</td><td>Gets or sets the layer the stroke is on</td></tr>
+<tr><td>path</td><td><a href="path.md">Path</a><br>Read/Write</td><td>The control points of this stroke from a Path</td></tr>
+<tr><td>brushType</td><td>string<br>Read/Write</td><td>The stroke's brush type</td></tr>
+<tr><td>brushSize</td><td>number<br>Read/Write</td><td>The stroke's size</td></tr>
+<tr><td>brushColor</td><td><a href="color.md">Color</a><br>Read/Write</td><td>The stroke's Color</td></tr>
+<tr><td>layer</td><td><a href="layer.md">Layer</a><br>Read/Write</td><td>The layer the stroke is on</td></tr>
+<tr><td>group</td><td><a href="group.md">Group</a><br>Read/Write</td><td>The group this stroke is part of</td></tr>
 <tr><td>this[index]</td><td><a href="transform.md">Transform</a><br>Read/Write</td><td>Gets or sets a control point by index</td></tr>
 <tr><td>count</td><td>number<br>Read-only</td><td>The number of control points in this stroke</td></tr>
 </tbody></table>
@@ -103,6 +104,17 @@ Adds this stroke to the current selection
 #### Example
 
 <pre class="language-lua"><code class="lang-lua"><strong>myStroke:Select()</strong></code></pre>
+
+
+
+
+### stroke:ModifyMaterial()
+
+
+
+**Returns:** nil 
+
+
 
 
 

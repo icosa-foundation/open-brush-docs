@@ -28,7 +28,7 @@ An RGB color
 <table data-full-width="false">
 <thead><tr><th>Name</th><th>Return Type</th><th>Description</th></tr></thead>
 <tbody>
-<tr><td>this[index]</td><td>number<br>Read/Write</td><td>Gets or sets the color component at the specified index</td></tr>
+<tr><td>this[index]</td><td>number<br>Read/Write</td><td>The color component at the specified index</td></tr>
 <tr><td>r</td><td>number<br>Read-only</td><td>The red component</td></tr>
 <tr><td>g</td><td>number<br>Read-only</td><td>The green component</td></tr>
 <tr><td>b</td><td>number<br>Read-only</td><td>The blue component</td></tr>

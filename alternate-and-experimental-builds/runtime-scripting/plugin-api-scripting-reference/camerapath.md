@@ -11,6 +11,8 @@ A camera path and its position, speed or FOV knots
 <thead><tr><th>Name</th><th>Return Type</th><th>Description</th></tr></thead>
 <tbody>
 <tr><td>index</td><td>number<br>Read-only</td><td>Returns the index of this Camera Path in Sketch.cameraPaths</td></tr>
+<tr><td>layer</td><td><a href="layer.md">Layer</a><br>Read/Write</td><td>The layer the camera path is on</td></tr>
+<tr><td>group</td><td><a href="group.md">Group</a><br>Read/Write</td><td>The group this camera path is part of</td></tr>
 <tr><td>active</td><td>boolean<br>Read/Write</td><td>Gets or sets whether this Camera Path is active</td></tr>
 <tr><td>transform</td><td><a href="transform.md">Transform</a><br>Read/Write</td><td>The transform of the camera path</td></tr>
 <tr><td>position</td><td><a href="vector3.md">Vector3</a><br>Read/Write</td><td>The 3D position of the Camera Path (usually but not always its first position knot)</td></tr>

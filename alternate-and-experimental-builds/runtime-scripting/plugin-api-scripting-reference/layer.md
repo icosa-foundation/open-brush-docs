@@ -10,12 +10,19 @@ A layer in the current sketch
 <table data-full-width="false">
 <thead><tr><th>Name</th><th>Return Type</th><th>Description</th></tr></thead>
 <tbody>
+<tr><td>strokes</td><td><a href="strokelist.md">StrokeList</a><br>Read-only</td><td>All the strokes on this layer</td></tr>
+<tr><td>images</td><td><a href="imagelist.md">ImageList</a><br>Read-only</td><td>All the images on this layer</td></tr>
+<tr><td>videos</td><td><a href="videolist.md">VideoList</a><br>Read-only</td><td>All the videos on this layer</td></tr>
+<tr><td>models</td><td><a href="modellist.md">ModelList</a><br>Read-only</td><td>All the models on this layer</td></tr>
+<tr><td>guides</td><td><a href="guidelist.md">GuideList</a><br>Read-only</td><td>All the guides on this layer</td></tr>
+<tr><td>cameraPaths</td><td><a href="camerapathlist.md">CameraPathList</a><br>Read-only</td><td>All the camera paths on this layer</td></tr>
+<tr><td>groups</td><td><a href="system.collections.generic.list`1[group].md">System.Collections.Generic.List`1[Group]</a><br>Read-only</td><td>All the groups on this layer</td></tr>
 <tr><td>index</td><td>number<br>Read-only</td><td>Gets the index of the layer in the layer canvases</td></tr>
 <tr><td>active</td><td>boolean<br>Read/Write</td><td>Gets or sets a value indicating whether the layer is active</td></tr>
-<tr><td>transform</td><td><a href="transform.md">Transform</a><br>Read/Write</td><td>Gets or sets the transform of the layer</td></tr>
+<tr><td>transform</td><td><a href="transform.md">Transform</a><br>Read/Write</td><td>The transform of the layer</td></tr>
 <tr><td>position</td><td><a href="vector3.md">Vector3</a><br>Read/Write</td><td>The 3D position of the Layer (specifically the position of it's anchor point</td></tr>
-<tr><td>rotation</td><td><a href="rotation.md">Rotation</a><br>Read/Write</td><td>Gets or sets the rotation of the layer in 3D space</td></tr>
-<tr><td>scale</td><td>number<br>Read/Write</td><td>Gets or sets the scale of the layer</td></tr>
+<tr><td>rotation</td><td><a href="rotation.md">Rotation</a><br>Read/Write</td><td>The rotation of the layer in 3D space</td></tr>
+<tr><td>scale</td><td>number<br>Read/Write</td><td>The scale of the layer</td></tr>
 </tbody></table>
 
 
@@ -25,16 +32,16 @@ A layer in the current sketch
         
 ### Layer:New()
 
-Creates and returns a new instance of a Layer
+Creates a new layer
 
-**Returns:** <a href="layer.md">Layer</a>  (The new instance of LayerApiWrapper)
+**Returns:** <a href="layer.md">Layer</a>  (The new layer)
 
 
 
 
 #### Example
 
-<pre class="language-lua"><code class="lang-lua"><strong>Layer:New()</strong></code></pre>
+<pre class="language-lua"><code class="lang-lua"><strong>myLayer = Layer:New()</strong></code></pre>
 
 
 

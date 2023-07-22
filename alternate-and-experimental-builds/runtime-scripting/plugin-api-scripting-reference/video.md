@@ -11,10 +11,12 @@ A video widget
 <thead><tr><th>Name</th><th>Return Type</th><th>Description</th></tr></thead>
 <tbody>
 <tr><td>index</td><td>number<br>Read-only</td><td>Gets the index of this Video</td></tr>
-<tr><td>transform</td><td><a href="transform.md">Transform</a><br>Read/Write</td><td>Gets or sets the Transform (position, rotation, scale) of the Video Widget</td></tr>
+<tr><td>layer</td><td><a href="layer.md">Layer</a><br>Read/Write</td><td>The layer the video is on</td></tr>
+<tr><td>group</td><td><a href="group.md">Group</a><br>Read/Write</td><td>The group this video is part of</td></tr>
+<tr><td>transform</td><td><a href="transform.md">Transform</a><br>Read/Write</td><td>The Transform (position, rotation, scale) of the Video Widget</td></tr>
 <tr><td>position</td><td><a href="vector3.md">Vector3</a><br>Read/Write</td><td>The 3D position of the Video Widget</td></tr>
 <tr><td>rotation</td><td><a href="rotation.md">Rotation</a><br>Read/Write</td><td>The 3D orientation of the Video Widget</td></tr>
-<tr><td>scale</td><td>number<br>Read/Write</td><td>Gets or sets the scale of the Video Widget</td></tr>
+<tr><td>scale</td><td>number<br>Read/Write</td><td>The scale of the Video Widget</td></tr>
 </tbody></table>
 
 

@@ -29,7 +29,7 @@ The user's brush
 <tr><td>colorHtml</td><td>string<br>Read/Write</td><td>The color of the brush as a valid HTML color string (either hex values or a color name)</td></tr>
 <tr><td>lastColorPicked</td><td><a href="color.md">Color</a><br>Read-only</td><td>The last color picked by the brush.</td></tr>
 <tr><td>LastColorPickedHsv</td><td><a href="vector3.md">Vector3</a><br>Read-only</td><td>The last color picked by the brush in HSV.</td></tr>
-<tr><td>currentPath</td><td><a href="path.md">Path</a><br>Read/Write</td><td>Gets or sets the current path of the brush. Assumes a stroke is in progress.</td></tr>
+<tr><td>currentPath</td><td><a href="path.md">Path</a><br>Read/Write</td><td>The current path of the brush. Assumes a stroke is in progress.</td></tr>
 </tbody></table>
 
 

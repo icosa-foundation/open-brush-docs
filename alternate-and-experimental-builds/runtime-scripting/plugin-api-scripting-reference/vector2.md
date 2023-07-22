@@ -26,9 +26,9 @@ A position or offset in 2D space. See https://docs.unity3d.com/ScriptReference/V
 <table data-full-width="false">
 <thead><tr><th>Name</th><th>Return Type</th><th>Description</th></tr></thead>
 <tbody>
-<tr><td>this[index]</td><td>number<br>Read/Write</td><td>Gets or sets the component at the specified index</td></tr>
-<tr><td>x</td><td>number<br>Read/Write</td><td>Gets or sets the x coordinate</td></tr>
-<tr><td>y</td><td>number<br>Read/Write</td><td>Gets or sets the y coordinate</td></tr>
+<tr><td>this[index]</td><td>number<br>Read/Write</td><td>The component at the specified index</td></tr>
+<tr><td>x</td><td>number<br>Read/Write</td><td>The x coordinate</td></tr>
+<tr><td>y</td><td>number<br>Read/Write</td><td>The y coordinate</td></tr>
 <tr><td>magnitude</td><td>number<br>Read/Write</td><td>The length of this vector</td></tr>
 <tr><td>sqrMagnitude</td><td>number<br>Read/Write</td><td>The square of the length of this vector (faster to calculate if you're just comparing two lengths)</td></tr>
 <tr><td>normalized</td><td><a href="vector2.md">Vector2</a><br>Read-only</td><td>Returns a vector with the same distance but witha length of 1</td></tr>

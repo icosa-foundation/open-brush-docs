@@ -71,6 +71,7 @@
       * [Color](alternate-and-experimental-builds/runtime-scripting/plugin-api-scripting-reference/color.md)
       * [Easing](alternate-and-experimental-builds/runtime-scripting/plugin-api-scripting-reference/easing.md)
       * [Environment List](alternate-and-experimental-builds/runtime-scripting/plugin-api-scripting-reference/environmentlist.md)
+      * [Group](alternate-and-experimental-builds/runtime-scripting/plugin-api-scripting-reference/group.md)
       * [Guide](alternate-and-experimental-builds/runtime-scripting/plugin-api-scripting-reference/guide.md)
       * [GuideList](alternate-and-experimental-builds/runtime-scripting/plugin-api-scripting-reference/guidelist.md)
       * [Headset](alternate-and-experimental-builds/runtime-scripting/plugin-api-scripting-reference/headset.md)
