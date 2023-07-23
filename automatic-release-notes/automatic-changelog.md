@@ -1,6 +1,6 @@
 # Changelog since v2.2
 
-[Full release details](https://github.com/icosa-gallery/open-brush/compare/v2.2...4da12a864fe6c1ea9c4acb3abb52a693c7f27409)
+[Full release details](https://github.com/icosa-gallery/open-brush/compare/v2.2...98c78174924af55f2b3e0d5c0d770f1f126fc537)
 
 ## 🚀 Features
 
@@ -21,6 +21,8 @@
 - Feature/repaint selected ([PR #409](https://github.com/icosa-gallery/open-brush/pull/409) by @andybak)
 
 - Add Quest support to the pure Android XR build ([PR #469](https://github.com/icosa-gallery/open-brush/pull/469) by @mikeskydev)
+
+- Use GLTFast as the primary load; fall back to the old code if it fails ([PR #278](https://github.com/icosa-gallery/open-brush/pull/278) by @andybak)
 
 
 ## 🐛 Fixes
@@ -45,7 +47,7 @@
 
 - Fix missing localization for a few promo popups ([PR #468](https://github.com/icosa-gallery/open-brush/pull/468) by @mikeskydev)
 
-- Update BrushController.cs ([PR #472](https://github.com/icosa-gallery/open-brush/pull/472) by @andybak)
+- Fix: Can't switch back to brush if selection tool picked immediately on launch ([PR #472](https://github.com/icosa-gallery/open-brush/pull/472) by @andybak)
 
 
 ## 🛠️ Infrastructure
