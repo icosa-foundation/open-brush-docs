@@ -1,6 +1,6 @@
 # Changelog since v2.2
 
-[Full release details](https://github.com/icosa-gallery/open-brush/compare/v2.2...19f4bde1f1b682385360a07432f31e3f6f110e1e)
+[Full release details](https://github.com/icosa-gallery/open-brush/compare/v2.2...9705caad484cb78e222b11b9b7ab1dc75705a0da)
 
 ## 🚀 Features
 
@@ -82,6 +82,8 @@
 - Bump actions/setup-python from 4.6.1 to 4.7.0 ([PR #466](https://github.com/icosa-gallery/open-brush/pull/466) by @dependabot[bot])
 
 - Restore Steam password; it seems to be needed ([PR #471](https://github.com/icosa-gallery/open-brush/pull/471) by @mikeage)
+
+- Update mikepenz/release-changelog-builder-action to v4 ([PR #478](https://github.com/icosa-gallery/open-brush/pull/478) by @mikeage)
 
 
 ## 💬 Uncategorized
