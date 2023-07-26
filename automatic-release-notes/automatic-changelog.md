@@ -1,6 +1,6 @@
 # Changelog since v2.2
 
-[Full release details](https://github.com/icosa-gallery/open-brush/compare/v2.2...98c78174924af55f2b3e0d5c0d770f1f126fc537)
+[Full release details](https://github.com/icosa-gallery/open-brush/compare/v2.2...6bfa2fe157af5a9740cbd8a61c711f2da2e00899)
 
 ## 🚀 Features
 
@@ -48,6 +48,8 @@
 - Fix missing localization for a few promo popups ([PR #468](https://github.com/icosa-gallery/open-brush/pull/468) by @mikeskydev)
 
 - Fix: Can't switch back to brush if selection tool picked immediately on launch ([PR #472](https://github.com/icosa-gallery/open-brush/pull/472) by @andybak)
+
+- Fix bug with snap rotation on rotated canvas. ([PR #301](https://github.com/icosa-gallery/open-brush/pull/301) by @andybak)
 
 
 ## 🛠️ Infrastructure
