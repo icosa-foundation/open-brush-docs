@@ -1,6 +1,6 @@
 # Changelog since v2.2
 
-[Full release details](https://github.com/icosa-gallery/open-brush/compare/v2.2...9705caad484cb78e222b11b9b7ab1dc75705a0da)
+[Full release details](https://github.com/icosa-gallery/open-brush/compare/v2.2...3b866a4ec779d4ba17397fb55dad4fbea3b21d67)
 
 ## 🚀 Features
 
@@ -23,6 +23,8 @@
 - Add Quest support to the pure Android XR build ([PR #469](https://github.com/icosa-gallery/open-brush/pull/469) by @mikeskydev)
 
 - Use GLTFast as the primary load; fall back to the old code if it fails ([PR #278](https://github.com/icosa-gallery/open-brush/pull/278) by @andybak)
+
+- Snap improvements and Transform panel ([PR #303](https://github.com/icosa-gallery/open-brush/pull/303) by @andybak)
 
 
 ## 🐛 Fixes
