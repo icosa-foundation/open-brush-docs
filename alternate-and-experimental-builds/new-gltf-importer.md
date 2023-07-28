@@ -1,6 +1,6 @@
 # Feature: Improved GLTF Importer
 
-#### Status: Very nearly ready with a few remaining bugs
+#### Status: Merged into the official beta release
 
 ## Download
 

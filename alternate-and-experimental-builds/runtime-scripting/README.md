@@ -1,8 +1,6 @@
 # Feature: Plugin Scripting
 
-#### Status: Mostly working. Missing features and probably buggy in places.
-
-{% embed url="https://youtu.be/z3lb7pjlP9o" %}
+#### Status: Mostly working.
 
 ## Download
 

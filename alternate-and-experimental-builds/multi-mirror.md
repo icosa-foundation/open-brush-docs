@@ -1,6 +1,6 @@
 # Feature: Multi-Mirror
 
-#### Status: Working - with some known issues (mainly cosmetic)
+#### Status: Merged into the official beta release
 
 ![](<../.gitbook/assets/image (14).png>) ![](<../.gitbook/assets/image (2) (3).png>)
 
