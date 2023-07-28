@@ -4,11 +4,7 @@
 
 ## Download
 
-* [Oculus Quest](https://nightly.link/IxxyXR/open-brush/workflows/build/feature%2Fgltfast_openxr/Oculus%20Quest.zip)
-* [Oculus PC VR ](https://nightly.link/IxxyXR/open-brush/workflows/build/feature%2Fgltfast_openxr/Windows%20Rift.zip)(Rift, Quest via Link cable...)
-* [SteamVR ](https://nightly.link/IxxyXR/open-brush/workflows/build/feature%2Fgltfast_openxr/Windows%20OpenXR.zip)(Vive, Index, Reverb...)
-* [Other Builds](https://nightly.link/IxxyXR/open-brush/workflows/build/feature%2Fgltfast_openxr) (Pico, Pimax etc)
-* [Code](https://github.com/IxxyXR/open-brush/tree/featurees/gltfast_openxr)
+This feature has now been merged into the [beta release](open-brush-beta-docs.md)
 
 ### What does it do?
 
@@ -38,4 +34,4 @@ Come over to the [Open Brush Discord](https://discord.com/invite/fS69VdFXpk) and
 
 ### Can I see it in action?
 
-Not yet. 
+Not yet.
