@@ -1,6 +1,6 @@
 # Changelog since v2.2
 
-[Full release details](https://github.com/icosa-gallery/open-brush/compare/v2.2...3b866a4ec779d4ba17397fb55dad4fbea3b21d67)
+[Full release details](https://github.com/icosa-gallery/open-brush/compare/v2.2...3b03f6fe95ce077c3dde1c704a0eec28cb9d0437)
 
 ## 🚀 Features
 
@@ -25,6 +25,8 @@
 - Use GLTFast as the primary load; fall back to the old code if it fails ([PR #278](https://github.com/icosa-gallery/open-brush/pull/278) by @andybak)
 
 - Snap improvements and Transform panel ([PR #303](https://github.com/icosa-gallery/open-brush/pull/303) by @andybak)
+
+- Feature/multi mirrors ([PR #345](https://github.com/icosa-gallery/open-brush/pull/345) by @andybak)
 
 
 ## 🐛 Fixes
@@ -85,12 +87,9 @@
 
 - Restore Steam password; it seems to be needed ([PR #471](https://github.com/icosa-gallery/open-brush/pull/471) by @mikeage)
 
-- Update mikepenz/release-changelog-builder-action to v4 ([PR #478](https://github.com/icosa-gallery/open-brush/pull/478) by @mikeage)
-
-
-## 💬 Uncategorized
-
 - Revert "Move user folder to Application.persistentDataPath" ([PR #474](https://github.com/icosa-gallery/open-brush/pull/474) by @mikeskydev)
+
+- Update mikepenz/release-changelog-builder-action to v4 ([PR #478](https://github.com/icosa-gallery/open-brush/pull/478) by @mikeage)
 
 
 
