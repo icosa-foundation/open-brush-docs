@@ -1,6 +1,6 @@
 # Changelog since v2.2
 
-[Full release details](https://github.com/icosa-gallery/open-brush/compare/v2.2...3b03f6fe95ce077c3dde1c704a0eec28cb9d0437)
+[Full release details](https://github.com/icosa-gallery/open-brush/compare/v2.2...41a1a44e416c284e48c8551df3ae33277ee9e11b)
 
 ## 🚀 Features
 
@@ -56,6 +56,10 @@
 - Fix bug with snap rotation on rotated canvas. ([PR #301](https://github.com/icosa-gallery/open-brush/pull/301) by @andybak)
 
 - Load HttpListener in a background thread; fixes delay on China mobile hotspots ([PR #442](https://github.com/icosa-gallery/open-brush/pull/442) by @chengnay)
+
+- Hotfix/selection snapping bugs ([PR #480](https://github.com/icosa-gallery/open-brush/pull/480) by @andybak)
+
+- Update ReferenceImage.shader ([PR #481](https://github.com/icosa-gallery/open-brush/pull/481) by @andybak)
 
 
 ## 🛠️ Infrastructure
