@@ -2,7 +2,7 @@
 
 ![](<../.gitbook/assets/image (1) (1).png>)
 
-The Settings Panel can be opened from a button on the [Admin Panel](the-admin-panel.md).
+The Settings Panel can be opened from a button on the [Admin Panel](using-the-open-brush-tools-quick-tools-and-menu-panels/the-admin-panel.md).
 
 1. Top row of buttons (Left to right):\
    i. Help: Pops up links to various useful web pages\
