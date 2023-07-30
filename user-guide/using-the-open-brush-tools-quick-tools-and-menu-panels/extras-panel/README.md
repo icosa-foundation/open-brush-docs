@@ -1,5 +1,7 @@
 # Extras Panel
 
+![](<../../../.gitbook/assets/image (21).png>)
+
 1. Environment Panel
 2. Lights Panel
 3. Backdrop Panel
