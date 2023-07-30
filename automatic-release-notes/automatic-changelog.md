@@ -1,6 +1,6 @@
 # Changelog since v2.2
 
-[Full release details](https://github.com/icosa-gallery/open-brush/compare/v2.2...cae8fc09522bcd55891b3fb7e2f958b1aa583feb)
+[Full release details](https://github.com/icosa-gallery/open-brush/compare/v2.2...ac5e2e40661cec617508fdadaabb1bf4ceb1ac26)
 
 ## 🚀 Features
 
@@ -62,6 +62,8 @@
 - Hotfix/selection snapping bugs ([PR #480](https://github.com/icosa-gallery/open-brush/pull/480) by @andybak)
 
 - Update ReferenceImage.shader ([PR #481](https://github.com/icosa-gallery/open-brush/pull/481) by @andybak)
+
+- Fix webcam breaking Oculus builds ([PR #484](https://github.com/icosa-gallery/open-brush/pull/484) by @andybak)
 
 
 ## 🛠️ Infrastructure
