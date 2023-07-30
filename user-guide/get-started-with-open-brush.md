@@ -48,7 +48,7 @@ The system requirements for running Open Brush are the same system requirements 
 2. On your palette, go to **Tools >** **More** > **Tips ‘N Tricks.**
 3. This will run you through an overview of your Open Brush controllers and where the various buttons are.
 
-Note that left handed users can switch the left and right controllers by tapping (gently!) the base of the two controllers together, so that the left hand controller will paint and the right hand controller will contain the various panels and settings. You can also swap left and right hands in the [Settings Panel](settings.md)
+Note that left handed users can switch the left and right controllers by tapping (gently!) the base of the two controllers together, so that the left hand controller will paint and the right hand controller will contain the various panels and settings. You can also swap left and right hands in the [Settings Panel](using-the-open-brush-tools-quick-tools-and-menu-panels/settings.md)
 
 ### **View sketches**
 
