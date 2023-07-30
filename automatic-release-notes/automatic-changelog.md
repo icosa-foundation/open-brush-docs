@@ -1,6 +1,6 @@
 # Changelog since v2.2
 
-[Full release details](https://github.com/icosa-gallery/open-brush/compare/v2.2...41a1a44e416c284e48c8551df3ae33277ee9e11b)
+[Full release details](https://github.com/icosa-gallery/open-brush/compare/v2.2...cae8fc09522bcd55891b3fb7e2f958b1aa583feb)
 
 ## 🚀 Features
 
@@ -27,6 +27,8 @@
 - Snap improvements and Transform panel ([PR #303](https://github.com/icosa-gallery/open-brush/pull/303) by @andybak)
 
 - Feature/multi mirrors ([PR #345](https://github.com/icosa-gallery/open-brush/pull/345) by @andybak)
+
+- Webcam (or other streaming video source) panel ([PR #477](https://github.com/icosa-gallery/open-brush/pull/477) by @andybak)
 
 
 ## 🐛 Fixes
