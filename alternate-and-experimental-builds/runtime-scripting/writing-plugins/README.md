@@ -29,15 +29,15 @@ A Pointer Script should return x, y, z for pointer rotation and x, y, z for poin
 For example:
 
 ```lua
-function WhileTriggerPressed()
-    speed = 5
-    radius = 0.25
-    angle = App.time * speed
-    r = Brush.pressure * radius;
-    pos = Vector3:New(Math:Sin(angle) * r, Math:Cos(angle) * r, 0)
-    return Transform:New(pos)
+function Main()
+    if Brush.triggerIsPressed then
+        speed = 5
+        angle = App.time * speed
+        radius = Brush.pressure * 0.25;
+        pos = Vector3:New(Math:Sin(angle) * r, Math:Cos(angle) * radius, 0)
+        return Transform:New(pos)
+    end
 end
-
 ```
 
 #### Tool Scripts
@@ -51,16 +51,16 @@ Tool Scripts should return a list of points (and optionally rotations) that defi
 For example:
 
 ```lua
-function WhileTriggerPressed()
-    speed = 16
-    radius = 1
-    angle = App.time * speed
-    r = 0
-    if (Brush.triggerIsPressed) then
-        r = radius * Brush.timeSincePressed
+function Main()
+    if Brush.triggerReleasedThisFrame then
+        points = Path:New()
+        for angle = 0, 360, 10 do
+            position2d = Vector2:PointOnCircle(angle)
+            rotation = Rotation:New(0, 0, angle * 180)
+            points:Insert(Transform:New(position2d:OnZ(), rotation))
+        end
+        return points
     end
-    pos = Vector3:New(Math:Sin(angle) * r, Math:Cos(angle) * r, 0)
-    return Transform:New(pos)
 end
 ```
 
@@ -78,21 +78,18 @@ For example:
 
 ```lua
 function Main()
-    copies = 12
     pointers = Path:New()
     theta = 360.0 / copies
-    for i = 1, copies - 1 do
-        pointer = Transform:New(
-            Symmetry.brushOffset,
-            Rotation:New(0, i * theta, 0)
-        )
-        pointers.Insert(pointer)
+    for i = 0, copies - 1 do
+        angle = i * theta
+        pointer = Transform:New(Symmetry.brushOffset, Rotation:New(0, angle, 0))
+        pointers:Insert(pointer)
     end
     return pointers
 end
 ```
 
-Note the use of S`ymmetry.brushOffset` instead of the usual `Brush.position`. This is because by default, symmetry scripts use coordinates centered on the symmetry widget and you'd have to do a some complicated calculations to get from there to the current brush position. If you use `symmetry.brushOffset` this is done for you.
+Note the use of`Symmetry.brushOffset` instead of the usual `Brush.position`. This is because by default, symmetry scripts use coordinates centered on the symmetry widget and you'd have to do a some complicated calculations to get from there to the current brush position. If you use `symmetry.brushOffset` this is done for you.
 
 #### Background Scripts
 
