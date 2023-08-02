@@ -1,6 +1,6 @@
 # Changelog since v2.2
 
-[Full release details](https://github.com/icosa-gallery/open-brush/compare/v2.2...ac5e2e40661cec617508fdadaabb1bf4ceb1ac26)
+[Full release details](https://github.com/icosa-gallery/open-brush/compare/v2.2...0a0763d71dcdf8477714ce9c71599c9068a85ed3)
 
 ## 🚀 Features
 
@@ -64,6 +64,8 @@
 - Update ReferenceImage.shader ([PR #481](https://github.com/icosa-gallery/open-brush/pull/481) by @andybak)
 
 - Fix webcam breaking Oculus builds ([PR #484](https://github.com/icosa-gallery/open-brush/pull/484) by @andybak)
+
+- Fix an NRE when hitting stop in editor ([PR #488](https://github.com/icosa-gallery/open-brush/pull/488) by @andybak)
 
 
 ## 🛠️ Infrastructure
