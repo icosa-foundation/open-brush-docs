@@ -1,6 +1,6 @@
 # Changelog since v2.2
 
-[Full release details](https://github.com/icosa-gallery/open-brush/compare/v2.2...f398bb2cad83f9185887eaef475936144017836f)
+[Full release details](https://github.com/icosa-gallery/open-brush/compare/v2.2...a19390a4c4b6163a4f2de48b3176a784b231adda)
 
 ## 🚀 Features
 
@@ -102,6 +102,11 @@
 - Revert "Move user folder to Application.persistentDataPath" ([PR #474](https://github.com/icosa-gallery/open-brush/pull/474) by @mikeskydev)
 
 - Update mikepenz/release-changelog-builder-action to v4 ([PR #478](https://github.com/icosa-gallery/open-brush/pull/478) by @mikeage)
+
+
+## 💬 Uncategorized
+
+- Wallpaper symmetry visualisations were offset +15 by mistake ([PR #490](https://github.com/icosa-gallery/open-brush/pull/490) by @andybak)
 
 
 
