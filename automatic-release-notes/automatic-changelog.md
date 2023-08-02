@@ -1,6 +1,6 @@
 # Changelog since v2.2
 
-[Full release details](https://github.com/icosa-gallery/open-brush/compare/v2.2...0a0763d71dcdf8477714ce9c71599c9068a85ed3)
+[Full release details](https://github.com/icosa-gallery/open-brush/compare/v2.2...f398bb2cad83f9185887eaef475936144017836f)
 
 ## 🚀 Features
 
@@ -66,6 +66,8 @@
 - Fix webcam breaking Oculus builds ([PR #484](https://github.com/icosa-gallery/open-brush/pull/484) by @andybak)
 
 - Fix an NRE when hitting stop in editor ([PR #488](https://github.com/icosa-gallery/open-brush/pull/488) by @andybak)
+
+- Fix issue where undo didn't respect symmetry mode ([PR #485](https://github.com/icosa-gallery/open-brush/pull/485) by @andybak)
 
 
 ## 🛠️ Infrastructure
