@@ -1,6 +1,6 @@
 # Changelog since v2.2
 
-[Full release details](https://github.com/icosa-gallery/open-brush/compare/v2.2...bc6dea09dbf0bd2749fe80893ff941ef17672d65)
+[Full release details](https://github.com/icosa-gallery/open-brush/compare/v2.2...8b26b132883f791d984a8169552e2ba26366a698)
 
 ## 🚀 Features
 
@@ -31,6 +31,8 @@
 - Webcam (or other streaming video source) panel ([PR #477](https://github.com/icosa-gallery/open-brush/pull/477) by @andybak)
 
 - Updated translations ([PR #483](https://github.com/icosa-gallery/open-brush/pull/483) by @andybak)
+
+- Replace geometry intersection shader on Quest 1 ([PR #475](https://github.com/icosa-gallery/open-brush/pull/475) by @andybak)
 
 
 ## 🐛 Fixes
