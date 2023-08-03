@@ -1,8 +1,12 @@
-# Feature: Transform Panel
+# Feature: Transform Panel and Snap Enhancements
 
 #### Status: Merged into the official beta release
 
 <figure><img src="../.gitbook/assets/image (36).png" alt=""><figcaption></figcaption></figure>
+
+
+
+<figure><img src="../.gitbook/assets/image (40).png" alt=""><figcaption></figcaption></figure>
 
 {% embed url="https://www.youtube.com/watch?v=RgqE1w4t7iU&list=PL94EgLgEIJyKJiFsNYj7tMUDz81ozt6sI&index=4" %}
 

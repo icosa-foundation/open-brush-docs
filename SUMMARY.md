@@ -64,7 +64,7 @@
   * ["Experimental Mode" Builds](alternate-and-experimental-builds/main-experimental-build.md)
   * [Feature: 3D Shapes Tool](alternate-and-experimental-builds/3d-shapes.md)
   * [Feature: Multi-Mirror](alternate-and-experimental-builds/multi-mirror.md)
-  * [Feature: Transform Panel](alternate-and-experimental-builds/transform-panel.md)
+  * [Feature: Transform Panel and Snap Enhancements](alternate-and-experimental-builds/transform-panel.md)
   * [Feature: Brush Editing](alternate-and-experimental-builds/brush-editing.md)
   * [Feature: Plugin Scripting](alternate-and-experimental-builds/runtime-scripting/README.md)
     * [Using Plugins](alternate-and-experimental-builds/runtime-scripting/using-plugins.md)
