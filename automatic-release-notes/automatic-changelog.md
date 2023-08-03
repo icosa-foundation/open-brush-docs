@@ -1,6 +1,6 @@
 # Changelog since v2.2
 
-[Full release details](https://github.com/icosa-gallery/open-brush/compare/v2.2...497f5fd2de66dd199c1d3c5b490ced98c9438c7d)
+[Full release details](https://github.com/icosa-gallery/open-brush/compare/v2.2...bc6dea09dbf0bd2749fe80893ff941ef17672d65)
 
 ## 🚀 Features
 
@@ -71,6 +71,10 @@
 
 - Fix issue where undo didn't respect symmetry mode ([PR #485](https://github.com/icosa-gallery/open-brush/pull/485) by @andybak)
 
+- Fix wallpaper symmetry visualisations; they were offset +15 by mistake ([PR #490](https://github.com/icosa-gallery/open-brush/pull/490) by @andybak)
+
+- Fix selection bug after cloning to multimirrors ([PR #487](https://github.com/icosa-gallery/open-brush/pull/487) by @andybak)
+
 
 ## 🛠️ Infrastructure
 
@@ -104,11 +108,6 @@
 - Revert "Move user folder to Application.persistentDataPath" ([PR #474](https://github.com/icosa-gallery/open-brush/pull/474) by @mikeskydev)
 
 - Update mikepenz/release-changelog-builder-action to v4 ([PR #478](https://github.com/icosa-gallery/open-brush/pull/478) by @mikeage)
-
-
-## 💬 Uncategorized
-
-- Wallpaper symmetry visualisations were offset +15 by mistake ([PR #490](https://github.com/icosa-gallery/open-brush/pull/490) by @andybak)
 
 
 
