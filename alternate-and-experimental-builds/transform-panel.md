@@ -2,13 +2,15 @@
 
 #### Status: Merged into the official beta release
 
-<figure><img src="../.gitbook/assets/image (36).png" alt=""><figcaption></figcaption></figure>
+<div>
 
+<figure><img src="../.gitbook/assets/image (36).png" alt="" width="397"><figcaption></figcaption></figure>
 
+ 
 
-<figure><img src="../.gitbook/assets/image (40).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (40).png" alt="" width="410"><figcaption></figcaption></figure>
 
-{% embed url="https://www.youtube.com/watch?v=RgqE1w4t7iU&list=PL94EgLgEIJyKJiFsNYj7tMUDz81ozt6sI&index=4" %}
+</div>
 
 ## Downloads
 
@@ -24,6 +26,12 @@ A new panel allows for precise position/rotation/scale changes to brush strokes 
 4. Control which axes respond to the snap grid
 5. Align all the objects or brush strokes you've selected in various ways
 6. Distribute all the objects or brush strokes you've selected so they are spaced evenly.
+
+We've improved the Snap Settings panel:
+
+1. You can turn position and rotation snapping on or off for each axis independently
+2. You can also snap all the currently selected objects
+3. You can turn on or off the ability to snap the selected objects to guides
 
 ### What's it good for?
 
