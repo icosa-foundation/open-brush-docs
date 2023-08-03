@@ -1,6 +1,6 @@
 # Changelog since v2.2
 
-[Full release details](https://github.com/icosa-gallery/open-brush/compare/v2.2...8b26b132883f791d984a8169552e2ba26366a698)
+[Full release details](https://github.com/icosa-gallery/open-brush/compare/v2.2...eadf7803303b06381a9d0b038ea839dde764560c)
 
 ## 🚀 Features
 
@@ -76,6 +76,8 @@
 - Fix wallpaper symmetry visualisations; they were offset +15 by mistake ([PR #490](https://github.com/icosa-gallery/open-brush/pull/490) by @andybak)
 
 - Fix selection bug after cloning to multimirrors ([PR #487](https://github.com/icosa-gallery/open-brush/pull/487) by @andybak)
+
+- Support per widget setting for two sided and set it to true when duplicating to multimirror ([PR #486](https://github.com/icosa-gallery/open-brush/pull/486) by @andybak)
 
 
 ## 🛠️ Infrastructure
