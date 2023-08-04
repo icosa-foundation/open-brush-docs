@@ -200,4 +200,87 @@ Hides the layer
 
 
 
+
+### layer:SetShaderFloat(brushType, parameter, value)
+
+Changes a shader float parameter. Affects all strokes on this layer of the given brush type
+
+**Returns:** nil 
+
+
+**Parameters:**
+
+<table data-full-width="false">
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
+<tbody><tr><td>brushType</td><td>string</td><td></td></tr>
+<tr><td>parameter</td><td>string</td><td></td></tr>
+<tr><td>value</td><td>number</td><td></td></tr></tbody></table>
+
+
+
+
+
+
+### layer:SetShaderColor(brushType, parameter, color)
+
+Changes a shader color parameter. Affects all strokes on this layer of the given brush type
+
+**Returns:** nil 
+
+
+**Parameters:**
+
+<table data-full-width="false">
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
+<tbody><tr><td>brushType</td><td>string</td><td></td></tr>
+<tr><td>parameter</td><td>string</td><td></td></tr>
+<tr><td>color</td><td><a href="color.md">Color</a></td><td></td></tr></tbody></table>
+
+
+
+
+
+
+### layer:SetShaderTexture(brushType, parameter, image)
+
+Changes a shader texture parameter. Affects all strokes on this layer of the given brush type
+
+**Returns:** nil 
+
+
+**Parameters:**
+
+<table data-full-width="false">
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
+<tbody><tr><td>brushType</td><td>string</td><td></td></tr>
+<tr><td>parameter</td><td>string</td><td></td></tr>
+<tr><td>image</td><td><a href="image.md">Image</a></td><td></td></tr></tbody></table>
+
+
+
+
+
+
+### layer:SetShaderVector(brushType, parameter, x, y, z, w)
+
+Changes a shader vector parameter. Affects all strokes on this layer of the given brush type
+
+**Returns:** nil 
+
+
+**Parameters:**
+
+<table data-full-width="false">
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
+<tbody><tr><td>brushType</td><td>string</td><td></td></tr>
+<tr><td>parameter</td><td>string</td><td></td></tr>
+<tr><td>x</td><td>number</td><td></td></tr>
+<tr><td>y</td><td>number</td><td></td></tr>
+<tr><td>z</td><td>number</td><td></td></tr>
+<tr><td>w</td><td>number</td><td></td></tr></tbody></table>
+
+
+
+
+
     

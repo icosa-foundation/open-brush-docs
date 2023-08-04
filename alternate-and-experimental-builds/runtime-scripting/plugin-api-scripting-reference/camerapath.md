@@ -114,7 +114,7 @@ Creates a new empty camera path
 
 ### CameraPath:FromPath(path, looped)
 
-Creates a camera path from a Path and whether it should be looped
+Creates a camera path from a Path
 
 **Returns:** <a href="camerapath.md">CameraPath</a> 
 
@@ -123,7 +123,7 @@ Creates a camera path from a Path and whether it should be looped
 
 <table data-full-width="false">
 <thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>path</td><td><a href="ipath.md">IPath</a></td><td>The Path to convert</td></tr>
+<tbody><tr><td>path</td><td><a href="path.md">Path</a></td><td>The Path to convert</td></tr>
 <tr><td>looped</td><td>boolean</td><td>Whether the resulting CameraPath should loop</td></tr></tbody></table>
 
 
