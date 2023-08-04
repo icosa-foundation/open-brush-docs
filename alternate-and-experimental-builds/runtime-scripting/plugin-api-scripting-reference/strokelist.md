@@ -19,3 +19,22 @@ The list of Strokes in the scene. (You don't instantiate this yourself. Access t
 
 
 
+## Instance Methods
+
+        
+### strokeList:Delete()
+
+Deletes all the strokes in the list
+
+**Returns:** nil 
+
+
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>myStrokes:Delete()</strong></code></pre>
+
+
+
+    

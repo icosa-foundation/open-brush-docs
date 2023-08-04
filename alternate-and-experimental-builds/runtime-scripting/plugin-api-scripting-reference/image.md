@@ -51,30 +51,6 @@ Imports an image widget based on the specified location
 ## Instance Methods
 
         
-### image:Extrude(depth, color)
-
-Extrudes the image widget with the specified depth and color
-
-**Returns:** nil 
-
-
-**Parameters:**
-
-<table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>depth</td><td>number</td><td>The depth of the extrusion</td></tr>
-<tr><td>color</td><td><a href="color.md">Color</a></td><td>The color of the extrusion</td></tr></tbody></table>
-
-
-
-
-#### Example
-
-<pre class="language-lua"><code class="lang-lua"><strong>Image:Extrude(5, Color.green)</strong></code></pre>
-
-
-
-
 ### image:Select()
 
 Selects the image widget
@@ -103,6 +79,30 @@ Deletes the image widget
 #### Example
 
 <pre class="language-lua"><code class="lang-lua"><strong>myImage:Delete()</strong></code></pre>
+
+
+
+
+### image:Extrude(depth, color)
+
+Extrudes the image widget with the specified depth and color
+
+**Returns:** nil 
+
+
+**Parameters:**
+
+<table data-full-width="false">
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
+<tbody><tr><td>depth</td><td>number</td><td>The depth of the extrusion</td></tr>
+<tr><td>color</td><td><a href="color.md">Color</a></td><td>The color of the extrusion</td></tr></tbody></table>
+
+
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>Image:Extrude(5, Color.green)</strong></code></pre>
 
 
 

@@ -108,17 +108,6 @@ Adds this stroke to the current selection
 
 
 
-### stroke:ModifyMaterial()
-
-
-
-**Returns:** nil 
-
-
-
-
-
-
 ### stroke:JoinRange(from, to)
 
 Joins joins multiple strokes into one stroke

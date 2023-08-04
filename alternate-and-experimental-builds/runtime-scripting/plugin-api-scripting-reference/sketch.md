@@ -12,6 +12,7 @@ Represents the current sketch
 <tr><td>cameraPaths</td><td><a href="camerapathlist.md">CameraPathList</a><br>Read-only</td><td>Returns a list of active camera paths in the sketch</td></tr>
 <tr><td>strokes</td><td><a href="strokelist.md">StrokeList</a><br>Read-only</td><td>Returns a list of all active strokes in the sketch</td></tr>
 <tr><td>layers</td><td><a href="layerlist.md">LayerList</a><br>Read-only</td><td>Returns a list of all layers in the sketch</td></tr>
+<tr><td>mainLayer</td><td><a href="layer.md">Layer</a><br>Read-only</td><td>Returns a list of all layers in the sketch</td></tr>
 <tr><td>groups</td><td><a href="system.collections.generic.list`1[group].md">System.Collections.Generic.List`1[Group]</a><br>Read-only</td><td>All the groups in this sketch</td></tr>
 <tr><td>images</td><td><a href="imagelist.md">ImageList</a><br>Read-only</td><td>Returns a list of active image widgets in the sketch</td></tr>
 <tr><td>videos</td><td><a href="videolist.md">VideoList</a><br>Read-only</td><td>Returns a list of active video widgets in the sketch</td></tr>

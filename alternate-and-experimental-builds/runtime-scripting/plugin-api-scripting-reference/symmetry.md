@@ -9,12 +9,9 @@ Functions for controlling the mirror symmetry mode
 <table data-full-width="false">
 <thead><tr><th>Name</th><th>Return Type</th><th>Description</th></tr></thead>
 <tbody>
-<tr><td>transform</td><td><a href="transform.md">Transform</a><br>Read/Write</td><td>The transform of the Symmetry Widget</td></tr>
-<tr><td>position</td><td><a href="vector3.md">Vector3</a><br>Read/Write</td><td>The 3D position of the Symmetry Widget</td></tr>
-<tr><td>rotation</td><td><a href="rotation.md">Rotation</a><br>Read/Write</td><td>The 3D orientation of the Symmetry Widget</td></tr>
-<tr><td>brushOffset</td><td><a href="vector3.md">Vector3</a><br>Read-only</td><td></td></tr>
-<tr><td>wandOffset</td><td><a href="vector3.md">Vector3</a><br>Read-only</td><td></td></tr>
-<tr><td>direction</td><td><a href="vector3.md">Vector3</a><br>Read-only</td><td></td></tr>
+<tr><td>brushOffset</td><td><a href="vector3.md">Vector3</a><br>Read-only</td><td>Gets the offset betwen the current brush position and the symmetry widget</td></tr>
+<tr><td>wandOffset</td><td><a href="vector3.md">Vector3</a><br>Read-only</td><td>Gets the offset betwen the current wand position and the symmetry widget</td></tr>
+<tr><td>settings</td><td><a href="symmetrysettings.md">SymmetrySettings</a><br>Read/Write</td><td>The current symmetry settings</td></tr>
 </tbody></table>
 
 
@@ -23,64 +20,11 @@ Functions for controlling the mirror symmetry mode
 ## Class Methods
 
         
-### Symmetry:Mirror()
-
-
-
-**Returns:** nil 
-
-
-
-
-
-
-### Symmetry:DoubleMirror()
-
-
-
-**Returns:** nil 
-
-
-
-
-
-
-### Symmetry:TwoHandeded()
-
-
-
-**Returns:** nil 
-
-
-
-
-
-
 ### Symmetry:SummonWidget()
 
 
 
 **Returns:** nil 
-
-
-
-
-
-
-### Symmetry:Spin(xSpeed, ySpeed, zSpeed)
-
-
-
-**Returns:** nil 
-
-
-**Parameters:**
-
-<table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>xSpeed</td><td>number</td><td></td></tr>
-<tr><td>ySpeed</td><td>number</td><td></td></tr>
-<tr><td>zSpeed</td><td>number</td><td></td></tr></tbody></table>
 
 
 

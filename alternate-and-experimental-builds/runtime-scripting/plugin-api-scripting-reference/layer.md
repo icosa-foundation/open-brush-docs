@@ -18,7 +18,7 @@ A layer in the current sketch
 <tr><td>cameraPaths</td><td><a href="camerapathlist.md">CameraPathList</a><br>Read-only</td><td>All the camera paths on this layer</td></tr>
 <tr><td>groups</td><td><a href="system.collections.generic.list`1[group].md">System.Collections.Generic.List`1[Group]</a><br>Read-only</td><td>All the groups on this layer</td></tr>
 <tr><td>index</td><td>number<br>Read-only</td><td>Gets the index of the layer in the layer canvases</td></tr>
-<tr><td>active</td><td>boolean<br>Read/Write</td><td>Gets or sets a value indicating whether the layer is active</td></tr>
+<tr><td>active</td><td>boolean<br>Read/Write</td><td>Is the layer the active layer. Making another layer inactive will make the main layer the active layer again.</td></tr>
 <tr><td>transform</td><td><a href="transform.md">Transform</a><br>Read/Write</td><td>The transform of the layer</td></tr>
 <tr><td>position</td><td><a href="vector3.md">Vector3</a><br>Read/Write</td><td>The 3D position of the Layer (specifically the position of it's anchor point</td></tr>
 <tr><td>rotation</td><td><a href="rotation.md">Rotation</a><br>Read/Write</td><td>The rotation of the layer in 3D space</td></tr>
