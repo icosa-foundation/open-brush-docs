@@ -42,7 +42,7 @@ Creates and returns a new empty group
 ## Instance Methods
 
         
-### group:Add(widget)
+### group:Add(image)
 
 Adds an image to this group moving it to the group's layer if necessary
 
@@ -53,7 +53,7 @@ Adds an image to this group moving it to the group's layer if necessary
 
 <table data-full-width="false">
 <thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>widget</td><td><a href="image.md">Image</a></td><td></td></tr></tbody></table>
+<tbody><tr><td>image</td><td><a href="image.md">Image</a></td><td>The image to add</td></tr></tbody></table>
 
 
 
@@ -65,7 +65,7 @@ Adds an image to this group moving it to the group's layer if necessary
 
 
 
-### group:Add(widget)
+### group:Add(video)
 
 Adds a video to this group moving it to the group's layer if necessary
 
@@ -76,7 +76,7 @@ Adds a video to this group moving it to the group's layer if necessary
 
 <table data-full-width="false">
 <thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>widget</td><td><a href="video.md">Video</a></td><td></td></tr></tbody></table>
+<tbody><tr><td>video</td><td><a href="video.md">Video</a></td><td>The video to add</td></tr></tbody></table>
 
 
 
@@ -88,7 +88,7 @@ Adds a video to this group moving it to the group's layer if necessary
 
 
 
-### group:Add(widget)
+### group:Add(model)
 
 Adds a model to this group moving it to the group's layer if necessary
 
@@ -99,7 +99,7 @@ Adds a model to this group moving it to the group's layer if necessary
 
 <table data-full-width="false">
 <thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>widget</td><td><a href="model.md">Model</a></td><td></td></tr></tbody></table>
+<tbody><tr><td>model</td><td><a href="model.md">Model</a></td><td>The model to add</td></tr></tbody></table>
 
 
 
@@ -111,7 +111,7 @@ Adds a model to this group moving it to the group's layer if necessary
 
 
 
-### group:Add(widget)
+### group:Add(guide)
 
 Adds a guide to this group moving it to the group's layer if necessary
 
@@ -122,7 +122,7 @@ Adds a guide to this group moving it to the group's layer if necessary
 
 <table data-full-width="false">
 <thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>widget</td><td><a href="guide.md">Guide</a></td><td></td></tr></tbody></table>
+<tbody><tr><td>guide</td><td><a href="guide.md">Guide</a></td><td>The guide to add</td></tr></tbody></table>
 
 
 
@@ -134,7 +134,7 @@ Adds a guide to this group moving it to the group's layer if necessary
 
 
 
-### group:Add(widget)
+### group:Add(cameraPath)
 
 Adds an image to this group moving it to the group's layer if necessary
 
@@ -145,7 +145,7 @@ Adds an image to this group moving it to the group's layer if necessary
 
 <table data-full-width="false">
 <thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>widget</td><td><a href="camerapath.md">CameraPath</a></td><td></td></tr></tbody></table>
+<tbody><tr><td>cameraPath</td><td><a href="camerapath.md">CameraPath</a></td><td>The CameraPath to add</td></tr></tbody></table>
 
 
 
@@ -157,25 +157,7 @@ Adds an image to this group moving it to the group's layer if necessary
 
 
 
-### group:_Add(widget)
-
-
-
-**Returns:** nil 
-
-
-**Parameters:**
-
-<table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>widget</td><td><a href="grabwidget.md">GrabWidget</a></td><td></td></tr></tbody></table>
-
-
-
-
-
-
-### group:Add(widget)
+### group:Add(stroke)
 
 Adds a stroke to this group moving it to the group's layer if necessary
 
@@ -186,7 +168,7 @@ Adds a stroke to this group moving it to the group's layer if necessary
 
 <table data-full-width="false">
 <thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>widget</td><td><a href="grabwidget.md">GrabWidget</a></td><td></td></tr></tbody></table>
+<tbody><tr><td>stroke</td><td><a href="stroke.md">Stroke</a></td><td>The Stroke to add</td></tr></tbody></table>
 
 
 

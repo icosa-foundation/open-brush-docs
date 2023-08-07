@@ -100,7 +100,7 @@ Turns previews on or off for the active path
 
 Creates a new empty camera path
 
-**Returns:** <a href="camerapath.md">CameraPath</a> 
+**Returns:** <a href="camerapath.md">CameraPath</a>  (The new CameraPath)
 
 
 
@@ -116,7 +116,7 @@ Creates a new empty camera path
 
 Creates a camera path from a Path
 
-**Returns:** <a href="camerapath.md">CameraPath</a> 
+**Returns:** <a href="camerapath.md">CameraPath</a>  (A new CameraPath)
 
 
 **Parameters:**
@@ -176,7 +176,7 @@ Deletes a camera path
 
 Converts the camera path to a path with the specified step size
 
-**Returns:** <a href="path.md">Path</a> 
+**Returns:** <a href="path.md">Path</a>  (The new Path)
 
 
 **Parameters:**
@@ -199,7 +199,7 @@ Converts the camera path to a path with the specified step size
 
 Duplicates the camera path
 
-**Returns:** <a href="camerapath.md">CameraPath</a> 
+**Returns:** <a href="camerapath.md">CameraPath</a>  (The copy of the specied CameraPath)
 
 
 
@@ -215,7 +215,7 @@ Duplicates the camera path
 
 Inserts a new position knot. (Position must be close to the existing path)
 
-**Returns:** number 
+**Returns:** number  (The index of the new knot, or -1 if the position is too far from the path)
 
 
 **Parameters:**
@@ -240,7 +240,7 @@ Inserts a new position knot. (Position must be close to the existing path)
 
 Inserts a new position knot into the path at the specified time
 
-**Returns:** number 
+**Returns:** number  (The index of the new knot)
 
 
 **Parameters:**
@@ -265,7 +265,7 @@ Inserts a new position knot into the path at the specified time
 
 Inserts a rotation knot at the specified position close to the existing path
 
-**Returns:** number 
+**Returns:** number  (The index of the new knot, or -1 if the position is too far from the path)
 
 
 **Parameters:**
@@ -289,7 +289,7 @@ Inserts a rotation knot at the specified position close to the existing path
 
 Inserts a rotation knot at the specified time
 
-**Returns:** number 
+**Returns:** number  (The index of the new knot)
 
 
 **Parameters:**
@@ -313,7 +313,7 @@ Inserts a rotation knot at the specified time
 
 Inserts a field of view knot at the specified position close to the existing path
 
-**Returns:** number 
+**Returns:** number  (The index of the new knot, or -1 if the position is too far from the path)
 
 
 **Parameters:**
@@ -337,7 +337,7 @@ Inserts a field of view knot at the specified position close to the existing pat
 
 Inserts a fov knot at the specified time
 
-**Returns:** number 
+**Returns:** number  (The index of the new knot)
 
 
 **Parameters:**
@@ -361,7 +361,7 @@ Inserts a fov knot at the specified time
 
 Inserts a speed knot at the specified position close to the existing path
 
-**Returns:** number 
+**Returns:** number  (The index of the new knot, or -1 if the position is too far from the path)
 
 
 **Parameters:**
@@ -385,7 +385,7 @@ Inserts a speed knot at the specified position close to the existing path
 
 Inserts a speed knot at the specified time
 
-**Returns:** number 
+**Returns:** number  (The index of the new knot)
 
 
 **Parameters:**

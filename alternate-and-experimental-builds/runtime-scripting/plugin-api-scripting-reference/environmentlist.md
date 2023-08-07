@@ -2,7 +2,7 @@
 # EnvironmentList
 
 ## Summary
-The list of available environments. (You don't instantiate this yourself. Access this via Sketch.environments)
+The list of available environments. (Don't create your own instances - use Sketch.environments)
 
 
 ## Instance Properties
@@ -24,9 +24,9 @@ The list of available environments. (You don't instantiate this yourself. Access
         
 ### environmentList:ByName(name)
 
-Returns the environment with the given name, or nil if no environment has that name
+Gets an Environment by name
 
-**Returns:** <a href="environment.md">Environment</a> 
+**Returns:** <a href="environment.md">Environment</a>  (The environment, or nil if no environment has that name)
 
 
 **Parameters:**

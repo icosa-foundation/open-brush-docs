@@ -16,7 +16,7 @@ A layer in the current sketch
 <tr><td>models</td><td><a href="modellist.md">ModelList</a><br>Read-only</td><td>All the models on this layer</td></tr>
 <tr><td>guides</td><td><a href="guidelist.md">GuideList</a><br>Read-only</td><td>All the guides on this layer</td></tr>
 <tr><td>cameraPaths</td><td><a href="camerapathlist.md">CameraPathList</a><br>Read-only</td><td>All the camera paths on this layer</td></tr>
-<tr><td>groups</td><td><a href="system.collections.generic.list`1[group].md">System.Collections.Generic.List`1[Group]</a><br>Read-only</td><td>All the groups on this layer</td></tr>
+<tr><td>groups</td><td><a href="grouplist.md">GroupList</a><br>Read-only</td><td>All the groups on this layer</td></tr>
 <tr><td>index</td><td>number<br>Read-only</td><td>Gets the index of the layer in the layer canvases</td></tr>
 <tr><td>active</td><td>boolean<br>Read/Write</td><td>Is the layer the active layer. Making another layer inactive will make the main layer the active layer again.</td></tr>
 <tr><td>transform</td><td><a href="transform.md">Transform</a><br>Read/Write</td><td>The transform of the layer</td></tr>
@@ -212,11 +212,16 @@ Changes a shader float parameter. Affects all strokes on this layer of the given
 
 <table data-full-width="false">
 <thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>brushType</td><td>string</td><td></td></tr>
-<tr><td>parameter</td><td>string</td><td></td></tr>
-<tr><td>value</td><td>number</td><td></td></tr></tbody></table>
+<tbody><tr><td>brushType</td><td>string</td><td>Only strokes of this brush type will be affected</td></tr>
+<tr><td>parameter</td><td>string</td><td>The shader parameter name</td></tr>
+<tr><td>value</td><td>number</td><td>The new value</td></tr></tbody></table>
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>myLayer:SetShaderFloat("Light", "_EmissionGain", 0.5)</strong></code></pre>
 
 
 
@@ -232,11 +237,16 @@ Changes a shader color parameter. Affects all strokes on this layer of the given
 
 <table data-full-width="false">
 <thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>brushType</td><td>string</td><td></td></tr>
-<tr><td>parameter</td><td>string</td><td></td></tr>
-<tr><td>color</td><td><a href="color.md">Color</a></td><td></td></tr></tbody></table>
+<tbody><tr><td>brushType</td><td>string</td><td>Only strokes of this brush type will be affected</td></tr>
+<tr><td>parameter</td><td>string</td><td>The shader parameter name</td></tr>
+<tr><td>color</td><td><a href="color.md">Color</a></td><td>The new color</td></tr></tbody></table>
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>myLayer:SetShaderColor("Embers", "_TintColor", Color.red)</strong></code></pre>
 
 
 
@@ -252,11 +262,16 @@ Changes a shader texture parameter. Affects all strokes on this layer of the giv
 
 <table data-full-width="false">
 <thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>brushType</td><td>string</td><td></td></tr>
-<tr><td>parameter</td><td>string</td><td></td></tr>
-<tr><td>image</td><td><a href="image.md">Image</a></td><td></td></tr></tbody></table>
+<tbody><tr><td>brushType</td><td>string</td><td>Only strokes of this brush type will be affected</td></tr>
+<tr><td>parameter</td><td>string</td><td>The shader parameter name</td></tr>
+<tr><td>image</td><td><a href="image.md">Image</a></td><td>The new image to use as a texture</td></tr></tbody></table>
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>myLayer:SetShaderTexture("Ink", "_MainTex", myImage)</strong></code></pre>
 
 
 
@@ -272,14 +287,19 @@ Changes a shader vector parameter. Affects all strokes on this layer of the give
 
 <table data-full-width="false">
 <thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>brushType</td><td>string</td><td></td></tr>
-<tr><td>parameter</td><td>string</td><td></td></tr>
-<tr><td>x</td><td>number</td><td></td></tr>
-<tr><td>y</td><td>number</td><td></td></tr>
-<tr><td>z</td><td>number</td><td></td></tr>
-<tr><td>w</td><td>number</td><td></td></tr></tbody></table>
+<tbody><tr><td>brushType</td><td>string</td><td>Only strokes of this brush type will be affected</td></tr>
+<tr><td>parameter</td><td>string</td><td>The shader parameter name</td></tr>
+<tr><td>x</td><td>number</td><td>The new x value</td></tr>
+<tr><td>y</td><td>number</td><td>The new y value</td></tr>
+<tr><td>z</td><td>number</td><td>The new z value</td></tr>
+<tr><td>w</td><td>number</td><td>The new w value</td></tr></tbody></table>
 
 
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>myLayer:SetShaderVector("NeonPulse", "_TimeOverrideValue", 0.5, 0, 0, 0)</strong></code></pre>
 
 
 

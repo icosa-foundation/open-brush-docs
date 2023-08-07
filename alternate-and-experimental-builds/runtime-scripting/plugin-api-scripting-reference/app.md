@@ -11,6 +11,7 @@ Various properties and methods that effect the entire app
 <tbody>
 <tr><td>time</td><td>number<br>Read-only</td><td>The time in seconds since Open Brush was launched</td></tr>
 <tr><td>frames</td><td>number<br>Read-only</td><td>The number of frames that have been rendered since Open Brush was launched</td></tr>
+<tr><td>physics</td><td>boolean<br>Read/Write</td><td>Whether physics simulation is active (defaults is off)</td></tr>
 <tr><td>currentScale</td><td>number<br>Read-only</td><td>The current scale of the scene</td></tr>
 <tr><td>environment</td><td>string<br>Read/Write</td><td>Get or set the current environment by name</td></tr>
 <tr><td>clipboardText</td><td>string<br>Read/Write</td><td>Get or set the clipboard text</td></tr>
@@ -22,29 +23,6 @@ Various properties and methods that effect the entire app
 ## Class Methods
 
         
-### App:Physics(active)
-
-Determines if physics simulation is active
-
-**Returns:** boolean 
-
-
-**Parameters:**
-
-<table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>active</td><td>boolean</td><td>True means on, false means off (the default is off)</td></tr></tbody></table>
-
-
-
-
-#### Example
-
-<pre class="language-lua"><code class="lang-lua"><strong>App:Physics(true)</strong></code></pre>
-
-
-
-
 ### App:Undo()
 
 Undo the last action
@@ -400,7 +378,7 @@ Activate or deactivate the watermark
 
 Read the contents of a file
 
-**Returns:** string 
+**Returns:** string  (The contents of the file as a string)
 
 
 **Parameters:**

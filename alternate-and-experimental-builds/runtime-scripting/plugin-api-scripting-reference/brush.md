@@ -104,7 +104,7 @@ Sets the size of the history. Only clears it if the size has changed
 
 Recalls previous positions of the Brush from the history buffer
 
-**Returns:** <a href="vector3.md">Vector3</a> 
+**Returns:** <a href="vector3.md">Vector3</a>  (The position of the brush during the specified frame)
 
 
 **Parameters:**
@@ -127,7 +127,7 @@ Recalls previous positions of the Brush from the history buffer
 
 Recalls previous orientations of the Brush from the history buffer
 
-**Returns:** <a href="rotation.md">Rotation</a> 
+**Returns:** <a href="rotation.md">Rotation</a>  (The rotation of the brush during the specified frame)
 
 
 **Parameters:**

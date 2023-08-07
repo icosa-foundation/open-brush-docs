@@ -288,6 +288,29 @@ Scales the whole set of paths by a specified factor
 
 
 
+### pathList:ScaleBy(scale)
+
+Scales the whole set of paths by a specified factor
+
+**Returns:** nil 
+
+
+**Parameters:**
+
+<table data-full-width="false">
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
+<tbody><tr><td>scale</td><td>number</td><td>The amount to scale the paths by</td></tr></tbody></table>
+
+
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>myPaths:ScaleBy(float)</strong></code></pre>
+
+
+
+
 ### pathList:Center()
 
 Offsets all points on the path so that their common center is at the origin
