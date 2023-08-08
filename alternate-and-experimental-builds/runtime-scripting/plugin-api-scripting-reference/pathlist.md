@@ -373,6 +373,29 @@ Resamples all paths with a specified spacing between points
 
 
 
+### pathList:Subdivide(parts)
+
+Subdivides all paths into the specified number of parts
+
+**Returns:** nil  (The new subdivided PathList)
+
+
+**Parameters:**
+
+<table data-full-width="false">
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
+<tbody><tr><td>parts</td><td>number</td><td>Number of parts to subdivide each path into</td></tr></tbody></table>
+
+
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>myPaths:Subdivide(4)</strong></code></pre>
+
+
+
+
 ### pathList:Join()
 
 Joins all the paths in order connecting each end to the following start
