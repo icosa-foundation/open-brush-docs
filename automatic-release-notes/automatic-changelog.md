@@ -1,6 +1,6 @@
 # Changelog since v2.2
 
-[Full release details](https://github.com/icosa-gallery/open-brush/compare/v2.2...eadf7803303b06381a9d0b038ea839dde764560c)
+[Full release details](https://github.com/icosa-gallery/open-brush/compare/v2.2...258f196de5ecc4b6e95fbb3627a63c59d3f15692)
 
 ## 🚀 Features
 
@@ -33,6 +33,8 @@
 - Updated translations ([PR #483](https://github.com/icosa-gallery/open-brush/pull/483) by @andybak)
 
 - Replace geometry intersection shader on Quest 1 ([PR #475](https://github.com/icosa-gallery/open-brush/pull/475) by @andybak)
+
+- Opt-in large mesh support ([PR #492](https://github.com/icosa-gallery/open-brush/pull/492) by @andybak)
 
 
 ## 🐛 Fixes
