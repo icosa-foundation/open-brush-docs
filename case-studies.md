@@ -17,9 +17,13 @@ This page is a placeholder - I'm going to collect case studies and examples and 
 
 {% embed url="https://www.uploadvr.com/til-brush-game-levels-prototype/" %}
 
-{% embed url="https://csermoocs.adelaide.edu.au/ua/media/597/Creating%20a%20virtual%20costume%20in%20Tiltbrush.pdf" %}
-
 {% embed url="https://scadmanor.com/virtual-vogueing-how-tilt-brush-is-transforming-the-design-process/" %}
+
+[Creating a virtual costume in Tiltbrush](https://csermoocs.adelaide.edu.au/ua/media/597/Creating%20a%20virtual%20costume%20in%20Tiltbrush.pdf)
+
+
+
+***
 
 {% embed url="https://www.youtube.com/watch?v=i2dIY0iDrY0" %}
 
