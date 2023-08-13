@@ -1,6 +1,6 @@
 # Changelog since v2.2
 
-[Full release details](https://github.com/icosa-gallery/open-brush/compare/v2.2...f07ff5aca130d8ae3dcbafc9790a86fc5987b8bf)
+[Full release details](https://github.com/icosa-gallery/open-brush/compare/v2.2...6b94361cccf657315ba81ecdbb3298f96c43b5d7)
 
 ## 🚀 Features
 
@@ -37,6 +37,8 @@
 - Opt-in large mesh support ([PR #492](https://github.com/icosa-gallery/open-brush/pull/492) by @andybak)
 
 - Thumbstick changes AdvancedSlider value + visual feedback on controller model ([PR #494](https://github.com/icosa-gallery/open-brush/pull/494) by @andybak)
+
+- Custom skybox ([PR #495](https://github.com/icosa-gallery/open-brush/pull/495) by @andybak)
 
 
 ## 🐛 Fixes
