@@ -37,4 +37,127 @@ Deletes all the strokes in the list
 
 
 
+
+### strokeList:SetShaderClipping(start, end)
+
+Hides the section of the stroke that is outside the specified range
+
+**Returns:** nil 
+
+
+**Parameters:**
+
+<table data-full-width="false">
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
+<tbody><tr><td>start</td><td>number</td><td>The amount of the stroke to hide from the start (0-1)</td></tr>
+<tr><td>end</td><td>number</td><td>The amount of the stroke to hide from the end (0-1)</td></tr></tbody></table>
+
+
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>myStroke:SetShaderFloat("_EmissionGain", 0.5)</strong></code></pre>
+
+
+
+
+### strokeList:SetShaderFloat(parameter, value)
+
+Changes a shader float parameter.
+
+**Returns:** nil 
+
+
+**Parameters:**
+
+<table data-full-width="false">
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
+<tbody><tr><td>parameter</td><td>string</td><td>The shader parameter name</td></tr>
+<tr><td>value</td><td>number</td><td>The new value</td></tr></tbody></table>
+
+
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>myStrokes:SetShaderFloat("_EmissionGain", 0.5)</strong></code></pre>
+
+
+
+
+### strokeList:SetShaderColor(parameter, color)
+
+Changes a shader color parameter
+
+**Returns:** nil 
+
+
+**Parameters:**
+
+<table data-full-width="false">
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
+<tbody><tr><td>parameter</td><td>string</td><td>The shader parameter name</td></tr>
+<tr><td>color</td><td><a href="color.md">Color</a></td><td>The new color</td></tr></tbody></table>
+
+
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>myStrokes:SetShaderColor("_TintColor", Color.red)</strong></code></pre>
+
+
+
+
+### strokeList:SetShaderTexture(parameter, image)
+
+Changes a shader texture parameter
+
+**Returns:** nil 
+
+
+**Parameters:**
+
+<table data-full-width="false">
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
+<tbody><tr><td>parameter</td><td>string</td><td>The shader parameter name</td></tr>
+<tr><td>image</td><td><a href="image.md">Image</a></td><td>The new image to use as a texture</td></tr></tbody></table>
+
+
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>myStrokes:SetShaderTexture("_MainTex", myImage)</strong></code></pre>
+
+
+
+
+### strokeList:SetShaderVector(parameter, x, y, z, w)
+
+Changes a shader vector parameter
+
+**Returns:** nil 
+
+
+**Parameters:**
+
+<table data-full-width="false">
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
+<tbody><tr><td>parameter</td><td>string</td><td>The shader parameter name</td></tr>
+<tr><td>x</td><td>number</td><td>The new x value</td></tr>
+<tr><td>y</td><td>number</td><td>The new y value</td></tr>
+<tr><td>z</td><td>number</td><td>The new z value</td></tr>
+<tr><td>w</td><td>number</td><td>The new w value</td></tr></tbody></table>
+
+
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>myStrokes:SetShaderVector("_TimeOverrideValue", 0.5, 0, 0, 0)</strong></code></pre>
+
+
+
     

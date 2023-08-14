@@ -350,11 +350,11 @@ Scales the whole PathList to fit inside a cube of given size at the origin
 
 
 
-### pathList:Resample(spacing)
+### pathList:SampleByDistance(spacing)
 
 Resamples all paths with a specified spacing between points
 
-**Returns:** nil 
+**Returns:** nil  (The new PathList)
 
 
 **Parameters:**
@@ -368,30 +368,53 @@ Resamples all paths with a specified spacing between points
 
 #### Example
 
-<pre class="language-lua"><code class="lang-lua"><strong>myPaths:Resample(0.2)</strong></code></pre>
+<pre class="language-lua"><code class="lang-lua"><strong>myPaths:SampleByDistance(0.2)</strong></code></pre>
 
 
 
 
-### pathList:Subdivide(parts)
+### pathList:SampleByCount(count)
 
-Subdivides all paths into the specified number of parts
+Resamples each path evenly into a specified number of points
 
-**Returns:** nil  (The new subdivided PathList)
+**Returns:** nil  (The new PathList)
 
 
 **Parameters:**
 
 <table data-full-width="false">
 <thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>parts</td><td>number</td><td>Number of parts to subdivide each path into</td></tr></tbody></table>
+<tbody><tr><td>count</td><td>number</td><td>Number of points in the new path</td></tr></tbody></table>
 
 
 
 
 #### Example
 
-<pre class="language-lua"><code class="lang-lua"><strong>myPaths:Subdivide(4)</strong></code></pre>
+<pre class="language-lua"><code class="lang-lua"><strong>myPaths:SampleByCount(4)</strong></code></pre>
+
+
+
+
+### pathList:SubdivideSegments(parts)
+
+For each path in the list subdivide it's path segment into the specified number of parts
+
+**Returns:** nil  (The new PathList)
+
+
+**Parameters:**
+
+<table data-full-width="false">
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
+<tbody><tr><td>parts</td><td>number</td><td>Number of parts to subdivide each path segment into</td></tr></tbody></table>
+
+
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>myPaths:SubdivideSegments(4)</strong></code></pre>
 
 
 

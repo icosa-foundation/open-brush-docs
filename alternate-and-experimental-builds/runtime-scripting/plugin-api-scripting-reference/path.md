@@ -82,6 +82,25 @@ Creates a path from a list of Vector3 positions
 
 
 
+### Path:_SubdivideSegments(trs, parts)
+
+
+
+**Returns:** Transform[] 
+
+
+**Parameters:**
+
+<table data-full-width="false">
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
+<tbody><tr><td>trs</td><td>Transform[]</td><td></td></tr>
+<tr><td>parts</td><td>number</td><td></td></tr></tbody></table>
+
+
+
+
+
+
 ### Path:Hermite(startTransform, endTransform, startTangent, endTangent, resolution, tangentStrength)
 
 Generates a hermite spline
@@ -519,34 +538,57 @@ Scales and shifts all points so that they fit in a cube of the given size at the
 
 
 
-### path:Resample(spacing)
+### path:SampleByDistance(spacing)
 
-Resamples the path at a specified spacing
+Resamples the path evenly by distance
 
-**Returns:** nil  (The resampled path)
+**Returns:** nil  (The new path)
 
 
 **Parameters:**
 
 <table data-full-width="false">
 <thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>spacing</td><td>number</td><td>The space between points in the new pat</td></tr></tbody></table>
+<tbody><tr><td>spacing</td><td>number</td><td>The space between points in the new path</td></tr></tbody></table>
 
 
 
 
 #### Example
 
-<pre class="language-lua"><code class="lang-lua"><strong>myPath:Resample(spacing)</strong></code></pre>
+<pre class="language-lua"><code class="lang-lua"><strong>myPath:SampleByDistance(spacing)</strong></code></pre>
 
 
 
 
-### path:Subdivide(parts)
+### path:SampleByCount(count)
 
-Subdivides the path into given number of parts.
+Resamples the path evenly into the specified number of points
 
-**Returns:** nil  (The new subdivided path)
+**Returns:** nil  (The new path)
+
+
+**Parameters:**
+
+<table data-full-width="false">
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
+<tbody><tr><td>count</td><td>number</td><td>The number of points in the new path</td></tr></tbody></table>
+
+
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>myPath:SampleByCount(count)</strong></code></pre>
+
+
+
+
+### path:SubdivideSegments(parts)
+
+Subdivides each path segment into the specified number of parts
+
+**Returns:** nil  (The new path)
 
 
 **Parameters:**
@@ -560,7 +602,7 @@ Subdivides the path into given number of parts.
 
 #### Example
 
-<pre class="language-lua"><code class="lang-lua"><strong>myPath:Subdivide(parts)</strong></code></pre>
+<pre class="language-lua"><code class="lang-lua"><strong>myPath:SubdivideSegments(parts)</strong></code></pre>
 
 
 

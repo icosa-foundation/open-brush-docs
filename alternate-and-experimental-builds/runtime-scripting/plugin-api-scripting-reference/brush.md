@@ -207,5 +207,97 @@ Forces the start of a new stroke - will stop painting this frame and start again
 
 
 
+
+### Brush:GetShaderFloatParameters(type)
+
+Gets a list of float property names for a brush
+
+**Returns:** string[]  (A list of float property names usable with Stroke:SetShaderFloat)
+
+
+**Parameters:**
+
+<table data-full-width="false">
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
+<tbody><tr><td>type</td><td>string</td><td>The brush name</td></tr></tbody></table>
+
+
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>Brush:GetShaderFloatParameters("Ink")</strong></code></pre>
+
+
+
+
+### Brush:GetShaderColorParameters(type)
+
+Gets a list of color property names for a brush
+
+**Returns:** string[]  (A list of color property names usable with Stroke:SetShaderColor)
+
+
+**Parameters:**
+
+<table data-full-width="false">
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
+<tbody><tr><td>type</td><td>string</td><td>The brush name</td></tr></tbody></table>
+
+
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>Brush:GetShaderColorParameters("Ink")</strong></code></pre>
+
+
+
+
+### Brush:GetShaderTextureParameters(type)
+
+Gets a list of texture property names for a brush
+
+**Returns:** string[]  (A list of texture property names usable with Stroke:SetShaderTexture)
+
+
+**Parameters:**
+
+<table data-full-width="false">
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
+<tbody><tr><td>type</td><td>string</td><td>The brush name</td></tr></tbody></table>
+
+
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>Brush:GetShaderTextureParameters("Ink")</strong></code></pre>
+
+
+
+
+### Brush:GetShaderVectorParameters(type)
+
+Gets a list of vector property names for a brush
+
+**Returns:** string[]  (A list of vector property names usable with Stroke:SetShaderVector)
+
+
+**Parameters:**
+
+<table data-full-width="false">
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
+<tbody><tr><td>type</td><td>string</td><td>The brush name</td></tr></tbody></table>
+
+
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>Brush:GetShaderVectorParameters("Ink")</strong></code></pre>
+
+
+
     
 

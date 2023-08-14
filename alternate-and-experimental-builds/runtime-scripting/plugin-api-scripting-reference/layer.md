@@ -12,6 +12,7 @@ A layer in the current sketch
 <tbody>
 <tr><td>strokes</td><td><a href="strokelist.md">StrokeList</a><br>Read-only</td><td>All the strokes on this layer</td></tr>
 <tr><td>images</td><td><a href="imagelist.md">ImageList</a><br>Read-only</td><td>All the images on this layer</td></tr>
+<tr><td>allowStrokeAnimation</td><td>boolean<br>Read/Write</td><td>Sets whether or not individual strokes on this layer can be animated via </td></tr>
 <tr><td>videos</td><td><a href="videolist.md">VideoList</a><br>Read-only</td><td>All the videos on this layer</td></tr>
 <tr><td>models</td><td><a href="modellist.md">ModelList</a><br>Read-only</td><td>All the models on this layer</td></tr>
 <tr><td>guides</td><td><a href="guidelist.md">GuideList</a><br>Read-only</td><td>All the guides on this layer</td></tr>
@@ -197,6 +198,55 @@ Hides the layer
 #### Example
 
 <pre class="language-lua"><code class="lang-lua"><strong>myLayer:Hide()</strong></code></pre>
+
+
+
+
+### layer:SetShaderClipping(brushType, start, end)
+
+Hides the section of the each batch of strokes that is outside the specified range. Affects all strokes on this layer of the given brush type
+
+**Returns:** nil 
+
+
+**Parameters:**
+
+<table data-full-width="false">
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
+<tbody><tr><td>brushType</td><td>string</td><td>Only strokes of this brush type will be affected</td></tr>
+<tr><td>start</td><td>number</td><td>The amount of the stroke to hide from the start (0-1)</td></tr>
+<tr><td>end</td><td>number</td><td>The amount of the stroke to hide from the end (0-1)</td></tr></tbody></table>
+
+
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>myStroke:SetShaderFloat("_EmissionGain", 0.5)</strong></code></pre>
+
+
+
+
+### layer:SetShaderFloat(parameter, value)
+
+Changes a shader float parameter. Affects all strokes on this layer
+
+**Returns:** nil 
+
+
+**Parameters:**
+
+<table data-full-width="false">
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
+<tbody><tr><td>parameter</td><td>string</td><td>The shader parameter name</td></tr>
+<tr><td>value</td><td>number</td><td>The new value</td></tr></tbody></table>
+
+
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>myLayer:SetShaderFloat("_EmissionGain", 0.5)</strong></code></pre>
 
 
 
