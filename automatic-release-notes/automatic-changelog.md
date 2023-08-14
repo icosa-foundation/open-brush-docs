@@ -1,6 +1,6 @@
 # Changelog since v2.2
 
-[Full release details](https://github.com/icosa-gallery/open-brush/compare/v2.2...eadf7803303b06381a9d0b038ea839dde764560c)
+[Full release details](https://github.com/icosa-gallery/open-brush/compare/v2.2...6b94361cccf657315ba81ecdbb3298f96c43b5d7)
 
 ## 🚀 Features
 
@@ -33,6 +33,12 @@
 - Updated translations ([PR #483](https://github.com/icosa-gallery/open-brush/pull/483) by @andybak)
 
 - Replace geometry intersection shader on Quest 1 ([PR #475](https://github.com/icosa-gallery/open-brush/pull/475) by @andybak)
+
+- Opt-in large mesh support ([PR #492](https://github.com/icosa-gallery/open-brush/pull/492) by @andybak)
+
+- Thumbstick changes AdvancedSlider value + visual feedback on controller model ([PR #494](https://github.com/icosa-gallery/open-brush/pull/494) by @andybak)
+
+- Custom skybox ([PR #495](https://github.com/icosa-gallery/open-brush/pull/495) by @andybak)
 
 
 ## 🐛 Fixes

@@ -138,6 +138,7 @@
     * [Feature: Layers](alternate-and-experimental-builds/old-or-completed-feature-builds/layers.md)
     * [Insominx's (michael-g) Experimental Build](alternate-and-experimental-builds/old-or-completed-feature-builds/insominxs-michael-g-experimental-build.md)
     * [XR Framework Beta](alternate-and-experimental-builds/old-or-completed-feature-builds/xr-framework-experimental-build.md)
+* [Case Studies](case-studies.md)
 * [Other Resources](resources.md)
 * [Developer Notes](developer-notes/README.md)
   * [UI Elements](developer-notes/ui-elements.md)
