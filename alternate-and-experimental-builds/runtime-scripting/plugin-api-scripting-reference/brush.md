@@ -22,7 +22,7 @@ The user's brush
 <tr><td>size</td><td>number<br>Read/Write</td><td>The current brush size</td></tr>
 <tr><td>pressure</td><td>number<br>Read-only</td><td>Brush pressure is determined by how far the trigger is pressed in</td></tr>
 <tr><td>type</td><td>string<br>Read/Write</td><td>The current brush type</td></tr>
-<tr><td>types</td><td>string[]<br>Read-only</td><td>All available brush types</td></tr>
+<tr><td>types</td><td>string[]<br>Read-only</td><td>All brush types available via the UI</td></tr>
 <tr><td>speed</td><td>number<br>Read-only</td><td>How fast the brush is currently moving</td></tr>
 <tr><td>colorRgb</td><td><a href="color.md">Color</a><br>Read/Write</td><td>Gets or set brush color</td></tr>
 <tr><td>colorHsv</td><td><a href="vector3.md">Vector3</a><br>Read/Write</td><td>Gets or set brush color using a Vector3 representing hue, saturation and brightness</td></tr>
@@ -38,6 +38,30 @@ The user's brush
 ## Class Methods
 
         
+### Brush:GetTypes(includeTags, excludeTags)
+
+Brush types filtered by chosen tags
+
+**Returns:** string[]  (A filtered list of brush types)
+
+
+**Parameters:**
+
+<table data-full-width="false">
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
+<tbody><tr><td>includeTags</td><td>string[]</td><td>Include brushes that have any of these tags</td></tr>
+<tr><td>excludeTags</td><td>string[]</td><td>Exclude brushes that have any of these tags</td></tr></tbody></table>
+
+
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>brushList = Brush:GetTypes({"audioreactive"}, {"particle"})</strong></code></pre>
+
+
+
+
 ### Brush:JitterColor()
 
 Applies the current jitter settings to the brush color
