@@ -1,6 +1,6 @@
 # Changelog since v2.2
 
-[Full release details](https://github.com/icosa-gallery/open-brush/compare/v2.2...6b94361cccf657315ba81ecdbb3298f96c43b5d7)
+[Full release details](https://github.com/icosa-gallery/open-brush/compare/v2.2...ec2dd1a8c518de6593f4417ca102af5358820b35)
 
 ## 🚀 Features
 
@@ -118,6 +118,11 @@
 - Revert "Move user folder to Application.persistentDataPath" ([PR #474](https://github.com/icosa-gallery/open-brush/pull/474) by @mikeskydev)
 
 - Update mikepenz/release-changelog-builder-action to v4 ([PR #478](https://github.com/icosa-gallery/open-brush/pull/478) by @mikeage)
+
+
+## 💬 Uncategorized
+
+- Use total pixels instead of max(width, height) for determining the maximum image size ([PR #500](https://github.com/icosa-gallery/open-brush/pull/500) by @andybak)
 
 
 
