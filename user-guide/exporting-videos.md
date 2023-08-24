@@ -1,5 +1,11 @@
 # Exporting video
 
+###
+
+{% hint style="info" %}
+Quest and other Standalone Headset Users - exporting video directly from within Open Brush is currently only supported for PC VR only.
+{% endhint %}
+
 ### The Camera Tool
 
 The standard way to export video is using the [Camera Tool](using-the-open-brush-tools-quick-tools-and-menu-panels/#cameras) within Open Brush itself.
