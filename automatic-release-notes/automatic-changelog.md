@@ -1,6 +1,6 @@
 # Changelog since v2.2
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...22c96b682043a2b80a83065ff5da945433de8b6d)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...2d350b15a4030c3345ecb21381d20de99c44a6a7)
 
 ## 🚀 Features
 
@@ -124,6 +124,8 @@
 - Revert "Move user folder to Application.persistentDataPath" ([PR #474](https://github.com/icosa-foundation/open-brush/pull/474) by @mikeskydev)
 
 - Update mikepenz/release-changelog-builder-action to v4 ([PR #478](https://github.com/icosa-foundation/open-brush/pull/478) by @mikeage)
+
+- Remove old vscode package ([PR #507](https://github.com/icosa-foundation/open-brush/pull/507) by @mikeskydev)
 
 
 
