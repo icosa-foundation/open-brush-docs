@@ -1,6 +1,6 @@
 # Changelog since v2.2
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...2d350b15a4030c3345ecb21381d20de99c44a6a7)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...b7583fbcb93ea5288b099fb99097eec5c029ca19)
 
 ## 🚀 Features
 
@@ -101,6 +101,8 @@
 - Update steam deployment to remove superflous parameters ([PR #470](https://github.com/icosa-foundation/open-brush/pull/470) by @mikeage)
 
 - Replace all references to icosa-gallery with icosa-foundation ([PR #506](https://github.com/icosa-foundation/open-brush/pull/506) by @mikeage)
+
+- Save steam's config.vdf after each login to prevent logout ([PR #509](https://github.com/icosa-foundation/open-brush/pull/509) by @mikeage)
 
 
 ## 📦 Dependencies / Maintenance
