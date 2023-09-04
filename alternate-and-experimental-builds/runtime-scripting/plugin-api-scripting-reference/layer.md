@@ -300,7 +300,7 @@ Changes a shader float parameter. Affects all strokes on this layer with this br
 
 
 
-### layer:SetShaderFloat(parameter, color)
+### layer:SetShaderColor(parameter, color)
 
 Changes a shader color parameter. Affects all strokes on this layer
 
@@ -349,7 +349,7 @@ Changes a shader color parameter. Affects all strokes on this layer with this br
 
 
 
-### layer:SetShaderFloat(parameter, image)
+### layer:SetShaderTexture(parameter, image)
 
 Changes a shader texture parameter. Affects all strokes on this layer
 
