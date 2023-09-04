@@ -38,7 +38,7 @@ Deletes all the strokes in the list
 
 
 
-### strokeList:SetShaderClipping(start, end)
+### strokeList:SetShaderClipping(clipStart, clipEnd)
 
 Hides the section of the stroke that is outside the specified range
 
@@ -49,15 +49,15 @@ Hides the section of the stroke that is outside the specified range
 
 <table data-full-width="false">
 <thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>start</td><td>number</td><td>The amount of the stroke to hide from the start (0-1)</td></tr>
-<tr><td>end</td><td>number</td><td>The amount of the stroke to hide from the end (0-1)</td></tr></tbody></table>
+<tbody><tr><td>clipStart</td><td>number</td><td>The amount of the stroke to hide from the start (0-1)</td></tr>
+<tr><td>clipEnd</td><td>number</td><td>The amount of the stroke to hide from the end (0-1)</td></tr></tbody></table>
 
 
 
 
 #### Example
 
-<pre class="language-lua"><code class="lang-lua"><strong>myStroke:SetShaderFloat("_EmissionGain", 0.5)</strong></code></pre>
+<pre class="language-lua"><code class="lang-lua"><strong>myStroke:SetShaderClipping(0.1, 0.9)</strong></code></pre>
 
 
 

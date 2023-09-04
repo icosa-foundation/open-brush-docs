@@ -443,7 +443,7 @@ Set the font used for drawing text
 
 
 
-### App:TakeSnapshot(tr, filename, width, height, superSampling)
+### App:TakeSnapshot(tr, filename, width, height, superSampling, renderDepth)
 
 Take a snapshot of your scene and save it to your Snapshots folder
 
@@ -458,7 +458,8 @@ Take a snapshot of your scene and save it to your Snapshots folder
 <tr><td>filename</td><td>string</td><td>The filename to use for the saved snapshot</td></tr>
 <tr><td>width</td><td>number</td><td>Image width</td></tr>
 <tr><td>height</td><td>number</td><td>Image height</td></tr>
-<tr><td>superSampling</td><td>number</td><td>The supersampling strength to apply (between 0.125 and 4.0)</td></tr></tbody></table>
+<tr><td>superSampling</td><td>number</td><td>The supersampling strength to apply (between 0.125 and 4.0)</td></tr>
+<tr><td>renderDepth</td><td>boolean</td><td>If true then render the depth buffer instead of the image</td></tr></tbody></table>
 
 
 

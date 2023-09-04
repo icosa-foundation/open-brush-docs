@@ -202,9 +202,33 @@ Hides the layer
 
 
 
-### layer:SetShaderClipping(brushType, start, end)
+### layer:SetShaderClipping(clipStart, clipEnd)
 
-Hides the section of the each batch of strokes that is outside the specified range. Affects all strokes on this layer of the given brush type
+Hides the section of the each batch of strokes that is outside the specified range. Affects all strokes on this layer with this brush type
+
+**Returns:** nil 
+
+
+**Parameters:**
+
+<table data-full-width="false">
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
+<tbody><tr><td>clipStart</td><td>number</td><td>The amount of the stroke to hide from the start (0-1)</td></tr>
+<tr><td>clipEnd</td><td>number</td><td>The amount of the stroke to hide from the end (0-1)</td></tr></tbody></table>
+
+
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>myLayer:SetShaderClipping(0.1, 0.9)</strong></code></pre>
+
+
+
+
+### layer:SetShaderClipping(brushType, clipStart, clipEnd)
+
+Hides the section of the each batch of strokes that is outside the specified range. Affects all strokes on this layer with this brush type
 
 **Returns:** nil 
 
@@ -214,15 +238,15 @@ Hides the section of the each batch of strokes that is outside the specified ran
 <table data-full-width="false">
 <thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
 <tbody><tr><td>brushType</td><td>string</td><td>Only strokes of this brush type will be affected</td></tr>
-<tr><td>start</td><td>number</td><td>The amount of the stroke to hide from the start (0-1)</td></tr>
-<tr><td>end</td><td>number</td><td>The amount of the stroke to hide from the end (0-1)</td></tr></tbody></table>
+<tr><td>clipStart</td><td>number</td><td>The amount of the stroke to hide from the start (0-1)</td></tr>
+<tr><td>clipEnd</td><td>number</td><td>The amount of the stroke to hide from the end (0-1)</td></tr></tbody></table>
 
 
 
 
 #### Example
 
-<pre class="language-lua"><code class="lang-lua"><strong>myStroke:SetShaderFloat("_EmissionGain", 0.5)</strong></code></pre>
+<pre class="language-lua"><code class="lang-lua"><strong>myLayer:SetShaderClipping("Ink", 0.1, 0.9)</strong></code></pre>
 
 
 
@@ -253,7 +277,7 @@ Changes a shader float parameter. Affects all strokes on this layer
 
 ### layer:SetShaderFloat(brushType, parameter, value)
 
-Changes a shader float parameter. Affects all strokes on this layer of the given brush type
+Changes a shader float parameter. Affects all strokes on this layer with this brush type
 
 **Returns:** nil 
 
@@ -276,9 +300,33 @@ Changes a shader float parameter. Affects all strokes on this layer of the given
 
 
 
+### layer:SetShaderFloat(parameter, color)
+
+Changes a shader color parameter. Affects all strokes on this layer
+
+**Returns:** nil 
+
+
+**Parameters:**
+
+<table data-full-width="false">
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
+<tbody><tr><td>parameter</td><td>string</td><td>The shader parameter name</td></tr>
+<tr><td>color</td><td><a href="color.md">Color</a></td><td>The new color</td></tr></tbody></table>
+
+
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>myLayer:SetShaderColor("_TintColor", Color.red)</strong></code></pre>
+
+
+
+
 ### layer:SetShaderColor(brushType, parameter, color)
 
-Changes a shader color parameter. Affects all strokes on this layer of the given brush type
+Changes a shader color parameter. Affects all strokes on this layer with this brush type
 
 **Returns:** nil 
 
@@ -301,9 +349,33 @@ Changes a shader color parameter. Affects all strokes on this layer of the given
 
 
 
+### layer:SetShaderFloat(parameter, image)
+
+Changes a shader texture parameter. Affects all strokes on this layer
+
+**Returns:** nil 
+
+
+**Parameters:**
+
+<table data-full-width="false">
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
+<tbody><tr><td>parameter</td><td>string</td><td>The shader parameter name</td></tr>
+<tr><td>image</td><td><a href="image.md">Image</a></td><td>The new image to use as a texture</td></tr></tbody></table>
+
+
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>myLayer:SetShaderTexture("_MainTex", myImage)</strong></code></pre>
+
+
+
+
 ### layer:SetShaderTexture(brushType, parameter, image)
 
-Changes a shader texture parameter. Affects all strokes on this layer of the given brush type
+Changes a shader texture parameter. Affects all strokes on this layer with this brush type
 
 **Returns:** nil 
 
@@ -326,9 +398,36 @@ Changes a shader texture parameter. Affects all strokes on this layer of the giv
 
 
 
+### layer:SetShaderVector(parameter, x, y, z, w)
+
+Changes a shader vector parameter. Affects all strokes on this layer
+
+**Returns:** nil 
+
+
+**Parameters:**
+
+<table data-full-width="false">
+<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
+<tbody><tr><td>parameter</td><td>string</td><td>The shader parameter name</td></tr>
+<tr><td>x</td><td>number</td><td>The new x value</td></tr>
+<tr><td>y</td><td>number</td><td>The new y value</td></tr>
+<tr><td>z</td><td>number</td><td>The new z value</td></tr>
+<tr><td>w</td><td>number</td><td>The new w value</td></tr></tbody></table>
+
+
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>myLayer:SetShaderVector("_TimeOverrideValue", 0.5, 0, 0, 0)</strong></code></pre>
+
+
+
+
 ### layer:SetShaderVector(brushType, parameter, x, y, z, w)
 
-Changes a shader vector parameter. Affects all strokes on this layer of the given brush type
+Changes a shader vector parameter. Affects all strokes on this layer with this brush type
 
 **Returns:** nil 
 
