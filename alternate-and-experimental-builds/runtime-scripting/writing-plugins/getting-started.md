@@ -27,9 +27,11 @@ If you're using Visual Studio Code then follow these steps:\
    ![](../../../.gitbook/assets/image.png)
 4. Search for "Lua" and look for the sumneko extension:
 
+<div align="left">
+
 <figure><img src="../../../.gitbook/assets/image (1).png" alt="" width="343"><figcaption></figcaption></figure>
 
-
+</div>
 
 5. Click to install it and wait for it to finish installing
 6. Click the small cog icon and then open the Extension Settings:\
