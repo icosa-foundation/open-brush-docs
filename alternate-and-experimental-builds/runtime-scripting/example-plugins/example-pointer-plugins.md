@@ -46,7 +46,7 @@ Draw slowly and deliberately. It can be tricky to get the hang of initially.
 
 ### Lagging
 
-![](<../../../.gitbook/assets/image (1) (1) (1).png>)
+![](<../../../.gitbook/assets/image (1) (1) (1) (1).png>)
 
 The pointer position cycles back and forth between the current position and where your hand was a short time before. The result is either loops or scribbles depending on the parameters and how quickly you move.
 

@@ -75,7 +75,7 @@
       * [Example Background Plugins](alternate-and-experimental-builds/runtime-scripting/example-plugins/example-background-plugins.md)
     * [Writing Plugins](alternate-and-experimental-builds/runtime-scripting/writing-plugins/README.md)
       * [Getting Started](alternate-and-experimental-builds/runtime-scripting/writing-plugins/getting-started.md)
-      * [Tweaking an existing plugin](alternate-and-experimental-builds/runtime-scripting/writing-plugins/tweaking-an-existing-plugin.md)
+      * [Tweaking existing plugins](alternate-and-experimental-builds/runtime-scripting/writing-plugins/tweaking-an-existing-plugin.md)
       * [Writing a Pointer Plugin](alternate-and-experimental-builds/runtime-scripting/writing-plugins/writing-a-pointer-plugin.md)
       * [Writing a Symmetry Plugin](alternate-and-experimental-builds/runtime-scripting/writing-plugins/writing-a-symmetry-plugin.md)
       * [Writing a Tool Plugin](alternate-and-experimental-builds/runtime-scripting/writing-plugins/writing-a-tool-plugin.md)
