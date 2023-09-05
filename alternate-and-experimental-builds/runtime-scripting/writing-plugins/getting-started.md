@@ -24,19 +24,22 @@ If you're using Visual Studio Code then follow these steps:\
 
 2. Launch Visual Studio Code and open this folder: Documents\Open Brush\Plugins
 3. Click on the button on the left that shows the Extensions sidebar: \
-   ![](../../../.gitbook/assets/image.png)
+   ![](<../../../.gitbook/assets/image (1).png>)
 4. Search for "Lua" and look for the sumneko extension:
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt="" width="343"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt="" width="343"><figcaption></figcaption></figure>
 
 </div>
 
 5. Click to install it and wait for it to finish installing
 6. Click the small cog icon and then open the Extension Settings:\
    ![](<../../../.gitbook/assets/image (2).png>)
-7. Scroll down to **Lua> Workspace: Library** and add "LuaModules"\
+7. Optionally you can hide a lot of spurious warnings by disabling "lowercase-global" warnings under **Lua> Diagnostics: Disable:** \
+   ![](../../../.gitbook/assets/image.png)\
+   (In our plugins we're using upper and lower case initial letters to distinguish your stuff from the API supplied-things but standard lua style is to use it to differentiate local from global. Don't worry for now...)
+8. Scroll down to **Lua> Workspace: Library** and add "LuaModules"\
    ![](<../../../.gitbook/assets/image (3).png>)
 
 
