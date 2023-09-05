@@ -1,6 +1,6 @@
 # Changelog since v2.2
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...b7583fbcb93ea5288b099fb99097eec5c029ca19)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...b099659fa7b8eeddc0ffbf6f8e96237605b494ac)
 
 ## 🚀 Features
 
@@ -128,6 +128,8 @@
 - Update mikepenz/release-changelog-builder-action to v4 ([PR #478](https://github.com/icosa-foundation/open-brush/pull/478) by @mikeage)
 
 - Remove old vscode package ([PR #507](https://github.com/icosa-foundation/open-brush/pull/507) by @mikeskydev)
+
+- Bump actions/checkout from 3 to 4 ([PR #518](https://github.com/icosa-foundation/open-brush/pull/518) by @dependabot[bot])
 
 
 
