@@ -1,7 +1,3 @@
----
-description: fffff
----
-
 # Snap Settings Panel
 
 {% hint style="info" %}
