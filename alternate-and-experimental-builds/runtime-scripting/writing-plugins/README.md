@@ -1,6 +1,6 @@
 # Writing Plugins
 
-Plugins are written in the scripting language [Lua](https://www.lua.org) which is designed to be simple to learn and easy to understand. There's plenty of tutorials online and Lua is widely used in games and applications such as [Factorio](https://wiki.factorio.com/Tutorial:Scripting), [Garry's Mod](https://wiki.facepunch.com/gmod/Beginner\_Tutorial\_Intro)_,_ [Roblox](https://create.roblox.com/docs/tutorials/scripting/basic-scripting/intro-to-scripting), [LÖVR](https://lovr.org/) and many others.
+[plugin-api-scripting-reference](../plugin-api-scripting-reference/ "mention")Plugin[plugin-api-scripting-reference](../plugin-api-scripting-reference/ "mention")Plugins are written in the scripting language [Lua](https://www.lua.org) which is designed to be simple to learn and easy to understand. There's plenty of tutorials online and Lua is widely used in games and applications such as [Factorio](https://wiki.factorio.com/Tutorial:Scripting), [Garry's Mod](https://wiki.facepunch.com/gmod/Beginner\_Tutorial\_Intro)_,_ [Roblox](https://create.roblox.com/docs/tutorials/scripting/basic-scripting/intro-to-scripting), [LÖVR](https://lovr.org/) and many others.
 
 If you've written scripts in any other language then you'll find it easy to pick up.&#x20;
 
@@ -10,9 +10,7 @@ As soon as you save your changes, Open Brush will load the new version. If you'v
 
 ## Libraries
 
-In addition to the API commands you can use most of the [Lua Standard Library](https://www.moonsharp.org/MoonSharpStdLib.pdf) also.&#x20;
-
-Another available library is [Lume](https://github.com/rxi/lume)
+In addition to the [API commands](../plugin-api-scripting-reference/) you can use most of the [Lua Standard Library](https://www.moonsharp.org/MoonSharpStdLib.pdf). Another included library is [Lume](https://github.com/rxi/lume) which you can use via `require "lume"`
 
 ## Plugin Types
 
