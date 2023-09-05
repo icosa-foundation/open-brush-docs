@@ -73,7 +73,7 @@ If you want to see an image or 3D model while you paint in Open Brush, you can a
 
 See the section on [Exporting](exporting-open-brush-sketches-to-other-apps/)
 
-![](<../.gitbook/assets/image (4) (1) (2).png>)
+![](<../.gitbook/assets/image (4) (1) (2) (1).png>)
 
 ### Switch the desktop view to a spectator camera
 

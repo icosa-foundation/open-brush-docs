@@ -40,7 +40,7 @@ Background Plugins have an extra button and work slightly differently in terms o
 
 ## Plugin Parameters
 
-&#x20;![](../../.gitbook/assets/image.png)
+&#x20;![](<../../.gitbook/assets/image (5).png>)
 
 Plugins can define various parameters so you can easily change how they work without needing to edit the script. Each slider will show a tooltip when you hover over it.
 

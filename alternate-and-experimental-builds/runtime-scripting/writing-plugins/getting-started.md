@@ -12,19 +12,47 @@ If you're not sure then the simplest thing to do is just use Visual Studio Code:
 
 {% embed url="https://code.visualstudio.com/download" %}
 
-## Autocomplete and Intellisense Using EmmyLua&#x20;
+## Autocomplete and Intellisense for Lua scripts&#x20;
 
 If you look in your Plugins folder there is a subfolder called LuaModules and in there are a few commonly used libraries, that will provide some useful features.&#x20;
 
 However one file is different. It contains empty definitions for all available API methods and properties along with special comments that can be used by the EmmyLua plugin to give you working autocomplete, intellisense and tooltips. This makes writing scripts and finding bugs much easier.
 
-EmmyLua has been tested in Visual Studio Code, WebStorm (and other Jetbrains editors) but it also claims to support any editor that uses the language server protocol (LSP) standard. If you don't already have a passionate attachment to a particular editor then you should probably start with [Visual Studio Code](https://code.visualstudio.com/)
+If you're using Visual Studio Code then follow these steps:\
+\
+1\. Launch the Plugins build of Open Brush at least once to create the correct plugins folder.
 
-[EmmyLua for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=tangzx.emmylua)
+2. Launch Visual Studio Code and open this folder: Documents\Open Brush\Plugins
+3. Click on the button on the left that shows the Extensions sidebar: \
+   ![](../../../.gitbook/assets/image.png)
+4. Search for "Lua" and look for the sumneko extension:
 
-[EmmyLua for Jetbrains](https://plugins.jetbrains.com/plugin/9768-emmylua)
+<figure><img src="../../../.gitbook/assets/image (1).png" alt="" width="343"><figcaption></figcaption></figure>
 
-[EmmyLua Docs](https://emmylua.github.io/)
+
+
+5. Click to install it and wait for it to finish installing
+6. Click the small cog icon and then open the Extension Settings:\
+   ![](<../../../.gitbook/assets/image (2).png>)
+7. Scroll down to **Lua> Workspace: Library** and add "LuaModules"\
+   ![](<../../../.gitbook/assets/image (3).png>)
+
+
+
+If you create a new file called PointerScript.Test.lua and start typing:
+
+```lua
+function Start()
+    print (App.
+```
+
+As soon as you type the period you should see a list of suggestions that match the "App" part:
+
+![](<../../../.gitbook/assets/image (4).png>)
+
+If not - check you've followed all the steps above.\
+If it worked then we can move on...\
+
 
 ## Next Steps
 
