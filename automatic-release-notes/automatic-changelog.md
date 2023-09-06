@@ -1,6 +1,6 @@
 # Changelog since v2.2
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...5b48b8109b7bac13bb6d5c7eff98d99647b55764)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...460ff4c3f670d1316a5617f95217ad80ab764d7e)
 
 ## 🚀 Features
 
@@ -139,6 +139,8 @@
 ## 💬 Uncategorized
 
 - Update Unity version in README.md ([PR #519](https://github.com/icosa-foundation/open-brush/pull/519) by @andybak)
+
+- Fix index truncation when exporting large glbs ([PR #517](https://github.com/icosa-foundation/open-brush/pull/517) by @andybak)
 
 
 
