@@ -1,6 +1,6 @@
 # Changelog since v2.2
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...cdf7fd6b56a32efa975ebc1795c1912b7c65d0f4)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...c96e36422dc40e5c1626d30fa0cc7db510308e57)
 
 ## 🚀 Features
 
@@ -41,6 +41,8 @@
 - Custom skybox ([PR #495](https://github.com/icosa-foundation/open-brush/pull/495) by @andybak)
 
 - Layer Renaming via XR Keyboard ([PR #502](https://github.com/icosa-foundation/open-brush/pull/502) by @andybak)
+
+- Support SVG for reference images ([PR #496](https://github.com/icosa-foundation/open-brush/pull/496) by @andybak)
 
 
 ## 🐛 Fixes
