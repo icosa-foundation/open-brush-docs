@@ -1,6 +1,6 @@
 # Changelog since v2.2
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...c96e36422dc40e5c1626d30fa0cc7db510308e57)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...5b48b8109b7bac13bb6d5c7eff98d99647b55764)
 
 ## 🚀 Features
 
@@ -134,6 +134,11 @@
 - Remove old vscode package ([PR #507](https://github.com/icosa-foundation/open-brush/pull/507) by @mikeskydev)
 
 - Bump actions/checkout from 3 to 4 ([PR #518](https://github.com/icosa-foundation/open-brush/pull/518) by @dependabot[bot])
+
+
+## 💬 Uncategorized
+
+- Update Unity version in README.md ([PR #519](https://github.com/icosa-foundation/open-brush/pull/519) by @andybak)
 
 
 
