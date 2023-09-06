@@ -1,6 +1,6 @@
 # Changelog since v2.2
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...b099659fa7b8eeddc0ffbf6f8e96237605b494ac)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...cdf7fd6b56a32efa975ebc1795c1912b7c65d0f4)
 
 ## 🚀 Features
 
@@ -39,6 +39,8 @@
 - Thumbstick changes AdvancedSlider value + visual feedback on controller model ([PR #494](https://github.com/icosa-foundation/open-brush/pull/494) by @andybak)
 
 - Custom skybox ([PR #495](https://github.com/icosa-foundation/open-brush/pull/495) by @andybak)
+
+- Layer Renaming via XR Keyboard ([PR #502](https://github.com/icosa-foundation/open-brush/pull/502) by @andybak)
 
 
 ## 🐛 Fixes
