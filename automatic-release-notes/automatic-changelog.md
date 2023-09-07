@@ -1,6 +1,6 @@
 # Changelog since v2.2
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...418ae6b636881cbdfe95a5055a5fba81bca66173)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...5ea6aadd9076b4c9b2c83ae73bbee725887fadea)
 
 ## 🚀 Features
 
@@ -111,6 +111,8 @@
 - Save steam's config.vdf after each login to prevent logout ([PR #509](https://github.com/icosa-foundation/open-brush/pull/509) by @mikeage)
 
 - Separate Rift and Quest upload ([PR #520](https://github.com/icosa-foundation/open-brush/pull/520) by @mikeage)
+
+- Temporarily disable Mac CI builds because we don't have room for the cache it creates ([PR #523](https://github.com/icosa-foundation/open-brush/pull/523) by @mikeage)
 
 
 ## 📦 Dependencies / Maintenance
