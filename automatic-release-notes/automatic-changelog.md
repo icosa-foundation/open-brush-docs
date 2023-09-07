@@ -1,6 +1,6 @@
 # Changelog since v2.2
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...460ff4c3f670d1316a5617f95217ad80ab764d7e)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...418ae6b636881cbdfe95a5055a5fba81bca66173)
 
 ## 🚀 Features
 
@@ -93,6 +93,8 @@
 
 - fix selection tray collider ([PR #504](https://github.com/icosa-foundation/open-brush/pull/504) by @mikeskydev)
 
+- Fix index truncation when exporting large glbs ([PR #517](https://github.com/icosa-foundation/open-brush/pull/517) by @andybak)
+
 
 ## 🛠️ Infrastructure
 
@@ -107,6 +109,8 @@
 - Replace all references to icosa-gallery with icosa-foundation ([PR #506](https://github.com/icosa-foundation/open-brush/pull/506) by @mikeage)
 
 - Save steam's config.vdf after each login to prevent logout ([PR #509](https://github.com/icosa-foundation/open-brush/pull/509) by @mikeage)
+
+- Separate Rift and Quest upload ([PR #520](https://github.com/icosa-foundation/open-brush/pull/520) by @mikeage)
 
 
 ## 📦 Dependencies / Maintenance
@@ -139,8 +143,6 @@
 ## 💬 Uncategorized
 
 - Update Unity version in README.md ([PR #519](https://github.com/icosa-foundation/open-brush/pull/519) by @andybak)
-
-- Fix index truncation when exporting large glbs ([PR #517](https://github.com/icosa-foundation/open-brush/pull/517) by @andybak)
 
 
 
