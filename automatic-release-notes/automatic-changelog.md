@@ -1,6 +1,6 @@
 # Changelog since v2.2
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...5ea6aadd9076b4c9b2c83ae73bbee725887fadea)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...55b93c639617d3059cf66259800081a8ba24cfa6)
 
 ## 🚀 Features
 
@@ -43,6 +43,8 @@
 - Layer Renaming via XR Keyboard ([PR #502](https://github.com/icosa-foundation/open-brush/pull/502) by @andybak)
 
 - Support SVG for reference images ([PR #496](https://github.com/icosa-foundation/open-brush/pull/496) by @andybak)
+
+- Add i18n for WMR, Pico 3, 4, Valve Index, and Vive ([PR #522](https://github.com/icosa-foundation/open-brush/pull/522) by @mikeskydev)
 
 
 ## 🐛 Fixes
