@@ -1,6 +1,6 @@
 # Changelog since v2.2
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...55b93c639617d3059cf66259800081a8ba24cfa6)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...905b1a0ce8b13d5aee429e47596a16217ff19c72)
 
 ## 🚀 Features
 
@@ -147,6 +147,8 @@
 ## 💬 Uncategorized
 
 - Update Unity version in README.md ([PR #519](https://github.com/icosa-foundation/open-brush/pull/519) by @andybak)
+
+- Remove some il2cpp files from Library before saving the cache ([PR #525](https://github.com/icosa-foundation/open-brush/pull/525) by @mikeage)
 
 
 
