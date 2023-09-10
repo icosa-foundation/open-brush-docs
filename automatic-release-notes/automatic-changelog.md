@@ -1,6 +1,6 @@
 # Changelog since v2.2
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...905b1a0ce8b13d5aee429e47596a16217ff19c72)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...f63e8315e444054cc781c8f8d9a9d4082a8b07a0)
 
 ## 🚀 Features
 
@@ -116,6 +116,10 @@
 
 - Temporarily disable Mac CI builds because we don't have room for the cache it creates ([PR #523](https://github.com/icosa-foundation/open-brush/pull/523) by @mikeage)
 
+- Remove some il2cpp files from Library before saving the cache ([PR #525](https://github.com/icosa-foundation/open-brush/pull/525) by @mikeage)
+
+- Optimize package caching ([PR #527](https://github.com/icosa-foundation/open-brush/pull/527) by @mikeage)
+
 
 ## 📦 Dependencies / Maintenance
 
@@ -147,8 +151,6 @@
 ## 💬 Uncategorized
 
 - Update Unity version in README.md ([PR #519](https://github.com/icosa-foundation/open-brush/pull/519) by @andybak)
-
-- Remove some il2cpp files from Library before saving the cache ([PR #525](https://github.com/icosa-foundation/open-brush/pull/525) by @mikeage)
 
 
 
