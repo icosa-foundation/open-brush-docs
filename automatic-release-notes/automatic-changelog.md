@@ -1,6 +1,6 @@
 # Changelog since v2.2
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...597013c2500b9d9d712a92d4579fbc1330778ffa)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...8e7b6f297261e48e2b1be1944588d2e2b6b3f719)
 
 ## 🚀 Features
 
@@ -45,6 +45,8 @@
 - Support SVG for reference images ([PR #496](https://github.com/icosa-foundation/open-brush/pull/496) by @andybak)
 
 - Add i18n for WMR, Pico 3, 4, Valve Index, and Vive ([PR #522](https://github.com/icosa-foundation/open-brush/pull/522) by @mikeskydev)
+
+- Move selection to current layer ([PR #508](https://github.com/icosa-foundation/open-brush/pull/508) by @andybak)
 
 
 ## 🐛 Fixes
