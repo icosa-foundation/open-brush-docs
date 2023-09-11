@@ -1,6 +1,6 @@
 # Changelog since v2.2
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...f63e8315e444054cc781c8f8d9a9d4082a8b07a0)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...597013c2500b9d9d712a92d4579fbc1330778ffa)
 
 ## 🚀 Features
 
@@ -96,6 +96,8 @@
 - fix selection tray collider ([PR #504](https://github.com/icosa-foundation/open-brush/pull/504) by @mikeskydev)
 
 - Fix index truncation when exporting large glbs ([PR #517](https://github.com/icosa-foundation/open-brush/pull/517) by @andybak)
+
+- Fixes 3D models being omitted from GLTF export since switch to GLTFast ([PR #526](https://github.com/icosa-foundation/open-brush/pull/526) by @andybak)
 
 
 ## 🛠️ Infrastructure
