@@ -1,6 +1,6 @@
 # Changelog since v2.2
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...8e7b6f297261e48e2b1be1944588d2e2b6b3f719)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...ecedce0692a3fd9a3186c96b941353231af31eb2)
 
 ## 🚀 Features
 
@@ -47,6 +47,8 @@
 - Add i18n for WMR, Pico 3, 4, Valve Index, and Vive ([PR #522](https://github.com/icosa-foundation/open-brush/pull/522) by @mikeskydev)
 
 - Move selection to current layer ([PR #508](https://github.com/icosa-foundation/open-brush/pull/508) by @andybak)
+
+- JSON exports also include the sketch metadata ([PR #528](https://github.com/icosa-foundation/open-brush/pull/528) by @andybak)
 
 
 ## 🐛 Fixes
