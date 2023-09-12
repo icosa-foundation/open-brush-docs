@@ -8,11 +8,6 @@
 * [Customising Tilt Brush - Part Two: Adding Flight](https://lachlansleight.medium.com/customizing-tilt-brush-3407f5ceb4ea) (nb the "Flight" feature itself is now included in the main release but the tutorial is still useful as a guide for adding your own features)
 * [Scobot - How I change the look of Tilt Brush brushes in Unity3D](https://www.youtube.com/watch?v=38LSpe-2eIU)
 
-**Out of date tutorials**
-
-* [Enabling FBX output.](https://wiki.thakyuu.invr.chat/TiltBrush/Tips\_how\_to\_support\_fbx\_en) (now merged into main branch)
-* [Update Python support scripts to Python 3.8 from Python 2.](https://github.com/billyquith/tilt-brush/commit/f0810efebbbd2969ffa8fee095659b17c0a60696) (now merged into main branch)
-
 ## Open Brush Developer Documentation
 
 **Spreadsheets with some useful info:**
@@ -25,9 +20,8 @@
 
 It’s often quicker while developing to avoid jumping in and out of VR. To activate a simple desktop mode in Tilt Brush I had to do the following:
 
-1. Find “SteamVR\_Settings.asset” in Assets/ThirdParty/SteamVR/Resources and uncheck “Auto enable VR”
-2. In the main scene on the gameobject “Config” (under “App”) change SDK mode to “monoscopic”
-3. Sometimes panels are placed over other panels. To move a panel hold shift to activate “Lock to Head mode” at the same time as holding Alt to rotate the viewpoint (see below)
+1. In the main scene on the gameobject “Config” (under “App”) change SDK mode to “monoscopic”
+2. Sometimes panels are placed over other panels. To move a panel hold shift at the same time as holding Alt to rotate the viewpoint (see below)
 
 Entering play mode should now allow you to draw and control the app using the mouse and keyboard.
 
