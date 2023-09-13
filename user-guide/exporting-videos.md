@@ -60,6 +60,12 @@ uniform float eyeScale = 0.1
 
 Then you can just try re-rendering with the batch file.
 
+
+
+{% hint style="info" %}
+If you're rendering stereoscopic video then reducing eyeScale will reduce the strength of the stereo effect as well. It's often better to scale your scene in this case.
+{% endhint %}
+
 ### Exporting 360 videos / Offline Video Rendering
 
 Videos can be rendered ‘offline’ faster and at a much higher resolution and framerate than using the internal Multicam tool
