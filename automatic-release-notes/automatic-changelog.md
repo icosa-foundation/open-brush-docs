@@ -1,6 +1,6 @@
 # Changelog since v2.2
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...ecedce0692a3fd9a3186c96b941353231af31eb2)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...840581502d6390a1c74b58c6a879874ded950c4a)
 
 ## 🚀 Features
 
@@ -152,6 +152,8 @@
 - Remove old vscode package ([PR #507](https://github.com/icosa-foundation/open-brush/pull/507) by @mikeskydev)
 
 - Bump actions/checkout from 3 to 4 ([PR #518](https://github.com/icosa-foundation/open-brush/pull/518) by @dependabot[bot])
+
+- Bump game-ci/unity-builder from 2 to 3 ([PR #505](https://github.com/icosa-foundation/open-brush/pull/505) by @dependabot[bot])
 
 
 ## 💬 Uncategorized
