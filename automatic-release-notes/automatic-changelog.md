@@ -1,6 +1,6 @@
 # Changelog since v2.2
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...840581502d6390a1c74b58c6a879874ded950c4a)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...80a642458280f1d62605b78b9a7e6d4bb6356820)
 
 ## 🚀 Features
 
@@ -102,6 +102,8 @@
 - Fix index truncation when exporting large glbs ([PR #517](https://github.com/icosa-foundation/open-brush/pull/517) by @andybak)
 
 - Fixes 3D models being omitted from GLTF export since switch to GLTFast ([PR #526](https://github.com/icosa-foundation/open-brush/pull/526) by @andybak)
+
+- Don't overwrite user colour unless we're in multimirror mode ([PR #529](https://github.com/icosa-foundation/open-brush/pull/529) by @andybak)
 
 
 ## 🛠️ Infrastructure
