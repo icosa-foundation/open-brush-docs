@@ -1,6 +1,6 @@
 # Changelog since v2.2
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...80a642458280f1d62605b78b9a7e6d4bb6356820)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...2fa35e08103a703d3d7596bf015032306a77292b)
 
 ## 🚀 Features
 
@@ -104,6 +104,8 @@
 - Fixes 3D models being omitted from GLTF export since switch to GLTFast ([PR #526](https://github.com/icosa-foundation/open-brush/pull/526) by @andybak)
 
 - Don't overwrite user colour unless we're in multimirror mode ([PR #529](https://github.com/icosa-foundation/open-brush/pull/529) by @andybak)
+
+- Show state of Experimental Mode in the settings panel ([PR #532](https://github.com/icosa-foundation/open-brush/pull/532) by @andybak)
 
 
 ## 🛠️ Infrastructure
