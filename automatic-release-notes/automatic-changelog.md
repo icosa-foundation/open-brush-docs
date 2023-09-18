@@ -1,6 +1,6 @@
 # Changelog since v2.2
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...2fa35e08103a703d3d7596bf015032306a77292b)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...aa83d128ba6618c0bfbac6e77e109deafc4ce0e9)
 
 ## 🚀 Features
 
@@ -106,6 +106,8 @@
 - Don't overwrite user colour unless we're in multimirror mode ([PR #529](https://github.com/icosa-foundation/open-brush/pull/529) by @andybak)
 
 - Show state of Experimental Mode in the settings panel ([PR #532](https://github.com/icosa-foundation/open-brush/pull/532) by @andybak)
+
+- hotfix experimental mode toggle ([PR #536](https://github.com/icosa-foundation/open-brush/pull/536) by @mikeskydev)
 
 
 ## 🛠️ Infrastructure
