@@ -1,6 +1,6 @@
 # Changelog since v2.2
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...aa83d128ba6618c0bfbac6e77e109deafc4ce0e9)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...3cd7e6e7d327e41116e7200a1be5eaf8d4f3d24a)
 
 ## 🚀 Features
 
@@ -49,6 +49,8 @@
 - Move selection to current layer ([PR #508](https://github.com/icosa-foundation/open-brush/pull/508) by @andybak)
 
 - JSON exports also include the sketch metadata ([PR #528](https://github.com/icosa-foundation/open-brush/pull/528) by @andybak)
+
+- [Pico] Add Chinese build, disable accounts ([PR #535](https://github.com/icosa-foundation/open-brush/pull/535) by @mikeskydev)
 
 
 ## 🐛 Fixes
