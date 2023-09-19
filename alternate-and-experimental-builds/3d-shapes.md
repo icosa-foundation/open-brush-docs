@@ -6,11 +6,15 @@
 
 ## Downloads
 
-* [Oculus Quest](https://nightly.link/IxxyXR/open-brush/workflows/build/feature%2Feditable-models-multi-mirror/Oculus%20Quest.zip)
-* [Oculus PC VR](https://nightly.link/IxxyXR/open-brush/workflows/build/feature%2Feditable-models-multi-mirror/Windows%20Rift.zip) (Rift, Quest via Link cable...)
-* [SteamVR](https://nightly.link/IxxyXR/open-brush/workflows/build/feature%2Feditable-models-multi-mirror/Windows%20OpenXR.zip) (Vive, Index, Reverb...)
-* [Other Builds](https://nightly.link/IxxyXR/open-brush/workflows/build/feature%2Feditable-models-multi-mirror) (Pico, Pimax etc)
-* [Code](https://github.com/IxxyXR/open-brush/tree/feature/editable-models-multi-mirror)
+* [~~Oculus Quest~~](https://nightly.link/IxxyXR/open-brush/workflows/build/feature%2Feditable-models-multi-mirror/Oculus%20Quest.zip)
+* [~~Oculus PC VR~~](https://nightly.link/IxxyXR/open-brush/workflows/build/feature%2Feditable-models-multi-mirror/Windows%20Rift.zip) ~~(Rift, Quest via Link cable...)~~
+* [~~SteamVR~~](https://nightly.link/IxxyXR/open-brush/workflows/build/feature%2Feditable-models-multi-mirror/Windows%20OpenXR.zip) ~~(Vive, Index, Reverb...)~~
+* [~~Other Builds~~](https://nightly.link/IxxyXR/open-brush/workflows/build/feature%2Feditable-models-multi-mirror) ~~(Pico, Pimax etc)~~
+* [~~Code~~](https://github.com/IxxyXR/open-brush/tree/feature/editable-models-multi-mirror)
+
+{% hint style="info" %}
+There's currently no separate build. Instead use the [Combined Build](https://docs.openbrush.app/alternate-and-experimental-builds/combined-testing-build)
+{% endhint %}
 
 ### What does it do?
 
