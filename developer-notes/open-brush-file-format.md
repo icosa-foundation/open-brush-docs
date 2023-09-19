@@ -1,6 +1,6 @@
 # Open Brush File Format
 
-The .tilt file format can also be parsed by the [Open Brush Toolkit](https://github.com/icosa-gallery/open-brush-toolkit).
+The .tilt file format can also be parsed by the [Open Brush Toolkit](https://github.com/icosa-foundation/open-brush-toolkit).
 
 A .tilt is a zip-format file with a prepended header:
 

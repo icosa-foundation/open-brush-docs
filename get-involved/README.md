@@ -12,7 +12,7 @@
 
 ### Unity/C# Developers
 
-* Download the [repo](https://github.com/icosa-gallery/open-brush) and read the [developer notes ](https://docs.openbrush.app/developer-notes)and start tinkering.
+* Download the [repo](https://github.com/icosa-foundation/open-brush) and read the [developer notes ](https://docs.openbrush.app/developer-notes)and start tinkering.
 * Create your own fork, add a feature, fix a bug and send us a pull request.
 * Help improve to developer docs or create a developer tutorial
 

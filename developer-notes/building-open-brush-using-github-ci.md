@@ -1,6 +1,6 @@
 # Setting up CI for Open Brush using Github Actions
 
-This file will explain the various secrets used in creating formal builds. All of this is currently enabled on the icosa-gallery/open-brush repo, but in case a new repo ever needs to be created, this file explains what needs to be done to configure the repo.
+This file will explain the various secrets used in creating formal builds. All of this is currently enabled on the icosa-foundation/open-brush repo, but in case a new repo ever needs to be created, this file explains what needs to be done to configure the repo.
 
 By default, builds can be created with no secrets required, and this in fact what happens for builds from pull requests, where secrets are not exposed for security reasons.
 

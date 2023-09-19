@@ -22,7 +22,7 @@ The SDK has these requirements:
 ## Getting the code <a href="#_iqjwk94xwdgd" id="_iqjwk94xwdgd"></a>
 
 Download the latest version of the toolkit from:[\
-](https://github.com/icosa-gallery/open-brush-toolkit)[https://github.com/icosa-gallery/open-brush-toolkit/releases](https://github.com/icosa-gallery/open-brush-toolkit/releases)
+](https://github.com/icosa-foundation/open-brush-toolkit)[https://github.com/icosa-foundation/open-brush-toolkit/releases](https://github.com/icosa-foundation/open-brush-toolkit/releases)
 
 The SDK comes in the form of a Unity Package. To import:
 

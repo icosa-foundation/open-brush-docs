@@ -18,7 +18,7 @@ Simply open up the Settings Panel, click the button and restart Open Brush.
 
 The main thing to be aware of with "Experimental Mode" builds is the new brushes. Any sketch you save that contains these new brushes may not look correct when you export it to another piece of software or load it in a non-experimental version of Open Brush.
 
-We also have a special version of [Open Brush Unity SDK](open-brush-unity-sdk.md) with support for most of the experimental brushes. See [the notes for the latest release](https://github.com/icosa-gallery/open-brush-toolkit/releases/latest).
+We also have a special version of [Open Brush Unity SDK](open-brush-unity-sdk.md) with support for most of the experimental brushes. See [the notes for the latest release](https://github.com/icosa-foundation/open-brush-toolkit/releases/latest).
 
 ## What Features are there that are only in this build?
 

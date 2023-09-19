@@ -12,7 +12,7 @@ We don't currently publish the monoscopic version alongside other releases but o
 
 (Note that you'll need to be logged in to Github to download files)
 
-1. Go to this page: [https://github.com/icosa-gallery/open-brush/actions](https://github.com/icosa-gallery/open-brush/actions) and look through the list of builds until you see one with "main" in the middle column:
+1. Go to this page: [https://github.com/icosa-foundation/open-brush/actions](https://github.com/icosa-foundation/open-brush/actions) and look through the list of builds until you see one with "main" in the middle column:
 
 ![](<../.gitbook/assets/image (7) (2).png>)
 

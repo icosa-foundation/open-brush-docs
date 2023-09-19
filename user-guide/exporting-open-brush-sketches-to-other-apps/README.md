@@ -15,19 +15,19 @@ Each sketch exported from Open Brush creates a separate folder in **Documents/Op
 
 .latk is an interchange format for 3d brush strokes: [https://lightningartist.org/](https://lightningartist.org/)
 
-The .json is a “raw” format which you can use if you need a different file format. See the [Open Brush Toolkit](https://github.com/icosa-gallery/open-brush-toolkit) for sample [Python 2.7](https://www.python.org/download/releases/2.7/) scripts that convert the raw .json to .obj.
+The .json is a “raw” format which you can use if you need a different file format. See the [Open Brush Toolkit](https://github.com/icosa-foundation/open-brush-toolkit) for sample [Python 2.7](https://www.python.org/download/releases/2.7/) scripts that convert the raw .json to .obj.
 
 python convert\_to\_fbx.py "c:\Users\\_username_\Documents\Open Brush\Exports\Untitled\_1.json"
 
 Each script has a set of command-line options that fine-tune the generated file.
 
-The USD contains both geometry and curve information. If your DCC tool doesn’t support USD, the [Open Brush Toolkit](https://github.com/icosa-gallery/open-brush-toolkit) contains a Python 2.7 script that can convert the .tilt file to a Collada .dae containing the curves.
+The USD contains both geometry and curve information. If your DCC tool doesn’t support USD, the [Open Brush Toolkit](https://github.com/icosa-foundation/open-brush-toolkit) contains a Python 2.7 script that can convert the .tilt file to a Collada .dae containing the curves.
 
 ## Flipside XR
 
 1. Follow the instructions for installing and configuring [Flipside Creator Tools](https://www.flipsidexr.com/docs/2023.1/creator-tools/getting-started)
 2. Download the .unitypackage for the latest release of the [Open Brush Unity SDK](../open-brush-unity-sdk.md#\_iqjwk94xwdgd)
-3. You'll also need the [Json.Net.for.open.brush.toolkit.unitypackage](https://github.com/icosa-gallery/open-brush-toolkit/releases/download/v24.0.0/Json.Net.for.open.brush.toolkit.unitypackage)  from the same page
+3. You'll also need the [Json.Net.for.open.brush.toolkit.unitypackage](https://github.com/icosa-foundation/open-brush-toolkit/releases/download/v24.0.0/Json.Net.for.open.brush.toolkit.unitypackage)  from the same page
 4. Add both to your Flipside Unity project
 5. Export your Open Brush sketch and import the .glb file into the Flipside project
 6. Follow the Flipside instructions for uploading a Unity scene as a Flipside Set

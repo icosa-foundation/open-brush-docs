@@ -18,7 +18,7 @@ Testing new features is a bottleneck for us at the moment We need feedback on th
 
 In return you'll get to try out the real cutting edge features first and potentially influence the design choices we make.
 
-On Github there is a list of [open pull requests](https://github.com/icosa-gallery/open-brush/pulls?q=is%3Apr+is%3Aopen+-is%3Adraft+). You can click on any one and then scroll down to the bottom:
+On Github there is a list of [open pull requests](https://github.com/icosa-foundation/open-brush/pulls?q=is%3Apr+is%3Aopen+-is%3Adraft+). You can click on any one and then scroll down to the bottom:
 
 ![](<../.gitbook/assets/image (3) (1).png>)
 

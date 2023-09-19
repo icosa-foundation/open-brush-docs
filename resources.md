@@ -57,7 +57,7 @@ _Google - Tilt Brush_
 
 [Tilt Brush Media Kit](https://drive.google.com/drive/folders/0B-FOlsWp-DWJV2JrVnJOSlpIQlk)
 
-[Apache 2.0 License](https://github.com/icosa-gallery/open-brush/blob/master/LICENSE)
+[Apache 2.0 License](https://github.com/icosa-foundation/open-brush/blob/master/LICENSE)
 
 ## Contribute by Supporting Us or Getting Involved
 

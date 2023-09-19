@@ -11,8 +11,8 @@ Currently this build combines all the features in the [beta release](../automati
 
 ## Downloads
 
-* [Oculus Quest](https://nightly.link/icosa-gallery/open-brush/workflows/build/feature%2Fkitchen-sink/Oculus%20Quest.zip)
-* [Oculus PC VR](https://nightly.link/icosa-gallery/open-brush/workflows/build/feature%2Fkitchen-sink/Windows%20Rift.zip) (Rift, Quest via Link cable...)
-* [SteamVR](https://nightly.link/icosa-gallery/open-brush/workflows/build/feature%2Fkitchen-sink/Windows%20OpenXR.zip) (Vive, Index, Reverb...)
-* [Other Builds](https://nightly.link/icosa-gallery/open-brush/workflows/build/feature%2Fkitchen-sink) (Pico, Pimax etc...)
-* [Code](https://github.com/icosa-gallery/open-brush/tree/feature/kitchen-sink)
+* [Oculus Quest](https://nightly.link/icosa-foundation/open-brush/workflows/build/feature%2Fkitchen-sink/Oculus%20Quest.zip)
+* [Oculus PC VR](https://nightly.link/icosa-foundation/open-brush/workflows/build/feature%2Fkitchen-sink/Windows%20Rift.zip) (Rift, Quest via Link cable...)
+* [SteamVR](https://nightly.link/icosa-foundation/open-brush/workflows/build/feature%2Fkitchen-sink/Windows%20OpenXR.zip) (Vive, Index, Reverb...)
+* [Other Builds](https://nightly.link/icosa-foundation/open-brush/workflows/build/feature%2Fkitchen-sink) (Pico, Pimax etc...)
+* [Code](https://github.com/icosa-foundation/open-brush/tree/feature/kitchen-sink)

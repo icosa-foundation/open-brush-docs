@@ -7,7 +7,7 @@
 * TiltBrush uses GoogleVR audio regardless of platform, and if the platform SDK supplies audio.
   * `AudioManager` uses `GvrAudioSource`.
   * \(GoogleVR is deprecated\)\[[http://docs.unity3d.com/Packages/com.unity.xr.googlevr.android@2.0/changelog/CHANGELOG.html](http://docs.unity3d.com/Packages/com.unity.xr.googlevr.android@2.0/changelog/CHANGELOG.html)\] to be removed in 2020.1.
-  * WORK: Investigate replacement. See [Issue 148](https://github.com/icosa-gallery/open-brush/issues/148).
+  * WORK: Investigate replacement. See [Issue 148](https://github.com/icosa-foundation/open-brush/issues/148).
 
 ## XR
 

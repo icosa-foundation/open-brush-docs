@@ -76,9 +76,9 @@ In your headset, open the app drawer. In the top right, there is a dropdown to f
 
 ### Oculus Desktop
 
-Due to the way the Oculus Desktop store versioning works, we can't automate builds without disrupting the main build! Instead, you can access a manual build from [Nightly Link](https://nightly.link/icosa-gallery/open-brush/workflows/build/feature%2Fxr\_v2).&#x20;
+Due to the way the Oculus Desktop store versioning works, we can't automate builds without disrupting the main build! Instead, you can access a manual build from [Nightly Link](https://nightly.link/icosa-foundation/open-brush/workflows/build/feature%2Fxr\_v2).&#x20;
 
-{% embed url="https://nightly.link/icosa-gallery/open-brush/workflows/build/feature%2Fxr_v2" %}
+{% embed url="https://nightly.link/icosa-foundation/open-brush/workflows/build/feature%2Fxr_v2" %}
 
 ![nightly.link showing the various builds for xr\_v2](<../../.gitbook/assets/image (14) (1).png>)
 
@@ -96,11 +96,11 @@ Windows may scan the folder for viruses as it's an unknown folder, which will pr
 
 ### What should I be testing?
 
-In short, everything you can! The previous SDKs were woven throughout the fabric of the app, so our changes impacted a lot of features. We have [prepared a list](https://github.com/icosa-gallery/open-brush/issues/249) over on our GitHub with suggestions of things to test (anything already ticked is assumed to be working).
+In short, everything you can! The previous SDKs were woven throughout the fabric of the app, so our changes impacted a lot of features. We have [prepared a list](https://github.com/icosa-foundation/open-brush/issues/249) over on our GitHub with suggestions of things to test (anything already ticked is assumed to be working).
 
 ### How do I report bugs?
 
-If you are a GitHub user, please feel free to add a comment to our [Issue #249](https://github.com/icosa-gallery/open-brush/issues/249) where we are keeping track of validation.\
+If you are a GitHub user, please feel free to add a comment to our [Issue #249](https://github.com/icosa-foundation/open-brush/issues/249) where we are keeping track of validation.\
 \
 Otherwise, please join our [Discord ](https://discord.gg/W7NCEYnEfy)if you haven't already and post a message in the `#unity-xr` channel, we'll log it on your behalf!
 

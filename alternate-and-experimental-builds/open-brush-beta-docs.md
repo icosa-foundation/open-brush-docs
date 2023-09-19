@@ -49,4 +49,4 @@ We also host some beta versions on our Itch.io page.
 
 If you can't find a version to suit your platform anywhere else then this page on Github has the latest beta build for all the platforms we support.
 
-{% embed url="https://github.com/icosa-gallery/open-brush/releases/" %}
+{% embed url="https://github.com/icosa-foundation/open-brush/releases/" %}
