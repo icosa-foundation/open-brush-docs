@@ -48,9 +48,9 @@ Brush types filtered by chosen tags
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>includeTags</td><td>string[]</td><td>Include brushes that have any of these tags</td></tr>
-<tr><td>excludeTags</td><td>string[]</td><td>Exclude brushes that have any of these tags</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>includeTags</td><td>string[]</td><td></td><td>Include brushes that have any of these tags</td></tr>
+<tr><td>excludeTags</td><td>string[]</td><td></td><td>Exclude brushes that have any of these tags</td></tr></tbody></table>
 
 
 
@@ -88,8 +88,8 @@ Clears the history and sets it's size
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>size</td><td>number</td><td>How many frames of position/rotation to remember</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>size</td><td>number</td><td></td><td>How many frames of position/rotation to remember</td></tr></tbody></table>
 
 
 
@@ -111,8 +111,8 @@ Sets the size of the history. Only clears it if the size has changed
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>size</td><td>number</td><td>How many frames of position/rotation to remember</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>size</td><td>number</td><td></td><td>How many frames of position/rotation to remember</td></tr></tbody></table>
 
 
 
@@ -134,8 +134,8 @@ Recalls previous positions of the Brush from the history buffer
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>back</td><td>number</td><td>How many frames back in the history to look</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>back</td><td>number</td><td></td><td>How many frames back in the history to look</td></tr></tbody></table>
 
 
 
@@ -157,8 +157,8 @@ Recalls previous orientations of the Brush from the history buffer
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>back</td><td>number</td><td>How many frames back in the history to look</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>back</td><td>number</td><td></td><td>How many frames back in the history to look</td></tr></tbody></table>
 
 
 
@@ -180,8 +180,8 @@ If set to true then the brush will draw strokes even if the trigger isn't being 
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>active</td><td>boolean</td><td>True means forced painting, false is normal behaviour</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>active</td><td>boolean</td><td></td><td>True means forced painting, false is normal behaviour</td></tr></tbody></table>
 
 
 
@@ -203,8 +203,8 @@ If set to true then the brush will stop drawing strokes even if the trigger is s
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>active</td><td>boolean</td><td>True means painting is forced off, false is normal behaviour</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>active</td><td>boolean</td><td></td><td>True means painting is forced off, false is normal behaviour</td></tr></tbody></table>
 
 
 
@@ -242,8 +242,8 @@ Gets a list of float property names for a brush
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>type</td><td>string</td><td>The brush name</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>type</td><td>string</td><td></td><td>The brush name</td></tr></tbody></table>
 
 
 
@@ -265,8 +265,8 @@ Gets a list of color property names for a brush
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>type</td><td>string</td><td>The brush name</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>type</td><td>string</td><td></td><td>The brush name</td></tr></tbody></table>
 
 
 
@@ -288,8 +288,8 @@ Gets a list of texture property names for a brush
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>type</td><td>string</td><td>The brush name</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>type</td><td>string</td><td></td><td>The brush name</td></tr></tbody></table>
 
 
 
@@ -311,8 +311,8 @@ Gets a list of vector property names for a brush
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>type</td><td>string</td><td>The brush name</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>type</td><td>string</td><td></td><td>The brush name</td></tr></tbody></table>
 
 
 

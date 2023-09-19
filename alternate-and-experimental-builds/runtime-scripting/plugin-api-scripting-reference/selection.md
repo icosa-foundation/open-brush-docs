@@ -9,6 +9,17 @@ Various actions related to selections of strokes and widgets
 ## Class Methods
 
         
+### Selection:Deselect()
+
+
+
+**Returns:** nil 
+
+
+
+
+
+
 ### Selection:Duplicate()
 
 Duplicates the currently selected items
@@ -131,8 +142,8 @@ Trims control points from all selected brush strokes. Resulting empty strokes ar
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>count</td><td>number</td><td>The number of points to trim from each stroke</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>count</td><td>number</td><td></td><td>The number of points to trim from each stroke</td></tr></tbody></table>
 
 
 
@@ -140,22 +151,6 @@ Trims control points from all selected brush strokes. Resulting empty strokes ar
 #### Example
 
 <pre class="language-lua"><code class="lang-lua"><strong>Selection:Trim(5)</strong></code></pre>
-
-
-
-
-### Selection:SelectAll()
-
-Selects all brush strokes and widgets on the current layer
-
-**Returns:** nil 
-
-
-
-
-#### Example
-
-<pre class="language-lua"><code class="lang-lua"><strong>Selection:SelectAll()</strong></code></pre>
 
 
 

@@ -83,8 +83,8 @@ Turns previews on or off for the active path
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>active</td><td>boolean</td><td>On is true, off is false</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>active</td><td>boolean</td><td></td><td>On is true, off is false</td></tr></tbody></table>
 
 
 
@@ -122,9 +122,9 @@ Creates a camera path from a Path
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>path</td><td><a href="path.md">Path</a></td><td>The Path to convert</td></tr>
-<tr><td>looped</td><td>boolean</td><td>Whether the resulting CameraPath should loop</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>path</td><td><a href="path.md">Path</a></td><td></td><td>The Path to convert</td></tr>
+<tr><td>looped</td><td>boolean</td><td></td><td>Whether the resulting CameraPath should loop</td></tr></tbody></table>
 
 
 
@@ -182,8 +182,8 @@ Converts the camera path to a path with the specified step size
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>step</td><td>number</td><td>A control point is created at time=0, time=step, time=step x 2 etc</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>step</td><td>number</td><td></td><td>A control point is created at time=0, time=step, time=step x 2 etc</td></tr></tbody></table>
 
 
 
@@ -221,10 +221,10 @@ Inserts a new position knot. (Position must be close to the existing path)
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>position</td><td><a href="vector3.md">Vector3</a></td><td>The position of the new knot</td></tr>
-<tr><td>rotation</td><td><a href="rotation.md">Rotation</a></td><td>The rotation of the new knot</td></tr>
-<tr><td>smoothing</td><td>number</td><td>Controls the spline curvature for this knot</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>position</td><td><a href="vector3.md">Vector3</a></td><td></td><td>The position of the new knot</td></tr>
+<tr><td>rotation</td><td><a href="rotation.md">Rotation</a></td><td></td><td>The rotation of the new knot</td></tr>
+<tr><td>smoothing</td><td>number</td><td></td><td>Controls the spline curvature for this knot</td></tr></tbody></table>
 
 
 
@@ -246,10 +246,10 @@ Inserts a new position knot into the path at the specified time
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>t</td><td>number</td><td>The time along the path to insert the new knot</td></tr>
-<tr><td>rotation</td><td><a href="rotation.md">Rotation</a></td><td>The rotation of the new knot</td></tr>
-<tr><td>smoothing</td><td>number</td><td>Controls the spline curvature for this knot</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>t</td><td>number</td><td></td><td>The time along the path to insert the new knot</td></tr>
+<tr><td>rotation</td><td><a href="rotation.md">Rotation</a></td><td></td><td>The rotation of the new knot</td></tr>
+<tr><td>smoothing</td><td>number</td><td></td><td>Controls the spline curvature for this knot</td></tr></tbody></table>
 
 
 
@@ -271,9 +271,9 @@ Inserts a rotation knot at the specified position close to the existing path
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>position</td><td><a href="vector3.md">Vector3</a></td><td>The position of the new knot</td></tr>
-<tr><td>rotation</td><td><a href="rotation.md">Rotation</a></td><td>The rotation of the new knot</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>position</td><td><a href="vector3.md">Vector3</a></td><td></td><td>The position of the new knot</td></tr>
+<tr><td>rotation</td><td><a href="rotation.md">Rotation</a></td><td></td><td>The rotation of the new knot</td></tr></tbody></table>
 
 
 
@@ -295,9 +295,9 @@ Inserts a rotation knot at the specified time
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>t</td><td>number</td><td>The time along the path to insert the new knot</td></tr>
-<tr><td>rotation</td><td><a href="rotation.md">Rotation</a></td><td>The rotation of the new knot</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>t</td><td>number</td><td></td><td>The time along the path to insert the new knot</td></tr>
+<tr><td>rotation</td><td><a href="rotation.md">Rotation</a></td><td></td><td>The rotation of the new knot</td></tr></tbody></table>
 
 
 
@@ -319,9 +319,9 @@ Inserts a field of view knot at the specified position close to the existing pat
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>position</td><td><a href="vector3.md">Vector3</a></td><td>The position of the new knot</td></tr>
-<tr><td>fov</td><td>number</td><td>The field of view of the new knot</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>position</td><td><a href="vector3.md">Vector3</a></td><td></td><td>The position of the new knot</td></tr>
+<tr><td>fov</td><td>number</td><td></td><td>The field of view of the new knot</td></tr></tbody></table>
 
 
 
@@ -343,9 +343,9 @@ Inserts a fov knot at the specified time
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>t</td><td>number</td><td>The time along the path to insert the new knot</td></tr>
-<tr><td>fov</td><td>number</td><td>The field of view of the new knot</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>t</td><td>number</td><td></td><td>The time along the path to insert the new knot</td></tr>
+<tr><td>fov</td><td>number</td><td></td><td>The field of view of the new knot</td></tr></tbody></table>
 
 
 
@@ -367,9 +367,9 @@ Inserts a speed knot at the specified position close to the existing path
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>position</td><td><a href="vector3.md">Vector3</a></td><td>The position of the new knot</td></tr>
-<tr><td>speed</td><td>number</td><td>The speed of the new knot</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>position</td><td><a href="vector3.md">Vector3</a></td><td></td><td>The position of the new knot</td></tr>
+<tr><td>speed</td><td>number</td><td></td><td>The speed of the new knot</td></tr></tbody></table>
 
 
 
@@ -391,9 +391,9 @@ Inserts a speed knot at the specified time
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>t</td><td>number</td><td>The time along the path to insert the new knot</td></tr>
-<tr><td>speed</td><td>number</td><td>The speed of the new knot</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>t</td><td>number</td><td></td><td>The time along the path to insert the new knot</td></tr>
+<tr><td>speed</td><td>number</td><td></td><td>The speed of the new knot</td></tr></tbody></table>
 
 
 
@@ -415,11 +415,11 @@ Extends the camera path
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>position</td><td><a href="vector3.md">Vector3</a></td><td>The position to extend the camera path to</td></tr>
-<tr><td>rotation</td><td><a href="rotation.md">Rotation</a></td><td>The rotation of the camera path at the extended position</td></tr>
-<tr><td>smoothing</td><td>number</td><td>The smoothing factor applied to the new point</td></tr>
-<tr><td>atStart</td><td>boolean</td><td>Determines whether the extension is done at the start or end of the camera path. True=start, false=end</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>position</td><td><a href="vector3.md">Vector3</a></td><td></td><td>The position to extend the camera path to</td></tr>
+<tr><td>rotation</td><td><a href="rotation.md">Rotation</a></td><td></td><td>The rotation of the camera path at the extended position</td></tr>
+<tr><td>smoothing</td><td>number</td><td></td><td>The smoothing factor applied to the new point</td></tr>
+<tr><td>atStart</td><td>boolean</td><td>false</td><td>Determines whether the extension is done at the start or end of the camera path. True=start, false=end</td></tr></tbody></table>
 
 
 
@@ -457,10 +457,10 @@ Samples the camera path at the specified time
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>time</td><td>number</td><td>The time at which to sample the camera path</td></tr>
-<tr><td>loop</td><td>boolean</td><td>Determines whether the camera path should loop</td></tr>
-<tr><td>pingpong</td><td>boolean</td><td>Determines whether the camera path should pingpong (reverse direction every loop</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>time</td><td>number</td><td></td><td>The time at which to sample the camera path</td></tr>
+<tr><td>loop</td><td>boolean</td><td>true</td><td>Determines whether the camera path should loop</td></tr>
+<tr><td>pingpong</td><td>boolean</td><td>false</td><td>Determines whether the camera path should pingpong (reverse direction every loop</td></tr></tbody></table>
 
 
 
@@ -482,9 +482,9 @@ Simplifies the camera path
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>tolerance</td><td>number</td><td>The tolerance used for simplification</td></tr>
-<tr><td>smoothing</td><td>number</td><td>The smoothing factor used for simplification</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>tolerance</td><td>number</td><td></td><td>The tolerance used for simplification</td></tr>
+<tr><td>smoothing</td><td>number</td><td></td><td>The smoothing factor used for simplification</td></tr></tbody></table>
 
 
 

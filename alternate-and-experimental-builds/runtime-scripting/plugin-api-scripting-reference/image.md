@@ -34,8 +34,8 @@ Imports an image widget based on the specified location
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>location</td><td>string</td><td>The location of the image</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>location</td><td>string</td><td></td><td>The location of the image</td></tr></tbody></table>
 
 
 
@@ -67,6 +67,22 @@ Selects the image widget
 
 
 
+### image:Deselect()
+
+Removes the image from the current selection
+
+**Returns:** nil 
+
+
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>myImage:Deselect()</strong></code></pre>
+
+
+
+
 ### image:Delete()
 
 Deletes the image widget
@@ -93,9 +109,9 @@ Extrudes the image widget with the specified depth and color
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>depth</td><td>number</td><td>The depth of the extrusion</td></tr>
-<tr><td>color</td><td><a href="color.md">Color</a></td><td>The color of the extrusion</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>depth</td><td>number</td><td></td><td>The depth of the extrusion</td></tr>
+<tr><td>color</td><td><a href="color.md">Color</a></td><td></td><td>The color of the extrusion</td></tr></tbody></table>
 
 
 
@@ -133,9 +149,9 @@ Saves an image as a png based on base64 data
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>base64</td><td>string</td><td>The base64 data for the image</td></tr>
-<tr><td>filename</td><td>string</td><td>The filename to save as</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>base64</td><td>string</td><td></td><td>The base64 data for the image</td></tr>
+<tr><td>filename</td><td>string</td><td></td><td>The filename to save as</td></tr></tbody></table>
 
 
 

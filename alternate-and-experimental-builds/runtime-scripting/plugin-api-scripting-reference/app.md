@@ -65,8 +65,8 @@ Adds a url that should be sent the data for each stroke as soon as the user fini
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>url</td><td>string</td><td>The url to send the stroke data to</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>url</td><td>string</td><td></td><td>The url to send the stroke data to</td></tr></tbody></table>
 
 
 
@@ -152,8 +152,8 @@ Activate or deactivate straight edge mode
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>active</td><td>boolean</td><td>True means activate, false means deactivate</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>active</td><td>boolean</td><td></td><td>True means activate, false means deactivate</td></tr></tbody></table>
 
 
 
@@ -175,8 +175,8 @@ Activate or deactivate auto orientation mode
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>active</td><td>boolean</td><td>True means activate, false means deactivate</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>active</td><td>boolean</td><td></td><td>True means activate, false means deactivate</td></tr></tbody></table>
 
 
 
@@ -198,8 +198,8 @@ Activate or deactivate view only mode
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>active</td><td>boolean</td><td>True means activate, false means deactivate</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>active</td><td>boolean</td><td></td><td>True means activate, false means deactivate</td></tr></tbody></table>
 
 
 
@@ -221,8 +221,8 @@ Activate or deactivate auto simplification mode
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>active</td><td>boolean</td><td>True means activate, false means deactivate</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>active</td><td>boolean</td><td></td><td>True means activate, false means deactivate</td></tr></tbody></table>
 
 
 
@@ -244,8 +244,8 @@ Activate or deactivate disco mode
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>active</td><td>boolean</td><td>True means activate, false means deactivate</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>active</td><td>boolean</td><td></td><td>True means activate, false means deactivate</td></tr></tbody></table>
 
 
 
@@ -267,8 +267,8 @@ Activate or deactivate profiling mode
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>active</td><td>boolean</td><td>True means activate, false means deactivate</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>active</td><td>boolean</td><td></td><td>True means activate, false means deactivate</td></tr></tbody></table>
 
 
 
@@ -290,8 +290,8 @@ Activate or deactivate post-processing
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>active</td><td>boolean</td><td>True means activate, false means deactivate</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>active</td><td>boolean</td><td></td><td>True means activate, false means deactivate</td></tr></tbody></table>
 
 
 
@@ -361,8 +361,8 @@ Activate or deactivate the watermark
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>active</td><td>boolean</td><td>True means activate, false means deactivate</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>active</td><td>boolean</td><td></td><td>True means activate, false means deactivate</td></tr></tbody></table>
 
 
 
@@ -384,8 +384,8 @@ Read the contents of a file
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>path</td><td>string</td><td>The file path to read from. It must be relative to and contined within the Scripts folder</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>path</td><td>string</td><td></td><td>The file path to read from. It must be relative to and contined within the Scripts folder</td></tr></tbody></table>
 
 
 
@@ -407,8 +407,8 @@ Displays an error message on the back of the user's brush controller
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>message</td><td>string</td><td>The error message to display</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>message</td><td>string</td><td></td><td>The error message to display</td></tr></tbody></table>
 
 
 
@@ -430,8 +430,8 @@ Set the font used for drawing text
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>fontData</td><td>string</td><td>Font data in .chr format</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>fontData</td><td>string</td><td></td><td>Font data in .chr format</td></tr></tbody></table>
 
 
 
@@ -453,13 +453,13 @@ Take a snapshot of your scene and save it to your Snapshots folder
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>tr</td><td><a href="transform.md">Transform</a></td><td>Determines the position and orientation of the camera used to take the snapshot</td></tr>
-<tr><td>filename</td><td>string</td><td>The filename to use for the saved snapshot</td></tr>
-<tr><td>width</td><td>number</td><td>Image width</td></tr>
-<tr><td>height</td><td>number</td><td>Image height</td></tr>
-<tr><td>superSampling</td><td>number</td><td>The supersampling strength to apply (between 0.125 and 4.0)</td></tr>
-<tr><td>renderDepth</td><td>boolean</td><td>If true then render the depth buffer instead of the image</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>tr</td><td><a href="transform.md">Transform</a></td><td></td><td>Determines the position and orientation of the camera used to take the snapshot</td></tr>
+<tr><td>filename</td><td>string</td><td></td><td>The filename to use for the saved snapshot</td></tr>
+<tr><td>width</td><td>number</td><td></td><td>Image width</td></tr>
+<tr><td>height</td><td>number</td><td></td><td>Image height</td></tr>
+<tr><td>superSampling</td><td>number</td><td>1</td><td>The supersampling strength to apply (between 0.125 and 4.0)</td></tr>
+<tr><td>renderDepth</td><td>boolean</td><td>false</td><td>If true then render the depth buffer instead of the image</td></tr></tbody></table>
 
 
 
@@ -481,10 +481,10 @@ Take a 360-degree snapshot of the scene and save it
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>tr</td><td><a href="transform.md">Transform</a></td><td>Determines the position and orientation of the camera used to take the snapshot</td></tr>
-<tr><td>filename</td><td>string</td><td>The filename to use for the saved snapshot</td></tr>
-<tr><td>width</td><td>number</td><td>The width of the image</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>tr</td><td><a href="transform.md">Transform</a></td><td></td><td>Determines the position and orientation of the camera used to take the snapshot</td></tr>
+<tr><td>filename</td><td>string</td><td></td><td>The filename to use for the saved snapshot</td></tr>
+<tr><td>width</td><td>number</td><td>4096</td><td>The width of the image</td></tr></tbody></table>
 
 
 

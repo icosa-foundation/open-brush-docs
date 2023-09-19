@@ -64,8 +64,8 @@ Sets whether to preview the active path or not
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>active</td><td>boolean</td><td>A boolean value indicating whether to preview the active path or not</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>active</td><td>boolean</td><td></td><td>A boolean value indicating whether to preview the active path or not</td></tr></tbody></table>
 
 
 

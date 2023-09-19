@@ -22,6 +22,38 @@ The list of Strokes in the scene. (You don't instantiate this yourself. Access t
 ## Instance Methods
 
         
+### strokeList:Select()
+
+Adds these strokes to the current selection
+
+**Returns:** nil 
+
+
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>myStrokes:Select()</strong></code></pre>
+
+
+
+
+### strokeList:Deselect()
+
+Removes these strokes from the current selection
+
+**Returns:** nil 
+
+
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>myStrokes:Deselect()</strong></code></pre>
+
+
+
+
 ### strokeList:Delete()
 
 Deletes all the strokes in the list
@@ -48,9 +80,9 @@ Hides the section of the stroke that is outside the specified range
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>clipStart</td><td>number</td><td>The amount of the stroke to hide from the start (0-1)</td></tr>
-<tr><td>clipEnd</td><td>number</td><td>The amount of the stroke to hide from the end (0-1)</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>clipStart</td><td>number</td><td></td><td>The amount of the stroke to hide from the start (0-1)</td></tr>
+<tr><td>clipEnd</td><td>number</td><td></td><td>The amount of the stroke to hide from the end (0-1)</td></tr></tbody></table>
 
 
 
@@ -72,9 +104,9 @@ Changes a shader float parameter.
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>parameter</td><td>string</td><td>The shader parameter name</td></tr>
-<tr><td>value</td><td>number</td><td>The new value</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>parameter</td><td>string</td><td></td><td>The shader parameter name</td></tr>
+<tr><td>value</td><td>number</td><td></td><td>The new value</td></tr></tbody></table>
 
 
 
@@ -96,9 +128,9 @@ Changes a shader color parameter
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>parameter</td><td>string</td><td>The shader parameter name</td></tr>
-<tr><td>color</td><td><a href="color.md">Color</a></td><td>The new color</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>parameter</td><td>string</td><td></td><td>The shader parameter name</td></tr>
+<tr><td>color</td><td><a href="color.md">Color</a></td><td></td><td>The new color</td></tr></tbody></table>
 
 
 
@@ -120,9 +152,9 @@ Changes a shader texture parameter
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>parameter</td><td>string</td><td>The shader parameter name</td></tr>
-<tr><td>image</td><td><a href="image.md">Image</a></td><td>The new image to use as a texture</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>parameter</td><td>string</td><td></td><td>The shader parameter name</td></tr>
+<tr><td>image</td><td><a href="image.md">Image</a></td><td></td><td>The new image to use as a texture</td></tr></tbody></table>
 
 
 
@@ -144,12 +176,12 @@ Changes a shader vector parameter
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>parameter</td><td>string</td><td>The shader parameter name</td></tr>
-<tr><td>x</td><td>number</td><td>The new x value</td></tr>
-<tr><td>y</td><td>number</td><td>The new y value</td></tr>
-<tr><td>z</td><td>number</td><td>The new z value</td></tr>
-<tr><td>w</td><td>number</td><td>The new w value</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>parameter</td><td>string</td><td></td><td>The shader parameter name</td></tr>
+<tr><td>x</td><td>number</td><td></td><td>The new x value</td></tr>
+<tr><td>y</td><td>number</td><td>0</td><td>The new y value</td></tr>
+<tr><td>z</td><td>number</td><td>0</td><td>The new z value</td></tr>
+<tr><td>w</td><td>number</td><td>0</td><td>The new w value</td></tr></tbody></table>
 
 
 

@@ -46,8 +46,8 @@ Creates a 2d path from a list of Vector2 points
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>positionList</td><td>Vector2[]</td><td>The list of points</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>positionList</td><td>Vector2[]</td><td></td><td>The list of points</td></tr></tbody></table>
 
 
 
@@ -69,8 +69,8 @@ Creates a path from a list of Vector3 points
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>positionList</td><td>Vector3[]</td><td>The list of points</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>positionList</td><td>Vector3[]</td><td></td><td>The list of points</td></tr></tbody></table>
 
 
 
@@ -92,8 +92,8 @@ Generates a regular polygon path
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>sides</td><td>number</td><td>The number of sides for the polygon</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>sides</td><td>number</td><td></td><td>The number of sides for the polygon</td></tr></tbody></table>
 
 
 
@@ -119,8 +119,8 @@ Inserts a new point at the end of the path
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>point</td><td><a href="vector2.md">Vector2</a></td><td>The point to be inserted at the end of the path</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>point</td><td><a href="vector2.md">Vector2</a></td><td></td><td>The point to be inserted at the end of the path</td></tr></tbody></table>
 
 
 
@@ -142,9 +142,9 @@ Inserts a new point at the specified index
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>point</td><td><a href="vector2.md">Vector2</a></td><td>The point to be inserted</td></tr>
-<tr><td>index</td><td>number</td><td>The index at which to insert the point</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>point</td><td><a href="vector2.md">Vector2</a></td><td></td><td>The point to be inserted</td></tr>
+<tr><td>index</td><td>number</td><td></td><td>The index at which to insert the point</td></tr></tbody></table>
 
 
 
@@ -214,8 +214,8 @@ Transforms all points in the path by the specific amount
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>transform</td><td><a href="transform.md">Transform</a></td><td>The transform to be applied to all points in the path</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>transform</td><td><a href="transform.md">Transform</a></td><td></td><td>The transform to be applied to all points in the path</td></tr></tbody></table>
 
 
 
@@ -237,8 +237,8 @@ Changes the position of all points in the path by a given amount
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>amount</td><td><a href="vector2.md">Vector2</a></td><td>The distance to move the points</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>amount</td><td><a href="vector2.md">Vector2</a></td><td></td><td>The distance to move the points</td></tr></tbody></table>
 
 
 
@@ -260,8 +260,8 @@ Rotates all points in the path around the origin by a given amount
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>amount</td><td><a href="rotation.md">Rotation</a></td><td>The amount by which to rotate the path</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>amount</td><td><a href="rotation.md">Rotation</a></td><td></td><td>The amount by which to rotate the path</td></tr></tbody></table>
 
 
 
@@ -283,8 +283,8 @@ Scales the path
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>scale</td><td><a href="vector2.md">Vector2</a></td><td>The scaling factor to apply to the path</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>scale</td><td><a href="vector2.md">Vector2</a></td><td></td><td>The scaling factor to apply to the path</td></tr></tbody></table>
 
 
 
@@ -322,8 +322,8 @@ Reorders the points so that point at the given index is shifted to be the first 
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>index</td><td>number</td><td>The index of the point to make the new first point</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>index</td><td>number</td><td></td><td>The index of the point to make the new first point</td></tr></tbody></table>
 
 
 
@@ -345,8 +345,8 @@ Returns the index of the point closest to the given position
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>point</td><td><a href="vector2.md">Vector2</a></td><td>The 3D position that we are seeking the closest to</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>point</td><td><a href="vector2.md">Vector2</a></td><td></td><td>The 3D position that we are seeking the closest to</td></tr></tbody></table>
 
 
 
@@ -432,8 +432,8 @@ Scales and shifts all points so that they fit in a 1 unit square at the origin
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>size</td><td>number</td><td>The size of the square to fit the path into</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>size</td><td>number</td><td>1</td><td>The size of the square to fit the path into</td></tr></tbody></table>
 
 
 
@@ -455,8 +455,8 @@ Resamples the path at a specified spacing
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>spacing</td><td>number</td><td>The space between points in the new pat</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>spacing</td><td>number</td><td></td><td>The space between points in the new pat</td></tr></tbody></table>
 
 
 

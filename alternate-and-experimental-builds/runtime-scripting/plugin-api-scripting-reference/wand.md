@@ -34,8 +34,8 @@ Clears the history and sets it's size
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>size</td><td>number</td><td>The size of the history buffer</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>size</td><td>number</td><td></td><td>The size of the history buffer</td></tr></tbody></table>
 
 
 
@@ -57,8 +57,8 @@ Sets the size of the history. Only clears it if the size has changed
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>size</td><td>number</td><td>The size of the history buffer</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>size</td><td>number</td><td></td><td>The size of the history buffer</td></tr></tbody></table>
 
 
 
@@ -80,8 +80,8 @@ Recalls previous positions of the Wand from the history buffer
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>back</td><td>number</td><td>How far back in the history to get the position from</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>back</td><td>number</td><td></td><td>How far back in the history to get the position from</td></tr></tbody></table>
 
 
 
@@ -103,8 +103,8 @@ Recalls previous orientations of the Wand from the history buffer
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>back</td><td>number</td><td>How far back in the history to get the rotation from</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>back</td><td>number</td><td></td><td>How far back in the history to get the rotation from</td></tr></tbody></table>
 
 
 

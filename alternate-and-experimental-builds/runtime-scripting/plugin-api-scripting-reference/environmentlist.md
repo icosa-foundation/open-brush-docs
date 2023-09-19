@@ -32,8 +32,8 @@ Gets an Environment by name
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>name</td><td>string</td><td>The name of the environment to get</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>name</td><td>string</td><td></td><td>The name of the environment to get</td></tr></tbody></table>
 
 
 

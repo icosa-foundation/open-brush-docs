@@ -42,8 +42,8 @@ Opens a sketch with the specified name in the User's Sketches folder
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>name</td><td>string</td><td>The filename of the sketch</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>name</td><td>string</td><td></td><td>The filename of the sketch</td></tr></tbody></table>
 
 
 
@@ -65,8 +65,8 @@ Saves the current sketch, possibly overwriting an existing one
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>overwrite</td><td>boolean</td><td>If set to true, overwrite the existing file. If false, the method will not overwrite the file</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>overwrite</td><td>boolean</td><td></td><td>If set to true, overwrite the existing file. If false, the method will not overwrite the file</td></tr></tbody></table>
 
 
 
@@ -88,8 +88,8 @@ Saves the current sketch with a new name
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>name</td><td>string</td><td>The new name for the sketch</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>name</td><td>string</td><td></td><td>The new name for the sketch</td></tr></tbody></table>
 
 
 
@@ -143,8 +143,8 @@ Imports a image with the specified name from the MediaLibrary/BackgroundImages f
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>filename</td><td>string</td><td>The filename of the image</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>filename</td><td>string</td><td></td><td>The filename of the image</td></tr></tbody></table>
 
 
 

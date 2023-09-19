@@ -19,8 +19,8 @@ Clears the history and sets it's size
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>size</td><td>number</td><td>How many frames of position/rotation to remember</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>size</td><td>number</td><td></td><td>How many frames of position/rotation to remember</td></tr></tbody></table>
 
 
 
@@ -42,8 +42,8 @@ Sets the size of the history. Only clears it if the size has changed
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>size</td><td>number</td><td>How many frames of position/rotation to remember</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>size</td><td>number</td><td></td><td>How many frames of position/rotation to remember</td></tr></tbody></table>
 
 
 
@@ -65,8 +65,8 @@ Recalls previous positions of the Headset from the history buffer
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>back</td><td>number</td><td>How many frames back in the history to look</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>back</td><td>number</td><td></td><td>How many frames back in the history to look</td></tr></tbody></table>
 
 
 
@@ -88,8 +88,8 @@ Recalls previous orientations of the Headset from the history buffer
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>back</td><td>number</td><td>How many frames back in the history to look</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>back</td><td>number</td><td></td><td>How many frames back in the history to look</td></tr></tbody></table>
 
 
 

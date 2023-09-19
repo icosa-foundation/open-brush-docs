@@ -35,9 +35,9 @@ Adds multiple strokes to the current selection
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>from</td><td>number</td><td>Start stroke index (0 is the first stroke that was drawn</td></tr>
-<tr><td>to</td><td>number</td><td>End stroke index</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>from</td><td>number</td><td></td><td>Start stroke index (0 is the first stroke that was drawn</td></tr>
+<tr><td>to</td><td>number</td><td></td><td>End stroke index</td></tr></tbody></table>
 
 
 
@@ -63,8 +63,8 @@ Assigns the material from another brush type to this stroke (Experimental. Resul
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>brushName</td><td>string</td><td>The name (or guid) of the brush to get the material from</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>brushName</td><td>string</td><td></td><td>The name (or guid) of the brush to get the material from</td></tr></tbody></table>
 
 
 
@@ -108,6 +108,22 @@ Adds this stroke to the current selection
 
 
 
+### stroke:Deselect()
+
+Removes this stroke from the current selection
+
+**Returns:** nil 
+
+
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>myStroke:Deselect()</strong></code></pre>
+
+
+
+
 ### stroke:JoinRange(from, to)
 
 Joins joins multiple strokes into one stroke
@@ -118,9 +134,9 @@ Joins joins multiple strokes into one stroke
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>from</td><td>number</td><td>Start stroke index (0 is the first stroke that was drawn</td></tr>
-<tr><td>to</td><td>number</td><td>End stroke index</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>from</td><td>number</td><td></td><td>Start stroke index (0 is the first stroke that was drawn</td></tr>
+<tr><td>to</td><td>number</td><td></td><td>End stroke index</td></tr></tbody></table>
 
 
 
@@ -158,8 +174,8 @@ Joins a stroke with the previous stroke
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>stroke2</td><td><a href="stroke.md">Stroke</a></td><td>The stroke to join to this one</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>stroke2</td><td><a href="stroke.md">Stroke</a></td><td></td><td>The stroke to join to this one</td></tr></tbody></table>
 
 
 
@@ -181,8 +197,8 @@ Imports the file with the specified name from the user's Sketches folder and mer
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>name</td><td>string</td><td>Name of the file to be merged</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>name</td><td>string</td><td></td><td>Name of the file to be merged</td></tr></tbody></table>
 
 
 
@@ -204,9 +220,9 @@ Hides the section of the stroke that is outside the specified range
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>clipStart</td><td>number</td><td>The amount of the stroke to hide from the start (0-1)</td></tr>
-<tr><td>clipEnd</td><td>number</td><td>The amount of the stroke to hide from the end (0-1)</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>clipStart</td><td>number</td><td></td><td>The amount of the stroke to hide from the start (0-1)</td></tr>
+<tr><td>clipEnd</td><td>number</td><td></td><td>The amount of the stroke to hide from the end (0-1)</td></tr></tbody></table>
 
 
 
@@ -228,9 +244,9 @@ Changes a shader float parameter
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>parameter</td><td>string</td><td>The shader parameter name</td></tr>
-<tr><td>value</td><td>number</td><td>The new value</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>parameter</td><td>string</td><td></td><td>The shader parameter name</td></tr>
+<tr><td>value</td><td>number</td><td></td><td>The new value</td></tr></tbody></table>
 
 
 
@@ -252,9 +268,9 @@ Changes a shader color parameter
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>parameter</td><td>string</td><td>The shader parameter name</td></tr>
-<tr><td>color</td><td><a href="color.md">Color</a></td><td>The new color</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>parameter</td><td>string</td><td></td><td>The shader parameter name</td></tr>
+<tr><td>color</td><td><a href="color.md">Color</a></td><td></td><td>The new color</td></tr></tbody></table>
 
 
 
@@ -276,9 +292,9 @@ Changes a shader texture parameter
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>parameter</td><td>string</td><td>The shader parameter name</td></tr>
-<tr><td>image</td><td><a href="image.md">Image</a></td><td>The new image to use as a texture</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>parameter</td><td>string</td><td></td><td>The shader parameter name</td></tr>
+<tr><td>image</td><td><a href="image.md">Image</a></td><td></td><td>The new image to use as a texture</td></tr></tbody></table>
 
 
 
@@ -300,12 +316,12 @@ Changes a shader vector parameter
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>parameter</td><td>string</td><td>The shader parameter name</td></tr>
-<tr><td>x</td><td>number</td><td>The new x value</td></tr>
-<tr><td>y</td><td>number</td><td>The new y value</td></tr>
-<tr><td>z</td><td>number</td><td>The new z value</td></tr>
-<tr><td>w</td><td>number</td><td>The new w value</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>parameter</td><td>string</td><td></td><td>The shader parameter name</td></tr>
+<tr><td>x</td><td>number</td><td></td><td>The new x value</td></tr>
+<tr><td>y</td><td>number</td><td>0</td><td>The new y value</td></tr>
+<tr><td>z</td><td>number</td><td>0</td><td>The new z value</td></tr>
+<tr><td>w</td><td>number</td><td>0</td><td>The new w value</td></tr></tbody></table>
 
 
 

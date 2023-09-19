@@ -46,6 +46,22 @@ Creates a new layer
 
 
 
+
+### Layer:SelectAll()
+
+Selects all strokes and widgets on this layer
+
+**Returns:** nil 
+
+
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>myLayer:SelectAll()</strong></code></pre>
+
+
+
     
 
 ## Instance Methods
@@ -157,8 +173,8 @@ Combines this layer with the specified layer
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>destinationLayer</td><td><a href="layer.md">Layer</a></td><td>The destination layer</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>destinationLayer</td><td><a href="layer.md">Layer</a></td><td></td><td>The destination layer</td></tr></tbody></table>
 
 
 
@@ -212,9 +228,9 @@ Hides the section of the each batch of strokes that is outside the specified ran
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>clipStart</td><td>number</td><td>The amount of the stroke to hide from the start (0-1)</td></tr>
-<tr><td>clipEnd</td><td>number</td><td>The amount of the stroke to hide from the end (0-1)</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>clipStart</td><td>number</td><td></td><td>The amount of the stroke to hide from the start (0-1)</td></tr>
+<tr><td>clipEnd</td><td>number</td><td></td><td>The amount of the stroke to hide from the end (0-1)</td></tr></tbody></table>
 
 
 
@@ -236,10 +252,10 @@ Hides the section of the each batch of strokes that is outside the specified ran
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>brushType</td><td>string</td><td>Only strokes of this brush type will be affected</td></tr>
-<tr><td>clipStart</td><td>number</td><td>The amount of the stroke to hide from the start (0-1)</td></tr>
-<tr><td>clipEnd</td><td>number</td><td>The amount of the stroke to hide from the end (0-1)</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>brushType</td><td>string</td><td></td><td>Only strokes of this brush type will be affected</td></tr>
+<tr><td>clipStart</td><td>number</td><td></td><td>The amount of the stroke to hide from the start (0-1)</td></tr>
+<tr><td>clipEnd</td><td>number</td><td></td><td>The amount of the stroke to hide from the end (0-1)</td></tr></tbody></table>
 
 
 
@@ -261,9 +277,9 @@ Changes a shader float parameter. Affects all strokes on this layer
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>parameter</td><td>string</td><td>The shader parameter name</td></tr>
-<tr><td>value</td><td>number</td><td>The new value</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>parameter</td><td>string</td><td></td><td>The shader parameter name</td></tr>
+<tr><td>value</td><td>number</td><td></td><td>The new value</td></tr></tbody></table>
 
 
 
@@ -285,10 +301,10 @@ Changes a shader float parameter. Affects all strokes on this layer with this br
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>brushType</td><td>string</td><td>Only strokes of this brush type will be affected</td></tr>
-<tr><td>parameter</td><td>string</td><td>The shader parameter name</td></tr>
-<tr><td>value</td><td>number</td><td>The new value</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>brushType</td><td>string</td><td></td><td>Only strokes of this brush type will be affected</td></tr>
+<tr><td>parameter</td><td>string</td><td></td><td>The shader parameter name</td></tr>
+<tr><td>value</td><td>number</td><td></td><td>The new value</td></tr></tbody></table>
 
 
 
@@ -310,9 +326,9 @@ Changes a shader color parameter. Affects all strokes on this layer
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>parameter</td><td>string</td><td>The shader parameter name</td></tr>
-<tr><td>color</td><td><a href="color.md">Color</a></td><td>The new color</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>parameter</td><td>string</td><td></td><td>The shader parameter name</td></tr>
+<tr><td>color</td><td><a href="color.md">Color</a></td><td></td><td>The new color</td></tr></tbody></table>
 
 
 
@@ -334,10 +350,10 @@ Changes a shader color parameter. Affects all strokes on this layer with this br
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>brushType</td><td>string</td><td>Only strokes of this brush type will be affected</td></tr>
-<tr><td>parameter</td><td>string</td><td>The shader parameter name</td></tr>
-<tr><td>color</td><td><a href="color.md">Color</a></td><td>The new color</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>brushType</td><td>string</td><td></td><td>Only strokes of this brush type will be affected</td></tr>
+<tr><td>parameter</td><td>string</td><td></td><td>The shader parameter name</td></tr>
+<tr><td>color</td><td><a href="color.md">Color</a></td><td></td><td>The new color</td></tr></tbody></table>
 
 
 
@@ -359,9 +375,9 @@ Changes a shader texture parameter. Affects all strokes on this layer
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>parameter</td><td>string</td><td>The shader parameter name</td></tr>
-<tr><td>image</td><td><a href="image.md">Image</a></td><td>The new image to use as a texture</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>parameter</td><td>string</td><td></td><td>The shader parameter name</td></tr>
+<tr><td>image</td><td><a href="image.md">Image</a></td><td></td><td>The new image to use as a texture</td></tr></tbody></table>
 
 
 
@@ -383,10 +399,10 @@ Changes a shader texture parameter. Affects all strokes on this layer with this 
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>brushType</td><td>string</td><td>Only strokes of this brush type will be affected</td></tr>
-<tr><td>parameter</td><td>string</td><td>The shader parameter name</td></tr>
-<tr><td>image</td><td><a href="image.md">Image</a></td><td>The new image to use as a texture</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>brushType</td><td>string</td><td></td><td>Only strokes of this brush type will be affected</td></tr>
+<tr><td>parameter</td><td>string</td><td></td><td>The shader parameter name</td></tr>
+<tr><td>image</td><td><a href="image.md">Image</a></td><td></td><td>The new image to use as a texture</td></tr></tbody></table>
 
 
 
@@ -408,12 +424,12 @@ Changes a shader vector parameter. Affects all strokes on this layer
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>parameter</td><td>string</td><td>The shader parameter name</td></tr>
-<tr><td>x</td><td>number</td><td>The new x value</td></tr>
-<tr><td>y</td><td>number</td><td>The new y value</td></tr>
-<tr><td>z</td><td>number</td><td>The new z value</td></tr>
-<tr><td>w</td><td>number</td><td>The new w value</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>parameter</td><td>string</td><td></td><td>The shader parameter name</td></tr>
+<tr><td>x</td><td>number</td><td></td><td>The new x value</td></tr>
+<tr><td>y</td><td>number</td><td>0</td><td>The new y value</td></tr>
+<tr><td>z</td><td>number</td><td>0</td><td>The new z value</td></tr>
+<tr><td>w</td><td>number</td><td>0</td><td>The new w value</td></tr></tbody></table>
 
 
 
@@ -435,13 +451,13 @@ Changes a shader vector parameter. Affects all strokes on this layer with this b
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>brushType</td><td>string</td><td>Only strokes of this brush type will be affected</td></tr>
-<tr><td>parameter</td><td>string</td><td>The shader parameter name</td></tr>
-<tr><td>x</td><td>number</td><td>The new x value</td></tr>
-<tr><td>y</td><td>number</td><td>The new y value</td></tr>
-<tr><td>z</td><td>number</td><td>The new z value</td></tr>
-<tr><td>w</td><td>number</td><td>The new w value</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>brushType</td><td>string</td><td></td><td>Only strokes of this brush type will be affected</td></tr>
+<tr><td>parameter</td><td>string</td><td></td><td>The shader parameter name</td></tr>
+<tr><td>x</td><td>number</td><td></td><td>The new x value</td></tr>
+<tr><td>y</td><td>number</td><td>0</td><td>The new y value</td></tr>
+<tr><td>z</td><td>number</td><td>0</td><td>The new z value</td></tr>
+<tr><td>w</td><td>number</td><td>0</td><td>The new w value</td></tr></tbody></table>
 
 
 

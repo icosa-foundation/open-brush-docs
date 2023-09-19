@@ -34,13 +34,13 @@ Returns a random color within given ranges
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>hueMin</td><td>number</td><td>Minimum hue</td></tr>
-<tr><td>hueMax</td><td>number</td><td>Maximum hue</td></tr>
-<tr><td>saturationMin</td><td>number</td><td>Minimum saturation</td></tr>
-<tr><td>saturationMax</td><td>number</td><td>Maximum saturation</td></tr>
-<tr><td>valueMin</td><td>number</td><td>Minimum brightness</td></tr>
-<tr><td>valueMax</td><td>number</td><td>Maximum brightness</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>hueMin</td><td>number</td><td></td><td>Minimum hue</td></tr>
+<tr><td>hueMax</td><td>number</td><td></td><td>Maximum hue</td></tr>
+<tr><td>saturationMin</td><td>number</td><td></td><td>Minimum saturation</td></tr>
+<tr><td>saturationMax</td><td>number</td><td></td><td>Maximum saturation</td></tr>
+<tr><td>valueMin</td><td>number</td><td></td><td>Minimum brightness</td></tr>
+<tr><td>valueMax</td><td>number</td><td></td><td>Maximum brightness</td></tr></tbody></table>
 
 
 
@@ -62,8 +62,8 @@ Initializes the random number generator with a specified seed
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>seed</td><td>number</td><td>The seed for the random number generator</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>seed</td><td>number</td><td></td><td>The seed for the random number generator</td></tr></tbody></table>
 
 
 
@@ -85,9 +85,9 @@ Returns a random float number between min and max (inclusive
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>min</td><td>number</td><td>Minimum value</td></tr>
-<tr><td>max</td><td>number</td><td>Maximum value</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>min</td><td>number</td><td></td><td>Minimum value</td></tr>
+<tr><td>max</td><td>number</td><td></td><td>Maximum value</td></tr></tbody></table>
 
 
 
@@ -109,9 +109,9 @@ Returns a random float number between min and max
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>min</td><td>number</td><td>Minimum value</td></tr>
-<tr><td>max</td><td>number</td><td>Maximum value</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>min</td><td>number</td><td></td><td>Minimum value</td></tr>
+<tr><td>max</td><td>number</td><td></td><td>Maximum value</td></tr></tbody></table>
 
 
 

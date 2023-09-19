@@ -19,8 +19,8 @@ Linear easing function
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>t</td><td>number</td><td>The input value between 0 and 1</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>t</td><td>number</td><td></td><td>The input value between 0 and 1</td></tr></tbody></table>
 
 
 
@@ -42,8 +42,8 @@ InQuad easing function
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>t</td><td>number</td><td>The input value between 0 and 1</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>t</td><td>number</td><td></td><td>The input value between 0 and 1</td></tr></tbody></table>
 
 
 
@@ -65,8 +65,8 @@ OutQuad easing function
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>t</td><td>number</td><td>The input value between 0 and 1</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>t</td><td>number</td><td></td><td>The input value between 0 and 1</td></tr></tbody></table>
 
 
 
@@ -88,8 +88,8 @@ InOutQuad easing function
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>t</td><td>number</td><td>The input value between 0 and 1</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>t</td><td>number</td><td></td><td>The input value between 0 and 1</td></tr></tbody></table>
 
 
 
@@ -111,8 +111,8 @@ InCubic easing function
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>t</td><td>number</td><td>The input value between 0 and 1</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>t</td><td>number</td><td></td><td>The input value between 0 and 1</td></tr></tbody></table>
 
 
 
@@ -134,8 +134,8 @@ OutCubic easing function
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>t</td><td>number</td><td>The input value between 0 and 1</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>t</td><td>number</td><td></td><td>The input value between 0 and 1</td></tr></tbody></table>
 
 
 
@@ -157,8 +157,8 @@ InOutCubic easing function
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>t</td><td>number</td><td>The input value between 0 and 1</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>t</td><td>number</td><td></td><td>The input value between 0 and 1</td></tr></tbody></table>
 
 
 
@@ -180,8 +180,8 @@ InQuart easing function
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>t</td><td>number</td><td>The input value between 0 and 1</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>t</td><td>number</td><td></td><td>The input value between 0 and 1</td></tr></tbody></table>
 
 
 
@@ -203,8 +203,8 @@ OutQuart easing function
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>t</td><td>number</td><td>The input value between 0 and 1</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>t</td><td>number</td><td></td><td>The input value between 0 and 1</td></tr></tbody></table>
 
 
 
@@ -226,8 +226,8 @@ InQuart easing function
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>t</td><td>number</td><td>The input value between 0 and 1</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>t</td><td>number</td><td></td><td>The input value between 0 and 1</td></tr></tbody></table>
 
 
 
@@ -249,8 +249,8 @@ InQuint easing function
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>t</td><td>number</td><td>The input value between 0 and 1</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>t</td><td>number</td><td></td><td>The input value between 0 and 1</td></tr></tbody></table>
 
 
 
@@ -272,8 +272,8 @@ OutQuint easing function
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>t</td><td>number</td><td>The input value between 0 and 1</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>t</td><td>number</td><td></td><td>The input value between 0 and 1</td></tr></tbody></table>
 
 
 
@@ -295,8 +295,8 @@ InOutQuint easing function
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>t</td><td>number</td><td>The input value between 0 and 1</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>t</td><td>number</td><td></td><td>The input value between 0 and 1</td></tr></tbody></table>
 
 
 
@@ -318,8 +318,8 @@ InSine easing function
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>t</td><td>number</td><td>The input value between 0 and 1</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>t</td><td>number</td><td></td><td>The input value between 0 and 1</td></tr></tbody></table>
 
 
 
@@ -341,8 +341,8 @@ OutSine easing function
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>t</td><td>number</td><td>The input value between 0 and 1</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>t</td><td>number</td><td></td><td>The input value between 0 and 1</td></tr></tbody></table>
 
 
 
@@ -364,8 +364,8 @@ InOutSine easing function
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>t</td><td>number</td><td>The input value between 0 and 1</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>t</td><td>number</td><td></td><td>The input value between 0 and 1</td></tr></tbody></table>
 
 
 
@@ -387,8 +387,8 @@ InExpo easing function
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>t</td><td>number</td><td>The input value between 0 and 1</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>t</td><td>number</td><td></td><td>The input value between 0 and 1</td></tr></tbody></table>
 
 
 
@@ -410,8 +410,8 @@ OutExpo easing function
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>t</td><td>number</td><td>The input value between 0 and 1</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>t</td><td>number</td><td></td><td>The input value between 0 and 1</td></tr></tbody></table>
 
 
 
@@ -433,8 +433,8 @@ InOutExpo easing function
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>t</td><td>number</td><td>The input value between 0 and 1</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>t</td><td>number</td><td></td><td>The input value between 0 and 1</td></tr></tbody></table>
 
 
 
@@ -456,8 +456,8 @@ InCirc easing function
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>t</td><td>number</td><td>The input value between 0 and 1</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>t</td><td>number</td><td></td><td>The input value between 0 and 1</td></tr></tbody></table>
 
 
 
@@ -479,8 +479,8 @@ OutCirc easing function
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>t</td><td>number</td><td>The input value between 0 and 1</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>t</td><td>number</td><td></td><td>The input value between 0 and 1</td></tr></tbody></table>
 
 
 
@@ -502,8 +502,8 @@ InOutCirc easing function
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>t</td><td>number</td><td>The input value between 0 and 1</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>t</td><td>number</td><td></td><td>The input value between 0 and 1</td></tr></tbody></table>
 
 
 
@@ -525,8 +525,8 @@ InElastic easing function
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>t</td><td>number</td><td>The input value between 0 and 1</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>t</td><td>number</td><td></td><td>The input value between 0 and 1</td></tr></tbody></table>
 
 
 
@@ -548,8 +548,8 @@ OutElastic easing function
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>t</td><td>number</td><td>The input value between 0 and 1</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>t</td><td>number</td><td></td><td>The input value between 0 and 1</td></tr></tbody></table>
 
 
 
@@ -571,8 +571,8 @@ InOutElastic easing function
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>t</td><td>number</td><td>The input value between 0 and 1</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>t</td><td>number</td><td></td><td>The input value between 0 and 1</td></tr></tbody></table>
 
 
 
@@ -594,8 +594,8 @@ InBack easing function
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>t</td><td>number</td><td>The input value between 0 and 1</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>t</td><td>number</td><td></td><td>The input value between 0 and 1</td></tr></tbody></table>
 
 
 
@@ -617,8 +617,8 @@ OutBack easing function
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>t</td><td>number</td><td>The input value between 0 and 1</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>t</td><td>number</td><td></td><td>The input value between 0 and 1</td></tr></tbody></table>
 
 
 
@@ -640,8 +640,8 @@ InOutBack easing function
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>t</td><td>number</td><td>The input value between 0 and 1</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>t</td><td>number</td><td></td><td>The input value between 0 and 1</td></tr></tbody></table>
 
 
 
@@ -663,8 +663,8 @@ InBounce easing function
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>t</td><td>number</td><td>The input value between 0 and 1</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>t</td><td>number</td><td></td><td>The input value between 0 and 1</td></tr></tbody></table>
 
 
 
@@ -686,8 +686,8 @@ OutBounce easing function
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>t</td><td>number</td><td>The input value between 0 and 1</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>t</td><td>number</td><td></td><td>The input value between 0 and 1</td></tr></tbody></table>
 
 
 
@@ -709,8 +709,8 @@ InOutBounce easing function
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>t</td><td>number</td><td>The input value between 0 and 1</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>t</td><td>number</td><td></td><td>The input value between 0 and 1</td></tr></tbody></table>
 
 
 

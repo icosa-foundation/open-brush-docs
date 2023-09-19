@@ -38,8 +38,8 @@ Changes the rotation of the spectator camera to look towards a specific point
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>position</td><td><a href="vector3.md">Vector3</a></td><td>The point in the scene to look towards</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>position</td><td><a href="vector3.md">Vector3</a></td><td></td><td>The point in the scene to look towards</td></tr></tbody></table>
 
 
 

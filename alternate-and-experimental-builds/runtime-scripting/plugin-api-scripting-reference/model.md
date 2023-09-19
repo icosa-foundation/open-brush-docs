@@ -34,8 +34,8 @@ Imports a new model from the MediaLibrary/Models folder
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>filename</td><td>string</td><td>The filename of the model to be imported</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>filename</td><td>string</td><td></td><td>The filename of the model to be imported</td></tr></tbody></table>
 
 
 
@@ -63,6 +63,22 @@ Adds this model to the current selection
 #### Example
 
 <pre class="language-lua"><code class="lang-lua"><strong>myModel:Select()</strong></code></pre>
+
+
+
+
+### model:Deselect()
+
+Removes the model from the current selection
+
+**Returns:** nil 
+
+
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>myModel:Deselect()</strong></code></pre>
 
 
 

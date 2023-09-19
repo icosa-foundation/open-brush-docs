@@ -34,8 +34,8 @@ Imports a video file from the user's MediaLibrary/Videos folder
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>location</td><td>string</td><td>The filename of the video file to import from the user's MediaLibrary/Videos folder</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>location</td><td>string</td><td></td><td>The filename of the video file to import from the user's MediaLibrary/Videos folder</td></tr></tbody></table>
 
 
 
@@ -63,6 +63,22 @@ Adds this Video Widget to the current selection
 #### Example
 
 <pre class="language-lua"><code class="lang-lua"><strong>myVideo:Select()</strong></code></pre>
+
+
+
+
+### video:Deselect()
+
+Removes this Video Widget from the current selection
+
+**Returns:** nil 
+
+
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>myVideo:Deselect()</strong></code></pre>
 
 
 

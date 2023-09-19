@@ -46,8 +46,8 @@ Creates a path from a list of Transforms
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>transformList</td><td>Transform[]</td><td>The list of transforms</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>transformList</td><td>Transform[]</td><td></td><td>The list of transforms</td></tr></tbody></table>
 
 
 
@@ -69,8 +69,8 @@ Creates a path from a list of Vector3 positions
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>positionList</td><td>Vector3[]</td><td>The list of positions</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>positionList</td><td>Vector3[]</td><td></td><td>The list of positions</td></tr></tbody></table>
 
 
 
@@ -92,9 +92,9 @@ Creates a path from a list of Vector3 positions
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>trs</td><td>Transform[]</td><td></td></tr>
-<tr><td>parts</td><td>number</td><td></td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>trs</td><td>Transform[]</td><td></td><td></td></tr>
+<tr><td>parts</td><td>number</td><td></td><td></td></tr></tbody></table>
 
 
 
@@ -111,13 +111,13 @@ Generates a hermite spline
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>startTransform</td><td><a href="transform.md">Transform</a></td><td>Starting transformation</td></tr>
-<tr><td>endTransform</td><td><a href="transform.md">Transform</a></td><td>End transformation</td></tr>
-<tr><td>startTangent</td><td><a href="vector3.md">Vector3</a></td><td>Starting tangent</td></tr>
-<tr><td>endTangent</td><td><a href="vector3.md">Vector3</a></td><td>End tangent</td></tr>
-<tr><td>resolution</td><td>number</td><td>Resolution of the spline</td></tr>
-<tr><td>tangentStrength</td><td>number</td><td>Strength of the tangent</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>startTransform</td><td><a href="transform.md">Transform</a></td><td></td><td>Starting transformation</td></tr>
+<tr><td>endTransform</td><td><a href="transform.md">Transform</a></td><td></td><td>End transformation</td></tr>
+<tr><td>startTangent</td><td><a href="vector3.md">Vector3</a></td><td></td><td>Starting tangent</td></tr>
+<tr><td>endTangent</td><td><a href="vector3.md">Vector3</a></td><td></td><td>End tangent</td></tr>
+<tr><td>resolution</td><td>number</td><td></td><td>Resolution of the spline</td></tr>
+<tr><td>tangentStrength</td><td>number</td><td>1</td><td>Strength of the tangent</td></tr></tbody></table>
 
 
 
@@ -143,8 +143,8 @@ Returns a vector representing the direction of the path at the given point
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>index</td><td>number</td><td>Index of control point to use</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>index</td><td>number</td><td></td><td>Index of control point to use</td></tr></tbody></table>
 
 
 
@@ -166,8 +166,8 @@ Returns a vector representing the normal of the path at the given point
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>index</td><td>number</td><td>Index of control point to use</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>index</td><td>number</td><td></td><td>Index of control point to use</td></tr></tbody></table>
 
 
 
@@ -189,8 +189,8 @@ Returns a vector representing the tangent of the path at the given point
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>index</td><td>number</td><td>Index of control point to use</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>index</td><td>number</td><td></td><td>Index of control point to use</td></tr></tbody></table>
 
 
 
@@ -228,8 +228,8 @@ Inserts a new point at the end of the path
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>transform</td><td><a href="transform.md">Transform</a></td><td>The transform to be inserted at the end of the path</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>transform</td><td><a href="transform.md">Transform</a></td><td></td><td>The transform to be inserted at the end of the path</td></tr></tbody></table>
 
 
 
@@ -251,9 +251,9 @@ Inserts a new point at the specified index
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>transform</td><td><a href="transform.md">Transform</a></td><td>The transform to be inserted</td></tr>
-<tr><td>index</td><td>number</td><td>The index at which to insert the transform</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>transform</td><td><a href="transform.md">Transform</a></td><td></td><td>The transform to be inserted</td></tr>
+<tr><td>index</td><td>number</td><td></td><td>The index at which to insert the transform</td></tr></tbody></table>
 
 
 
@@ -275,8 +275,8 @@ Transforms all points in the path by the specific amount
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>transform</td><td><a href="transform.md">Transform</a></td><td>The transform to be applied to all points in the path</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>transform</td><td><a href="transform.md">Transform</a></td><td></td><td>The transform to be applied to all points in the path</td></tr></tbody></table>
 
 
 
@@ -298,8 +298,8 @@ Changes the position of all points in the path by a given amount
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>amount</td><td><a href="vector3.md">Vector3</a></td><td>The distance to move the points</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>amount</td><td><a href="vector3.md">Vector3</a></td><td></td><td>The distance to move the points</td></tr></tbody></table>
 
 
 
@@ -321,8 +321,8 @@ Rotates all points in the path around the origin by a given amount
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>amount</td><td><a href="rotation.md">Rotation</a></td><td>The amount by which to rotate the path</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>amount</td><td><a href="rotation.md">Rotation</a></td><td></td><td>The amount by which to rotate the path</td></tr></tbody></table>
 
 
 
@@ -344,8 +344,8 @@ Scales the path
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>scale</td><td><a href="vector3.md">Vector3</a></td><td>The scaling factor to apply to the path</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>scale</td><td><a href="vector3.md">Vector3</a></td><td></td><td>The scaling factor to apply to the path</td></tr></tbody></table>
 
 
 
@@ -383,8 +383,8 @@ Reorders the points so that point at the given index is shifted to be the first 
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>index</td><td>number</td><td>The index of the point to make the new first point</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>index</td><td>number</td><td></td><td>The index of the point to make the new first point</td></tr></tbody></table>
 
 
 
@@ -406,8 +406,8 @@ Returns the index of the point closest to the given position
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>point</td><td><a href="vector3.md">Vector3</a></td><td>The 3D position that we are seeking the closest to</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>point</td><td><a href="vector3.md">Vector3</a></td><td></td><td>The 3D position that we are seeking the closest to</td></tr></tbody></table>
 
 
 
@@ -525,8 +525,8 @@ Scales and shifts all points so that they fit in a cube of the given size at the
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>size</td><td>number</td><td>The size of the cube to fit the path into</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>size</td><td>number</td><td>1</td><td>The size of the cube to fit the path into</td></tr></tbody></table>
 
 
 
@@ -548,8 +548,8 @@ Resamples the path evenly by distance
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>spacing</td><td>number</td><td>The space between points in the new path</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>spacing</td><td>number</td><td></td><td>The space between points in the new path</td></tr></tbody></table>
 
 
 
@@ -571,8 +571,8 @@ Resamples the path evenly into the specified number of points
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>count</td><td>number</td><td>The number of points in the new path</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>count</td><td>number</td><td></td><td>The number of points in the new path</td></tr></tbody></table>
 
 
 
@@ -594,8 +594,8 @@ Subdivides each path segment into the specified number of parts
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>parts</td><td>number</td><td>Number of parts to subdivide into</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>parts</td><td>number</td><td></td><td>Number of parts to subdivide into</td></tr></tbody></table>
 
 
 

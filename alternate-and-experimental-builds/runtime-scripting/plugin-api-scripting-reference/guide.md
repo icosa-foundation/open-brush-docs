@@ -34,8 +34,8 @@ Creates a new cube guide with a default size using the transform for position an
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>transform</td><td><a href="transform.md">Transform</a></td><td>The transform of the Guide Widget</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>transform</td><td><a href="transform.md">Transform</a></td><td></td><td>The transform of the Guide Widget</td></tr></tbody></table>
 
 
 
@@ -57,8 +57,8 @@ Creates a new sphere guide with a default size using the transform for position 
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>transform</td><td><a href="transform.md">Transform</a></td><td>The transform of the Guide Widget</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>transform</td><td><a href="transform.md">Transform</a></td><td></td><td>The transform of the Guide Widget</td></tr></tbody></table>
 
 
 
@@ -80,8 +80,8 @@ Creates a new capsule guide with a default size using the transform for position
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>transform</td><td><a href="transform.md">Transform</a></td><td>The transform of the Guide Widget</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>transform</td><td><a href="transform.md">Transform</a></td><td></td><td>The transform of the Guide Widget</td></tr></tbody></table>
 
 
 
@@ -103,8 +103,8 @@ Creates a new cone guide with a default size using the transform for position an
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>transform</td><td><a href="transform.md">Transform</a></td><td>The transform of the Guide Widget</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>transform</td><td><a href="transform.md">Transform</a></td><td></td><td>The transform of the Guide Widget</td></tr></tbody></table>
 
 
 
@@ -126,8 +126,8 @@ Creates a new ellipsoid guide with a default size using the transform for positi
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>transform</td><td><a href="transform.md">Transform</a></td><td>The transform of the Guide Widget</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>transform</td><td><a href="transform.md">Transform</a></td><td></td><td>The transform of the Guide Widget</td></tr></tbody></table>
 
 
 
@@ -149,9 +149,9 @@ Creates a new custom guide from a 3d model. Note that custom guides have to be c
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>transform</td><td><a href="transform.md">Transform</a></td><td>The transform of the Guide Widget</td></tr>
-<tr><td>model</td><td><a href="model.md">Model</a></td><td>The ModelApiWrapper to use for the custom stencil</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>transform</td><td><a href="transform.md">Transform</a></td><td></td><td>The transform of the Guide Widget</td></tr>
+<tr><td>model</td><td><a href="model.md">Model</a></td><td></td><td>The ModelApiWrapper to use for the custom stencil</td></tr></tbody></table>
 
 
 
@@ -183,6 +183,22 @@ Adds the guide to the current selection
 
 
 
+### guide:Deselect()
+
+Removes the guide from the current selection
+
+**Returns:** nil 
+
+
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>myGuide:Deselect()</strong></code></pre>
+
+
+
+
 ### guide:Delete()
 
 Deletes the guide
@@ -209,8 +225,8 @@ Scales the guide (scale can be non-uniform as some guide types can be stretched)
 **Parameters:**
 
 <table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
-<tbody><tr><td>scale</td><td><a href="vector3.md">Vector3</a></td><td>The scale vector for scaling the Guide Widget</td></tr></tbody></table>
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>scale</td><td><a href="vector3.md">Vector3</a></td><td></td><td>The scale vector for scaling the Guide Widget</td></tr></tbody></table>
 
 
 
