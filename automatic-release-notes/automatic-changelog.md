@@ -1,6 +1,6 @@
 # Changelog since v2.2
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...3cd7e6e7d327e41116e7200a1be5eaf8d4f3d24a)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...9a8badcb4b6753bfe415940ef7ed91f1f8279751)
 
 ## 🚀 Features
 
@@ -110,6 +110,8 @@
 - Show state of Experimental Mode in the settings panel ([PR #532](https://github.com/icosa-foundation/open-brush/pull/532) by @andybak)
 
 - hotfix experimental mode toggle ([PR #536](https://github.com/icosa-foundation/open-brush/pull/536) by @mikeskydev)
+
+- Fix admin panel promo scale ([PR #533](https://github.com/icosa-foundation/open-brush/pull/533) by @mikeskydev)
 
 
 ## 🛠️ Infrastructure
