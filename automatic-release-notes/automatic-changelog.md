@@ -1,6 +1,6 @@
 # Changelog since v2.2
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...9a8badcb4b6753bfe415940ef7ed91f1f8279751)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...e35b9d387e52d52c4085c40765b68b8d905607fd)
 
 ## 🚀 Features
 
@@ -113,6 +113,8 @@
 
 - Fix admin panel promo scale ([PR #533](https://github.com/icosa-foundation/open-brush/pull/533) by @mikeskydev)
 
+- Minimal changes to fix editor on MacOS with Apple Silicon ([PR #530](https://github.com/icosa-foundation/open-brush/pull/530) by @andybak)
+
 
 ## 🛠️ Infrastructure
 
@@ -124,7 +126,7 @@
 
 - Update steam deployment to remove superflous parameters ([PR #470](https://github.com/icosa-foundation/open-brush/pull/470) by @mikeage)
 
-- Replace all references to icosa-foundation with icosa-foundation ([PR #506](https://github.com/icosa-foundation/open-brush/pull/506) by @mikeage)
+- Replace all references to icosa-gallery with icosa-foundation ([PR #506](https://github.com/icosa-foundation/open-brush/pull/506) by @mikeage)
 
 - Save steam's config.vdf after each login to prevent logout ([PR #509](https://github.com/icosa-foundation/open-brush/pull/509) by @mikeage)
 
