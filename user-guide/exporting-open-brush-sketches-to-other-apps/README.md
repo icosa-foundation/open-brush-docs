@@ -4,12 +4,9 @@ Open Brush sketches can be exported by clicking the ‘Export’ button found on
 
 Each sketch exported from Open Brush creates a separate folder in **Documents/Open Brush/Exports** which contains the geometry in the following formats:
 
-* .glb (Standalone and PC)
-* .fbx (PC only)
-* .usd (PC only)
-* .json (PC only)
-* .latk (Standalone and PC)
-* .wrl (PC only)
+
+
+<table><thead><tr><th>Format</th><th data-type="checkbox">PC Only?</th><th data-type="checkbox">Experimental Mode Only?</th></tr></thead><tbody><tr><td>GLTF/GLB</td><td>false</td><td>false</td></tr><tr><td>FBX</td><td>true</td><td>false</td></tr><tr><td>OBJ</td><td>true</td><td>true</td></tr><tr><td>USD</td><td>true</td><td>false</td></tr><tr><td>JSON</td><td>true</td><td>false</td></tr><tr><td>LATK</td><td>false</td><td>false</td></tr><tr><td>WRL</td><td>true</td><td>true</td></tr><tr><td>STL</td><td>true</td><td>true</td></tr></tbody></table>
 
 (.glb is closely related to .gltf and most software will support both. We output binary glTF version 2)
 
@@ -27,7 +24,7 @@ The USD contains both geometry and curve information. If your DCC tool doesn’t
 
 1. Follow the instructions for installing and configuring [Flipside Creator Tools](https://www.flipsidexr.com/docs/2023.1/creator-tools/getting-started)
 2. Download the .unitypackage for the latest release of the [Open Brush Unity SDK](../open-brush-unity-sdk.md#\_iqjwk94xwdgd)
-3. You'll also need the [Json.Net.for.open.brush.toolkit.unitypackage](https://github.com/icosa-foundation/open-brush-toolkit/releases/download/v24.0.0/Json.Net.for.open.brush.toolkit.unitypackage)  from the same page
+3. You'll also need the [Json.Net.for.open.brush.toolkit.unitypackage](https://github.com/icosa-foundation/open-brush-toolkit/releases/download/v24.0.0/Json.Net.for.open.brush.toolkit.unitypackage) from the same page
 4. Add both to your Flipside Unity project
 5. Export your Open Brush sketch and import the .glb file into the Flipside project
 6. Follow the Flipside instructions for uploading a Unity scene as a Flipside Set
@@ -74,7 +71,7 @@ We recommend using the [Open Brush Toolkit](../open-brush-unity-sdk.md) and the 
 
 ## Unity WebGL
 
-You'll need to delete the following 2 scripts if you want to build for Unity WebGL targets: `GenericAudioInputEditor.cs` and `GenericAudioInput.cs`&#x20;
+You'll need to delete the following 2 scripts if you want to build for Unity WebGL targets: `GenericAudioInputEditor.cs` and `GenericAudioInput.cs`
 
 ## Unreal Engine🔗
 
