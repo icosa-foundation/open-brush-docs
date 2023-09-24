@@ -20,9 +20,9 @@ However one file is different. It contains empty definitions for all available A
 
 If you're using Visual Studio Code then follow these steps:\
 \
-1\. Launch the Plugins build of Open Brush at least once to create the correct plugins folder.
+1\. Launch the Plugins build of Open Brush at least once so that it creates the Open Brush/Plugins folder.
 
-2. Launch Visual Studio Code and open this folder: Documents\Open Brush\Plugins
+2. Launch Visual Studio Code.
 3. Click on the button on the left that shows the Extensions sidebar: \
    ![](<../../../.gitbook/assets/image (1) (1).png>)
 4. Search for "Lua" and look for the sumneko extension:
@@ -55,9 +55,15 @@ As soon as you type the period you should see a list of suggestions that match t
 
 ![](<../../../.gitbook/assets/image (4).png>)
 
-If not - check you've followed all the steps above.\
-If it worked then we can move on...\
+If not - check you've followed all the steps above.
 
+{% hint style="info" %}
+Any variables you define via Script Parameters will show a warning saying they are Undefined Globals. This is because the Lua plugin used in Visual Studio Code doesn't understand that Open Brush will read the Parameters table and add these variables names into your script. You can ignore these warnings for your Script Parameters.
+{% endhint %}
+
+{% hint style="info" %}
+Visual Studio Code allows you to open the entire Plugins folder as a "workspace". Although this does allow convenient navigation between scripts it does have an unintended side effect. The VS Code lua plugin assumes that all the scripts will share a single scope. Therefore it will treat global variables in one script as also existing in all other scripts. This might result in some warnings not being displayed or incorrect warnings being displayed. It's probably best if you open each plugin script separately into it's own instance of VS Code
+{% endhint %}
 
 ## Next Steps
 
