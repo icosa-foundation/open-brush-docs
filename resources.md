@@ -8,6 +8,8 @@ There’s some really useful info in the last [_**TIlt Brush release notes**_](u
 
 Join our [Discord](https://discord.gg/NQv6QPus)
 
+Threads and forum posts from Discord are mirrored here: [Open Brush on AnswerOverflow](https://www.answeroverflow.com/c/783806589991780412)
+
 ## Developer Resources:
 
 * [Developer Notes](developer-notes/)
