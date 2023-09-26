@@ -6,9 +6,15 @@ If you’re mainly interested in getting into the actual Open Brush codebase the
 
 There’s some really useful info in the last [_**TIlt Brush release notes**_](user-guide/tilt-brush-release-notes.md) that isn’t included here.
 
-Join our [Discord](https://discord.gg/NQv6QPus)
+### Discussions and Questions
 
-Threads and forum posts from Discord are mirrored here: [Open Brush on AnswerOverflow](https://www.answeroverflow.com/c/783806589991780412)
+* Join our [Discord](https://discord.gg/NQv6QPus)&#x20;
+* Threads and forum posts from Discord are mirrored here: [Open Brush on AnswerOverflow](https://www.answeroverflow.com/c/783806589991780412)
+* We are mods on the [Tiltbrush subreddit](https://old.reddit.com/r/TiltBrush/new/) but it's pretty quiet
+* Social media:&#x20;
+  * [https://twitter.com/openbrushapp](https://twitter.com/openbrushapp)
+  * [https://www.threads.net/@openbrushapp](https://www.threads.net/@openbrushapp)
+  * [https://www.instagram.com/openbrushapp/](https://www.instagram.com/openbrushapp/)
 
 ## Developer Resources:
 
@@ -17,7 +23,6 @@ Threads and forum posts from Discord are mirrored here: [Open Brush on AnswerOve
 
 ## Other Resources
 
-* Archive of Forums and Questions on our Discord: [https://www.answeroverflow.com/c/783806589991780412](https://www.answeroverflow.com/c/783806589991780412)
 * A good explanation for non technical people about “Open Source and Tilt Brush”: [Shameless Mayhem - Teaching Tilt Brush: Going Open Source](https://www.youtube.com/watch?v=LNFl\_G1OXIw)
 * Unity Downloads:
   * [Download Unity - Personal Use](https://store.unity.com/download?ref=personal)
