@@ -10,7 +10,8 @@ There’s some really useful info in the last [_**TIlt Brush release notes**_](u
 
 * Join our [Discord](https://discord.gg/NQv6QPus)&#x20;
 * Threads and forum posts from Discord are mirrored here: [Open Brush on AnswerOverflow](https://www.answeroverflow.com/c/783806589991780412)
-* We are mods on the [Tiltbrush subreddit](https://old.reddit.com/r/TiltBrush/new/) but it's pretty quiet
+* We are mods on the [Tiltbrush subreddit](https://old.reddit.com/r/TiltBrush/new/) It's pretty quiet but we check in occasionally.
+* Same for [Open Brush Discussions on Steam](https://steamcommunity.com/app/1634870/discussions/)
 * Social media:&#x20;
   * [https://twitter.com/openbrushapp](https://twitter.com/openbrushapp)
   * [https://www.threads.net/@openbrushapp](https://www.threads.net/@openbrushapp)
