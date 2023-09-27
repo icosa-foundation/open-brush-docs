@@ -1,5 +1,7 @@
 # Feature: Animation Timeline
 
+Developed by [Benji Costin](mailto:b3nsup@gmail.com) with support from [The Icosa Foundation](https://opencollective.com/icosa) and Open Brush community
+
 #### Status: <mark style="color:red;">Experimental and incomplete</mark>
 
 <figure><img src="../.gitbook/assets/image (46).png" alt=""><figcaption><p>An early version of the UI</p></figcaption></figure>
@@ -37,4 +39,3 @@ We're mostly on UK time but we check in fairly regularly.
 ### Can I see it in action?
 
 {% embed url="https://www.youtube.com/watch?v=JZWjgx1LuCU&feature=youtu.be" %}
-
