@@ -2,7 +2,7 @@
 
 Made by [Chingiz Dadashov-Khandan](<mailto:chingizdkhandan@gmail.com >) as a project for [The University of Groningen](https://www.rug.nl/?lang=en)
 
-#### Status: <mark style="color:red;">Experimental and incompatible with offical builds</mark>
+#### Status: <mark style="color:red;">Experimental. Saved sketches are incompatible with official builds</mark>
 
 ## Download
 
