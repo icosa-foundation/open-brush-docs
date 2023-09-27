@@ -1,6 +1,6 @@
 # Feature: Plugin Scripting
 
-#### Status: Mostly working.
+#### Status: Mostly working and lots of fun to play with.
 
 ## Download
 
