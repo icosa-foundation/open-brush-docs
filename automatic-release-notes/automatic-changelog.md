@@ -1,6 +1,6 @@
 # Changelog since v2.2
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...a4f6871f4353a9c88ea1fa327138ec8ef9914fae)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...20ab05c3687624aa539e636d6a6d548fb188a0be)
 
 ## 🚀 Features
 
@@ -116,6 +116,8 @@
 - Minimal changes to fix editor on MacOS with Apple Silicon ([PR #530](https://github.com/icosa-foundation/open-brush/pull/530) by @andybak)
 
 - Switch main scene sdk mode back to OpenXR ([PR #540](https://github.com/icosa-foundation/open-brush/pull/540) by @andybak)
+
+- Remove passthrough prefab if not supported ([PR #538](https://github.com/icosa-foundation/open-brush/pull/538) by @mikeskydev)
 
 
 ## 🛠️ Infrastructure
