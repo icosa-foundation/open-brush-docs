@@ -32,5 +32,5 @@ We're mostly on UK time but we check in fairly regularly.
 
 ### Can I see it in action?
 
-TOD
+{% embed url="https://www.youtube.com/watch?v=JZWjgx1LuCU&feature=youtu.be" %}
 
