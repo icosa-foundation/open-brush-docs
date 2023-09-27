@@ -6,7 +6,11 @@
 
 ## Download
 
-TODO
+* [Oculus Quest](https://nightly.link/Seth-Rough/open-brush-animation/workflows/build/main/Oculus%20Quest.zip)
+* [Oculus PC VR ](https://nightly.link/Seth-Rough/open-brush-animation/workflows/build/main/Windows%20Rift.zip)(Rift, Quest via Link cable...)
+* [SteamVR ](https://nightly.link/Seth-Rough/open-brush-animation/workflows/build/main/Windows%20OpenXR.zip)(Vive, Index, Reverb...)
+* [Other Builds](https://nightly.link/Seth-Rough/open-brush-animation/workflows/build/main) (Pico, Pimax etc)
+* [Code](https://github.com/Seth-Rough/open-brush-animation/tree/main/moonsharp)
 
 ### What does it do?
 
