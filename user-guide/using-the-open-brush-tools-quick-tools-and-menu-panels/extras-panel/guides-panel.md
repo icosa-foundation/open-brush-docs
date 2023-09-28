@@ -2,4 +2,5 @@
 
 <figure><img src="../../../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (38).png" alt=""><figcaption></figcaption></figure>
+* Use the sphere, cube, and pill guides to create perfect shapes.
+* Guides are moved and scaled similar to other widgets, using the Grip buttons.
