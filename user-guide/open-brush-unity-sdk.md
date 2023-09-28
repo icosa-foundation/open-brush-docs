@@ -66,7 +66,7 @@ At the moment the plugin used for Audio Reactivity doesn't work on some platform
 1. The folder ThirdParty\CSCore
 2. TiltBrush\Scripts\VisualizerManager
 3. TiltBrush\Scripts\VisualizerAudioInput
-4. TiltBrush\Scripts\VisualizerManagerEditor
+4. TiltBrush\Scripts\Editor\VisualizerManagerEditor
 
 ### "My brushes look different to Open Brush" (Linear vs Gamma) <a href="#_nvutjzw2fj1u" id="_nvutjzw2fj1u"></a>
 
