@@ -2,20 +2,25 @@
 
 <figure><img src="../../../.gitbook/assets/image (37).png" alt=""><figcaption></figcaption></figure>
 
-1. Eraser
-2. Straight Edge
-3. Environment&#x20;
-4. Camera\
+1. Eraser Tool
+2. Dropper Tool
+3. Repaint Tool
+4. Camera  Tool\
    ![](<../../../.gitbook/assets/image (43).png>)
-5. Teleport
-6. Mirror\
+5. Teleport Tool
+6. Selection Tool
+7. MirrorTool\
    ![](<../../../.gitbook/assets/image (44).png>)
-7. Undo
-8. Redo
+8. Straight Edge Tool
+9. Fly Tool
+10. Snip Tool
+11. Join Tool
 
-Advanced Mode adds the following tools:
+#### Differences in Beginners vs Advanced modes
 
-1. Dropper (Advanced)
+The following tools only appear in [Advanced Mode](../settings.md)
+
+1. Dropper
 2. Repaint
 3. Selection
 4. Fly
