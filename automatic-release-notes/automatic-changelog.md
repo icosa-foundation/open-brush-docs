@@ -1,6 +1,6 @@
 # Changelog since v2.2
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...92c20f56499eea260c529f950e1e64ca2b70782f)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...319712fb4cba9d61358f7a80f15feefbcc461f7e)
 
 ## 🚀 Features
 
@@ -51,6 +51,8 @@
 - JSON exports also include the sketch metadata ([PR #528](https://github.com/icosa-foundation/open-brush/pull/528) by @andybak)
 
 - [Pico] Add Chinese build, disable accounts ([PR #535](https://github.com/icosa-foundation/open-brush/pull/535) by @mikeskydev)
+
+- feat: Language Selector ([PR #537](https://github.com/icosa-foundation/open-brush/pull/537) by @mikeskydev)
 
 
 ## 🐛 Fixes
