@@ -1,6 +1,6 @@
 # Changelog since v2.2
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...319712fb4cba9d61358f7a80f15feefbcc461f7e)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...b0aa4a8c9e69dcdef4d90bb6d9b009a72e0066ca)
 
 ## 🚀 Features
 
@@ -181,6 +181,8 @@
 - Update Unity version in README.md ([PR #519](https://github.com/icosa-foundation/open-brush/pull/519) by @andybak)
 
 - fix typo ([PR #542](https://github.com/icosa-foundation/open-brush/pull/542) by @andybak)
+
+- Fix sketchbook context menu button being disabled for first button ([PR #543](https://github.com/icosa-foundation/open-brush/pull/543) by @andybak)
 
 
 
