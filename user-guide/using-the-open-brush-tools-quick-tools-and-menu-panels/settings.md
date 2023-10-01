@@ -1,6 +1,6 @@
 # Settings Panel
 
-![](<../../.gitbook/assets/image (1) (1) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png>)
 
 The Settings Panel can be opened from a button on the [Admin Panel](the-admin-panel.md).
 
