@@ -217,7 +217,7 @@ Inserts a new point at the end of the path
 
 #### Example
 
-<pre class="language-lua"><code class="lang-lua"><strong>myPath:Insert(Transform:New(pos, rot)</strong></code></pre>
+<pre class="language-lua"><code class="lang-lua"><strong>myPath:Insert(myTransform</strong></code></pre>
 
 
 

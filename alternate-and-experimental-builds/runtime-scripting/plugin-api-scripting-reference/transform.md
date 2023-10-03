@@ -157,6 +157,29 @@ Creates a new translation transform
 
 
 
+### Transform:Position(position)
+
+Creates a new translation transform
+
+**Returns:** <a href="transform.md">Transform</a> 
+
+
+**Parameters:**
+
+<table data-full-width="false">
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>position</td><td><a href="vector3.md">Vector3</a></td><td></td><td>The Vector3 position</td></tr></tbody></table>
+
+
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>myTransform = Transform:Position(myVector3)</strong></code></pre>
+
+
+
+
 ### Transform:Rotation(x, y, z)
 
 Creates a new rotation transform
@@ -178,6 +201,29 @@ Creates a new rotation transform
 #### Example
 
 <pre class="language-lua"><code class="lang-lua"><strong>myTransform = Transform:Rotation(1, 2, 3)</strong></code></pre>
+
+
+
+
+### Transform:Rotation(rotation)
+
+Creates a new rotation transform
+
+**Returns:** <a href="transform.md">Transform</a> 
+
+
+**Parameters:**
+
+<table data-full-width="false">
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>rotation</td><td><a href="rotation.md">Rotation</a></td><td></td><td>The rotation</td></tr></tbody></table>
+
+
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>myTransform = Transform:Rotation(myRotation)</strong></code></pre>
 
 
 
