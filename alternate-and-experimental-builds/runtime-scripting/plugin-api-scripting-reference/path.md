@@ -82,25 +82,6 @@ Creates a path from a list of Vector3 positions
 
 
 
-### Path:_SubdivideSegments(trs, parts)
-
-
-
-**Returns:** Transform[] 
-
-
-**Parameters:**
-
-<table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
-<tbody><tr><td>trs</td><td>Transform[]</td><td></td><td></td></tr>
-<tr><td>parts</td><td>number</td><td></td><td></td></tr></tbody></table>
-
-
-
-
-
-
 ### Path:Hermite(startTransform, endTransform, startTangent, endTangent, resolution, tangentStrength)
 
 Generates a hermite spline

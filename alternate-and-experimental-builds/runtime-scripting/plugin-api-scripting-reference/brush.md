@@ -16,11 +16,11 @@ The user's brush
 <tr><td>triggerReleasedThisFrame</td><td>boolean<br>Read-only</td><td>Check whether the brush trigger was released during the current frame</td></tr>
 <tr><td>distanceMoved</td><td>number<br>Read-only</td><td>The distance moved by the brush</td></tr>
 <tr><td>distanceDrawn</td><td>number<br>Read-only</td><td>The distance drawn by the brush (i.e. distance since the trigger was last pressed)</td></tr>
-<tr><td>position</td><td><a href="vector3.md">Vector3</a><br>Read-only</td><td>The 3D position of the Brush Controller's tip</td></tr>
-<tr><td>rotation</td><td><a href="rotation.md">Rotation</a><br>Read-only</td><td>The 3D orientation of the Brush Controller's tip</td></tr>
+<tr><td>position</td><td><a href="vector3.md">Vector3</a><br>Read/Write</td><td>The 3D position of the Brush Controller's tip</td></tr>
+<tr><td>rotation</td><td><a href="rotation.md">Rotation</a><br>Read/Write</td><td>The 3D orientation of the Brush Controller's tip</td></tr>
 <tr><td>direction</td><td><a href="vector3.md">Vector3</a><br>Read-only</td><td>The vector representing the forward direction of the brush</td></tr>
 <tr><td>size</td><td>number<br>Read/Write</td><td>The current brush size</td></tr>
-<tr><td>pressure</td><td>number<br>Read-only</td><td>Brush pressure is determined by how far the trigger is pressed in</td></tr>
+<tr><td>pressure</td><td>number<br>Read/Write</td><td>Brush pressure is determined by how far the trigger is pressed in</td></tr>
 <tr><td>type</td><td>string<br>Read/Write</td><td>The current brush type</td></tr>
 <tr><td>types</td><td>string[]<br>Read-only</td><td>All brush types available via the UI</td></tr>
 <tr><td>speed</td><td>number<br>Read-only</td><td>How fast the brush is currently moving</td></tr>

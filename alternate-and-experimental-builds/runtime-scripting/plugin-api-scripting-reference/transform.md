@@ -132,9 +132,9 @@ Creates a new translation and scale transform
 
 
 
-### Transform:New(x, y, z)
+### Transform:Position(x, y, z)
 
-Creates a new translation transform based on the x, y, z values
+Creates a new translation transform
 
 **Returns:** <a href="transform.md">Transform</a> 
 
@@ -152,7 +152,80 @@ Creates a new translation transform based on the x, y, z values
 
 #### Example
 
-<pre class="language-lua"><code class="lang-lua"><strong>myTransform = Transform:New(1, 2, 3)</strong></code></pre>
+<pre class="language-lua"><code class="lang-lua"><strong>myTransform = Transform:Position(1, 2, 3)</strong></code></pre>
+
+
+
+
+### Transform:Rotation(x, y, z)
+
+Creates a new rotation transform
+
+**Returns:** <a href="transform.md">Transform</a> 
+
+
+**Parameters:**
+
+<table data-full-width="false">
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>x</td><td>number</td><td></td><td>The x rotation amount</td></tr>
+<tr><td>y</td><td>number</td><td></td><td>The y rotation amount</td></tr>
+<tr><td>z</td><td>number</td><td></td><td>The z rotation amount</td></tr></tbody></table>
+
+
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>myTransform = Transform:Rotation(1, 2, 3)</strong></code></pre>
+
+
+
+
+### Transform:Scale(amount)
+
+Creates a new scale transform
+
+**Returns:** <a href="transform.md">Transform</a> 
+
+
+**Parameters:**
+
+<table data-full-width="false">
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>amount</td><td>number</td><td></td><td>The scale amount</td></tr></tbody></table>
+
+
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>myTransform = Transform:Scale(2)</strong></code></pre>
+
+
+
+
+### Transform:Lerp(a, b, t)
+
+Interpolates between two transforms
+
+**Returns:** <a href="transform.md">Transform</a>  (A transform that blends between a and b based on the value of t)
+
+
+**Parameters:**
+
+<table data-full-width="false">
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>a</td><td><a href="transform.md">Transform</a></td><td></td><td>The first transform</td></tr>
+<tr><td>b</td><td><a href="transform.md">Transform</a></td><td></td><td>The second transform</td></tr>
+<tr><td>t</td><td>number</td><td></td><td>The value between 0 and 1 that controls how far between a and b the new transform is</td></tr></tbody></table>
+
+
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>newTransform = Transform:Lerp(transformA, transformB, 0.25)</strong></code></pre>
 
 
 
