@@ -92,7 +92,7 @@ Let's go one step further - allow the user the control the speed without needing
 
 ```lua
 Parameters = {
-    frequency={label="Frequency" type="float", min=0.01, max=10, default=2}
+    frequency={label="Frequency", type="float", min=0.01, max=10, default=2}
 }
 
 function Main()
