@@ -15,8 +15,8 @@ function Main()
     if Brush.triggerPressedThisFrame then
         myPath = Path:New()
         position = getRandomPosition()
-        myPath:Insert(Transform:Position(position))
-        myPath:Insert(Transform:Position(position))
+        myPath:Insert(Transform:New(position))
+        myPath:Insert(Transform:New(position))
         myPath:Draw()
     end
 end

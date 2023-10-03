@@ -14,7 +14,7 @@ Let's start with the simplest possible Symmetry Plugin:
 
 ```lua
 function Main()
-    return {Transform:indentity}
+    return {Transform.identity}
 end
 ```
 
@@ -30,7 +30,7 @@ You can change the default coordinate space by adding a value to the script sett
 Settings = {space="pointer"}
 
 function Main()
-    return {Transform:indentity}
+    return {Transform.identity}
 end
 ```
 
@@ -43,12 +43,12 @@ Let's do something more interesting in our Symmetry Plugin:
 ```lua
 function Main()
     origin = Transform.identity
-    brushOffset = Transform:Position(Symmetry.brushOffset)
+    brushOffset = Transform:New(Symmetry.brushOffset)
     return {
-        Transform.Lerp(origin, brushOffset, 0.2),
-        Transform.Lerp(origin, brushOffset, 0.4),
-        Transform.Lerp(origin, brushOffset, 0.6),
-        Transform.Lerp(origin, brushOffset, 0.8)
+        Transform:Lerp(origin, brushOffset, 0.2),
+        Transform:Lerp(origin, brushOffset, 0.4),
+        Transform:Lerp(origin, brushOffset, 0.6),
+        Transform:Lerp(origin, brushOffset, 0.8)
     }
 end
 ```
