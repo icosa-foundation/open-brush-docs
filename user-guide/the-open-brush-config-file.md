@@ -6,6 +6,12 @@ Example SteamVR / Rift path: **C:\Users\\**_\<username>_**\Documents\Open Brush\
 
 On an Oculus Quest, you can find this file in **/sdcard/Open Brush**. You can use either adb or the SideQuest file viewer to access this file.
 
+
+
+{% hint style="info" %}
+There is a another section in the docs covering [Hiding Brushes with Brush Tags](brushes/hiding-brushes-with-brush-tags.md) that also relates to Open Brush.cfg
+{% endhint %}
+
 Contents of the default _Open Brush.cfg:_
 
 ```
