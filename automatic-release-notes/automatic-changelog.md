@@ -1,6 +1,6 @@
 # Changelog since v2.2
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...b0aa4a8c9e69dcdef4d90bb6d9b009a72e0066ca)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...b99ced6ca62b9b782d1a4a84c8784232c3a78f90)
 
 ## 🚀 Features
 
@@ -174,6 +174,8 @@
 - Bump actions/checkout from 3 to 4 ([PR #518](https://github.com/icosa-foundation/open-brush/pull/518) by @dependabot[bot])
 
 - Bump game-ci/unity-builder from 2 to 3 ([PR #505](https://github.com/icosa-foundation/open-brush/pull/505) by @dependabot[bot])
+
+- Bump actions/setup-python from 4.7.0 to 4.7.1 ([PR #545](https://github.com/icosa-foundation/open-brush/pull/545) by @dependabot[bot])
 
 
 ## 💬 Uncategorized
