@@ -1,7 +1,5 @@
 # Hiding Brushes with Brush Tags
 
-
-
 Currently the brush panel is cluttered with a large number of brushes and is likely to grow larger in the future. As a first step toward better organizing them, this feature serves to classify each brush with a list of tags and a couple of filtering options.
 
 Via OpenBrush.cfg (UserConfig), the brushes that show up in the panel can be limited by using the following options:
@@ -31,12 +29,12 @@ In addition, tags can be added and removed. Here is an example that includes thi
 		"AddTagsToBrushes": {
 			"Rainbow": ["classroom", "bedazzling"],
 			"Plasma": ["classroom", "bedazzling"],
-			"testBrushNotFound": ["clasroom"]
+			"testBrushNotFound": ["classroom"]
 		},
 		"RemoveTagsFromBrushes": {
 			"Rainbow": ["default", "test"],
 			"Plasma": ["default", "test"],
-			"testBrushNotFound": ["clasroom"]
+			"testBrushNotFound": ["classroom"]
 		},
 		"IncludeTags": ["classroom"],
 		"ExcludeTags": ["test"] 
