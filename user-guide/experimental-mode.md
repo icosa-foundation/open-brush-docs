@@ -36,7 +36,7 @@ Combined with the new Drafting Brush, this gives an easy way to sketch out guide
 
 ### Double Mirror
 
-If the mirror tool is great, then a double mirror is twice as great. Instant 4-way symmetry. ( If you're interested in painting with more complex symmetry then you can also check out the [Multi-Mirror Feature build](../alternate-and-experimental-builds/multi-mirror.md))
+If the mirror tool is great, then a double mirror is twice as great. Instant 4-way symmetry. ( If you're interested in painting with more complex symmetry then you can also check out the [Multi-Mirror Feature build](../alternate-and-experimental-builds/old-or-completed-feature-builds/multi-mirror.md))
 
 ### Save Selected Strokes
 

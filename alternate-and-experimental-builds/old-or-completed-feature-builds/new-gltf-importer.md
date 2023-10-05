@@ -4,7 +4,7 @@
 
 ## Download
 
-This feature has now been merged into the [beta release](open-brush-beta-docs.md)
+This feature has now been merged into the [beta release](../open-brush-beta-docs.md)
 
 ### What does it do?
 

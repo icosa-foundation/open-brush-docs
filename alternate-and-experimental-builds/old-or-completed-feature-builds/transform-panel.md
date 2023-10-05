@@ -4,17 +4,17 @@
 
 <div>
 
-<figure><img src="../.gitbook/assets/image (36).png" alt="" width="397"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (36).png" alt="" width="397"><figcaption></figcaption></figure>
 
  
 
-<figure><img src="../.gitbook/assets/image (40).png" alt="" width="410"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (40).png" alt="" width="410"><figcaption></figcaption></figure>
 
 </div>
 
 ## Downloads
 
-This feature has now been merged into the [beta release](open-brush-beta-docs.md)
+This feature has now been merged into the [beta release](../open-brush-beta-docs.md)
 
 ### What does it do?
 

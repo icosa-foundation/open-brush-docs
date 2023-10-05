@@ -2,13 +2,13 @@
 
 #### Status: Merged into the official beta release
 
-![](<../.gitbook/assets/image (14).png>) ![](<../.gitbook/assets/image (2) (3).png>)
+![](<../../.gitbook/assets/image (14).png>) ![](<../../.gitbook/assets/image (2) (3).png>)
 
-![](<../.gitbook/assets/image (2) (4).png>) ![](<../.gitbook/assets/image (7) (4).png>)
+![](<../../.gitbook/assets/image (2) (4).png>) ![](<../../.gitbook/assets/image (7) (4).png>)
 
 ## Downloads
 
-This feature has now been merged into the [beta release](open-brush-beta-docs.md)
+This feature has now been merged into the [beta release](../open-brush-beta-docs.md)
 
 ### What does it do?
 
@@ -34,13 +34,13 @@ Download a build for your headset from the link above and unzip it. You can run 
 
 Hold down the mirror button on the Experimental Panel for a second or two:
 
-![](<../.gitbook/assets/image (9) (1).png>)
+![](<../../.gitbook/assets/image (9) (1).png>)
 
 This will bring up the Symmetry settings panel which contains three tabs:
 
 #### Point Symmetry
 
-<figure><img src="../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
 
 Point symmetry creates copies arranged around the center of the mirror widget. Each icon selects one of the 14 different types of symmetry. This is the symmetry of molecules and polyhedra. It can create shapes such as stars, explosions, vases, octopi or plants and flowers.
 
@@ -48,7 +48,7 @@ For the first 7 point symmetry types, the slider controls how many copies are ar
 
 #### Wallpaper Symmetry
 
-![](<../.gitbook/assets/image (1) (1) (2) (1).png>)
+![](<../../.gitbook/assets/image (1) (1) (2) (1).png>)
 
 Wallpaper symmetry repeats your strokes in various types grid pattern - reflecting or rotating in specific ways. You can create wallpaper, floor tiles crystal lattices or any other repeating patterns.
 
@@ -56,7 +56,7 @@ For all symmetry types you have control over the number of copies in x and y dir
 
 #### Options
 
-![](<../.gitbook/assets/image (7) (3).png>)
+![](<../../.gitbook/assets/image (7) (3).png>)
 
 This screen allows you to vary the colour of each stroke based on waveforms of your choosing. Colors can cycle based on hue, saturation or brightness and the amount, frequency and type of the variance can be precisely controlled.
 
@@ -70,7 +70,7 @@ _Currently disabled while I iron out the bugs_
 
 ### Creating Symmetrical Patterns from Imported Objects
 
-~~As well as duplicating brush strokes, if you have~~ [~~imported some media~~](../user-guide/using-reference-images-on-oculus-quest.md) ~~such as images, video or 3D objects then you can select those and create copies that follow the current symmetry settings.~~
+~~As well as duplicating brush strokes, if you have~~ [~~imported some media~~](../../user-guide/using-reference-images-on-oculus-quest.md) ~~such as images, video or 3D objects then you can select those and create copies that follow the current symmetry settings.~~
 
 ~~Be aware that there are currently no limits in place. If you create copies of complex objects or even if you create lots and lots of copies of simple objects, then Open Brush can become unresponsive or even crash.~~
 
@@ -102,34 +102,34 @@ Another early test of the feature
 
 <div>
 
-<figure><img src="../.gitbook/assets/Untitled_1_00.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Untitled_1_00.png" alt=""><figcaption></figcaption></figure>
 
  
 
-<figure><img src="../.gitbook/assets/Untitled_2_00.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Untitled_2_00.png" alt=""><figcaption></figcaption></figure>
 
  
 
-<figure><img src="../.gitbook/assets/Untitled_6_00.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Untitled_6_00.png" alt=""><figcaption></figcaption></figure>
 
  
 
-<figure><img src="../.gitbook/assets/Untitled_5_00.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Untitled_5_00.png" alt=""><figcaption></figcaption></figure>
 
  
 
-<figure><img src="../.gitbook/assets/Untitled_9_00.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Untitled_9_00.png" alt=""><figcaption></figcaption></figure>
 
  
 
-<figure><img src="../.gitbook/assets/Untitled_117_00.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Untitled_117_00.png" alt=""><figcaption></figcaption></figure>
 
  
 
-<figure><img src="../.gitbook/assets/Untitled_118_01.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Untitled_118_01.png" alt=""><figcaption></figcaption></figure>
 
  
 
-<figure><img src="../.gitbook/assets/Untitled_127_00.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Untitled_127_00.png" alt=""><figcaption></figcaption></figure>
 
 </div>
