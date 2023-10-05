@@ -1,6 +1,6 @@
 # Insominx's (michael-g) Experimental Build
 
-**Note: All the features in this build have been merged in with the main release of Open Brush**
+**Note: Released in** [**v1.0**](../../release-history/1.0.md)
 
 This build was intended to streamline the UI with a subset of features to:
 

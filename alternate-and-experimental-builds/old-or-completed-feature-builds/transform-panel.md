@@ -1,6 +1,6 @@
 # Feature: Transform Panel and Snap Enhancements
 
-#### Status: Merged into the official beta release
+#### Status: Released in [v2.0](../../release-history/2.0.md)
 
 <div>
 

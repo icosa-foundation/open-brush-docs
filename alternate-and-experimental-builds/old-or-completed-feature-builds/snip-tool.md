@@ -1,6 +1,6 @@
 # Feature: Snip Tool
 
-#### Status: <mark style="color:green;">Released to</mark> [<mark style="color:green;">beta</mark>](../open-brush-beta-docs.md)
+#### Status: Released in [v2.0](../../release-history/2.0.md)
 
 ## Downloads
 

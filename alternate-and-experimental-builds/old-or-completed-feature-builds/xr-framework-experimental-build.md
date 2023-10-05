@@ -6,7 +6,7 @@ coverY: 23.641703377386197
 
 # XR Framework Beta
 
-**Status: Merged! Find this on the main** [**beta release**](../open-brush-beta-docs.md)**!**
+**Status: Released in** [**v2.0**](../../release-history/2.0.md)
 
 We have been hard at work updating Open Brush to the latest version of Unity and it's new XR Framework. This will enable us to keep up to date with new features that are only available with modern VR SDKs such as hand tracking and passthrough. In addition it will make it much easier to support new platforms and devices moving forward.
 
@@ -14,10 +14,9 @@ As this is a big fundamental change in how Open Brush interacts with devices, we
 
 ### I want to help test! Where do I get the new build?
 
-Thank you very much! Please join our [Discord ](https://discord.gg/W7NCEYnEfy)and give yourself the 'Beta Testers' role from our `#welcome-rules` channel (click the button!) to receive important updates about new builds. We're discussing this huge change in a dedicated channel, called `#unity-xr`. Come and say hi!\
+Thank you very much! Please join our [Discord ](https://discord.gg/W7NCEYnEfy)and give yourself the 'Beta Testers' role from our `#welcome-rules` channel (click the button!) to receive important updates about new builds. We're discussing this huge change in a dedicated channel, called `#unity-xr`. Come and say hi!\\
 
-
-:warning: Remember that this is a beta release, so if you do any important work with Open Brush, please back up your files! :warning:&#x20;
+:warning: Remember that this is a beta release, so if you do any important work with Open Brush, please back up your files! :warning:
 
 \
 This section is very detailed per platform, so here's some quick links to your preferred version:\
@@ -76,7 +75,7 @@ In your headset, open the app drawer. In the top right, there is a dropdown to f
 
 ### Oculus Desktop
 
-Due to the way the Oculus Desktop store versioning works, we can't automate builds without disrupting the main build! Instead, you can access a manual build from [Nightly Link](https://nightly.link/icosa-foundation/open-brush/workflows/build/feature%2Fxr\_v2).&#x20;
+Due to the way the Oculus Desktop store versioning works, we can't automate builds without disrupting the main build! Instead, you can access a manual build from [Nightly Link](https://nightly.link/icosa-foundation/open-brush/workflows/build/feature%2Fxr\_v2).
 
 {% embed url="https://nightly.link/icosa-foundation/open-brush/workflows/build/feature%2Fxr_v2" %}
 
@@ -90,7 +89,7 @@ Click the long link beside the name of the build you wish to use (i.e. Windows R
 
 **Note: before you begin, you may need to set Oculus as your active XR Runtime.** this may appear as a banner on the Oculus Desktop app. Go to Settings, General and under 'OpenXR Runtime', click 'Set Oculus as Active'. You may need to restart your PC afterwards.\
 \
-Double click the downloaded zip file. Press the Extract all button, and unzip the folder to a known location. You may want to use your Desktop or Documents folder. Once unzipped, open the StandaloneWindows64-Oculus folder, and double click  'OpenBrush-featurexrvr2.exe' to run the program!\
+Double click the downloaded zip file. Press the Extract all button, and unzip the folder to a known location. You may want to use your Desktop or Documents folder. Once unzipped, open the StandaloneWindows64-Oculus folder, and double click 'OpenBrush-featurexrvr2.exe' to run the program!\
 \
 Windows may scan the folder for viruses as it's an unknown folder, which will prevent the program launching until complete. This is perfectly normal, and the program will launch by itself once finished.
 
@@ -103,4 +102,3 @@ In short, everything you can! The previous SDKs were woven throughout the fabric
 If you are a GitHub user, please feel free to add a comment to our [Issue #249](https://github.com/icosa-foundation/open-brush/issues/249) where we are keeping track of validation.\
 \
 Otherwise, please join our [Discord ](https://discord.gg/W7NCEYnEfy)if you haven't already and post a message in the `#unity-xr` channel, we'll log it on your behalf!
-

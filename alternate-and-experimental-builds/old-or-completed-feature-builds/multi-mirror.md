@@ -1,6 +1,6 @@
 # Feature: Multi-Mirror
 
-#### Status: Merged into the official beta release
+#### Status: Status: Merged into the [current beta](../../automatic-release-notes/automatic-changelog.md)
 
 ![](<../../.gitbook/assets/image (14).png>) ![](<../../.gitbook/assets/image (2) (3).png>)
 
