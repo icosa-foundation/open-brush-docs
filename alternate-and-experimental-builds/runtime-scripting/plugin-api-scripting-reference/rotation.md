@@ -30,6 +30,7 @@ Represents a rotation or orientation in 3D space. See https://docs.unity3d.com/S
 <tr><td>y</td><td>number<br>Read/Write</td><td>The amount of rotation around the y axis in degrees</td></tr>
 <tr><td>z</td><td>number<br>Read/Write</td><td>The amount of rotation around the z axis in degrees</td></tr>
 <tr><td>normalized</td><td><a href="rotation.md">Rotation</a><br>Read-only</td><td>Converts this rotation to one with the same orientation but with a magnitude of 1</td></tr>
+<tr><td>inverse</td><td><a href="rotation.md">Rotation</a><br>Read-only</td><td>Returns the Inverse of this rotation</td></tr>
 <tr><td>angle</td><td>number<br>Read/Write</td><td>The angle in degrees of the angle-axis representation of this rotation</td></tr>
 <tr><td>axis</td><td><a href="vector3.md">Vector3</a><br>Read/Write</td><td>The axis part of the angle-axis representation of this rotation</td></tr>
 </tbody></table>
@@ -156,29 +157,6 @@ Creates a rotation which rotates from fromDirection to toDirection
 #### Example
 
 <pre class="language-lua"><code class="lang-lua"><strong>result = Rotation:FromToRotation(from, to)</strong></code></pre>
-
-
-
-
-### Rotation:Inverse(a)
-
-Returns the Inverse of a rotation
-
-**Returns:** <a href="rotation.md">Rotation</a>  (Returns the inverse of the provided rotation)
-
-
-**Parameters:**
-
-<table data-full-width="false">
-<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
-<tbody><tr><td>a</td><td><a href="rotation.md">Rotation</a></td><td></td><td>The rotation to invert</td></tr></tbody></table>
-
-
-
-
-#### Example
-
-<pre class="language-lua"><code class="lang-lua"><strong>result = Rotation:Inverse(a)</strong></code></pre>
 
 
 

@@ -491,7 +491,7 @@ Take a 360-degree snapshot of the scene and save it
 
 #### Example
 
-<pre class="language-lua"><code class="lang-lua"><strong>App:Take360Snapshot(Transform:New(0, 12, 3), "my360snapshot.png", 4096)</strong></code></pre>
+<pre class="language-lua"><code class="lang-lua"><strong>App:Take360Snapshot(Transform:Position(0, 12, 3), "my360snapshot.png", 4096)</strong></code></pre>
 
 
 
