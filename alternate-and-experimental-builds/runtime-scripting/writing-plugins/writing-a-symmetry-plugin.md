@@ -3,10 +3,10 @@
 Symmetry Plugins are similar to Pointer plugins with a few differences:
 
 1. They can return a list of transforms that represent multiple pointers.
-2. They can modify the color of each pointer stroke.
-3. They have access to the Symmetry Widget which can be used as a point of origin for each pointer.
+2. They can modify the color, size and brush type for each of the strokes separately.
+3. They have access to the Symmetry Widget which can be used as a point of origin for each pointer. If you've used the Mirror or MultiMirror features in Open Brush then the Symmetry Widget is like the Mirror Widget that controls the reflection plane and center for those mirrors.
 
-The number of pointers you generate cannot change once a brush stroke has begun, but may change between each brush stroke.
+Bear in mind - the number of pointers you generate cannot change once a brush stroke has begun, but can change between each brush stroke.
 
 Make sure you name your symmetry plugin scripts with the prefix "SymmetryScript". For example **SymmetryScript.MyMirror.lua**
 
