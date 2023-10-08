@@ -453,4 +453,27 @@ Combines two rotations
 
 
 
+
+### rotation:NotEquals(other)
+
+Determines whether this rotation is not equal to the specified rotation
+
+**Returns:** boolean  (true if this rotation is not equal to the specified rotation; otherwise, false)
+
+
+**Parameters:**
+
+<table data-full-width="false">
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>other</td><td><a href="rotation.md">Rotation</a></td><td></td><td>The rotation to compare</td></tr></tbody></table>
+
+
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>if myRotation:NotEquals(rot2) then print("rotations are different") end</strong></code></pre>
+
+
+
     
