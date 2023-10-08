@@ -14,7 +14,7 @@ If you're not sure then the simplest thing to do is just use Visual Studio Code:
 
 ## Autocomplete and Intellisense for Lua scripts&#x20;
 
-If you look in your Plugins folder there is a subfolder called LuaModules and in there are a few commonly used libraries, that will provide some useful features.&#x20;
+If you look in your Documents/Open Brush/Plugins folder there is a subfolder called LuaModules and in there are a few commonly used libraries, that will provide some useful features.&#x20;
 
 However one file is different. It contains empty definitions for all available API methods and properties along with special comments that can be used by the EmmyLua plugin to give you working autocomplete, intellisense and tooltips. This makes writing scripts and finding bugs much easier.
 
