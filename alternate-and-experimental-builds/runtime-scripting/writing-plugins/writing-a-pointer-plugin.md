@@ -2,7 +2,7 @@
 
 Pointer Plugins can modify the pointer position and/or rotation every frame. You can get the current position and rotation so you can simply add an offset to those - or you could create an entirely new position or rotation based on any of the other context variables that are available to the script.
 
-Name a Pointer Script with the prefix "PointerScript". For example: _PointerScript.Wiggle.lua_
+Name a Pointer Script with the prefix "PointerScript". For example: _PointerScript.MyPlugin.lua_
 
 By default a Pointer Script returns a [Transform](../plugin-api-scripting-reference/transform.md) which represents how the pointer moves relative to it's normal position (which in this case is wherever the user moves their brush hand)
 
