@@ -65,8 +65,7 @@ function Main()
         points = Path:New()
         for angle = 0, 360, 10 do
             position2d = Vector2:PointOnCircle(angle)
-            rotation = Rotation:New(0, 0, angle * 180)
-            points:Insert(Transform:New(position2d:OnZ(), rotation))
+            points:Insert(Transform:Position(position2d:OnZ()))
         end
         return points
     end
@@ -78,4 +77,4 @@ There's a few new things here:
 1. a loop that begins `for...do`, this is a standard lua construct and works similarly to loops in other languages.
 2. we first calculate a 2d vector using `Vector2:PointOnCircle(angle)`. A Vector2 is very similar to the `Vector3` that we used previously for specifying a position. The difference is that it only has two coordinates: x and y.
 3. We convert the `Vector2` into a `Vector3` on the next line by using the `OnZ()` method. This creates a `Vector3` where x and y are taken from the `Vector2` the z value is set to 0. Therefore it lies on the plane perpendicular to the z axis (it could probably have been named on `OnXY()` but this sounded better to me)
-4. We are using `triggerReleasedThisFrame` instead of `triggerReleasedThisFrame`. This means that the user is dragging out a line between where they clicked and where they released. We use this to define a square and the resulting path is scaled and rotated based on the size and orientation of this square.
+4. We are using `triggerReleasedThisFrame` instead of `triggerPressedThisFrame`. This means that the user is dragging out a line between where they clicked and where they released. We use this to define a square and the resulting path is scaled and rotated based on the size and orientation of this square.
