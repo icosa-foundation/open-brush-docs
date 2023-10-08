@@ -38,8 +38,6 @@ This plugin will now behave the same as the "do nothing" pointer plugin example.
 
 Let's do something more interesting in our Symmetry Plugin:
 
-
-
 ```lua
 function Main()
     origin = Transform.identity
@@ -59,7 +57,9 @@ Here we are returning a list of 4 transforms so we will have four separate point
 
 What are we passing into Transform.Lerp? `origin` is set to `Transform.identity` which is our do-nothing transform. As mentioned before - in this case it will be the center point of the symmetry widget.
 
-`brushOffset` is set to `Symmetry.brushOffset` which is a special value that only makes sense in the context of a Symmetry plugin. It represents the position of the user's brush controller relative to the symmetry widget. Usually the value of the user's brush controller is given by`Brush.position`. This is because by default, symmetry scripts use coordinates centered on the symmetry widget and you'd have to do a some complicated calculations to get from there to the current brush position. If you use `symmetry.brushOffset` this is done for you.
+`brushOffset` is a [Transform](../plugin-api-scripting-reference/transform.md) with it's position set to the value of`Symmetry.brushOffset`. This is a [Vector3](../plugin-api-scripting-reference/vector3.md) which represents the position of the user's brush controller relative to the symmetry widget. This which is a special value that only makes sense in the context of a Symmetry plugin.&#x20;
+
+Usually the value of the user's brush controller is given by`Brush.position`. This is because by default, symmetry scripts use coordinates centered on the symmetry widget and you'd have to do a some complicated calculations to get from there to the current brush position. If you use `symmetry.brushOffset` this is done for you.
 
 So this script will create 4 pointers that are spaced evenly between the symmetry widget and the user's brush controller as they paint. Give it a try!
 
