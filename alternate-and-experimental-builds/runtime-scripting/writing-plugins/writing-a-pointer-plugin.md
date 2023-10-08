@@ -84,7 +84,7 @@ We've assigned a value to "y" which is the result of calculating a [waveform sha
 
 The output of the Waveform:Triangle method takes two parameters as input time and frequency. It returns a value that varies between -1 and +1. If you've configured your editor as explained in [Getting Started](getting-started.md) then you should have seen a hint pop up when you typed the first open bracket:
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 So we now have a plugin that moves the pointer up and down over time. You can change the second parameter to control the speed.&#x20;
 
