@@ -1,8 +1,14 @@
-# Pre-release, Alternate, and Experimental Builds
+# Pre-release and Experimental Builds
+
+New features are usually developed on a separate branch of the project until they are ready to be merged into the current beta release. In most cases you can download builds of these branches and try them out yourself.
+
+**In the sidebar to the left** we list the major alternative versions that are currently available, explain their features and what state they are currently in.&#x20;
+
+Some features are might spend months or years as separate builds. The person who started them might have got too busy to continue the work or they might just not be suitable in their current state. In most cases we will attempt to keep them up to date with the main release so they will have all the current beta release features _as well as_ the extra things they bring to the table.
 
 ## Beta Release
 
-[List of changes in the current beta version](https://docs.openbrush.app/release-history/automatic-changelog)&#x20;
+[List of changes in the current beta version](https://docs.openbrush.app/release-history/automatic-changelog)
 
 {% content-ref url="../automatic-release-notes/automatic-changelog.md" %}
 [automatic-changelog.md](../automatic-release-notes/automatic-changelog.md)
@@ -46,8 +52,6 @@ You can download these builds to try out new features. Sometimes the sketches yo
 [old-or-completed-feature-builds](old-or-completed-feature-builds/)
 {% endcontent-ref %}
 
-
-
 ## Multibrush (Tilt Brush fork)
 
 Multibrush is mostly an [experimental mode build](main-experimental-build.md) with two extra features:
@@ -70,4 +74,3 @@ Tilt Brush. Running in a browser!
 {% embed url="https://www.tkbala.com/tutorivr" %}
 
 A VR-embedded tutorial system that supplements video tutorials with 3D and contextual aids directly in the user's VR environment.
-
