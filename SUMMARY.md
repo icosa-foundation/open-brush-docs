@@ -79,6 +79,7 @@
       * [Writing a Symmetry Plugin](alternate-and-experimental-builds/runtime-scripting/writing-plugins/writing-a-symmetry-plugin.md)
       * [Writing a Tool Plugin](alternate-and-experimental-builds/runtime-scripting/writing-plugins/writing-a-tool-plugin.md)
       * [Writing a Background Plugin](alternate-and-experimental-builds/runtime-scripting/writing-plugins/writing-a-background-plugin.md)
+      * [Defining and Drawing Brush Strokes](alternate-and-experimental-builds/runtime-scripting/writing-plugins/defining-and-drawing-brush-strokes.md)
     * [Plugin API Scripting Reference](alternate-and-experimental-builds/runtime-scripting/plugin-api-scripting-reference/README.md)
       * [App](alternate-and-experimental-builds/runtime-scripting/plugin-api-scripting-reference/app.md)
       * [Brush](alternate-and-experimental-builds/runtime-scripting/plugin-api-scripting-reference/brush.md)
