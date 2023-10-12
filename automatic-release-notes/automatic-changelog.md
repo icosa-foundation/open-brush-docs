@@ -1,6 +1,6 @@
 # Changelog since v2.2
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...b99ced6ca62b9b782d1a4a84c8784232c3a78f90)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...7aab9cd7f81ca3f525bc7bcc411334f820c56ff5)
 
 ## 🚀 Features
 
@@ -145,6 +145,8 @@
 - Optimize package caching ([PR #527](https://github.com/icosa-foundation/open-brush/pull/527) by @mikeage)
 
 - Fix Android cleanup job ([PR #541](https://github.com/icosa-foundation/open-brush/pull/541) by @mikeage)
+
+- Enable the 'free extra space' step on Windows (and update the comments) ([PR #548](https://github.com/icosa-foundation/open-brush/pull/548) by @mikeage)
 
 
 ## 📦 Dependencies / Maintenance
