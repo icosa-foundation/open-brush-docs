@@ -321,7 +321,32 @@ Applies a translation to this transform
 
 #### Example
 
-<pre class="language-lua"><code class="lang-lua"><strong>newTransform = myTransform:TranslateBy(Vector3(1, 2, 3))</strong></code></pre>
+<pre class="language-lua"><code class="lang-lua"><strong>newTransform = myTransform:TranslateBy(Vector3.up * 3)</strong></code></pre>
+
+
+
+
+### transform:TranslateBy(x, y, z)
+
+Applies a translation to this transform
+
+**Returns:** <a href="transform.md">Transform</a> 
+
+
+**Parameters:**
+
+<table data-full-width="false">
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>x</td><td>number</td><td></td><td>The x translation to apply</td></tr>
+<tr><td>y</td><td>number</td><td></td><td>The y translation to apply</td></tr>
+<tr><td>z</td><td>number</td><td></td><td>The z translation to apply</td></tr></tbody></table>
+
+
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>newTransform = myTransform:TranslateBy(1, 2, 3)</strong></code></pre>
 
 
 
@@ -344,7 +369,32 @@ Applies a rotation to this transform
 
 #### Example
 
-<pre class="language-lua"><code class="lang-lua"><strong>newTransform = myTransform:RotateBy(Rotation.New(0, 45, 0))</strong></code></pre>
+<pre class="language-lua"><code class="lang-lua"><strong>newTransform = myTransform:RotateBy(Rotation.left)</strong></code></pre>
+
+
+
+
+### transform:RotateBy(x, y, z)
+
+Applies a rotation to this transform
+
+**Returns:** <a href="transform.md">Transform</a> 
+
+
+**Parameters:**
+
+<table data-full-width="false">
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>x</td><td>number</td><td></td><td>The x rotation to apply</td></tr>
+<tr><td>y</td><td>number</td><td></td><td>The y rotation to apply</td></tr>
+<tr><td>z</td><td>number</td><td></td><td>The z rotation to apply</td></tr></tbody></table>
+
+
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>newTransform = myTransform:RotateBy(45, 0, 0)</strong></code></pre>
 
 
 

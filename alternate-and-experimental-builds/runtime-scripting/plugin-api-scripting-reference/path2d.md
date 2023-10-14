@@ -284,6 +284,53 @@ Scales the path
 
 <table data-full-width="false">
 <thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>scale</td><td>number</td><td></td><td>The scaling factor to apply to the path</td></tr></tbody></table>
+
+
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>myPath:ScaleBy(2)</strong></code></pre>
+
+
+
+
+### path2d:ScaleBy(x, y)
+
+Scales the path
+
+**Returns:** nil 
+
+
+**Parameters:**
+
+<table data-full-width="false">
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>x</td><td>number</td><td></td><td>The x scaling factor to apply to the path</td></tr>
+<tr><td>y</td><td>number</td><td></td><td>The y scaling factor to apply to the path</td></tr></tbody></table>
+
+
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>myPath:ScaleBy(2, 1)</strong></code></pre>
+
+
+
+
+### path2d:ScaleBy(scale)
+
+Scales the path
+
+**Returns:** nil 
+
+
+**Parameters:**
+
+<table data-full-width="false">
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
 <tbody><tr><td>scale</td><td><a href="vector2.md">Vector2</a></td><td></td><td>The scaling factor to apply to the path</td></tr></tbody></table>
 
 
@@ -291,7 +338,7 @@ Scales the path
 
 #### Example
 
-<pre class="language-lua"><code class="lang-lua"><strong>myPath:ScaleBy(Vector2:New(2, 1)</strong></code></pre>
+<pre class="language-lua"><code class="lang-lua"><strong>myPath:ScaleBy(myVector2</strong></code></pre>
 
 
 

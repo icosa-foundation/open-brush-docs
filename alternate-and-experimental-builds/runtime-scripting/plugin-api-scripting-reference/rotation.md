@@ -14,8 +14,6 @@ Represents a rotation or orientation in 3D space. See https://docs.unity3d.com/S
 <tr><td>right</td><td><a href="rotation.md">Rotation</a><br>Read-only</td><td>A 90 degree clockwise rotation in the y axis (yaw)</td></tr>
 <tr><td>up</td><td><a href="rotation.md">Rotation</a><br>Read-only</td><td>A 90 degree clockwise rotation in the x axis (pitch)</td></tr>
 <tr><td>down</td><td><a href="rotation.md">Rotation</a><br>Read-only</td><td>A 90 degree anti-clockwise rotation in the x axis (pitch)</td></tr>
-<tr><td>anticlockwise</td><td><a href="rotation.md">Rotation</a><br>Read-only</td><td>A 90 degree anti-clockwise rotation in the z axis (roll)</td></tr>
-<tr><td>clockwise</td><td><a href="rotation.md">Rotation</a><br>Read-only</td><td>A 90 degree clockwise rotation in the z axis (roll)</td></tr>
 </tbody></table>
 
 

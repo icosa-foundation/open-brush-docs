@@ -76,7 +76,7 @@ Draws an SVG path string
 
 #### Example
 
-<pre class="language-lua"><code class="lang-lua"><strong>SVG:DrawPathString('M 100 100 L 200 200')</strong></code></pre>
+<pre class="language-lua"><code class="lang-lua"><strong>Svg:DrawPathString('M 100 100 L 200 200')</strong></code></pre>
 
 
 
@@ -100,7 +100,7 @@ Draws an SVG document
 
 #### Example
 
-<pre class="language-lua"><code class="lang-lua"><strong>SVG:Draw('<svg>...</svg>')</strong></code></pre>
+<pre class="language-lua"><code class="lang-lua"><strong>Svg:Draw('<svg>...</svg>')</strong></code></pre>
 
 
 

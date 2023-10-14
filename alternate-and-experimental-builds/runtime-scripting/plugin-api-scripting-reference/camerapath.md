@@ -174,7 +174,7 @@ Deletes a camera path
 
 ### cameraPath:AsPath(step)
 
-Converts the camera path to a path with the specified step size
+Converts the camera path to a path by sampling it at regular time intervals
 
 **Returns:** <a href="path.md">Path</a>  (The new Path)
 
@@ -183,14 +183,14 @@ Converts the camera path to a path with the specified step size
 
 <table data-full-width="false">
 <thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
-<tbody><tr><td>step</td><td>number</td><td></td><td>A control point is created at time=0, time=step, time=step x 2 etc</td></tr></tbody></table>
+<tbody><tr><td>step</td><td>number</td><td></td><td>The time step is use for each sample</td></tr></tbody></table>
 
 
 
 
 #### Example
 
-<pre class="language-lua"><code class="lang-lua"><strong>myPath = myCameraPath:AsPath(5)</strong></code></pre>
+<pre class="language-lua"><code class="lang-lua"><strong>myPath = myCameraPath:AsPath(0.5)</strong></code></pre>
 
 
 
