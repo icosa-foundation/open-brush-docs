@@ -3,10 +3,10 @@
 Symmetry Plugins are similar to Pointer plugins with a few differences:
 
 1. They can return a list of transforms that represent multiple pointers.
-2. They can modify the color of each pointer stroke.
-3. They have access to the Symmetry Widget which can be used as a point of origin for each pointer.
+2. They can modify the color, size and brush type for each of the strokes separately.
+3. They have access to the Symmetry Widget which can be used as a point of origin for each pointer. If you've used the Mirror or [MultiMirror](../../old-or-completed-feature-builds/multi-mirror.md) features in Open Brush then the Symmetry Widget is like the Mirror Widget that controls the reflection plane and center for those mirrors.
 
-The number of pointers you generate cannot change once a brush stroke has begun, but may change between each brush stroke.
+Bear in mind - the number of pointers you generate cannot change once a brush stroke has begun, but can change between each brush stroke.
 
 Make sure you name your symmetry plugin scripts with the prefix "SymmetryScript". For example **SymmetryScript.MyMirror.lua**
 
@@ -38,8 +38,6 @@ This plugin will now behave the same as the "do nothing" pointer plugin example.
 
 Let's do something more interesting in our Symmetry Plugin:
 
-
-
 ```lua
 function Main()
     origin = Transform.identity
@@ -59,7 +57,9 @@ Here we are returning a list of 4 transforms so we will have four separate point
 
 What are we passing into Transform.Lerp? `origin` is set to `Transform.identity` which is our do-nothing transform. As mentioned before - in this case it will be the center point of the symmetry widget.
 
-`brushOffset` is set to `Symmetry.brushOffset` which is a special value that only makes sense in the context of a Symmetry plugin. It represents the position of the user's brush controller relative to the symmetry widget. Usually the value of the user's brush controller is given by`Brush.position`. This is because by default, symmetry scripts use coordinates centered on the symmetry widget and you'd have to do a some complicated calculations to get from there to the current brush position. If you use `symmetry.brushOffset` this is done for you.
+`brushOffset` is a [Transform](../plugin-api-scripting-reference/transform.md) with it's position set to the value of`Symmetry.brushOffset`. This is a [Vector3](../plugin-api-scripting-reference/vector3.md) which represents the position of the user's brush controller relative to the symmetry widget. It is a special value that only makes sense in the context of a Symmetry plugin and you won't use it in other types of plugin script.
+
+Usually the value of the user's brush controller is given by`Brush.position`. This is because by default, symmetry scripts use coordinates centered on the symmetry widget and you'd have to do a some complicated calculations to get from there to the current brush position. If you use `symmetry.brushOffset` this is done for you.
 
 So this script will create 4 pointers that are spaced evenly between the symmetry widget and the user's brush controller as they paint. Give it a try!
 
@@ -82,6 +82,7 @@ end
 Some things to note here:
 
 1. Instead of creating a list of transforms using curly braces we are creating a `Path`object and then using `Insert` to add pointers to it one at a time. Path is just a class that stores a list of transforms. It has some useful methods for transforming and modifying itself so is often more useful than just a simple list.
-2. We are using a loop: `for i = 0, copies - 1 do` You should have come across similar constructs in other scripting languages. Any lua tutorial will explain some small differences with lua loops but in general they should behave as you would expect
-3. `angleStep`is always 36 in this case but `copies` could be a slider that the user sets so we calculate how many degrees to add to the angle for each copy of the pointer.
+2. We are using a loop: **`for i = 1, copies do`** \
+   You should have come across similar constructs in other scripting languages. Any lua tutorial will explain some small differences with lua loops but in general they should behave as you would expect.
+3. `angleStep`is always 36 in this case but if you wanted to,`copies` could be a slider that the user sets so we calculate how many degrees to add to the angle for each copy of the pointer.
 4. You don't have to calculate the position of each pointer around the circle. This is done automatically for you. The final position is calculated based on the symmetry widget's transform and the rotation value you return for each pointer. This saves you from having to do some pretty gnarly maths yourself in symmetry plugins.

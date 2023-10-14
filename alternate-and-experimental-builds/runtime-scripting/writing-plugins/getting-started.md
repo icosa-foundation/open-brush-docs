@@ -14,7 +14,7 @@ If you're not sure then the simplest thing to do is just use Visual Studio Code:
 
 ## Autocomplete and Intellisense for Lua scripts&#x20;
 
-If you look in your Plugins folder there is a subfolder called LuaModules and in there are a few commonly used libraries, that will provide some useful features.&#x20;
+If you look in your Documents/Open Brush/Plugins folder there is a subfolder called LuaModules and in there are a few commonly used libraries, that will provide some useful features.&#x20;
 
 However one file is different. It contains empty definitions for all available API methods and properties along with special comments that can be used by the EmmyLua plugin to give you working autocomplete, intellisense and tooltips. This makes writing scripts and finding bugs much easier.
 
@@ -24,12 +24,12 @@ If you're using Visual Studio Code then follow these steps:\
 
 2. Launch Visual Studio Code.
 3. Click on the button on the left that shows the Extensions sidebar: \
-   ![](<../../../.gitbook/assets/image (1) (1) (1).png>)
+   ![](<../../../.gitbook/assets/image (1) (1) (1) (1).png>)
 4. Search for "Lua" and look for the sumneko extension:
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1).png" alt="" width="343"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt="" width="343"><figcaption></figcaption></figure>
 
 </div>
 
@@ -37,14 +37,12 @@ If you're using Visual Studio Code then follow these steps:\
 6. Click the small cog icon and then open the Extension Settings:\
    ![](<../../../.gitbook/assets/image (2) (1).png>)
 7. Optionally you can hide a lot of spurious warnings by disabling "lowercase-global" warnings under **Lua> Diagnostics: Disable:** \
-   ![](<../../../.gitbook/assets/image (1) (1).png>)\
+   ![](<../../../.gitbook/assets/image (1) (1) (1).png>)\
    (In our plugins we're using upper and lower case initial letters to distinguish your stuff from the API supplied-things but standard lua style is to use it to differentiate local from global. Don't worry for now...)
-8. Scroll down to **Lua> Workspace: Library** and add "LuaModules"\
-   ![](<../../../.gitbook/assets/image (3).png>)
-
-
-
-If you create a new file called PointerScript.Test.lua and start typing:
+8. Scroll down to **Lua> Workspace: Library** and add the path to your LuaModules folder:\
+   \
+   <img src="../../../.gitbook/assets/image.png" alt="" data-size="original">
+9. Create a new file inside Plugins called PointerScript.Test.lua and start typing:
 
 ```lua
 function Start()
