@@ -168,7 +168,9 @@ Similar to [SVG](example-symmetry-plugins.md#svg) but centered around the Symmet
 
 ### ~~ToGuide~~
 
-_(Currently removed while I fix a bug)_ A line of copies between a guide and the symmetry widget
+_(Currently removed while I fix a bug)_
+
+A line of copies between a guide and the symmetry widget
 
 #### Parameters
 
