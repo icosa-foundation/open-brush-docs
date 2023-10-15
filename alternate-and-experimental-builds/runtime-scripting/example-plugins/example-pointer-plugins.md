@@ -1,8 +1,10 @@
 # Example Pointer Plugins
 
-### Connections
+### ~~Connections~~
 
 ![](<../../../.gitbook/assets/image (13).png>)
+
+_(Currently removed while I fix a bug)_&#x20;
 
 Connects the two most recent strokes with a series of lines. Draw one stroke then another. As you finish the second stroke you will see new lines added
 

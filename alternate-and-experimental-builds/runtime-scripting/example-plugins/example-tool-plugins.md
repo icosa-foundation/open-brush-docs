@@ -54,9 +54,9 @@ Draws lines from the position you start drawing to your current position.
 
 * **Spacing:** How often to draw a new stroke
 
-### ReplayStroke
+### ~~ReplayStroke~~
 
-Instantly draws a brush stroke based on the path of the last brush stroke you drew
+_(Currently removed while I fix a bug)_ Instantly draws a brush stroke based on the path of the last brush stroke you drew
 
 ### ScatterCubes
 
