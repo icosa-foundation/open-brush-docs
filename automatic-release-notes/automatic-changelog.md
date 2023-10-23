@@ -1,6 +1,6 @@
 # Changelog since v2.2
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...7aab9cd7f81ca3f525bc7bcc411334f820c56ff5)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...d214d2531824bbde15f2f9b3d74e313c908a7ea9)
 
 ## 🚀 Features
 
@@ -53,6 +53,8 @@
 - [Pico] Add Chinese build, disable accounts ([PR #535](https://github.com/icosa-foundation/open-brush/pull/535) by @mikeskydev)
 
 - feat: Language Selector ([PR #537](https://github.com/icosa-foundation/open-brush/pull/537) by @mikeskydev)
+
+- Move from GVR Audio to Unity Audio ([PR #551](https://github.com/icosa-foundation/open-brush/pull/551) by @mikeskydev)
 
 
 ## 🐛 Fixes
@@ -121,6 +123,10 @@
 
 - Remove passthrough prefab if not supported ([PR #538](https://github.com/icosa-foundation/open-brush/pull/538) by @mikeskydev)
 
+- fix typo ([PR #542](https://github.com/icosa-foundation/open-brush/pull/542) by @andybak)
+
+- Fix sketchbook context menu button being disabled for first button ([PR #543](https://github.com/icosa-foundation/open-brush/pull/543) by @andybak)
+
 
 ## 🛠️ Infrastructure
 
@@ -183,10 +189,6 @@
 ## 💬 Uncategorized
 
 - Update Unity version in README.md ([PR #519](https://github.com/icosa-foundation/open-brush/pull/519) by @andybak)
-
-- fix typo ([PR #542](https://github.com/icosa-foundation/open-brush/pull/542) by @andybak)
-
-- Fix sketchbook context menu button being disabled for first button ([PR #543](https://github.com/icosa-foundation/open-brush/pull/543) by @andybak)
 
 
 
