@@ -1,6 +1,6 @@
 # Changelog since v2.2
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...d214d2531824bbde15f2f9b3d74e313c908a7ea9)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...61c465b2470f2786c8479ce318fcb1c705698522)
 
 ## 🚀 Features
 
@@ -184,6 +184,8 @@
 - Bump game-ci/unity-builder from 2 to 3 ([PR #505](https://github.com/icosa-foundation/open-brush/pull/505) by @dependabot[bot])
 
 - Bump actions/setup-python from 4.7.0 to 4.7.1 ([PR #545](https://github.com/icosa-foundation/open-brush/pull/545) by @dependabot[bot])
+
+- Fix corruption with Quest screenshots ([PR #552](https://github.com/icosa-foundation/open-brush/pull/552) by @andybak)
 
 
 ## 💬 Uncategorized
