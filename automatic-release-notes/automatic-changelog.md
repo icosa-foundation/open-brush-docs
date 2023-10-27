@@ -1,6 +1,6 @@
 # Changelog since v2.2
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...61c465b2470f2786c8479ce318fcb1c705698522)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...6a086fa0e7f740dd6c1b7fdefc897f7ae85c820b)
 
 ## 🚀 Features
 
@@ -191,6 +191,8 @@
 ## 💬 Uncategorized
 
 - Update Unity version in README.md ([PR #519](https://github.com/icosa-foundation/open-brush/pull/519) by @andybak)
+
+- Add in the changes that Unity autogenerates ([PR #553](https://github.com/icosa-foundation/open-brush/pull/553) by @andybak)
 
 
 
