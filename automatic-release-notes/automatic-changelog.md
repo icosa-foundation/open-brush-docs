@@ -1,6 +1,6 @@
 # Changelog since v2.2
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...6a086fa0e7f740dd6c1b7fdefc897f7ae85c820b)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...90df5151c48aae78903a5c38bcde42f6c59d0588)
 
 ## 🚀 Features
 
@@ -55,6 +55,8 @@
 - feat: Language Selector ([PR #537](https://github.com/icosa-foundation/open-brush/pull/537) by @mikeskydev)
 
 - Move from GVR Audio to Unity Audio ([PR #551](https://github.com/icosa-foundation/open-brush/pull/551) by @mikeskydev)
+
+- Camera path workflow improvements ([PR #544](https://github.com/icosa-foundation/open-brush/pull/544) by @andybak)
 
 
 ## 🐛 Fixes
@@ -127,6 +129,10 @@
 
 - Fix sketchbook context menu button being disabled for first button ([PR #543](https://github.com/icosa-foundation/open-brush/pull/543) by @andybak)
 
+- Add in the changes that Unity autogenerates ([PR #553](https://github.com/icosa-foundation/open-brush/pull/553) by @andybak)
+
+- Disable mobile bloom for camera snapshots ([PR #554](https://github.com/icosa-foundation/open-brush/pull/554) by @andybak)
+
 
 ## 🛠️ Infrastructure
 
@@ -191,8 +197,6 @@
 ## 💬 Uncategorized
 
 - Update Unity version in README.md ([PR #519](https://github.com/icosa-foundation/open-brush/pull/519) by @andybak)
-
-- Add in the changes that Unity autogenerates ([PR #553](https://github.com/icosa-foundation/open-brush/pull/553) by @andybak)
 
 
 
