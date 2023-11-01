@@ -59,14 +59,16 @@ _Notes:_
 
 ## Tips <a href="#_ibglt4zbyabz" id="_ibglt4zbyabz"></a>
 
-### Fixing CSCore errors (or other errorsrelated to Audio Reactivity) <a href="#_nvutjzw2fj1u" id="_nvutjzw2fj1u"></a>
+### Fixing CSCore errors (or other errors related to Audio Reactivity) <a href="#_nvutjzw2fj1u" id="_nvutjzw2fj1u"></a>
 
 At the moment the plugin used for Audio Reactivity doesn't work on some platforms. If you see errors related to "CSCore" or anything that looks audio related deleting the following files from your project:
 
 1. The folder ThirdParty\CSCore
-2. TiltBrush\Scripts\VisualizerManager
-3. TiltBrush\Scripts\VisualizerAudioInput
-4. TiltBrush\Scripts\Editor\VisualizerManagerEditor
+2. The folder ThirdParty\Reaktion
+3. These files:
+   1. TiltBrush\Scripts\VisualizerManager
+   2. TiltBrush\Scripts\VisualizerAudioInput
+   3. TiltBrush\Scripts\Editor\VisualizerManagerEditor
 
 ### "My brushes look different to Open Brush" (Linear vs Gamma) <a href="#_nvutjzw2fj1u" id="_nvutjzw2fj1u"></a>
 
