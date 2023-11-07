@@ -151,7 +151,7 @@ Creates a new custom guide from a 3d model. Note that custom guides have to be c
 <table data-full-width="false">
 <thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
 <tbody><tr><td>transform</td><td><a href="transform.md">Transform</a></td><td></td><td>The transform of the Guide Widget</td></tr>
-<tr><td>model</td><td><a href="model.md">Model</a></td><td></td><td>The ModelApiWrapper to use for the custom stencil</td></tr></tbody></table>
+<tr><td>model</td><td><a href="model.md">Model</a></td><td></td><td>The Model to use for the custom guide</td></tr></tbody></table>
 
 
 

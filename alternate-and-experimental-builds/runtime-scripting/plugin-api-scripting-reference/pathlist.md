@@ -30,7 +30,7 @@ Creates a new empty PathList
 
 #### Example
 
-<pre class="language-lua"><code class="lang-lua"><strong>PathListApiWrapper:New()</strong></code></pre>
+<pre class="language-lua"><code class="lang-lua"><strong>PathList:New()</strong></code></pre>
 
 
 
@@ -46,14 +46,14 @@ Creates a new PathList from a list of Paths
 
 <table data-full-width="false">
 <thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
-<tbody><tr><td>pathList</td><td>Path[]</td><td></td><td>A list of pathApiWrapper objects.</td></tr></tbody></table>
+<tbody><tr><td>pathList</td><td>Path[]</td><td></td><td>A list of Paths .</td></tr></tbody></table>
 
 
 
 
 #### Example
 
-<pre class="language-lua"><code class="lang-lua"><strong>PathListApiWrapper:New(pathList)</strong></code></pre>
+<pre class="language-lua"><code class="lang-lua"><strong>PathList:New(pathList)</strong></code></pre>
 
 
 
@@ -76,7 +76,7 @@ Creates a new PathList from a text
 
 #### Example
 
-<pre class="language-lua"><code class="lang-lua"><strong>PathListApiWrapper.FromText('example')</strong></code></pre>
+<pre class="language-lua"><code class="lang-lua"><strong>PathList.FromText('example')</strong></code></pre>
 
 
 

@@ -42,7 +42,7 @@ Imports a new model from the MediaLibrary/Models folder
 
 #### Example
 
-<pre class="language-lua"><code class="lang-lua"><strong>ModelApiWrapper:Import("Andy.obj")</strong></code></pre>
+<pre class="language-lua"><code class="lang-lua"><strong>Model:Import("Andy.obj")</strong></code></pre>
 
 
 

@@ -151,7 +151,7 @@ Deletes the layer and all it's content
 
 Combines this layer and the one above it. If this layer is the first layer do nothing
 
-**Returns:** <a href="layer.md">Layer</a>  (The resulting LayerApiWrapper instance)
+**Returns:** <a href="layer.md">Layer</a>  (The layer that contains the combined content)
 
 
 

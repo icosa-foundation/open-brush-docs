@@ -86,7 +86,7 @@ Creates a path from a list of Vector3 positions
 
 Generates a hermite spline
 
-**Returns:** <a href="path.md">Path</a>  (Instance of PathApiWrapper)
+**Returns:** <a href="path.md">Path</a>  (A new Path)
 
 
 **Parameters:**
