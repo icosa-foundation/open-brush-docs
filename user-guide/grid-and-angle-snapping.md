@@ -16,7 +16,13 @@ Drawing along straight x, y or z lines. Building regular structures up by making
 
 ![](../.gitbook/assets/Ws4OtCzR34.png)
 
-Click the new button shown above on the [Labs panel ](check-out-labs-or-experimental-features.md#accessing-the-labs-panel)to open the new Snap Settings panel:
+<div align="left">
+
+<figure><img src="../.gitbook/assets/image.png" alt="" width="71"><figcaption></figcaption></figure>
+
+</div>
+
+Click the button shown above on the [Extras Panel](using-the-open-brush-tools-quick-tools-and-menu-panels/extras-panel/) to open the new Snap Settings panel:
 
 ![C](../.gitbook/assets/hrQS2eaDoU.png)
 

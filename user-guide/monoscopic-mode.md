@@ -18,7 +18,7 @@ We don't currently publish the monoscopic version alongside other releases but o
 
 2\. Once you've found one then click on the first column ("Builds" in this case but that might differ) and you'll see something similar to this:
 
-![](<../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)
 
 3\. The number underneath "Artifacts" on the right takes you to the list of downloads at the bottom of the page:
 
