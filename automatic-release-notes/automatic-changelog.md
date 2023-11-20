@@ -1,6 +1,6 @@
 # Changelog since v2.2
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...90df5151c48aae78903a5c38bcde42f6c59d0588)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...2f5d7a7887f49b389b724813cb9f8366ccfc3982)
 
 ## 🚀 Features
 
@@ -57,6 +57,8 @@
 - Move from GVR Audio to Unity Audio ([PR #551](https://github.com/icosa-foundation/open-brush/pull/551) by @mikeskydev)
 
 - Camera path workflow improvements ([PR #544](https://github.com/icosa-foundation/open-brush/pull/544) by @andybak)
+
+- Allow distinct Quest vs Experimental panel config ([PR #549](https://github.com/icosa-foundation/open-brush/pull/549) by @andybak)
 
 
 ## 🐛 Fixes
@@ -159,6 +161,8 @@
 - Fix Android cleanup job ([PR #541](https://github.com/icosa-foundation/open-brush/pull/541) by @mikeage)
 
 - Enable the 'free extra space' step on Windows (and update the comments) ([PR #548](https://github.com/icosa-foundation/open-brush/pull/548) by @mikeage)
+
+- Update game-ci build to v4 ([PR #557](https://github.com/icosa-foundation/open-brush/pull/557) by @mikeage)
 
 
 ## 📦 Dependencies / Maintenance
