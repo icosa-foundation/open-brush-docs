@@ -1,6 +1,6 @@
 # Changelog since v2.2
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...ead1bd21d1b92c8707a2cfe25ce86a65c6990b38)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...31ac1008b87aa8a2a85d470ccc16b4bd02e70870)
 
 ## 🚀 Features
 
@@ -167,6 +167,8 @@
 - Update game-ci build to v4 ([PR #557](https://github.com/icosa-foundation/open-brush/pull/557) by @mikeage)
 
 - Only save a cache if it doesn't exist (overwrite doesn't work) ([PR #559](https://github.com/icosa-foundation/open-brush/pull/559) by @mikeage)
+
+- Update license used for PRs from forks ([PR #560](https://github.com/icosa-foundation/open-brush/pull/560) by @mikeage)
 
 
 ## 📦 Dependencies / Maintenance
