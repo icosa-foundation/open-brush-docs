@@ -1,6 +1,6 @@
 # Changelog since v2.2
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...2f5d7a7887f49b389b724813cb9f8366ccfc3982)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...067180a650c6bd031a495601620e2b89cf1cc71f)
 
 ## 🚀 Features
 
@@ -163,6 +163,8 @@
 - Enable the 'free extra space' step on Windows (and update the comments) ([PR #548](https://github.com/icosa-foundation/open-brush/pull/548) by @mikeage)
 
 - Update game-ci build to v4 ([PR #557](https://github.com/icosa-foundation/open-brush/pull/557) by @mikeage)
+
+- Only save a cache if it doesn't exist (overwrite doesn't work) ([PR #559](https://github.com/icosa-foundation/open-brush/pull/559) by @mikeage)
 
 
 ## 📦 Dependencies / Maintenance
