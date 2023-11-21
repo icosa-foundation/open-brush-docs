@@ -1,6 +1,6 @@
 # Changelog since v2.2
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...067180a650c6bd031a495601620e2b89cf1cc71f)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...ead1bd21d1b92c8707a2cfe25ce86a65c6990b38)
 
 ## 🚀 Features
 
@@ -134,6 +134,8 @@
 - Add in the changes that Unity autogenerates ([PR #553](https://github.com/icosa-foundation/open-brush/pull/553) by @andybak)
 
 - Disable mobile bloom for camera snapshots ([PR #554](https://github.com/icosa-foundation/open-brush/pull/554) by @andybak)
+
+- This seems to fix most bugs with duplicating to multimirror. ([PR #562](https://github.com/icosa-foundation/open-brush/pull/562) by @andybak)
 
 
 ## 🛠️ Infrastructure
