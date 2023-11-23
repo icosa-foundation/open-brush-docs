@@ -1,6 +1,6 @@
 # Changelog since v2.2
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...ea1d49d0df0b3374c9f026c0f45db76e3980fcbd)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...50dd4ea4c3f2996f666d62249671e4134babce79)
 
 ## 🚀 Features
 
@@ -209,6 +209,8 @@
 - Update Unity version in README.md ([PR #519](https://github.com/icosa-foundation/open-brush/pull/519) by @andybak)
 
 - Fix exception when mirror-duplicating 3d Models or other non-flat widgets ([PR #564](https://github.com/icosa-foundation/open-brush/pull/564) by @andybak)
+
+- Video batch file fix ([PR #565](https://github.com/icosa-foundation/open-brush/pull/565) by @andybak)
 
 
 
