@@ -1,6 +1,6 @@
 # Changelog since v2.2
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...50dd4ea4c3f2996f666d62249671e4134babce79)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...a21ffc50c2e65db050d2af4d56531f4c0c8794ae)
 
 ## 🚀 Features
 
@@ -137,6 +137,8 @@
 
 - This seems to fix most bugs with duplicating to multimirror. ([PR #562](https://github.com/icosa-foundation/open-brush/pull/562) by @andybak)
 
+- Video batch file fix ([PR #565](https://github.com/icosa-foundation/open-brush/pull/565) by @andybak)
+
 
 ## 🛠️ Infrastructure
 
@@ -169,6 +171,8 @@
 - Only save a cache if it doesn't exist (overwrite doesn't work) ([PR #559](https://github.com/icosa-foundation/open-brush/pull/559) by @mikeage)
 
 - Update license used for PRs from forks ([PR #560](https://github.com/icosa-foundation/open-brush/pull/560) by @mikeage)
+
+- Enable masking of UNITY_PASSWORD ([PR #566](https://github.com/icosa-foundation/open-brush/pull/566) by @mikeage)
 
 
 ## 📦 Dependencies / Maintenance
@@ -209,8 +213,6 @@
 - Update Unity version in README.md ([PR #519](https://github.com/icosa-foundation/open-brush/pull/519) by @andybak)
 
 - Fix exception when mirror-duplicating 3d Models or other non-flat widgets ([PR #564](https://github.com/icosa-foundation/open-brush/pull/564) by @andybak)
-
-- Video batch file fix ([PR #565](https://github.com/icosa-foundation/open-brush/pull/565) by @andybak)
 
 
 
