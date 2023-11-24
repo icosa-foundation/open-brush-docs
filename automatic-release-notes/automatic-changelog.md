@@ -1,6 +1,6 @@
 # Changelog since v2.2
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...a21ffc50c2e65db050d2af4d56531f4c0c8794ae)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...1433142a70f0d71015f519587881c66bacc54006)
 
 ## 🚀 Features
 
@@ -59,6 +59,8 @@
 - Camera path workflow improvements ([PR #544](https://github.com/icosa-foundation/open-brush/pull/544) by @andybak)
 
 - Allow distinct Quest vs Experimental panel config ([PR #549](https://github.com/icosa-foundation/open-brush/pull/549) by @andybak)
+
+- Update Android SDK Target to v32 (Android 12); request MANAGE_EXTERNAL_STORAGE ([PR #563](https://github.com/icosa-foundation/open-brush/pull/563) by @mikeage)
 
 
 ## 🐛 Fixes
