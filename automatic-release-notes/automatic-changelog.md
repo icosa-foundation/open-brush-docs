@@ -1,6 +1,6 @@
 # Changelog since v2.2
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...1433142a70f0d71015f519587881c66bacc54006)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...97306b0425fb8b0f27f4413de9758bc5f59b868e)
 
 ## 🚀 Features
 
@@ -139,6 +139,8 @@
 
 - This seems to fix most bugs with duplicating to multimirror. ([PR #562](https://github.com/icosa-foundation/open-brush/pull/562) by @andybak)
 
+- Fix exception when mirror-duplicating 3d Models or other non-flat widgets ([PR #564](https://github.com/icosa-foundation/open-brush/pull/564) by @andybak)
+
 - Video batch file fix ([PR #565](https://github.com/icosa-foundation/open-brush/pull/565) by @andybak)
 
 
@@ -209,12 +211,12 @@
 
 - Fix corruption with Quest screenshots ([PR #552](https://github.com/icosa-foundation/open-brush/pull/552) by @andybak)
 
+- Temp revert controller i18n ([PR #567](https://github.com/icosa-foundation/open-brush/pull/567) by @mikeskydev)
+
 
 ## 💬 Uncategorized
 
 - Update Unity version in README.md ([PR #519](https://github.com/icosa-foundation/open-brush/pull/519) by @andybak)
-
-- Fix exception when mirror-duplicating 3d Models or other non-flat widgets ([PR #564](https://github.com/icosa-foundation/open-brush/pull/564) by @andybak)
 
 
 
