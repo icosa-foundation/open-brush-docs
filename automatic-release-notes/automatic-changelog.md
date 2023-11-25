@@ -1,6 +1,6 @@
 # Changelog since v2.2
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...1774ed4efb5b0cb1da0cb2c4ec43f83b3025cff5)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...48190c9286d286da5db98f7acc8cf8f8d89fe375)
 
 ## 🚀 Features
 
@@ -142,6 +142,8 @@
 - Fix exception when mirror-duplicating 3d Models or other non-flat widgets ([PR #564](https://github.com/icosa-foundation/open-brush/pull/564) by @andybak)
 
 - Video batch file fix ([PR #565](https://github.com/icosa-foundation/open-brush/pull/565) by @andybak)
+
+- Quest panel UI fixes ([PR #569](https://github.com/icosa-foundation/open-brush/pull/569) by @andybak)
 
 
 ## 🛠️ Infrastructure
