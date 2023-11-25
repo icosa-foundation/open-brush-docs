@@ -1,6 +1,6 @@
 # Changelog since v2.2
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...97306b0425fb8b0f27f4413de9758bc5f59b868e)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...1774ed4efb5b0cb1da0cb2c4ec43f83b3025cff5)
 
 ## 🚀 Features
 
@@ -177,6 +177,8 @@
 - Update license used for PRs from forks ([PR #560](https://github.com/icosa-foundation/open-brush/pull/560) by @mikeage)
 
 - Enable masking of UNITY_PASSWORD ([PR #566](https://github.com/icosa-foundation/open-brush/pull/566) by @mikeage)
+
+- [TEMP] Use a forked version of unity-builder that doesn't randomize UUIDs ([PR #570](https://github.com/icosa-foundation/open-brush/pull/570) by @mikeage)
 
 
 ## 📦 Dependencies / Maintenance
