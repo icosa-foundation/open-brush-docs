@@ -108,6 +108,26 @@ Videos can be rendered ‘offline’ faster and at a much higher resolution and 
 
 Currently Open Brush doesn't support recording video directly on the headset. There are two main ways to work around this limitation.
 
-### Draw a Camera Path in the headset and render on a computer
+### Option 1: Draw a Camera Path in the headset and render on a computer
 
-Standalone headsets like the Quest have the same Camera Path Tool as PC VR - the difference is that the record button is currently disabled. However any paths you create are saved with your sketch and can be copied to a PC or Mac and rendered there. The PC doesn't need to be a VR-capable PC.&#x20;
+Standalone headsets like the Quest have the same Camera Path Tool as PC VR - the difference is that the record button is currently disabled. However any paths you create are saved with your sketch and can be copied to a PC or Mac and rendered there. The PC doesn't need to be a VR-capable PC - you can run Open Brush in a mode that doesn't require a VR headset.
+
+There is an example script you can use to help you generate the video.&#x20;
+
+1. Launch Open Brush at least once to ensure the correct folders are created in your Documents folder.
+2. Copy the sketch from your headset to the Open Brush/Sketches folder on your PC
+3. Ensure Open Brush is running and then switch to your web browser and enter this url: [http://localhost:40074/help/](http://localhost:40074/help/)
+
+<figure><img src="../.gitbook/assets/image (48).png" alt=""><figcaption></figcaption></figure>
+
+4.  Click on the Example Scripts link and then click on **/examplescripts/record\_camera\_path.html**\
+
+
+    <figure><img src="../.gitbook/assets/image (49).png" alt=""><figcaption></figcaption></figure>
+5. Click browse and select the sketch you copied from the Quest earlier
+6. Click "Go"
+7. This will generate the video as if you'd recorded the path inside the headset
+
+### Option 2: Use native Quest video recording feature
+
+This allows you to record what you can see and record by moving through the scene. The quality will be lower than the above method and you may need to ensure that UI elements are hidden (The [Spectator script ](open-brush-api/)can help with this)
