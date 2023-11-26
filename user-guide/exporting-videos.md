@@ -1,9 +1,7 @@
 # Exporting video
 
-###
-
 {% hint style="info" %}
-Quest and other Standalone Headset Users - exporting video directly from within Open Brush is currently only supported for PC VR only.
+Quest and other Standalone Headset Users - exporting video directly from within Open Brush is currently only supported for PC VR only. See the [section below](exporting-videos.md#quest-and-other-non-pc-devices)
 {% endhint %}
 
 ### The Camera Tool
@@ -60,8 +58,6 @@ uniform float eyeScale = 0.1
 
 Then you can just try re-rendering with the batch file.
 
-
-
 {% hint style="info" %}
 If you're rendering stereoscopic video then reducing eyeScale will reduce the strength of the stereo effect as well. It's often better to scale your scene in this case.
 {% endhint %}
@@ -106,4 +102,12 @@ Videos can be rendered ‘offline’ faster and at a much higher resolution and 
 18. **Uploading to Youtube**
     1. Upload the new “injected” video file to YouTube
     2. Note that it takes YouTube some additional time to process 360 videos, until this process is finished, you may see the raw over/under and the “View in Cardboard” option will not be available.
-    3. Once processing is done, you should see this icon when viewing the video on your phone, indicating that it’s ready to be viewed in VR:
+    3. Once processing is done, you should see an icon when viewing the video on your phone, indicating that it’s ready to be viewed in VR.
+
+## Quest and Other Non-PC Devices
+
+Currently Open Brush doesn't support recording video directly on the headset. There are two main ways to work around this limitation.
+
+### Draw a Camera Path in the headset and render on a computer
+
+Standalone headsets like the Quest have the same Camera Path Tool as PC VR - the difference is that the record button is currently disabled. However any paths you create are saved with your sketch and can be copied to a PC or Mac and rendered there. The PC doesn't need to be a VR-capable PC.&#x20;
