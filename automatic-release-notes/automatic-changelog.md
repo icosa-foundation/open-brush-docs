@@ -1,6 +1,6 @@
 # Changelog since v2.2
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...48190c9286d286da5db98f7acc8cf8f8d89fe375)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...fd75e7aec31ec264f233c97e11080a609124f44d)
 
 ## 🚀 Features
 
@@ -181,6 +181,8 @@
 - Enable masking of UNITY_PASSWORD ([PR #566](https://github.com/icosa-foundation/open-brush/pull/566) by @mikeage)
 
 - [TEMP] Use a forked version of unity-builder that doesn't randomize UUIDs ([PR #570](https://github.com/icosa-foundation/open-brush/pull/570) by @mikeage)
+
+- Update pre-commit with plugins that are compatible with python 3.12 ([PR #572](https://github.com/icosa-foundation/open-brush/pull/572) by @mikeage)
 
 
 ## 📦 Dependencies / Maintenance
