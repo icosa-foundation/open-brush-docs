@@ -1,6 +1,6 @@
 # Changelog since v2.2
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...fd75e7aec31ec264f233c97e11080a609124f44d)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...691eb724eaec1b7d84b8a8d8e159e5d1313b9717)
 
 ## 🚀 Features
 
@@ -183,6 +183,8 @@
 - [TEMP] Use a forked version of unity-builder that doesn't randomize UUIDs ([PR #570](https://github.com/icosa-foundation/open-brush/pull/570) by @mikeage)
 
 - Update pre-commit with plugins that are compatible with python 3.12 ([PR #572](https://github.com/icosa-foundation/open-brush/pull/572) by @mikeage)
+
+- Speed up the Disk Cleanup step ([PR #574](https://github.com/icosa-foundation/open-brush/pull/574) by @mikeage)
 
 
 ## 📦 Dependencies / Maintenance
