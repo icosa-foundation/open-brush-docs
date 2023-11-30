@@ -1,6 +1,6 @@
 # Changelog since v2.2
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...582d3b2cd7459ae4848611aa5f776f9268457a7d)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...24db9356cbe4e42c0e68b32fcc4a246abb4c6b1a)
 
 ## 🚀 Features
 
@@ -144,6 +144,8 @@
 - Video batch file fix ([PR #565](https://github.com/icosa-foundation/open-brush/pull/565) by @andybak)
 
 - Quest panel UI fixes ([PR #569](https://github.com/icosa-foundation/open-brush/pull/569) by @andybak)
+
+- i18n Tidy up ([PR #576](https://github.com/icosa-foundation/open-brush/pull/576) by @mikeskydev)
 
 
 ## 🛠️ Infrastructure
