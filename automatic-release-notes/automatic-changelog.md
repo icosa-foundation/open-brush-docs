@@ -1,6 +1,6 @@
 # Changelog since v2.2
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...24db9356cbe4e42c0e68b32fcc4a246abb4c6b1a)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...526c264b8706cea6122c05c115565d98794f2668)
 
 ## 🚀 Features
 
@@ -146,6 +146,8 @@
 - Quest panel UI fixes ([PR #569](https://github.com/icosa-foundation/open-brush/pull/569) by @andybak)
 
 - i18n Tidy up ([PR #576](https://github.com/icosa-foundation/open-brush/pull/576) by @mikeskydev)
+
+- Fixes for Quest Accounts Panel showing Desktop version ([PR #575](https://github.com/icosa-foundation/open-brush/pull/575) by @andybak)
 
 
 ## 🛠️ Infrastructure
