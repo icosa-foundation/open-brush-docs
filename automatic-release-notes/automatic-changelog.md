@@ -1,6 +1,6 @@
 # Changelog since v2.2
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...526c264b8706cea6122c05c115565d98794f2668)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...ba4efc3d31dfda8be69a92102cf968dde726c268)
 
 ## 🚀 Features
 
@@ -148,6 +148,8 @@
 - i18n Tidy up ([PR #576](https://github.com/icosa-foundation/open-brush/pull/576) by @mikeskydev)
 
 - Fixes for Quest Accounts Panel showing Desktop version ([PR #575](https://github.com/icosa-foundation/open-brush/pull/575) by @andybak)
+
+- Fix OAuth sign in on Android ([PR #577](https://github.com/icosa-foundation/open-brush/pull/577) by @mikeskydev)
 
 
 ## 🛠️ Infrastructure
