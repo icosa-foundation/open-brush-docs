@@ -1,6 +1,6 @@
 # Changelog since v2.2
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...ba4efc3d31dfda8be69a92102cf968dde726c268)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...815240c65901c6e2b85e5418337d1998673d0f36)
 
 ## 🚀 Features
 
@@ -228,6 +228,8 @@
 - Fix corruption with Quest screenshots ([PR #552](https://github.com/icosa-foundation/open-brush/pull/552) by @andybak)
 
 - Temp revert controller i18n ([PR #567](https://github.com/icosa-foundation/open-brush/pull/567) by @mikeskydev)
+
+- Bump actions/setup-dotnet from 3.2.0 to 4.0.0 ([PR #581](https://github.com/icosa-foundation/open-brush/pull/581) by @dependabot[bot])
 
 
 ## 💬 Uncategorized
