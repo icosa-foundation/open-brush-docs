@@ -1,6 +1,6 @@
 # Changelog since v2.2
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...bfa36baa68ff67469cd3a947582ba321e705691e)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...ccd8b4b1c15fe93d1a22f89885d55d721e5ae500)
 
 ## 🚀 Features
 
@@ -152,6 +152,8 @@
 - Fix OAuth sign in on Android ([PR #577](https://github.com/icosa-foundation/open-brush/pull/577) by @mikeskydev)
 
 - Fix Keijiro Tube and mark Race and Digital as "broken" (hidden by default) ([PR #579](https://github.com/icosa-foundation/open-brush/pull/579) by @andybak)
+
+- Small i18n fixes ([PR #580](https://github.com/icosa-foundation/open-brush/pull/580) by @mikeskydev)
 
 
 ## 🛠️ Infrastructure
