@@ -1,6 +1,6 @@
 # Changelog since v2.2
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...815240c65901c6e2b85e5418337d1998673d0f36)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...bfa36baa68ff67469cd3a947582ba321e705691e)
 
 ## 🚀 Features
 
@@ -150,6 +150,8 @@
 - Fixes for Quest Accounts Panel showing Desktop version ([PR #575](https://github.com/icosa-foundation/open-brush/pull/575) by @andybak)
 
 - Fix OAuth sign in on Android ([PR #577](https://github.com/icosa-foundation/open-brush/pull/577) by @mikeskydev)
+
+- Fix Keijiro Tube and mark Race and Digital as "broken" (hidden by default) ([PR #579](https://github.com/icosa-foundation/open-brush/pull/579) by @andybak)
 
 
 ## 🛠️ Infrastructure
