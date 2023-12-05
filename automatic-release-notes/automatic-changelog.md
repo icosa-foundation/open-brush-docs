@@ -1,6 +1,6 @@
 # Changelog since v2.2
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...ccd8b4b1c15fe93d1a22f89885d55d721e5ae500)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...16b53a728d0e47d9a4da29b31a3111ad92fd5b07)
 
 ## 🚀 Features
 
@@ -61,6 +61,8 @@
 - Allow distinct Quest vs Experimental panel config ([PR #549](https://github.com/icosa-foundation/open-brush/pull/549) by @andybak)
 
 - Update Android SDK Target to v32 (Android 12); request MANAGE_EXTERNAL_STORAGE ([PR #563](https://github.com/icosa-foundation/open-brush/pull/563) by @mikeage)
+
+- Base Multiplayer implementation ([PR #578](https://github.com/icosa-foundation/open-brush/pull/578) by @mikeskydev)
 
 
 ## 🐛 Fixes
