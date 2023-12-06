@@ -1,6 +1,6 @@
 # Changelog since v2.2
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...f3187aaa039f3f2f50ec5ac41ca74f2386ec286a)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...2203db0c213e1b1c1c39dfe49e1b0ff0bf0471d7)
 
 ## 🚀 Features
 
@@ -201,6 +201,8 @@
 - Retry build on license acquisition failure ([PR #571](https://github.com/icosa-foundation/open-brush/pull/571) by @mikeage)
 
 - Create a distinct Quest 1 build ([PR #585](https://github.com/icosa-foundation/open-brush/pull/585) by @mikeage)
+
+- Separate Publishing Quest 1 and Quest 2+ into two jobs ([PR #586](https://github.com/icosa-foundation/open-brush/pull/586) by @mikeage)
 
 
 ## 📦 Dependencies / Maintenance
