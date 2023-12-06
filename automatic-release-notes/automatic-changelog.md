@@ -1,6 +1,6 @@
 # Changelog since v2.2
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...8964d6748c0e93f4e8cd4626694cb533cea4d185)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...f3187aaa039f3f2f50ec5ac41ca74f2386ec286a)
 
 ## 🚀 Features
 
@@ -199,6 +199,8 @@
 - Speed up the Disk Cleanup step ([PR #574](https://github.com/icosa-foundation/open-brush/pull/574) by @mikeage)
 
 - Retry build on license acquisition failure ([PR #571](https://github.com/icosa-foundation/open-brush/pull/571) by @mikeage)
+
+- Create a distinct Quest 1 build ([PR #585](https://github.com/icosa-foundation/open-brush/pull/585) by @mikeage)
 
 
 ## 📦 Dependencies / Maintenance
