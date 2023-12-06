@@ -1,6 +1,6 @@
 # Changelog since v2.2
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...16b53a728d0e47d9a4da29b31a3111ad92fd5b07)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...8964d6748c0e93f4e8cd4626694cb533cea4d185)
 
 ## 🚀 Features
 
@@ -236,6 +236,8 @@
 - Temp revert controller i18n ([PR #567](https://github.com/icosa-foundation/open-brush/pull/567) by @mikeskydev)
 
 - Bump actions/setup-dotnet from 3.2.0 to 4.0.0 ([PR #581](https://github.com/icosa-foundation/open-brush/pull/581) by @dependabot[bot])
+
+- Bump actions/setup-python from 4.7.1 to 4.8.0 ([PR #584](https://github.com/icosa-foundation/open-brush/pull/584) by @dependabot[bot])
 
 
 ## 💬 Uncategorized
