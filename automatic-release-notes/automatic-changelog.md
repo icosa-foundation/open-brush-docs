@@ -1,6 +1,6 @@
 # Changelog since v2.2
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...2203db0c213e1b1c1c39dfe49e1b0ff0bf0471d7)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...e1a1e5826ec1e0950136242c9d302e8cbade7861)
 
 ## 🚀 Features
 
@@ -242,6 +242,8 @@
 - Bump actions/setup-dotnet from 3.2.0 to 4.0.0 ([PR #581](https://github.com/icosa-foundation/open-brush/pull/581) by @dependabot[bot])
 
 - Bump actions/setup-python from 4.7.1 to 4.8.0 ([PR #584](https://github.com/icosa-foundation/open-brush/pull/584) by @dependabot[bot])
+
+- Bump actions/setup-python from 4.8.0 to 5.0.0 ([PR #589](https://github.com/icosa-foundation/open-brush/pull/589) by @dependabot[bot])
 
 
 ## 💬 Uncategorized
