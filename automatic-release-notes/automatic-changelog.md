@@ -1,6 +1,6 @@
 # Changelog since v2.2
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...e1a1e5826ec1e0950136242c9d302e8cbade7861)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...b9d25340e287693555a55e7c849f8be0d6740ca6)
 
 ## 🚀 Features
 
@@ -156,6 +156,10 @@
 - Fix Keijiro Tube and mark Race and Digital as "broken" (hidden by default) ([PR #579](https://github.com/icosa-foundation/open-brush/pull/579) by @andybak)
 
 - Small i18n fixes ([PR #580](https://github.com/icosa-foundation/open-brush/pull/580) by @mikeskydev)
+
+- Fix colours not being calculated when toggling multimirror. Cleanup some dead code ([PR #582](https://github.com/icosa-foundation/open-brush/pull/582) by @andybak)
+
+- Fixes for Sketchbook and popup ([PR #587](https://github.com/icosa-foundation/open-brush/pull/587) by @andybak)
 
 
 ## 🛠️ Infrastructure
