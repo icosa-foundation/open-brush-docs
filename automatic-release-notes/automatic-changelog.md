@@ -1,6 +1,6 @@
 # Changelog since v2.2
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...b9d25340e287693555a55e7c849f8be0d6740ca6)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...a9d1e85d96fb6c487020935da0664bdeebdeafae)
 
 ## 🚀 Features
 
@@ -253,6 +253,8 @@
 ## 💬 Uncategorized
 
 - Update Unity version in README.md ([PR #519](https://github.com/icosa-foundation/open-brush/pull/519) by @andybak)
+
+- Set TrackingOrigin to Stage ([PR #590](https://github.com/icosa-foundation/open-brush/pull/590) by @andybak)
 
 
 
