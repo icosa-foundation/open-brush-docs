@@ -1,6 +1,6 @@
 # Changelog since v2.2
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...a9d1e85d96fb6c487020935da0664bdeebdeafae)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...5dedaa552ab1332b5248b68d4875a77442c3eb9e)
 
 ## 🚀 Features
 
@@ -161,6 +161,8 @@
 
 - Fixes for Sketchbook and popup ([PR #587](https://github.com/icosa-foundation/open-brush/pull/587) by @andybak)
 
+- Update LeakyPen.shader ([PR #591](https://github.com/icosa-foundation/open-brush/pull/591) by @andybak)
+
 
 ## 🛠️ Infrastructure
 
@@ -207,6 +209,8 @@
 - Create a distinct Quest 1 build ([PR #585](https://github.com/icosa-foundation/open-brush/pull/585) by @mikeage)
 
 - Separate Publishing Quest 1 and Quest 2+ into two jobs ([PR #586](https://github.com/icosa-foundation/open-brush/pull/586) by @mikeage)
+
+- Change build directories to align with the unity-builder standard directories ([PR #593](https://github.com/icosa-foundation/open-brush/pull/593) by @mikeage)
 
 
 ## 📦 Dependencies / Maintenance
