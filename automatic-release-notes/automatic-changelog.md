@@ -1,6 +1,6 @@
 # Changelog since v2.2
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...6ab2cd6b6a10d22f33ce7f47f51108c09b39dd37)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...b9c9ae0537ee40949a645f68d34621d88835a66e)
 
 ## 🚀 Features
 
@@ -215,6 +215,8 @@
 - Change build directories to align with the unity-builder standard directories ([PR #593](https://github.com/icosa-foundation/open-brush/pull/593) by @mikeage)
 
 - Catch exceptions in DoBuild() and print them in a way that Github will highlight ([PR #592](https://github.com/icosa-foundation/open-brush/pull/592) by @mikeage)
+
+- Automatically create a new cache whenever the dependencies change ([PR #594](https://github.com/icosa-foundation/open-brush/pull/594) by @mikeage)
 
 
 ## 📦 Dependencies / Maintenance
