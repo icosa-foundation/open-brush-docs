@@ -1,6 +1,6 @@
 # Changelog since v2.2
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...5dedaa552ab1332b5248b68d4875a77442c3eb9e)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...6ab2cd6b6a10d22f33ce7f47f51108c09b39dd37)
 
 ## 🚀 Features
 
@@ -161,6 +161,8 @@
 
 - Fixes for Sketchbook and popup ([PR #587](https://github.com/icosa-foundation/open-brush/pull/587) by @andybak)
 
+- Set TrackingOrigin to Stage ([PR #590](https://github.com/icosa-foundation/open-brush/pull/590) by @andybak)
+
 - Update LeakyPen.shader ([PR #591](https://github.com/icosa-foundation/open-brush/pull/591) by @andybak)
 
 
@@ -212,6 +214,8 @@
 
 - Change build directories to align with the unity-builder standard directories ([PR #593](https://github.com/icosa-foundation/open-brush/pull/593) by @mikeage)
 
+- Catch exceptions in DoBuild() and print them in a way that Github will highlight ([PR #592](https://github.com/icosa-foundation/open-brush/pull/592) by @mikeage)
+
 
 ## 📦 Dependencies / Maintenance
 
@@ -257,8 +261,6 @@
 ## 💬 Uncategorized
 
 - Update Unity version in README.md ([PR #519](https://github.com/icosa-foundation/open-brush/pull/519) by @andybak)
-
-- Set TrackingOrigin to Stage ([PR #590](https://github.com/icosa-foundation/open-brush/pull/590) by @andybak)
 
 
 
