@@ -1,6 +1,6 @@
 # Changelog since v2.2
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...b9c9ae0537ee40949a645f68d34621d88835a66e)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...da66b93d64371c955b7e5ad74100ce664a1f6bcb)
 
 ## 🚀 Features
 
@@ -217,6 +217,8 @@
 - Catch exceptions in DoBuild() and print them in a way that Github will highlight ([PR #592](https://github.com/icosa-foundation/open-brush/pull/592) by @mikeage)
 
 - Automatically create a new cache whenever the dependencies change ([PR #594](https://github.com/icosa-foundation/open-brush/pull/594) by @mikeage)
+
+- Only save PackageCache if it's based on the unmodified packages-lock.json ([PR #595](https://github.com/icosa-foundation/open-brush/pull/595) by @mikeage)
 
 
 ## 📦 Dependencies / Maintenance
