@@ -1,6 +1,6 @@
 # Changelog since v2.2
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...da66b93d64371c955b7e5ad74100ce664a1f6bcb)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...6e0569bdd9af90e88ab22628f31ab8d9f2c4e77c)
 
 ## 🚀 Features
 
@@ -219,6 +219,8 @@
 - Automatically create a new cache whenever the dependencies change ([PR #594](https://github.com/icosa-foundation/open-brush/pull/594) by @mikeage)
 
 - Only save PackageCache if it's based on the unmodified packages-lock.json ([PR #595](https://github.com/icosa-foundation/open-brush/pull/595) by @mikeage)
+
+- Don't include the _BackUpThisFolder_ButDontShipItWithYourGame folder in the artifacts ([PR #588](https://github.com/icosa-foundation/open-brush/pull/588) by @mikeage)
 
 
 ## 📦 Dependencies / Maintenance
