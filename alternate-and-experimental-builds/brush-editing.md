@@ -4,11 +4,11 @@
 
 ## Download
 
-* [Oculus Quest](https://nightly.link/IxxyXR/open-brush/workflows/build/features%2Fbrush-editing/Oculus%20Quest.zip)
-* [Oculus PC VR ](https://nightly.link/IxxyXR/open-brush/workflows/build/features%2Fbrush-editing/Windows%20Rift.zip)(Rift, Quest via Link cable...)
-* [SteamVR ](https://nightly.link/IxxyXR/open-brush/workflows/build/features%2Fbrush-editing/Windows%20OpenXR.zip)(Vive, Index, Reverb...)
-* [Other Builds](https://nightly.link/IxxyXR/open-brush/workflows/build/features%2Fbrush-editing) (Pico, Pimax etc)
-* [Code](https://github.com/IxxyXR/open-brush/tree/features/brush-editing)
+* [Oculus Quest](https://nightly.link/Icosa-Foundation/open-brush/workflows/build/features%2Fbrush-editing/Oculus%20Quest.zip)
+* [Oculus PC VR ](https://nightly.link/Icosa-Foundation/open-brush/workflows/build/features%2Fbrush-editing/Windows%20Rift.zip)(Rift, Quest via Link cable...)
+* [SteamVR ](https://nightly.link/Icosa-Foundation/open-brush/workflows/build/features%2Fbrush-editing/Windows%20OpenXR.zip)(Vive, Index, Reverb...)
+* [Other Builds](https://nightly.link/Icosa-Foundation/open-brush/workflows/build/features%2Fbrush-editing) (Pico, Pimax etc)
+* [Code](https://github.com/Icosa-Foundation/open-brush/tree/features/brush-editing)
 
 ### What does it do?
 
