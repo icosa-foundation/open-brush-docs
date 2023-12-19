@@ -1,6 +1,6 @@
 # Changelog since v2.2
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...2cdb32c0feb81cb6af88b6236cc28f88b97df4ac)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...fb502eb5ab037c0d5fe345438a12062e23cc6b3b)
 
 ## 🚀 Features
 
@@ -227,6 +227,8 @@
 - Upload Pico builds automatically ([PR #597](https://github.com/icosa-foundation/open-brush/pull/597) by @mikeage)
 
 - Update actions from Pico CI PR to v4 ([PR #603](https://github.com/icosa-foundation/open-brush/pull/603) by @mikeage)
+
+- Don't include the changelog as notes for Pico (limit 1000 characters) ([PR #604](https://github.com/icosa-foundation/open-brush/pull/604) by @mikeage)
 
 
 ## 📦 Dependencies / Maintenance
