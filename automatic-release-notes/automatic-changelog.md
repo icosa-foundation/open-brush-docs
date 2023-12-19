@@ -1,6 +1,6 @@
 # Changelog since v2.2
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...fb502eb5ab037c0d5fe345438a12062e23cc6b3b)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...f093fb2ef1cc0d9b785625a89299ec7704cdb0fe)
 
 ## 🚀 Features
 
@@ -166,6 +166,8 @@
 - Update LeakyPen.shader ([PR #591](https://github.com/icosa-foundation/open-brush/pull/591) by @andybak)
 
 - Correctly set model layer when loading a sketch ([PR #601](https://github.com/icosa-foundation/open-brush/pull/601) by @andybak)
+
+- Fix positioning of layer rename keyboard ([PR #602](https://github.com/icosa-foundation/open-brush/pull/602) by @andybak)
 
 
 ## 🛠️ Infrastructure
