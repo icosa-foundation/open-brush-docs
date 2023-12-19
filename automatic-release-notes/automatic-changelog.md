@@ -1,6 +1,6 @@
 # Changelog since v2.2
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...138d24193ad3273568ca013ddedcace625c9963e)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...a37aad27ea20656001f502028b488c7be6170bc3)
 
 ## 🚀 Features
 
@@ -223,6 +223,8 @@
 - Only save PackageCache if it's based on the unmodified packages-lock.json ([PR #595](https://github.com/icosa-foundation/open-brush/pull/595) by @mikeage)
 
 - Don't include the _BackUpThisFolder_ButDontShipItWithYourGame folder in the artifacts ([PR #588](https://github.com/icosa-foundation/open-brush/pull/588) by @mikeage)
+
+- Upload Pico builds automatically ([PR #597](https://github.com/icosa-foundation/open-brush/pull/597) by @mikeage)
 
 
 ## 📦 Dependencies / Maintenance
