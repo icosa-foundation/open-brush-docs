@@ -1,6 +1,6 @@
 # Changelog since v2.2
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...a37aad27ea20656001f502028b488c7be6170bc3)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...2cdb32c0feb81cb6af88b6236cc28f88b97df4ac)
 
 ## 🚀 Features
 
@@ -225,6 +225,8 @@
 - Don't include the _BackUpThisFolder_ButDontShipItWithYourGame folder in the artifacts ([PR #588](https://github.com/icosa-foundation/open-brush/pull/588) by @mikeage)
 
 - Upload Pico builds automatically ([PR #597](https://github.com/icosa-foundation/open-brush/pull/597) by @mikeage)
+
+- Update actions from Pico CI PR to v4 ([PR #603](https://github.com/icosa-foundation/open-brush/pull/603) by @mikeage)
 
 
 ## 📦 Dependencies / Maintenance
