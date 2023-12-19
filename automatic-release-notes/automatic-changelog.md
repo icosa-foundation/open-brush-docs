@@ -1,6 +1,6 @@
 # Changelog since v2.2
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...19ab5ae054b8dd2cf06d264ddc2170ae7fed412e)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...138d24193ad3273568ca013ddedcace625c9963e)
 
 ## 🚀 Features
 
@@ -164,6 +164,8 @@
 - Set TrackingOrigin to Stage ([PR #590](https://github.com/icosa-foundation/open-brush/pull/590) by @andybak)
 
 - Update LeakyPen.shader ([PR #591](https://github.com/icosa-foundation/open-brush/pull/591) by @andybak)
+
+- Correctly set model layer when loading a sketch ([PR #601](https://github.com/icosa-foundation/open-brush/pull/601) by @andybak)
 
 
 ## 🛠️ Infrastructure
