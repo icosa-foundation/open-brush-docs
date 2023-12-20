@@ -6,16 +6,12 @@
 
 ## Downloads
 
-* [Oculus Quest 1](https://nightly.link/icosa-foundation/open-brush/workflows/build/feature%2F3d-shapes/Oculus%20Quest%20%281%29.zip)
-* [Oculus Quest 2 or 3](https://nightly.link/icosa-foundation/open-brush/workflows/build/feature%2F3d-shapes/Oculus%20Quest%20%281%29.zip)
+* [Oculus Quest 1](https://nightly.link/icosa-foundation/open-brush/workflows/build/feature%2F3d-shapes/Oculus%20Quest%20\(1\).zip)
+* [Oculus Quest 2 or 3](https://nightly.link/icosa-foundation/open-brush/workflows/build/feature%2F3d-shapes/Oculus%20Quest%20\(1\).zip)
 * [Oculus PC VR](https://nightly.link/icosa-foundation/open-brush/workflows/build/feature%2F3d-shapes/Windows%20Rift.zip) (Rift, Quest via Link cable...)
 * [SteamVR and other PC VR](https://nightly.link/icosa-foundation/open-brush/workflows/build/feature%2F3d-shapes/Windows%20OpenXR.zip) (Vive, Index, Reverb...)
 * [Other Builds](https://nightly.link/icosa-foundation/open-brush/workflows/build/feature%2F3d-shapes) (Pico, Pimax etc)
 * [Code](https://github.com/icosa-foundation/open-brush/tree/feature/3d-shapes)
-
-{% hint style="info" %}
-There's currently no separate build. Instead use the [Combined Build](https://docs.openbrush.app/alternate-and-experimental-builds/combined-testing-build)
-{% endhint %}
 
 ### What does it do?
 
