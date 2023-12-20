@@ -1,6 +1,6 @@
 # Changelog since v2.2
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...f093fb2ef1cc0d9b785625a89299ec7704cdb0fe)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...291763f46d3af08b3b43ad2b0f360757e19e6abd)
 
 ## 🚀 Features
 
@@ -168,6 +168,8 @@
 - Correctly set model layer when loading a sketch ([PR #601](https://github.com/icosa-foundation/open-brush/pull/601) by @andybak)
 
 - Fix positioning of layer rename keyboard ([PR #602](https://github.com/icosa-foundation/open-brush/pull/602) by @andybak)
+
+- Don't allow selection of media widgets if not on the active layer ([PR #606](https://github.com/icosa-foundation/open-brush/pull/606) by @andybak)
 
 
 ## 🛠️ Infrastructure
