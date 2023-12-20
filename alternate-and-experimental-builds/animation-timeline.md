@@ -8,11 +8,12 @@ Developed by [Benji Costin](mailto:b3nsup@gmail.com) with support from [The Icos
 
 ## Download
 
-* [Oculus Quest](https://nightly.link/Seth-Rough/open-brush-animation/workflows/build/main/Oculus%20Quest.zip)
-* [Oculus PC VR ](https://nightly.link/Seth-Rough/open-brush-animation/workflows/build/main/Windows%20Rift.zip)(Rift, Quest via Link cable...)
-* [SteamVR ](https://nightly.link/Seth-Rough/open-brush-animation/workflows/build/main/Windows%20OpenXR.zip)(Vive, Index, Reverb...)
-* [Other Builds](https://nightly.link/Seth-Rough/open-brush-animation/workflows/build/main) (Pico, Pimax etc)
-* [Code](https://github.com/Seth-Rough/open-brush-animation/tree/main/moonsharp)
+* [Oculus Quest 1](https://nightly.link/icosa-foundation/open-brush/workflows/build/feature%2Fanimation/Oculus%20Quest%20%281%29.zip)
+* [Oculus Quest 2 or 3](https://nightly.link/icosa-foundation/open-brush/workflows/build/feature%2Fanimation/Oculus%20Quest%20%281%29.zip)
+* [Oculus PC VR](https://nightly.link/icosa-foundation/open-brush/workflows/build/feature%2Fanimation/Windows%20Rift.zip)(Rift, Quest via Link cable...)
+* [SteamVR and other PC VR](https://nightly.link/icosa-foundation/open-brush/workflows/build/feature%2Fanimation/Windows%20OpenXR.zip)(Vive, Index, Reverb...)
+* [Other Builds](https://nightly.link/icosa-foundation/open-brush/workflows/build/feature%2Fanimation) (Pico, Pimax etc)
+* [Code](https://github.com/icosa-foundation/open-brush/tree/feature/animation)
 
 ### What does it do?
 
