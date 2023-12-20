@@ -74,3 +74,13 @@ Tilt Brush. Running in a browser!
 {% embed url="https://www.tkbala.com/tutorivr" %}
 
 A VR-embedded tutorial system that supplements video tutorials with 3D and contextual aids directly in the user's VR environment.
+
+## Full list of known Work in Progress
+
+There's more features that are being worked on that listed above. We've omitted them because they are either too incomplete for users to try out or they have put on hold for some reason (usually that we're too busy to finish them at the moment!)
+
+Here's the complete list that contains many items above plus a few more!
+
+(If you can help out with any of these - please get in touch!)
+
+{% embed url="https://docs.google.com/spreadsheets/d/1j_eIGT0PeOeviy1tz47qUdho_EG51tcFgHIS-4Fe9mU/edit#gid=0" %}
