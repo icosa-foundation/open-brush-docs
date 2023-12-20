@@ -7,12 +7,13 @@ If you're using this build and find a bug, it would be really helpful if you cou
 Currently this build combines all the features in the [beta release](../automatic-release-notes/automatic-changelog.md) plus the following features:
 
 * [3D Shapes](3d-shapes.md)
+* [Animation Timeline](animation-timeline.md)
 * [Plugin Scripting](runtime-scripting/)
 
 ## Downloads
 
-* [Oculus Quest 1](https://nightly.link/icosa-foundation/open-brush/workflows/build/feature%2Fkitchen-sink/Oculus%20Quest%20%281%29.zip)
-* [Oculus Quest 2 or 3](https://nightly.link/icosa-foundation/open-brush/workflows/build/feature%2Fkitchen-sink/Oculus%20Quest%20%281%29.zip)
+* [Oculus Quest 1](https://nightly.link/icosa-foundation/open-brush/workflows/build/feature%2Fkitchen-sink/Oculus%20Quest%20\(1\).zip)
+* [Oculus Quest 2 or 3](https://nightly.link/icosa-foundation/open-brush/workflows/build/feature%2Fkitchen-sink/Oculus%20Quest%20\(1\).zip)
 * [Oculus PC VR](https://nightly.link/icosa-foundation/open-brush/workflows/build/feature%2Fkitchen-sink/Windows%20Rift.zip) (Rift, Quest via Link cable...)
 * [SteamVR and other PC VR](https://nightly.link/icosa-foundation/open-brush/workflows/build/feature%2Fkitchen-sink/Windows%20OpenXR.zip) (Vive, Index, Reverb...)
 * [Other Builds](https://nightly.link/icosa-foundation/open-brush/workflows/build/feature%2Fkitchen-sink) (Pico, Pimax etc...)
