@@ -1,6 +1,6 @@
 # Feature: Improved GLTF Importer
 
-#### Status: Merged into the [current beta](../../automatic-release-notes/automatic-changelog.md)
+#### Status: Merged into the [current beta](../../release-history/automatic-changelog/)
 
 ## Download
 

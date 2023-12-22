@@ -4,7 +4,7 @@ To make trying out multiple features easier I maintain a "Kitchen Sink" build th
 
 If you're using this build and find a bug, it would be really helpful if you could check to see if that bug also appears on the relevant single feature build.
 
-Currently this build combines all the features in the [beta release](../automatic-release-notes/automatic-changelog.md) plus the following features:
+Currently this build combines all the features in the [beta release](../release-history/automatic-changelog/) plus the following features:
 
 * [3D Shapes](3d-shapes.md)
 * [Animation Timeline](animation-timeline.md)

@@ -8,7 +8,7 @@ The beta version is _usually_ fairly solid but testing is invaluable - especiall
 \
 The best way to help test is to switch to using it instead of the normal version of Open Brush and to report any issues you find by posting to our [Support Forum](https://discord.com/channels/783806589991780412/1019733473797341225) on Discord (or if you need to chat before you're confident enough to report a bug, just post in the [General channel](https://discord.com/channels/783806589991780412/783806589991780415))
 
-To help you focus on testing the right things you can see a list of [changes and new features in the beta version here.](../automatic-release-notes/automatic-changelog.md)&#x20;
+To help you focus on testing the right things you can see a list of [changes and new features in the beta version here.](../release-history/automatic-changelog/)
 
 ## Testing Pull Requests
 
@@ -39,4 +39,3 @@ Just click on the name that matches your headset and it will begin to download a
 [Experimental builds](../alternate-and-experimental-builds/#beta-release) are the real bleeding edge. Some of the features might never make it into the official release. They can vary from "nearly ready" all the way to "barely working".
 
 However - early on in the development of a new feature is when feedback is most likely to be useful and most likely to alter the direction a feature takes. These are the builds you want to be testing if you want to have a say in Open Brush development.
-

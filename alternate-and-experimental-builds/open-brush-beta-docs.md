@@ -2,8 +2,8 @@
 
 This build is the pre-release version of Open Brush and may contain untested new features.
 
-{% content-ref url="../automatic-release-notes/automatic-changelog.md" %}
-[automatic-changelog.md](../automatic-release-notes/automatic-changelog.md)
+{% content-ref url="../release-history/automatic-changelog/" %}
+[automatic-changelog](../release-history/automatic-changelog/)
 {% endcontent-ref %}
 
 ### Important note <a href="#_lnka1z4mzei7" id="_lnka1z4mzei7"></a>
