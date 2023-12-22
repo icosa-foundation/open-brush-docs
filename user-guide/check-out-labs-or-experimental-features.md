@@ -91,3 +91,4 @@ See the section on [Scripting Open Brush](check-out-labs-or-experimental-feature
 
 See the section on [Snapping](grid-and-angle-snapping.md)
 
+***
