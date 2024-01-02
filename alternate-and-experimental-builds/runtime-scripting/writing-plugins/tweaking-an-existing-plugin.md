@@ -1,6 +1,6 @@
 # Tweaking existing plugins
 
-A great way to get comfortable with how plugin scripting works - especially if you've never coded before - is to look at existing scripts and modify how they work on small (or not so small) ways.
+A great way to get comfortable with how plugin scripting works - especially if you've never coded before - is to look at existing scripts and modify how they work in small (or maybe not so small!) ways.
 
 Any of the example plugins can be copied to your Open Brush plugins folder simply by clicking the copy button for that plugin type: <img src="../../../.gitbook/assets/image (2).png" alt="" data-size="line">
 
