@@ -1,6 +1,6 @@
 # Using Plugins
 
-You can open the Script panel from a new button the Experimental Panel.
+You can open the Scripts Panel from a button on the Experimental Panel (You'll need to be in [Experimental Mode](../../user-guide/experimental-mode.md)).
 
 ![](<../../.gitbook/assets/image (1) (3).png>)
 
