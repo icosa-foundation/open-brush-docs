@@ -16,7 +16,7 @@ function Main()
 end
 ```
 
-This does nothing at all. It returns a transform called "identity" which means "no change at all". Other ways to write that are:
+This does nothing at all. It returns a transform called "identity" which means "no change at all". There are several other ways to express the same thing:
 
 ```lua
 -- Explicitly returns zero for position, rotation and scale.
