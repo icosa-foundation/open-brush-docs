@@ -40,6 +40,12 @@ So - a plugin script that does nothing isn't much fun. Let's change it so it doe
 function Main()
     return Transform:New(0,1,0)
 end
+
+-- or
+
+function Main()
+    return Transform:Vector3.up
+end
 ```
 
 Vector3.up is another shorthand - this time it's shorthand for Vector3:New(0, 1, 0)\
