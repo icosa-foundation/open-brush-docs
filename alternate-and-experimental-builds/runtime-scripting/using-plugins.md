@@ -12,19 +12,19 @@ The other four rows of buttons each relates to a different type of plugin. From 
 
 ### Pointer Plugin
 
-These are the simplest type of plugin. They can change how your brush works while you are painting brush strokes. They can't (currently) create new types of brush but they can change the motion, size, color of the stroke. And they can start and end strokes (for example to create dashed lines). They can even add extra strokes as you paint (for example to create a web of lines back to your starting point). Here are some of the included example Pointer Plugins.
+These are the simplest type of plugin. They can change how your brush works while you are painting brush strokes. They can't (currently) create new types of brush but they can change the motion, size, color of the stroke. And they can start and end strokes (for example to create dashed lines). They can even add extra strokes as you paint (for example to create a web of lines back to your starting point). Here are some of the included [example Pointer Plugins](example-plugins/example-pointer-plugins.md).
 
 ### Symmetry Plugins
 
-Symmetry plugins supercharge the Mirror tool. Instead of simply adding a single extra stroke mirrored horizontally, Symmetry Plugins can create multiple copies of your brush stroke in any arrangement. The strokes can be mirrored, rotated, reflected or even scaled. They can be oriented around the mirror widget - or they can follow your brush like a flock of birds. Each stroke can have a different color, size or even use a different brush type. Here are some of the included example Symmetry Plugins:
+Symmetry plugins supercharge the Mirror tool. Instead of simply adding a single extra stroke mirrored horizontally, Symmetry Plugins can create multiple copies of your brush stroke in any arrangement. The strokes can be mirrored, rotated, reflected or even scaled. They can be oriented around the mirror widget - or they can follow your brush like a flock of birds. Each stroke can have a different color, size or even use a different brush type. Here are some of the included [example Symmetry Plugins](example-plugins/example-symmetry-plugins.md).
 
 ### Tool Plugins
 
-The previous two types of plugin work in conjunction with the regular Brush Tool and simply change or add to the brush strokes you draw. Tool Plugins are are more powerful and can implement entirely new tools. They might create new objects in one go - or modify existing ones. Each plugin can behave in different ways so check each script's instructions to understand what it does. Here are some of the included example Tool Plugins:
+The previous two types of plugin work in conjunction with the regular Brush Tool and simply change or add to the brush strokes you draw. Tool Plugins are are more powerful and can implement entirely new tools. They might create new objects in one go - or modify existing ones. Each plugin can behave in different ways so check each script's instructions to understand what it does. Here are some of the included [example Tool Plugins](example-plugins/example-tool-plugins.md).
 
 ### Background Plugins
 
-The final type of plugin takes the flexibility one step further. Background plugins can do almost anything. They are more complicated to write but they have less restrictions. For a start they run all the time and can listen in to button presses, track controller movement and react accordingly. They can create repeating animations by moving layers around, they can perform actions based on timers or external signals. And you can have multiple Background Plugins active at once (You can only activate one of each of the other plugin types at any one time). Here are some of the included example Background Plugins:
+The final type of plugin takes the flexibility one step further. Background plugins can do almost anything. They are more complicated to write but they have less restrictions. For a start they run all the time and can listen in to button presses, track controller movement and react accordingly. They can create repeating animations by moving layers around, they can perform actions based on timers or external signals. And you can have multiple Background Plugins active at once (You can only activate one of each of the other plugin types at any one time). Here are some of the included [example Background Plugins](example-plugins/example-background-plugins.md).
 
 ## Selecting and Activating a Plugin
 
