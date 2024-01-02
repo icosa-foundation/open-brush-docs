@@ -42,7 +42,8 @@ If you're using Visual Studio Code then follow these steps:\
 8. Scroll down to **Lua> Workspace: Library** and add the path to your LuaModules folder:\
    \
    <img src="../../../.gitbook/assets/image (1) (1).png" alt="" data-size="original">
-9. Create a new file inside Plugins called PointerScript.Test.lua and start typing:
+9. Now we've finished with settings we want to make sure it all works. We will start a simple script to check the code completion is working. Create a new file in your Documents/Open Brush/Plugins folder (not inside LuaModules) and name it PointerScript.Test.lua\
+   Then start typing:
 
 ```lua
 function Start()
