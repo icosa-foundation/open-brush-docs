@@ -4,7 +4,7 @@ You can open the Scripts Panel from a button on the Experimental Panel (You'll n
 
 ![](<../../.gitbook/assets/image (1) (3).png>)
 
-The buttons at the bottom are related to the older [HTTP API Scripts](../../user-guide/open-brush-api/) which are are useful for controlling Open Brush remotely. However the new plugin scripts can add new features and modify how Open Brush works interactively - making them much more powerful.
+We won't be using the buttons on the bottom row at the moment. These are related to the older [HTTP API Scripts](../../user-guide/open-brush-api/) which are are useful for controlling Open Brush remotely. However the new plugin scripts are much more powerful and can add new features and modify how Open Brush works interactively.
 
 The other four rows of buttons each relates to a different type of plugin. From the top down they are [Tool Plugins](using-plugins.md#tool-plugins), [Symmetry Plugins](using-plugins.md#symmetry-plugins), [Pointer Plugins](using-plugins.md#pointer-plugin) and [Background Plugins](using-plugins.md#background-plugins).&#x20;
 
