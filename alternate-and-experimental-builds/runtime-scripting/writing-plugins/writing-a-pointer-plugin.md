@@ -38,7 +38,7 @@ So - a plugin script that does nothing isn't much fun. Let's change it so it doe
 
 ```lua
 function Main()
-    return Transform:New(Vector3.up)
+    return Transform:New(0,1,0)
 end
 ```
 
