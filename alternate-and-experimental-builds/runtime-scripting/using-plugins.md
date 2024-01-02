@@ -1,6 +1,6 @@
 # Using Plugins
 
-You can open the Scripts Panel from a button on the Experimental Panel (You'll need to be in [Experimental Mode](../../user-guide/experimental-mode.md)).
+pointerYou can open the Scripts Panel from a button on the Experimental Panel (You'll need to be in [Experimental Mode](../../user-guide/experimental-mode.md)).
 
 ![](<../../.gitbook/assets/image (1) (3).png>)
 
@@ -12,7 +12,7 @@ The other four rows of buttons each relates to a different type of plugin. From 
 
 ### Pointer Plugin
 
-These are the simplest type of plugin. They can change how your brush works while you are painting brush strokes. They can't (currently) create new types of brush but they can change the motion, size, color of the stroke. And they can start and end strokes (for example to create dashed lines). They can even add extra strokes as you paint (for example to create a web of lines back to your starting point). Here are some of the included example Pointer Plugins:
+These are the simplest type of plugin. They can change how your brush works while you are painting brush strokes. They can't (currently) create new types of brush but they can change the motion, size, color of the stroke. And they can start and end strokes (for example to create dashed lines). They can even add extra strokes as you paint (for example to create a web of lines back to your starting point). Here are some of the included example Pointer Plugins.
 
 ### Symmetry Plugins
 
