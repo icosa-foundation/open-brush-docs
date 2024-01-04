@@ -104,7 +104,7 @@ Parameters = {
 }
 
 function Main()
-    y = Waveform:Triangle(App.time, frequency)
+    y = Waveform:Triangle(App.time, Parameters.frequency)
     return Transform:Position(0, y, 0)
 end
 ```
