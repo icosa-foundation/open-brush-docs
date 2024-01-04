@@ -11,6 +11,7 @@ A collection of settings for the symmetry mode
 <thead><tr><th>Name</th><th>Return Type</th><th>Description</th></tr></thead>
 <tbody>
 <tr><td>mode</td><td><a href="symmetrymode.md">SymmetryMode</a><br>Read/Write</td><td>The symmetry mode</td></tr>
+<tr><td>transform</td><td><a href="transform.md">Transform</a><br>Read/Write</td><td>The transform of the symmetry widget</td></tr>
 <tr><td>position</td><td><a href="vector3.md">Vector3</a><br>Read/Write</td><td>The position of the symmetry widget</td></tr>
 <tr><td>rotation</td><td><a href="rotation.md">Rotation</a><br>Read/Write</td><td>The rotation of the symmetry widget</td></tr>
 <tr><td>spin</td><td><a href="vector3.md">Vector3</a><br>Read/Write</td><td>How fast the symmetry widget is spinning in each axis</td></tr>
