@@ -160,7 +160,7 @@ Inserts a new point at the specified index
 
 Converts the 2D path to a 3D path on the YZ plane (i.e. with all x values set to 0)
 
-**Returns:** <a href="path.md">Path</a> 
+**Returns:** <a href="path.md">Path</a>  (A 3D Path based on the input but with all x as 0: (0, inX, inY))
 
 
 
@@ -176,7 +176,7 @@ Converts the 2D path to a 3D path on the YZ plane (i.e. with all x values set to
 
 Converts the 2D path to a 3D path on the XZ plane (i.e. with all y values set to 0)
 
-**Returns:** <a href="path.md">Path</a> 
+**Returns:** <a href="path.md">Path</a>  (A 3D Path based on the input but with all y as 0: (inX, 0, inY))
 
 
 
@@ -192,7 +192,7 @@ Converts the 2D path to a 3D path on the XZ plane (i.e. with all y values set to
 
 Converts the 2D path to a 3D path on the XY plane (i.e. with all z values set to 0)
 
-**Returns:** <a href="path.md">Path</a> 
+**Returns:** <a href="path.md">Path</a>  (A 3D Path based on the input but with all z as 0: (inX, inY, 0))
 
 
 

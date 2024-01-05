@@ -426,9 +426,9 @@ Returns the signed angle in degrees between this vector and another
 
 ### vector2:OnX()
 
-Converts this 2D vector to a 3D vector on the YZ plane (i.e. with all x values set to 0)
+Converts this 2D vector to a 3D vector on the YZ plane)
 
-**Returns:** <a href="vector3.md">Vector3</a> 
+**Returns:** <a href="vector3.md">Vector3</a>  (A 3D Vector based on the input but with x as 0: (0, inX, inY))
 
 
 
@@ -444,7 +444,7 @@ Converts this 2D vector to a 3D vector on the YZ plane (i.e. with all x values s
 
 Converts this 2D vector to a 3D vector on the XZ plane (i.e. with all y values set to 0)
 
-**Returns:** <a href="vector3.md">Vector3</a> 
+**Returns:** <a href="vector3.md">Vector3</a>  (A 3D Vector based on the input but with y as 0: (inX, 0, inY))
 
 
 
@@ -460,7 +460,7 @@ Converts this 2D vector to a 3D vector on the XZ plane (i.e. with all y values s
 
 Converts this 2D vector to a 3D vector on the XY plane (i.e. with all z values set to 0)
 
-**Returns:** <a href="vector3.md">Vector3</a> 
+**Returns:** <a href="vector3.md">Vector3</a>  (A 3D Vector based on the input but with z as 0: (inX, inX, 0))
 
 
 
