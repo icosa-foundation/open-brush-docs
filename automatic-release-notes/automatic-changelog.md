@@ -1,6 +1,6 @@
 # Changelog since v2.2
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...23fb0167b2861555b45c9bcd9acacbdedc874688)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...6e823594de4f360395020363e83934640fb42479)
 
 ## 🚀 Features
 
@@ -63,6 +63,8 @@
 - Update Android SDK Target to v32 (Android 12); request MANAGE_EXTERNAL_STORAGE ([PR #563](https://github.com/icosa-foundation/open-brush/pull/563) by @mikeage)
 
 - Base Multiplayer implementation ([PR #578](https://github.com/icosa-foundation/open-brush/pull/578) by @mikeskydev)
+
+- Initial iOS Support ([PR #556](https://github.com/icosa-foundation/open-brush/pull/556) by @mikeskydev)
 
 
 ## 🐛 Fixes
@@ -234,6 +236,8 @@
 
 - Don't include the changelog as notes for Pico (limit 1000 characters) ([PR #604](https://github.com/icosa-foundation/open-brush/pull/604) by @mikeage)
 
+- Update the Steam release procedure ([PR #607](https://github.com/icosa-foundation/open-brush/pull/607) by @mikeage)
+
 
 ## 📦 Dependencies / Maintenance
 
@@ -281,8 +285,6 @@
 ## 💬 Uncategorized
 
 - Update Unity version in README.md ([PR #519](https://github.com/icosa-foundation/open-brush/pull/519) by @andybak)
-
-- Update the Steam release procedure ([PR #607](https://github.com/icosa-foundation/open-brush/pull/607) by @mikeage)
 
 
 
