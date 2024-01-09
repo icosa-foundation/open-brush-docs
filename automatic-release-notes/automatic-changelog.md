@@ -1,6 +1,6 @@
 # Changelog since v2.2
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...6e823594de4f360395020363e83934640fb42479)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...84debce752e616cbfd1b0daad5f86031db221f93)
 
 ## 🚀 Features
 
@@ -285,6 +285,8 @@
 ## 💬 Uncategorized
 
 - Update Unity version in README.md ([PR #519](https://github.com/icosa-foundation/open-brush/pull/519) by @andybak)
+
+- Reset orientation settings ([PR #609](https://github.com/icosa-foundation/open-brush/pull/609) by @mikeskydev)
 
 
 
