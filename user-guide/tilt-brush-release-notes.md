@@ -152,9 +152,24 @@ Videos can be rendered ‘offline’ faster and at a much higher resolution and 
     \*\*\*\*Note: When you create a video from inside Tilt Brush using the Camera tool with configuration "SaveCameraPath" flag set to _true_, Tilt Brush will create a Windows batch file alongside the video (In Documents\Tilt Brush\Videos) that you can run to re-render the video at a higher resolution
 13. Go to C:\Documents\Tilt Brush\Videos . There should be .usda, .bat and video file which corresponds to the .tilt file
 14. Double click on .bat file
-15. If you run that batch file a command window will appear giving you several options for re-rendering your video:![](<../.gitbook/assets/2 (1).png>)Press a number to get whichever format you prefer. It will then launch Tilt Brush, which will reload your sketch, and re-render the video. Once it is done, Tilt Brush will exit. As rendering at higher quality tends to affect the framerate, it is suggested that you do not wear your headset while this process completes.
+15. If you run that batch file a command window will appear giving you several options for re-rendering your video:\
+    \
+    ![](<../.gitbook/assets/2 (1).png>)\
+    \
+    Press a number to get whichever format you prefer. It will then launch Tilt Brush, which will reload your sketch, and re-render the video. Once it is done, Tilt Brush will exit. As rendering at higher quality tends to affect the framerate, it is suggested that you do not wear your headset while this process completes.
 16. Once the render is complete, it will pop open the “VRVideos” folder which should contain an video file with your stereo render.
-17. **Converting into 360 video** 1. [Download the 360° Video Metadata app](https://support.google.com/youtube/answer/6178631?hl=en) for [Mac](https://github.com/google/spatial-media/releases/download/v2.0/360.Video.Metadata.Tool.mac.zip) or [Windows](https://github.com/google/spatial-media/releases/tag/v2.0). The dialog should look like this:![](<../.gitbook/assets/3 (1).png>) 2. Un-zip the file, then open the 360 Video Metadata app. If you're on a Mac, you may need to right-click the app and then click Open. 3. Select the video file. 4. Select the checkbox for My Video is stereoscopic 3D (top/bottom layout) 5. Click Inject Metadata 6. Enter a name for the file that will be created. 7. Save the file. A new file will be created automatically in the same location as the original file.
+17. **Converting into 360 video**\
+    \
+    1\. [Download the 360° Video Metadata app](https://support.google.com/youtube/answer/6178631?hl=en) for [Mac](https://github.com/google/spatial-media/releases/download/v2.0/360.Video.Metadata.Tool.mac.zip) or [Windows](https://github.com/google/spatial-media/releases/tag/v2.0). The dialog should look like this:\
+    \
+    ![](<../.gitbook/assets/3 (1).png>) \
+    \
+    2\. Unzip the file, then open the 360 Video Metadata app. If you're on a Mac, you may need to right-click the app and then click Open.\
+    3\. Select the video file.\
+    4\. Select the checkbox for My Video is stereoscopic 3D (top/bottom layout)\
+    5\. Click Inject Metadata\
+    6\. Enter a name for the file that will be created.\
+    7\. Save the file. A new file will be created automatically in the same location as the original file.
 18. **Uploading to Youtube**
     1. Upload the new “injected” video file to YouTube
     2. Note that it takes YouTube some additional time to process 360 videos, until this process is finished, you may see the raw over/under and the “View in Cardboard” option will not be available.
@@ -162,7 +177,7 @@ Videos can be rendered ‘offline’ faster and at a much higher resolution and 
 
 ![](<../.gitbook/assets/4 (1).png>)
 
-## Tilt Brush Unity Shader Examples
+### Tilt Brush Unity Shader Examples
 
 Use these with geometry you export from Tilt Brush and import into Unity. However, you should prefer to use the [Tilt Brush Toolkit](http://github.com/googlevr/tilt-brush-toolkit), which comes with Tilt Brush shaders.
 
@@ -291,7 +306,7 @@ Shader "Brush/Additive"
 }
 ```
 
-## Tilt Brush File Format
+### Tilt Brush File Format
 
 The .tilt file format can also be parsed by the [Tilt Brush Toolkit](http://github.com/googlevr/tilt-brush-toolkit).
 
@@ -360,7 +375,7 @@ Also inside the zip is "metadata.json", the metadata for the sketch in json form
 
 ## Previous Releases
 
-#### Version 22
+### Version 22
 
 * Added Groups to Selection tool.
   * Grouping allows brush strokes and widgets to share selection state. Select part of a group and the whole group is selected with it.
@@ -393,7 +408,7 @@ Also inside the zip is "metadata.json", the metadata for the sketch in json form
 * Deterministic Geometry Generation.
   * Some stroke behavior is randomized—for example, brush textures and Light Wire light colors. This behavior is now saved into the .tilt, so when you re-load a sketch you will see the same thing as when you drew it.
 
-#### Version 21
+### Version 21
 
 * Quest release only.
 * Added Labs Panel.
@@ -409,8 +424,6 @@ Also inside the zip is "metadata.json", the metadata for the sketch in json form
 * Tilt Brush files moved to “/sdcard/Tilt Brush” on Quest.
   * This prevents work from being lost when Tilt Brush is uninstalled.
 
-####
-
 #### Version 20
 
 * PC release only.
@@ -420,9 +433,7 @@ Also inside the zip is "metadata.json", the metadata for the sketch in json form
 * Drastically decreased the amount of memory allocated during sketch quick-loading.
 * Variety of performance optimizations pulled from the Oculus Quest version.
 
-####
-
-#### Version 19
+### Version 19
 
 * Oculus Quest release only.
 * Deviations from PC.
@@ -446,9 +457,7 @@ Also inside the zip is "metadata.json", the metadata for the sketch in json form
   * Sketches above a certain triangle limit will display a warning in the Showcase and Liked Sketches section of the Sketchbook.
   * Sketches above a certain larger triangle limit will display a more severe warning in the Liked Sketches section of the Sketchbook.
 
-####
-
-#### Version 18
+### Version 18
 
 * New audio for all brushes.
   * Each brush sound is now unique, and subtly reacts to the way you are painting.
@@ -458,21 +467,16 @@ Also inside the zip is "metadata.json", the metadata for the sketch in json form
   * Requires “Tilt Brush.cfg”, stored in: **Documents/Tilt Brush**
   * Format:
 
+```json
 {
-
-"Video": {
-
-"FOV": 90,
-
-},
-
-"Flags": {
-
-"FOV": 100,
-
-},
-
+  "Video": {
+    "FOV": 90
+  },
+  "Flags": {
+    "FOV": 100
+  }
 }
+```
 
 *
   * [How to use the Tilt Brush config file.](broken-reference/)
@@ -483,15 +487,11 @@ Also inside the zip is "metadata.json", the metadata for the sketch in json form
 * Fix some Poly models not loading.
   * Visible error was, “No usable geometry found!”.
 
-####
-
-#### Version 17
+### Version 17
 
 * Added controller support for Windows Mixed Reality headsets on SteamVR
 
-####
-
-#### Version 16
+### Version 16
 
 * NEW BRUSHES! 12 brand new brushes for your enjoyment:
   * Wet Paint - Glossy, high shine paint
@@ -533,9 +533,7 @@ Also inside the zip is "metadata.json", the metadata for the sketch in json form
   * Sped up rendering of UI.
   * Sped up rendering of several brushes.
 
-####
-
-#### Version 15
+### Version 15
 
 * Support for importing any object uploaded to Poly (w/ CC-BY license)
   * The “Poly” panel is located inside Tilt Brush: "Tools" panel -> “More Tools...” -> “Poly”.
@@ -555,9 +553,7 @@ Also inside the zip is "metadata.json", the metadata for the sketch in json form
   * Added the option to use “h.264” encoder, see user config for details.
   * Videos can now be rendered ‘offline’ at a higher resolution and framerate than feasible from inside Tilt Brush. See [Rendering ‘Offline’ Videos](broken-reference/).
 
-####
-
-#### Version 14
+### Version 14
 
 * Blocks Library:
   * Accessible on the “Tools” panel, the Blocks Library allows you to add remixable featured and liked [Blocks](https://vr.google.com/blocks/) objects to your Tilt Brush sketches.
@@ -585,11 +581,11 @@ Also inside the zip is "metadata.json", the metadata for the sketch in json form
 * Tiltasaurus tweaks:
   * Now sketches are saved automatically when a new word is chosen.
 
-#### Version 13
+### Version 13
 
 * Internal version that was either too good to release, or the dev team suffered from triskaidekaphobia.
 
-#### Version 12
+### Version 12
 
 * Ability to “repaint” stroke colors
   * Allows you to change the color of any strokes in your scene
@@ -600,7 +596,7 @@ Also inside the zip is "metadata.json", the metadata for the sketch in json form
 * Ability to view rights reserved sketches liked on tiltbrush.com/sketches
 * Added a parameter in "Tilt Brush.cfg" to control camera smoothing for video captures
 
-#### Version 11
+### Version 11
 
 * UI polish
   * Refreshed panel form factor (rounded edges, same sizes, all elements aligned to a grid)
@@ -624,7 +620,7 @@ Also inside the zip is "metadata.json", the metadata for the sketch in json form
   * Previously, there were issues with color disparity between Linear & Gamma lighting modes.
   * If you export with **Version 10 or above, you should use the new Toolkit.** Otherwise, your colors will look incorrect.
 
-#### Version 10
+### Version 10
 
 * Sharing
   * Share sketches to the [online gallery](https://vr.google.com/sketches)!
@@ -668,7 +664,7 @@ Also inside the zip is "metadata.json", the metadata for the sketch in json form
 * Custom Color Palette is shared across all color pickers.
 * Updated SteamVR plugin to v1.2.0.
 
-#### Version 9
+### Version 9
 
 * Oculus Rift support on Oculus Home
 * Oculus Rift support on SteamVR
@@ -679,7 +675,7 @@ Also inside the zip is "metadata.json", the metadata for the sketch in json form
 * Added 'ShowControllers' flag to config for toggling controller visibility. Intended use for performances, galleries, and mixed reality.
 * Disabled saving videos under a second in length, as they were confusing YouTube upload.
 
-#### Version 8
+### Version 8
 
 * Sharing directly from Tilt Brush to YouTube
   * When you record a video, you now have the option to upload to YouTube.
@@ -705,7 +701,7 @@ Also inside the zip is "metadata.json", the metadata for the sketch in json form
 * Minor placement fixes to the Mirror tool.
 * Added in-app reminder instructions for skipping the intro tutorial.
 
-#### Version 7.5
+### Version 7.5
 
 * Media Library Improvements
   * Support for importing multiple models and images.
@@ -742,7 +738,7 @@ Also inside the zip is "metadata.json", the metadata for the sketch in json form
     * [How to use the Tilt Brush config file.](broken-reference/)
   * Support scripts have moved to the [Tilt Brush Toolkit](https://github.com/googlevr/tilt-brush-toolkit).
 
-#### Version 7
+### Version 7
 
 * Rotate and Resize
   * Hold both grip buttons at the same time to move, turn, or resize yourself.
@@ -802,7 +798,7 @@ Also inside the zip is "metadata.json", the metadata for the sketch in json form
   * References to models are saved with sketches, but the file data is not embedded within the .tilt file. If a sketch is loaded without the referenced model in the Media Library, a missing model icon will be displayed.
   * Added ‘About’ button to Settings for viewing really exciting third party notices.
 
-#### Version 6
+### Version 6
 
 * Audio reactive brushes
   * Added new “Audio Reactive” mode for brushes.
@@ -836,7 +832,7 @@ Also inside the zip is "metadata.json", the metadata for the sketch in json form
 * Unlit brushes made more efficient by using single-sided geometry.
 * Added progress bar when exporting or loading sketches.
 
-#### Version 5
+### Version 5
 
 * Switch versioning numbers to be more open-ended.
 * Added 5-Second Gif mode to MultiCam.
@@ -846,7 +842,7 @@ Also inside the zip is "metadata.json", the metadata for the sketch in json form
 * Fix help text on Twitch Chat window.
 * Allow controller pad click to teleport.
 
-#### Version 1.4
+### Version 1.4
 
 * Added Teleport Tool.
 * Added ability to view YouTube Live chat while streaming. (see notes below)
