@@ -65,7 +65,8 @@ Sample contents of a _Open Brush.cfg_ with various fields filled in:
    },
    "Export":{
       "ExportBinaryFbx":true,
-      "ExportFbxVersion":"FBX201400"
+      "ExportFbxVersion":"FBX201400",
+      "ExportStrokeTimestamp":true
    }
 }
 ```
@@ -86,7 +87,8 @@ Sample contents of a _Open Brush.cfg_ with various fields filled in:
 8. **DisableAudio**: (true | false) This setting allows users to disable audio playback within Open Brush. When set to true, audio playback will be disabled; when set to false, audio playback will function as normal.
 9. **ExportBinaryFbx**: (true | false) This setting controls whether exported FBX files will be in binary format. When set to true, binary FBX files will be exported; when set to false, ASCII FBX files will be exported.
 10. **ExportFbxVersion**: (FBX201600 | FBX201400 | FBX201300 | FBX2012 | FBX201100) This setting specifies the version of the FBX file format to be used when exporting 3D models. Users can choose from FBX201600, FBX201400, FBX201300, FBX2012, or FBX201100. If not specified in the config file, the default version is FBX201400. If users experience issues importing the FBX file into older software, they may need to select an older version.
-11. **Encoder**: (h.264) This setting specifies the video codec used for encoding exported videos. Currently, the only supported codec is h.264.
+11. **ExportStrokeTimestamp:** (true | false) This will put timing information into texcoord2 for all GLB exports. Timestamps are a vec3: x,y = the earliest/latest timestamp in the stroke which contains that vertex. z = the timestamp for that vertex. This setting defaults to true but can be disabled to reduce file size.
+12. **Encoder**: (h.264) This setting specifies the video codec used for encoding exported videos. Currently, the only supported codec is h.264.
 
 ### Setting config values from the command line
 
