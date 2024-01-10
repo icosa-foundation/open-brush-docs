@@ -9,7 +9,7 @@ Developed by [Benji Costin](mailto:b3nsup@gmail.com) with support from [The Icos
 ## Download
 
 * [Oculus Quest 1](https://nightly.link/icosa-foundation/open-brush/workflows/build/feature%2Fanimation/Oculus%20Quest%20%281%29.zip)
-* [Oculus Quest 2 or 3](https://nightly.link/icosa-foundation/open-brush/workflows/build/feature%2Fanimation/Oculus%20Quest%20%281%29.zip)
+* [Oculus Quest 2 or 3](https://nightly.link/icosa-foundation/open-brush/workflows/build/feature%2Fanimation/Oculus%20Quest%20%282%2B%29.zip)
 * [Oculus PC VR](https://nightly.link/icosa-foundation/open-brush/workflows/build/feature%2Fanimation/Windows%20Rift.zip)(Rift, Quest via Link cable...)
 * [SteamVR and other PC VR](https://nightly.link/icosa-foundation/open-brush/workflows/build/feature%2Fanimation/Windows%20OpenXR.zip)(Vive, Index, Reverb...)
 * [Other Builds](https://nightly.link/icosa-foundation/open-brush/workflows/build/feature%2Fanimation) (Pico, Pimax etc)

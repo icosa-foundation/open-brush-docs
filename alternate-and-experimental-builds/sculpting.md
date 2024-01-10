@@ -9,7 +9,7 @@ Status: <mark style="color:red;">Experimental. Saved sketches are incompatible w
 ## Download
 
 * [Oculus Quest 1](https://nightly.link/icosa-foundation/open-brush/workflows/build/feature%2Fsculpting/Oculus%20Quest%20%281%29.zip)
-* [Oculus Quest 2 or 3](https://nightly.link/icosa-foundation/open-brush/workflows/build/feature%2Fsculpting/Oculus%20Quest%20%281%29.zip)
+* [Oculus Quest 2 or 3](https://nightly.link/icosa-foundation/open-brush/workflows/build/feature%2Fsculpting/Oculus%20Quest%20%282%2B%29.zip)
 * [Oculus PC VR](https://nightly.link/icosa-foundation/open-brush/workflows/build/feature%2Fsculpting/Windows%20Rift.zip)(Rift, Quest via Link cable...)
 * [SteamVR and other PC VR](https://nightly.link/icosa-foundation/open-brush/workflows/build/feature%2Fsculpting/Windows%20OpenXR.zip)(Vive, Index, Reverb...)
 * [Other Builds](https://nightly.link/icosa-foundation/open-brush/workflows/build/feature%2Fsculpting) (Pico, Pimax etc)
