@@ -1,6 +1,6 @@
 # Changelog since v2.2
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...84debce752e616cbfd1b0daad5f86031db221f93)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...d8de46f76e19621c67b14e64d3fce324de47d82c)
 
 ## 🚀 Features
 
@@ -65,6 +65,8 @@
 - Base Multiplayer implementation ([PR #578](https://github.com/icosa-foundation/open-brush/pull/578) by @mikeskydev)
 
 - Initial iOS Support ([PR #556](https://github.com/icosa-foundation/open-brush/pull/556) by @mikeskydev)
+
+- Remove "Export all" shortcut ([PR #610](https://github.com/icosa-foundation/open-brush/pull/610) by @andybak)
 
 
 ## 🐛 Fixes
