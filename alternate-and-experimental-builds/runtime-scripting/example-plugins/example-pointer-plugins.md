@@ -237,7 +237,7 @@ Randomizes the brush position
 
 #### Parameters
 
-* **Wiggle Amount:** The amount of randoness to add to the brush position
+* **Wiggle Amount:** The amount of randomness to add to the brush position
 
 ### Wobble
 
