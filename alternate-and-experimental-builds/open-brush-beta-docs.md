@@ -6,7 +6,7 @@ This build is the pre-release version of Open Brush and may contain untested new
 [automatic-changelog](../release-history/automatic-changelog/)
 {% endcontent-ref %}
 
-### Important note <a href="#_lnka1z4mzei7" id="_lnka1z4mzei7"></a>
+### Important note <a href="#lnka1z4mzei7" id="lnka1z4mzei7"></a>
 
 You can opt in to the beta via Oculus or Steam, or you can download a separate beta version via Itch.io
 
@@ -14,7 +14,7 @@ You can opt in to the beta via Oculus or Steam, or you can download a separate b
 Remember, these pre-release builds are labelled beta for a reason, and some features may contain bugs. Make sure to back up your important sketches before proceeding!
 {% endhint %}
 
-## Opting in to the beta via Steam <a href="#_lnka1z4mzei7" id="_lnka1z4mzei7"></a>
+## Opting in to the beta via Steam <a href="#lnka1z4mzei7" id="lnka1z4mzei7"></a>
 
 1. Right Click on Open Brush in your Steam Library and choose "Properties"
 
@@ -26,9 +26,9 @@ Remember, these pre-release builds are labelled beta for a reason, and some feat
 
 3. Wait for Open Brush to update.
 
-## Opting in to the beta via the Oculus Store <a href="#_lnka1z4mzei7" id="_lnka1z4mzei7"></a>
+## Opting in to the beta via the Oculus Store <a href="#lnka1z4mzei7" id="lnka1z4mzei7"></a>
 
-1. Either use the Oculus App on your PC or go to the AppLab Store page (Search the web for "Open Brush Quest" or "Open Brush Rift" depending on whether you want the PC or native Quest version):
+1. Either use the Oculus App on your PC or go to the Meta Store page for either the [Quest version](https://www.meta.com/en-gb/experiences/3600360710032222/) or [Rift version](https://www.meta.com/en-us/experiences/pcvr/5227489953989768/) (if you're using PC VR)
 
 ![](<../.gitbook/assets/image (11) (1) (1).png>)
 

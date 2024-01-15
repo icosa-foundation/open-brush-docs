@@ -2,6 +2,12 @@
 
 ### AlongStroke
 
+<div align="left">
+
+<figure><img src="broken-reference" alt=""><figcaption></figcaption></figure>
+
+</div>
+
 The previous stroke you drew is used as a template and multiple copies of the pointer are spread along it as you draw
 
 #### Parameters
@@ -9,6 +15,12 @@ The previous stroke you drew is used as a template and multiple copies of the po
 * **Point Spacing:** The distance to space out the copies along the stroke
 
 ### AutoLathe
+
+<div align="left">
+
+<figure><img src="broken-reference" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 Like spinning the mirror by hand but with precise control
 
@@ -21,6 +33,12 @@ Like spinning the mirror by hand but with precise control
 ### Boids
 
 A flock of pointers follows your hand using simple rules to control how they fly
+
+<div align="left">
+
+<figure><img src="broken-reference" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 #### Parameters
 
@@ -55,6 +73,12 @@ Copies of your stroke forming an ellipse - with optional color shifts
 
 ### Frame
 
+<div align="left">
+
+<figure><img src="broken-reference" alt=""><figcaption></figcaption></figure>
+
+</div>
+
 A simple frame of points following your brush position
 
 ### HoldFirstClick
@@ -69,6 +93,12 @@ Like [Many Around](example-symmetry-plugins.md#manyaround) except the widget alw
 
 ### ManyAlong
 
+<div align="left">
+
+<figure><img src="broken-reference" alt=""><figcaption></figcaption></figure>
+
+</div>
+
 Linear copies of your stroke with optional color shifts
 
 #### Parameters
@@ -78,6 +108,12 @@ Linear copies of your stroke with optional color shifts
 
 ### ManyAround
 
+<div align="left">
+
+<figure><img src="broken-reference" alt=""><figcaption></figcaption></figure>
+
+</div>
+
 Radial copies of your stroke with optional color shifts
 
 #### Parameters
@@ -86,7 +122,13 @@ Radial copies of your stroke with optional color shifts
 
 ### MultiLathe
 
-Autolathe but with multiple lathes"
+<div align="left">
+
+<figure><img src="broken-reference" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+Autolathe but with multiple lathes.
 
 #### Parameters
 
@@ -95,6 +137,12 @@ Autolathe but with multiple lathes"
 * **Angle Y:** The axis tilt in the Y direction
 
 ### OmniLathe
+
+<div align="left">
+
+<figure><img src="broken-reference" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 Like [Autolathe ](example-symmetry-plugins.md#autolathe)but you can vary the axis orientation
 
@@ -115,6 +163,12 @@ Multiple copies of your brush spaced between your left and right hand positions
 
 ### PolygonAround
 
+<div align="left">
+
+<figure><img src="broken-reference" alt=""><figcaption></figcaption></figure>
+
+</div>
+
 Copies of your stroke forming an polygon
 
 #### Parameters
@@ -123,6 +177,12 @@ Copies of your stroke forming an polygon
 * **Sides:** The number of sides of the polygon
 
 ### RectangleAround
+
+<div align="left">
+
+<figure><img src="broken-reference" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 Copies of your stroke forming an rectangle
 
@@ -135,6 +195,12 @@ Copies of your stroke forming an rectangle
 
 ### Spin
 
+<div align="left">
+
+<figure><img src="broken-reference" alt=""><figcaption></figcaption></figure>
+
+</div>
+
 Multiple copies of your brush spinning around your actual brush position
 
 #### Parameters
@@ -144,6 +210,12 @@ Multiple copies of your brush spinning around your actual brush position
 * **Radius:** The radius of the circle they are rotating around
 
 ### SuperEllipseAround
+
+<div align="left">
+
+<figure><img src="broken-reference" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 Copies of your stroke forming a [superellipse](https://en.wikipedia.org/wiki/Superellipse)
 
@@ -156,9 +228,21 @@ Copies of your stroke forming a [superellipse](https://en.wikipedia.org/wiki/Sup
 
 ### Svg
 
+<div align="left">
+
+<figure><img src="broken-reference" alt=""><figcaption></figcaption></figure>
+
+</div>
+
 An example of using an SVG file as a template for symmetry patterns
 
 ### SvgAround
+
+<div align="left">
+
+<figure><img src="broken-reference" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 Similar to [SVG](example-symmetry-plugins.md#svg) but centered around the Symmetry Widget
 
@@ -177,6 +261,12 @@ A line of copies between a guide and the symmetry widget
 * **Copies:** The number of strokes to draw at once
 
 ### TooManyAround
+
+<div align="left">
+
+<figure><img src="broken-reference" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 Based on [Many Around](example-symmetry-plugins.md#manyaround) - this was originally a bug but I liked it so here it is.
 

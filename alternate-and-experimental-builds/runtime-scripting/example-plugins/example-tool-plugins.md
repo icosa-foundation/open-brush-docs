@@ -2,6 +2,12 @@
 
 ### Circle
 
+<div align="left">
+
+<figure><img src="broken-reference" alt=""><figcaption></figcaption></figure>
+
+</div>
+
 Draws a circle centered on the position you first press the trigger with the radius and orientation controlled by where you release the trigger.
 
 ### CircularPath
@@ -15,6 +21,12 @@ Similar to [Circle ](example-tool-plugins.md#circle)except it creates a camera p
 * **Sides:** The circle is approximated by a polygon. This controls the number of sides.
 
 ### Cube
+
+<div align="left">
+
+<figure><img src="broken-reference" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 Draws a cube centered on the position you first press the trigger with the size and orientation controlled by where you release the trigger.
 
@@ -48,6 +60,12 @@ Calls an API to generate a random SVG icon using the [Iconify ](https://iconify.
 
 ### Rays
 
+<div align="left">
+
+<figure><img src="broken-reference" alt=""><figcaption></figcaption></figure>
+
+</div>
+
 Draws lines from the position you start drawing to your current position.
 
 #### Parameters
@@ -62,6 +80,12 @@ Instantly draws a brush stroke based on the path of the last brush stroke you dr
 
 ### ScatterCubes
 
+<div align="left">
+
+<figure><img src="broken-reference" alt=""><figcaption></figcaption></figure>
+
+</div>
+
 Switches to the Hull Brush and draws cubes of random size and color as you move your brush",
 
 #### Parameters
@@ -72,6 +96,12 @@ Switches to the Hull Brush and draws cubes of random size and color as you move 
 
 ### Spiral
 
+<div align="left">
+
+<figure><img src="broken-reference" alt=""><figcaption></figcaption></figure>
+
+</div>
+
 Draws a conical spiral.
 
 #### Parameters
@@ -80,6 +110,12 @@ Draws a conical spiral.
 * **Number of steps per turn:**&#x20;
 
 ### SpiralSphere
+
+<div align="left">
+
+<figure><img src="broken-reference" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 Draws a spherical spiral.
 
@@ -90,6 +126,12 @@ Draws a spherical spiral.
 
 ### SuperEllipse
 
+<div align="left">
+
+<figure><img src="broken-reference" alt=""><figcaption></figcaption></figure>
+
+</div>
+
 Draws a [superellipse](https://en.wikipedia.org/wiki/Superellipse).
 
 #### Parameters
@@ -97,6 +139,12 @@ Draws a [superellipse](https://en.wikipedia.org/wiki/Superellipse).
 * **n:**&#x20;
 
 ### SuperFormula
+
+<div align="left">
+
+<figure><img src="broken-reference" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 Draws a supershape using the [Super Formula](http://paulbourke.net/geometry/supershape/)
 
@@ -109,6 +157,12 @@ Draws a supershape using the [Super Formula](http://paulbourke.net/geometry/supe
 
 ### SvgHeart
 
+<div align="left">
+
+<figure><img src="broken-reference" alt=""><figcaption></figcaption></figure>
+
+</div>
+
 Draws a heart shape using an [SVG Path](https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Paths)
 
 #### Parameters
@@ -117,7 +171,13 @@ Draws a heart shape using an [SVG Path](https://developer.mozilla.org/en-US/docs
 
 ### VoxelLandscape
 
-Draws a blocky landscape (best used with a hull brush)",
+<div align="left">
+
+<figure><img src="broken-reference" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+Draws a blocky landscape (best used with a hull brush).
 
 #### Parameters
 
@@ -127,6 +187,12 @@ Draws a blocky landscape (best used with a hull brush)",
 ### Voxels
 
 Draws regular blocks in space as you draw (best used with the hull brush)
+
+<div align="left">
+
+<figure><img src="broken-reference" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 #### Parameters
 

@@ -4,7 +4,7 @@
 
 ![](<../../../.gitbook/assets/image (13).png>)
 
-_(Currently removed while I fix a bug)_&#x20;
+_(Currently removed while I fix a bug)_
 
 Connects the two most recent strokes with a series of lines. Draw one stroke then another. As you finish the second stroke you will see new lines added
 
@@ -33,9 +33,17 @@ The script calls`Brush:ForcePaintingOn` and `Brush:ForcePaintingOn` based on the
 
 ### GridFollow
 
+
+
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/pointer-grid-follow.gif" alt=""><figcaption></figcaption></figure>
+
+</div>
+
 ![](<../../../.gitbook/assets/image (7).png>)
 
-Locks movement of the pointer to either the x, y or z axis depending on which direction your hand is mostly moving.&#x20;
+Locks movement of the pointer to either the x, y or z axis depending on which direction your hand is mostly moving.
 
 #### Parameters
 
@@ -100,7 +108,7 @@ Control your pointer with multiple waveforms to create patterns
 * **X Waveform Type:** The waveform used along the x axis
 * **X Frequency:** The frequency for the x axis waveform
 * **Y Waveform Type:** The waveform used along the y axis
-* **Y Frequency:**  The frequency for the y axis waveform
+* **Y Frequency:** The frequency for the y axis waveform
 * **Y Phase:** The phase of the y waveform relative to x
 * **Radius:** A scaling factor applied to both axes
 
@@ -123,7 +131,7 @@ The values for waveform type are as follows:
 * 12=Perlin Noise
 * 13=White Noise
 * 14=Brown Noise
-* 15=Blue Noise &#x20;
+* 15=Blue Noise
 
 ### PolygonBrush
 
@@ -248,4 +256,3 @@ Like Wiggle but uses a smooth noise function
 * **Position Amount:** The amount the noise affects the brush position
 * **Rotation Amount:** The amount the noise affects the brush orientation
 * **Frequency:** The scale of the noise function (higher = more jagged)
-
