@@ -43,7 +43,7 @@ The script calls`Brush:ForcePaintingOn` and `Brush:ForcePaintingOn` based on the
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/pointer-grid-follow.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/pointer-grid-follow.gif" alt="" width="375"><figcaption></figcaption></figure>
 
 </div>
 
@@ -62,7 +62,7 @@ Draw slowly and deliberately. It can be tricky to get the hang of initially.
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/pointer-lagging.gif" alt="" width="300"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/pointer-lagging.gif" alt="" width="375"><figcaption></figcaption></figure>
 
 </div>
 
@@ -82,7 +82,7 @@ The choice of parameters and choice of brush can radically change how this plugi
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/pointer-laser.gif" alt="" width="284"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/pointer-laser.gif" alt="" width="375"><figcaption></figcaption></figure>
 
 </div>
 
@@ -100,7 +100,7 @@ You definitely want to try this in conjunction with Symmetry Plugins - especiall
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/pointer-loops.gif" alt="" width="300"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/pointer-loops.gif" alt="" width="375"><figcaption></figcaption></figure>
 
 </div>
 
@@ -115,7 +115,7 @@ The pointer moves around a circlular path with your current hand position as it'
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/pointer-missile.gif" alt="" width="300"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/pointer-missile.gif" alt="" width="375"><figcaption></figcaption></figure>
 
 </div>
 
@@ -129,7 +129,7 @@ Similar to \[LaserBeam]\(example-pointer-plugins.md#laserbeam) except that you c
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/pointer-oscilloscope.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/pointer-oscilloscope.gif" alt="" width="375"><figcaption></figcaption></figure>
 
 </div>
 
@@ -169,7 +169,7 @@ The values for waveform type are as follows:
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/pointer-polygonbrush_compressed.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/pointer-polygonbrush_compressed.gif" alt="" width="375"><figcaption></figcaption></figure>
 
 </div>
 
@@ -184,7 +184,7 @@ The brush draws a path around your current hand position similar to \[Loops]\(ex
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/pointer-rainbow_compressed.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/pointer-rainbow_compressed.gif" alt="" width="375"><figcaption></figcaption></figure>
 
 </div>
 
@@ -200,7 +200,7 @@ At regular intervals, ends a stroke and starts a new one with a different color.
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/pointer-sinewave_compressed.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/pointer-sinewave_compressed.gif" alt="" width="375"><figcaption></figcaption></figure>
 
 </div>
 
@@ -215,7 +215,7 @@ Moves the pointer in a simple wave pattern as you draw.
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/pointer-sphereograph_compressed.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/pointer-sphereograph_compressed.gif" alt="" width="375"><figcaption></figcaption></figure>
 
 </div>
 
@@ -231,7 +231,7 @@ Creates spherical patterns around the initial point you start drawing. The dista
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/pointer-spirals_compressed.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/pointer-spirals_compressed.gif" alt="" width="375"><figcaption></figcaption></figure>
 
 </div>
 
@@ -246,7 +246,7 @@ The brush stroke moves in a circle but the radius increases the longer you keep 
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/pointer-stringart_compressed.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/pointer-stringart_compressed.gif" alt="" width="375"><figcaption></figcaption></figure>
 
 </div>
 
@@ -260,7 +260,7 @@ Additional lines are drawn from the initial point you started drawing to your cu
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/pointer-terrain_compressed.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/pointer-terrain_compressed.gif" alt="" width="375"><figcaption></figcaption></figure>
 
 </div>
 
@@ -280,7 +280,7 @@ If you want to use a hull brush then draw small patches or else any valleys will
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/pointer-twist_compressed.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/pointer-twist_compressed.gif" alt="" width="375"><figcaption></figcaption></figure>
 
 </div>
 
@@ -299,7 +299,7 @@ As you draw the position is controlled by your hand as normal. However the orien
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/pointer-wandlerp_compressed.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/pointer-wandlerp_compressed.gif" alt="" width="375"><figcaption></figcaption></figure>
 
 </div>
 
@@ -318,7 +318,7 @@ Move your hands close together or further apart to see different effects
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/pointer-wander_compressed.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/pointer-wander_compressed.gif" alt="" width="375"><figcaption></figcaption></figure>
 
 </div>
 
@@ -333,7 +333,7 @@ The brush stroke wanders off in random directions while you hold the trigger
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/pointer-wiggle_compressed.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/pointer-wiggle_compressed.gif" alt="" width="375"><figcaption></figcaption></figure>
 
 </div>
 
@@ -347,7 +347,7 @@ Randomizes the brush position
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/pointer-wobble_compressed.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/pointer-wobble_compressed.gif" alt="" width="375"><figcaption></figcaption></figure>
 
 </div>
 

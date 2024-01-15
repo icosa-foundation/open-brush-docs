@@ -4,7 +4,7 @@
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/tool-circle_compressed.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/tool-circle_compressed.gif" alt="" width="375"><figcaption></figcaption></figure>
 
 </div>
 
@@ -24,7 +24,7 @@ Similar to [Circle ](example-tool-plugins.md#circle)except it creates a camera p
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/tool-cube_compressed.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/tool-cube_compressed.gif" alt="" width="375"><figcaption></figcaption></figure>
 
 </div>
 
@@ -62,7 +62,7 @@ Calls an API to generate a random SVG icon using the [Iconify ](https://iconify.
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/tool-rays_compressed.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/tool-rays_compressed.gif" alt="" width="375"><figcaption></figcaption></figure>
 
 </div>
 
@@ -82,7 +82,7 @@ Instantly draws a brush stroke based on the path of the last brush stroke you dr
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/tool-scattercubes_compressed.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/tool-scattercubes_compressed.gif" alt="" width="375"><figcaption></figcaption></figure>
 
 </div>
 
@@ -98,7 +98,7 @@ Switches to the Hull Brush and draws cubes of random size and color as you move 
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/tool-spiral_compressed.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/tool-spiral_compressed.gif" alt="" width="375"><figcaption></figcaption></figure>
 
 </div>
 
@@ -113,7 +113,7 @@ Draws a conical spiral.
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/tool-spiralsphere_compressed.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/tool-spiralsphere_compressed.gif" alt="" width="375"><figcaption></figcaption></figure>
 
 </div>
 
@@ -128,7 +128,7 @@ Draws a spherical spiral.
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/tool-superellipse_compressed.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/tool-superellipse_compressed.gif" alt="" width="375"><figcaption></figcaption></figure>
 
 </div>
 
@@ -142,7 +142,7 @@ Draws a [superellipse](https://en.wikipedia.org/wiki/Superellipse).
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/tool-superformula_compressed.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/tool-superformula_compressed.gif" alt="" width="375"><figcaption></figcaption></figure>
 
 </div>
 
@@ -159,7 +159,7 @@ Draws a supershape using the [Super Formula](http://paulbourke.net/geometry/supe
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/tool-svg_compressed.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/tool-svg_compressed.gif" alt="" width="375"><figcaption></figcaption></figure>
 
 </div>
 
@@ -173,7 +173,7 @@ Draws a heart shape using an [SVG Path](https://developer.mozilla.org/en-US/docs
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/tool-voxellandscape_compressed.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/tool-voxellandscape_compressed.gif" alt="" width="375"><figcaption></figcaption></figure>
 
 </div>
 
@@ -190,7 +190,7 @@ Draws regular blocks in space as you draw (best used with the hull brush)
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/tool-voxels_compressed.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/tool-voxels_compressed.gif" alt="" width="375"><figcaption></figcaption></figure>
 
 </div>
 

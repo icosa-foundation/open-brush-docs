@@ -4,7 +4,7 @@
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/symmetry-alongstroke_compressed.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/symmetry-alongstroke_compressed.gif" alt="" width="375"><figcaption></figcaption></figure>
 
 </div>
 
@@ -18,7 +18,7 @@ The previous stroke you drew is used as a template and multiple copies of the po
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/symmetry-autolathe_compressed.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/symmetry-autolathe_compressed.gif" alt="" width="375"><figcaption></figcaption></figure>
 
 </div>
 
@@ -36,7 +36,7 @@ A flock of pointers follows your hand using simple rules to control how they fly
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/symmetry-boids_compressed.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/symmetry-boids_compressed.gif" alt="" width="375"><figcaption></figcaption></figure>
 
 </div>
 
@@ -75,7 +75,7 @@ Copies of your stroke forming an ellipse - with optional color shifts
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/symmetry-frame_compressed.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/symmetry-frame_compressed.gif" alt="" width="375"><figcaption></figcaption></figure>
 
 </div>
 
@@ -95,7 +95,7 @@ Like [Many Around](example-symmetry-plugins.md#manyaround) except the widget alw
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/symmetry-manyalong_compressed.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/symmetry-manyalong_compressed.gif" alt="" width="375"><figcaption></figcaption></figure>
 
 </div>
 
@@ -110,7 +110,7 @@ Linear copies of your stroke with optional color shifts
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/symmetry-manyaround_compressed.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/symmetry-manyaround_compressed.gif" alt="" width="375"><figcaption></figcaption></figure>
 
 </div>
 
@@ -124,7 +124,7 @@ Radial copies of your stroke with optional color shifts
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/symmetry-multilathe_compressed.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/symmetry-multilathe_compressed.gif" alt="" width="375"><figcaption></figcaption></figure>
 
 </div>
 
@@ -140,7 +140,7 @@ Autolathe but with multiple lathes.
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/symmetry-omnilathe_compressed.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/symmetry-omnilathe_compressed.gif" alt="" width="375"><figcaption></figcaption></figure>
 
 </div>
 
@@ -165,7 +165,7 @@ Multiple copies of your brush spaced between your left and right hand positions
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/symmetry-polygonaround_compressed.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/symmetry-polygonaround_compressed.gif" alt="" width="375"><figcaption></figcaption></figure>
 
 </div>
 
@@ -180,7 +180,7 @@ Copies of your stroke forming an polygon
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/symmetry-rectanglearound_compressed.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/symmetry-rectanglearound_compressed.gif" alt="" width="375"><figcaption></figcaption></figure>
 
 </div>
 
@@ -197,7 +197,7 @@ Copies of your stroke forming an rectangle
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/symmetry-spin_compressed.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/symmetry-spin_compressed.gif" alt="" width="375"><figcaption></figcaption></figure>
 
 </div>
 
@@ -213,7 +213,7 @@ Multiple copies of your brush spinning around your actual brush position
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/symmetry-superellipsearound_compressed.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/symmetry-superellipsearound_compressed.gif" alt="" width="375"><figcaption></figcaption></figure>
 
 </div>
 
@@ -230,7 +230,7 @@ Copies of your stroke forming a [superellipse](https://en.wikipedia.org/wiki/Sup
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/symmetry-svg_compressed.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/symmetry-svg_compressed.gif" alt="" width="375"><figcaption></figcaption></figure>
 
 </div>
 
@@ -240,7 +240,7 @@ An example of using an SVG file as a template for symmetry patterns
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/symmetry-svgaround_compressed.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/symmetry-svgaround_compressed.gif" alt="" width="375"><figcaption></figcaption></figure>
 
 </div>
 
@@ -264,7 +264,7 @@ A line of copies between a guide and the symmetry widget
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/symmetry-toomanyaround_compressed.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/symmetry-toomanyaround_compressed.gif" alt="" width="375"><figcaption></figcaption></figure>
 
 </div>
 
