@@ -1,6 +1,6 @@
 # Changelog since v2.2
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...ee941bcf03b38f83d10f914b9d834cf130fec97d)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...9dc79d3e7e1194c736cd5ce4792ec4d293a90f90)
 
 ## 🚀 Features
 
@@ -69,6 +69,8 @@
 - Remove "Export all" shortcut ([PR #610](https://github.com/icosa-foundation/open-brush/pull/610) by @andybak)
 
 - Feature/sketchfab improvements ([PR #611](https://github.com/icosa-foundation/open-brush/pull/611) by @andybak)
+
+- UI for passthrough-related scene locking and resetting ([PR #612](https://github.com/icosa-foundation/open-brush/pull/612) by @andybak)
 
 
 ## 🐛 Fixes
