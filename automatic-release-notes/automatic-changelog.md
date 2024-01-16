@@ -1,6 +1,6 @@
 # Changelog since v2.2
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...d8de46f76e19621c67b14e64d3fce324de47d82c)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...ee941bcf03b38f83d10f914b9d834cf130fec97d)
 
 ## 🚀 Features
 
@@ -67,6 +67,8 @@
 - Initial iOS Support ([PR #556](https://github.com/icosa-foundation/open-brush/pull/556) by @mikeskydev)
 
 - Remove "Export all" shortcut ([PR #610](https://github.com/icosa-foundation/open-brush/pull/610) by @andybak)
+
+- Feature/sketchfab improvements ([PR #611](https://github.com/icosa-foundation/open-brush/pull/611) by @andybak)
 
 
 ## 🐛 Fixes
