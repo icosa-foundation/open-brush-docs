@@ -1,6 +1,6 @@
 # Changelog since v2.2
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...9dc79d3e7e1194c736cd5ce4792ec4d293a90f90)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...44b2cd607f43e3432f70335efffe049e486812ab)
 
 ## 🚀 Features
 
@@ -286,6 +286,8 @@
 - Bump actions/setup-python from 4.8.0 to 5.0.0 ([PR #589](https://github.com/icosa-foundation/open-brush/pull/589) by @dependabot[bot])
 
 - Update artifact actions from v3 to v4 ([PR #600](https://github.com/icosa-foundation/open-brush/pull/600) by @mikeage)
+
+- Bump actions/cache from 3 to 4 ([PR #614](https://github.com/icosa-foundation/open-brush/pull/614) by @dependabot[bot])
 
 
 ## 💬 Uncategorized
