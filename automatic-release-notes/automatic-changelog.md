@@ -1,6 +1,6 @@
 # Changelog since v2.2
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...dec51502f40f215393190b9864acf53af960b86d)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...73a597defa1b2fc28221e980bb7fc30ba3e74023)
 
 ## 🚀 Features
 
@@ -179,6 +179,10 @@
 
 - Don't allow selection of media widgets if not on the active layer ([PR #606](https://github.com/icosa-foundation/open-brush/pull/606) by @andybak)
 
+- Reset orientation settings ([PR #609](https://github.com/icosa-foundation/open-brush/pull/609) by @mikeskydev)
+
+- Fix Mobile advanced tools panel ([PR #617](https://github.com/icosa-foundation/open-brush/pull/617) by @andybak)
+
 
 ## 🛠️ Infrastructure
 
@@ -294,9 +298,7 @@
 
 - Update Unity version in README.md ([PR #519](https://github.com/icosa-foundation/open-brush/pull/519) by @andybak)
 
-- Reset orientation settings ([PR #609](https://github.com/icosa-foundation/open-brush/pull/609) by @mikeskydev)
-
-- Fix Mobile advanced tools panel ([PR #617](https://github.com/icosa-foundation/open-brush/pull/617) by @andybak)
+- Update info on setting up Google API ([PR #618](https://github.com/icosa-foundation/open-brush/pull/618) by @andybak)
 
 
 
