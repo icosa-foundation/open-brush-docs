@@ -1,6 +1,6 @@
 # Changelog since v2.2
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...73a597defa1b2fc28221e980bb7fc30ba3e74023)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.2...78cc38cb172649340eb61eec3d3d38f7f289069c)
 
 ## 🚀 Features
 
@@ -299,6 +299,8 @@
 - Update Unity version in README.md ([PR #519](https://github.com/icosa-foundation/open-brush/pull/519) by @andybak)
 
 - Update info on setting up Google API ([PR #618](https://github.com/icosa-foundation/open-brush/pull/618) by @andybak)
+
+- Rename icon had vanished. Made a better one. ([PR #619](https://github.com/icosa-foundation/open-brush/pull/619) by @andybak)
 
 
 
