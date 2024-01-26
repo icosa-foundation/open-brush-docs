@@ -183,6 +183,8 @@
 
 - Fix Mobile advanced tools panel ([PR #617](https://github.com/icosa-foundation/open-brush/pull/617) by @andybak)
 
+- Rename icon had vanished. Made a better one. ([PR #619](https://github.com/icosa-foundation/open-brush/pull/619) by @andybak)
+
 
 ## 🛠️ Infrastructure
 
@@ -299,8 +301,6 @@
 - Update Unity version in README.md ([PR #519](https://github.com/icosa-foundation/open-brush/pull/519) by @andybak)
 
 - Update info on setting up Google API ([PR #618](https://github.com/icosa-foundation/open-brush/pull/618) by @andybak)
-
-- Rename icon had vanished. Made a better one. ([PR #619](https://github.com/icosa-foundation/open-brush/pull/619) by @andybak)
 
 
 
