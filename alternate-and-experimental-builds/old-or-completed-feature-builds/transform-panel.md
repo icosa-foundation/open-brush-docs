@@ -1,6 +1,6 @@
 # Feature: Transform Panel and Snap Enhancements
 
-#### Status: Released in [v2.0](../../release-history/2.0.md)
+#### Status: Released in [v2.4](../../release-history/v2.4.md)
 
 <div>
 
