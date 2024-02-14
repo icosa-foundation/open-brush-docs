@@ -1,6 +1,6 @@
 # Changelog since v2.4
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.4...7de9cea6c3dd3a90da20d49dc40ae4baf5144422)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.4...3868be0fd4941ef7bf9b014b4a197c12c946b500)
 
 ## 🛠️ Infrastructure
 
@@ -10,6 +10,8 @@
 ## 📦 Dependencies / Maintenance
 
 - Bump pre-commit/action from 3.0.0 to 3.0.1 ([PR #623](https://github.com/icosa-foundation/open-brush/pull/623) by @dependabot[bot])
+
+- Bump CyberAndrii/setup-steamcmd from 1.1.5 to 1.2.0 ([PR #626](https://github.com/icosa-foundation/open-brush/pull/626) by @dependabot[bot])
 
 
 
