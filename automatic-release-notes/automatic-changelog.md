@@ -1,10 +1,12 @@
 # Changelog since v2.4
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.4...3868be0fd4941ef7bf9b014b4a197c12c946b500)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.4...648c242317472863a028c22e356fa9187f67b29b)
 
 ## 🛠️ Infrastructure
 
 - Update pre-commit with python 3.12 fixes ([PR #624](https://github.com/icosa-foundation/open-brush/pull/624) by @mikeage)
+
+- Improve pre-commit (dotnet, and remove a python warning) ([PR #627](https://github.com/icosa-foundation/open-brush/pull/627) by @mikeage)
 
 
 ## 📦 Dependencies / Maintenance
