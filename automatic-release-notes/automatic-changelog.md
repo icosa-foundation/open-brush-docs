@@ -1,6 +1,6 @@
 # Changelog since v2.4
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.4...9c611fa49aee5e4c51708467fedb3fc2550068f4)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.4...f12eaffc7608ae824061277d8a5d40bd8174676f)
 
 ## 🐛 Fixes
 
@@ -14,6 +14,8 @@
 - Improve pre-commit (dotnet, and remove a python warning) ([PR #627](https://github.com/icosa-foundation/open-brush/pull/627) by @mikeage)
 
 - Create a DMG for Mac Monoscopic ([PR #625](https://github.com/icosa-foundation/open-brush/pull/625) by @mikeage)
+
+- Upload Zapbox build to the App Store ([PR #629](https://github.com/icosa-foundation/open-brush/pull/629) by @mikeskydev)
 
 
 ## 📦 Dependencies / Maintenance
