@@ -1,6 +1,6 @@
 # Changelog since v2.4
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.4...f12eaffc7608ae824061277d8a5d40bd8174676f)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.4...6ac1d21d1eb9a2a4eb5e4dd0c96e33c30ec04b61)
 
 ## 🐛 Fixes
 
@@ -16,6 +16,8 @@
 - Create a DMG for Mac Monoscopic ([PR #625](https://github.com/icosa-foundation/open-brush/pull/625) by @mikeage)
 
 - Upload Zapbox build to the App Store ([PR #629](https://github.com/icosa-foundation/open-brush/pull/629) by @mikeskydev)
+
+- Fix (and tweak) fastlane issues ([PR #632](https://github.com/icosa-foundation/open-brush/pull/632) by @mikeage)
 
 
 ## 📦 Dependencies / Maintenance
