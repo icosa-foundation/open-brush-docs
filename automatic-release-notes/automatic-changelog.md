@@ -1,6 +1,6 @@
 # Changelog since v2.4
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.4...6ac1d21d1eb9a2a4eb5e4dd0c96e33c30ec04b61)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.4...2ff564b715be705bd42d2d212ae6b45edc8981e9)
 
 ## 🐛 Fixes
 
@@ -18,6 +18,8 @@
 - Upload Zapbox build to the App Store ([PR #629](https://github.com/icosa-foundation/open-brush/pull/629) by @mikeskydev)
 
 - Fix (and tweak) fastlane issues ([PR #632](https://github.com/icosa-foundation/open-brush/pull/632) by @mikeage)
+
+- Fix (again) the fastlane upload to the app store ([PR #635](https://github.com/icosa-foundation/open-brush/pull/635) by @mikeage)
 
 
 ## 📦 Dependencies / Maintenance
