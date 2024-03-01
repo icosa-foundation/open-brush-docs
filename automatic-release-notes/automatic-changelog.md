@@ -1,6 +1,6 @@
 # Changelog since v2.4
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.4...2ff564b715be705bd42d2d212ae6b45edc8981e9)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.4...9b4e8ada32fa5f8435a65accb06396c3ac461679)
 
 ## 🐛 Fixes
 
@@ -20,6 +20,8 @@
 - Fix (and tweak) fastlane issues ([PR #632](https://github.com/icosa-foundation/open-brush/pull/632) by @mikeage)
 
 - Fix (again) the fastlane upload to the app store ([PR #635](https://github.com/icosa-foundation/open-brush/pull/635) by @mikeage)
+
+- Add yamlfmt and enforce via pre-commit ([PR #636](https://github.com/icosa-foundation/open-brush/pull/636) by @mikeage)
 
 
 ## 📦 Dependencies / Maintenance
