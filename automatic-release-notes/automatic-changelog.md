@@ -1,6 +1,6 @@
 # Changelog since v2.4
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.4...9b4e8ada32fa5f8435a65accb06396c3ac461679)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.4...afb6a60be69882fb59ead26acfee9f2ac4c6fb70)
 
 ## 🐛 Fixes
 
@@ -22,6 +22,8 @@
 - Fix (again) the fastlane upload to the app store ([PR #635](https://github.com/icosa-foundation/open-brush/pull/635) by @mikeage)
 
 - Add yamlfmt and enforce via pre-commit ([PR #636](https://github.com/icosa-foundation/open-brush/pull/636) by @mikeage)
+
+- Use Mac OS 13 instead of latest (currently 12) when pushing iOS builds ([PR #637](https://github.com/icosa-foundation/open-brush/pull/637) by @mikeage)
 
 
 ## 📦 Dependencies / Maintenance
