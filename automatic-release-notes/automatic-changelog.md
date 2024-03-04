@@ -1,6 +1,6 @@
 # Changelog since v2.4
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.4...376efb46943f111dca8d148499cc4a3149cf8635)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.4...7b1aa7685f0977bb4794908613cc7dd91b8807ce)
 
 ## 🐛 Fixes
 
@@ -30,6 +30,8 @@
 - Select the fastlane lane based on whether it's a beta (testflight) or formal (app store) ([PR #634](https://github.com/icosa-foundation/open-brush/pull/634) by @mikeage)
 
 - Add a workflow to export (encrypted) secrets  ([PR #639](https://github.com/icosa-foundation/open-brush/pull/639) by @mikeage)
+
+- Move non-secret information from Github secrets to variables and rename ([PR #640](https://github.com/icosa-foundation/open-brush/pull/640) by @mikeage)
 
 
 ## 📦 Dependencies / Maintenance
