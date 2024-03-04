@@ -1,6 +1,6 @@
 # Changelog since v2.4
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.4...ee02891090ef024e2ab7e25319e399bd0c4c8611)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.4...376efb46943f111dca8d148499cc4a3149cf8635)
 
 ## 🐛 Fixes
 
@@ -28,6 +28,8 @@
 - Use Mac OS 13 instead of latest (currently 12) when pushing iOS builds ([PR #637](https://github.com/icosa-foundation/open-brush/pull/637) by @mikeage)
 
 - Select the fastlane lane based on whether it's a beta (testflight) or formal (app store) ([PR #634](https://github.com/icosa-foundation/open-brush/pull/634) by @mikeage)
+
+- Add a workflow to export (encrypted) secrets  ([PR #639](https://github.com/icosa-foundation/open-brush/pull/639) by @mikeage)
 
 
 ## 📦 Dependencies / Maintenance
