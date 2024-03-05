@@ -1,12 +1,14 @@
 # Changelog since v2.4
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.4...7b1aa7685f0977bb4794908613cc7dd91b8807ce)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.4...44000fd8e50dc2cfbaecaea340b20a43c52c287a)
 
 ## 🐛 Fixes
 
 - Fix select all and invert selection for non-main layers ([PR #628](https://github.com/icosa-foundation/open-brush/pull/628) by @andybak)
 
 - Zapbox: Set to iPhone only for now ([PR #638](https://github.com/icosa-foundation/open-brush/pull/638) by @mikeskydev)
+
+- [Zapbox] Temp set portrait orientation ([PR #642](https://github.com/icosa-foundation/open-brush/pull/642) by @mikeskydev)
 
 
 ## 🛠️ Infrastructure
