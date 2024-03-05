@@ -1,6 +1,6 @@
 # Changelog since v2.4
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.4...44000fd8e50dc2cfbaecaea340b20a43c52c287a)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.4...2cdf78ec66243acf32eb85295cd7873a40e7d85a)
 
 ## 🐛 Fixes
 
@@ -9,6 +9,8 @@
 - Zapbox: Set to iPhone only for now ([PR #638](https://github.com/icosa-foundation/open-brush/pull/638) by @mikeskydev)
 
 - [Zapbox] Temp set portrait orientation ([PR #642](https://github.com/icosa-foundation/open-brush/pull/642) by @mikeskydev)
+
+- Correctly set the androidVersionCode on a build rerun ([PR #645](https://github.com/icosa-foundation/open-brush/pull/645) by @mikeage)
 
 
 ## 🛠️ Infrastructure
