@@ -49,7 +49,7 @@
   * [Open Brush API](user-guide/open-brush-api/README.md)
     * [Retrieving a preview image](user-guide/open-brush-api/retrieving-a-preview-image.md)
     * [API Commands List](user-guide/open-brush-api/api-commands.md)
-  * [Exporting video](user-guide/exporting-videos.md)
+  * [Cameras and Exporting Video](user-guide/exporting-videos.md)
   * [Brushes](user-guide/brushes/README.md)
     * [Brush List](user-guide/brushes/brush-list.md)
     * [Memory limits and brush costs](user-guide/brushes/memory-limits-and-brush-costs.md)
