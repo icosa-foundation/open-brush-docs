@@ -1,6 +1,6 @@
 # Changelog since v2.4
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.4...2cdf78ec66243acf32eb85295cd7873a40e7d85a)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.4...8b622e7703eb6f0f57a3de24b10413c36cec6dc7)
 
 ## 🐛 Fixes
 
@@ -36,6 +36,8 @@
 - Add a workflow to export (encrypted) secrets  ([PR #639](https://github.com/icosa-foundation/open-brush/pull/639) by @mikeage)
 
 - Move non-secret information from Github secrets to variables and rename ([PR #640](https://github.com/icosa-foundation/open-brush/pull/640) by @mikeage)
+
+- Fix broken Dependabot PRs ([PR #650](https://github.com/icosa-foundation/open-brush/pull/650) by @mikeage)
 
 
 ## 📦 Dependencies / Maintenance
