@@ -1,6 +1,6 @@
 # Changelog since v2.4
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.4...d66adf1ec2ef52c74ed260bace71cbe7fd10ac8d)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.4...572466d264dd40f14b5ccc1e6a34655ca81e6e5d)
 
 ## 🐛 Fixes
 
@@ -47,6 +47,11 @@
 - Bump CyberAndrii/setup-steamcmd from 1.1.5 to 1.2.0 ([PR #626](https://github.com/icosa-foundation/open-brush/pull/626) by @dependabot[bot])
 
 - Bump softprops/action-gh-release from 1 to 2 ([PR #649](https://github.com/icosa-foundation/open-brush/pull/649) by @dependabot[bot])
+
+
+## 💬 Uncategorized
+
+- Fix a few issues around layers and selections ([PR #646](https://github.com/icosa-foundation/open-brush/pull/646) by @andybak)
 
 
 
