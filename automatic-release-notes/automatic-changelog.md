@@ -1,6 +1,6 @@
 # Changelog since v2.4
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.4...94040ab3b9e9c754ebb0e41782d30d246d2eda9a)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.4...2703d1ed7d75923da7aafbf91d7e0530240b5ac7)
 
 ## 🐛 Fixes
 
@@ -46,6 +46,8 @@
 - Move non-secret information from Github secrets to variables and rename ([PR #640](https://github.com/icosa-foundation/open-brush/pull/640) by @mikeage)
 
 - Fix broken Dependabot PRs ([PR #650](https://github.com/icosa-foundation/open-brush/pull/650) by @mikeage)
+
+- DMG Issues ([PR #658](https://github.com/icosa-foundation/open-brush/pull/658) by @mikeage)
 
 
 ## 📦 Dependencies / Maintenance
