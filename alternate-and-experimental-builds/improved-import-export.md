@@ -3,13 +3,12 @@
 Status: <mark style="color:red;">In Progress</mark>
 
 ## Download
-
-* [Oculus Quest 1](https://nightly.link/icosa-foundation/open-brush/workflows/build/feature%2Fsculpting/Oculus%20Quest%20\(2%2B\).zip)
-* [Oculus Quest 2 or 3](https://nightly.link/icosa-foundation/open-brush/workflows/build/feature%2Fsculpting/Oculus%20Quest%20\(2%2B\).zip)
-* [Oculus PC VR](https://nightly.link/icosa-foundation/open-brush/workflows/build/feature%2Fsculpting/Windows%20Rift.zip)(Rift, Quest via Link cable...)
-* [SteamVR and other PC VR](https://nightly.link/icosa-foundation/open-brush/workflows/build/feature%2Fsculpting/Windows%20OpenXR.zip)(Vive, Index, Reverb...)
-* [Other Builds](https://nightly.link/icosa-foundation/open-brush/workflows/build/feature%2Fsculpting) (Pico, Pimax etc)
-* [Code](https://github.com/icosa-foundation/open-brush/tree/feature/sculpting)
+* [Oculus Quest 1](https://nightly.link/icosa-foundation/open-brush/workflows/build/feature%2Funity-gltf-export/Oculus%20Quest%20\(2%2B\).zip)
+* [Oculus Quest 2 or 3](https://nightly.link/icosa-foundation/open-brush/workflows/build/feature%2Funity-gltf-export/Oculus%20Quest%20\(2%2B\).zip)
+* [Oculus PC VR](https://nightly.link/icosa-foundation/open-brush/workflows/build/feature%2Funity-gltf-export/Windows%20Rift.zip)(Rift, Quest via Link cable...)
+* [SteamVR and other PC VR](https://nightly.link/icosa-foundation/open-brush/workflows/build/feature%2Funity-gltf-export/Windows%20OpenXR.zip)(Vive, Index, Reverb...)
+* [Other Builds](https://nightly.link/icosa-foundation/open-brush/workflows/build/feature%2Funity-gltf-export) (Pico, Pimax etc)
+* [Code](https://github.com/icosa-foundation/open-brush/tree/feature/unity-gltf-export)
 
 ### What does it do?
 
