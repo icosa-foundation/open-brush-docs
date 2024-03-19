@@ -1,6 +1,6 @@
 # Changelog since v2.4
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.4...572466d264dd40f14b5ccc1e6a34655ca81e6e5d)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.4...4088ff345b750687fe34f264c470304508c8dd8a)
 
 ## 🐛 Fixes
 
@@ -11,6 +11,10 @@
 - [Zapbox] Temp set portrait orientation ([PR #642](https://github.com/icosa-foundation/open-brush/pull/642) by @mikeskydev)
 
 - Correctly set the androidVersionCode on a build rerun ([PR #645](https://github.com/icosa-foundation/open-brush/pull/645) by @mikeage)
+
+- Fix a few issues around layers and selections ([PR #646](https://github.com/icosa-foundation/open-brush/pull/646) by @andybak)
+
+- Zapbox set up everything else ([PR #652](https://github.com/icosa-foundation/open-brush/pull/652) by @mikeskydev)
 
 
 ## 🛠️ Infrastructure
@@ -47,11 +51,6 @@
 - Bump CyberAndrii/setup-steamcmd from 1.1.5 to 1.2.0 ([PR #626](https://github.com/icosa-foundation/open-brush/pull/626) by @dependabot[bot])
 
 - Bump softprops/action-gh-release from 1 to 2 ([PR #649](https://github.com/icosa-foundation/open-brush/pull/649) by @dependabot[bot])
-
-
-## 💬 Uncategorized
-
-- Fix a few issues around layers and selections ([PR #646](https://github.com/icosa-foundation/open-brush/pull/646) by @andybak)
 
 
 
