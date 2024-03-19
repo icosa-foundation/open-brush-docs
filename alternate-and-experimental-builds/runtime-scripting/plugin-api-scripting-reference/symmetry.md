@@ -10,8 +10,8 @@ Functions for controlling the mirror symmetry mode
 <thead><tr><th>Name</th><th>Return Type</th><th>Description</th></tr></thead>
 <tbody>
 <tr><td>current</td><td><a href="symmetrysettings.md">SymmetrySettings</a><br>Read/Write</td><td>The current symmetry settings</td></tr>
-<tr><td>brushOffset</td><td><a href="vector3.md">Vector3</a><br>Read-only</td><td>Gets the offset betwen the current brush position and the symmetry widget</td></tr>
-<tr><td>wandOffset</td><td><a href="vector3.md">Vector3</a><br>Read-only</td><td>Gets the offset betwen the current wand position and the symmetry widget</td></tr>
+<tr><td>brushOffset</td><td><a href="vector3.md">Vector3</a><br>Read-only</td><td>Gets the offset between the current brush position and the symmetry widget</td></tr>
+<tr><td>wandOffset</td><td><a href="vector3.md">Vector3</a><br>Read-only</td><td>Gets the offset between the current wand position and the symmetry widget</td></tr>
 </tbody></table>
 
 

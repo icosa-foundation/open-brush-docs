@@ -10,6 +10,7 @@ A collection of settings for the symmetry mode
 <table data-full-width="false">
 <thead><tr><th>Name</th><th>Return Type</th><th>Description</th></tr></thead>
 <tbody>
+<tr><td>matrices</td><td><a href="matrixlist.md">MatrixList</a><br>Read-only</td><td>The list of transform matrices for this symmetry mode</td></tr>
 <tr><td>mode</td><td><a href="symmetrymode.md">SymmetryMode</a><br>Read/Write</td><td>The symmetry mode</td></tr>
 <tr><td>transform</td><td><a href="transform.md">Transform</a><br>Read/Write</td><td>The transform of the symmetry widget</td></tr>
 <tr><td>position</td><td><a href="vector3.md">Vector3</a><br>Read/Write</td><td>The position of the symmetry widget</td></tr>
@@ -29,6 +30,63 @@ A collection of settings for the symmetry mode
 
 
 
+## Class Methods
+
+        
+### SymmetrySettings:NewPointSymmetry(type, order)
+
+Creates a new set of symmetry settings based on point symmetry
+
+**Returns:** <a href="symmetrysettings.md">SymmetrySettings</a> 
+
+
+**Parameters:**
+
+<table data-full-width="false">
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>type</td><td><a href="symmetrypointtype.md">SymmetryPointType</a></td><td></td><td>The type of point symmetry</td></tr>
+<tr><td>order</td><td>number</td><td></td><td>The number of repeats around the axis</td></tr></tbody></table>
+
+
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>mySymSettings = Symmetry:NewPoint()</strong></code></pre>
+
+
+
+
+### SymmetrySettings:NewWallpaperSymmetry(type, repeatX, repeatY, scale, scaleX, scaleY, skewX, skewY)
+
+Creates a new set of symmetry settings based on wallpaper symmetry
+
+**Returns:** <a href="symmetrysettings.md">SymmetrySettings</a> 
+
+
+**Parameters:**
+
+<table data-full-width="false">
+<thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+<tbody><tr><td>type</td><td><a href="symmetrywallpapertype.md">SymmetryWallpaperType</a></td><td></td><td>The type of point symmetry</td></tr>
+<tr><td>repeatX</td><td>number</td><td></td><td></td></tr>
+<tr><td>repeatY</td><td>number</td><td></td><td></td></tr>
+<tr><td>scale</td><td>number</td><td>1</td><td></td></tr>
+<tr><td>scaleX</td><td>number</td><td>1</td><td></td></tr>
+<tr><td>scaleY</td><td>number</td><td>1</td><td></td></tr>
+<tr><td>skewX</td><td>number</td><td>0</td><td></td></tr>
+<tr><td>skewY</td><td>number</td><td>0</td><td></td></tr></tbody></table>
+
+
+
+
+#### Example
+
+<pre class="language-lua"><code class="lang-lua"><strong>mySymSettings = Symmetry:NewPoint()</strong></code></pre>
+
+
+
+    
 
 ## Instance Methods
 

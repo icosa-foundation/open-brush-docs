@@ -44,7 +44,7 @@ A position or offset in 3D space. See https://docs.unity3d.com/ScriptReference/V
         
 ### Vector3:New(x, y, z)
 
-Creates a new vector
+Creates a new vector based on x, y and z position
 
 **Returns:** <a href="vector3.md">Vector3</a> 
 
@@ -62,7 +62,7 @@ Creates a new vector
 
 #### Example
 
-<pre class="language-lua"><code class="lang-lua"><strong>newVector = Vector3(1, 2, 3)</strong></code></pre>
+<pre class="language-lua"><code class="lang-lua"><strong>newVector = Vector3:New(1, 2, 3)</strong></code></pre>
 
 
 
@@ -111,7 +111,7 @@ Linearly interpolates between two points
 
 #### Example
 
-<pre class="language-lua"><code class="lang-lua"><strong>newPoint = Vector2:Lerp(pointA, PointB, 0.25)</strong></code></pre>
+<pre class="language-lua"><code class="lang-lua"><strong>newPoint = Vector3:Lerp(pointA, PointB, 0.25)</strong></code></pre>
 
 
 
