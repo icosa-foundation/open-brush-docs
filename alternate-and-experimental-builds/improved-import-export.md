@@ -3,6 +3,7 @@
 Status: <mark style="color:red;">In Progress</mark>
 
 ## Download
+
 * [Oculus Quest 1](https://nightly.link/icosa-foundation/open-brush/workflows/build/feature%2Funity-gltf-export/Oculus%20Quest%20\(2%2B\).zip)
 * [Oculus Quest 2 or 3](https://nightly.link/icosa-foundation/open-brush/workflows/build/feature%2Funity-gltf-export/Oculus%20Quest%20\(2%2B\).zip)
 * [Oculus PC VR](https://nightly.link/icosa-foundation/open-brush/workflows/build/feature%2Funity-gltf-export/Windows%20Rift.zip)(Rift, Quest via Link cable...)
@@ -12,7 +13,7 @@ Status: <mark style="color:red;">In Progress</mark>
 
 ### What does it do?
 
-Adds new optional GLTF import and export workflows. Allow import of lights, breaking apart of imported models and other new features that the updated libraries enable
+Adds new optional GLTF import and export workflows. Allow import of lights, breaking apart of imported models and other new features that the updated libraries enable.
 
 ### How do I install it?
 
@@ -62,16 +63,16 @@ ExportBinaryFbx and ExportFbxVersion are existing options - but the rest of the 
 **Extensions supported by GLTFast but not UnityGLTF:**
 
 * KHR\_materials\_variants
-* KHR\_xmp\_json\_ld&#x20;
-* EXT\_lights\_image\_based&#x20;
-* EXT\_mesh\_gpu\_instancing&#x20;
+* KHR\_xmp\_json\_ld
+* EXT\_lights\_image\_based
+* EXT\_mesh\_gpu\_instancing
 * KHR\_materials\_pbrSpecularGlossiness
 * KHR\_materials\_sheen
 
 **Extensions supported by UnityGLTF but not GLTFast:**
 
-* KHR\_materials\_iridescence&#x20;
-* MSFT\_lod&#x20;
+* KHR\_materials\_iridescence
+* MSFT\_lod
 * KHR\_materials\_emissive\_strength
 
 (The above list may change as we implement missing features in UnityGLTF)
@@ -92,11 +93,21 @@ The use of the new exporter is currently optional and we will continue to suppor
 * Similarly - if you use the Icosa three.js loader this works best with the existing exporter
 * The new GLB export should work better in Blender and other 3D animation apps although we still have work to do to fix support for particle brushes, transparent brushes and other features.
 * Imported 3D models will export much better with the new GLB exporter
-* In general new features in the [beta](open-brush-beta-docs.md) or from other [experimental branches](./) will work better using the new exporter.&#x20;
+* In general new features in the [beta](open-brush-beta-docs.md) or from other [experimental branches](./) will work better using the new exporter.
 
 ### Platform Support
 
 <table><thead><tr><th width="151">Format</th><th align="center">Android/iOS (Standalone VR)</th><th align="center">PC (Tethered VR)</th></tr></thead><tbody><tr><td>FBX</td><td align="center"><mark style="color:red;">✘</mark></td><td align="center"><mark style="color:green;">✔</mark></td></tr><tr><td>GLB</td><td align="center"><mark style="color:green;">✔</mark></td><td align="center"><mark style="color:green;">✔</mark></td></tr><tr><td>NEWGLB</td><td align="center"><mark style="color:green;">✔</mark></td><td align="center"><mark style="color:green;">✔</mark></td></tr><tr><td>JSON</td><td align="center"><mark style="color:green;">✔</mark></td><td align="center"><mark style="color:green;">✔</mark></td></tr><tr><td>LATK</td><td align="center"><mark style="color:green;">✔</mark></td><td align="center"><mark style="color:green;">✔</mark></td></tr><tr><td>OBJ</td><td align="center"><mark style="color:red;">✘</mark></td><td align="center"><mark style="color:green;">✔</mark></td></tr><tr><td>STL</td><td align="center"><mark style="color:green;">✔</mark></td><td align="center"><mark style="color:green;">✔</mark></td></tr><tr><td>USD</td><td align="center"><mark style="color:red;">✘</mark></td><td align="center"><mark style="color:green;">✔</mark></td></tr><tr><td>WRL</td><td align="center"><mark style="color:green;">✔</mark></td><td align="center"><mark style="color:green;">✔</mark></td></tr><tr><td></td><td align="center"></td><td align="center"></td></tr></tbody></table>
+
+### Breaking Apart Imported Models
+
+This build supports a new feature - The existing "group/ungroup" button on the pop-out tray that appears when you activate the [Selection Tool](../user-guide/using-the-open-brush-tools-quick-tools-and-menu-panels/tools-panel/selection-options.md) now works on imported models - if they consist of multiple parts. Just select a single imported model and if it does have sub-parts the button will show "ungroup" as an option - the same as if you select a normal grouped set of objects.&#x20;
+
+### Importing Lights
+
+If your imported model contains lights then these will appear in the scene and will act upon other objects the same as the [Environment Lights](../user-guide/using-the-open-brush-tools-quick-tools-and-menu-panels/extras-panel/lights-panel.md). Furthermore imported lights support point lights and spot lights - whereas the existing environment lights only support directional lights.
+
+Currently if you break apart a model containing lights, the lights themselves can't be selected or moved. This will be fixed in a later release.
 
 ### Known Issues
 
