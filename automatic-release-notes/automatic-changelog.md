@@ -1,6 +1,6 @@
 # Changelog since v2.4
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.4...ec950699e56391c50b084d67b6457a4196273716)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.4...94040ab3b9e9c754ebb0e41782d30d246d2eda9a)
 
 ## 🐛 Fixes
 
@@ -17,6 +17,8 @@
 - Zapbox set up everything else ([PR #652](https://github.com/icosa-foundation/open-brush/pull/652) by @mikeskydev)
 
 - Localization Fixes ([PR #655](https://github.com/icosa-foundation/open-brush/pull/655) by @mikeskydev)
+
+- Remove broken custom drawer and fix corrupted value ([PR #653](https://github.com/icosa-foundation/open-brush/pull/653) by @andybak)
 
 
 ## 🛠️ Infrastructure
