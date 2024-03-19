@@ -1,6 +1,6 @@
 # Changelog since v2.4
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.4...4088ff345b750687fe34f264c470304508c8dd8a)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.4...ec950699e56391c50b084d67b6457a4196273716)
 
 ## 🐛 Fixes
 
@@ -15,6 +15,8 @@
 - Fix a few issues around layers and selections ([PR #646](https://github.com/icosa-foundation/open-brush/pull/646) by @andybak)
 
 - Zapbox set up everything else ([PR #652](https://github.com/icosa-foundation/open-brush/pull/652) by @mikeskydev)
+
+- Localization Fixes ([PR #655](https://github.com/icosa-foundation/open-brush/pull/655) by @mikeskydev)
 
 
 ## 🛠️ Infrastructure
