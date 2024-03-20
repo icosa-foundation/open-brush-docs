@@ -1,6 +1,11 @@
 # Changelog since v2.4
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.4...2703d1ed7d75923da7aafbf91d7e0530240b5ac7)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.4...5e64f88e7c87dac1be07112704a31f73f90d5563)
+
+## 🚀 Features
+
+- Compliance with Meta Age Group API requirements ([PR #659](https://github.com/icosa-foundation/open-brush/pull/659) by @mikeskydev)
+
 
 ## 🐛 Fixes
 
