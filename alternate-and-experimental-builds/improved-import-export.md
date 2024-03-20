@@ -107,12 +107,10 @@ This build supports a new feature - The existing "group/ungroup" button on the p
 
 If your imported model contains lights then these will appear in the scene and will act upon other objects the same as the [Environment Lights](../user-guide/using-the-open-brush-tools-quick-tools-and-menu-panels/extras-panel/lights-panel.md). Furthermore imported lights support point lights and spot lights - whereas the existing environment lights only support directional lights.
 
-Currently if you break apart a model containing lights, the lights themselves can't be selected or moved. This will be fixed in a later release.
-
 ### Known Issues
 
 {% hint style="info" %}
-WARNING - Saved files are currently incompatible with official builds of Open Brush. Don't save over any sketches you want to open in other builds.
+If you break apart a model containing lights, the lights themselves can't be selected or moved.
 {% endhint %}
 
 ## How do I get help
