@@ -62,20 +62,30 @@ ExportBinaryFbx and ExportFbxVersion are existing options - but the rest of the 
 
 **Extensions supported by GLTFast but not UnityGLTF:**
 
-* KHR\_materials\_variants
-* KHR\_xmp\_json\_ld
-* EXT\_lights\_image\_based
 * EXT\_mesh\_gpu\_instancing
 * KHR\_materials\_pbrSpecularGlossiness
-* KHR\_materials\_sheen
 
 **Extensions supported by UnityGLTF but not GLTFast:**
 
-* KHR\_materials\_iridescence
-* MSFT\_lod
+* KHR\_materials\_clearcoat&#x20;
 * KHR\_materials\_emissive\_strength
+* KHR\_materials\_ior&#x20;
+* KHR\_materials\_iridescence
+* KHR\_materials\_specular
+* KHR\_materials\_transmission (soon)
+* KHR\_materials\_volume (soon)
+* MSFT\_lod
 
-(The above list may change as we implement missing features in UnityGLTF)
+**Extensions supported by both:**
+
+* KHR\_draco\_mesh\_compression&#x20;
+* KHR\_lights\_punctual&#x20;
+* KHR\_materials\_unlit&#x20;
+* KHR\_mesh\_quantization&#x20;
+* KHR\_texture\_basisu&#x20;
+* KHR\_texture\_transform
+
+(The above list may change as we implement missing features in UnityGLTF. GLTFast also has announced plans to support KHR\_materials\_variants, EXT\_lights\_image\_based and KHR\_materials\_transmission)
 
 UnityGLTF has some other differences:
 
