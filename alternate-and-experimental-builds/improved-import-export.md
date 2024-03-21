@@ -63,7 +63,7 @@ ExportBinaryFbx and ExportFbxVersion are existing options - but the rest of the 
 **Extensions supported by GLTFast but not UnityGLTF:**
 
 * EXT\_mesh\_gpu\_instancing
-* KHR\_materials\_pbrSpecularGlossiness
+* KHR\_materials\_pbrSpecularGlossiness (legacy extension - superseded by KHR\_materials\_specular which is only supported by UnityGLTF)
 
 **Extensions supported by UnityGLTF but not GLTFast:**
 
