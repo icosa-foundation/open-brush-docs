@@ -2,6 +2,8 @@
 
 Status: <mark style="color:red;">In Progress</mark>
 
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
 ## Download
 
 * [Oculus Quest 1](https://nightly.link/icosa-foundation/open-brush/workflows/build/feature%2Funity-gltf-export/Oculus%20Quest%20\(2%2B\).zip)
@@ -131,4 +133,4 @@ I'm on UK time but I check in fairly regularly.
 
 ### Can I see it in action?
 
-TODO
+{% embed url="https://www.youtube.com/watch?v=98drHT5DD7Y" %}

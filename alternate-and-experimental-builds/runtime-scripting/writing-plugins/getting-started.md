@@ -41,7 +41,7 @@ If you're using Visual Studio Code then follow these steps:\
    (In our plugins we're using upper and lower case initial letters to distinguish your stuff from the API supplied-things but standard lua style is to use it to differentiate local from global. Don't worry for now...)
 8. Scroll down to **Lua> Workspace: Library** and add the path to your LuaModules folder:\
    \
-   <img src="../../../.gitbook/assets/image (1) (1).png" alt="" data-size="original">
+   <img src="../../../.gitbook/assets/image (1) (1) (4).png" alt="" data-size="original">
 9. Now we've finished with settings we want to make sure it all works. We will start a simple script to check the code completion is working. Create a new file in your Documents/Open Brush/Plugins folder (not inside LuaModules) and name it PointerScript.Test.lua\
    Then start typing:
 
