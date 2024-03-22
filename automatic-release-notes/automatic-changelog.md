@@ -1,6 +1,6 @@
 # Changelog since v2.4
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.4...c58affcc50ce88a28eb5f9945f28c6d7a43011c7)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.4...f9398d1a27ea0aa4b9d5abc347100f7a4284ec56)
 
 ## 🚀 Features
 
@@ -26,6 +26,8 @@
 - Remove broken custom drawer and fix corrupted value ([PR #653](https://github.com/icosa-foundation/open-brush/pull/653) by @andybak)
 
 - Turn off MSAA for Zapbox ([PR #657](https://github.com/icosa-foundation/open-brush/pull/657) by @mikeskydev)
+
+- Reset default environment. Passthrough only for Zapbox ([PR #660](https://github.com/icosa-foundation/open-brush/pull/660) by @mikeskydev)
 
 
 ## 🛠️ Infrastructure
