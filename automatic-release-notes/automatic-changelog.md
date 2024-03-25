@@ -1,6 +1,6 @@
 # Changelog since v2.4
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.4...f9398d1a27ea0aa4b9d5abc347100f7a4284ec56)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.4...bd1bb0d7af29499ac2d95252980b7f018ce5fc0d)
 
 ## 🚀 Features
 
@@ -66,6 +66,11 @@
 - Bump CyberAndrii/setup-steamcmd from 1.1.5 to 1.2.0 ([PR #626](https://github.com/icosa-foundation/open-brush/pull/626) by @dependabot[bot])
 
 - Bump softprops/action-gh-release from 1 to 2 ([PR #649](https://github.com/icosa-foundation/open-brush/pull/649) by @dependabot[bot])
+
+
+## 💬 Uncategorized
+
+- Branding Refresh ([PR #662](https://github.com/icosa-foundation/open-brush/pull/662) by @mikeskydev)
 
 
 
