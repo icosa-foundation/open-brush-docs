@@ -1,15 +1,10 @@
-# Changelog since v2.5
+# Changelog since v2.6
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.5...964a3abe65fb5a043f4b87e158713b63b7fbd088)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.6...5ef3741616e593a84c561dbd502d97a3a28a0cf8)
 
 ## 🐛 Fixes
 
-- Reset default brush to Light ([PR #664](https://github.com/icosa-foundation/open-brush/pull/664) by @mikeskydev)
-
-
-## 🛠️ Infrastructure
-
-- Don't push iOS Zapbox builds to the Apple Store; just to testflight (even for formal builds) ([PR #665](https://github.com/icosa-foundation/open-brush/pull/665) by @mikeage)
+- Quick fix until I can get Photoshop to do what I tell it. ([PR #667](https://github.com/icosa-foundation/open-brush/pull/667) by @andybak)
 
 
 
