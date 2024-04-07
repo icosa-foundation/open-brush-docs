@@ -2,14 +2,12 @@
 
 The Open Brush config file can be used to tweak various options for advanced users. A blank Open Brush.cfg file will be created in the Open Brush folder on application startup if one does not exist.
 
-Example SteamVR / Rift path: **C:\Users\\**_\<username>_**\Documents\Open Brush\Open Brush.cfg**.
+Example PC path: **C:\Users\\**_\<username>_**\Documents\Open Brush\Open Brush.cfg**.
 
-On an Oculus Quest, you can find this file in **/sdcard/Open Brush**. You can use either adb or the SideQuest file viewer to access this file.
-
-
+On an Oculus Quest, you can find this file in **/sdcard/Open Brush**. You can use either adb or the SideQuest file viewer to access this file. You could also sideload a text editor if you want to edit the file directly.
 
 {% hint style="info" %}
-There is a another section in the docs covering [Hiding Brushes with Brush Tags](brushes/hiding-brushes-with-brush-tags.md) that also relates to Open Brush.cfg
+The file must be valid json. If it's not working check to see if you've missed any commas or brackets. Using a [JSON Validator](https://jsonformatter.org/) can help if you're stuck.
 {% endhint %}
 
 Example of an empty _Open Brush.cfg:_
