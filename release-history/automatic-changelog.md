@@ -1,6 +1,11 @@
 # Changelog since v2.7
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.7...1074a3bfb0d22793dde1c7c18ca3a8ef63ad7f32)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.7...5c3b945a8da4a518488e63b539dbb58c52da45bc)
+
+## 🚀 Features
+
+- Remove almost all uses of Experimental Mode, and combine Monoscopic into the main releases ([PR #674](https://github.com/icosa-foundation/open-brush/pull/674) by @andybak)
+
 
 ## 🛠️ Infrastructure
 
