@@ -12,7 +12,7 @@ On an Oculus Quest, you can find this file in **/sdcard/Open Brush**. You can us
 There is a another section in the docs covering [Hiding Brushes with Brush Tags](brushes/hiding-brushes-with-brush-tags.md) that also relates to Open Brush.cfg
 {% endhint %}
 
-Contents of the default _Open Brush.cfg:_
+Example of an empty _Open Brush.cfg:_
 
 ```
 {
@@ -61,7 +61,11 @@ Sample contents of a _Open Brush.cfg_ with various fields filled in:
       "SnapshotHeight":1080,
       "FOV":80,
       "DisableAudio":false,
-      "UnlockScale":false
+      "UnlockScale":false,
+      "AdvancedKeyboardShortcuts":false,
+      "SkipIntro":true,
+      "EnableMonoscopicMode":false,
+      "DisableXrMode":false
    },
    "Export":{
       "ExportBinaryFbx":true,
