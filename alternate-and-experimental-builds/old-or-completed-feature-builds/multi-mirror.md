@@ -1,6 +1,6 @@
 # Feature: Multi-Mirror
 
-#### Status: Released in [v2.4](broken-reference)
+#### Status: Released in [v2.4](../../release-history/v2.4-prismatic.md)
 
 ![](<../../.gitbook/assets/image (14).png>) ![](<../../.gitbook/assets/image (2) (3).png>)
 

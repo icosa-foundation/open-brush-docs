@@ -1,6 +1,6 @@
 # Insominx's (michael-g) Experimental Build
 
-**Note: Released in** [**v1.0**](broken-reference)
+**Note: Released in** [**v1.0**](../../release-history/v1.0-happy-birthday-to-us.md)
 
 This build was intended to streamline the UI with a subset of features to:
 
