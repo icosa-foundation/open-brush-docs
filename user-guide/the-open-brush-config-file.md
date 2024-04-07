@@ -19,6 +19,9 @@ Example of an empty _Open Brush.cfg:_
    "User":{
       
    },
+   "Brushes":{
+   
+   },
    "Video":{
       
    },
@@ -37,6 +40,9 @@ Sample contents of a _Open Brush.cfg_ with various fields filled in:
 {
    "User":{
       "Author":"Tiltasaurus"
+   },
+   "Brushes": {
+      "IncludeTags": ["classroom"]
    },
    "Video":{
       "Resolution":1280,
@@ -77,6 +83,13 @@ Sample contents of a _Open Brush.cfg_ with various fields filled in:
 #### "User" Section
 
 * **Author:** The name you use here will be stored in files uploaded to Icosa, Sketchfab etc.
+
+#### "Brushes" Section
+
+* **AddTagsToBrushes**: See [Brush Tags](brushes/hiding-brushes-with-brush-tags.md)
+* **RemoveTagsFromBrushes**: See [Brush Tags](brushes/hiding-brushes-with-brush-tags.md)
+* **IncludeTags**: See [Brush Tags](brushes/hiding-brushes-with-brush-tags.md)
+* **ExcludeTags**: See [Brush Tags](brushes/hiding-brushes-with-brush-tags.md)
 
 #### "Video" Section
 
