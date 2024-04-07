@@ -38,9 +38,6 @@ Sample contents of a _Open Brush.cfg_ with various fields filled in:
    "User":{
       "Author":"Tiltasaurus"
    },
-   "YouTube":{
-      "ChannelID":"abcdefghijklmnopqrstuvwx"
-   },
    "Video":{
       "Resolution":1280,
       "OfflineResolution":1920,
@@ -75,11 +72,17 @@ Sample contents of a _Open Brush.cfg_ with various fields filled in:
 }
 ```
 
-[How to get an OAuth key for Twitch.](https://twitchapps.com/tokengen/)
-
-[How to find your YouTube Channel ID.](https://support.google.com/youtube/answer/3250431)
-
 ### Valid Config file Settings
+
+#### "User" Section
+
+* **Author:** The name you use here will be stored in files uploaded to Icosa, Sketchfab etc.
+
+#### "Video" Section
+
+* **Encoder**: (h.264) This setting specifies the video codec used for encoding exported videos. Currently, the only supported codec is h.264.
+
+#### "Flags" Section
 
 1. **PostEffectsOnCapture:** (true | false) This setting determines whether post-processing effects will be applied to captured images or videos. When set to true, effects will be applied; when set to false, they will not.
 2. **ShowWatermark**: (true | false) This setting controls the visibility of the Open Brush watermark on exported images and videos. When set to true, the watermark will be visible; when set to false, it will be hidden.
@@ -89,10 +92,16 @@ Sample contents of a _Open Brush.cfg_ with various fields filled in:
 6. **SnapshotHeight**: (1 - some reasonably large number) This setting controls the height (in pixels) of exported images. Users can specify a value between 1 and a reasonably large number to set the desired image height.
 7. **FOV**: (1 - 179) This setting determines the field of view (FOV) for the camera used during image or video capture. Users can specify a value between 1 and 179 degrees to set the desired FOV.
 8. **DisableAudio**: (true | false) This setting allows users to disable audio playback within Open Brush. When set to true, audio playback will be disabled; when set to false, audio playback will function as normal.
-9. **ExportBinaryFbx**: (true | false) This setting controls whether exported FBX files will be in binary format. When set to true, binary FBX files will be exported; when set to false, ASCII FBX files will be exported.
-10. **ExportFbxVersion**: (FBX201600 | FBX201400 | FBX201300 | FBX2012 | FBX201100) This setting specifies the version of the FBX file format to be used when exporting 3D models. Users can choose from FBX201600, FBX201400, FBX201300, FBX2012, or FBX201100. If not specified in the config file, the default version is FBX201400. If users experience issues importing the FBX file into older software, they may need to select an older version.
-11. **ExportStrokeTimestamp:** (true | false) This will put timing information into texcoord2 for all GLB exports. Timestamps are a vec3: x,y = the earliest/latest timestamp in the stroke which contains that vertex. z = the timestamp for that vertex. This setting defaults to true but can be disabled to reduce file size.
-12. **Encoder**: (h.264) This setting specifies the video codec used for encoding exported videos. Currently, the only supported codec is h.264.
+9. **AdvancedKeyboardShortcuts**: (true | false) Enables some extra keyboard shortcuts that were previously available in [Experimental Mode](experimental-mode.md)
+10. **SkipIntro**: (true | false) Skips the intro scene that appears when Open Brush finishes loading
+11. **EnableMonoscopicMode**: (true | false) See [Using Open Brush without a VR headset](monoscopic-mode.md)
+12. **DisableXrMode**: (true | false) See [Using Open Brush without a VR headset](monoscopic-mode.md)
+
+#### "Export" Section
+
+1. **ExportBinaryFbx**: (true | false) This setting controls whether exported FBX files will be in binary format. When set to true, binary FBX files will be exported; when set to false, ASCII FBX files will be exported.
+2. **ExportFbxVersion**: (FBX201600 | FBX201400 | FBX201300 | FBX2012 | FBX201100) This setting specifies the version of the FBX file format to be used when exporting 3D models. Users can choose from FBX201600, FBX201400, FBX201300, FBX2012, or FBX201100. If not specified in the config file, the default version is FBX201400. If users experience issues importing the FBX file into older software, they may need to select an older version.
+3. **ExportStrokeTimestamp:** (true | false) This will put timing information into texcoord2 for all GLB exports. Timestamps are a vec3: x,y = the earliest/latest timestamp in the stroke which contains that vertex. z = the timestamp for that vertex. This setting defaults to true but can be disabled to reduce file size.
 
 ### Setting config values from the command line
 
