@@ -1,6 +1,6 @@
 # Feature: Snip Tool
 
-#### Status: Released in [v2.0](broken-reference)
+#### Status: Released in [v2.0](../../release-history/v2.0-xr-update.md)
 
 ## Downloads
 

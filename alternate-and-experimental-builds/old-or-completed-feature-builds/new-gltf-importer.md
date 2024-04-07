@@ -1,6 +1,6 @@
 # Feature: Improved GLTF Importer
 
-#### Status: Released in [v2.4](broken-reference)
+#### Status: Released in [v2.4](../../release-history/v2.4-prismatic.md)
 
 ## Download
 
