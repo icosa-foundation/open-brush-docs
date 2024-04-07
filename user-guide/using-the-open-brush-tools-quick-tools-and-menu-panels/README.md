@@ -10,7 +10,7 @@ At the bottom of the palette is the Menu panel which opens when you hover over i
 
 Additionally, you can find the **Brush, Dropper, re-color, Selection, Model Pin, and Eraser** on the Quick Tools panel.
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 The Quick Tools panel is accessed:
 

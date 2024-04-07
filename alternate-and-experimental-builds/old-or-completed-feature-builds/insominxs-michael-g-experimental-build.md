@@ -1,6 +1,6 @@
 # Insominx's (michael-g) Experimental Build
 
-**Note: Released in** [**v1.0**](../../release-history/1.0.md)
+**Note: Released in** [**v1.0**](broken-reference)
 
 This build was intended to streamline the UI with a subset of features to:
 

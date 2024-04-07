@@ -1,6 +1,6 @@
 # Feature: Layers
 
-#### Status: Released in [v2.0](../../release-history/2.0.md)
+#### Status: Released in [v2.0](broken-reference)
 
 ## Downloads
 

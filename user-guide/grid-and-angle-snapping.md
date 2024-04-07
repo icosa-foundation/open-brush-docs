@@ -18,7 +18,7 @@ Drawing along straight x, y or z lines. Building regular structures up by making
 
 <div align="left">
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt="" width="71"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (4).png" alt="" width="71"><figcaption></figcaption></figure>
 
 </div>
 

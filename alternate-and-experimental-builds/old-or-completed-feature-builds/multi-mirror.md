@@ -1,6 +1,6 @@
 # Feature: Multi-Mirror
 
-#### Status: Released in [v2.4](../../release-history/v2.4.md)
+#### Status: Released in [v2.4](broken-reference)
 
 ![](<../../.gitbook/assets/image (14).png>) ![](<../../.gitbook/assets/image (2) (3).png>)
 
