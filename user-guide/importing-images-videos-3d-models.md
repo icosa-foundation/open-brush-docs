@@ -22,7 +22,7 @@ Click this icon to open the Media Library:
 
 **Add a 3D model**
 
-1. On a computer, copy .obj files to Documents/Open Brush/Media Library/Models.
+1. On a computer, copy the model files to Documents/Open Brush/Media Library/Models.
 2. In Open Brush, make sure you are in Advanced Mode. On the Quest you also need to switch Experimental Mode on in the settings.
 3. Go to the Menu panel (below your palette) and select **"More Options..."** **> Labs > Local Media Library > Local Models**.
 4. Switch between selecting images and models using the icons in the top left.
