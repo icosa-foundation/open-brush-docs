@@ -1,6 +1,11 @@
 # Changelog since v2.7
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.7...e23a47a3da50518dfe046fbf5262a90de8e01739)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.7...ba94b61b64194f56b0d47b46b835484df5786023)
+
+## 🚀 Features
+
+- Remove almost all uses of Experimental Mode, and combine Monoscopic into the main releases ([PR #674](https://github.com/icosa-foundation/open-brush/pull/674) by @andybak)
+
 
 ## 🛠️ Infrastructure
 
@@ -11,6 +16,8 @@
 - Update pre-commit, fix two pylint warnings ([PR #671](https://github.com/icosa-foundation/open-brush/pull/671) by @mikeage)
 
 - Update GeneratedThirdPartyNotices.txt and make sure it stays in sync ([PR #673](https://github.com/icosa-foundation/open-brush/pull/673) by @mikeage)
+
+- Fix automatic changelog page in the docs; update to the new (as of Jan 26th) path ([PR #675](https://github.com/icosa-foundation/open-brush/pull/675) by @mikeage)
 
 
 
