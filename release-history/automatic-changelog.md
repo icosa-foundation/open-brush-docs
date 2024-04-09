@@ -1,6 +1,6 @@
 # Changelog since v2.7
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.7...bbe7337402d112b2fe0a5c8c444d85b5fc5f3976)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.7...cf131896a540ee325fefd72a18ce9718bdadaa0b)
 
 ## 🚀 Features
 
@@ -20,6 +20,11 @@
 - Fix automatic changelog page in the docs; update to the new (as of Jan 26th) path ([PR #675](https://github.com/icosa-foundation/open-brush/pull/675) by @mikeage)
 
 - Merge the contents of the release-history directory instead of overwriting ([PR #676](https://github.com/icosa-foundation/open-brush/pull/676) by @mikeage)
+
+
+## 💬 Uncategorized
+
+- Fix broken multimirror options popup. Hide Tiltosaurus button as it d… ([PR #680](https://github.com/icosa-foundation/open-brush/pull/680) by @andybak)
 
 
 
