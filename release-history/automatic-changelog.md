@@ -1,6 +1,6 @@
 # Changelog since v2.7
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.7...8a8d2160c0d33ce4bb7b8e34fea182af81989087)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.7...8c72a0d5b030981acdfbb30796a12759c691cbd7)
 
 ## 🚀 Features
 
@@ -27,6 +27,8 @@
 - Fix automatic changelog page in the docs; update to the new (as of Jan 26th) path ([PR #675](https://github.com/icosa-foundation/open-brush/pull/675) by @mikeage)
 
 - Merge the contents of the release-history directory instead of overwriting ([PR #676](https://github.com/icosa-foundation/open-brush/pull/676) by @mikeage)
+
+- Minor formatting improvements ([PR #682](https://github.com/icosa-foundation/open-brush/pull/682) by @andybak)
 
 
 
