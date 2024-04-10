@@ -1,6 +1,6 @@
 # Changelog since v2.7
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.7...e63ea0830d635e1f141d6451044efe47348c3019)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.7...b097bbd87a99e6206680c5520917534f4e0c636d)
 
 ## 🚀 Features
 
@@ -33,6 +33,11 @@
 - Minor formatting improvements ([PR #682](https://github.com/icosa-foundation/open-brush/pull/682) by @andybak)
 
 - Release Linux Viewer/Standalone on Steam and Github ([PR #683](https://github.com/icosa-foundation/open-brush/pull/683) by @mikeage)
+
+
+## 💬 Uncategorized
+
+- Fix github release (typo in directory name) ([PR #684](https://github.com/icosa-foundation/open-brush/pull/684) by @mikeage)
 
 
 
