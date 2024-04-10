@@ -1,12 +1,14 @@
 # Changelog since v2.7
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.7...8c72a0d5b030981acdfbb30796a12759c691cbd7)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.7...ee8fe20f75a0769787c42f7e090b4ef945ec83c9)
 
 ## 🚀 Features
 
 - Remove almost all uses of Experimental Mode, and combine Monoscopic into the main releases ([PR #674](https://github.com/icosa-foundation/open-brush/pull/674) by @andybak)
 
 - Skip intro tutorial on Zapbox ([PR #681](https://github.com/icosa-foundation/open-brush/pull/681) by @mikeskydev)
+
+- Allow generation of sphere with gesture on mobile ([PR #678](https://github.com/icosa-foundation/open-brush/pull/678) by @mikeskydev)
 
 
 ## 🐛 Fixes
