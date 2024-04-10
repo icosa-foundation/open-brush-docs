@@ -1,6 +1,6 @@
 # Changelog since v2.7
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.7...ee8fe20f75a0769787c42f7e090b4ef945ec83c9)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.7...e63ea0830d635e1f141d6451044efe47348c3019)
 
 ## 🚀 Features
 
@@ -31,6 +31,8 @@
 - Merge the contents of the release-history directory instead of overwriting ([PR #676](https://github.com/icosa-foundation/open-brush/pull/676) by @mikeage)
 
 - Minor formatting improvements ([PR #682](https://github.com/icosa-foundation/open-brush/pull/682) by @andybak)
+
+- Release Linux Viewer/Standalone on Steam and Github ([PR #683](https://github.com/icosa-foundation/open-brush/pull/683) by @mikeage)
 
 
 
