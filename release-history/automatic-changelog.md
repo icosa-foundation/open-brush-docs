@@ -1,6 +1,6 @@
 # Changelog since v2.7
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.7...b097bbd87a99e6206680c5520917534f4e0c636d)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.7...ee2c821f7f2b38128b1576fc9247bf1e95a54d53)
 
 ## 🚀 Features
 
@@ -34,10 +34,12 @@
 
 - Release Linux Viewer/Standalone on Steam and Github ([PR #683](https://github.com/icosa-foundation/open-brush/pull/683) by @mikeage)
 
+- Fix github release (typo in directory name) ([PR #684](https://github.com/icosa-foundation/open-brush/pull/684) by @mikeage)
+
 
 ## 💬 Uncategorized
 
-- Fix github release (typo in directory name) ([PR #684](https://github.com/icosa-foundation/open-brush/pull/684) by @mikeage)
+- Workaround for PCVR depth submission ([PR #685](https://github.com/icosa-foundation/open-brush/pull/685) by @mikeskydev)
 
 
 
