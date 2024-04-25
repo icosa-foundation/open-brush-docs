@@ -18,14 +18,20 @@
 
 ## Developing and Testing Without a VR Headset
 
-It’s often quicker while developing to avoid jumping in and out of VR. To activate a simple desktop mode in Tilt Brush I had to do the following:
+It’s often quicker while developing to avoid jumping in and out of VR. [Monoscopic mode](https://docs.openbrush.app/user-guide/monoscopic-mode#activating-monoscopic-mode) is very useful for this.
 
-1. In the main scene on the gameobject “Config” (under “App”) change SDK mode to “monoscopic”
+1.  Under "Flags" set EnableMonoscopicMode to true in your [Open Brush Config file](../user-guide/the-open-brush-config-file.md)
+
+    ```
+    "Flags": {
+        "EnableMonoscopicMode": true
+    }
+    ```
 2. Sometimes panels are placed over other panels. To move a panel hold shift at the same time as holding Alt to rotate the viewpoint (see below)
 
 Entering play mode should now allow you to draw and control the app using the mouse and keyboard.
 
-You can learn more about [monoscopic mode](../user-guide/monoscopic-mode.md)
+You can learn more about using [Open Brush without a headset](../user-guide/monoscopic-mode.md)
 
 ## Enums
 
