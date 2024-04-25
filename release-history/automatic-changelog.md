@@ -1,6 +1,6 @@
 # Changelog since v2.7
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.7...ee2c821f7f2b38128b1576fc9247bf1e95a54d53)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.7...a48de31f9f6c7e1a2cead3fd1868b0fef9ef86aa)
 
 ## 🚀 Features
 
@@ -10,10 +10,14 @@
 
 - Allow generation of sphere with gesture on mobile ([PR #678](https://github.com/icosa-foundation/open-brush/pull/678) by @mikeskydev)
 
+- Update lots of shaders to singlepass ([PR #677](https://github.com/icosa-foundation/open-brush/pull/677) by @mikeskydev)
+
 
 ## 🐛 Fixes
 
 - Fix broken multimirror options popup. Hide Tiltosaurus button as it d… ([PR #680](https://github.com/icosa-foundation/open-brush/pull/680) by @andybak)
+
+- Workaround for PCVR depth submission ([PR #685](https://github.com/icosa-foundation/open-brush/pull/685) by @mikeskydev)
 
 
 ## 🛠️ Infrastructure
@@ -35,11 +39,6 @@
 - Release Linux Viewer/Standalone on Steam and Github ([PR #683](https://github.com/icosa-foundation/open-brush/pull/683) by @mikeage)
 
 - Fix github release (typo in directory name) ([PR #684](https://github.com/icosa-foundation/open-brush/pull/684) by @mikeage)
-
-
-## 💬 Uncategorized
-
-- Workaround for PCVR depth submission ([PR #685](https://github.com/icosa-foundation/open-brush/pull/685) by @mikeskydev)
 
 
 
