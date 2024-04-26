@@ -1,6 +1,6 @@
 # Changelog since v2.7
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.7...a48de31f9f6c7e1a2cead3fd1868b0fef9ef86aa)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.7...2fef407ce3d587d7e73922e6a402ad4638d76949)
 
 ## 🚀 Features
 
@@ -18,6 +18,8 @@
 - Fix broken multimirror options popup. Hide Tiltosaurus button as it d… ([PR #680](https://github.com/icosa-foundation/open-brush/pull/680) by @andybak)
 
 - Workaround for PCVR depth submission ([PR #685](https://github.com/icosa-foundation/open-brush/pull/685) by @mikeskydev)
+
+- De-initialize XR Subsytems properly ([PR #695](https://github.com/icosa-foundation/open-brush/pull/695) by @andybak)
 
 
 ## 🛠️ Infrastructure
