@@ -1,6 +1,6 @@
 # Changelog since v2.7
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.7...f9b66cda57e289b35bd27cf7ccd45d4c5d43ca97)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.7...a419190216ee3d2c4e932d04a2d3da6a91fa1bc3)
 
 ## 🚀 Features
 
@@ -11,6 +11,8 @@
 - Allow generation of sphere with gesture on mobile ([PR #678](https://github.com/icosa-foundation/open-brush/pull/678) by @mikeskydev)
 
 - Update lots of shaders to singlepass ([PR #677](https://github.com/icosa-foundation/open-brush/pull/677) by @mikeskydev)
+
+- Preview spheres for 360 images ([PR #687](https://github.com/icosa-foundation/open-brush/pull/687) by @andybak)
 
 
 ## 🐛 Fixes
