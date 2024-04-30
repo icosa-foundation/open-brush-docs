@@ -1,6 +1,6 @@
 # Changelog since v2.7
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.7...2fef407ce3d587d7e73922e6a402ad4638d76949)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.7...f9b66cda57e289b35bd27cf7ccd45d4c5d43ca97)
 
 ## 🚀 Features
 
@@ -20,6 +20,8 @@
 - Workaround for PCVR depth submission ([PR #685](https://github.com/icosa-foundation/open-brush/pull/685) by @mikeskydev)
 
 - De-initialize XR Subsytems properly ([PR #695](https://github.com/icosa-foundation/open-brush/pull/695) by @andybak)
+
+- Fix Advanced Tools panel initial position ([PR #697](https://github.com/icosa-foundation/open-brush/pull/697) by @andybak)
 
 
 ## 🛠️ Infrastructure
