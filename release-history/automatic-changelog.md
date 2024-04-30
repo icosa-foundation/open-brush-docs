@@ -1,6 +1,6 @@
 # Changelog since v2.7
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.7...a419190216ee3d2c4e932d04a2d3da6a91fa1bc3)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.7...7d0579c28e9e6f58da98e6b23510fd6f341b1110)
 
 ## 🚀 Features
 
@@ -45,6 +45,11 @@
 - Release Linux Viewer/Standalone on Steam and Github ([PR #683](https://github.com/icosa-foundation/open-brush/pull/683) by @mikeage)
 
 - Fix github release (typo in directory name) ([PR #684](https://github.com/icosa-foundation/open-brush/pull/684) by @mikeage)
+
+
+## 💬 Uncategorized
+
+- Background image preview sphere labels ([PR #700](https://github.com/icosa-foundation/open-brush/pull/700) by @andybak)
 
 
 
