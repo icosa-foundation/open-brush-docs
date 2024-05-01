@@ -1,6 +1,6 @@
 # Changelog since v2.7
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.7...7d0579c28e9e6f58da98e6b23510fd6f341b1110)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.7...4548c797e546e1cb07fd944ca56c4985e39c9c44)
 
 ## 🚀 Features
 
@@ -25,6 +25,10 @@
 
 - Fix Advanced Tools panel initial position ([PR #697](https://github.com/icosa-foundation/open-brush/pull/697) by @andybak)
 
+- Background image preview sphere labels ([PR #700](https://github.com/icosa-foundation/open-brush/pull/700) by @andybak)
+
+- Fix stereo pano sphere preview ([PR #701](https://github.com/icosa-foundation/open-brush/pull/701) by @andybak)
+
 
 ## 🛠️ Infrastructure
 
@@ -45,11 +49,6 @@
 - Release Linux Viewer/Standalone on Steam and Github ([PR #683](https://github.com/icosa-foundation/open-brush/pull/683) by @mikeage)
 
 - Fix github release (typo in directory name) ([PR #684](https://github.com/icosa-foundation/open-brush/pull/684) by @mikeage)
-
-
-## 💬 Uncategorized
-
-- Background image preview sphere labels ([PR #700](https://github.com/icosa-foundation/open-brush/pull/700) by @andybak)
 
 
 
