@@ -1,6 +1,6 @@
 # Changelog since v2.7
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.7...4548c797e546e1cb07fd944ca56c4985e39c9c44)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.7...619b3dd54d343634244c83ecad89b133db507248)
 
 ## 🚀 Features
 
@@ -13,6 +13,8 @@
 - Update lots of shaders to singlepass ([PR #677](https://github.com/icosa-foundation/open-brush/pull/677) by @mikeskydev)
 
 - Preview spheres for 360 images ([PR #687](https://github.com/icosa-foundation/open-brush/pull/687) by @andybak)
+
+- Pagination for layers UI ([PR #698](https://github.com/icosa-foundation/open-brush/pull/698) by @andybak)
 
 
 ## 🐛 Fixes
