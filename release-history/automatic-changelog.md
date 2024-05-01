@@ -1,6 +1,6 @@
 # Changelog since v2.7
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.7...619b3dd54d343634244c83ecad89b133db507248)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.7...4c692b2c7bfc3c8463a2de733da1131e049dd082)
 
 ## 🚀 Features
 
@@ -51,6 +51,11 @@
 - Release Linux Viewer/Standalone on Steam and Github ([PR #683](https://github.com/icosa-foundation/open-brush/pull/683) by @mikeage)
 
 - Fix github release (typo in directory name) ([PR #684](https://github.com/icosa-foundation/open-brush/pull/684) by @mikeage)
+
+
+## 💬 Uncategorized
+
+- Damn panel spacing ([PR #702](https://github.com/icosa-foundation/open-brush/pull/702) by @andybak)
 
 
 
