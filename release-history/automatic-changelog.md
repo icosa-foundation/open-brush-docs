@@ -1,6 +1,6 @@
 # Changelog since v2.7
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.7...33c86d640078fde6c22fdc326d67f8239530c5b7)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.7...1ef70e5829fe4e9ca8a03123f79890e07ab38e95)
 
 ## 🚀 Features
 
@@ -53,6 +53,8 @@
 - Release Linux Viewer/Standalone on Steam and Github ([PR #683](https://github.com/icosa-foundation/open-brush/pull/683) by @mikeage)
 
 - Fix github release (typo in directory name) ([PR #684](https://github.com/icosa-foundation/open-brush/pull/684) by @mikeage)
+
+- MacOS: sign all bundles, rather than listing them explicitly ([PR #706](https://github.com/icosa-foundation/open-brush/pull/706) by @mikeage)
 
 
 ## 💬 Uncategorized
