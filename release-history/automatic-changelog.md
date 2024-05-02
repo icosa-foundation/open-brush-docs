@@ -1,6 +1,6 @@
 # Changelog since v2.7
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.7...4c692b2c7bfc3c8463a2de733da1131e049dd082)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.7...97423583de9bd7d374d15fd32ac9537b91f93b7d)
 
 ## 🚀 Features
 
@@ -16,6 +16,8 @@
 
 - Pagination for layers UI ([PR #698](https://github.com/icosa-foundation/open-brush/pull/698) by @andybak)
 
+- Folder navigation UI ([PR #689](https://github.com/icosa-foundation/open-brush/pull/689) by @andybak)
+
 
 ## 🐛 Fixes
 
@@ -24,8 +26,6 @@
 - Workaround for PCVR depth submission ([PR #685](https://github.com/icosa-foundation/open-brush/pull/685) by @mikeskydev)
 
 - De-initialize XR Subsytems properly ([PR #695](https://github.com/icosa-foundation/open-brush/pull/695) by @andybak)
-
-- Fix Advanced Tools panel initial position ([PR #697](https://github.com/icosa-foundation/open-brush/pull/697) by @andybak)
 
 - Background image preview sphere labels ([PR #700](https://github.com/icosa-foundation/open-brush/pull/700) by @andybak)
 
@@ -54,6 +54,8 @@
 
 
 ## 💬 Uncategorized
+
+- Fix Advanced Tools panel initial position ([PR #697](https://github.com/icosa-foundation/open-brush/pull/697) by @andybak)
 
 - Damn panel spacing ([PR #702](https://github.com/icosa-foundation/open-brush/pull/702) by @andybak)
 
