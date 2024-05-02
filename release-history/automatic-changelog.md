@@ -1,6 +1,6 @@
 # Changelog since v2.7
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.7...97423583de9bd7d374d15fd32ac9537b91f93b7d)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.7...33c86d640078fde6c22fdc326d67f8239530c5b7)
 
 ## 🚀 Features
 
@@ -17,6 +17,8 @@
 - Pagination for layers UI ([PR #698](https://github.com/icosa-foundation/open-brush/pull/698) by @andybak)
 
 - Folder navigation UI ([PR #689](https://github.com/icosa-foundation/open-brush/pull/689) by @andybak)
+
+- Import/export improvements ([PR #573](https://github.com/icosa-foundation/open-brush/pull/573) by @andybak)
 
 
 ## 🐛 Fixes
