@@ -1,6 +1,6 @@
 # Changelog since v2.7
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.7...1ef70e5829fe4e9ca8a03123f79890e07ab38e95)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.7...abe6e55b2f6d382b3436dd0717b5acacfbd0539f)
 
 ## 🚀 Features
 
@@ -32,6 +32,8 @@
 - Background image preview sphere labels ([PR #700](https://github.com/icosa-foundation/open-brush/pull/700) by @andybak)
 
 - Fix stereo pano sphere preview ([PR #701](https://github.com/icosa-foundation/open-brush/pull/701) by @andybak)
+
+- Enable file system watcher on mobile ([PR #704](https://github.com/icosa-foundation/open-brush/pull/704) by @andybak)
 
 
 ## 🛠️ Infrastructure
