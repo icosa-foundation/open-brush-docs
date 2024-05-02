@@ -1,6 +1,6 @@
 # Changelog since v2.7
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.7...abe6e55b2f6d382b3436dd0717b5acacfbd0539f)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.7...8d63ab35aba009492891419e3c356e216f0c2562)
 
 ## 🚀 Features
 
@@ -34,6 +34,8 @@
 - Fix stereo pano sphere preview ([PR #701](https://github.com/icosa-foundation/open-brush/pull/701) by @andybak)
 
 - Enable file system watcher on mobile ([PR #704](https://github.com/icosa-foundation/open-brush/pull/704) by @andybak)
+
+- UnityGltf import is meant to default to off ([PR #707](https://github.com/icosa-foundation/open-brush/pull/707) by @andybak)
 
 
 ## 🛠️ Infrastructure
