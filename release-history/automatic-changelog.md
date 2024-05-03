@@ -1,6 +1,6 @@
 # Changelog since v2.7
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.7...0f4d1a46aee032cd7b748d8ee43f76067d749961)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.7...f5228c534f2b19efa69f0e681834c44df6085bf1)
 
 ## 🚀 Features
 
@@ -19,6 +19,8 @@
 - Folder navigation UI ([PR #689](https://github.com/icosa-foundation/open-brush/pull/689) by @andybak)
 
 - Import/export improvements ([PR #573](https://github.com/icosa-foundation/open-brush/pull/573) by @andybak)
+
+- Passthrough Hull Brush ([PR #613](https://github.com/icosa-foundation/open-brush/pull/613) by @andybak)
 
 
 ## 🎨 UI / UX
