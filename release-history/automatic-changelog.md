@@ -1,6 +1,6 @@
 # Changelog since v2.7
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.7...8d63ab35aba009492891419e3c356e216f0c2562)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.7...0f4d1a46aee032cd7b748d8ee43f76067d749961)
 
 ## 🚀 Features
 
@@ -19,6 +19,13 @@
 - Folder navigation UI ([PR #689](https://github.com/icosa-foundation/open-brush/pull/689) by @andybak)
 
 - Import/export improvements ([PR #573](https://github.com/icosa-foundation/open-brush/pull/573) by @andybak)
+
+
+## 🎨 UI / UX
+
+- Fix Advanced Tools panel initial position ([PR #697](https://github.com/icosa-foundation/open-brush/pull/697) by @andybak)
+
+- Damn panel spacing ([PR #702](https://github.com/icosa-foundation/open-brush/pull/702) by @andybak)
 
 
 ## 🐛 Fixes
@@ -60,12 +67,7 @@
 
 - MacOS: sign all bundles, rather than listing them explicitly ([PR #706](https://github.com/icosa-foundation/open-brush/pull/706) by @mikeage)
 
-
-## 💬 Uncategorized
-
-- Fix Advanced Tools panel initial position ([PR #697](https://github.com/icosa-foundation/open-brush/pull/697) by @andybak)
-
-- Damn panel spacing ([PR #702](https://github.com/icosa-foundation/open-brush/pull/702) by @andybak)
+- Add a section in the changelog for UI/UX PRs ([PR #703](https://github.com/icosa-foundation/open-brush/pull/703) by @mikeage)
 
 
 
