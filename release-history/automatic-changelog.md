@@ -1,6 +1,6 @@
 # Changelog since v2.7
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.7...f5228c534f2b19efa69f0e681834c44df6085bf1)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.7...47c95b7b909c122cb682ffd763e47d63be6753a0)
 
 ## 🚀 Features
 
@@ -70,6 +70,10 @@
 - MacOS: sign all bundles, rather than listing them explicitly ([PR #706](https://github.com/icosa-foundation/open-brush/pull/706) by @mikeage)
 
 - Add a section in the changelog for UI/UX PRs ([PR #703](https://github.com/icosa-foundation/open-brush/pull/703) by @mikeage)
+
+- Add support for a [xCI BUILD DEV] (without the x) to build Development builds ([PR #712](https://github.com/icosa-foundation/open-brush/pull/712) by @mikeage)
+
+- Fix artifact upload of development builds ([PR #713](https://github.com/icosa-foundation/open-brush/pull/713) by @mikeage)
 
 
 
