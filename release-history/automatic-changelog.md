@@ -1,6 +1,6 @@
 # Changelog since v2.7
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.7...47c95b7b909c122cb682ffd763e47d63be6753a0)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.7...b7b5e13324be3cdc487c5f3f84cb40130faabb1d)
 
 ## 🚀 Features
 
@@ -74,6 +74,11 @@
 - Add support for a [xCI BUILD DEV] (without the x) to build Development builds ([PR #712](https://github.com/icosa-foundation/open-brush/pull/712) by @mikeage)
 
 - Fix artifact upload of development builds ([PR #713](https://github.com/icosa-foundation/open-brush/pull/713) by @mikeage)
+
+
+## 💬 Uncategorized
+
+- UnityGLTF Shader Variants ([PR #714](https://github.com/icosa-foundation/open-brush/pull/714) by @andybak)
 
 
 
