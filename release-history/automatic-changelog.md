@@ -1,6 +1,6 @@
 # Changelog since v2.7
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.7...b7b5e13324be3cdc487c5f3f84cb40130faabb1d)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.7...364b5046d1b7bfae73e9d1ce6db968b44dc9c685)
 
 ## 🚀 Features
 
@@ -21,6 +21,8 @@
 - Import/export improvements ([PR #573](https://github.com/icosa-foundation/open-brush/pull/573) by @andybak)
 
 - Passthrough Hull Brush ([PR #613](https://github.com/icosa-foundation/open-brush/pull/613) by @andybak)
+
+- UnityGLTF Shader Variants ([PR #714](https://github.com/icosa-foundation/open-brush/pull/714) by @andybak)
 
 
 ## 🎨 UI / UX
@@ -45,6 +47,8 @@
 - Enable file system watcher on mobile ([PR #704](https://github.com/icosa-foundation/open-brush/pull/704) by @andybak)
 
 - UnityGltf import is meant to default to off ([PR #707](https://github.com/icosa-foundation/open-brush/pull/707) by @andybak)
+
+- Fix issue where transparent brushes were invisible in Quest passthrough mode. ([PR #715](https://github.com/icosa-foundation/open-brush/pull/715) by @andybak)
 
 
 ## 🛠️ Infrastructure
@@ -74,11 +78,6 @@
 - Add support for a [xCI BUILD DEV] (without the x) to build Development builds ([PR #712](https://github.com/icosa-foundation/open-brush/pull/712) by @mikeage)
 
 - Fix artifact upload of development builds ([PR #713](https://github.com/icosa-foundation/open-brush/pull/713) by @mikeage)
-
-
-## 💬 Uncategorized
-
-- UnityGLTF Shader Variants ([PR #714](https://github.com/icosa-foundation/open-brush/pull/714) by @andybak)
 
 
 
