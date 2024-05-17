@@ -1,6 +1,6 @@
 # Feature: Improved GLTF Importer
 
-#### Status: Released in [v2.4](../../release-history/v2.4-prismatic.md)
+#### Status: Released in the [current beta version](../open-brush-beta-docs.md)
 
 ## Download
 
