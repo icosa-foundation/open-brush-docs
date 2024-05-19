@@ -1,17 +1,12 @@
 # Feature: Improved Import/Export
 
-Status: <mark style="color:red;">In Progress</mark>
+Status: <mark style="color:red;">Included in the current</mark> [<mark style="color:red;">beta release</mark>](open-brush-beta-docs.md)
 
 <figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Download
 
-* [Oculus Quest 1](https://nightly.link/icosa-foundation/open-brush/workflows/build/feature%2Funity-gltf-export/Oculus%20Quest%20\(2%2B\).zip)
-* [Oculus Quest 2 or 3](https://nightly.link/icosa-foundation/open-brush/workflows/build/feature%2Funity-gltf-export/Oculus%20Quest%20\(2%2B\).zip)
-* [Oculus PC VR](https://nightly.link/icosa-foundation/open-brush/workflows/build/feature%2Funity-gltf-export/Windows%20Rift.zip)(Rift, Quest via Link cable...)
-* [SteamVR and other PC VR](https://nightly.link/icosa-foundation/open-brush/workflows/build/feature%2Funity-gltf-export/Windows%20OpenXR.zip)(Vive, Index, Reverb...)
-* [Other Builds](https://nightly.link/icosa-foundation/open-brush/workflows/build/feature%2Funity-gltf-export) (Pico, Pimax etc)
-* [Code](https://github.com/icosa-foundation/open-brush/tree/feature/unity-gltf-export)
+Available when you switch to the [beta release](open-brush-beta-docs.md)
 
 ### What does it do?
 
