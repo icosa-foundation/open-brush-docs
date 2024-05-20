@@ -1,6 +1,6 @@
 # Changelog since v2.7
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.7...364b5046d1b7bfae73e9d1ce6db968b44dc9c685)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.7...443e32bca24bdc530a9f68786b1d5fbebf53e231)
 
 ## 🚀 Features
 
@@ -78,6 +78,11 @@
 - Add support for a [xCI BUILD DEV] (without the x) to build Development builds ([PR #712](https://github.com/icosa-foundation/open-brush/pull/712) by @mikeage)
 
 - Fix artifact upload of development builds ([PR #713](https://github.com/icosa-foundation/open-brush/pull/713) by @mikeage)
+
+
+## 📦 Dependencies / Maintenance
+
+- Bump rexml from 3.2.6 to 3.2.8 ([PR #717](https://github.com/icosa-foundation/open-brush/pull/717) by @dependabot[bot])
 
 
 
