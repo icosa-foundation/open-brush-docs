@@ -1,6 +1,6 @@
 # Changelog since v2.7
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.7...f6bae024e6d4d701ed4813d29685d9593ae1aaa0)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.7...6d47627b1fd84e303186b1e6c0eaea6a7f908cd2)
 
 ## 🚀 Features
 
@@ -23,6 +23,8 @@
 - Passthrough Hull Brush ([PR #613](https://github.com/icosa-foundation/open-brush/pull/613) by @andybak)
 
 - UnityGLTF Shader Variants ([PR #714](https://github.com/icosa-foundation/open-brush/pull/714) by @andybak)
+
+- Add Pico support to the generic OpenXR build ([PR #719](https://github.com/icosa-foundation/open-brush/pull/719) by @mikeskydev)
 
 
 ## 🎨 UI / UX
