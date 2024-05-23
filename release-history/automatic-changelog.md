@@ -1,6 +1,6 @@
 # Changelog since v2.7
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.7...443e32bca24bdc530a9f68786b1d5fbebf53e231)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.7...f6bae024e6d4d701ed4813d29685d9593ae1aaa0)
 
 ## 🚀 Features
 
@@ -78,6 +78,8 @@
 - Add support for a [xCI BUILD DEV] (without the x) to build Development builds ([PR #712](https://github.com/icosa-foundation/open-brush/pull/712) by @mikeage)
 
 - Fix artifact upload of development builds ([PR #713](https://github.com/icosa-foundation/open-brush/pull/713) by @mikeage)
+
+- Update the (very rarely used) Unity License Test action ([PR #718](https://github.com/icosa-foundation/open-brush/pull/718) by @mikeage)
 
 
 ## 📦 Dependencies / Maintenance
