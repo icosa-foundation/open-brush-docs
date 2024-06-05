@@ -1,6 +1,6 @@
 # Changelog since v2.7
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.7...6d47627b1fd84e303186b1e6c0eaea6a7f908cd2)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.7...013fe41e03081264c5afdb4e4006adfe530f9988)
 
 ## 🚀 Features
 
@@ -82,6 +82,8 @@
 - Fix artifact upload of development builds ([PR #713](https://github.com/icosa-foundation/open-brush/pull/713) by @mikeage)
 
 - Update the (very rarely used) Unity License Test action ([PR #718](https://github.com/icosa-foundation/open-brush/pull/718) by @mikeage)
+
+- Retry build on license failure; retry pre-commit on dotnet-format failure ([PR #716](https://github.com/icosa-foundation/open-brush/pull/716) by @mikeage)
 
 
 ## 📦 Dependencies / Maintenance
