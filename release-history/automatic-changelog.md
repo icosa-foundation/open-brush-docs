@@ -1,6 +1,6 @@
 # Changelog since v2.7
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.7...013fe41e03081264c5afdb4e4006adfe530f9988)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.7...6c0d56ee83bd69df2393f3c86e6ff8be70ce4053)
 
 ## 🚀 Features
 
@@ -89,6 +89,11 @@
 ## 📦 Dependencies / Maintenance
 
 - Bump rexml from 3.2.6 to 3.2.8 ([PR #717](https://github.com/icosa-foundation/open-brush/pull/717) by @dependabot[bot])
+
+
+## 💬 Uncategorized
+
+- m_ColorSaturationMax had accidentally been set to 0 breaking color picker ([PR #724](https://github.com/icosa-foundation/open-brush/pull/724) by @andybak)
 
 
 
