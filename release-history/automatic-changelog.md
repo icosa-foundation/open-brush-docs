@@ -1,6 +1,6 @@
 # Changelog since v2.7
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.7...f6bcc9e1e340800a1e1283d2ac50d7eef73fe27d)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.7...5a50f048cd0c3dbd555815ea04c2719275fdc3e0)
 
 ## 🚀 Features
 
@@ -88,6 +88,8 @@
 - Update the (very rarely used) Unity License Test action ([PR #718](https://github.com/icosa-foundation/open-brush/pull/718) by @mikeage)
 
 - Retry build on license failure; retry pre-commit on dotnet-format failure ([PR #716](https://github.com/icosa-foundation/open-brush/pull/716) by @mikeage)
+
+- Run ovr-platform-util on Linux instead of Mac ([PR #727](https://github.com/icosa-foundation/open-brush/pull/727) by @mikeage)
 
 
 ## 📦 Dependencies / Maintenance
