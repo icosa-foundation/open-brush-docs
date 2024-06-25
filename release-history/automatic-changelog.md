@@ -1,6 +1,6 @@
 # Changelog since v2.7
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.7...bf3b4dde96926a545affb80577e9c20c2ea4cb84)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.7...474598905c3e85b7a592c3b7e439fd96d9ad8bb6)
 
 ## 🚀 Features
 
@@ -90,6 +90,8 @@
 - Retry build on license failure; retry pre-commit on dotnet-format failure ([PR #716](https://github.com/icosa-foundation/open-brush/pull/716) by @mikeage)
 
 - Run ovr-platform-util on Linux instead of Mac ([PR #727](https://github.com/icosa-foundation/open-brush/pull/727) by @mikeage)
+
+- Fix Q1 upload ([PR #732](https://github.com/icosa-foundation/open-brush/pull/732) by @mikeage)
 
 
 ## 📦 Dependencies / Maintenance
