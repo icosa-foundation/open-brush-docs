@@ -1,6 +1,6 @@
 # Changelog since v2.7
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.7...5a50f048cd0c3dbd555815ea04c2719275fdc3e0)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.7...bf3b4dde96926a545affb80577e9c20c2ea4cb84)
 
 ## 🚀 Features
 
@@ -95,6 +95,8 @@
 ## 📦 Dependencies / Maintenance
 
 - Bump rexml from 3.2.6 to 3.2.8 ([PR #717](https://github.com/icosa-foundation/open-brush/pull/717) by @dependabot[bot])
+
+- Unity 2022 LTS ([PR #708](https://github.com/icosa-foundation/open-brush/pull/708) by @mikeskydev)
 
 
 
