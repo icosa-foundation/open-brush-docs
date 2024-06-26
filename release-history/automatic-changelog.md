@@ -1,6 +1,6 @@
 # Changelog since v2.7
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.7...474598905c3e85b7a592c3b7e439fd96d9ad8bb6)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.7...0cd60ffa6cdd6f25c5ba8dbb81ff0abdc5476390)
 
 ## 🚀 Features
 
@@ -92,6 +92,8 @@
 - Run ovr-platform-util on Linux instead of Mac ([PR #727](https://github.com/icosa-foundation/open-brush/pull/727) by @mikeage)
 
 - Fix Q1 upload ([PR #732](https://github.com/icosa-foundation/open-brush/pull/732) by @mikeage)
+
+- Fix iOS builds after the unity upgrade ([PR #733](https://github.com/icosa-foundation/open-brush/pull/733) by @mikeage)
 
 
 ## 📦 Dependencies / Maintenance
