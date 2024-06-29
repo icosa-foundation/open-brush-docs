@@ -18,7 +18,7 @@ Open Brush makes saves of your work in Documents\Open Brush\Sketches\Autosave. E
 
 #### **After I launch Open Brush, a sad Tiltasaurus appears**
 
-This means your Head Mounted Display is not detected, and you'll need troubleshoot your HMD. [Learn to troubleshoot your HTC Vive](http://www.htc.com/managed-assets/shared/desktop/vive/Vive_PRE_User_Guide.pdf) or your [Oculus Rift.](https://product-guides.oculus.com/en-us/documentation/rift/latest/concepts/rgsg-3-ts-setup-troubleshooting/)
+This means your Head Mounted Display is not detected, and you'll need troubleshoot your HMD. [Learn to troubleshoot your HTC Vive](http://www.htc.com/managed-assets/shared/desktop/vive/Vive\_PRE\_User\_Guide.pdf) or your [Oculus Rift.](https://product-guides.oculus.com/en-us/documentation/rift/latest/concepts/rgsg-3-ts-setup-troubleshooting/)
 
 #### **Pink screen when starting Open Brush**
 
@@ -32,5 +32,4 @@ If you downloaded Open Brush through Steam, try refreshing the cache by choosing
 
 ### **Finding your log files**
 
-Every time Open Brush is run, a log file is generated "output_log.txt". That log file can typically be found at: C:\Users\\\<your name>\AppData\LocalLow\Icosa\Open Brush
-
+Every time Open Brush is run, a log file is generated "output\_log.txt". That log file can typically be found at: C:\Users\\\<your name>\AppData\LocalLow\Icosa Foundation\Open Brush
