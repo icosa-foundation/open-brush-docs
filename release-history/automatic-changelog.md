@@ -1,6 +1,6 @@
 # Changelog since v2.7
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.7...0cd60ffa6cdd6f25c5ba8dbb81ff0abdc5476390)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.7...f46d55e14df0724bb14cf6281ffbb607158b740c)
 
 ## 🚀 Features
 
@@ -56,6 +56,8 @@
 
 - Fix issue where images that are too large fail to load without any in… ([PR #722](https://github.com/icosa-foundation/open-brush/pull/722) by @eeropomell)
 
+- Fix/improve image loading ([PR #729](https://github.com/icosa-foundation/open-brush/pull/729) by @eeropomell)
+
 
 ## 🛠️ Infrastructure
 
@@ -94,6 +96,8 @@
 - Fix Q1 upload ([PR #732](https://github.com/icosa-foundation/open-brush/pull/732) by @mikeage)
 
 - Fix iOS builds after the unity upgrade ([PR #733](https://github.com/icosa-foundation/open-brush/pull/733) by @mikeage)
+
+- Always run "Free Disk Space" on all platforms ([PR #734](https://github.com/icosa-foundation/open-brush/pull/734) by @mikeage)
 
 
 ## 📦 Dependencies / Maintenance
