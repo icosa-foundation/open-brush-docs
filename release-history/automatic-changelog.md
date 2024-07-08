@@ -1,6 +1,6 @@
 # Changelog since v2.7
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.7...f46d55e14df0724bb14cf6281ffbb607158b740c)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.7...567882884f5635617fc2e214d7e1e8409bcb236a)
 
 ## 🚀 Features
 
@@ -105,6 +105,11 @@
 - Bump rexml from 3.2.6 to 3.2.8 ([PR #717](https://github.com/icosa-foundation/open-brush/pull/717) by @dependabot[bot])
 
 - Unity 2022 LTS ([PR #708](https://github.com/icosa-foundation/open-brush/pull/708) by @mikeskydev)
+
+
+## 💬 Uncategorized
+
+- Disable boundary when passthrough is active ([PR #735](https://github.com/icosa-foundation/open-brush/pull/735) by @andybak)
 
 
 
