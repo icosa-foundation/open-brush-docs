@@ -1,6 +1,6 @@
 # Changelog since v2.7
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.7...f30c440ccf70cb81a29910eecdc08aaeb3bc8c6c)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.7...97b3680210295052cbc9b13e79a9413c78856c22)
 
 ## 🚀 Features
 
@@ -59,6 +59,8 @@
 - Fix issue where images that are too large fail to load without any in… ([PR #722](https://github.com/icosa-foundation/open-brush/pull/722) by @eeropomell)
 
 - Fix/improve image loading ([PR #729](https://github.com/icosa-foundation/open-brush/pull/729) by @eeropomell)
+
+- Fix/quest sdk no boundary ([PR #737](https://github.com/icosa-foundation/open-brush/pull/737) by @andybak)
 
 
 ## 🛠️ Infrastructure
