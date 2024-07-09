@@ -1,6 +1,6 @@
 # Changelog since v2.7
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.7...567882884f5635617fc2e214d7e1e8409bcb236a)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.7...f30c440ccf70cb81a29910eecdc08aaeb3bc8c6c)
 
 ## 🚀 Features
 
@@ -25,6 +25,8 @@
 - UnityGLTF Shader Variants ([PR #714](https://github.com/icosa-foundation/open-brush/pull/714) by @andybak)
 
 - Add Pico support to the generic OpenXR build ([PR #719](https://github.com/icosa-foundation/open-brush/pull/719) by @mikeskydev)
+
+- Disable boundary when passthrough is active ([PR #735](https://github.com/icosa-foundation/open-brush/pull/735) by @andybak)
 
 
 ## 🎨 UI / UX
@@ -99,17 +101,14 @@
 
 - Always run "Free Disk Space" on all platforms ([PR #734](https://github.com/icosa-foundation/open-brush/pull/734) by @mikeage)
 
+- Revert "Run ovr-platform-util on Linux instead of Mac (#727)" ([PR #738](https://github.com/icosa-foundation/open-brush/pull/738) by @mikeage)
+
 
 ## 📦 Dependencies / Maintenance
 
 - Bump rexml from 3.2.6 to 3.2.8 ([PR #717](https://github.com/icosa-foundation/open-brush/pull/717) by @dependabot[bot])
 
 - Unity 2022 LTS ([PR #708](https://github.com/icosa-foundation/open-brush/pull/708) by @mikeskydev)
-
-
-## 💬 Uncategorized
-
-- Disable boundary when passthrough is active ([PR #735](https://github.com/icosa-foundation/open-brush/pull/735) by @andybak)
 
 
 
