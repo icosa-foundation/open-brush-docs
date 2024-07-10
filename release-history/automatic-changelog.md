@@ -1,6 +1,6 @@
 # Changelog since v2.7
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.7...97b3680210295052cbc9b13e79a9413c78856c22)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.7...41a08b6a70216c25c9cfcd0ad5b6a864985d4fb3)
 
 ## 🚀 Features
 
@@ -111,6 +111,8 @@
 - Bump rexml from 3.2.6 to 3.2.8 ([PR #717](https://github.com/icosa-foundation/open-brush/pull/717) by @dependabot[bot])
 
 - Unity 2022 LTS ([PR #708](https://github.com/icosa-foundation/open-brush/pull/708) by @mikeskydev)
+
+- Bump actions/setup-dotnet from 4.0.0 to 4.0.1 ([PR #740](https://github.com/icosa-foundation/open-brush/pull/740) by @dependabot[bot])
 
 
 
