@@ -1,6 +1,6 @@
 # Changelog since v2.7
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.7...fe8a3ee2bed63596ded308f1edebbd31c59b0cee)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.7...ffab94f1970105cff20c29e43f510c5dbb9020c3)
 
 ## 🚀 Features
 
@@ -61,6 +61,8 @@
 - Fix/improve image loading ([PR #729](https://github.com/icosa-foundation/open-brush/pull/729) by @eeropomell)
 
 - Fix/quest sdk no boundary ([PR #737](https://github.com/icosa-foundation/open-brush/pull/737) by @andybak)
+
+- Rename Quest Boundary Property ([PR #739](https://github.com/icosa-foundation/open-brush/pull/739) by @andybak)
 
 
 ## 🛠️ Infrastructure
