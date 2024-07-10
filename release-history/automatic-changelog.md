@@ -1,6 +1,6 @@
 # Changelog since v2.7
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.7...41a08b6a70216c25c9cfcd0ad5b6a864985d4fb3)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.7...fe8a3ee2bed63596ded308f1edebbd31c59b0cee)
 
 ## 🚀 Features
 
@@ -104,6 +104,8 @@
 - Always run "Free Disk Space" on all platforms ([PR #734](https://github.com/icosa-foundation/open-brush/pull/734) by @mikeage)
 
 - Revert "Run ovr-platform-util on Linux instead of Mac (#727)" ([PR #738](https://github.com/icosa-foundation/open-brush/pull/738) by @mikeage)
+
+- Move the config.vdf secret (for Steam) to an Organization level secret ([PR #741](https://github.com/icosa-foundation/open-brush/pull/741) by @mikeage)
 
 
 ## 📦 Dependencies / Maintenance
