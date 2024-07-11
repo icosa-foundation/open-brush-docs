@@ -1,6 +1,6 @@
 # Changelog since v2.7
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.7...ffab94f1970105cff20c29e43f510c5dbb9020c3)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.7...840a7c3f95188c68fc916a4adf1de415dbcc84fa)
 
 ## 🚀 Features
 
@@ -117,6 +117,8 @@
 - Unity 2022 LTS ([PR #708](https://github.com/icosa-foundation/open-brush/pull/708) by @mikeskydev)
 
 - Bump actions/setup-dotnet from 4.0.0 to 4.0.1 ([PR #740](https://github.com/icosa-foundation/open-brush/pull/740) by @dependabot[bot])
+
+- Bump actions/setup-python from 5.1.0 to 5.1.1 ([PR #742](https://github.com/icosa-foundation/open-brush/pull/742) by @dependabot[bot])
 
 
 
