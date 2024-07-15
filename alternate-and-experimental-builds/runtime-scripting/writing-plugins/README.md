@@ -10,11 +10,11 @@ As soon as you save your changes, Open Brush will load the new version. If you'v
 
 ## Libraries
 
-In addition to the [API commands](../plugin-api-scripting-reference/) you can use most of the [Lua Standard Library](https://www.moonsharp.org/MoonSharpStdLib.pdf). Another included library is [Lume](https://github.com/rxi/lume) which you can use via `require "lume"`
+In addition to the [API commands](broken-reference) you can use most of the [Lua Standard Library](https://www.moonsharp.org/MoonSharpStdLib.pdf). Another included library is [Lume](https://github.com/rxi/lume) which you can use via `require "lume"`
 
 ### Built-in functions and properties
 
-The following realtime values from the sketch are examples of values that are available to use in your scripts. There are many more. Here is a [full list of methods and properties for each type.](../plugin-api-scripting-reference/)
+The following realtime values from the sketch are examples of values that are available to use in your scripts. There are many more. Here is a [full list of methods and properties for each type.](broken-reference)
 
 * **Brush.position:** \
   The current position of the brush pointer relative to the canvas

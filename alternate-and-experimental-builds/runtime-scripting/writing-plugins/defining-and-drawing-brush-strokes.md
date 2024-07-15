@@ -18,7 +18,7 @@ origin = Transform:New(Vector3:New(0, 0, 0), Rotation.forwards)
 return {origin, origin:TranslateBy(2, 2, 0)}
 ```
 
-It's simple to use a lua list like this: {} but there is also a class specifically for definition a list of transforms and it's called [`Path`](../plugin-api-scripting-reference/path.md)`.` The advantage of using this class is that also has many useful methods for modifying paths.
+It's simple to use a lua list like this: {} but there is also a class specifically for definition a list of transforms and it's called [`Path`](broken-reference)`.` The advantage of using this class is that also has many useful methods for modifying paths.
 
 ```lua
 origin = Transform:New(Vector3:New(0, 0, 0), Rotation.forwards)

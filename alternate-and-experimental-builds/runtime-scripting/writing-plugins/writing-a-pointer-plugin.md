@@ -6,7 +6,7 @@ Name a Pointer Script with the prefix "PointerScript". For example: _PointerScri
 
 Assuming your script is valid (i.e. it has no syntax errors) then giving it a valid prefix is all you need for it to appear in the Scripts Panel.
 
-By default a Pointer Script returns a [Transform](../plugin-api-scripting-reference/transform.md) which represents how the pointer moves relative to it's normal position (which in this case is wherever the user moves their brush hand)
+By default a Pointer Script returns a [Transform](broken-reference) which represents how the pointer moves relative to it's normal position (which in this case is wherever the user moves their brush hand)
 
 The simplest possible pointer plugin would be something like this:
 
@@ -67,7 +67,7 @@ function Main()
 end
 ```
 
-App.time is a property of the [App](../plugin-api-scripting-reference/app.md) class where you can access various properties of Open Brush app itself. As you might have guessed App.time measures time - specifically the number of seconds since you launched Open Brush.
+App.time is a property of the [App](broken-reference) class where you can access various properties of Open Brush app itself. As you might have guessed App.time measures time - specifically the number of seconds since you launched Open Brush.
 
 This plugin script will result in your strokes being painted somewhere way higher than the user's brush hand. How high depends on how long since they opened the app! Let's rein things in a bit.
 
