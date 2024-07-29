@@ -1,6 +1,6 @@
 # Changelog since v2.7
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.7...655f3a347fe69675e57038e3ba5c5b2a3dac293f)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.7...71cf74ceba84414772ceb5aa0f27acf5b4196823)
 
 ## 🚀 Features
 
@@ -121,6 +121,8 @@
 - Bump actions/setup-python from 5.1.0 to 5.1.1 ([PR #742](https://github.com/icosa-foundation/open-brush/pull/742) by @dependabot[bot])
 
 - Bump rexml from 3.2.9 to 3.3.2 and update fastlane ([PR #748](https://github.com/icosa-foundation/open-brush/pull/748) by @dependabot[bot])
+
+- Bump mikepenz/release-changelog-builder-action from 4 to 5 ([PR #747](https://github.com/icosa-foundation/open-brush/pull/747) by @dependabot[bot])
 
 
 
