@@ -1,6 +1,6 @@
 # Changelog since v2.7
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.7...6783cf662109b2628ab0a5e3dcab39192556e6f7)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.7...a029f0c07205e24746eb69ed9abfa5a92d4b7f6f)
 
 ## 🚀 Features
 
@@ -65,6 +65,8 @@
 - Rename Quest Boundary Property ([PR #739](https://github.com/icosa-foundation/open-brush/pull/739) by @andybak)
 
 - Fix input system errors when running in the editor ([PR #745](https://github.com/icosa-foundation/open-brush/pull/745) by @andybak)
+
+- Shift the preview down so it doesn't overlap the hint ([PR #750](https://github.com/icosa-foundation/open-brush/pull/750) by @andybak)
 
 
 ## 🛠️ Infrastructure
