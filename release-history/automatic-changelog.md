@@ -1,6 +1,6 @@
 # Changelog since v2.7
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.7...a029f0c07205e24746eb69ed9abfa5a92d4b7f6f)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.7...c59f696e80d811dc567c011cd3ed569af7e92de2)
 
 ## 🚀 Features
 
@@ -67,6 +67,8 @@
 - Fix input system errors when running in the editor ([PR #745](https://github.com/icosa-foundation/open-brush/pull/745) by @andybak)
 
 - Shift the preview down so it doesn't overlap the hint ([PR #750](https://github.com/icosa-foundation/open-brush/pull/750) by @andybak)
+
+- Fix background image seams by bypassing cache for now ([PR #749](https://github.com/icosa-foundation/open-brush/pull/749) by @andybak)
 
 
 ## 🛠️ Infrastructure
