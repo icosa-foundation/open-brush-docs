@@ -1,6 +1,6 @@
 # Changelog since v2.7
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.7...c59f696e80d811dc567c011cd3ed569af7e92de2)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.7...362cf51e84cab3205cec7ed2e7e05dd8aa6e9c0c)
 
 ## 🚀 Features
 
@@ -129,6 +129,8 @@
 - Bump rexml from 3.2.9 to 3.3.2 and update fastlane ([PR #748](https://github.com/icosa-foundation/open-brush/pull/748) by @dependabot[bot])
 
 - Bump mikepenz/release-changelog-builder-action from 4 to 5 ([PR #747](https://github.com/icosa-foundation/open-brush/pull/747) by @dependabot[bot])
+
+- Bump rexml from 3.3.2 to 3.3.3 in the bundler group across 1 directory ([PR #752](https://github.com/icosa-foundation/open-brush/pull/752) by @dependabot[bot])
 
 
 
