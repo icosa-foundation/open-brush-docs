@@ -1,6 +1,6 @@
 # Changelog since v2.7
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.7...8b010d3fe92872ff36e0794785e3a73a435a2e7f)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.7...6fd685f1416207ebf92b3cd2345538bbc804b888)
 
 ## 🚀 Features
 
@@ -116,6 +116,8 @@
 - Move the config.vdf secret (for Steam) to an Organization level secret ([PR #741](https://github.com/icosa-foundation/open-brush/pull/741) by @mikeage)
 
 - Remove more unneeded files to free more disk space ([PR #753](https://github.com/icosa-foundation/open-brush/pull/753) by @mikeage)
+
+- Run the build on 'main' periodically to keep the caches alive ([PR #754](https://github.com/icosa-foundation/open-brush/pull/754) by @mikeage)
 
 
 ## 📦 Dependencies / Maintenance
