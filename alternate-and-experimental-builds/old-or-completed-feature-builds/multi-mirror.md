@@ -6,10 +6,6 @@
 
 ![](<../../.gitbook/assets/image (2) (4).png>) ![](<../../.gitbook/assets/image (7) (4).png>)
 
-## Downloads
-
-This feature has now been merged into the [beta release](../open-brush-beta-docs.md)
-
 ### What does it do?
 
 Big expansion to the mirror to support many different types of symmetry:

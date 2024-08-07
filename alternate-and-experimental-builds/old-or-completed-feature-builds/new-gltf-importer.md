@@ -1,10 +1,10 @@
 # Feature: Improved GLTF Importer
 
-#### Status: Released in the [current beta version](../open-brush-beta-docs.md)
+#### Status: This feature has now been merged into the main release
 
 ## Download
 
-This feature has now been merged into the [beta release](../open-brush-beta-docs.md)
+This feature has now been merged into the main release
 
 ### What does it do?
 

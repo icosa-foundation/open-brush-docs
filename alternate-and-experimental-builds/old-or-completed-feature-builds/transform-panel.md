@@ -12,10 +12,6 @@
 
 </div>
 
-## Downloads
-
-This feature has now been merged into the [beta release](../open-brush-beta-docs.md)
-
 ### What does it do?
 
 A new panel allows for precise position/rotation/scale changes to brush strokes and imported objects.

@@ -1,12 +1,8 @@
 # Feature: Improved Import/Export
 
-Status: <mark style="color:red;">Included in the current</mark> [<mark style="color:red;">beta release</mark>](open-brush-beta-docs.md)
+Status: Released in [v2.8](../../release-history/v2.8.md)
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
-
-## Download
-
-Available when you switch to the [beta release](open-brush-beta-docs.md)
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 ### What does it do?
 
@@ -18,7 +14,7 @@ Download a build for your headset from the link above and unzip it. You can run 
 
 ### How do I use it?
 
-To switch to the new importer (which replaces GLTFast that we added in v2.4 with UnityGLTF you need to edit your [Open Brush config file](../user-guide/the-open-brush-config-file.md) and add this entry after "Flags":
+To switch to the new importer (which replaces GLTFast that we added in v2.4 with UnityGLTF you need to edit your [Open Brush config file](../../user-guide/the-open-brush-config-file.md) and add this entry after "Flags":
 
 ```json
  "Import": {
@@ -100,7 +96,7 @@ The use of the new exporter is currently optional and we will continue to suppor
 * Similarly - if you use the Icosa three.js loader this works best with the existing exporter
 * The new GLB export should work better in Blender and other 3D animation apps although we still have work to do to fix support for particle brushes, transparent brushes and other features.
 * Imported 3D models will export much better with the new GLB exporter
-* In general new features in the [beta](open-brush-beta-docs.md) or from other [experimental branches](./) will work better using the new exporter.
+* In general new features in the [beta](../open-brush-beta-docs.md) or from other [experimental branches](../) will work better using the new exporter.
 
 ### Platform Support
 
@@ -108,11 +104,11 @@ The use of the new exporter is currently optional and we will continue to suppor
 
 ### Breaking Apart Imported Models
 
-This build supports a new feature - The existing "group/ungroup" button on the pop-out tray that appears when you activate the [Selection Tool](../user-guide/using-the-open-brush-tools-quick-tools-and-menu-panels/tools-panel/selection-options.md) now works on imported models - if they consist of multiple parts. Just select a single imported model and if it does have sub-parts the button will show "ungroup" as an option - the same as if you select a normal grouped set of objects.&#x20;
+This build supports a new feature - The existing "group/ungroup" button on the pop-out tray that appears when you activate the [Selection Tool](../../user-guide/using-the-open-brush-tools-quick-tools-and-menu-panels/tools-panel/selection-options.md) now works on imported models - if they consist of multiple parts. Just select a single imported model and if it does have sub-parts the button will show "ungroup" as an option - the same as if you select a normal grouped set of objects.&#x20;
 
 ### Importing Lights
 
-If your imported model contains lights then these will appear in the scene and will act upon other objects the same as the [Environment Lights](../user-guide/using-the-open-brush-tools-quick-tools-and-menu-panels/extras-panel/lights-panel.md). Furthermore imported lights support point lights and spot lights - whereas the existing environment lights only support directional lights.
+If your imported model contains lights then these will appear in the scene and will act upon other objects the same as the [Environment Lights](../../user-guide/using-the-open-brush-tools-quick-tools-and-menu-panels/extras-panel/lights-panel.md). Furthermore imported lights support point lights and spot lights - whereas the existing environment lights only support directional lights.
 
 ### Known Issues
 

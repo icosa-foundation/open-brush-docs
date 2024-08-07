@@ -51,3 +51,15 @@ for more detailed information.
 **Pin an image or model:** While holding your selection with the grip, pull the trigger to pin. Alternatively, you can use the Pin tool to pin images, models, or guides.
 
 **Remove an image or model:** With your controller near the reference image, press and hold a grip button. Then, flick the controller away from your body and release the grip button.
+
+### Enabling the new GLTF importer
+
+We have an alternative version of GLB export which can have some advantages over the importer we released in v2.4.
+
+To switch to the new importer (UnityGLTF which replaces GLTFast added in the v2.4 release) you need to edit your [Open Brush config file](the-open-brush-config-file.md) and add this entry after "Flags":
+
+```
+"Import": {
+    "UseUnityGltf": true
+  }
+```
