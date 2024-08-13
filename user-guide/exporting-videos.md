@@ -324,7 +324,7 @@ There is an example script you can use to help you generate the video.&#x20;
 1. Launch Open Brush at least once to ensure the correct folders are created in your Documents folder.
 2. Copy the sketch from your headset to the Open Brush/Sketches folder on your PC or Mac
 3. If your sketch contains any images, videos or 3d models that appear in your video then copy those from the Quest's Media Library folder to the equivalent location on your PC or Mac.
-4. Ensure Open Brush is running and then switch to your web browser and enter this url: [http://localhost:40074/help/](http://localhost:40074/help/)
+4. Ensure you have got Open Brush running on the PC or Mac. Switch to your web browser and enter this address: [http://localhost:40074/help/](http://localhost:40074/help/)
 
 <figure><img src="../.gitbook/assets/image (48).png" alt=""><figcaption></figcaption></figure>
 
