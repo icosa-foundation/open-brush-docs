@@ -108,7 +108,13 @@ Sample contents of a _Open Brush.cfg_ with various fields filled in:
 11. **EnableMonoscopicMode**: (true | false) See [Using Open Brush without a VR headset](monoscopic-mode.md)
 12. **DisableXrMode**: (true | false) See [Using Open Brush without a VR headset](monoscopic-mode.md)
 
+#### "Import" Section
+
+See [Configuring Import](importing-images-videos-3d-models.md#enabling-the-new-gltf-importer)
+
 #### "Export" Section
+
+See [Configuring Export](exporting-open-brush-sketches-to-other-apps/configuring-export.md#choosing-between-the-new-and-old-gltf-formats)
 
 1. **ExportBinaryFbx**: (true | false) This setting controls whether exported FBX files will be in binary format. When set to true, binary FBX files will be exported; when set to false, ASCII FBX files will be exported.
 2. **ExportFbxVersion**: (FBX201600 | FBX201400 | FBX201300 | FBX2012 | FBX201100) This setting specifies the version of the FBX file format to be used when exporting 3D models. Users can choose from FBX201600, FBX201400, FBX201300, FBX2012, or FBX201100. If not specified in the config file, the default version is FBX201400. If users experience issues importing the FBX file into older software, they may need to select an older version.
