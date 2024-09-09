@@ -1,6 +1,11 @@
 # Changelog since v2.8
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.8...2ee490f12cfcd42af2d1f2b8d73008668c6cb17c)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.8...709a3586ed282c5d841b146cbe5b6a26b23da34a)
+
+## 🐛 Fixes
+
+- Fix contextual boundary ([PR #761](https://github.com/icosa-foundation/open-brush/pull/761) by @andybak)
+
 
 ## 🛠️ Infrastructure
 
