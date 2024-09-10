@@ -1,10 +1,12 @@
 # Changelog since v2.8
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.8...709a3586ed282c5d841b146cbe5b6a26b23da34a)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.8...0c89e4c2bb6d5b8f60061d36989fce41742f06d0)
 
 ## 🐛 Fixes
 
 - Fix contextual boundary ([PR #761](https://github.com/icosa-foundation/open-brush/pull/761) by @andybak)
+
+- Disable ENABLE_CONTEXTUAL_BOUNDARYLESS_APP as it's still experimental ([PR #762](https://github.com/icosa-foundation/open-brush/pull/762) by @andybak)
 
 
 ## 🛠️ Infrastructure
