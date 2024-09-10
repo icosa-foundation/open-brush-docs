@@ -1,6 +1,6 @@
 # Changelog since v2.8
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.8...0c89e4c2bb6d5b8f60061d36989fce41742f06d0)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.8...de64fc6431bc4826b00f2056c7b4820d0946a904)
 
 ## 🐛 Fixes
 
@@ -19,6 +19,11 @@
 - Bump rexml from 3.3.3 to 3.3.6 in the bundler group across 1 directory ([PR #758](https://github.com/icosa-foundation/open-brush/pull/758) by @dependabot[bot])
 
 - Bump actions/setup-python from 5.1.1 to 5.2.0 ([PR #759](https://github.com/icosa-foundation/open-brush/pull/759) by @dependabot[bot])
+
+
+## 💬 Uncategorized
+
+- Update README.md ([PR #760](https://github.com/icosa-foundation/open-brush/pull/760) by @mikeskydev)
 
 
 
