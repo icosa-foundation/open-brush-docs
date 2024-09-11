@@ -1,6 +1,6 @@
 # Changelog since v2.8
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.8...de64fc6431bc4826b00f2056c7b4820d0946a904)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.8...e14f94c881f7f55ae503406bc6fac457ef2fe0ca)
 
 ## 🐛 Fixes
 
@@ -24,6 +24,8 @@
 ## 💬 Uncategorized
 
 - Update README.md ([PR #760](https://github.com/icosa-foundation/open-brush/pull/760) by @mikeskydev)
+
+- Fix fastlane build by freeing extra space ([PR #764](https://github.com/icosa-foundation/open-brush/pull/764) by @mikeage)
 
 
 
