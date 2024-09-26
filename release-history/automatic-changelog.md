@@ -1,6 +1,11 @@
 # Changelog since v2.9
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.9...0a1fd6e26b4f139a5b481f486ca153895351acfb)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.9...5282a4c8cc24707ba06c128aa834dc007e69f1d6)
+
+## 🛠️ Infrastructure
+
+- gzip config.vdf before storing as a secret ([PR #771](https://github.com/icosa-foundation/open-brush/pull/771) by @mikeage)
+
 
 ## 📦 Dependencies / Maintenance
 
