@@ -1,6 +1,11 @@
 # Changelog since v2.9
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.9...5282a4c8cc24707ba06c128aa834dc007e69f1d6)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.9...3ebd1e00c3acbb22e08767ffd600566d16315b72)
+
+## 🚀 Features
+
+- Logitech MK Ink Integration ([PR #768](https://github.com/icosa-foundation/open-brush/pull/768) by @andybak)
+
 
 ## 🛠️ Infrastructure
 
