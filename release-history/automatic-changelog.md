@@ -1,6 +1,6 @@
 # Changelog since v2.9
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.9...44e8b67a36440643481a24d71f12d6bc60f247f6)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.9...1b7d63b2f219b7ad1d91f4728831cda0a43a9e53)
 
 ## 🚀 Features
 
@@ -14,6 +14,8 @@
 - gzip config.vdf before storing as a secret ([PR #771](https://github.com/icosa-foundation/open-brush/pull/771) by @mikeage)
 
 - Combine all dependabot PRs into one ([PR #780](https://github.com/icosa-foundation/open-brush/pull/780) by @mikeage)
+
+- Use PAT to create releases and tags ([PR #782](https://github.com/icosa-foundation/open-brush/pull/782) by @mikeage)
 
 
 ## 📦 Dependencies / Maintenance
