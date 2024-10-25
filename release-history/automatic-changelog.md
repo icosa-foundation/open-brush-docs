@@ -1,6 +1,6 @@
 # Changelog since v2.9
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.9...c0b8f915b8b323b9fbd6773039f02ac24fe353ba)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.9...44e8b67a36440643481a24d71f12d6bc60f247f6)
 
 ## 🚀 Features
 
@@ -21,6 +21,8 @@
 - Update some UPM packages ([PR #765](https://github.com/icosa-foundation/open-brush/pull/765) by @andybak)
 
 - Update Zapbox SDK ([PR #770](https://github.com/icosa-foundation/open-brush/pull/770) by @andybak)
+
+- Bump the all-actions-updates group with 2 updates ([PR #781](https://github.com/icosa-foundation/open-brush/pull/781) by @dependabot[bot])
 
 
 
