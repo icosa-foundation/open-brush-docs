@@ -1,6 +1,6 @@
 # Changelog since v2.9
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.9...1b7d63b2f219b7ad1d91f4728831cda0a43a9e53)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.9...d44924089579af04b86f902d4648f3dde8acced8)
 
 ## 🚀 Features
 
@@ -25,6 +25,8 @@
 - Update Zapbox SDK ([PR #770](https://github.com/icosa-foundation/open-brush/pull/770) by @andybak)
 
 - Bump the all-actions-updates group with 2 updates ([PR #781](https://github.com/icosa-foundation/open-brush/pull/781) by @dependabot[bot])
+
+- Force photon to the previous, working, version ([PR #783](https://github.com/icosa-foundation/open-brush/pull/783) by @mikeage)
 
 
 
