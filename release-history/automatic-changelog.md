@@ -1,6 +1,6 @@
 # Changelog since v2.9
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.9...d44924089579af04b86f902d4648f3dde8acced8)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.9...e2b03977cd9ffa92849f66a1c1658fe5ba1d6736)
 
 ## 🚀 Features
 
@@ -27,6 +27,8 @@
 - Bump the all-actions-updates group with 2 updates ([PR #781](https://github.com/icosa-foundation/open-brush/pull/781) by @dependabot[bot])
 
 - Force photon to the previous, working, version ([PR #783](https://github.com/icosa-foundation/open-brush/pull/783) by @mikeage)
+
+- Bump rexml from 3.3.6 to 3.3.9 in the bundler group across 1 directory ([PR #784](https://github.com/icosa-foundation/open-brush/pull/784) by @dependabot[bot])
 
 
 
