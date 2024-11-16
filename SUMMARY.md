@@ -67,6 +67,7 @@
   * [Feature: 3D Shapes Tool](alternate-and-experimental-builds/3d-shapes.md)
   * [Feature: Animation Timeline](alternate-and-experimental-builds/animation-timeline.md)
   * [Feature: Brush Editing](alternate-and-experimental-builds/brush-editing.md)
+  * [Feature: Multiplayer](alternate-and-experimental-builds/multiplayer.md)
   * [Feature: Plugin Scripting](alternate-and-experimental-builds/runtime-scripting/README.md)
     * [Using Plugins](alternate-and-experimental-builds/runtime-scripting/using-plugins.md)
     * [Example Plugins](alternate-and-experimental-builds/runtime-scripting/example-plugins/README.md)
