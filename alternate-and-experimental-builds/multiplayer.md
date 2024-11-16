@@ -34,6 +34,8 @@ There's a new button on the main admin panel. You enter a room name of your choi
 * You must switch to [basic mode](../user-guide/using-the-open-brush-tools-quick-tools-and-menu-panels/tool-panels.md) before joining a room. Currently only basic mode features are supported.
 * People that join the room will see the strokes you have made this session but they won't see any strokes that you loaded from saved sketch.
 
+Our next priority is to fix the last issue. After that we will probably release the multiplayer functionality into the main beta release so it's easier for people to try it out. However - the more testing and feedback we can get at this stage, the better the beta release will be so please try out this build.
+
 ## How do I get help
 
 Come over to the [Open Brush Discord](https://discord.com/invite/fS69VdFXpk) and chat to Riccardo ( @sbanca ) or me ( @andybak#5425 ). We're both on UK time.
