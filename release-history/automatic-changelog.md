@@ -1,6 +1,6 @@
 # Changelog since v2.9
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.9...a690bbb8480cbfb447e6f7470e654e5f84ed95f7)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.9...36360c68e4548f8ab91e263553e0dadf3ecf488b)
 
 ## 🚀 Features
 
@@ -25,6 +25,8 @@
 - Do not use # in PR build names ([PR #796](https://github.com/icosa-foundation/open-brush/pull/796) by @mikeage)
 
 - Improve Windows development experience ([PR #797](https://github.com/icosa-foundation/open-brush/pull/797) by @mikeage)
+
+- Support new ubuntu-24 images ([PR #799](https://github.com/icosa-foundation/open-brush/pull/799) by @mikeage)
 
 
 ## 📦 Dependencies / Maintenance
