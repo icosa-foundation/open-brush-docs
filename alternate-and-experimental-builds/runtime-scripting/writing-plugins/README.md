@@ -1,6 +1,6 @@
 # Writing Plugins
 
-Plugins are written in the scripting language [Lua](https://www.lua.org) which is designed to be simple to learn and easy to understand. There's plenty of tutorials online and Lua is widely used in games and applications such as [Factorio](https://wiki.factorio.com/Tutorial:Scripting), [Garry's Mod](https://wiki.facepunch.com/gmod/Beginner\_Tutorial\_Intro)_,_ [Roblox](https://create.roblox.com/docs/tutorials/scripting/basic-scripting/intro-to-scripting), [LÖVR](https://lovr.org/) and many others.
+Plugins are written in the scripting language [Lua](https://www.lua.org) which is designed to be simple to learn and easy to understand. There's plenty of tutorials online and Lua is widely used in games and applications such as [Factorio](https://wiki.factorio.com/Tutorial:Scripting), [Garry's Mod](https://wiki.facepunch.com/gmod/Beginner_Tutorial_Intro)_,_ [Roblox](https://create.roblox.com/docs/tutorials/scripting/basic-scripting/intro-to-scripting), [LÖVR](https://lovr.org/) and many others.
 
 If you've written scripts in any other language then you'll find it easy to pick up.&#x20;
 
@@ -14,7 +14,7 @@ In addition to the [API commands](broken-reference) you can use most of the [Lua
 
 ### Built-in functions and properties
 
-The following realtime values from the sketch are examples of values that are available to use in your scripts. There are many more. Here is a [full list of methods and properties for each type.](broken-reference)
+The following realtime values from the sketch are examples of values that are available to use in your scripts. There are many more. Here is a [full list of methods and properties for each type.](https://icosa.gitbook.io/open-brush-plugin-scripting-docs)
 
 * **Brush.position:** \
   The current position of the brush pointer relative to the canvas
