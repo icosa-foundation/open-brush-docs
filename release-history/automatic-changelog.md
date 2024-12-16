@@ -1,6 +1,6 @@
 # Changelog since v2.9
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.9...b9cd0116d57e291422b6e7a48cd6f8d0d291ad8f)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.9...a690bbb8480cbfb447e6f7470e654e5f84ed95f7)
 
 ## 🚀 Features
 
@@ -23,6 +23,8 @@
 - Use PAT to create releases and tags ([PR #782](https://github.com/icosa-foundation/open-brush/pull/782) by @mikeage)
 
 - Do not use # in PR build names ([PR #796](https://github.com/icosa-foundation/open-brush/pull/796) by @mikeage)
+
+- Improve Windows development experience ([PR #797](https://github.com/icosa-foundation/open-brush/pull/797) by @mikeage)
 
 
 ## 📦 Dependencies / Maintenance
