@@ -4,12 +4,12 @@ This wiki contains various information about [Tilt Brush](https://www.tiltbrush.
 
 ## Index
 
-* About [Brushes](https://app.gitbook.com/s/-Mikdwm98p33AibfiSqN/developer-notes/Brushes). [Comparisons](https://app.gitbook.com/s/-Mikdwm98p33AibfiSqN/developer-notes/Comparison).
-* [Building OpenBrush](https://app.gitbook.com/s/-Mikdwm98p33AibfiSqN/developer-notes/BuildingOpenBrush).
-* [Monoscopic Mode](https://app.gitbook.com/s/-Mikdwm98p33AibfiSqN/developer-notes/MonoscopicMode)
-* [Pseudo Code](https://app.gitbook.com/s/-Mikdwm98p33AibfiSqN/developer-notes/PseudoCode).
-* [GUI](https://app.gitbook.com/s/-Mikdwm98p33AibfiSqN/developer-notes/UserInterface).
-* Unity [Burst Compiler](https://app.gitbook.com/s/-Mikdwm98p33AibfiSqN/developer-notes/BurstCompiler) info.
+* About [Brushes](brushes.md). [Comparisons](comparison.md).
+* [Building OpenBrush](buildingopenbrush.md).
+* [Monoscopic Mode](monoscopicmode.md)
+* [Pseudo Code](pseudocode.md).
+* [GUI](userinterface.md).
+* Unity [Burst Compiler](burstcompiler.md) info.
 * Unity [XR Input](https://docs.unity3d.com/Manual/xr_input.html) manual.
   * [XR interaction toolkit](https://docs.unity3d.com/Packages/com.unity.xr.interaction.toolkit@1.0/manual/index.html) overview.
 
@@ -31,7 +31,7 @@ This wiki contains various information about [Tilt Brush](https://www.tiltbrush.
 
 * [Buckminster](https://github.com/pearswj/buckminster).
 * [Gradient Space](https://www.gradientspace.com) - home of Geometry3Sharp.
-* [HE_Mesh](https://github.com/wblut/HE_Mesh) a Java library for creating and manipulating polygonal meshes. Aimed primarily at Processing.
+* [HE\_Mesh](https://github.com/wblut/HE_Mesh) a Java library for creating and manipulating polygonal meshes. Aimed primarily at Processing.
 * [Human pose tracking from single camera](https://github.com/XinArkh/VNect).
 * [keijiro's effects](https://github.com/keijiro).
 * [Soundstage VR](https://github.com/googlearchive/soundstagevr) music composition. [Demo](https://www.youtube.com/watch?v=q0nibydjajQ).
