@@ -55,7 +55,7 @@ function Main()
 end
 ```
 
-This time we create a `Path` object instead of just using a list of transforms. This allows us to use any of the handy methods that are provided by `Path` - in this case it's the [`SubdivideSegments`](broken-reference) method. This modifies the path by inserting as many new points as we ask for in each path segment. In this case we ask for 5 new points so the square that previously had 5 points (and thus 4 segments) will now have 4 x 5 = 20 points. (I'll let you work out how many segments!)
+This time we create a `Path` object instead of just using a list of transforms. This allows us to use any of the handy methods that are provided by `Path` - in this case it's the [`SubdivideSegments`](https://icosa.gitbook.io/open-brush-plugin-scripting-docs/readme/path#path-subdividesegments-parts) method. This modifies the path by inserting as many new points as we ask for in each path segment. In this case we ask for 5 new points so the square that previously had 5 points (and thus 4 segments) will now have 4 x 5 = 20 points. (I'll let you work out how many segments!)
 
 Next let's draw a circle:
 

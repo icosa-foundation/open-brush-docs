@@ -10,7 +10,7 @@ As soon as you save your changes, Open Brush will load the new version. If you'v
 
 ## Libraries
 
-In addition to the [API commands](broken-reference) you can use most of the [Lua Standard Library](https://www.moonsharp.org/MoonSharpStdLib.pdf). Another included library is [Lume](https://github.com/rxi/lume) which you can use via `require "lume"`
+In addition to the [API commands](https://icosa.gitbook.io/open-brush-plugin-scripting-docs) you can use most of the [Lua Standard Library](https://www.moonsharp.org/MoonSharpStdLib.pdf). Another included library is [Lume](https://github.com/rxi/lume) which you can use via `require "lume"`
 
 ### Built-in functions and properties
 

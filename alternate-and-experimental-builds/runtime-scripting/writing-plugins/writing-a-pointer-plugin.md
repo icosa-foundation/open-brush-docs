@@ -6,7 +6,7 @@ Name a Pointer Script with the prefix "PointerScript". For example: _PointerScri
 
 Assuming your script is valid (i.e. it has no syntax errors) then giving it a valid prefix is all you need for it to appear in the Scripts Panel.
 
-By default a Pointer Script returns a [Transform](broken-reference) which represents how the pointer moves relative to it's normal position (which in this case is wherever the user moves their brush hand)
+By default a Pointer Script returns a [Transform](https://icosa.gitbook.io/open-brush-plugin-scripting-docs/readme/transform) which represents how the pointer moves relative to it's normal position (which in this case is wherever the user moves their brush hand)
 
 The simplest possible pointer plugin would be something like this:
 
@@ -67,7 +67,7 @@ function Main()
 end
 ```
 
-App.time is a property of the [App](broken-reference) class where you can access various properties of Open Brush app itself. As you might have guessed App.time measures time - specifically the number of seconds since you launched Open Brush.
+App.time is a property of the [App](https://icosa.gitbook.io/open-brush-plugin-scripting-docs/readme/app) class where you can access various properties of Open Brush app itself. As you might have guessed App.time measures time - specifically the number of seconds since you launched Open Brush.
 
 This plugin script will result in your strokes being painted somewhere way higher than the user's brush hand. How high depends on how long since they opened the app! Let's rein things in a bit.
 
@@ -88,7 +88,7 @@ end
 
 If you've done any programming or scripting before, you should recognise what we've done here. "y" is a variable. We chose "y" as the variable name but we could call it anything we want.&#x20;
 
-We've assigned a value to "y" which is the result of calculating a [waveform shaped like a triangle](https://en.wikipedia.org/wiki/Triangle\_wave)&#x20;
+We've assigned a value to "y" which is the result of calculating a [waveform shaped like a triangle](https://en.wikipedia.org/wiki/Triangle_wave)&#x20;
 
 The output of the Waveform:Triangle method takes two parameters as input time and frequency. It returns a value that varies between -1 and +1. If you've configured your editor as explained in [Getting Started](getting-started.md) then you should have seen a hint pop up when you typed the first open bracket:
 
