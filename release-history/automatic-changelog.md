@@ -1,6 +1,6 @@
 # Changelog since v2.9
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.9...36360c68e4548f8ab91e263553e0dadf3ecf488b)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.9...22a22a279741565ebf7beafe2d97c81df0e814be)
 
 ## 🚀 Features
 
@@ -27,6 +27,8 @@
 - Improve Windows development experience ([PR #797](https://github.com/icosa-foundation/open-brush/pull/797) by @mikeage)
 
 - Support new ubuntu-24 images ([PR #799](https://github.com/icosa-foundation/open-brush/pull/799) by @mikeage)
+
+- Fix chown error in newer Alpine images [affects new builds without caches] ([PR #804](https://github.com/icosa-foundation/open-brush/pull/804) by @mikeage)
 
 
 ## 📦 Dependencies / Maintenance
