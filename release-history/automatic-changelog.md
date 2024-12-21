@@ -1,12 +1,14 @@
 # Changelog since v2.9
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.9...22a22a279741565ebf7beafe2d97c81df0e814be)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.9...cbb54d6ac9270d1dbd1092a1fc754c5c40c3bbd3)
 
 ## 🚀 Features
 
 - Logitech MK Ink Integration ([PR #768](https://github.com/icosa-foundation/open-brush/pull/768) by @andybak)
 
 - Allow profiler to use bundled sketches ([PR #769](https://github.com/icosa-foundation/open-brush/pull/769) by @andybak)
+
+- Multiplayer Beta ([PR #774](https://github.com/icosa-foundation/open-brush/pull/774) by @andybak)
 
 
 ## 🐛 Fixes
@@ -42,6 +44,11 @@
 - Force photon to the previous, working, version ([PR #783](https://github.com/icosa-foundation/open-brush/pull/783) by @mikeage)
 
 - Bump rexml from 3.3.6 to 3.3.9 in the bundler group across 1 directory ([PR #784](https://github.com/icosa-foundation/open-brush/pull/784) by @dependabot[bot])
+
+
+## 💬 Uncategorized
+
+- Runtime switching of experimental mode ([PR #802](https://github.com/icosa-foundation/open-brush/pull/802) by @andybak)
 
 
 
