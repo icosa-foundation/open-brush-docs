@@ -4,12 +4,14 @@
 
 ## Download
 
-* [Oculus Quest 1](https://nightly.link/icosa-foundation/open-brush/workflows/build/multiplayer%2Fui/Oculus%20Quest%20\(2%2B\).zip)
-* [Oculus Quest 2 or 3](https://nightly.link/icosa-foundation/open-brush/workflows/build/multiplayer%2Fui/Oculus%20Quest%20\(2%2B\).zip)
-* [Oculus PC VR](https://nightly.link/icosa-foundation/open-brush/workflows/build/multiplayer%2Fui/Windows%20Rift.zip)(Rift, Quest via Link cable...)
-* [SteamVR and other PC VR](https://nightly.link/icosa-foundation/open-brush/workflows/build/multiplayer%2Fui/Windows%20OpenXR.zip)(Vive, Index, Reverb...)
-* [Other Builds](https://nightly.link/icosa-foundation/open-brush/workflows/build/multiplayer%2Fui) (Pico, Pimax etc)
-* [Code](https://github.com/icosa-foundation/open-brush/tree/multiplayer/ui)
+* [~~Oculus Quest 1~~](https://nightly.link/icosa-foundation/open-brush/workflows/build/multiplayer%2Fui/Oculus%20Quest%20\(2%2B\).zip)
+* [~~Oculus Quest 2 or 3~~](https://nightly.link/icosa-foundation/open-brush/workflows/build/multiplayer%2Fui/Oculus%20Quest%20\(2%2B\).zip)
+* [~~Oculus PC VR~~](https://nightly.link/icosa-foundation/open-brush/workflows/build/multiplayer%2Fui/Windows%20Rift.zip)~~(Rift, Quest via Link cable...)~~
+* [~~SteamVR and other PC VR~~](https://nightly.link/icosa-foundation/open-brush/workflows/build/multiplayer%2Fui/Windows%20OpenXR.zip)~~(Vive, Index, Reverb...)~~
+* [~~Other Builds~~](https://nightly.link/icosa-foundation/open-brush/workflows/build/multiplayer%2Fui) ~~(Pico, Pimax etc)~~
+* [~~Code~~](https://github.com/icosa-foundation/open-brush/tree/multiplayer/ui)
+
+&#x20;This is in the [current beta release](open-brush-beta-docs.md).
 
 ### What does it do?
 
