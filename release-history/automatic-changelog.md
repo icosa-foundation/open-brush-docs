@@ -1,6 +1,6 @@
 # Changelog since v2.9
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.9...111676aa29ed288b7798a29d3315f8ba12883c07)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.9...7452de9fb5f90bf57e14be936d71d5a305c2f474)
 
 ## 🚀 Features
 
@@ -20,6 +20,8 @@
 - Catch wmic exceptions so they don't mess up device initialization ([PR #805](https://github.com/icosa-foundation/open-brush/pull/805) by @andybak)
 
 - Fix quality level bugs ([PR #806](https://github.com/icosa-foundation/open-brush/pull/806) by @andybak)
+
+- Guard against tracking glitches that effect painting ([PR #808](https://github.com/icosa-foundation/open-brush/pull/808) by @andybak)
 
 
 ## 🛠️ Infrastructure
