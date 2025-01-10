@@ -1,6 +1,6 @@
 # Changelog since v2.9
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.9...01cb2da0c22521ef397655feff55418f325d0741)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.9...111676aa29ed288b7798a29d3315f8ba12883c07)
 
 ## 🚀 Features
 
@@ -9,6 +9,8 @@
 - Allow profiler to use bundled sketches ([PR #769](https://github.com/icosa-foundation/open-brush/pull/769) by @andybak)
 
 - Multiplayer Beta ([PR #774](https://github.com/icosa-foundation/open-brush/pull/774) by @andybak)
+
+- Runtime switching of experimental mode ([PR #802](https://github.com/icosa-foundation/open-brush/pull/802) by @andybak)
 
 
 ## 🐛 Fixes
@@ -52,7 +54,7 @@
 
 ## 💬 Uncategorized
 
-- Runtime switching of experimental mode ([PR #802](https://github.com/icosa-foundation/open-brush/pull/802) by @andybak)
+- Enable incremental garbage collector ([PR #807](https://github.com/icosa-foundation/open-brush/pull/807) by @andybak)
 
 
 
