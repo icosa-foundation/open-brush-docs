@@ -1,6 +1,6 @@
 # Changelog since v2.9
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.9...7452de9fb5f90bf57e14be936d71d5a305c2f474)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.9...8bcd3fffc22eca6f2d42d5a81fea065b52607698)
 
 ## 🚀 Features
 
@@ -22,6 +22,8 @@
 - Fix quality level bugs ([PR #806](https://github.com/icosa-foundation/open-brush/pull/806) by @andybak)
 
 - Guard against tracking glitches that effect painting ([PR #808](https://github.com/icosa-foundation/open-brush/pull/808) by @andybak)
+
+- Fix MX Stylus Regression ([PR #811](https://github.com/icosa-foundation/open-brush/pull/811) by @andybak)
 
 
 ## 🛠️ Infrastructure
