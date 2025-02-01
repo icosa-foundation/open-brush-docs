@@ -10,3 +10,8 @@
 6. [Export](../../exporting-open-brush-sketches-to-other-apps/)
 7. Spectator Camera (PC Only): Allows you to place the camera for your desktop view
 8. [Scripts](../../open-brush-api/)
+
+{% hint style="info" %}
+[More info on Labs features](../../check-out-labs-or-experimental-features.md)
+{% endhint %}
+

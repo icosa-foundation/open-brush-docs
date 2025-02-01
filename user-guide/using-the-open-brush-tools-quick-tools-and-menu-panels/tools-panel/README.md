@@ -69,7 +69,8 @@
     \
     ![](<../../../.gitbook/assets/image (44).png>)\
     \
-    The second button is the Mirror Recall button. This will recall a Mirror that is out of reach.
+    The second button is the Mirror Recall button. This will recall a Mirror that is out of reach.\
+    <mark style="color:blue;">(If you like the mirror - you might want to check out the multi-mirror )</mark>
 8. **Straight Edge Tool**. Use the straight edge tool to paint in straight lines between two points.
 9. **Fly Tool**
 10. **Snip Tool** (currently [beta only](../../../alternate-and-experimental-builds/open-brush-beta-docs.md))
