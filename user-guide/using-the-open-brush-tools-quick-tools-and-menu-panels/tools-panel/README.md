@@ -77,7 +77,7 @@
 
 #### Differences in Beginners vs Advanced modes
 
-The following tools only appear in [Advanced Mode](../settings.md)
+The following tools only appear in [Advanced Mode](../the-admin-panel/settings.md)
 
 1. Dropper
 2. Repaint

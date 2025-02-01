@@ -2,7 +2,7 @@
 
 <figure><img src="../../.gitbook/assets/image (28).png" alt=""><figcaption></figcaption></figure>
 
-This panel contains some features that are only enabled if you've switched to Experimental Mode in the [Settings](settings.md)
+This panel contains some features that are only enabled if you've switched to Experimental Mode in the [Settings](the-admin-panel/settings.md)
 
 1. Drafting Mode (deprecated - use [Layers](../../alternate-and-experimental-builds/old-or-completed-feature-builds/layers.md) instead)
 2. Multimirror

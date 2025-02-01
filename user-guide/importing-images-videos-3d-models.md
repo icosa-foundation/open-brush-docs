@@ -5,7 +5,7 @@ eIf you want to see an image or 3D model while you paint in Open Brush, you can 
 1. Make sure you are in Advanced Mode.
 2. Below your palette, go to the Menu panel and select "**More Options...**".
 3. On your paint palette, swipe to the Tools panel and select More.
-4. Select **Labs** to open the [Labs Panel](using-the-open-brush-tools-quick-tools-and-menu-panels/labs-panel.md)
+4. Select **Labs** to open the [Labs Panel](using-the-open-brush-tools-quick-tools-and-menu-panels/the-admin-panel/labs-panel.md)
 
 ![](<../.gitbook/assets/image (9) (2).png>)
 

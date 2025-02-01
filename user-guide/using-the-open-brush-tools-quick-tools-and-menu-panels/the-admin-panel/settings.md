@@ -1,8 +1,8 @@
 # Settings Panel
 
-![](<../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)
+![](<../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)
 
-The Settings Panel can be opened from a button on the [Admin Panel](the-admin-panel.md).
+The Settings Panel can be opened from a button on the [Admin Panel](./).
 
 1. Top row of buttons (Left to right):\
    i. Help: Pops up links to various useful web pages\
@@ -11,9 +11,9 @@ The Settings Panel can be opened from a button on the [Admin Panel](the-admin-pa
    iv. Ruler
 2. Second row of buttons (Left to right):\
    i. Autosimplify\
-   ii. Experimental Mode: Toggles [Experimental Mode](../experimental-mode.md) on or off next time you open the app\
+   ii. Experimental Mode: Toggles [Experimental Mode](../../experimental-mode.md) on or off next time you open the app\
    iii. Swap Hands: Swaps the brush between the left and right hands\
-   iv. Reset First Use: If you click this then next time you launch Open Brush you will get the short tutorial you saw when you ran it the first time. Also turns off [Experimental Mode](../experimental-mode.md) and switches back to Beginners Mode where most of the tools are hidden.
+   iv. Reset First Use: If you click this then next time you launch Open Brush you will get the short tutorial you saw when you ran it the first time. Also turns off [Experimental Mode](../../experimental-mode.md) and switches back to Beginners Mode where most of the tools are hidden.
 3. Pointer Angle: This changes the angle the brush pointer is at. Find a settings you feel comfortable with.
 4. Quality
 5. Simplification

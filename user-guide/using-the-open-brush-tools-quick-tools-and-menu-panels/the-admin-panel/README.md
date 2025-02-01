@@ -1,10 +1,10 @@
 # Admin Panel
 
-<figure><img src="../../.gitbook/assets/image (34).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (34).png" alt=""><figcaption></figcaption></figure>
 
 ### How to Find the Admin Panel
 
-The admin panel is always attached to your wand - which is the controller in your non-dominant hand (left hand by default)
+The admin panel is always attached to your wand - which is the controller in your non-dominant hand (which is your left hand by default unless you've switched hands on the [settings panel](settings.md))
 
 ### Using the Admin Panel
 
@@ -15,10 +15,10 @@ Around the outside are buttons for:
 1. Save Sketch\
 
 2. Upload Panel\
-   ![](<../../.gitbook/assets/image (45).png>)\
+   ![](<../../../.gitbook/assets/image (45).png>)\
 
 3. The 3 dots "more" button opens this:\
-   ![](<../../.gitbook/assets/image (31).png>)\
+   ![](<../../../.gitbook/assets/image (31).png>)\
    \
    A popup with:
    1. Tutorial
