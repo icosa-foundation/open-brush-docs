@@ -1,6 +1,6 @@
 # Changelog since v2.9
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.9...8bcd3fffc22eca6f2d42d5a81fea065b52607698)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.9...81cf8a90248c0400a47176d92ef6bcc959ff88d4)
 
 ## 🚀 Features
 
@@ -11,6 +11,8 @@
 - Multiplayer Beta ([PR #774](https://github.com/icosa-foundation/open-brush/pull/774) by @andybak)
 
 - Runtime switching of experimental mode ([PR #802](https://github.com/icosa-foundation/open-brush/pull/802) by @andybak)
+
+- Allow the erase tool to also "erase" media widgets ([PR #818](https://github.com/icosa-foundation/open-brush/pull/818) by @andybak)
 
 
 ## 🐛 Fixes
