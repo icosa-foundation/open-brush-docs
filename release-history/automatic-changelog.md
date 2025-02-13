@@ -1,6 +1,6 @@
 # Changelog since v2.9
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.9...81cf8a90248c0400a47176d92ef6bcc959ff88d4)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.9...4f7eb6aebdec9edfeb6b908bfc89c435ffafbc06)
 
 ## 🚀 Features
 
@@ -43,6 +43,8 @@
 - Support new ubuntu-24 images ([PR #799](https://github.com/icosa-foundation/open-brush/pull/799) by @mikeage)
 
 - Fix chown error in newer Alpine images [affects new builds without caches] ([PR #804](https://github.com/icosa-foundation/open-brush/pull/804) by @mikeage)
+
+- Publish Q1 and Q2 builds to ArborXR ([PR #824](https://github.com/icosa-foundation/open-brush/pull/824) by @mikeage)
 
 
 ## 📦 Dependencies / Maintenance
