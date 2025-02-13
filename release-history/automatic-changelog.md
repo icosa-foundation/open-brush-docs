@@ -1,6 +1,6 @@
 # Changelog since v2.9
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.9...4f7eb6aebdec9edfeb6b908bfc89c435ffafbc06)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.9...bfa58a838e77847d06aecf6059e6cafd3d611095)
 
 ## 🚀 Features
 
@@ -45,6 +45,8 @@
 - Fix chown error in newer Alpine images [affects new builds without caches] ([PR #804](https://github.com/icosa-foundation/open-brush/pull/804) by @mikeage)
 
 - Publish Q1 and Q2 builds to ArborXR ([PR #824](https://github.com/icosa-foundation/open-brush/pull/824) by @mikeage)
+
+- Upload Pico to ArborXR ([PR #826](https://github.com/icosa-foundation/open-brush/pull/826) by @mikeage)
 
 
 ## 📦 Dependencies / Maintenance
