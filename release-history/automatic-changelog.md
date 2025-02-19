@@ -1,6 +1,6 @@
 # Changelog since v2.9
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.9...9bcb95cbcc769bcb1b1ea4e936b799613403d7d5)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.9...dab01938a11d014b94b54d720f8c71b844a269f3)
 
 ## 🚀 Features
 
@@ -28,6 +28,8 @@
 - Fix MX Stylus Regression ([PR #811](https://github.com/icosa-foundation/open-brush/pull/811) by @andybak)
 
 - Fix editor issues with localization ([PR #825](https://github.com/icosa-foundation/open-brush/pull/825) by @andybak)
+
+- The eraser tool should not erase pinned widgets ([PR #819](https://github.com/icosa-foundation/open-brush/pull/819) by @andybak)
 
 
 ## 🛠️ Infrastructure
