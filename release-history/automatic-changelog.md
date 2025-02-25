@@ -1,6 +1,6 @@
 # Changelog since v2.9
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.9...7cda9af8d299a03d7684e94ebb99d02bc0093ab7)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.9...766fb4e39a6488ebe6ab364ca3565a858bd0b869)
 
 ## 🚀 Features
 
@@ -53,6 +53,8 @@
 - Upload Pico to ArborXR ([PR #826](https://github.com/icosa-foundation/open-brush/pull/826) by @mikeage)
 
 - Add arm64 to cert generation ([PR #829](https://github.com/icosa-foundation/open-brush/pull/829) by @mikeage)
+
+- Switch scoped registries to OpenUPM ([PR #787](https://github.com/icosa-foundation/open-brush/pull/787) by @sbanca)
 
 
 ## 📦 Dependencies / Maintenance
