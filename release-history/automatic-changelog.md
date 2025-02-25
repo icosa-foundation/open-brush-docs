@@ -1,6 +1,6 @@
 # Changelog since v2.9
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.9...dab01938a11d014b94b54d720f8c71b844a269f3)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.9...7cda9af8d299a03d7684e94ebb99d02bc0093ab7)
 
 ## 🚀 Features
 
@@ -51,6 +51,8 @@
 - Publish Q1 and Q2 builds to ArborXR ([PR #824](https://github.com/icosa-foundation/open-brush/pull/824) by @mikeage)
 
 - Upload Pico to ArborXR ([PR #826](https://github.com/icosa-foundation/open-brush/pull/826) by @mikeage)
+
+- Add arm64 to cert generation ([PR #829](https://github.com/icosa-foundation/open-brush/pull/829) by @mikeage)
 
 
 ## 📦 Dependencies / Maintenance
