@@ -1,6 +1,6 @@
 # Changelog since v2.9
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.9...27dd92c46ea6c2c0b72532b2198bf69c23976e49)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.9...7258d1dd23d74c305d48f517f3963266c618eacc)
 
 ## 🚀 Features
 
@@ -57,6 +57,8 @@
 - Switch scoped registries to OpenUPM ([PR #787](https://github.com/icosa-foundation/open-brush/pull/787) by @sbanca)
 
 - Use Xcode 16.2 to build Zapbox ([PR #830](https://github.com/icosa-foundation/open-brush/pull/830) by @mikeage)
+
+- Update packages-lock.json so that we can recreate the cache ([PR #831](https://github.com/icosa-foundation/open-brush/pull/831) by @mikeage)
 
 
 ## 📦 Dependencies / Maintenance
