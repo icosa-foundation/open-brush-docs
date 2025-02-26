@@ -1,6 +1,6 @@
 # Changelog since v2.9
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.9...766fb4e39a6488ebe6ab364ca3565a858bd0b869)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.9...27dd92c46ea6c2c0b72532b2198bf69c23976e49)
 
 ## 🚀 Features
 
@@ -55,6 +55,8 @@
 - Add arm64 to cert generation ([PR #829](https://github.com/icosa-foundation/open-brush/pull/829) by @mikeage)
 
 - Switch scoped registries to OpenUPM ([PR #787](https://github.com/icosa-foundation/open-brush/pull/787) by @sbanca)
+
+- Use Xcode 16.2 to build Zapbox ([PR #830](https://github.com/icosa-foundation/open-brush/pull/830) by @mikeage)
 
 
 ## 📦 Dependencies / Maintenance
