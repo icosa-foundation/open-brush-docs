@@ -66,7 +66,7 @@
   * ["Experimental Mode" Builds](alternate-and-experimental-builds/main-experimental-build.md)
   * [Feature: 3D Shapes Tool](alternate-and-experimental-builds/3d-shapes.md)
   * [Feature: Animation Timeline](alternate-and-experimental-builds/animation-timeline.md)
-  * [Feature: Icosa Gallery Support](alternate-and-experimental-builds/animation-timeline-1.md)
+  * [Feature: Icosa Gallery Support](alternate-and-experimental-builds/icosa-gallery-support.md)
   * [Feature: Brush Editing](alternate-and-experimental-builds/brush-editing.md)
   * [Feature: Multiplayer](alternate-and-experimental-builds/multiplayer.md)
   * [Feature: Plugin Scripting](alternate-and-experimental-builds/runtime-scripting/README.md)
