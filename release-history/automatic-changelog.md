@@ -1,6 +1,6 @@
 # Changelog since v2.9
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.9...7258d1dd23d74c305d48f517f3963266c618eacc)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.9...a0ef47cf81371232e86a1e0ad6f807f33ee3b0af)
 
 ## 🚀 Features
 
@@ -77,6 +77,8 @@
 ## 💬 Uncategorized
 
 - Enable incremental garbage collector ([PR #807](https://github.com/icosa-foundation/open-brush/pull/807) by @andybak)
+
+- Update Zapbox SDK to 0.4.0 ([PR #834](https://github.com/icosa-foundation/open-brush/pull/834) by @tangobravo)
 
 
 
