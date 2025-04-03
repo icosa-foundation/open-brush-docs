@@ -20,10 +20,3 @@
 18. 2.0 new features (maybe check if we missed anything in earlier release also)
 19. Update info on "Sharing" page to be clear about Quest differences. Document how to access sketches on the Quest.
 
-
-
-
-
-{% embed url="https://icosa.gallery/view/9L2Lt-sxzdp" %}
-
-{% embed url="https://api.icosa.gallery/v1/oembed?format=json&url=/view/9L2Lt-sxzdp/embed" %}
