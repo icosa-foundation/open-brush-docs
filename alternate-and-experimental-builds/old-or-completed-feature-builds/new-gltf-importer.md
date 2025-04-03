@@ -30,7 +30,7 @@ Just import gltf models as you normally would.
 
 ## How do I get help
 
-Come over to the [Open Brush Discord](https://discord.com/invite/fS69VdFXpk) and chat to me ( @andybak#5425 ). I'm on UK time (currently UTC+1) but I check in fairly regularly.
+Come over to the [Open Brush Discord](https://discord.openbrush.app) and chat to me ( @andybak#5425 ). I'm on UK time (currently UTC+1) but I check in fairly regularly.
 
 ### Can I see it in action?
 

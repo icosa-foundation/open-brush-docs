@@ -40,7 +40,7 @@ Our next priority is to fix the last issue. After that we will probably release 
 
 ## How do I get help
 
-Come over to the [Open Brush Discord](https://discord.com/invite/fS69VdFXpk) and chat to Riccardo ( @sbanca ) or me ( @andybak#5425 ). We're both on UK time.
+Come over to the [Open Brush Discord](https://discord.openbrush.app) and chat to Riccardo ( @sbanca ) or me ( @andybak#5425 ). We're both on UK time.
 
 ### Can I see it in action?
 

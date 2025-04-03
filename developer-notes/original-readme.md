@@ -14,7 +14,7 @@ Open brush is a fork of Tilt Brush, a room-scale 3D-painting virtual-reality app
 
 As the original repo is archived we cannot submit PRs, so feel free to submit them here! 
 
-[Please join the Icosa Discord and get involved!](https://discord.com/invite/W7NCEYnEfy)  
+[Please join the Icosa Discord and get involved!](https://discord.openbrush.app)  
 [Open Brush Trello](https://trello.com/b/jItetqYe/open-brush)  
 [List of tutorials, write-ups and other things from the community](https://docs.google.com/document/d/1gjoYp4y-1qlE3a7fvXVxGR3ioj3nMfgprmTHQ-bpq0k/)  
 **[Support us on Open Collective!](https://opencollective.com/icosa)**  

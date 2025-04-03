@@ -118,7 +118,7 @@ If you break apart a model containing lights, the lights themselves can't be sel
 
 ## How do I get help
 
-Come over to the Open Brush Discord: [https://discord.com/invite/fS69VdFXpk](https://discord.com/invite/fS69VdFXpk) and chat to me @andybak).
+Come over to the Open Brush Discord: [https://discord.openbrush.app](https://discord.openbrush.app) and chat to me @andybak).
 
 I'm on UK time but I check in fairly regularly.
 
