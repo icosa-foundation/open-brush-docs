@@ -33,7 +33,7 @@ TODO
 
 ## How do I get help
 
-Come over to the Open Brush Discord: [https://discord.com/invite/fS69VdFXpk](https://discord.com/invite/fS69VdFXpk) and chat to @seethrough ).
+Come over to the Open Brush Discord: [https://discord.openbrush.app](https://discord.openbrush.app) and chat to @seethrough ).
 
 We're mostly on UK time but we check in fairly regularly.
 

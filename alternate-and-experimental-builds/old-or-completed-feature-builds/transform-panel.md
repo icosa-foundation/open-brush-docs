@@ -47,7 +47,7 @@ It should appear automatically.
 
 ## How do I get help
 
-Come over to the Open Brush Discord: [https://discord.com/invite/fS69VdFXpk](https://discord.com/invite/fS69VdFXpk) and chat to me ( andybak#5425 ).
+Come over to the Open Brush Discord: [https://discord.openbrush.app](https://discord.openbrush.app) and chat to me ( andybak#5425 ).
 
 I'm on UK time but I check in fairly regularly.
 
