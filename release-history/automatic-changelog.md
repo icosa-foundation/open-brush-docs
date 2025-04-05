@@ -1,6 +1,6 @@
 # Changelog since v2.9
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.9...a0ef47cf81371232e86a1e0ad6f807f33ee3b0af)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.9...3ff9297f2b0f78e894214e47a6e36b149578a716)
 
 ## 🚀 Features
 
@@ -73,12 +73,14 @@
 
 - Bump rexml from 3.3.6 to 3.3.9 in the bundler group across 1 directory ([PR #784](https://github.com/icosa-foundation/open-brush/pull/784) by @dependabot[bot])
 
+- Update Zapbox SDK to 0.4.0 ([PR #834](https://github.com/icosa-foundation/open-brush/pull/834) by @tangobravo)
+
 
 ## 💬 Uncategorized
 
 - Enable incremental garbage collector ([PR #807](https://github.com/icosa-foundation/open-brush/pull/807) by @andybak)
 
-- Update Zapbox SDK to 0.4.0 ([PR #834](https://github.com/icosa-foundation/open-brush/pull/834) by @tangobravo)
+- Update permission strings ([PR #835](https://github.com/icosa-foundation/open-brush/pull/835) by @tangobravo)
 
 
 
