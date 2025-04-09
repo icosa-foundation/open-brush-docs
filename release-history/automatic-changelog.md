@@ -1,6 +1,6 @@
 # Changelog since v2.9
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.9...1a744634282d2b241685a99b26819564a5d15fa6)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.9...9d84e14a6e8e02a3a55d5e48e315441e1eef0571)
 
 ## 🚀 Features
 
@@ -13,6 +13,8 @@
 - Runtime switching of experimental mode ([PR #802](https://github.com/icosa-foundation/open-brush/pull/802) by @andybak)
 
 - Allow the erase tool to also "erase" media widgets ([PR #818](https://github.com/icosa-foundation/open-brush/pull/818) by @andybak)
+
+- Zapbox fixes: tutorial, controller materials, and laser pointer ([PR #832](https://github.com/icosa-foundation/open-brush/pull/832) by @apzap)
 
 
 ## 🐛 Fixes
