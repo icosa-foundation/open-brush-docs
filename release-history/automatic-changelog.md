@@ -1,6 +1,6 @@
 # Changelog since v2.9
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.9...3ff9297f2b0f78e894214e47a6e36b149578a716)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.9...1a744634282d2b241685a99b26819564a5d15fa6)
 
 ## 🚀 Features
 
@@ -81,6 +81,8 @@
 - Enable incremental garbage collector ([PR #807](https://github.com/icosa-foundation/open-brush/pull/807) by @andybak)
 
 - Update permission strings ([PR #835](https://github.com/icosa-foundation/open-brush/pull/835) by @tangobravo)
+
+- Switch to ArborXR v2 CLI ([PR #836](https://github.com/icosa-foundation/open-brush/pull/836) by @mikeage)
 
 
 
