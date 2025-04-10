@@ -1,6 +1,6 @@
 # Changelog since v2.9
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.9...9d84e14a6e8e02a3a55d5e48e315441e1eef0571)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.9...abb537764520987a1fb7dae9cd04d133381e24a6)
 
 ## 🚀 Features
 
@@ -33,6 +33,8 @@
 
 - The eraser tool should not erase pinned widgets ([PR #819](https://github.com/icosa-foundation/open-brush/pull/819) by @andybak)
 
+- Update permission strings ([PR #835](https://github.com/icosa-foundation/open-brush/pull/835) by @tangobravo)
+
 
 ## 🛠️ Infrastructure
 
@@ -62,6 +64,10 @@
 
 - Update packages-lock.json so that we can recreate the cache ([PR #831](https://github.com/icosa-foundation/open-brush/pull/831) by @mikeage)
 
+- Switch to ArborXR v2 CLI ([PR #836](https://github.com/icosa-foundation/open-brush/pull/836) by @mikeage)
+
+- Fix Arbor XR release channel updates which use a version ID instead of a version (despite calling the parameter --version) ([PR #837](https://github.com/icosa-foundation/open-brush/pull/837) by @mikeage)
+
 
 ## 📦 Dependencies / Maintenance
 
@@ -81,10 +87,6 @@
 ## 💬 Uncategorized
 
 - Enable incremental garbage collector ([PR #807](https://github.com/icosa-foundation/open-brush/pull/807) by @andybak)
-
-- Update permission strings ([PR #835](https://github.com/icosa-foundation/open-brush/pull/835) by @tangobravo)
-
-- Switch to ArborXR v2 CLI ([PR #836](https://github.com/icosa-foundation/open-brush/pull/836) by @mikeage)
 
 
 
