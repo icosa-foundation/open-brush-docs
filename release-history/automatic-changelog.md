@@ -1,6 +1,6 @@
 # Changelog since v2.9
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.9...d0daffdf6ec519d05e2a224d7cdad996e4fd560c)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.9...64532512fff0659816395ddd259481bab806f5b2)
 
 ## 🚀 Features
 
@@ -69,6 +69,8 @@
 - Fix Arbor XR release channel updates which use a version ID instead of a version (despite calling the parameter --version) ([PR #837](https://github.com/icosa-foundation/open-brush/pull/837) by @mikeage)
 
 - Use JSON format for abxr-cli ([PR #838](https://github.com/icosa-foundation/open-brush/pull/838) by @mikeage)
+
+- Faster cleanup step (saves about 1 minute in the slow case) ([PR #839](https://github.com/icosa-foundation/open-brush/pull/839) by @mikeage)
 
 
 ## 📦 Dependencies / Maintenance
