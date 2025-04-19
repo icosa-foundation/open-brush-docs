@@ -1,6 +1,6 @@
 # Changelog since v2.9
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.9...64532512fff0659816395ddd259481bab806f5b2)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.9...dbab40491184e1b3c09230bdda615e00da6a5ea5)
 
 ## 🚀 Features
 
@@ -15,6 +15,8 @@
 - Allow the erase tool to also "erase" media widgets ([PR #818](https://github.com/icosa-foundation/open-brush/pull/818) by @andybak)
 
 - Zapbox fixes: tutorial, controller materials, and laser pointer ([PR #832](https://github.com/icosa-foundation/open-brush/pull/832) by @apzap)
+
+- Multiplayer fixes and Improvements  ([PR #809](https://github.com/icosa-foundation/open-brush/pull/809) by @sbanca)
 
 
 ## 🐛 Fixes
@@ -34,6 +36,8 @@
 - The eraser tool should not erase pinned widgets ([PR #819](https://github.com/icosa-foundation/open-brush/pull/819) by @andybak)
 
 - Update permission strings ([PR #835](https://github.com/icosa-foundation/open-brush/pull/835) by @tangobravo)
+
+- Revert accidental change to Unity splash screen setting ([PR #840](https://github.com/icosa-foundation/open-brush/pull/840) by @andybak)
 
 
 ## 🛠️ Infrastructure
