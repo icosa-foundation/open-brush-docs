@@ -1,6 +1,6 @@
 # Changelog since v2.9
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.9...7fa5dd60abd4fea5ffc94b8561d60afed95a213f)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.9...ac9be9b468457340bd13d3a6b5c710433be13c60)
 
 ## 🚀 Features
 
@@ -79,6 +79,8 @@
 - Add a github action to automatically comment if/when Packages or Project Settings are changed ([PR #841](https://github.com/icosa-foundation/open-brush/pull/841) by @mikeage)
 
 - Fix missing line that caused duplicate comments ([PR #843](https://github.com/icosa-foundation/open-brush/pull/843) by @mikeage)
+
+- Disable package cache ([PR #844](https://github.com/icosa-foundation/open-brush/pull/844) by @mikeage)
 
 
 ## 📦 Dependencies / Maintenance
