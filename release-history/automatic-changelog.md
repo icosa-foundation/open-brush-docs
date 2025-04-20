@@ -1,6 +1,6 @@
 # Changelog since v2.9
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.9...ac9be9b468457340bd13d3a6b5c710433be13c60)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.9...1c9386b72e331a2853a157a812952de28efe47b1)
 
 ## 🚀 Features
 
@@ -38,6 +38,8 @@
 - Update permission strings ([PR #835](https://github.com/icosa-foundation/open-brush/pull/835) by @tangobravo)
 
 - Revert accidental change to Unity splash screen setting ([PR #840](https://github.com/icosa-foundation/open-brush/pull/840) by @andybak)
+
+- Fix builds on forks; move defines from ProjectSettings to build.yml on a per-platform basis ([PR #842](https://github.com/icosa-foundation/open-brush/pull/842) by @mikeage)
 
 
 ## 🛠️ Infrastructure
@@ -81,6 +83,8 @@
 - Fix missing line that caused duplicate comments ([PR #843](https://github.com/icosa-foundation/open-brush/pull/843) by @mikeage)
 
 - Disable package cache ([PR #844](https://github.com/icosa-foundation/open-brush/pull/844) by @mikeage)
+
+- Fix builds on forks; move defines from ProjectSettings to build.yml on a per-platform basis ([PR #842](https://github.com/icosa-foundation/open-brush/pull/842) by @mikeage)
 
 
 ## 📦 Dependencies / Maintenance
