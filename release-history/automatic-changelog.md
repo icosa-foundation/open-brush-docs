@@ -1,6 +1,6 @@
 # Changelog since v2.9
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.9...dbab40491184e1b3c09230bdda615e00da6a5ea5)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.9...57b5dd72a3aa7a6edd283f1b2cbf7ed49afa17fd)
 
 ## 🚀 Features
 
@@ -75,6 +75,8 @@
 - Use JSON format for abxr-cli ([PR #838](https://github.com/icosa-foundation/open-brush/pull/838) by @mikeage)
 
 - Faster cleanup step (saves about 1 minute in the slow case) ([PR #839](https://github.com/icosa-foundation/open-brush/pull/839) by @mikeage)
+
+- Add a github action to automatically comment if/when Packages or Project Settings are changed ([PR #841](https://github.com/icosa-foundation/open-brush/pull/841) by @mikeage)
 
 
 ## 📦 Dependencies / Maintenance
