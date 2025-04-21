@@ -1,6 +1,6 @@
 # Changelog since v2.9
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.9...1c9386b72e331a2853a157a812952de28efe47b1)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.9...9082911c51c668e909141a6212c68fdaf1bb6dcb)
 
 ## 🚀 Features
 
@@ -85,6 +85,8 @@
 - Disable package cache ([PR #844](https://github.com/icosa-foundation/open-brush/pull/844) by @mikeage)
 
 - Fix builds on forks; move defines from ProjectSettings to build.yml on a per-platform basis ([PR #842](https://github.com/icosa-foundation/open-brush/pull/842) by @mikeage)
+
+- Silence warnings from setup-uv ([PR #845](https://github.com/icosa-foundation/open-brush/pull/845) by @mikeage)
 
 
 ## 📦 Dependencies / Maintenance
