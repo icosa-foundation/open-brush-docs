@@ -1,6 +1,6 @@
 # Changelog since v2.9
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.9...dae2a93ff61f299777e371050097f8ac23c940ea)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.9...313e36e6e883dfdfebc3d1ddf1a2372007a8c41c)
 
 ## 🚀 Features
 
@@ -89,6 +89,8 @@
 - Silence warnings from setup-uv ([PR #845](https://github.com/icosa-foundation/open-brush/pull/845) by @mikeage)
 
 - Use literal newline to fix file listing in the warning comment ([PR #846](https://github.com/icosa-foundation/open-brush/pull/846) by @mikeage)
+
+- Update pre-commit config ([PR #847](https://github.com/icosa-foundation/open-brush/pull/847) by @mikeage)
 
 
 ## 📦 Dependencies / Maintenance
