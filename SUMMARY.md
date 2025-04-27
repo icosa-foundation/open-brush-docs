@@ -117,6 +117,8 @@
   * [Open Brush AsCanvas Notes](developer-notes/open-brush-ascanvas-notes.md)
   * [Unity Versions](developer-notes/unity-versions.md)
 * [Release History](release-history.md)
+  * [v2.10 Multiplayer](release-history/v2.10.md)
+  * [v2.9 (Maintenance)](release-history/v2.9.md)
   * [v2.8 Import/Export](release-history/v2.8.md)
   * [v2.7 (Maintenance)](release-history/v2.7-maintenance.md)
   * [v2.6 (Maintenance)](release-history/v2.6-maintenance.md)
