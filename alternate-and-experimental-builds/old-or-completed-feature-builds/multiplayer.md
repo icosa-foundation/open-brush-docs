@@ -1,6 +1,6 @@
 # Feature: Multiplayer
 
-#### Status: Working with certain limitations (see below)
+#### Status: Released in [v2.10](../../release-history/v2.10.md)
 
 ## Download
 
@@ -10,8 +10,6 @@
 * [~~SteamVR and other PC VR~~](https://nightly.link/icosa-foundation/open-brush/workflows/build/multiplayer%2Fui/Windows%20OpenXR.zip)~~(Vive, Index, Reverb...)~~
 * [~~Other Builds~~](https://nightly.link/icosa-foundation/open-brush/workflows/build/multiplayer%2Fui) ~~(Pico, Pimax etc)~~
 * [~~Code~~](https://github.com/icosa-foundation/open-brush/tree/multiplayer/ui)
-
-&#x20;This is in the [current beta release](open-brush-beta-docs.md).
 
 ### What does it do?
 
@@ -33,7 +31,7 @@ There's a new button on the main admin panel. You enter a room name of your choi
 
 * Undo is disabled when in multiplayer mode.
 * Loading sketches is disabled in multiplayer mode
-* You must switch to [basic mode](../user-guide/using-the-open-brush-tools-quick-tools-and-menu-panels/tool-panels.md) before joining a room. Currently only basic mode features are supported.
+* You must switch to [basic mode](../../user-guide/using-the-open-brush-tools-quick-tools-and-menu-panels/tool-panels.md) before joining a room. Currently only basic mode features are supported.
 * People that join the room will see the strokes you have made this session but they won't see any strokes that you loaded from saved sketch.
 
 Our next priority is to fix the last issue. After that we will probably release the multiplayer functionality into the main beta release so it's easier for people to try it out. However - the more testing and feedback we can get at this stage, the better the beta release will be so please try out this build.
