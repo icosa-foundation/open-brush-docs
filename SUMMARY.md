@@ -97,7 +97,7 @@
     * [Feature: Multi-Mirror](alternate-and-experimental-builds/old-or-completed-feature-builds/multi-mirror.md)
     * [Feature: New Monoscopic Mode](alternate-and-experimental-builds/old-or-completed-feature-builds/new-monoscopic-mode.md)
     * [Feature: Improved Import/Export](alternate-and-experimental-builds/old-or-completed-feature-builds/improved-import-export.md)
-    * [Feature: Multiplayer](alternate-and-experimental-builds/old-or-completed-feature-builds/multiplayer.md)
+    * [Feature: Multiplayer](alternate-and-experimental-builds/multiplayer.md)
 * [Case Studies](case-studies.md)
 * [Other Resources](resources.md)
 * [Developer Notes](developer-notes/README.md)
