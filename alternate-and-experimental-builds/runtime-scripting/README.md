@@ -1,15 +1,17 @@
 # Feature: Plugin Scripting
 
-#### Status: Mostly working and lots of fun to play with.
+#### Status: Experimental but lots of fun to play with.
 
 ## Download
 
-* [Oculus Quest 1](https://nightly.link/icosa-foundation/open-brush/workflows/build/feature%2Fplugin-scripting/Oculus%20Quest%20%282%2B%29.zip)
-* [Oculus Quest 2 or 3](https://nightly.link/icosa-foundation/open-brush/workflows/build/feature%2Fplugin-scripting/Oculus%20Quest%20%282%2B%29.zip)
-* [Oculus PC VR ](https://nightly.link/icosa-foundation/open-brush/workflows/build/feature%2Fplugin-scripting/Windows%20Rift.zip)(Rift, Quest via Link cable...)
-* [SteamVR and other PC VR](https://nightly.link/icosa-foundation/open-brush/workflows/build/feature%2Fplugin-scripting/Windows%20OpenXR.zip)(Vive, Index, Reverb...)
-* [Other Builds](https://nightly.link/icosa-foundation/open-brush/workflows/build/feature%2Fplugin-scripting) (Pico, Pimax etc)
-* [Code](https://github.com/icosa-foundation/open-brush/tree/feature/plugin-scripting)
+* [O~~culus Quest 1~~](https://nightly.link/icosa-foundation/open-brush/workflows/build/feature%2Fplugin-scripting/Oculus%20Quest%20\(2%2B\).zip)
+* [~~Oculus Quest 2 or 3~~](https://nightly.link/icosa-foundation/open-brush/workflows/build/feature%2Fplugin-scripting/Oculus%20Quest%20\(2%2B\).zip)
+* [~~Oculus PC VR~~ ](https://nightly.link/icosa-foundation/open-brush/workflows/build/feature%2Fplugin-scripting/Windows%20Rift.zip)~~(Rift, Quest via Link cable...)~~
+* [~~SteamVR and other PC VR~~](https://nightly.link/icosa-foundation/open-brush/workflows/build/feature%2Fplugin-scripting/Windows%20OpenXR.zip)~~(Vive, Index, Reverb...)~~
+* [~~Other Builds~~](https://nightly.link/icosa-foundation/open-brush/workflows/build/feature%2Fplugin-scripting) ~~(Pico, Pimax etc)~~
+* [~~Code~~](https://github.com/icosa-foundation/open-brush/tree/feature/plugin-scripting)
+
+Now included in the current [beta version](../open-brush-beta-docs.md)
 
 ### What does it do?
 
