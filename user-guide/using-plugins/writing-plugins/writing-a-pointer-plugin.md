@@ -109,4 +109,4 @@ function Main()
 end
 ```
 
-We've now told Open Brush that this plugin should show a slider in it's [Parameters popup](../using-plugins.md#plugin-parameters) which changes the frequency that the pointer moves.
+We've now told Open Brush that this plugin should show a slider in it's [Parameters popup](../#plugin-parameters) which changes the frequency that the pointer moves.

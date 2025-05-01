@@ -11,11 +11,11 @@
 * [~~Other Builds~~](https://nightly.link/icosa-foundation/open-brush/workflows/build/feature%2Fplugin-scripting) ~~(Pico, Pimax etc)~~
 * [~~Code~~](https://github.com/icosa-foundation/open-brush/tree/feature/plugin-scripting)
 
-Now included in the current [beta version](../open-brush-beta-docs.md)
+Now included in the current [beta version](open-brush-beta-docs.md)
 
 ### What does it do?
 
-Unlike the existing [OpenBrush API](../../user-guide/open-brush-api/), plugin scripting is designed to run small scripts that directly modify the behaviour of various features while you are actually using them. For example a script might move the pointer as you are painting or add new strokes in response to your actions.
+Unlike the existing [OpenBrush API](../user-guide/open-brush-api/), plugin scripting is designed to run small scripts that directly modify the behaviour of various features while you are actually using them. For example a script might move the pointer as you are painting or add new strokes in response to your actions.
 
 ### What's it good for?
 
@@ -23,15 +23,15 @@ Changing the way Open Brush responds to user actions. Adding new mirror modes or
 
 ### How do I install it?
 
-[Download](./#download) a build for your headset from the link above and unzip it. You can run the Windows exe directly. To install the Quest apk use SideQuest: [https://uploadvr.com/sideloading-quest-how-to/](https://uploadvr.com/sideloading-quest-how-to/)
+[Download](runtime-scripting.md#download) a build for your headset from the link above and unzip it. You can run the Windows exe directly. To install the Quest apk use SideQuest: [https://uploadvr.com/sideloading-quest-how-to/](https://uploadvr.com/sideloading-quest-how-to/)
 
 ### How do I use it?
 
-See [Using Plugins](using-plugins.md)
+See [Using Plugins](../user-guide/using-plugins/)
 
 ### How do I write my own plugin scripts?
 
-See [Writing Plugins](writing-plugins/)
+See [Writing Plugins](../user-guide/using-plugins/writing-plugins/)
 
 ### Known Issues
 

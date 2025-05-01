@@ -4,7 +4,7 @@ Symmetry Plugins are similar to Pointer plugins with a few differences:
 
 1. They can return a list of transforms that represent multiple pointers.
 2. They can modify the color, size and brush type for each of the strokes separately.
-3. They have access to the Symmetry Widget which can be used as a point of origin for each pointer. If you've used the Mirror or [MultiMirror](../../old-or-completed-feature-builds/multi-mirror.md) features in Open Brush then the Symmetry Widget is like the Mirror Widget that controls the reflection plane and center for those mirrors.
+3. They have access to the Symmetry Widget which can be used as a point of origin for each pointer. If you've used the Mirror or [MultiMirror](../../../alternate-and-experimental-builds/old-or-completed-feature-builds/multi-mirror.md) features in Open Brush then the Symmetry Widget is like the Mirror Widget that controls the reflection plane and center for those mirrors.
 
 Bear in mind - the number of pointers you generate cannot change once a brush stroke has begun, but can change between each brush stroke.
 
