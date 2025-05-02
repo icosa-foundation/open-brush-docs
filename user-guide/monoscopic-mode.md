@@ -4,9 +4,9 @@
 This page has been update to reflect changes in the current [beta version](../alternate-and-experimental-builds/open-brush-beta-docs.md). Sketch Viewer mode is a new feature and Monoscopic Mode was previously only available as a separate download.
 {% endhint %}
 
-## Sketch Viewer Mode
+## Desktop Mode
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (61).png" alt=""><figcaption></figcaption></figure>
 
 If you launch Open Brush without a headset attached (platforms where we don't currently have VR support), the app will start in "Sketch Viewer Mode" where you can load any of the available sketches and navigate around with the keyboard and mouse or the touchscreen.
 
@@ -29,6 +29,14 @@ If you do have a VR headset attached you can still access Sketch Viewer Mode by 
 ```
 
 You can return to normal either by removing the entry or by setting it to false.
+
+### Plugins and Scripting in Desktop Mode
+
+Another great use case for Desktop Mode is in conjunction with either or both the [HTTP API](open-brush-api/) and [Plugins](using-plugins/)
+
+In fact - we've included a script designed to show how you can control and configure Open Brush and trigger plugins from your browser. Just open [http://localhost:40074/examplescripts/remotecontrol.html](http://localhost:40074/examplescripts/remotecontrol.html) while Open Brush is running. (this also works in VR but is especially useful in desktop mode)
+
+<figure><img src="../.gitbook/assets/image (62).png" alt=""><figcaption></figcaption></figure>
 
 ## Monoscopic Mode
 
@@ -64,7 +72,7 @@ You can return to normal either by removing the entry or by setting it to false.
 ## Other Keyboard Shortcuts
 
 {% hint style="info" %}
-The file Scripts/InputManager.cs lists all the keyboard controls. Also see [Open Brush: Keyboard Controls and VR Input](https://docs.google.com/spreadsheets/d/1D7vIerfSz1vtyDS\_dPdvHiANluEr60VFrxhzE7ZbfAU) However many aren’t relevant, aren’t implemented or only apply in particular modes. The more useful ones are listed below.
+The file Scripts/InputManager.cs lists all the keyboard controls. Also see [Open Brush: Keyboard Controls and VR Input](https://docs.google.com/spreadsheets/d/1D7vIerfSz1vtyDS_dPdvHiANluEr60VFrxhzE7ZbfAU) However many aren’t relevant, aren’t implemented or only apply in particular modes. The more useful ones are listed below.
 {% endhint %}
 
 | **Action**          | **Shortcut** | **Notes**                                                                                   |
