@@ -1,6 +1,6 @@
 # Changelog since v2.10
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...d14eb1740f2f9f4be43c8e69f7235e7e86f2ea4b)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...96f7cb3163cdc9957bd1ce5cf45a9d5599166bfe)
 
 ## 🚀 Features
 
@@ -12,6 +12,11 @@
 - Fix/plugin merge fixes ([PR #848](https://github.com/icosa-foundation/open-brush/pull/848) by @andybak)
 
 - Remove old "not supported" code that sneaked back in with plugin merge ([PR #849](https://github.com/icosa-foundation/open-brush/pull/849) by @andybak)
+
+
+## 🛠️ Infrastructure
+
+- Disable push of the Q1 build to Oculus (finally blocked by them) ([PR #850](https://github.com/icosa-foundation/open-brush/pull/850) by @mikeage)
 
 
 
