@@ -1,6 +1,6 @@
 # Changelog since v2.10
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...96f7cb3163cdc9957bd1ce5cf45a9d5599166bfe)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...e0f2157f4aa94819c670e0cab889637e27ddc17d)
 
 ## 🚀 Features
 
@@ -17,6 +17,11 @@
 ## 🛠️ Infrastructure
 
 - Disable push of the Q1 build to Oculus (finally blocked by them) ([PR #850](https://github.com/icosa-foundation/open-brush/pull/850) by @mikeage)
+
+
+## 💬 Uncategorized
+
+- Prevent error loading image widgets from old sketches ([PR #853](https://github.com/icosa-foundation/open-brush/pull/853) by @andybak)
 
 
 
