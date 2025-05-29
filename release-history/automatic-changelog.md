@@ -1,6 +1,6 @@
 # Changelog since v2.10
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...865848468d30a5b49e5e58f73081cecbab1c3f52)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...40d9d66548eabc4634ff6561897f678b4d5acd7c)
 
 ## 🚀 Features
 
@@ -15,6 +15,8 @@
 
 - Remove old "not supported" code that sneaked back in with plugin merge ([PR #849](https://github.com/icosa-foundation/open-brush/pull/849) by @andybak)
 
+- Prevent error loading image widgets from old sketches ([PR #853](https://github.com/icosa-foundation/open-brush/pull/853) by @andybak)
+
 - Fix bug where the layers panel doesn't init if it's not open when a sketch is loaded ([PR #854](https://github.com/icosa-foundation/open-brush/pull/854) by @andybak)
 
 - Fix cloning widgets and strokes to multiple symmetry targets ([PR #855](https://github.com/icosa-foundation/open-brush/pull/855) by @andybak)
@@ -27,7 +29,7 @@
 
 ## 💬 Uncategorized
 
-- Prevent error loading image widgets from old sketches ([PR #853](https://github.com/icosa-foundation/open-brush/pull/853) by @andybak)
+- Add support for periodically (monthly) rebuilding a PR ([PR #858](https://github.com/icosa-foundation/open-brush/pull/858) by @mikeage)
 
 
 
