@@ -1,6 +1,6 @@
 # Changelog since v2.10
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...40d9d66548eabc4634ff6561897f678b4d5acd7c)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...1b39a18f5cf393b628bee29244299e4f994ceedf)
 
 ## 🚀 Features
 
@@ -26,10 +26,9 @@
 
 - Disable push of the Q1 build to Oculus (finally blocked by them) ([PR #850](https://github.com/icosa-foundation/open-brush/pull/850) by @mikeage)
 
-
-## 💬 Uncategorized
-
 - Add support for periodically (monthly) rebuilding a PR ([PR #858](https://github.com/icosa-foundation/open-brush/pull/858) by @mikeage)
+
+- Fix broken workflow ([PR #859](https://github.com/icosa-foundation/open-brush/pull/859) by @mikeage)
 
 
 
