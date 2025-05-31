@@ -2,6 +2,10 @@
 
 ![](<../.gitbook/assets/image (9) (2).png>)
 
+{% hint style="info" %}
+This page isn't up to date at the moment
+{% endhint %}
+
 To try out newer features, you can open up the Labs panel. Here you will find some of the latest additions to Open Brush.
 
 (If you're really interested in cutting edge features then you might also want to look at installing [alternate or experimental builds](../alternate-and-experimental-builds/).)

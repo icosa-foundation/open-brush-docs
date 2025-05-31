@@ -35,6 +35,7 @@
   * [Saving and sharing your Open Brush sketches](user-guide/saving-and-sharing-your-open-brush-sketches.md)
   * [Troubleshooting issues with Open Brush](user-guide/troubleshooting-issues-with-open-brush.md)
   * [Check out Labs features](user-guide/check-out-labs-or-experimental-features.md)
+  * [Multi-Mirror](user-guide/multi-mirror.md)
   * [Importing Images, Videos and 3D Models](user-guide/importing-images-videos-3d-models.md)
   * [Experimental Mode](user-guide/experimental-mode.md)
   * [Make moving creations using audio reactive brushes](user-guide/make-moving-creations-using-audio-reactive-brushes.md)
