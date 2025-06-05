@@ -1,4 +1,6 @@
-# Multi-Mirror
+# Multi Mirror
+
+{% embed url="https://www.youtube.com/watch?v=WIAsbqW_j8U" %}
 
 ![](<../.gitbook/assets/image (14).png>) ![](<../.gitbook/assets/image (2) (3).png>)
 
@@ -52,7 +54,7 @@ This screen allows you to vary the colour of each stroke based on waveforms of y
 
 ### Creating Patterns From Existing Brush Strokes
 
-(This feature currently has some bugs. See [known issues](multi-mirror.md#known-issues))
+(This feature currently has some bugs. See [known issues](multimirror.md#known-issues))
 
 ~~You can also create symmetrical copies from existing strokes. Simple select the strokes you want to use and duplicate them in the same way you do without the mirror (Press the secondary button on the controller you paint with)~~
 
@@ -69,7 +71,7 @@ Be aware that there are currently no limits in place. If you create copies of co
 1. It's very easy to create so many strokes or duplicates of 3D models that Open Brush becomes unresponsive or even crashes. We plan to add limits and warnings once we figure out how best to calculate them.
 2. A few symmetry modes move the main pointer so your main stroke is rotated somewhere else. It takes a bit of getting used to but it doesn't actually prevent you painting in these modes.
 
-### Can I see it in action?
+### Can I see more?
 
 {% embed url="https://www.youtube.com/watch?v=khsI-7rl2yg" %}
 Some early experiments with spinning mirrors
