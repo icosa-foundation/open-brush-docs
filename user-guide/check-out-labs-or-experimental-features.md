@@ -19,58 +19,40 @@ To try out newer features, you can open up the Labs panel. Here you will find so
 
 ## Labs Features:
 
-### **Multi Mirror**
+### [**Multi Mirror**](multimirror.md)
 
 <div align="left"><figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure></div>
 
-See the sectioon [Multi Mirror mode](multimirror.md)
-
-### Export your sketch as a 3d object
+### [Export your sketch as a 3d file](exporting-open-brush-sketches-to-other-apps/)
 
 <div align="left"><figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure></div>
-
-See the section on [Exporting](exporting-open-brush-sketches-to-other-apps/)
 
 ### Save Selected Strokes to use later
 
 <div align="left"><figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure></div>
 
-(docs coming)
-
-### Hide or show drafting brush strokes
+### Hide or show Draft Brush strokes
 
 <div align="left"><figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure></div>
 
-(docs coming)
-
-### View a live camera feed while drawing
+### View a live webcam or other video feed while drawing
 
 <div align="left"><figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure></div>
-
-(docs coming)
 
 ### Use the "Pin" tool
 
 <div align="left"><figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure></div>
 
-(docs coming)
-
-### Browse and Import 3d models from the Icosa Gallery
+### [Browse and Import 3d models from the Icosa Gallery](../alternate-and-experimental-builds/icosa-gallery-support.md)
 
 <div align="left"><figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure></div>
-
-(currently in the [beta version](../alternate-and-experimental-builds/open-brush-beta-docs.md))
 
 ### Switch the desktop view to a spectator camera
 
 <div align="left"><figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure></div>
 
-(docs coming)
-
-### Use plugins or run scripts
+### Use [plugins ](using-plugins/)or run [API scripts](open-brush-api/)
 
 <div align="left"><figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure></div>
-
-See the section on [plugins ](using-plugins/)or the section on [scripting Open Brush](check-out-labs-or-experimental-features.md#run-scripts)
 
 ***
