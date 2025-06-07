@@ -2,10 +2,6 @@
 
 {% embed url="https://www.youtube.com/watch?v=WIAsbqW_j8U" %}
 
-![](<../.gitbook/assets/image (14).png>) ![](<../.gitbook/assets/image (2) (3).png>)
-
-![](<../.gitbook/assets/image (2) (4).png>) ![](<../.gitbook/assets/image (7) (4).png>)
-
 ### What does it do?
 
 Big expansion to the mirror to support many different types of symmetry:
@@ -17,6 +13,8 @@ Big expansion to the mirror to support many different types of symmetry:
 **Duplicate selections using symmetry:** Create multiple clones of a selection aligned in a pattern
 
 **Draw with multiple colours at the same time:** The colour of each stroke can be varied in interesting new ways
+
+![](<../.gitbook/assets/image (7) (4).png>) ![](<../.gitbook/assets/image (2) (4).png>)
 
 ### What's it good for?
 
@@ -54,13 +52,13 @@ This screen allows you to vary the colour of each stroke based on waveforms of y
 
 ### Creating Patterns From Existing Brush Strokes
 
-(This feature currently has some bugs. See [known issues](multimirror.md#known-issues))
+<figure><img src="../.gitbook/assets/image (64).png" alt=""><figcaption></figcaption></figure>
 
-~~You can also create symmetrical copies from existing strokes. Simple select the strokes you want to use and duplicate them in the same way you do without the mirror (Press the secondary button on the controller you paint with)~~
-
-_Currently disabled while I iron out the bugs_
+You can also create symmetrical copies from existing strokes. Simple select the strokes you want to use and duplicate them in the same way you do without the mirror (Press the secondary button on the controller you paint with)
 
 ### Creating Symmetrical Patterns from Imported Objects
+
+<figure><img src="../.gitbook/assets/image (63).png" alt=""><figcaption></figcaption></figure>
 
 As well as duplicating brush strokes, if you have [imported some media](using-reference-images-on-oculus-quest.md) such as images, video or 3D objects then you can select those and create copies that follow the current symmetry settings.
 
@@ -80,5 +78,7 @@ Some early experiments with spinning mirrors
 {% embed url="https://youtu.be/VxVjkV_CkFs" %}
 Another early test of the feature
 {% endembed %}
+
+![](<../.gitbook/assets/image (14).png>) ![](<../.gitbook/assets/image (2) (3).png>)
 
 <div><figure><img src="../.gitbook/assets/Untitled_1_00.png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Untitled_2_00.png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Untitled_6_00.png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Untitled_5_00.png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Untitled_9_00.png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Untitled_117_00.png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Untitled_118_01.png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Untitled_127_00.png" alt=""><figcaption></figcaption></figure></div>
