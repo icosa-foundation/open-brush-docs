@@ -27,21 +27,17 @@ If you're using Visual Studio Code then follow these steps:\
    ![](<../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png>)
 4. Search for "Lua" and look for the sumneko extension:
 
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt="" width="343"><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt="" width="343"><figcaption></figcaption></figure></div>
 
 5. Click to install it and wait for it to finish installing
 6. Click the small cog icon and then open the Extension Settings:\
-   ![](<../../../.gitbook/assets/image (2) (1).png>)
+   ![](<../../../.gitbook/assets/image (2) (1) (1).png>)
 7. Optionally you can hide a lot of spurious warnings by disabling "lowercase-global" warnings under **Lua> Diagnostics: Disable:** \
    ![](<../../../.gitbook/assets/image (1) (1) (1) (1) (1).png>)\
    (In our plugins we're using upper and lower case initial letters to distinguish your stuff from the API supplied-things but standard lua style is to use it to differentiate local from global. Don't worry for now...)
 8. Scroll down to **Lua> Workspace: Library** and add the path to your LuaModules folder:\
    \
-   <img src="../../../.gitbook/assets/image (1) (1) (4) (1).png" alt="" data-size="original">
+   <img src="../../../.gitbook/assets/image (1) (1) (4) (1) (1).png" alt="" data-size="original">
 9. Now we've finished with settings we want to make sure it all works. We will start a simple script to check the code completion is working. Create a new file in your Documents/Open Brush/Plugins folder (not inside LuaModules) and name it PointerScript.Test.lua\
    Then start typing:
 
@@ -52,7 +48,7 @@ function Start()
 
 As soon as you type the period you should see a list of suggestions that match the "App" part:
 
-![](<../../../.gitbook/assets/image (4).png>)
+![](<../../../.gitbook/assets/image (4) (1).png>)
 
 If not - check you've followed all the steps above.
 

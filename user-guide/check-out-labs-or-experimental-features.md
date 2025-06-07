@@ -1,6 +1,6 @@
 # Check out Labs features
 
-![](<../.gitbook/assets/image (9) (2).png>)
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 This page isn't up to date at the moment
@@ -19,58 +19,58 @@ To try out newer features, you can open up the Labs panel. Here you will find so
 
 ## Labs Features:
 
-![](<../.gitbook/assets/image (6) (2).png>)
+### **Multi Mirror**
 
-### Display YouTube Chat whilst streaming (PC Only)
+<div align="left"><figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure></div>
 
-### ![](<../.gitbook/assets/image (2) (5).png>)
-
-### **Play Tiltasaurus with your friends** (PC Only)
-
-Tiltasaurus is a virtual reality game where your friends can guess what you're drawing in Open Brush. To play Tiltasaurus:
-
-1. In Open Brush, make sure you are in Advanced Mode.
-2. Go to the Menu panel (below your palette) and select "**More Options...**" > **Labs** > **Tiltasaurus.**
-3. The player wearing the headset will see a card with a word or phrase to draw.
-4. The player who is not wearing the headset will see a category displayed on the computer desktop, but will not see the word or phrase on the card.
-5. As the player in the headset begins to draw, the player looking at the desktop can guess the word or phrase.
-6. Once they guess correctly, you can switch and start again. Clear the current drawing and get a new word or phrase by hitting **Refresh** on the card.
-7. Adding Tiltasaurus.json to the Documents/Open Brush folder will let you add your own list of words.
-
-### <img src="../.gitbook/assets/image (8) (1) (1).png" alt="" data-size="original">
-
-### **Add a reference image or 3D model**
-
-See [Importing Images, Videos or 3D Models](importing-images-videos-3d-models.md)
-
-![](<../.gitbook/assets/image (1) (1) (3).png>)
-
-### Use the "Pin" tool
-
-(docs coming)
-
-![](<../.gitbook/assets/image (11).png>)
+See the sectioon [Multi Mirror mode](multimirror.md)
 
 ### Export your sketch as a 3d object
 
+<div align="left"><figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure></div>
+
 See the section on [Exporting](exporting-open-brush-sketches-to-other-apps/)
 
-![](<../.gitbook/assets/image (4) (1) (2) (1).png>)
+### Save Selected Strokes to use later
 
-### Switch the desktop view to a spectator camera
+<div align="left"><figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure></div>
 
 (docs coming)
 
-![](<../.gitbook/assets/image (3) (2).png>)
+### Hide or show drafting brush strokes
 
-### Run scripts
+<div align="left"><figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure></div>
 
-See the section on [Scripting Open Brush](check-out-labs-or-experimental-features.md#run-scripts)
+(docs coming)
 
-![](<../.gitbook/assets/image (1) (3) (1).png>)
+### View a live camera feed while drawing
 
-### Use grid or angle snapping
+<div align="left"><figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure></div>
 
-See the section on [Snapping](grid-and-angle-snapping.md)
+(docs coming)
+
+### Use the "Pin" tool
+
+<div align="left"><figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure></div>
+
+(docs coming)
+
+### Browse and Import 3d models from the Icosa Gallery
+
+<div align="left"><figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure></div>
+
+(currently in the [beta version](../alternate-and-experimental-builds/open-brush-beta-docs.md))
+
+### Switch the desktop view to a spectator camera
+
+<div align="left"><figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure></div>
+
+(docs coming)
+
+### Use plugins or run scripts
+
+<div align="left"><figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure></div>
+
+See the section on [plugins ](using-plugins/)or the section on [scripting Open Brush](check-out-labs-or-experimental-features.md#run-scripts)
 
 ***

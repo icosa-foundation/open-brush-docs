@@ -61,7 +61,7 @@ SideQuest page link for those that know what to do!
 
 SideQuest have just released a new in-headset installer which you can find on the guide above! If you're using this method, simply search for 'Open Brush Beta' from within the SideQuest app to install the beta. From your app drawer, in the top right, there is a dropdown to filter types of apps. Select it, scroll to the bottom, and select 'Unknown Sources'. You will see an app called 'Open Brush (`feature_xr_v2`). Click it to begin testing!
 
-![Open Brush (feature-xr-v2) in the Unknown sources section of the Quest app drawer.](<../../.gitbook/assets/image (13) (1).png>)
+![Open Brush (feature-xr-v2) in the Unknown sources section of the Quest app drawer.](<../../.gitbook/assets/image (13) (1) (2).png>)
 
 #### Advanced Installer
 
@@ -69,17 +69,17 @@ Make sure your Quest is connected to your device. In the SideQuest app on your c
 
 ![Searching for Open Brush Beta in SideQuest](<../../.gitbook/assets/image (16) (1).png>)
 
-![Open Brush Beta page, highlighting the download app button.](<../../.gitbook/assets/image (12).png>)
+![Open Brush Beta page, highlighting the download app button.](<../../.gitbook/assets/image (12) (2).png>)
 
 In your headset, open the app drawer. In the top right, there is a dropdown to filter types of apps. Select it, scroll to the bottom, and select 'Unknown Sources'. You will see an app called 'Open Brush (`feature_xr_v2`). Click it to begin testing!
 
 ### Oculus Desktop
 
-Due to the way the Oculus Desktop store versioning works, we can't automate builds without disrupting the main build! Instead, you can access a manual build from [Nightly Link](https://nightly.link/icosa-foundation/open-brush/workflows/build/feature%2Fxr\_v2).
+Due to the way the Oculus Desktop store versioning works, we can't automate builds without disrupting the main build! Instead, you can access a manual build from [Nightly Link](https://nightly.link/icosa-foundation/open-brush/workflows/build/feature%2Fxr_v2).
 
 {% embed url="https://nightly.link/icosa-foundation/open-brush/workflows/build/feature%2Fxr_v2" %}
 
-![nightly.link showing the various builds for xr\_v2](<../../.gitbook/assets/image (14) (1).png>)
+![nightly.link showing the various builds for xr\_v2](<../../.gitbook/assets/image (14) (1) (1).png>)
 
 Click the long link beside the name of the build you wish to use (i.e. Windows Rift). A quick reminder that Windows Rift is the build you want if you're using Quest linked to your PC!
 

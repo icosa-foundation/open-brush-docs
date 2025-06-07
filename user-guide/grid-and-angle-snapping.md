@@ -2,7 +2,7 @@
 
 ### What does it do?
 
-![TODO](https://cdn.discordapp.com/attachments/804251582715265034/846812293177933894/2021-05-25\_19-06-31.gif)
+![TODO](https://cdn.discordapp.com/attachments/804251582715265034/846812293177933894/2021-05-25_19-06-31.gif)
 
 1. Snap selections to a grid. Duplicate selections at precise positions
 2. Draw brush strokes that align with the grid (especially useful with the hull brush)
@@ -16,11 +16,7 @@ Drawing along straight x, y or z lines. Building regular structures up by making
 
 ![](../.gitbook/assets/Ws4OtCzR34.png)
 
-<div align="left">
-
-<figure><img src="../.gitbook/assets/image (1) (1) (4).png" alt="" width="71"><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../.gitbook/assets/image (1) (1) (4) (1).png" alt="" width="71"><figcaption></figcaption></figure></div>
 
 Click the button shown above on the [Extras Panel](using-the-open-brush-tools-quick-tools-and-menu-panels/extras-panel/) to open the new Snap Settings panel:
 

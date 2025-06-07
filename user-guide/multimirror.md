@@ -14,21 +14,19 @@ Big expansion to the mirror to support many different types of symmetry:
 
 **Draw with multiple colours at the same time:** The colour of each stroke can be varied in interesting new ways
 
-![](<../.gitbook/assets/image (7) (4).png>) ![](<../.gitbook/assets/image (2) (4).png>)
-
 ### What's it good for?
 
 Creating symmetrical patterns. Drawing multiple strokes at the same time. Arranging models or images into grids or other regular patterns.
 
 ### How do I use it?
 
-Hold down the mirror button on the Experimental Panel for a second or two:
+Click the button on the [Labs Panel](check-out-labs-or-experimental-features.md) to activate Multi Mirror mode:
 
-![](<../.gitbook/assets/image (9) (1).png>)
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-This will bring up the Symmetry settings panel which contains three tabs:
+When it is active you can access multi mirror settings by clicking and holding the button down for a second or so. This will bring up a panel which contains three tabs:
 
-#### Point Symmetry
+#### 1. Point Symmetry
 
 <figure><img src="../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
 
@@ -36,7 +34,7 @@ Point symmetry creates copies arranged around the center of the mirror widget. E
 
 For the first 7 point symmetry types, the slider controls how many copies are arranged around the center axis. (The other 7 types are based on tetrahedra, cubes and icosohedron and have a fixed number of copies)
 
-#### Wallpaper Symmetry
+#### 2. Wallpaper Symmetry
 
 ![](<../.gitbook/assets/image (1) (1) (2) (1).png>)
 
@@ -44,7 +42,7 @@ Wallpaper symmetry repeats your strokes in various types grid pattern - reflecti
 
 For all symmetry types you have control over the number of copies in x and y directions. For some you can also change the scale of the grid in both the x and y directions and skew the grid cells themselves in either direction.
 
-#### Options
+#### 3. Options
 
 ![](<../.gitbook/assets/image (7) (3).png>)
 
@@ -79,6 +77,8 @@ Some early experiments with spinning mirrors
 Another early test of the feature
 {% endembed %}
 
-![](<../.gitbook/assets/image (14).png>) ![](<../.gitbook/assets/image (2) (3).png>)
+![](<../.gitbook/assets/image (14) (1).png>) ![](<../.gitbook/assets/image (2) (3).png>)
+
+![](<../.gitbook/assets/image (7) (4).png>) ![](<../.gitbook/assets/image (2) (4).png>)
 
 <div><figure><img src="../.gitbook/assets/Untitled_1_00.png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Untitled_2_00.png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Untitled_6_00.png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Untitled_5_00.png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Untitled_9_00.png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Untitled_117_00.png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Untitled_118_01.png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Untitled_127_00.png" alt=""><figcaption></figcaption></figure></div>

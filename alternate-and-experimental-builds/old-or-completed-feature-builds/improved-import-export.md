@@ -2,7 +2,7 @@
 
 Status: Released in [v2.8](../../release-history/v2.8.md)
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### What does it do?
 
@@ -60,9 +60,9 @@ ExportBinaryFbx and ExportFbxVersion are existing options - but the rest of the 
 
 **Extensions supported by UnityGLTF but not GLTFast:**
 
-* KHR\_materials\_clearcoat&#x20;
+* KHR\_materials\_clearcoat
 * KHR\_materials\_emissive\_strength
-* KHR\_materials\_ior&#x20;
+* KHR\_materials\_ior
 * KHR\_materials\_iridescence
 * KHR\_materials\_specular
 * KHR\_materials\_transmission (soon)
@@ -71,11 +71,11 @@ ExportBinaryFbx and ExportFbxVersion are existing options - but the rest of the 
 
 **Extensions supported by both:**
 
-* KHR\_draco\_mesh\_compression&#x20;
-* KHR\_lights\_punctual&#x20;
-* KHR\_materials\_unlit&#x20;
-* KHR\_mesh\_quantization&#x20;
-* KHR\_texture\_basisu&#x20;
+* KHR\_draco\_mesh\_compression
+* KHR\_lights\_punctual
+* KHR\_materials\_unlit
+* KHR\_mesh\_quantization
+* KHR\_texture\_basisu
 * KHR\_texture\_transform
 
 (The above list may change as we implement missing features in UnityGLTF. GLTFast also has announced plans to support KHR\_materials\_variants, EXT\_lights\_image\_based and KHR\_materials\_transmission)
@@ -104,7 +104,7 @@ The use of the new exporter is currently optional and we will continue to suppor
 
 ### Breaking Apart Imported Models
 
-This build supports a new feature - The existing "group/ungroup" button on the pop-out tray that appears when you activate the [Selection Tool](../../user-guide/using-the-open-brush-tools-quick-tools-and-menu-panels/tools-panel/selection-options.md) now works on imported models - if they consist of multiple parts. Just select a single imported model and if it does have sub-parts the button will show "ungroup" as an option - the same as if you select a normal grouped set of objects.&#x20;
+This build supports a new feature - The existing "group/ungroup" button on the pop-out tray that appears when you activate the [Selection Tool](../../user-guide/using-the-open-brush-tools-quick-tools-and-menu-panels/tools-panel/selection-options.md) now works on imported models - if they consist of multiple parts. Just select a single imported model and if it does have sub-parts the button will show "ungroup" as an option - the same as if you select a normal grouped set of objects.
 
 ### Importing Lights
 

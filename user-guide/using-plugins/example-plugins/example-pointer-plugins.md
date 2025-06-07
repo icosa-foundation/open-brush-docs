@@ -2,11 +2,7 @@
 
 ### ~~Connections~~
 
-<div align="left">
-
-<img src="../../../.gitbook/assets/image (13).png" alt="" width="375">
-
-</div>
+<div align="left"><img src="../../../.gitbook/assets/image (13) (1).png" alt="" width="375"></div>
 
 _(Currently removed while I fix a bug)_
 
@@ -18,11 +14,7 @@ Connects the two most recent strokes with a series of lines. Draw one stroke the
 
 ### Dashes
 
-<div align="left">
-
-<img src="../../../.gitbook/assets/image (9).png" alt="" width="375">
-
-</div>
+<div align="left"><img src="../../../.gitbook/assets/image (9) (1).png" alt="" width="375"></div>
 
 Stops and restarts the stroke at regular intervals as you draw resulting in a dashed line.
 
@@ -33,7 +25,7 @@ Stops and restarts the stroke at regular intervals as you draw resulting in a da
 
 #### Tips
 
-If you use this in conjunction with [Lazy Input Mode](../../../user-guide/lazy-input.md) then you'll need to draw very slowly on the default settings Dashes.
+If you use this in conjunction with [Lazy Input Mode](../../lazy-input.md) then you'll need to draw very slowly on the default settings Dashes.
 
 #### How it works
 
@@ -41,11 +33,7 @@ The script calls`Brush:ForcePaintingOn` and `Brush:ForcePaintingOn` based on the
 
 ### GridFollow
 
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/pointer-grid-follow.gif" alt="" width="375"><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../.gitbook/assets/pointer-grid-follow.gif" alt="" width="375"><figcaption></figcaption></figure></div>
 
 Locks movement of the pointer to either the x, y or z axis depending on which direction your hand is mostly moving.
 
@@ -60,11 +48,7 @@ Draw slowly and deliberately. It can be tricky to get the hang of initially.
 
 ### Lagging
 
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/pointer-lagging.gif" alt="" width="375"><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../.gitbook/assets/pointer-lagging.gif" alt="" width="375"><figcaption></figcaption></figure></div>
 
 The pointer position cycles back and forth between the current position and where your hand was a short time before. The result is either loops or scribbles depending on the parameters and how quickly you move.
 
@@ -80,11 +64,7 @@ The choice of parameters and choice of brush can radically change how this plugi
 
 ### LaserBeam
 
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/pointer-laser.gif" alt="" width="375"><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../.gitbook/assets/pointer-laser.gif" alt="" width="375"><figcaption></figcaption></figure></div>
 
 The pointer continues moving in the direction you were pointing when you initially pressed the trigger. Pew pew...
 
@@ -98,11 +78,7 @@ You definitely want to try this in conjunction with Symmetry Plugins - especiall
 
 ### Loops
 
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/pointer-loops.gif" alt="" width="375"><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../.gitbook/assets/pointer-loops.gif" alt="" width="375"><figcaption></figcaption></figure></div>
 
 The pointer moves around a circlular path with your current hand position as it's center.
 
@@ -113,11 +89,7 @@ The pointer moves around a circlular path with your current hand position as it'
 
 ### Missile
 
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/pointer-missile.gif" alt="" width="375"><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../.gitbook/assets/pointer-missile.gif" alt="" width="375"><figcaption></figcaption></figure></div>
 
 Similar to \[LaserBeam]\(example-pointer-plugins.md#laserbeam) except that you can steer the brush stroke as it moves.
 
@@ -127,11 +99,7 @@ Similar to \[LaserBeam]\(example-pointer-plugins.md#laserbeam) except that you c
 
 ### Oscilloscope
 
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/pointer-oscilloscope.gif" alt="" width="375"><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../.gitbook/assets/pointer-oscilloscope.gif" alt="" width="375"><figcaption></figcaption></figure></div>
 
 Control your pointer with multiple waveforms to create patterns
 
@@ -167,11 +135,7 @@ The values for waveform type are as follows:
 
 ### PolygonBrush
 
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/pointer-polygonbrush_compressed.gif" alt="" width="375"><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../.gitbook/assets/pointer-polygonbrush_compressed.gif" alt="" width="375"><figcaption></figcaption></figure></div>
 
 The brush draws a path around your current hand position similar to \[Loops]\(example-pointer-plugins.md#loops) - except the path is a polygon instead of a circle.
 
@@ -182,11 +146,7 @@ The brush draws a path around your current hand position similar to \[Loops]\(ex
 
 ### RainbowStrokes
 
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/pointer-rainbow_compressed.gif" alt="" width="375"><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../.gitbook/assets/pointer-rainbow_compressed.gif" alt="" width="375"><figcaption></figcaption></figure></div>
 
 At regular intervals, ends a stroke and starts a new one with a different color. The effect is similar to dashes but with the smallest possible gap between sections of the stroke.
 
@@ -198,11 +158,7 @@ At regular intervals, ends a stroke and starts a new one with a different color.
 
 ### SineWave
 
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/pointer-sinewave_compressed.gif" alt="" width="375"><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../.gitbook/assets/pointer-sinewave_compressed.gif" alt="" width="375"><figcaption></figcaption></figure></div>
 
 Moves the pointer in a simple wave pattern as you draw.
 
@@ -213,11 +169,7 @@ Moves the pointer in a simple wave pattern as you draw.
 
 ### Spherograph
 
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/pointer-sphereograph_compressed.gif" alt="" width="375"><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../.gitbook/assets/pointer-sphereograph_compressed.gif" alt="" width="375"><figcaption></figcaption></figure></div>
 
 Creates spherical patterns around the initial point you start drawing. The distance you move affects the patterns progress but the position is always centered around the initial point.
 
@@ -229,11 +181,7 @@ Creates spherical patterns around the initial point you start drawing. The dista
 
 ### Spirals
 
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/pointer-spirals_compressed.gif" alt="" width="375"><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../.gitbook/assets/pointer-spirals_compressed.gif" alt="" width="375"><figcaption></figcaption></figure></div>
 
 The brush stroke moves in a circle but the radius increases the longer you keep the trigger pressed.
 
@@ -244,11 +192,7 @@ The brush stroke moves in a circle but the radius increases the longer you keep 
 
 ### StringArt
 
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/pointer-stringart_compressed.gif" alt="" width="375"><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../.gitbook/assets/pointer-stringart_compressed.gif" alt="" width="375"><figcaption></figcaption></figure></div>
 
 Additional lines are drawn from the initial point you started drawing to your current brush position.
 
@@ -258,11 +202,7 @@ Additional lines are drawn from the initial point you started drawing to your cu
 
 ### Terrain
 
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/pointer-terrain_compressed.gif" alt="" width="375"><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../.gitbook/assets/pointer-terrain_compressed.gif" alt="" width="375"><figcaption></figcaption></figure></div>
 
 As you draw you only control the x and z position of the stroke. The y position (the height) is determined by a noise function that maps out hills and valleys.
 
@@ -278,11 +218,7 @@ If you want to use a hull brush then draw small patches or else any valleys will
 
 ### Twist
 
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/pointer-twist_compressed.gif" alt="" width="375"><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../.gitbook/assets/pointer-twist_compressed.gif" alt="" width="375"><figcaption></figcaption></figure></div>
 
 As you draw the position is controlled by your hand as normal. However the orientation of the stroke spins around by itself
 
@@ -297,11 +233,7 @@ As you draw the position is controlled by your hand as normal. However the orien
 
 ### WandLerp
 
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/pointer-wandlerp_compressed.gif" alt="" width="375"><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../.gitbook/assets/pointer-wandlerp_compressed.gif" alt="" width="375"><figcaption></figcaption></figure></div>
 
 The brush position cycles back and forth between your brush hand and your other hand. Paint with both hands for a change...
 
@@ -316,11 +248,7 @@ Move your hands close together or further apart to see different effects
 
 ### Wander
 
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/pointer-wander_compressed.gif" alt="" width="375"><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../.gitbook/assets/pointer-wander_compressed.gif" alt="" width="375"><figcaption></figcaption></figure></div>
 
 The brush stroke wanders off in random directions while you hold the trigger
 
@@ -331,11 +259,7 @@ The brush stroke wanders off in random directions while you hold the trigger
 
 ### Wiggle
 
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/pointer-wiggle_compressed.gif" alt="" width="375"><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../.gitbook/assets/pointer-wiggle_compressed.gif" alt="" width="375"><figcaption></figcaption></figure></div>
 
 Randomizes the brush position
 
@@ -345,11 +269,7 @@ Randomizes the brush position
 
 ### Wobble
 
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/pointer-wobble_compressed.gif" alt="" width="375"><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../.gitbook/assets/pointer-wobble_compressed.gif" alt="" width="375"><figcaption></figcaption></figure></div>
 
 Like Wiggle but uses a smooth noise function
 

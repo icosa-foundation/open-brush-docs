@@ -27,7 +27,7 @@ Download a build for your headset from the link above and unzip it. You can run 
 
 ### How do I use the 3D Shapes tool?
 
-![](<../.gitbook/assets/image (15).png>)
+![](<../.gitbook/assets/image (15) (2).png>)
 
 1. (Make sure you've switch off beginner mode) Find the "Experimental Tools" panel which is usually attached to your wand.
 2. There will be a new icon at the bottom that looks like a wireframe cube. Click that to activate the 3D shape tool.

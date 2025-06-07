@@ -2,7 +2,7 @@
 
 #### Status: Released in [v2.4](../../release-history/v2.4-prismatic.md)
 
-![](<../../.gitbook/assets/image (14).png>) ![](<../../.gitbook/assets/image (2) (3).png>)
+![](<../../.gitbook/assets/image (14) (1).png>) ![](<../../.gitbook/assets/image (2) (3).png>)
 
 ![](<../../.gitbook/assets/image (2) (4).png>) ![](<../../.gitbook/assets/image (7) (4).png>)
 
@@ -30,7 +30,7 @@ Download a build for your headset from the link above and unzip it. You can run 
 
 Hold down the mirror button on the Experimental Panel for a second or two:
 
-![](<../../.gitbook/assets/image (9) (1).png>)
+![](<../../.gitbook/assets/image (9) (1) (2).png>)
 
 This will bring up the Symmetry settings panel which contains three tabs:
 
@@ -96,36 +96,4 @@ Some early experiments with spinning mirrors
 Another early test of the feature
 {% endembed %}
 
-<div>
-
-<figure><img src="../../.gitbook/assets/Untitled_1_00.png" alt=""><figcaption></figcaption></figure>
-
- 
-
-<figure><img src="../../.gitbook/assets/Untitled_2_00.png" alt=""><figcaption></figcaption></figure>
-
- 
-
-<figure><img src="../../.gitbook/assets/Untitled_6_00.png" alt=""><figcaption></figcaption></figure>
-
- 
-
-<figure><img src="../../.gitbook/assets/Untitled_5_00.png" alt=""><figcaption></figcaption></figure>
-
- 
-
-<figure><img src="../../.gitbook/assets/Untitled_9_00.png" alt=""><figcaption></figcaption></figure>
-
- 
-
-<figure><img src="../../.gitbook/assets/Untitled_117_00.png" alt=""><figcaption></figcaption></figure>
-
- 
-
-<figure><img src="../../.gitbook/assets/Untitled_118_01.png" alt=""><figcaption></figcaption></figure>
-
- 
-
-<figure><img src="../../.gitbook/assets/Untitled_127_00.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div><figure><img src="../../.gitbook/assets/Untitled_1_00.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/Untitled_2_00.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/Untitled_6_00.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/Untitled_5_00.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/Untitled_9_00.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/Untitled_117_00.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/Untitled_118_01.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/Untitled_127_00.png" alt=""><figcaption></figcaption></figure></div>
