@@ -54,6 +54,10 @@ This screen allows you to vary the colour of each stroke based on waveforms of y
 
 You can also create symmetrical copies from existing strokes. Simple select the strokes you want to use and duplicate them in the same way you do without the mirror (Press the secondary button on the controller you paint with)
 
+{% hint style="info" %}
+This is buggy in the release version but fixed on the [current beta](../alternate-and-experimental-builds/open-brush-beta-docs.md)
+{% endhint %}
+
 ### Creating Symmetrical Patterns from Imported Objects
 
 <figure><img src="../.gitbook/assets/image (63).png" alt=""><figcaption></figcaption></figure>
