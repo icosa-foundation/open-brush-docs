@@ -1,5 +1,7 @@
 # Lights Panel
 
+<figure><img src="../../../.gitbook/assets/image (67).png" alt="" width="338"><figcaption></figcaption></figure>
+
 Use Lights to modify your scene's primary and secondary lighting colors and positioning.
 
 * The sun is your primary light, and it casts shadows.

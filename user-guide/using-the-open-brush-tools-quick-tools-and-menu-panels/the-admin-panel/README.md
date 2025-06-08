@@ -1,6 +1,6 @@
 # Admin Panel
 
-<figure><img src="../../../.gitbook/assets/image (34).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (69).png" alt=""><figcaption></figcaption></figure>
 
 ### How to Find the Admin Panel
 

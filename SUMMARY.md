@@ -24,7 +24,6 @@
       * [Snap Settings Panel](user-guide/using-the-open-brush-tools-quick-tools-and-menu-panels/extras-panel/snap-settings-panel.md)
       * [Transform Panel](user-guide/using-the-open-brush-tools-quick-tools-and-menu-panels/extras-panel/transform-panel.md)
       * [Layers Panel](user-guide/using-the-open-brush-tools-quick-tools-and-menu-panels/extras-panel/layers-panel.md)
-    * [Experimental Panel](user-guide/using-the-open-brush-tools-quick-tools-and-menu-panels/experimental-panel.md)
     * [UI Differences Between Basic Mode and Advanced Mode](user-guide/using-the-open-brush-tools-quick-tools-and-menu-panels/tool-panels.md)
   * [Grid and Angle Snapping](user-guide/grid-and-angle-snapping.md)
   * [Repaint Tool and Jitter](user-guide/repaint-tool.md)
