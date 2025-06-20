@@ -1,8 +1,12 @@
 # Plugins
 
+
+
 {% hint style="info" %}
 Plugins are currently only in the [beta release](../../alternate-and-experimental-builds/open-brush-beta-docs.md)
 {% endhint %}
+
+{% embed url="https://www.youtube.com/watch?v=wK4BF9ngVVg&list=PL94EgLgEIJyIou6-PzO2vBTvcZQav2Ibq" %}
 
 You can open the Scripts Panel from a button on the [Labs Panel](../using-the-open-brush-tools-quick-tools-and-menu-panels/the-admin-panel/labs-panel.md)
 
