@@ -6,7 +6,7 @@
 Plugins are currently only in the [beta release](../../alternate-and-experimental-builds/open-brush-beta-docs.md)
 {% endhint %}
 
-{% embed url="https://www.youtube.com/watch?v=wK4BF9ngVVg&list=PL94EgLgEIJyIou6-PzO2vBTvcZQav2Ibq" %}
+{% embed url="https://www.youtube.com/playlist?list=PL94EgLgEIJyIou6-PzO2vBTvcZQav2Ibq" %}
 
 You can open the Scripts Panel from a button on the [Labs Panel](../using-the-open-brush-tools-quick-tools-and-menu-panels/the-admin-panel/labs-panel.md)
 
@@ -68,4 +68,3 @@ Eventually we hope to have an "App Store" for plugins so you can browse and inst
 ## Installing Plugins
 
 Place plugins inside your Open Brush/Plugins folder. Some plugins might use extra libraries. These should be placed in Plugins/LuaModules
-
