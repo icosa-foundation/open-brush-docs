@@ -1,12 +1,14 @@
 # Changelog since v2.10
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...1fa6c1380bf29d9b3f9729628c7afe4584bbba0a)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...ab6b0c27c3c3d2d49f4648cb262a205049227524)
 
 ## 🚀 Features
 
 - Plugin scripting ([PR #699](https://github.com/icosa-foundation/open-brush/pull/699) by @andybak)
 
 - Enable axis locking for guides ([PR #856](https://github.com/icosa-foundation/open-brush/pull/856) by @andybak)
+
+- Icosa Gallery Integration ([PR #865](https://github.com/icosa-foundation/open-brush/pull/865) by @andybak)
 
 
 ## 🐛 Fixes
