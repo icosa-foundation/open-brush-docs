@@ -1,6 +1,6 @@
 # Changelog since v2.10
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...ab6b0c27c3c3d2d49f4648cb262a205049227524)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...8aa854aa295eafc56c20804b357cd78a2c79a24d)
 
 ## 🚀 Features
 
@@ -33,6 +33,8 @@
 - Add support for periodically (monthly) rebuilding a PR ([PR #858](https://github.com/icosa-foundation/open-brush/pull/858) by @mikeage)
 
 - Fix broken workflow ([PR #859](https://github.com/icosa-foundation/open-brush/pull/859) by @mikeage)
+
+- Do not save caches from development builds ([PR #866](https://github.com/icosa-foundation/open-brush/pull/866) by @mikeage)
 
 
 
