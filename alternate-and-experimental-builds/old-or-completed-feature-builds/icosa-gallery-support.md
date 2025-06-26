@@ -1,6 +1,6 @@
 # Feature: Icosa Gallery Support
 
-#### Status: <mark style="color:green;">Released to</mark> [<mark style="color:green;">Current Beta</mark>](open-brush-beta-docs.md)
+#### Status: <mark style="color:green;">Released to</mark> [<mark style="color:green;">Current Beta</mark>](../open-brush-beta-docs.md)
 
 ## Download
 
@@ -12,7 +12,7 @@
 * [~~Code~~](https://github.com/icosa-foundation/open-brush/tree/feature/icosa-integration)
 
 {% hint style="info" %}
-No separate downloads as this feature is now part of our current [beta release](open-brush-beta-docs.md)
+No separate downloads as this feature is now part of our current [beta release](../open-brush-beta-docs.md)
 {% endhint %}
 
 ### What does it do?

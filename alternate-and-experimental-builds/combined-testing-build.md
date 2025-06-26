@@ -9,7 +9,7 @@ Currently this build combines all the features in the [beta release](../release-
 * [3D Shapes](3d-shapes.md)
 * [Animation Timeline](animation-timeline.md)
 * [Brush Editing](brush-editing.md)
-* [Plugin Scripting](runtime-scripting.md)
+* [Plugin Scripting](old-or-completed-feature-builds/runtime-scripting.md)
 
 ## Downloads
 

@@ -43,7 +43,7 @@ To try out newer features, you can open up the Labs panel. Here you will find so
 
 <div align="left"><figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure></div>
 
-### [Browse and Import 3d models from the Icosa Gallery](../alternate-and-experimental-builds/icosa-gallery-support.md)
+### [Browse and Import 3d models from the Icosa Gallery](../alternate-and-experimental-builds/old-or-completed-feature-builds/icosa-gallery-support.md)
 
 <div align="left"><figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure></div>
 
