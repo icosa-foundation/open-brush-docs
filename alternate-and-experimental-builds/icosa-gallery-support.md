@@ -1,15 +1,19 @@
 # Feature: Icosa Gallery Support
 
-#### Status: <mark style="color:green;">Mostly Working</mark>
+#### Status: <mark style="color:green;">Released to</mark> [<mark style="color:green;">Current Beta</mark>](open-brush-beta-docs.md)
 
 ## Download
 
-* [Oculus Quest 1](https://nightly.link/icosa-foundation/open-brush/workflows/build/feature%2Ficosa-integration/Oculus%20Quest%20\(2%2B\).zip)
-* [Oculus Quest 2 or 3](https://nightly.link/icosa-foundation/open-brush/workflows/build/feature%2Ficosa-integration/Oculus%20Quest%20\(2%2B\).zip)
-* [Oculus PC VR](https://nightly.link/icosa-foundation/open-brush/workflows/build/feature%2Ficosa-integration/Windows%20Rift.zip)(Rift, Quest via Link cable...)
-* [SteamVR and other PC VR](https://nightly.link/icosa-foundation/open-brush/workflows/build/feature%2Ficosa-integration/Windows%20OpenXR.zip)(Vive, Index, Reverb...)
-* [Other Builds](https://nightly.link/icosa-foundation/open-brush/workflows/build/feature%2Ficosa-integration) (Pico, Pimax etc)
-* [Code](https://github.com/icosa-foundation/open-brush/tree/feature/icosa-integration)
+* [~~Oculus Quest 1~~](https://nightly.link/icosa-foundation/open-brush/workflows/build/feature%2Ficosa-integration/Oculus%20Quest%20\(2%2B\).zip)
+* [~~Oculus Quest 2 or 3~~](https://nightly.link/icosa-foundation/open-brush/workflows/build/feature%2Ficosa-integration/Oculus%20Quest%20\(2%2B\).zip)
+* [~~Oculus PC VR~~](https://nightly.link/icosa-foundation/open-brush/workflows/build/feature%2Ficosa-integration/Windows%20Rift.zip)~~(Rift, Quest via Link cable...)~~
+* [~~SteamVR and other PC VR~~](https://nightly.link/icosa-foundation/open-brush/workflows/build/feature%2Ficosa-integration/Windows%20OpenXR.zip)~~(Vive, Index, Reverb...)~~
+* [~~Other Builds~~](https://nightly.link/icosa-foundation/open-brush/workflows/build/feature%2Ficosa-integration) ~~(Pico, Pimax etc)~~
+* [~~Code~~](https://github.com/icosa-foundation/open-brush/tree/feature/icosa-integration)
+
+{% hint style="info" %}
+No separate downloads as this feature is now part of our current [beta release](open-brush-beta-docs.md)
+{% endhint %}
 
 ### What does it do?
 

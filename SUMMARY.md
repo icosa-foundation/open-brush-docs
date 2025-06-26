@@ -126,7 +126,7 @@
   * [v2.4 "Prismatic"](release-history/v2.4-prismatic.md)
   * [v2.2: Settings and Sketches](release-history/v2.2-settings-and-sketches.md)
   * [v2.1 Hotfix](release-history/v2.1-hotfix.md)
-  * [🚀 v2.0: XR Update](release-history/v2.0-xr-update.md)
+  * [v2.0: XR Update](release-history/v2.0-xr-update.md)
   * [v1.0: Happy Birthday to Us!](release-history/v1.0-happy-birthday-to-us.md)
   * [Current Beta Release Notes](release-history/automatic-changelog.md)
 * [Docs TODO](docs-todo.md)
