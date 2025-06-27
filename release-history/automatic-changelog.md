@@ -1,6 +1,6 @@
 # Changelog since v2.10
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...8aa854aa295eafc56c20804b357cd78a2c79a24d)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...b12be593521fc3d189c86221eab7e3776139c160)
 
 ## 🚀 Features
 
@@ -24,6 +24,8 @@
 - Fix cloning widgets and strokes to multiple symmetry targets ([PR #855](https://github.com/icosa-foundation/open-brush/pull/855) by @andybak)
 
 - Minor plugin scripting fixes ([PR #863](https://github.com/icosa-foundation/open-brush/pull/863) by @andybak)
+
+- Fix bug where the sketch dropdown was empty after viewing a sketch ([PR #867](https://github.com/icosa-foundation/open-brush/pull/867) by @andybak)
 
 
 ## 🛠️ Infrastructure
