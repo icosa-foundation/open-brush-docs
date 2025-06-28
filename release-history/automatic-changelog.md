@@ -1,6 +1,6 @@
 # Changelog since v2.10
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...b12be593521fc3d189c86221eab7e3776139c160)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...8595b3cf50c8e0ee55006405bca4528100357251)
 
 ## 🚀 Features
 
@@ -9,6 +9,8 @@
 - Enable axis locking for guides ([PR #856](https://github.com/icosa-foundation/open-brush/pull/856) by @andybak)
 
 - Icosa Gallery Integration ([PR #865](https://github.com/icosa-foundation/open-brush/pull/865) by @andybak)
+
+- Increase the default and max complexity for Icosa models ([PR #868](https://github.com/icosa-foundation/open-brush/pull/868) by @andybak)
 
 
 ## 🐛 Fixes
