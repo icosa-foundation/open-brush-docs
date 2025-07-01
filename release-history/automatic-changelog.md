@@ -1,6 +1,6 @@
 # Changelog since v2.10
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...8595b3cf50c8e0ee55006405bca4528100357251)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...65e1876e372a81462f4c4b2d7c69a7ea7906cdf9)
 
 ## 🚀 Features
 
@@ -39,6 +39,8 @@
 - Fix broken workflow ([PR #859](https://github.com/icosa-foundation/open-brush/pull/859) by @mikeage)
 
 - Do not save caches from development builds ([PR #866](https://github.com/icosa-foundation/open-brush/pull/866) by @mikeage)
+
+- Only run the periodic rebuilds on the main repo, not on any forks ([PR #869](https://github.com/icosa-foundation/open-brush/pull/869) by @mikeage)
 
 
 
