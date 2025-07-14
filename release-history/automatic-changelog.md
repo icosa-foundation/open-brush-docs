@@ -1,6 +1,6 @@
 # Changelog since v2.10
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...68931583a493c6058691ead8b70f959abe80aee7)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...3bdec405a0e8985966818f1e178f549e17305eeb)
 
 ## 🚀 Features
 
@@ -28,6 +28,8 @@
 - Minor plugin scripting fixes ([PR #863](https://github.com/icosa-foundation/open-brush/pull/863) by @andybak)
 
 - Fix bug where the sketch dropdown was empty after viewing a sketch ([PR #867](https://github.com/icosa-foundation/open-brush/pull/867) by @andybak)
+
+- Blocks Icosa obj support ([PR #870](https://github.com/icosa-foundation/open-brush/pull/870) by @andybak)
 
 
 ## 🛠️ Infrastructure
