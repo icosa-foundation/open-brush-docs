@@ -1,6 +1,6 @@
 # Changelog since v2.10
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...65e1876e372a81462f4c4b2d7c69a7ea7906cdf9)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...68931583a493c6058691ead8b70f959abe80aee7)
 
 ## 🚀 Features
 
@@ -41,6 +41,8 @@
 - Do not save caches from development builds ([PR #866](https://github.com/icosa-foundation/open-brush/pull/866) by @mikeage)
 
 - Only run the periodic rebuilds on the main repo, not on any forks ([PR #869](https://github.com/icosa-foundation/open-brush/pull/869) by @mikeage)
+
+- Add PICO 4 Ultra and PICO 4 Pro ([PR #874](https://github.com/icosa-foundation/open-brush/pull/874) by @mikeage)
 
 
 
