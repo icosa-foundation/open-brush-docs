@@ -1,6 +1,6 @@
 # Changelog since v2.10
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...3bdec405a0e8985966818f1e178f549e17305eeb)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...5a846ceb89bee5df43f40211c2484392c609ec21)
 
 ## 🚀 Features
 
@@ -45,6 +45,8 @@
 - Only run the periodic rebuilds on the main repo, not on any forks ([PR #869](https://github.com/icosa-foundation/open-brush/pull/869) by @mikeage)
 
 - Add PICO 4 Ultra and PICO 4 Pro ([PR #874](https://github.com/icosa-foundation/open-brush/pull/874) by @mikeage)
+
+- Add gitleaks to pre-commit and update all hooks ([PR #875](https://github.com/icosa-foundation/open-brush/pull/875) by @mikeage)
 
 
 
