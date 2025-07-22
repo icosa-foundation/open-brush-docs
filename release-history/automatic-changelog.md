@@ -1,6 +1,6 @@
 # Changelog since v2.10
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...5a846ceb89bee5df43f40211c2484392c609ec21)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...41521eb87f72d2248c9a84a30d389c5af15d87f8)
 
 ## 🚀 Features
 
@@ -11,6 +11,8 @@
 - Icosa Gallery Integration ([PR #865](https://github.com/icosa-foundation/open-brush/pull/865) by @andybak)
 
 - Increase the default and max complexity for Icosa models ([PR #868](https://github.com/icosa-foundation/open-brush/pull/868) by @andybak)
+
+- UI tweaks ([PR #877](https://github.com/icosa-foundation/open-brush/pull/877) by @andybak)
 
 
 ## 🐛 Fixes
