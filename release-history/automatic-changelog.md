@@ -1,6 +1,6 @@
 # Changelog since v2.10
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...520c958051a95edff55d24d97b55e118c52eccc0)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...b73a95d3a2e03e86137125f7d40409a8a32ade6f)
 
 ## 🚀 Features
 
@@ -33,6 +33,8 @@
 
 - Blocks Icosa obj support ([PR #870](https://github.com/icosa-foundation/open-brush/pull/870) by @andybak)
 
+- Use indices rather than InstanceId to ensure unique names that persist across sessions ([PR #878](https://github.com/icosa-foundation/open-brush/pull/878) by @andybak)
+
 
 ## 🛠️ Infrastructure
 
@@ -50,10 +52,7 @@
 
 - Add gitleaks to pre-commit and update all hooks ([PR #875](https://github.com/icosa-foundation/open-brush/pull/875) by @mikeage)
 
-
-## 💬 Uncategorized
-
-- Use indices rather than InstanceId to ensure unique names that persist across sessions ([PR #878](https://github.com/icosa-foundation/open-brush/pull/878) by @andybak)
+- Replace --version with --version_id ([PR #879](https://github.com/icosa-foundation/open-brush/pull/879) by @mikeage)
 
 
 
