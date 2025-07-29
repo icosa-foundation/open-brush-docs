@@ -1,6 +1,6 @@
 # Changelog since v2.10
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...b73a95d3a2e03e86137125f7d40409a8a32ade6f)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...a1fbd5c57d0c06e4c2c97f543364dca8ce50a637)
 
 ## 🚀 Features
 
@@ -13,6 +13,8 @@
 - Increase the default and max complexity for Icosa models ([PR #868](https://github.com/icosa-foundation/open-brush/pull/868) by @andybak)
 
 - UI tweaks ([PR #877](https://github.com/icosa-foundation/open-brush/pull/877) by @andybak)
+
+- Mesh splitting ([PR #880](https://github.com/icosa-foundation/open-brush/pull/880) by @andybak)
 
 
 ## 🐛 Fixes
