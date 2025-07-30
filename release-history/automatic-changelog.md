@@ -1,6 +1,6 @@
 # Changelog since v2.10
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...a1fbd5c57d0c06e4c2c97f543364dca8ce50a637)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...d88909c5ef0e3894b9c1ea62a94fe9b539897b16)
 
 ## 🚀 Features
 
@@ -36,6 +36,8 @@
 - Blocks Icosa obj support ([PR #870](https://github.com/icosa-foundation/open-brush/pull/870) by @andybak)
 
 - Use indices rather than InstanceId to ensure unique names that persist across sessions ([PR #878](https://github.com/icosa-foundation/open-brush/pull/878) by @andybak)
+
+- Split models not model widgets ([PR #881](https://github.com/icosa-foundation/open-brush/pull/881) by @andybak)
 
 
 ## 🛠️ Infrastructure
