@@ -1,6 +1,6 @@
 # Changelog since v2.10
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...d88909c5ef0e3894b9c1ea62a94fe9b539897b16)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...b23a5479e1d903e7094b13ba7c35c0711d245609)
 
 ## 🚀 Features
 
@@ -57,6 +57,8 @@
 - Add gitleaks to pre-commit and update all hooks ([PR #875](https://github.com/icosa-foundation/open-brush/pull/875) by @mikeage)
 
 - Replace --version with --version_id ([PR #879](https://github.com/icosa-foundation/open-brush/pull/879) by @mikeage)
+
+- Remove periodic rebuild since it doesn't work if a workflow was originally run over 30 days ago ([PR #882](https://github.com/icosa-foundation/open-brush/pull/882) by @mikeage)
 
 
 
