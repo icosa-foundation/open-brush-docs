@@ -1,6 +1,6 @@
 # Changelog since v2.10
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...b23a5479e1d903e7094b13ba7c35c0711d245609)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...babb6bcc3509faf46b58874f7bde31e778d48f83)
 
 ## 🚀 Features
 
@@ -38,6 +38,8 @@
 - Use indices rather than InstanceId to ensure unique names that persist across sessions ([PR #878](https://github.com/icosa-foundation/open-brush/pull/878) by @andybak)
 
 - Split models not model widgets ([PR #881](https://github.com/icosa-foundation/open-brush/pull/881) by @andybak)
+
+- Partial fix for "Smoke" and WIP support for baking more than just vertex position ([PR #883](https://github.com/icosa-foundation/open-brush/pull/883) by @andybak)
 
 
 ## 🛠️ Infrastructure
