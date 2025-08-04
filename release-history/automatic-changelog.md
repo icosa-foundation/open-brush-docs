@@ -1,6 +1,6 @@
 # Changelog since v2.10
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...babb6bcc3509faf46b58874f7bde31e778d48f83)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...03561e44a8581a9b6cf175b85bab748f6b109cd0)
 
 ## 🚀 Features
 
@@ -40,6 +40,8 @@
 - Split models not model widgets ([PR #881](https://github.com/icosa-foundation/open-brush/pull/881) by @andybak)
 
 - Partial fix for "Smoke" and WIP support for baking more than just vertex position ([PR #883](https://github.com/icosa-foundation/open-brush/pull/883) by @andybak)
+
+- Ignore material instance naming when matching brushes ([PR #884](https://github.com/icosa-foundation/open-brush/pull/884) by @andybak)
 
 
 ## 🛠️ Infrastructure
