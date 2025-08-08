@@ -1,6 +1,6 @@
 # Changelog since v2.10
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...03561e44a8581a9b6cf175b85bab748f6b109cd0)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...f8df6b24fbcd426c13eb48cef6fa6af9a72604dd)
 
 ## 🚀 Features
 
@@ -63,6 +63,8 @@
 - Replace --version with --version_id ([PR #879](https://github.com/icosa-foundation/open-brush/pull/879) by @mikeage)
 
 - Remove periodic rebuild since it doesn't work if a workflow was originally run over 30 days ago ([PR #882](https://github.com/icosa-foundation/open-brush/pull/882) by @mikeage)
+
+- Add sleep before setting the release channel version for ArborXR ([PR #886](https://github.com/icosa-foundation/open-brush/pull/886) by @mikeage)
 
 
 
