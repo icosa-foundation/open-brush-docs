@@ -1,6 +1,6 @@
 # Changelog since v2.10
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...f8df6b24fbcd426c13eb48cef6fa6af9a72604dd)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...312b167abcdba81da56022eae20d31a5cd3924da)
 
 ## 🚀 Features
 
@@ -15,6 +15,8 @@
 - UI tweaks ([PR #877](https://github.com/icosa-foundation/open-brush/pull/877) by @andybak)
 
 - Mesh splitting ([PR #880](https://github.com/icosa-foundation/open-brush/pull/880) by @andybak)
+
+- Harmonize panels between PC and mobile ([PR #885](https://github.com/icosa-foundation/open-brush/pull/885) by @andybak)
 
 
 ## 🐛 Fixes
