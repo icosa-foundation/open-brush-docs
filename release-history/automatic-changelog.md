@@ -1,6 +1,6 @@
 # Changelog since v2.10
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...312b167abcdba81da56022eae20d31a5cd3924da)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...188107e0d0fef867a7e1d00cac91e2fe2d3fd636)
 
 ## 🚀 Features
 
@@ -67,6 +67,8 @@
 - Remove periodic rebuild since it doesn't work if a workflow was originally run over 30 days ago ([PR #882](https://github.com/icosa-foundation/open-brush/pull/882) by @mikeage)
 
 - Add sleep before setting the release channel version for ArborXR ([PR #886](https://github.com/icosa-foundation/open-brush/pull/886) by @mikeage)
+
+- Add Mac (non-VR) releases to Itch ([PR #890](https://github.com/icosa-foundation/open-brush/pull/890) by @mikeage)
 
 
 
