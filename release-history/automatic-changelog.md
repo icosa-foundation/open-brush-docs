@@ -1,6 +1,6 @@
 # Changelog since v2.10
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...188107e0d0fef867a7e1d00cac91e2fe2d3fd636)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...0b643a74cb5fb6c2e2f353bee702ddf856a26276)
 
 ## 🚀 Features
 
@@ -69,6 +69,11 @@
 - Add sleep before setting the release channel version for ArborXR ([PR #886](https://github.com/icosa-foundation/open-brush/pull/886) by @mikeage)
 
 - Add Mac (non-VR) releases to Itch ([PR #890](https://github.com/icosa-foundation/open-brush/pull/890) by @mikeage)
+
+
+## 💬 Uncategorized
+
+- Fix various issues related to additive loading ([PR #889](https://github.com/icosa-foundation/open-brush/pull/889) by @andybak)
 
 
 
