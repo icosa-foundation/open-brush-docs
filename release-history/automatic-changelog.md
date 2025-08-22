@@ -1,6 +1,6 @@
 # Changelog since v2.10
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...4c89447ce7897294178713e637c3004cff01d937)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...ebf6ff1faaa99b71f720c70fd482f99ccd4adb70)
 
 ## 🚀 Features
 
@@ -19,6 +19,8 @@
 - Harmonize panels between PC and mobile ([PR #885](https://github.com/icosa-foundation/open-brush/pull/885) by @andybak)
 
 - Non VR mode improvements ([PR #888](https://github.com/icosa-foundation/open-brush/pull/888) by @andybak)
+
+- Save selected strokes ([PR #711](https://github.com/icosa-foundation/open-brush/pull/711) by @andybak)
 
 
 ## 🐛 Fixes
