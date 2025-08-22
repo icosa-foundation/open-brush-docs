@@ -1,6 +1,6 @@
 # Changelog since v2.10
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...0b643a74cb5fb6c2e2f353bee702ddf856a26276)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...4c89447ce7897294178713e637c3004cff01d937)
 
 ## 🚀 Features
 
@@ -17,6 +17,8 @@
 - Mesh splitting ([PR #880](https://github.com/icosa-foundation/open-brush/pull/880) by @andybak)
 
 - Harmonize panels between PC and mobile ([PR #885](https://github.com/icosa-foundation/open-brush/pull/885) by @andybak)
+
+- Non VR mode improvements ([PR #888](https://github.com/icosa-foundation/open-brush/pull/888) by @andybak)
 
 
 ## 🐛 Fixes
