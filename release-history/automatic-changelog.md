@@ -1,6 +1,6 @@
 # Changelog since v2.10
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...ebf6ff1faaa99b71f720c70fd482f99ccd4adb70)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...ddcf9889b45e942c79cb3851e5e64a84d29a7728)
 
 ## 🚀 Features
 
@@ -48,6 +48,8 @@
 - Partial fix for "Smoke" and WIP support for baking more than just vertex position ([PR #883](https://github.com/icosa-foundation/open-brush/pull/883) by @andybak)
 
 - Ignore material instance naming when matching brushes ([PR #884](https://github.com/icosa-foundation/open-brush/pull/884) by @andybak)
+
+- Saved Strokes Quest Bugfixes ([PR #892](https://github.com/icosa-foundation/open-brush/pull/892) by @andybak)
 
 
 ## 🛠️ Infrastructure
