@@ -1,6 +1,6 @@
 # Changelog since v2.10
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...ddcf9889b45e942c79cb3851e5e64a84d29a7728)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...f72b0c78013690942ce5c5e00a0319c6ff027421)
 
 ## 🚀 Features
 
@@ -21,6 +21,8 @@
 - Non VR mode improvements ([PR #888](https://github.com/icosa-foundation/open-brush/pull/888) by @andybak)
 
 - Save selected strokes ([PR #711](https://github.com/icosa-foundation/open-brush/pull/711) by @andybak)
+
+- Still frame export ([PR #893](https://github.com/icosa-foundation/open-brush/pull/893) by @andybak)
 
 
 ## 🐛 Fixes
