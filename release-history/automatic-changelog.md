@@ -1,6 +1,6 @@
 # Changelog since v2.10
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...f72b0c78013690942ce5c5e00a0319c6ff027421)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...59d532b1c093d6cbf08048f08cb1a8956a2db48d)
 
 ## 🚀 Features
 
@@ -52,6 +52,8 @@
 - Ignore material instance naming when matching brushes ([PR #884](https://github.com/icosa-foundation/open-brush/pull/884) by @andybak)
 
 - Saved Strokes Quest Bugfixes ([PR #892](https://github.com/icosa-foundation/open-brush/pull/892) by @andybak)
+
+- PR 893 minor fixes ([PR #896](https://github.com/icosa-foundation/open-brush/pull/896) by @andybak)
 
 
 ## 🛠️ Infrastructure
