@@ -1,6 +1,6 @@
 # Changelog since v2.10
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...59d532b1c093d6cbf08048f08cb1a8956a2db48d)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...adac1cdd3f4a518646622625f64ada4dcba55015)
 
 ## 🚀 Features
 
@@ -23,6 +23,8 @@
 - Save selected strokes ([PR #711](https://github.com/icosa-foundation/open-brush/pull/711) by @andybak)
 
 - Still frame export ([PR #893](https://github.com/icosa-foundation/open-brush/pull/893) by @andybak)
+
+- Allow symmetry modes to affect Tool Plugin output ([PR #897](https://github.com/icosa-foundation/open-brush/pull/897) by @andybak)
 
 
 ## 🐛 Fixes
