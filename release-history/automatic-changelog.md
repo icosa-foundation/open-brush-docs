@@ -1,6 +1,6 @@
 # Changelog since v2.10
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...adac1cdd3f4a518646622625f64ada4dcba55015)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...ed6fac9a376e38e5ccce6b1869348a39778a394f)
 
 ## 🚀 Features
 
@@ -56,6 +56,8 @@
 - Saved Strokes Quest Bugfixes ([PR #892](https://github.com/icosa-foundation/open-brush/pull/892) by @andybak)
 
 - PR 893 minor fixes ([PR #896](https://github.com/icosa-foundation/open-brush/pull/896) by @andybak)
+
+- Example media files copying issues ([PR #898](https://github.com/icosa-foundation/open-brush/pull/898) by @andybak)
 
 
 ## 🛠️ Infrastructure
