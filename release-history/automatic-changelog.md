@@ -1,6 +1,6 @@
 # Changelog since v2.10
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...ed6fac9a376e38e5ccce6b1869348a39778a394f)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...860d90ee176fa9276aa7d023a529030595f12f45)
 
 ## 🚀 Features
 
@@ -58,6 +58,8 @@
 - PR 893 minor fixes ([PR #896](https://github.com/icosa-foundation/open-brush/pull/896) by @andybak)
 
 - Example media files copying issues ([PR #898](https://github.com/icosa-foundation/open-brush/pull/898) by @andybak)
+
+- GLTF files on android have no textures ([PR #899](https://github.com/icosa-foundation/open-brush/pull/899) by @andybak)
 
 
 ## 🛠️ Infrastructure
