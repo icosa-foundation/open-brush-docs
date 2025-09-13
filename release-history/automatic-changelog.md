@@ -1,6 +1,6 @@
 # Changelog since v2.10
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...185dcd82e840b0f22629dfa2cd6c1efc850ff424)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...f8aa1f34226ddc73243484d5a66e5b46088dd7cd)
 
 ## 🚀 Features
 
@@ -93,6 +93,8 @@
 - Disable LFS in wretry (fixes intermittent build failures at the beginning) ([PR #907](https://github.com/icosa-foundation/open-brush/pull/907) by @mikeage)
 
 - Fix ArborXR upload again (use the --wait option) ([PR #908](https://github.com/icosa-foundation/open-brush/pull/908) by @mikeage)
+
+- Fix builds from forks with just main (no tags) ([PR #902](https://github.com/icosa-foundation/open-brush/pull/902) by @mikeage)
 
 
 ## 💬 Uncategorized
