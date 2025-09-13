@@ -1,6 +1,6 @@
 # Changelog since v2.10
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...4db8452cab2573af0a586b952b09da795993144a)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...185dcd82e840b0f22629dfa2cd6c1efc850ff424)
 
 ## 🚀 Features
 
@@ -91,6 +91,8 @@
 - Add Mac (non-VR) releases to Itch ([PR #890](https://github.com/icosa-foundation/open-brush/pull/890) by @mikeage)
 
 - Disable LFS in wretry (fixes intermittent build failures at the beginning) ([PR #907](https://github.com/icosa-foundation/open-brush/pull/907) by @mikeage)
+
+- Fix ArborXR upload again (use the --wait option) ([PR #908](https://github.com/icosa-foundation/open-brush/pull/908) by @mikeage)
 
 
 ## 💬 Uncategorized
