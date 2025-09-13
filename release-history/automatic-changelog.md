@@ -1,6 +1,6 @@
 # Changelog since v2.10
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...17b6782fec9c6b3494819211411c95cab2229d73)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...4db8452cab2573af0a586b952b09da795993144a)
 
 ## 🚀 Features
 
@@ -61,6 +61,8 @@
 
 - GLTF files on android have no textures ([PR #899](https://github.com/icosa-foundation/open-brush/pull/899) by @andybak)
 
+- Restore animation behaviour for GLTF imports ([PR #903](https://github.com/icosa-foundation/open-brush/pull/903) by @andybak)
+
 - Fix animations not working due to node renaming for uniqueness ([PR #904](https://github.com/icosa-foundation/open-brush/pull/904) by @andybak)
 
 
@@ -88,12 +90,12 @@
 
 - Add Mac (non-VR) releases to Itch ([PR #890](https://github.com/icosa-foundation/open-brush/pull/890) by @mikeage)
 
+- Disable LFS in wretry (fixes intermittent build failures at the beginning) ([PR #907](https://github.com/icosa-foundation/open-brush/pull/907) by @mikeage)
+
 
 ## 💬 Uncategorized
 
 - Fix various issues related to additive loading ([PR #889](https://github.com/icosa-foundation/open-brush/pull/889) by @andybak)
-
-- Restore animation behaviour for GLTF imports ([PR #903](https://github.com/icosa-foundation/open-brush/pull/903) by @andybak)
 
 
 
