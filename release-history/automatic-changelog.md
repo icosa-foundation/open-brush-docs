@@ -1,6 +1,6 @@
 # Changelog since v2.10
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...f8aa1f34226ddc73243484d5a66e5b46088dd7cd)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...ecbbda21d750f158a30505092bf532df548c75d0)
 
 ## 🚀 Features
 
@@ -95,6 +95,8 @@
 - Fix ArborXR upload again (use the --wait option) ([PR #908](https://github.com/icosa-foundation/open-brush/pull/908) by @mikeage)
 
 - Fix builds from forks with just main (no tags) ([PR #902](https://github.com/icosa-foundation/open-brush/pull/902) by @mikeage)
+
+- Improve build resiliency ([PR #909](https://github.com/icosa-foundation/open-brush/pull/909) by @mikeage)
 
 
 ## 💬 Uncategorized
