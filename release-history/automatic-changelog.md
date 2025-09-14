@@ -1,6 +1,6 @@
 # Changelog since v2.10
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...ecbbda21d750f158a30505092bf532df548c75d0)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...a22c13544da4d3b3f99686aadbf114329ace1c54)
 
 ## 🚀 Features
 
@@ -97,6 +97,8 @@
 - Fix builds from forks with just main (no tags) ([PR #902](https://github.com/icosa-foundation/open-brush/pull/902) by @mikeage)
 
 - Improve build resiliency ([PR #909](https://github.com/icosa-foundation/open-brush/pull/909) by @mikeage)
+
+- Fix spelling mistake in non-gnu style arg ([PR #910](https://github.com/icosa-foundation/open-brush/pull/910) by @mikeage)
 
 
 ## 💬 Uncategorized
