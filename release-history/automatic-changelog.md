@@ -1,6 +1,6 @@
 # Changelog since v2.10
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...a22c13544da4d3b3f99686aadbf114329ace1c54)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...7456c10185b34afa0ff99eaba5f92efe30ac3155)
 
 ## 🚀 Features
 
@@ -104,6 +104,8 @@
 ## 💬 Uncategorized
 
 - Fix various issues related to additive loading ([PR #889](https://github.com/icosa-foundation/open-brush/pull/889) by @andybak)
+
+- Switch to legacy animation mode ([PR #911](https://github.com/icosa-foundation/open-brush/pull/911) by @andybak)
 
 
 
