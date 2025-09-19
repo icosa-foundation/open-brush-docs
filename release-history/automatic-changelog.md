@@ -1,6 +1,6 @@
 # Changelog since v2.10
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...76183fa90e0dd374c5e64dc1c88529c297836dec)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...2b30bb79e068f9ae25c719ba692901ddc18767cf)
 
 ## 🚀 Features
 
@@ -67,6 +67,8 @@
 
 - Fix animations not working due to node renaming for uniqueness ([PR #904](https://github.com/icosa-foundation/open-brush/pull/904) by @andybak)
 
+- Switch to legacy animation mode ([PR #911](https://github.com/icosa-foundation/open-brush/pull/911) by @andybak)
+
 
 ## 🛠️ Infrastructure
 
@@ -103,11 +105,14 @@
 - Fix spelling mistake in non-gnu style arg ([PR #910](https://github.com/icosa-foundation/open-brush/pull/910) by @mikeage)
 
 
+## 📦 Dependencies / Maintenance
+
+- Bump rexml from 3.3.9 to 3.4.2 in the bundler group across 1 directory ([PR #913](https://github.com/icosa-foundation/open-brush/pull/913) by @dependabot[bot])
+
+
 ## 💬 Uncategorized
 
 - Fix various issues related to additive loading ([PR #889](https://github.com/icosa-foundation/open-brush/pull/889) by @andybak)
-
-- Switch to legacy animation mode ([PR #911](https://github.com/icosa-foundation/open-brush/pull/911) by @andybak)
 
 
 
