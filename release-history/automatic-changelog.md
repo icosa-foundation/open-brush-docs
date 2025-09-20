@@ -1,6 +1,6 @@
 # Changelog since v2.10
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...2b30bb79e068f9ae25c719ba692901ddc18767cf)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...2322c8031a52d4ddb0531f641b82ac120e47e2a0)
 
 ## 🚀 Features
 
@@ -68,6 +68,8 @@
 - Fix animations not working due to node renaming for uniqueness ([PR #904](https://github.com/icosa-foundation/open-brush/pull/904) by @andybak)
 
 - Switch to legacy animation mode ([PR #911](https://github.com/icosa-foundation/open-brush/pull/911) by @andybak)
+
+- Fix coordinate space when calculating save icon for selected strokes ([PR #914](https://github.com/icosa-foundation/open-brush/pull/914) by @andybak)
 
 
 ## 🛠️ Infrastructure
