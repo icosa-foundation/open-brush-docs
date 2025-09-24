@@ -1,6 +1,6 @@
 # Changelog since v2.10
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...b0fc766972c9161844e9a324a9c57c23879e73f2)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...4d8d72da028c5141d68601d41d3cb475107d9146)
 
 ## 🚀 Features
 
@@ -117,6 +117,8 @@
 ## 💬 Uncategorized
 
 - Fix various issues related to additive loading ([PR #889](https://github.com/icosa-foundation/open-brush/pull/889) by @andybak)
+
+- Fix GLTF blend shape import ([PR #918](https://github.com/icosa-foundation/open-brush/pull/918) by @andybak)
 
 
 
