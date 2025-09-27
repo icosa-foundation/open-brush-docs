@@ -1,6 +1,6 @@
 # Changelog since v2.10
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...4d8d72da028c5141d68601d41d3cb475107d9146)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...2458e6705a5abcfa6855a2bff7d80a16a0c18d0d)
 
 ## 🚀 Features
 
@@ -27,6 +27,8 @@
 - Allow symmetry modes to affect Tool Plugin output ([PR #897](https://github.com/icosa-foundation/open-brush/pull/897) by @andybak)
 
 - Better saved strokes ux ([PR #912](https://github.com/icosa-foundation/open-brush/pull/912) by @andybak)
+
+- Various small plugin scripting improvements ([PR #916](https://github.com/icosa-foundation/open-brush/pull/916) by @andybak)
 
 
 ## 🐛 Fixes
@@ -73,6 +75,8 @@
 
 - More Saved Stroke Fixes ([PR #915](https://github.com/icosa-foundation/open-brush/pull/915) by @andybak)
 
+- Fix GLTF blend shape import ([PR #918](https://github.com/icosa-foundation/open-brush/pull/918) by @andybak)
+
 
 ## 🛠️ Infrastructure
 
@@ -117,8 +121,6 @@
 ## 💬 Uncategorized
 
 - Fix various issues related to additive loading ([PR #889](https://github.com/icosa-foundation/open-brush/pull/889) by @andybak)
-
-- Fix GLTF blend shape import ([PR #918](https://github.com/icosa-foundation/open-brush/pull/918) by @andybak)
 
 
 
