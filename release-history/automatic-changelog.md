@@ -1,6 +1,6 @@
 # Changelog since v2.10
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...2458e6705a5abcfa6855a2bff7d80a16a0c18d0d)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...64d4b6c0b8bb8ab5698fef26de31672a2e903ab0)
 
 ## 🚀 Features
 
@@ -76,6 +76,8 @@
 - More Saved Stroke Fixes ([PR #915](https://github.com/icosa-foundation/open-brush/pull/915) by @andybak)
 
 - Fix GLTF blend shape import ([PR #918](https://github.com/icosa-foundation/open-brush/pull/918) by @andybak)
+
+- Fix API brush smoothing logic ([PR #920](https://github.com/icosa-foundation/open-brush/pull/920) by @andybak)
 
 
 ## 🛠️ Infrastructure
