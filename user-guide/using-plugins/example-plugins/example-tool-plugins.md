@@ -2,11 +2,7 @@
 
 ### Circle
 
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/tool-circle_compressed.gif" alt="" width="375"><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../.gitbook/assets/tool-circle_compressed.gif" alt="" width="375"><figcaption></figcaption></figure></div>
 
 Draws a circle centered on the position you first press the trigger with the radius and orientation controlled by where you release the trigger.
 
@@ -22,11 +18,7 @@ Similar to [Circle ](example-tool-plugins.md#circle)except it creates a camera p
 
 ### Cube
 
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/tool-cube_compressed.gif" alt="" width="375"><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../.gitbook/assets/tool-cube_compressed.gif" alt="" width="375"><figcaption></figcaption></figure></div>
 
 Draws a cube centered on the position you first press the trigger with the size and orientation controlled by where you release the trigger.
 
@@ -60,11 +52,7 @@ Calls an API to generate a random SVG icon using the [Iconify ](https://iconify.
 
 ### Rays
 
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/tool-rays_compressed.gif" alt="" width="375"><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../.gitbook/assets/tool-rays_compressed.gif" alt="" width="375"><figcaption></figcaption></figure></div>
 
 Draws lines from the position you start drawing to your current position.
 
@@ -80,11 +68,7 @@ Instantly draws a brush stroke based on the path of the last brush stroke you dr
 
 ### ScatterCubes
 
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/tool-scattercubes_compressed.gif" alt="" width="375"><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../.gitbook/assets/tool-scattercubes_compressed.gif" alt="" width="375"><figcaption></figcaption></figure></div>
 
 Switches to the Hull Brush and draws cubes of random size and color as you move your brush",
 
@@ -96,107 +80,69 @@ Switches to the Hull Brush and draws cubes of random size and color as you move 
 
 ### Spiral
 
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/tool-spiral_compressed.gif" alt="" width="375"><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../.gitbook/assets/tool-spiral_compressed.gif" alt="" width="375"><figcaption></figcaption></figure></div>
 
 Draws a conical spiral.
 
 #### Parameters
 
-* **Number of turns:**&#x20;
-* **Number of steps per turn:**&#x20;
+* **Number of turns:**
+* **Number of steps per turn:**
 
 ### SpiralSphere
 
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/tool-spiralsphere_compressed.gif" alt="" width="375"><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../.gitbook/assets/tool-spiralsphere_compressed.gif" alt="" width="375"><figcaption></figcaption></figure></div>
 
 Draws a spherical spiral.
 
 #### Parameters
 
-* **Steps:**&#x20;
-* **Turns:**&#x20;
-
-### SuperEllipse
-
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/tool-superellipse_compressed.gif" alt="" width="375"><figcaption></figcaption></figure>
-
-</div>
-
-Draws a [superellipse](https://en.wikipedia.org/wiki/Superellipse).
-
-#### Parameters
-
-* **n:**&#x20;
+* **Steps:**
+* **Turns:**
 
 ### SuperFormula
 
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/tool-superformula_compressed.gif" alt="" width="375"><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../.gitbook/assets/tool-superformula_compressed.gif" alt="" width="375"><figcaption></figcaption></figure></div>
 
 Draws a supershape using the [Super Formula](http://paulbourke.net/geometry/supershape/)
 
 #### Parameters
 
-* **Symmetry:**&#x20;
-* **n1:**&#x20;
-* **n2:**&#x20;
-* **n3:**&#x20;
+* **Symmetry:**
+* **n1:**
+* **n2:**
+* **n3:**
 
 ### SvgHeart
 
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/tool-svg_compressed.gif" alt="" width="375"><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../.gitbook/assets/tool-svg_compressed.gif" alt="" width="375"><figcaption></figcaption></figure></div>
 
 Draws a heart shape using an [SVG Path](https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Paths)
 
 #### Parameters
 
-* **Point Spacing:**&#x20;
+* **Point Spacing:**
 
 ### VoxelLandscape
 
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/tool-voxellandscape_compressed.gif" alt="" width="375"><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../.gitbook/assets/tool-voxellandscape_compressed.gif" alt="" width="375"><figcaption></figcaption></figure></div>
 
 Draws a blocky landscape (best used with a hull brush).
 
 #### Parameters
 
-* **Horizontal Spacing:**&#x20;
-* **Verticle Spacing:**&#x20;
+* **Horizontal Spacing:**
+* **Verticle Spacing:**
 
 ### Voxels
 
 Draws regular blocks in space as you draw (best used with the hull brush)
 
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/tool-voxels_compressed.gif" alt="" width="375"><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../.gitbook/assets/tool-voxels_compressed.gif" alt="" width="375"><figcaption></figcaption></figure></div>
 
 #### Parameters
 
-* **Grid Size:**&#x20;
+* **Grid Size:**
 
 ### Words
 
@@ -206,6 +152,5 @@ Draws words that follows your brush. Tries to access the clipboard so try copyin
 
 #### Parameters
 
-* **Size:**&#x20;
-* **Spacing:**&#x20;
-
+* **Size:**
+* **Spacing:**

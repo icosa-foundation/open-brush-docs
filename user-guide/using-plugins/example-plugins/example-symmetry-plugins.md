@@ -2,11 +2,7 @@
 
 ### AlongStroke
 
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/symmetry-alongstroke_compressed.gif" alt="" width="375"><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../.gitbook/assets/symmetry-alongstroke_compressed.gif" alt="" width="375"><figcaption></figcaption></figure></div>
 
 The previous stroke you drew is used as a template and multiple copies of the pointer are spread along it as you draw
 
@@ -16,11 +12,7 @@ The previous stroke you drew is used as a template and multiple copies of the po
 
 ### AutoLathe
 
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/symmetry-autolathe_compressed.gif" alt="" width="375"><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../.gitbook/assets/symmetry-autolathe_compressed.gif" alt="" width="375"><figcaption></figcaption></figure></div>
 
 Like spinning the mirror by hand but with precise control
 
@@ -34,11 +26,7 @@ Like spinning the mirror by hand but with precise control
 
 A flock of pointers follows your hand using simple rules to control how they fly
 
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/symmetry-boids_compressed.gif" alt="" width="375"><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../.gitbook/assets/symmetry-boids_compressed.gif" alt="" width="375"><figcaption></figcaption></figure></div>
 
 #### Parameters
 
@@ -73,11 +61,7 @@ Copies of your stroke forming an ellipse - with optional color shifts
 
 ### Frame
 
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/symmetry-frame_compressed.gif" alt="" width="375"><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../.gitbook/assets/symmetry-frame_compressed.gif" alt="" width="375"><figcaption></figcaption></figure></div>
 
 A simple frame of points following your brush position
 
@@ -93,11 +77,7 @@ Like [Many Around](example-symmetry-plugins.md#manyaround) except the widget alw
 
 ### ManyAlong
 
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/symmetry-manyalong_compressed.gif" alt="" width="375"><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../.gitbook/assets/symmetry-manyalong_compressed.gif" alt="" width="375"><figcaption></figcaption></figure></div>
 
 Linear copies of your stroke with optional color shifts
 
@@ -108,48 +88,13 @@ Linear copies of your stroke with optional color shifts
 
 ### ManyAround
 
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/symmetry-manyaround_compressed.gif" alt="" width="375"><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../.gitbook/assets/symmetry-manyaround_compressed.gif" alt="" width="375"><figcaption></figcaption></figure></div>
 
 Radial copies of your stroke with optional color shifts
 
 #### Parameters
 
 * **Copies:** The number of strokes to draw at once
-
-### MultiLathe
-
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/symmetry-multilathe_compressed.gif" alt="" width="375"><figcaption></figcaption></figure>
-
-</div>
-
-Autolathe but with multiple lathes.
-
-#### Parameters
-
-* **Speed:** The speed the lathe is spinning
-* **Angle X:** The axis tilt in the X direction
-* **Angle Y:** The axis tilt in the Y direction
-
-### OmniLathe
-
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/symmetry-omnilathe_compressed.gif" alt="" width="375"><figcaption></figcaption></figure>
-
-</div>
-
-Like [Autolathe ](example-symmetry-plugins.md#autolathe)but you can vary the axis orientation
-
-#### Parameters
-
-* **Speed X:** How fast to spin the X axis
-* **Speed Y:** How fast to spin the Y axis
 
 ### Pole
 
@@ -163,11 +108,7 @@ Multiple copies of your brush spaced between your left and right hand positions
 
 ### PolygonAround
 
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/symmetry-polygonaround_compressed.gif" alt="" width="375"><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../.gitbook/assets/symmetry-polygonaround_compressed.gif" alt="" width="375"><figcaption></figcaption></figure></div>
 
 Copies of your stroke forming an polygon
 
@@ -178,11 +119,7 @@ Copies of your stroke forming an polygon
 
 ### RectangleAround
 
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/symmetry-rectanglearound_compressed.gif" alt="" width="375"><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../.gitbook/assets/symmetry-rectanglearound_compressed.gif" alt="" width="375"><figcaption></figcaption></figure></div>
 
 Copies of your stroke forming an rectangle
 
@@ -195,11 +132,7 @@ Copies of your stroke forming an rectangle
 
 ### Spin
 
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/symmetry-spin_compressed.gif" alt="" width="375"><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../.gitbook/assets/symmetry-spin_compressed.gif" alt="" width="375"><figcaption></figcaption></figure></div>
 
 Multiple copies of your brush spinning around your actual brush position
 
@@ -211,11 +144,7 @@ Multiple copies of your brush spinning around your actual brush position
 
 ### SuperEllipseAround
 
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/symmetry-superellipsearound_compressed.gif" alt="" width="375"><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../.gitbook/assets/symmetry-superellipsearound_compressed.gif" alt="" width="375"><figcaption></figcaption></figure></div>
 
 Copies of your stroke forming a [superellipse](https://en.wikipedia.org/wiki/Superellipse)
 
@@ -228,50 +157,18 @@ Copies of your stroke forming a [superellipse](https://en.wikipedia.org/wiki/Sup
 
 ### Svg
 
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/symmetry-svg_compressed.gif" alt="" width="375"><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../.gitbook/assets/symmetry-svg_compressed.gif" alt="" width="375"><figcaption></figcaption></figure></div>
 
 An example of using an SVG file as a template for symmetry patterns
 
 ### SvgAround
 
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/symmetry-svgaround_compressed.gif" alt="" width="375"><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../.gitbook/assets/symmetry-svgaround_compressed.gif" alt="" width="375"><figcaption></figcaption></figure></div>
 
 Similar to [SVG](example-symmetry-plugins.md#svg) but centered around the Symmetry Widget
 
 #### Parameters
 
 * **Point Spacing:** The distance between each pointer around the shape
-
-### ~~ToGuide~~
-
-_(Currently removed while I fix a bug)_
-
-A line of copies between a guide and the symmetry widget
-
-#### Parameters
-
-* **Copies:** The number of strokes to draw at once
-
-### TooManyAround
-
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/symmetry-toomanyaround_compressed.gif" alt="" width="375"><figcaption></figcaption></figure>
-
-</div>
-
-Based on [Many Around](example-symmetry-plugins.md#manyaround) - this was originally a bug but I liked it so here it is.
-
-#### Parameters
-
-* **Copies:** The number of strokes to draw at once
 
 ###

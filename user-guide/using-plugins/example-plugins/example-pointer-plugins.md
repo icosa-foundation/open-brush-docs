@@ -1,17 +1,5 @@
 # Example Pointer Plugins
 
-### ~~Connections~~
-
-<div align="left"><img src="../../../.gitbook/assets/image (13) (1).png" alt="" width="375"></div>
-
-_(Currently removed while I fix a bug)_
-
-Connects the two most recent strokes with a series of lines. Draw one stroke then another. As you finish the second stroke you will see new lines added
-
-#### Parameters
-
-* **Number of sections:** How many connecting lines to draw
-
 ### Dashes
 
 <div align="left"><img src="../../../.gitbook/assets/image (9) (1).png" alt="" width="375"></div>
@@ -45,22 +33,6 @@ Locks movement of the pointer to either the x, y or z axis depending on which di
 #### Tips
 
 Draw slowly and deliberately. It can be tricky to get the hang of initially.
-
-### Lagging
-
-<div align="left"><figure><img src="../../../.gitbook/assets/pointer-lagging.gif" alt="" width="375"><figcaption></figcaption></figure></div>
-
-The pointer position cycles back and forth between the current position and where your hand was a short time before. The result is either loops or scribbles depending on the parameters and how quickly you move.
-
-#### Parameters
-
-* **Delay:** How many frames back in time to get the other position from
-* **Frequency:** How quickly to cycle between past and present positions
-* **Amplitude:** Controls the amount of "overshoot". This exaggerates the difference between the past and present positions
-
-#### Tips
-
-The choice of parameters and choice of brush can radically change how this plugin looks. Play around!
 
 ### LaserBeam
 
