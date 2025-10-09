@@ -1,6 +1,6 @@
 # Changelog since v2.10
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...3fe5082d53961a28abb37a7daa096045e4deace4)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...d89d266275eb357c5f46bb64693035dab0804f02)
 
 ## 🚀 Features
 
@@ -125,6 +125,8 @@
 ## 💬 Uncategorized
 
 - Fix various issues related to additive loading ([PR #889](https://github.com/icosa-foundation/open-brush/pull/889) by @andybak)
+
+- Unity version bump ([PR #922](https://github.com/icosa-foundation/open-brush/pull/922) by @andybak)
 
 
 
