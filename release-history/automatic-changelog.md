@@ -1,6 +1,6 @@
 # Changelog since v2.10
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...3a38ffb916ab6ba46eedbe1f1496a598d230eca7)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...48b96d16f2da5de5c4f3817ccf4d4d37b8306fd3)
 
 ## 🚀 Features
 
@@ -80,6 +80,8 @@
 - Fix API brush smoothing logic ([PR #920](https://github.com/icosa-foundation/open-brush/pull/920) by @andybak)
 
 - Small plugin fixes and tweaks ([PR #921](https://github.com/icosa-foundation/open-brush/pull/921) by @andybak)
+
+- Fix icosa login success message ([PR #924](https://github.com/icosa-foundation/open-brush/pull/924) by @andybak)
 
 
 ## 🛠️ Infrastructure
