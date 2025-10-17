@@ -1,6 +1,6 @@
 # Changelog since v2.10
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...0f927854090d1288f40ba46e8d3d513afc356194)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...1aef9aaea4777a776ea3acbed6a90fbad159052a)
 
 ## 🚀 Features
 
@@ -29,6 +29,8 @@
 - Better saved strokes ux ([PR #912](https://github.com/icosa-foundation/open-brush/pull/912) by @andybak)
 
 - Various small plugin scripting improvements ([PR #916](https://github.com/icosa-foundation/open-brush/pull/916) by @andybak)
+
+- Obj import improvements ([PR #928](https://github.com/icosa-foundation/open-brush/pull/928) by @andybak)
 
 
 ## 🐛 Fixes
