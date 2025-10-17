@@ -1,6 +1,6 @@
 # Changelog since v2.10
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...1aef9aaea4777a776ea3acbed6a90fbad159052a)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...e27af839444fd35d4238dccd30a8185e7148cc68)
 
 ## 🚀 Features
 
@@ -31,6 +31,8 @@
 - Various small plugin scripting improvements ([PR #916](https://github.com/icosa-foundation/open-brush/pull/916) by @andybak)
 
 - Obj import improvements ([PR #928](https://github.com/icosa-foundation/open-brush/pull/928) by @andybak)
+
+- Selective snap angle axes ([PR #930](https://github.com/icosa-foundation/open-brush/pull/930) by @andybak)
 
 
 ## 🐛 Fixes
