@@ -28,938 +28,1171 @@ You can also send multiple requests although because of the nature of http, thes
 Correct for beta version as of Oct 21 2025)
 {% endhint %}
 
-**listenfor.strokes** (string url) Try it
+**listenfor.strokes** (string url) [Try it](http://localhost:40074/api/v1?/api/v1?listenfor.strokes=http://localhost:8000/)
 
-Adds the url of an app that wants to receive the data for a stroke as each one is finished
+Adds the url of an app that wants to receive the data for a stroke as each one is finished  
+  
 
-**showfolder.scripts** Try it
+**showfolder.scripts** [Try it](http://localhost:40074/api/v1?/api/v1?showfolder.scripts)
 
-Opens the user's Scripts folder on the desktop
+Opens the user's Scripts folder on the desktop  
+  
 
-**showfolder.exports** Try it
+**showfolder.exports** [Try it](http://localhost:40074/api/v1?/api/v1?showfolder.exports)
 
-Opens the user's Exports folder on the desktop
+Opens the user's Exports folder on the desktop  
+  
 
-**spectator.move.to** (Vector3 position) Try it
+**spectator.move.to** (Vector3 position) [Try it](http://localhost:40074/api/v1?/api/v1?spectator.move.to=1,1,1)
 
-Moves the spectator camera to the given position
+Moves the spectator camera to the given position  
+  
 
-**spectator.move.by** (Vector3 amount) Try it
+**spectator.move.by** (Vector3 amount) [Try it](http://localhost:40074/api/v1?/api/v1?spectator.move.by=1,1,1)
 
-Moves the spectator camera by the given amount
+Moves the spectator camera by the given amount  
+  
 
-**user.move.to** (Vector3 position) Try it
+**user.move.to** (Vector3 position) [Try it](http://localhost:40074/api/v1?/api/v1?user.move.to=1,1,1)
 
-Moves the user to the given position
+Moves the user to the given position  
+  
 
-**user.move.by** (Vector3 amount) Try it
+**user.move.by** (Vector3 amount) [Try it](http://localhost:40074/api/v1?/api/v1?user.move.by=1,1,1)
 
-Moves the user by the given amount
+Moves the user by the given amount  
+  
 
-**spectator.turn.y** (float angle) Try it
+**spectator.turn.y** (float angle) [Try it](http://localhost:40074/api/v1?/api/v1?spectator.turn.y=45)
 
-Rotates the spectator camera left or right.
+Rotates the spectator camera left or right.  
+  
 
-**spectator.turn.x** (float angle) Try it
+**spectator.turn.x** (float angle) [Try it](http://localhost:40074/api/v1?/api/v1?spectator.turn.x=45)
 
-Rotates the spectator camera up or down.
+Rotates the spectator camera up or down.  
+  
 
-**spectator.turn.z** (float angle) Try it
+**spectator.turn.z** (float angle) [Try it](http://localhost:40074/api/v1?/api/v1?spectator.turn.z=45)
 
-Tilts the angle of the spectator camera clockwise or anticlockwise.
+Tilts the angle of the spectator camera clockwise or anticlockwise.  
+  
 
-**user.turn.y** (float angle) Try it
+**user.turn.y** (float angle) [Try it](http://localhost:40074/api/v1?/api/v1?user.turn.y=45)
 
-Rotates the user camera left or right.
+Rotates the user camera left or right.  
+  
 
-**user.turn.x** (float angle) Try it
+**user.turn.x** (float angle) [Try it](http://localhost:40074/api/v1?/api/v1?user.turn.x=45)
 
-Rotates the user camera up or down. (monoscopic mode only)
+Rotates the user camera up or down. (monoscopic mode only)  
+  
 
-**user.turn.z** (float angle) Try it
+**user.turn.z** (float angle) [Try it](http://localhost:40074/api/v1?/api/v1?user.turn.z=45)
 
-Tilts the angle of the user camera clockwise or anticlockwise. (monoscopic mode only)
+Tilts the angle of the user camera clockwise or anticlockwise. (monoscopic mode only)  
+  
 
-**scene.scale.to** (float scale) Try it
+**scene.scale.to** (float scale) [Try it](http://localhost:40074/api/v1?/api/v1?scene.scale.to=0.5)
 
-Sets the scene scale to the given value
+Sets the scene scale to the given value  
+  
 
-**scene.scale.by** (float amount) Try it
+**scene.scale.by** (float amount) [Try it](http://localhost:40074/api/v1?/api/v1?scene.scale.by=1.5)
 
-Scales the scene by the given amount
+Scales the scene by the given amount  
+  
 
-**spectator.direction** (Vector3 direction) Try it
+**spectator.direction** (Vector3 direction) [Try it](http://localhost:40074/api/v1?/api/v1?spectator.direction=45,45,0)
 
-Points the spectator camera to look in the specified direction. Angles are given in x,y,z degrees
+Points the spectator camera to look in the specified direction. Angles are given in x,y,z degrees  
+  
 
-**user.direction** (Vector3 direction) Try it
+**user.direction** (Vector3 direction) [Try it](http://localhost:40074/api/v1?/api/v1?user.direction=45,45,0)
 
-Points the user camera to look in the specified direction. Angles are given in x,y,z degrees. (Monoscopic mode only)
+Points the user camera to look in the specified direction. Angles are given in x,y,z degrees. (Monoscopic mode only)  
+  
 
-**spectator.look.at** (Vector3 position) Try it
+**spectator.look.at** (Vector3 position) [Try it](http://localhost:40074/api/v1?/api/v1?spectator.look.at=1,2,3)
 
-Points the spectator camera towards a specific point
+Points the spectator camera towards a specific point  
+  
 
-**user.look.at** (Vector3 direction) Try it
+**user.look.at** (Vector3 direction) [Try it](http://localhost:40074/api/v1?/api/v1?user.look.at=1,2,3)
 
-Points the user camera towards a specific point (In VR this only changes the y axis. In monoscopic mode it changes all 3 axes)
+Points the user camera towards a specific point (In VR this only changes the y axis. In monoscopic mode it changes all 3 axes)  
+  
 
-**spectator.mode** (string mode) Try it
+**spectator.mode** (string mode) [Try it](http://localhost:40074/api/v1?/api/v1?spectator.mode=stationary)
 
-Sets the spectator camera mode to one of stationary, slowFollow, wobble, circular
+Sets the spectator camera mode to one of stationary, slowFollow, wobble, circular  
+  
 
-**spectator.hide** (string thing) Try it
+**spectator.hide** (string thing) [Try it](http://localhost:40074/api/v1?/api/v1?spectator.hide=panels)
 
-Hides the chosen type of elements from the spectator camera (widgets, strokes, selection, headset, panels, ui
+Hides the chosen type of elements from the spectator camera (widgets, strokes, selection, headset, panels, ui  
+  
 
-**brush.move.to** (Vector3 position) Try it
+**brush.move.to** (Vector3 position) [Try it](http://localhost:40074/api/v1?/api/v1?brush.move.to=widgets)
 
-Moves the brush to the given coordinates
+Moves the brush to the given coordinates  
+  
 
-**brush.move.to.hand** (string hand, Boolean alsoRotate) Try it
+**brush.move.to.hand** (string hand, Boolean alsoRotate) [Try it](http://localhost:40074/api/v1?/api/v1?brush.move.to.hand=r)
 
-Moves the brush to the given hand (l or r
+Moves the brush to the given hand (l or r  
+  
 
-**brush.move.by** (Vector3 offset) Try it
+**brush.move.by** (Vector3 offset) [Try it](http://localhost:40074/api/v1?/api/v1?brush.move.by=1,1,1)
 
-Moves the brush by the given amount
+Moves the brush by the given amount  
+  
 
-**brush.move** (float distance) Try it
+**brush.move** (float distance) [Try it](http://localhost:40074/api/v1?/api/v1?brush.move=1)
 
-Moves the brush forward by 'distance' without drawing a line
+Moves the brush forward by 'distance' without drawing a line  
+  
 
-**brush.draw** (float distance) Try it
+**brush.draw** (float distance) [Try it](http://localhost:40074/api/v1?/api/v1?brush.draw=2)
 
-Moves the brush forward by 'distance' and draws a line
+Moves the brush forward by 'distance' and draws a line  
+  
 
-**brush.turn.y** (float angle) Try it
+**brush.turn.y** (float angle) [Try it](http://localhost:40074/api/v1?/api/v1?brush.turn.y=45)
 
-Changes the brush direction to the left or right. Angle is measured in degrees
+Changes the brush direction to the left or right. Angle is measured in degrees  
+  
 
-**brush.turn.x** (float angle) Try it
+**brush.turn.x** (float angle) [Try it](http://localhost:40074/api/v1?/api/v1?brush.turn.x=45)
 
-Changes the brush direction up or down. Angle is measured in degrees
+Changes the brush direction up or down. Angle is measured in degrees  
+  
 
-**brush.turn.z** (float angle) Try it
+**brush.turn.z** (float angle) [Try it](http://localhost:40074/api/v1?/api/v1?brush.turn.z=45)
 
-Rotates the brush clockwise or anticlockwise. Angle is measured in degrees
+Rotates the brush clockwise or anticlockwise. Angle is measured in degrees  
+  
 
-**brush.look.at** (Vector3 direction) Try it
+**brush.look.at** (Vector3 direction) [Try it](http://localhost:40074/api/v1?/api/v1?brush.look.at=1,2,3)
 
-Changes the brush direction to look at the specified point
+Changes the brush direction to look at the specified point  
+  
 
-**brush.look.forwards** Try it
+**brush.look.forwards** [Try it](http://localhost:40074/api/v1?/api/v1?brush.look.forwards)
 
-Changes the brush direction to look forwards
+Changes the brush direction to look forwards  
+  
 
-**brush.look.up** Try it
+**brush.look.up** [Try it](http://localhost:40074/api/v1?/api/v1?brush.look.up)
 
-Changes the brush direction to look upwards
+Changes the brush direction to look upwards  
+  
 
-**brush.look.down** Try it
+**brush.look.down** [Try it](http://localhost:40074/api/v1?/api/v1?brush.look.down)
 
-Changes the brush direction to look downwards
+Changes the brush direction to look downwards  
+  
 
-**brush.look.left** Try it
+**brush.look.left** [Try it](http://localhost:40074/api/v1?/api/v1?brush.look.left)
 
-Changes the brush direction to look to the left
+Changes the brush direction to look to the left  
+  
 
-**brush.look.right** Try it
+**brush.look.right** [Try it](http://localhost:40074/api/v1?/api/v1?brush.look.right)
 
-Changes the brush direction to look to the right
+Changes the brush direction to look to the right  
+  
 
-**brush.look.backwards** Try it
+**brush.look.backwards** [Try it](http://localhost:40074/api/v1?/api/v1?brush.look.backwards)
 
-Changes the brush direction to look backwards
+Changes the brush direction to look backwards  
+  
 
-**brush.home.reset** Try it
+**brush.home.reset** [Try it](http://localhost:40074/api/v1?/api/v1?brush.home.reset)
 
-Resets the brush position and direction
+Resets the brush position and direction  
+  
 
-**brush.home.set** Try it
+**brush.home.set** [Try it](http://localhost:40074/api/v1?/api/v1?brush.home.set)
 
-Sets the current brush position and direction as the new home. This persists in new sketches
+Sets the current brush position and direction as the new home. This persists in new sketches  
+  
 
-**brush.transform.push** Try it
+**brush.transform.push** [Try it](http://localhost:40074/api/v1?/api/v1?brush.transform.push)
 
-Stores the current brush position and direction on to a stack
+Stores the current brush position and direction on to a stack  
+  
 
-**brush.transform.pop** Try it
+**brush.transform.pop** [Try it](http://localhost:40074/api/v1?/api/v1?brush.transform.pop)
 
-Pops the most recent current brush position and direction from the stack
+Pops the most recent current brush position and direction from the stack  
+  
 
-**debug.brush** Try it
+**debug.brush** [Try it](http://localhost:40074/api/v1?/api/v1?debug.brush)
 
-Logs some info about the brush
+Logs some info about the brush  
+  
 
-**text.add** (string text) \[Try it]\(/api/v1?text.add=Hello world!)
+**text.add** (string text) [Try it](http://localhost:40074/api/v1?/api/v1?text.add=Hello world!)
 
-Adds a text widget to the sketch
+Adds a text widget to the sketch  
+  
 
-**video.import** (string location) Try it
+**video.import** (string location) [Try it](http://localhost:40074/api/v1?/api/v1?video.import=animated-logo.mp4)
 
-Imports a video given a url or a filename in Media Library\Videos
+Imports a video given a url or a filename in Media Library\\Videos  
+  
 
-**skybox.import** (string location) Try it
+**skybox.import** (string location) [Try it](http://localhost:40074/api/v1?/api/v1?skybox.import=panorama.jpg)
 
-Sets the skybox from either a url or a filename in Media Library\BackgroundImages (Images loaded from a url are saved locally first)
+Sets the skybox from either a url or a filename in Media Library\\BackgroundImages (Images loaded from a url are saved locally first)  
+  
 
-**image.import** (string location) Try it
+**image.import** (string location) [Try it](http://localhost:40074/api/v1?/api/v1?image.import=OpenBrushLogo.png)
 
-Imports an image given a url or a filename in Media Library\Images (Images loaded from a url are saved locally first)
+Imports an image given a url or a filename in Media Library\\Images (Images loaded from a url are saved locally first)  
+  
 
-**environment.type** (string name) Try it
+**environment.type** (string name) [Try it](http://localhost:40074/api/v1?/api/v1?environment.type=pistachio)
 
-Sets the current environment
+Sets the current environment  
+  
 
-**panel.open** (string name, float x, float y, float z) Try it
+**panel.open** (string name, float x, float y, float z) [Try it](http://localhost:40074/api/v1?/api/v1?panel.open=scripts,4,12,4)
 
-Opens a given panel at the given position
+Opens a given panel at the given position  
+  
 
-**panel.close** (string name) Try it
+**panel.close** (string name) [Try it](http://localhost:40074/api/v1?/api/v1?panel.close=scripts)
 
-Closes a given panel
+Closes a given panel  
+  
 
-**panel.position** (string name, Vector3 position) Try it
+**panel.position** (string name, Vector3 position) [Try it](http://localhost:40074/api/v1?/api/v1?panel.position=4,12,4)
 
-Sets position of a given panel
+Sets position of a given panel  
+  
 
-**panel.rotation** (string name, Vector3 rotation) Try it
+**panel.rotation** (string name, Vector3 rotation) [Try it](http://localhost:40074/api/v1?/api/v1?panel.rotation=4,12,4)
 
-Sets rotation of a given panel
+Sets rotation of a given panel  
+  
 
-**strokes.debug** Try it
+**strokes.debug** [Try it](http://localhost:40074/api/v1?/api/v1?strokes.debug)
 
-Logs some debug info about the strokes
+Logs some debug info about the strokes  
+  
 
-**panel.attach** (string name) Try it
+**panel.attach** (string name) [Try it](http://localhost:40074/api/v1?/api/v1?panel.attach=scripts)
 
-Attaches the given panel to the user's wand
+Attaches the given panel to the user's wand  
+  
 
-**panel.detach** (string name, Vector3 position) Try it
+**panel.detach** (string name, Vector3 position) [Try it](http://localhost:40074/api/v1?/api/v1?panel.detach=scripts)
 
-Detaches the given panel from the user's wand
+Detaches the given panel from the user's wand  
+  
 
-**layer.add** Try it
+**layer.add** [Try it](http://localhost:40074/api/v1?/api/v1?layer.add)
 
-Adds a new layer
+Adds a new layer  
+  
 
-**layer.clear** (int layer) Try it
+**layer.clear** (int layer) [Try it](http://localhost:40074/api/v1?/api/v1?layer.clear=2)
 
-Clears the contents of a layer
+Clears the contents of a layer  
+  
 
-**debug.ram** (Boolean active) Try it
+**debug.ram** (Boolean active) [Try it](http://localhost:40074/api/v1?/api/v1?debug.ram)
 
-Enable/Disable logging of RAM usage to the in-app console (Android only)
+Enable/Disable logging of RAM usage to the in-app console (Android only)  
+  
 
-**layer.delete** (int layer) Try it
+**layer.delete** (int layer) [Try it](http://localhost:40074/api/v1?/api/v1?layer.delete=1)
 
-Deletes a layer
+Deletes a layer  
+  
 
-**layer.squash** (int squashedLayer, int destinationLayer) Try it
+**layer.squash** (int squashedLayer, int destinationLayer) [Try it](http://localhost:40074/api/v1?/api/v1?layer.squash=1,0)
 
-Move everything from one layer to another then removes the empty layer
+Move everything from one layer to another then removes the empty layer  
+  
 
-**layer.activate** (int layer) Try it
+**layer.activate** (int layer) [Try it](http://localhost:40074/api/v1?/api/v1?layer.activate=2)
 
-Make a layer the active layer
+Make a layer the active layer  
+  
 
-**layer.show** (int layer) Try it
+**layer.show** (int layer) [Try it](http://localhost:40074/api/v1?/api/v1?layer.show=2)
 
-Make a layer visible
+Make a layer visible  
+  
 
-**layer.hide** (int layer) Try it
+**layer.hide** (int layer) [Try it](http://localhost:40074/api/v1?/api/v1?layer.hide=2)
 
-Hide a layer
+Hide a layer  
+  
 
-**layer.toggle** (int layer) Try it
+**layer.toggle** (int layer) [Try it](http://localhost:40074/api/v1?/api/v1?layer.toggle=2)
 
-Toggles a layer between visible and hidden
+Toggles a layer between visible and hidden  
+  
 
-**model.select** (int index) Try it
+**model.select** (int index) [Try it](http://localhost:40074/api/v1?/api/v1?model.select=2)
 
-Selects a 3d model by index.
+Selects a 3d model by index.  
+  
 
-**model.position** (int index, Vector3 position) Try it
+**model.position** (int index, Vector3 position) [Try it](http://localhost:40074/api/v1?/api/v1?model.position=2,6,8)
 
-Move a 3d model to the given coordinates
+Move a 3d model to the given coordinates  
+  
 
-**model.rotation** (int index, Vector3 rotation) Try it
+**model.rotation** (int index, Vector3 rotation) [Try it](http://localhost:40074/api/v1?/api/v1?model.rotation)
 
-Set a model's rotation to the given angles
+Set a model's rotation to the given angles  
+  
 
-**model.scale** (int index, float scale) Try it
+**model.scale** (int index, float scale) [Try it](http://localhost:40074/api/v1?/api/v1?model.scale)
 
-Set a model's scale to the amount
+Set a model's scale to the amount  
+  
 
-**symmetry.position** (Vector3 position) Try it
+**symmetry.position** (Vector3 position) [Try it](http://localhost:40074/api/v1?/api/v1?symmetry.position=2,6,8)
 
-Move the symmetry widget to the given coordinates
+Move the symmetry widget to the given coordinates  
+  
 
-**symmetry.set.rotation** (Vector3 rotation) Try it
+**symmetry.set.rotation** (Vector3 rotation) [Try it](http://localhost:40074/api/v1?/api/v1?symmetry.set.rotation=45,30,0)
 
-Sets the symmetry widget rotation
+Sets the symmetry widget rotation  
+  
 
-**symmetry.set.transform** (Vector3 position, Vector3 rotation) Try it
+**symmetry.set.transform** (Vector3 position, Vector3 rotation) [Try it](http://localhost:40074/api/v1?/api/v1?symmetry.set.transform=2,6,8,45,30,0)
 
-Sets the position and rotation of the symmetry widget
+Sets the position and rotation of the symmetry widget  
+  
 
-**brush.force.painting.on** (Boolean active) Try it
+**brush.force.painting.on** (Boolean active) [Try it](http://localhost:40074/api/v1?/api/v1?brush.force.painting.on=true)
 
-Turns on or off an override that paints even if the trigger is not pressed.
+Turns on or off an override that paints even if the trigger is not pressed.  
+  
 
-**brush.force.painting.off** (Boolean active) Try it
+**brush.force.painting.off** (Boolean active) [Try it](http://localhost:40074/api/v1?/api/v1?brush.force.painting.off=false)
 
-Turns on or off an override that stops the user painting even if the trigger is pressed.
+Turns on or off an override that stops the user painting even if the trigger is pressed.  
+  
 
-**brush.new.stroke** Try it
+**brush.new.stroke** [Try it](http://localhost:40074/api/v1?/api/v1?brush.new.stroke)
 
-Ends the current stroke and starts a new one next frame
+Ends the current stroke and starts a new one next frame  
+  
 
-**image.select** (int index) Try it
+**image.select** (int index) [Try it](http://localhost:40074/api/v1?/api/v1?image.select=2)
 
-Selects an image by index.
+Selects an image by index.  
+  
 
-**image.delete** (int index) Try it
+**image.delete** (int index) [Try it](http://localhost:40074/api/v1?/api/v1?image.delete=2)
 
-Deletes an image by index.
+Deletes an image by index.  
+  
 
-**video.delete** (int index) Try it
+**video.delete** (int index) [Try it](http://localhost:40074/api/v1?/api/v1?video.delete=2)
 
-Deletes a video by index.
+Deletes a video by index.  
+  
 
-**model.delete** (int index) Try it
+**model.delete** (int index) [Try it](http://localhost:40074/api/v1?/api/v1?model.delete=2,6,8)
 
-Deletes a 3d model by index.
+Deletes a 3d model by index.  
+  
 
-**guide.delete** (int index) Try it
+**guide.delete** (int index) [Try it](http://localhost:40074/api/v1?/api/v1?guide.delete=2)
 
-Deletes a guide by index.
+Deletes a guide by index.  
+  
 
-**image.position** (int index, Vector3 position) Try it
+**image.position** (int index, Vector3 position) [Try it](http://localhost:40074/api/v1?/api/v1?image.position=2,1,6,8)
 
-Move an image to the given coordinates
+Move an image to the given coordinates  
+  
 
-**image.rotation** (int index, Vector3 rotation) Try it
+**image.rotation** (int index, Vector3 rotation) [Try it](http://localhost:40074/api/v1?/api/v1?image.rotation)
 
-Set a images rotation to the given angles
+Set a images rotation to the given angles  
+  
 
-**image.scale** (int index, float scale) Try it
+**image.scale** (int index, float scale) [Try it](http://localhost:40074/api/v1?/api/v1?image.scale)
 
-Set a images scale to the amount
+Set a images scale to the amount  
+  
 
-**light.position** (int index, Vector3 position) Try it
+**light.position** (int index, Vector3 position) [Try it](http://localhost:40074/api/v1?/api/v1?light.position)
 
-Move a light to the given coordinates
+Move a light to the given coordinates  
+  
 
-**light.rotation** (int index, Vector3 rotation) Try it
+**light.rotation** (int index, Vector3 rotation) [Try it](http://localhost:40074/api/v1?/api/v1?light.rotation)
 
-Set a light's rotation to the given angles
+Set a light's rotation to the given angles  
+  
 
-**image.formEncode** (int index) Try it
+**image.formEncode** (int index) [Try it](http://localhost:40074/api/v1?/api/v1?image.formEncode=2)
 
-Converts an image to a string suitable for use in a form
+Converts an image to a string suitable for use in a form  
+  
 
-**image.base64Decode** (string base64, string filename) Try it
+**image.base64Decode** (string base64, string filename) [Try it](http://localhost:40074/api/v1?/api/v1?image.base64Decode)
 
-Saves an image based on a base64 encoded string
+Saves an image based on a base64 encoded string  
+  
 
-**scripts.initPluginScripting** Try it
+**scripts.initPluginScripting** [Try it](http://localhost:40074/api/v1?/api/v1?scripts.initPluginScripting=)
 
-Call this before using any HTTP endpoint that accesses plugins (including html pages that list plugins)
+Call this before using any HTTP endpoint that accesses plugins (including html pages that list plugins)  
+  
 
-**scripts.toolscript.activate** (string scriptName) Try it
+**scripts.toolscript.activate** (string scriptName) [Try it](http://localhost:40074/api/v1?/api/v1?scripts.toolscript.activate=Spiral)
 
-Activate the given tool script
+Activate the given tool script  
+  
 
-**scripts.toolscript.deactivate** Try it
+**scripts.toolscript.deactivate** [Try it](http://localhost:40074/api/v1?/api/v1?scripts.toolscript.deactivate=Spiral)
 
-Dectivate the tool script
+Dectivate the tool script  
+  
 
-**scripts.symmetryscript.activate** (string scriptName) Try it
+**scripts.symmetryscript.activate** (string scriptName) [Try it](http://localhost:40074/api/v1?/api/v1?scripts.symmetryscript.activate=Boids)
 
-Activate the given symmetry script
+Activate the given symmetry script  
+  
 
-**scripts.symmetryscript.deactivate** Try it
+**scripts.symmetryscript.deactivate** [Try it](http://localhost:40074/api/v1?/api/v1?scripts.symmetryscript.deactivate=Boids)
 
-Dectivate the symmetry script
+Dectivate the symmetry script  
+  
 
-**scripts.pointerscript.activate** (string scriptName) Try it
+**scripts.pointerscript.activate** (string scriptName) [Try it](http://localhost:40074/api/v1?/api/v1?scripts.pointerscript.activate=Loops)
 
-Activate the given pointer script
+Activate the given pointer script  
+  
 
-**scripts.pointerscript.deactivate** Try it
+**scripts.pointerscript.deactivate** [Try it](http://localhost:40074/api/v1?/api/v1?scripts.pointerscript.deactivate=Loops)
 
-Dectivate the pointer script
+Dectivate the pointer script  
+  
 
-**scripts.backgroundscript.activate** (string scriptName) Try it
+**scripts.backgroundscript.activate** (string scriptName) [Try it](http://localhost:40074/api/v1?/api/v1?scripts.backgroundscript.activate=Lines)
 
-Activate the given background script
+Activate the given background script  
+  
 
-**scripts.backgroundscript.deactivate** (string scriptName) Try it
+**scripts.backgroundscript.deactivate** (string scriptName) [Try it](http://localhost:40074/api/v1?/api/v1?scripts.backgroundscript.deactivate=Lines)
 
-Dectivate the given background script
+Dectivate the given background script  
+  
 
-**scripts.backgroundscript.activateall** Try it
+**scripts.backgroundscript.activateall** [Try it](http://localhost:40074/api/v1?/api/v1?scripts.backgroundscript.activateall)
 
-Dectivate all background scripts
+Dectivate all background scripts  
+  
 
-**scripts.backgroundscript.deactivateall** Try it
+**scripts.backgroundscript.deactivateall** [Try it](http://localhost:40074/api/v1?/api/v1?scripts.backgroundscript.deactivateall)
 
-Dectivate all background scripts
+Dectivate all background scripts  
+  
 
-**guide.add** (string type) Try it
+**guide.add** (string type) [Try it](http://localhost:40074/api/v1?/api/v1?guide.add=cube)
 
-Adds a guide to the scene (cube, sphere, capsule, cone, ellipsoid)
+Adds a guide to the scene (cube, sphere, capsule, cone, ellipsoid)  
+  
 
-**guide.select** (int index) Try it
+**guide.select** (int index) [Try it](http://localhost:40074/api/v1?/api/v1?guide.select=2)
 
-Selects a guide by index.
+Selects a guide by index.  
+  
 
-**guide.position** (int index, Vector3 position) Try it
+**guide.position** (int index, Vector3 position) [Try it](http://localhost:40074/api/v1?/api/v1?guide.position=2,4,10,-4)
 
-Move a guide to the given coordinates
+Move a guide to the given coordinates  
+  
 
-**guide.scale** (int index, Vector3 scale) Try it
+**guide.scale** (int index, Vector3 scale) [Try it](http://localhost:40074/api/v1?/api/v1?guide.scale=2,1.5,1,1.5)
 
-Sets the (non-uniform) scale of a guide
+Sets the (non-uniform) scale of a guide  
+  
 
-**draw.paths** (string jsonString) Try it
+**draw.paths** (string jsonString) [Try it](http://localhost:40074/api/v1?/api/v1?draw.paths=[[0,0,0],[1,0,0],[1,1,0]],[[0,0,-1],[-1,0,-1],[-1,1,-1]])
 
-Draws a series of paths at the current brush position \[\[\[x1,y1,z1],\[x2,y2,z2], etc...]]. Does not move the brush position
+Draws a series of paths at the current brush position \[\[\[x1,y1,z1\],\[x2,y2,z2\], etc...\]\]. Does not move the brush position  
+  
 
-**brush.pathsmoothing** (float amount) Try it
+**brush.pathsmoothing** (float amount) [Try it](http://localhost:40074/api/v1?/api/v1?brush.pathsmoothing=0.1)
 
-Sets the amount of smoothing applied to brush paths at corners. Default is 0.10 turns off smoothing and you'll have to ensure you create enough points or else the path may end up smoothed to nothing.
+Sets the amount of smoothing applied to brush paths at corners. Default is 0.10 turns off smoothing and you'll have to ensure you create enough points or else the path may end up smoothed to nothing.  
+  
 
-**draw.path** (string jsonString) Try it
+**draw.path** (string jsonString) [Try it](http://localhost:40074/api/v1?/api/v1?draw.path=[0,0,0],[1,0,0],[1,1,0],[0,1,0])
 
-Draws a path at the current brush position \[x1,y1,z1],\[x2,y2,z2], etc.... Does not move the brush position
+Draws a path at the current brush position \[x1,y1,z1\],\[x2,y2,z2\], etc.... Does not move the brush position  
+  
 
-**draw.stroke** (string jsonString) Try it
+**draw.stroke** (string jsonString) [Try it](http://localhost:40074/api/v1?/api/v1?draw.stroke=[0,0,0,0,180,90,.75],[1,0,0,0,180,90,.75],[1,1,0,0,180,90,.75],[0,1,0,0,180,90,.75])
 
-Draws an exact brush stroke including orientation and pressure
+Draws an exact brush stroke including orientation and pressure  
+  
 
-**draw.polygon** (int sides, float radius, float angle) Try it
+**draw.polygon** (int sides, float radius, float angle) [Try it](http://localhost:40074/api/v1?/api/v1?draw.polygon=5,2.5,45)
 
-Draws a polygon at the current brush position. Does not move the brush position
+Draws a polygon at the current brush position. Does not move the brush position  
+  
 
-**draw.text** (string text) \[Try it]\(/api/v1?draw.text=hello world)
+**draw.text** (string text) [Try it](http://localhost:40074/api/v1?/api/v1?draw.text=hello world)
 
-Draws the characters supplied at the current brush position
+Draws the characters supplied at the current brush position  
+  
 
-**draw.opentypetext** (string text, string fontPath) \[Try it]\(/api/v1?draw.opentypetext=hello world,hello world,calibri.ttf)
+**draw.opentypetext** (string text, string fontPath) [Try it](http://localhost:40074/api/v1?/api/v1?draw.opentypetext=hello world,hello world,calibri.ttf)
 
-Same as draw text but uses an opentype font (the font should be in a Fonts folder in your Open Brush folder)
+Same as draw text but uses an opentype font (the font should be in a Fonts folder in your Open Brush folder)  
+  
 
-**draw.svg** (string svg) Try it
+**draw.svg** (string svg) [Try it](http://localhost:40074/api/v1?/api/v1?draw.svg)
 
-Draws an entire SVG document
+Draws an entire SVG document  
+  
 
-**draw.svg.path** (string svgPath) \[Try it]\(/api/v1?draw.svg.path=M 184,199 116,170 53,209.6 60,136.2 4.3,88)
+**draw.svg.path** (string svgPath) [Try it](http://localhost:40074/api/v1?/api/v1?draw.svg.path=M 184,199 116,170 53,209.6 60,136.2 4.3,88)
 
-Draws the path supplied as an SVG Path string at the current brush position
+Draws the path supplied as an SVG Path string at the current brush position  
+  
 
-**brush.type** (string brushType) Try it
+**brush.type** (string brushType) [Try it](http://localhost:40074/api/v1?/api/v1?brush.type=ink)
 
-Changes the brush. brushType can either be the brush name or it's guid. brushes are listed in the /help screen
+Changes the brush. brushType can either be the brush name or it's guid. brushes are listed in the /help screen  
+  
 
-**color.add.hsv** (Vector3 hsv) Try it
+**color.add.hsv** (Vector3 hsv) [Try it](http://localhost:40074/api/v1?/api/v1?color.add.hsv=0.1,0.2,0.3)
 
-Adds the supplied values to the current color. Values are hue, saturation and value
+Adds the supplied values to the current color. Values are hue, saturation and value  
+  
 
-**color.add.rgb** (Vector3 rgb) Try it
+**color.add.rgb** (Vector3 rgb) [Try it](http://localhost:40074/api/v1?/api/v1?color.add.rgb=0.1,0.2,0.3)
 
-Adds the supplied values to the current color. Values are red green and blue
+Adds the supplied values to the current color. Values are red green and blue  
+  
 
-**color.set.rgb** (Vector3 rgb) Try it
+**color.set.rgb** (Vector3 rgb) [Try it](http://localhost:40074/api/v1?/api/v1?color.set.rgb=0.1,0.2,0.3)
 
-Sets the current color. Values are red, green and blue
+Sets the current color. Values are red, green and blue  
+  
 
-**color.set.hsv** (Vector3 hsv) Try it
+**color.set.hsv** (Vector3 hsv) [Try it](http://localhost:40074/api/v1?/api/v1?color.set.hsv=0.1,0.2,0.3)
 
-Sets the current color. Values are hue, saturation and value
+Sets the current color. Values are hue, saturation and value  
+  
 
-**color.set.html** (string color) Try it
+**color.set.html** (string color) [Try it](http://localhost:40074/api/v1?/api/v1?color.set.html=darkblue)
 
-Sets the current color. colorString can either be a hex value or a css color name.
+Sets the current color. colorString can either be a hex value or a css color name.  
+  
 
-**brush.size.set** (float size) Try it
+**brush.size.set** (float size) [Try it](http://localhost:40074/api/v1?/api/v1?brush.size.set=0.5)
 
-Sets the current brush size
+Sets the current brush size  
+  
 
-**brush.size.add** (float amount) Try it
+**brush.size.add** (float amount) [Try it](http://localhost:40074/api/v1?/api/v1?brush.size.add=0.1)
 
-Changes the current brush size by the given amount
+Changes the current brush size by the given amount  
+  
 
-**draw.camerapath** (int index, float step) Try it
+**draw.camerapath** (int index, float step) [Try it](http://localhost:40074/api/v1?/api/v1?draw.camerapath=0)
 
-Draws along a camera path with the current brush settings
+Draws along a camera path with the current brush settings  
+  
 
-**model.webimport** (string url) Try it
+**model.webimport** (string url) [Try it](http://localhost:40074/api/v1?/api/v1?model.webimport=Andy\Andy.obj)
 
-Imports a model given a url or a filename in Media Library\Models (Models loaded from a url are saved locally first)
+Imports a model given a url or a filename in Media Library\\Models (Models loaded from a url are saved locally first)  
+  
 
-**import.webmodel** (string url) Try it
+**import.webmodel** (string url) [Try it](http://localhost:40074/api/v1?/api/v1?import.webmodel=Andy\Andy.obj)
 
-Same as model.webimport (backwards compatibility for poly.pizza)
+Same as model.webimport (backwards compatibility for poly.pizza)  
+  
 
-**model.icosaimport** (string modelId) Try it
+**model.icosaimport** (string modelId) [Try it](http://localhost:40074/api/v1?/api/v1?model.icosaimport=9L2Lt-sxzdp)
 
-Imports a model from the Icosa Gallery given a model id
+Imports a model from the Icosa Gallery given a model id  
+  
 
-**model.import** (string location) Try it
+**model.import** (string location) [Try it](http://localhost:40074/api/v1?/api/v1?model.import=Andy.glb)
 
-Imports a model given a filename in Media Library\Models (Models loaded from a url are saved locally first)
+Imports a model given a filename in Media Library\\Models (Models loaded from a url are saved locally first)  
+  
 
-**model.breakapart** (int index) Try it
+**model.breakapart** (int index) [Try it](http://localhost:40074/api/v1?/api/v1?model.breakapart=0)
 
-Breaks apart a model
+Breaks apart a model  
+  
 
-**save.overwrite** Try it
+**save.overwrite** [Try it](http://localhost:40074/api/v1?/api/v1?save.overwrite)
 
-Save the current scene overwriting the last save if it exists
+Save the current scene overwriting the last save if it exists  
+  
 
-**save.as** (string filename) Try it
+**save.as** (string filename) [Try it](http://localhost:40074/api/v1?/api/v1?save.as=newSketch)
 
-Saves the current scene under a new name. (No need to include the .tilt suffix)
+Saves the current scene under a new name. (No need to include the .tilt suffix)  
+  
 
-**save.new** Try it
+**save.new** [Try it](http://localhost:40074/api/v1?/api/v1?save.new)
 
-Saves the current scene in a new slot
+Saves the current scene in a new slot  
+  
 
-**save.selected** Try it
+**save.selected** [Try it](http://localhost:40074/api/v1?/api/v1?save.selected)
 
-Saves the current selected strokes in a new slot
+Saves the current selected strokes in a new slot  
+  
 
-**icosa.devicelogin** (string code) Try it
+**icosa.devicelogin** (string code) [Try it](http://localhost:40074/api/v1?/api/v1?icosa.devicelogin)
 
-Login to the Icosa Gallery using a device code
+Login to the Icosa Gallery using a device code  
+  
 
-**icosa.logout** Try it
+**icosa.logout** [Try it](http://localhost:40074/api/v1?/api/v1?icosa.logout)
 
-Logout of the Icosa Gallery
+Logout of the Icosa Gallery  
+  
 
-**icosa.upload** Try it
+**icosa.upload** [Try it](http://localhost:40074/api/v1?/api/v1?icosa.upload)
 
-Uploads it to the Icosa Gallery
+Uploads it to the Icosa Gallery  
+  
 
-**export.all** Try it
+**export.all** [Try it](http://localhost:40074/api/v1?/api/v1?export.all)
 
-Exports all the scenes in the users's sketch folder
+Exports all the scenes in the users's sketch folder  
+  
 
-**drafting.visible** Try it
+**drafting.visible** [Try it](http://localhost:40074/api/v1?/api/v1?drafting.visible)
 
-Shows all strokes made with the drafting brush fully opaque
+Shows all strokes made with the drafting brush fully opaque  
+  
 
-**drafting.transparent** Try it
+**drafting.transparent** [Try it](http://localhost:40074/api/v1?/api/v1?drafting.transparent)
 
-Shows all strokes made with the drafting brush semi-transparent
+Shows all strokes made with the drafting brush semi-transparent  
+  
 
-**drafting.hidden** Try it
+**drafting.hidden** [Try it](http://localhost:40074/api/v1?/api/v1?drafting.hidden)
 
-Hides all strokes made with the drafting brush
+Hides all strokes made with the drafting brush  
+  
 
-**load.user** (int slot) Try it
+**load.user** (int slot) [Try it](http://localhost:40074/api/v1?/api/v1?load.user=2)
 
-Loads the sketch from the user's sketch folder given an index (0 being most recent)
+Loads the sketch from the user's sketch folder given an index (0 being most recent)  
+  
 
-**load.featured** (int slot) Try it
+**load.featured** (int slot) [Try it](http://localhost:40074/api/v1?/api/v1?load.featured=2)
 
-Loads the sketch in the given slot number from the featured sketch list
+Loads the sketch in the given slot number from the featured sketch list  
+  
 
-**load.liked** (int slot) Try it
+**load.liked** (int slot) [Try it](http://localhost:40074/api/v1?/api/v1?load.liked=2)
 
-Loads the sketch in the given slot number from the user's liked sketches
+Loads the sketch in the given slot number from the user's liked sketches  
+  
 
-**load.drive** (int slot) Try it
+**load.drive** (int slot) [Try it](http://localhost:40074/api/v1?/api/v1?load.drive=2)
 
-Loads the sketch in the given slot number from the user's Google Drive
+Loads the sketch in the given slot number from the user's Google Drive  
+  
 
-**load.named** (string filename) Try it
+**load.named** (string filename) [Try it](http://localhost:40074/api/v1?/api/v1?load.named=Untitled_1)
 
-Loads the sketch with the given name from the user's sketch folder
+Loads the sketch with the given name from the user's sketch folder  
+  
 
-**merge.named** (string filename) Try it
+**merge.named** (string filename) [Try it](http://localhost:40074/api/v1?/api/v1?merge.named=Untitled_1)
 
-Loads the sketch with the given name from the user's sketch folder
+Loads the sketch with the given name from the user's sketch folder  
+  
 
-**new** Try it
+**new** [Try it](http://localhost:40074/api/v1?/api/v1?new)
 
-Clears the current sketch
+Clears the current sketch  
+  
 
-**symmetry.mirror** Try it
+**symmetry.mirror** [Try it](http://localhost:40074/api/v1?/api/v1?symmetry.mirror)
 
-Sets the symmetry mode to 'mirror'
+Sets the symmetry mode to 'mirror'  
+  
 
-**symmetry.multimirror** Try it
+**symmetry.multimirror** [Try it](http://localhost:40074/api/v1?/api/v1?symmetry.multimirror)
 
-Sets the symmetry mode to 'multimirror'
+Sets the symmetry mode to 'multimirror'  
+  
 
-**twohandeded.toggle** Try it
+**twohandeded.toggle** [Try it](http://localhost:40074/api/v1?/api/v1?twohandeded.toggle)
 
-Toggles painting with both hands at once
+Toggles painting with both hands at once  
+  
 
-**straightedge.toggle** Try it
+**straightedge.toggle** [Try it](http://localhost:40074/api/v1?/api/v1?straightedge.toggle)
 
-Toggles the straight edge tool on or off
+Toggles the straight edge tool on or off  
+  
 
-**autoorient.toggle** Try it
+**autoorient.toggle** [Try it](http://localhost:40074/api/v1?/api/v1?autoorient.toggle)
 
-Toggles autoorientate on or off
+Toggles autoorientate on or off  
+  
 
-**undo** Try it
+**undo** [Try it](http://localhost:40074/api/v1?/api/v1?undo)
 
-Undoes the last action
+Undoes the last action  
+  
 
-**redo** Try it
+**redo** [Try it](http://localhost:40074/api/v1?/api/v1?redo)
 
-Redo the last action
+Redo the last action  
+  
 
-**panels.reset** Try it
+**panels.reset** [Try it](http://localhost:40074/api/v1?/api/v1?panels.reset)
 
-Reset the position of all panels
+Reset the position of all panels  
+  
 
-**sketch.origin** Try it
+**sketch.origin** [Try it](http://localhost:40074/api/v1?/api/v1?sketch.origin)
 
-Enables the sketch origin tool
+Enables the sketch origin tool  
+  
 
-**viewonly.toggle** Try it
+**viewonly.toggle** [Try it](http://localhost:40074/api/v1?/api/v1?viewonly.toggle)
 
-Toggles 'view only' mode on or off
+Toggles 'view only' mode on or off  
+  
 
-**spectator.toggle** Try it
+**spectator.toggle** [Try it](http://localhost:40074/api/v1?/api/v1?spectator.toggle)
 
-Toggles the spectator camera
+Toggles the spectator camera  
+  
 
-**spectator.on** Try it
+**spectator.on** [Try it](http://localhost:40074/api/v1?/api/v1?spectator.on)
 
-Turns the spectator camera on
+Turns the spectator camera on  
+  
 
-**spectator.off** Try it
+**spectator.off** [Try it](http://localhost:40074/api/v1?/api/v1?spectator.off)
 
-Turns the spectator camera off
+Turns the spectator camera off  
+  
 
-**autosimplify.toggle** Try it
+**autosimplify.toggle** [Try it](http://localhost:40074/api/v1?/api/v1?autosimplify.toggle)
 
-Toggles 'auto-simplify' mode on or off
+Toggles 'auto-simplify' mode on or off  
+  
 
-**export.current** Try it
+**export.current** [Try it](http://localhost:40074/api/v1?/api/v1?export.current)
 
-Exports the current sketch to the user's Exports folder
+Exports the current sketch to the user's Exports folder  
+  
 
-**showfolder.sketch** (int index) Try it
+**showfolder.sketch** (int index) [Try it](http://localhost:40074/api/v1?/api/v1?showfolder.sketch)
 
-Opens the user's Sketches folder on the desktop
+Opens the user's Sketches folder on the desktop  
+  
 
-**guides.disable** Try it
+**guides.disable** [Try it](http://localhost:40074/api/v1?/api/v1?guides.disable)
 
-Toggles guides on and off
+Toggles guides on and off  
+  
 
-**disco** Try it
+**disco** [Try it](http://localhost:40074/api/v1?/api/v1?disco)
 
-Starts a party
+Starts a party  
+  
 
-**selection.duplicate** Try it
+**selection.duplicate** [Try it](http://localhost:40074/api/v1?/api/v1?selection.duplicate)
 
-Create a duplicate of the current selection (uses symmetry mirrors if active
+Create a duplicate of the current selection (uses symmetry mirrors if active  
+  
 
-**selection.delete** Try it
+**selection.delete** [Try it](http://localhost:40074/api/v1?/api/v1?selection.delete)
 
-Deletes the current selection
+Deletes the current selection  
+  
 
-**selection.group** Try it
+**selection.group** [Try it](http://localhost:40074/api/v1?/api/v1?selection.group)
 
-Groups (or ungroups) the current selection
+Groups (or ungroups) the current selection  
+  
 
-**export.selected** Try it
+**export.selected** [Try it](http://localhost:40074/api/v1?/api/v1?export.selected)
 
-Exports the selected strokes to the user's Media Library
+Exports the selected strokes to the user's Media Library  
+  
 
-**camerapath.render** Try it
+**camerapath.render** [Try it](http://localhost:40074/api/v1?/api/v1?camerapath.render)
 
-Renders the current camera path to a video
+Renders the current camera path to a video  
+  
 
-**profiling.toggle** Try it
+**profiling.toggle** [Try it](http://localhost:40074/api/v1?/api/v1?profiling.toggle)
 
-Toggles profiling mode on or off
+Toggles profiling mode on or off  
+  
 
-**settings.toggle** Try it
+**settings.toggle** [Try it](http://localhost:40074/api/v1?/api/v1?settings.toggle)
 
-Toggles the settings panel on or off
+Toggles the settings panel on or off  
+  
 
-**mirror.summon** Try it
+**mirror.summon** [Try it](http://localhost:40074/api/v1?/api/v1?mirror.summon)
 
-Summons the mirror origin to the user's position
+Summons the mirror origin to the user's position  
+  
 
-**selection.invert** Try it
+**selection.invert** [Try it](http://localhost:40074/api/v1?/api/v1?selection.invert)
 
-Inverts the current selection
+Inverts the current selection  
+  
 
-**select.all** Try it
+**select.all** [Try it](http://localhost:40074/api/v1?/api/v1?select.all)
 
-Selects all strokes and widgets on the current layer
+Selects all strokes and widgets on the current layer  
+  
 
-**select.none** Try it
+**select.none** [Try it](http://localhost:40074/api/v1?/api/v1?select.none)
 
-Deselects all strokes and widgets on the current layer
+Deselects all strokes and widgets on the current layer  
+  
 
-**selection.flip** Try it
+**selection.flip** [Try it](http://localhost:40074/api/v1?/api/v1?selection.flip)
 
-Mirrors the current selection
+Mirrors the current selection  
+  
 
-**postprocessing.toggle** Try it
+**postprocessing.toggle** [Try it](http://localhost:40074/api/v1?/api/v1?postprocessing.toggle)
 
-Toggles post-processing effects on or off
+Toggles post-processing effects on or off  
+  
 
-**watermark.toggle** Try it
+**watermark.toggle** [Try it](http://localhost:40074/api/v1?/api/v1?watermark.toggle)
 
-Toggles the watermark on or off
+Toggles the watermark on or off  
+  
 
-**camerapath.togglevisuals** Try it
+**camerapath.togglevisuals** [Try it](http://localhost:40074/api/v1?/api/v1?camerapath.togglevisuals)
 
-Toggles the camera path visuals on or off
+Toggles the camera path visuals on or off  
+  
 
-**camerapath.togglepreview** Try it
+**camerapath.togglepreview** [Try it](http://localhost:40074/api/v1?/api/v1?camerapath.togglepreview)
 
-Toggles the camera path preview on or off
+Toggles the camera path preview on or off  
+  
 
-**camerapath.delete** Try it
+**camerapath.delete** [Try it](http://localhost:40074/api/v1?/api/v1?camerapath.delete)
 
-Deletes the current camera path
+Deletes the current camera path  
+  
 
-**camerapath.record** Try it
+**camerapath.record** [Try it](http://localhost:40074/api/v1?/api/v1?camerapath.record)
 
-Starts recording a camera path
+Starts recording a camera path  
+  
 
-**camerapath.setactive** (int index) Try it
+**camerapath.setactive** (int index) [Try it](http://localhost:40074/api/v1?/api/v1?camerapath.setactive)
 
-Sets the active camera path
+Sets the active camera path  
+  
 
-**stroke.delete** (int index) Try it
+**stroke.delete** (int index) [Try it](http://localhost:40074/api/v1?/api/v1?stroke.delete=2)
 
-Delete a stroke by index
+Delete a stroke by index  
+  
 
-**stroke.select** (int index) Try it
+**stroke.select** (int index) [Try it](http://localhost:40074/api/v1?/api/v1?stroke.select=2)
 
-Select a stroke by index.
+Select a stroke by index.  
+  
 
-**strokes.select** (int from, int to) Try it
+**strokes.select** (int from, int to) [Try it](http://localhost:40074/api/v1?/api/v1?strokes.select=1,4)
 
-Select multiple strokes by index.
+Select multiple strokes by index.  
+  
 
-**selection.recolor** (Boolean jitter) Try it
+**selection.recolor** (Boolean jitter) [Try it](http://localhost:40074/api/v1?/api/v1?selection.recolor)
 
-Recolors the currently selected strokes
+Recolors the currently selected strokes  
+  
 
-**strokes.move.to** (int start, int end, Vector3 position) Try it
+**strokes.move.to** (int start, int end, Vector3 position) [Try it](http://localhost:40074/api/v1?/api/v1?strokes.move.to=1,2,5,12,-4)
 
-Moves several strokes to the given position
+Moves several strokes to the given position  
+  
 
-**strokes.move.by** (int start, int end, Vector3 translation) Try it
+**strokes.move.by** (int start, int end, Vector3 translation) [Try it](http://localhost:40074/api/v1?/api/v1?strokes.move.by=1,2,5,12,-4)
 
-Moves several strokes to the given coordinates
+Moves several strokes to the given coordinates  
+  
 
-**strokes.rotate.by** (int start, int end, float angle) Try it
+**strokes.rotate.by** (int start, int end, float angle) [Try it](http://localhost:40074/api/v1?/api/v1?strokes.rotate.by=1,2,5,12,-4)
 
-Rotates multiple brushstrokes around the current brush position
+Rotates multiple brushstrokes around the current brush position  
+  
 
-**strokes.scale.by** (int start, int end, float scale) Try it
+**strokes.scale.by** (int start, int end, float scale) [Try it](http://localhost:40074/api/v1?/api/v1?strokes.scale.by=1,2,0.5)
 
-Scales multiple brushstrokes around the current brush position
+Scales multiple brushstrokes around the current brush position  
+  
 
-**selection.rebrush** (Boolean jitter) Try it
+**selection.rebrush** (Boolean jitter) [Try it](http://localhost:40074/api/v1?/api/v1?selection.rebrush=true)
 
-Rebrushes the currently selected strokes
+Rebrushes the currently selected strokes  
+  
 
-**selection.resize** (Boolean jitter) Try it
+**selection.resize** (Boolean jitter) [Try it](http://localhost:40074/api/v1?/api/v1?selection.resize)
 
-Changes the brush size the currently selected strokes
+Changes the brush size the currently selected strokes  
+  
 
-**selection.trim** (int count) Try it
+**selection.trim** (int count) [Try it](http://localhost:40074/api/v1?/api/v1?selection.trim=4)
 
-Removes a number of points from the currently selected strokes
+Removes a number of points from the currently selected strokes  
+  
 
-**selection.points.perlin** (string axis, Vector3 scale) Try it
+**selection.points.perlin** (string axis, Vector3 scale) [Try it](http://localhost:40074/api/v1?/api/v1?selection.points.perlin=y,0.5,2,0.5)
 
-Moves the position of all control points in the selection using a noise function
+Moves the position of all control points in the selection using a noise function  
+  
 
-**stroke.points.quantize** (Vector3 grid) Try it
+**stroke.points.quantize** (Vector3 grid) [Try it](http://localhost:40074/api/v1?/api/v1?stroke.points.quantize=2,2,2)
 
-Snaps all the points in selected strokes to a grid (buggy)
+Snaps all the points in selected strokes to a grid (buggy)  
+  
 
-**stroke.join** Try it
+**stroke.join** [Try it](http://localhost:40074/api/v1?/api/v1?stroke.join)
 
-Joins a stroke with the previous one
+Joins a stroke with the previous one  
+  
 
-**strokes.join** (int from, int to) Try it
+**strokes.join** (int from, int to) [Try it](http://localhost:40074/api/v1?/api/v1?strokes.join=1,4)
 
-Joins all strokes between the two indices (inclusive)
+Joins all strokes between the two indices (inclusive)  
+  
 
-**stroke.add** (int index) Try it
+**stroke.add** (int index) [Try it](http://localhost:40074/api/v1?/api/v1?stroke.add=2)
 
-Adds a point at the current brush position to the specified stroke
+Adds a point at the current brush position to the specified stroke  
+  
 
-**symmetry.type** (string type) Try it
+**symmetry.type** (string type) [Try it](http://localhost:40074/api/v1?/api/v1?symmetry.type=wallpaper)
 
-Sets the custom symmetry type (Currently either 'point' or 'wallpaper'
+Sets the custom symmetry type (Currently either 'point' or 'wallpaper'  
+  
 
-**symmetry.pointfamily** (string family) Try it
+**symmetry.pointfamily** (string family) [Try it](http://localhost:40074/api/v1?/api/v1?symmetry.pointfamily=C4v)
 
-Sets the custom point symmetry family (Any of Cn, Cnv, Cnh, Sn, Dn, Dnh, Dnd, T, Th, Td, O, Oh, I, Ih) Replace n with a number to also set the order.
+Sets the custom point symmetry family (Any of Cn, Cnv, Cnh, Sn, Dn, Dnh, Dnd, T, Th, Td, O, Oh, I, Ih) Replace n with a number to also set the order.  
+  
 
-**symmetry.wallpapergroup** (string group) Try it
+**symmetry.wallpapergroup** (string group) [Try it](http://localhost:40074/api/v1?/api/v1?symmetry.wallpapergroup=p6m)
 
-Sets the custom wallpaper symmetry group (Any of p1, pg, cm, pm, p6, p6m, p3, p3m1, p31m, p4, p4m, p4g, p2, pgg, pmg, pmm, cmm)
+Sets the custom wallpaper symmetry group (Any of p1, pg, cm, pm, p6, p6m, p3, p3m1, p31m, p4, p4m, p4g, p2, pgg, pmg, pmm, cmm)  
+  
 
-**symmetry.pointorder** (int order) Try it
+**symmetry.pointorder** (int order) [Try it](http://localhost:40074/api/v1?/api/v1?symmetry.pointorder=5)
 
-Sets the custom point symmetry order
+Sets the custom point symmetry order  
+  
 
-**symmetry.wallpaperrepeats** (int x, int y) Try it
+**symmetry.wallpaperrepeats** (int x, int y) [Try it](http://localhost:40074/api/v1?/api/v1?symmetry.wallpaperrepeats=4,4)
 
-Sets the custom wallpaper symmetry repeats
+Sets the custom wallpaper symmetry repeats  
+  
 
-**symmetry.wallpaperscale** (float x, float y) Try it
+**symmetry.wallpaperscale** (float x, float y) [Try it](http://localhost:40074/api/v1?/api/v1?symmetry.wallpaperscale=0.5,1)
 
-Sets the custom wallpaper symmetry scale
+Sets the custom wallpaper symmetry scale  
+  
 
-**symmetry.wallpaperskew** (float x, float y) Try it
+**symmetry.wallpaperskew** (float x, float y) [Try it](http://localhost:40074/api/v1?/api/v1?symmetry.wallpaperskew=1,0.5)
 
-Sets the custom wallpaper symmetry skew
+Sets the custom wallpaper symmetry skew  
+  
 
-**symmetry.colorshift.hue** (string mode, float amplitude, float frequency) Try it
+**symmetry.colorshift.hue** (string mode, float amplitude, float frequency) [Try it](http://localhost:40074/api/v1?/api/v1?symmetry.colorshift.hue=Noise,1,2)
 
-Sets the custom wallpaper color shift hue (mode is one of SineWave, SquareWave, SawtoothWave, TriangleWave, Noise)
+Sets the custom wallpaper color shift hue (mode is one of SineWave, SquareWave, SawtoothWave, TriangleWave, Noise)  
+  
 
-**symmetry.colorshift.saturation** (string mode, float amplitude, float frequency) Try it
+**symmetry.colorshift.saturation** (string mode, float amplitude, float frequency) [Try it](http://localhost:40074/api/v1?/api/v1?symmetry.colorshift.saturation=SineWave,0.1,1)
 
-Sets the custom wallpaper color shift saturation (mode is one of SineWave, SquareWave, SawtoothWave, TriangleWave, Noise)
+Sets the custom wallpaper color shift saturation (mode is one of SineWave, SquareWave, SawtoothWave, TriangleWave, Noise)  
+  
 
-**symmetry.colorshift.brightness** (string mode, float amplitude, float frequency) Try it
+**symmetry.colorshift.brightness** (string mode, float amplitude, float frequency) [Try it](http://localhost:40074/api/v1?/api/v1?symmetry.colorshift.brightness=SquareWave,0.5,6)
 
-Sets the custom wallpaper color shift brightness (mode is one of SineWave, SquareWave, SawtoothWave, TriangleWave, Noise)
+Sets the custom wallpaper color shift brightness (mode is one of SineWave, SquareWave, SawtoothWave, TriangleWave, Noise)  
+  
 
-**multiplayer.join** (string nickname, string roomName, Boolean isPrivate, int maxPlayers, Boolean silentRoom, Boolean viewOnlyRoom) Try it
+**multiplayer.join** (string nickname, string roomName, Boolean isPrivate, int maxPlayers, Boolean silentRoom, Boolean viewOnlyRoom) [Try it](http://localhost:40074/api/v1?/api/v1?multiplayer.join)
 
-Joins a multiplayer room
+Joins a multiplayer room  
+  
 
-**multiplayer.leave** Try it
+**multiplayer.leave** [Try it](http://localhost:40074/api/v1?/api/v1?multiplayer.leave)
 
-Leaves a multiplayer room
+Leaves a multiplayer room  
+  
 
-**tool.sketchsurface** Try it
+**tool.sketchsurface** [Try it](http://localhost:40074/api/v1?/api/v1?tool.sketchsurface)
 
-Activates the SketchSurface
+Activates the SketchSurface  
+  
 
-**tool.selection** Try it
+**tool.selection** [Try it](http://localhost:40074/api/v1?/api/v1?tool.selection)
 
-Activates the Selection Tool
+Activates the Selection Tool  
+  
 
-**tool.colorpicker** Try it
+**tool.colorpicker** [Try it](http://localhost:40074/api/v1?/api/v1?tool.colorpicker)
 
-Activates the Color Picker
+Activates the Color Picker  
+  
 
-**tool.brushpicker** Try it
+**tool.brushpicker** [Try it](http://localhost:40074/api/v1?/api/v1?tool.brushpicker)
 
-Activates the Brush Picker
+Activates the Brush Picker  
+  
 
-**tool.brushandcolorpicker** Try it
+**tool.brushandcolorpicker** [Try it](http://localhost:40074/api/v1?/api/v1?tool.brushandcolorpicker)
 
-Activates the Brush And Color Picker
+Activates the Brush And Color Picker  
+  
 
-**tool.sketchorigin** Try it
+**tool.sketchorigin** [Try it](http://localhost:40074/api/v1?/api/v1?tool.sketchorigin)
 
-Activates the SketchOrigin Tool
+Activates the SketchOrigin Tool  
+  
 
-**tool.autogif** Try it
+**tool.autogif** [Try it](http://localhost:40074/api/v1?/api/v1?tool.autogif)
 
-Activates the AutoGif Tool
+Activates the AutoGif Tool  
+  
 
-**tool.canvas** Try it
+**tool.canvas** [Try it](http://localhost:40074/api/v1?/api/v1?tool.canvas)
 
-Activates the Canvas Tool
+Activates the Canvas Tool  
+  
 
-**tool.transform** Try it
+**tool.transform** [Try it](http://localhost:40074/api/v1?/api/v1?tool.transform)
 
-Activates the Transform Tool
+Activates the Transform Tool  
+  
 
-**tool.stamp** Try it
+**tool.stamp** [Try it](http://localhost:40074/api/v1?/api/v1?tool.stamp)
 
-Activates the Stamp Tool
+Activates the Stamp Tool  
+  
 
-**tool.freepaint** Try it
+**tool.freepaint** [Try it](http://localhost:40074/api/v1?/api/v1?tool.freepaint)
 
-Activates the FreePaint Tool
+Activates the FreePaint Tool  
+  
 
-**tool.eraser** Try it
+**tool.eraser** [Try it](http://localhost:40074/api/v1?/api/v1?tool.eraser)
 
-Activates the Eraser Tool
+Activates the Eraser Tool  
+  
 
-**tool.screenshot** Try it
+**tool.screenshot** [Try it](http://localhost:40074/api/v1?/api/v1?tool.screenshot)
 
-Activates the Screenshot Tool
+Activates the Screenshot Tool  
+  
 
-**tool.dropper** Try it
+**tool.dropper** [Try it](http://localhost:40074/api/v1?/api/v1?tool.dropper)
 
-Activates the Dropper Tool
+Activates the Dropper Tool  
+  
 
-**tool.saveicon** Try it
+**tool.saveicon** [Try it](http://localhost:40074/api/v1?/api/v1?tool.saveicon)
 
-Activates the SaveIcon Tool
+Activates the SaveIcon Tool  
+  
 
-**tool.threedofviewing** Try it
+**tool.threedofviewing** [Try it](http://localhost:40074/api/v1?/api/v1?tool.threedofviewing)
 
-Activates the ThreeDofViewing Tool
+Activates the ThreeDofViewing Tool  
+  
 
-**tool.multicam** Try it
+**tool.multicam** [Try it](http://localhost:40074/api/v1?/api/v1?tool.multicam)
 
-Activates the MultiCam Tool
+Activates the MultiCam Tool  
+  
 
-**tool.teleport** Try it
+**tool.teleport** [Try it](http://localhost:40074/api/v1?/api/v1?tool.teleport)
 
-Activates the Teleport Tool
+Activates the Teleport Tool  
+  
 
-**tool.repaint** Try it
+**tool.repaint** [Try it](http://localhost:40074/api/v1?/api/v1?tool.repaint)
 
-Activates the Repaint Tool
+Activates the Repaint Tool  
+  
 
-**tool.recolor** Try it
+**tool.recolor** [Try it](http://localhost:40074/api/v1?/api/v1?tool.recolor)
 
-Activates the Recolor Tool
+Activates the Recolor Tool  
+  
 
-**tool.rebrush** Try it
+**tool.rebrush** [Try it](http://localhost:40074/api/v1?/api/v1?tool.rebrush)
 
-Activates the Rebrush Tool
+Activates the Rebrush Tool  
+  
 
-**tool.pin** Try it
+**tool.pin** [Try it](http://localhost:40074/api/v1?/api/v1?tool.pin)
 
-Activates the Pin Tool
+Activates the Pin Tool  
+  
 
-**tool.camerapath** Try it
+**tool.camerapath** [Try it](http://localhost:40074/api/v1?/api/v1?tool.camerapath)
 
-Activates the CameraPath Tool
+Activates the CameraPath Tool  
+  
 
-**tool.fly** Try it
+**tool.fly** [Try it](http://localhost:40074/api/v1?/api/v1?tool.fly)
 
-Activates the Fly Tool
+Activates the Fly Tool  
+  
 
-**snap.angle** (string angle) Try it
+**snap.angle** (string angle) [Try it](http://localhost:40074/api/v1?/api/v1?snap.angle=15)
 
-Sets the current snapping angle. Angle must be a supported value (15, 30, 45, 60, 75 or 90)
+Sets the current snapping angle. Angle must be a supported value (15, 30, 45, 60, 75 or 90)  
+  
 
-**snap.grid** (string size) Try it
+**snap.grid** (string size) [Try it](http://localhost:40074/api/v1?/api/v1?snap.grid=5)
 
-Sets the current snapping grid. Size must be a supported value (0.1, 0.25, 0.5 ,1, 2, 3, 5
+Sets the current snapping grid. Size must be a supported value (0.1, 0.25, 0.5 ,1, 2, 3, 5  
+  
 
-**selection.snap.angles** Try it
+**selection.snap.angles** [Try it](http://localhost:40074/api/v1?/api/v1?selection.snap.angles)
 
-Applies the current snap angle to all selected objects
+Applies the current snap angle to all selected objects  
+  
 
-**selection.snap.positions** Try it
+**selection.snap.positions** [Try it](http://localhost:40074/api/v1?/api/v1?selection.snap.positions)
 
-Applies the current snap grid to all selected objects
+Applies the current snap grid to all selected objects  
+  
 
-**selection.align** (string axis, string alignBy) Try it
+**selection.align** (string axis, string alignBy) [Try it](http://localhost:40074/api/v1?/api/v1?selection.align=x,center)
 
 Aligns all selected objects to the given axis using their minimum, center or maximum points
