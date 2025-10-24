@@ -1,6 +1,6 @@
 # Changelog since v2.10
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...e27af839444fd35d4238dccd30a8185e7148cc68)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...b569850d811e898b3e3ba9a6c689a1975f5dca7e)
 
 ## 🚀 Features
 
@@ -88,6 +88,8 @@
 - Fix icosa login success message ([PR #924](https://github.com/icosa-foundation/open-brush/pull/924) by @andybak)
 
 - Fix color issues with OpenXR over Meta Link ([PR #925](https://github.com/icosa-foundation/open-brush/pull/925) by @andybak)
+
+- Fixes for loading sketches with split up obj models  ([PR #932](https://github.com/icosa-foundation/open-brush/pull/932) by @andybak)
 
 
 ## 🛠️ Infrastructure
