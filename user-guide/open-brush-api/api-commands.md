@@ -233,7 +233,7 @@ Pops the most recent current brush position and direction from the stack
 Logs some info about the brush  
   
 
-**text.add** (string text) [Try it](http://localhost:40074/api/v1?/api/v1?text.add=Hello world!)
+**text.add** (string text) [Try it](http://localhost:40074/api/v1?/api/v1?text.add=Hello%20world!)
 
 Adds a text widget to the sketch  
   
@@ -553,7 +553,7 @@ Draws a polygon at the current brush position. Does not move the brush position
 Draws the characters supplied at the current brush position  
   
 
-**draw.opentypetext** (string text, string fontPath) [Try it](http://localhost:40074/api/v1?/api/v1?draw.opentypetext=hello world,hello world,calibri.ttf)
+**draw.opentypetext** (string text, string fontPath) [Try it](http://localhost:40074/api/v1?/api/v1?draw.opentypetext=hello%20world,hello%20world,calibri.ttf)
 
 Same as draw text but uses an opentype font (the font should be in a Fonts folder in your Open Brush folder)  
   
@@ -563,7 +563,7 @@ Same as draw text but uses an opentype font (the font should be in a Fonts folde
 Draws an entire SVG document  
   
 
-**draw.svg.path** (string svgPath) [Try it](http://localhost:40074/api/v1?/api/v1?draw.svg.path=M 184,199 116,170 53,209.6 60,136.2 4.3,88)
+**draw.svg.path** (string svgPath) [Try it](http://localhost:40074/api/v1?/api/v1?draw.svg.path=M%20184,199%20116,170%2053,209.6%2060,136.2%204.3,88)
 
 Draws the path supplied as an SVG Path string at the current brush position  
   
