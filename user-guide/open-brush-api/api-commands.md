@@ -548,7 +548,7 @@ Draws an exact brush stroke including orientation and pressure
 Draws a polygon at the current brush position. Does not move the brush position  
   
 
-**draw.text** (string text) [Try it](http://localhost:40074/api/v1?/api/v1?draw.text=hello world)
+**draw.text** (string text) [Try it](http://localhost:40074/api/v1?/api/v1?draw.text=hello%20world)
 
 Draws the characters supplied at the current brush position  
   
