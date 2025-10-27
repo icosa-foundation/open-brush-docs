@@ -1,6 +1,6 @@
 # Changelog since v2.10
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...ad7b793e35370dceb3c556090b894a604c6f4d49)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...47b1d9aae3fe80aaa69fa7b11c581c510c63756f)
 
 ## 🚀 Features
 
@@ -142,6 +142,8 @@
 - Update Zapbox SDK to 0.5.0 ([PR #927](https://github.com/icosa-foundation/open-brush/pull/927) by @tangobravo)
 
 - Bump the all-actions-updates group with 7 updates ([PR #926](https://github.com/icosa-foundation/open-brush/pull/926) by @dependabot[bot])
+
+- Bump the all-actions-updates group with 2 updates ([PR #935](https://github.com/icosa-foundation/open-brush/pull/935) by @dependabot[bot])
 
 
 ## 💬 Uncategorized
