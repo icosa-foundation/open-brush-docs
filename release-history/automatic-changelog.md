@@ -1,6 +1,6 @@
 # Changelog since v2.10
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...9b14956c577498dd3bf1f10048bbb374b176ae47)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...d28b9ab5d8d14a1b537e8ce7f8b17b62f7c9d850)
 
 ## 🚀 Features
 
@@ -90,6 +90,8 @@
 - Fix color issues with OpenXR over Meta Link ([PR #925](https://github.com/icosa-foundation/open-brush/pull/925) by @andybak)
 
 - Fixes for loading sketches with split up obj models  ([PR #932](https://github.com/icosa-foundation/open-brush/pull/932) by @andybak)
+
+- export filenames should match the same rules that Django uses ([PR #936](https://github.com/icosa-foundation/open-brush/pull/936) by @andybak)
 
 
 ## 🛠️ Infrastructure
