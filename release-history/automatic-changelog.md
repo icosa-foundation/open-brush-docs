@@ -1,6 +1,6 @@
 # Changelog since v2.10
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...d28b9ab5d8d14a1b537e8ce7f8b17b62f7c9d850)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...a0f9be6cef94c78f9eb17f9fbb3d1cfa36142000)
 
 ## 🚀 Features
 
@@ -92,6 +92,8 @@
 - Fixes for loading sketches with split up obj models  ([PR #932](https://github.com/icosa-foundation/open-brush/pull/932) by @andybak)
 
 - export filenames should match the same rules that Django uses ([PR #936](https://github.com/icosa-foundation/open-brush/pull/936) by @andybak)
+
+- Add the same new metadata extras that we add to the UnityGLTF export ([PR #938](https://github.com/icosa-foundation/open-brush/pull/938) by @andybak)
 
 
 ## 🛠️ Infrastructure
