@@ -1,6 +1,6 @@
 # Changelog since v2.10
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...a0f9be6cef94c78f9eb17f9fbb3d1cfa36142000)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...a97737fe4875053371b59efdb3b2766d3fe52d26)
 
 ## 🚀 Features
 
@@ -150,6 +150,8 @@
 - Bump the all-actions-updates group with 2 updates ([PR #935](https://github.com/icosa-foundation/open-brush/pull/935) by @dependabot[bot])
 
 - Remove Meta packages from the generic Android OpenXR build ([PR #901](https://github.com/icosa-foundation/open-brush/pull/901) by @gfodor)
+
+- Bump mikepenz/release-changelog-builder-action from 5 to 6 in the all-actions-updates group ([PR #941](https://github.com/icosa-foundation/open-brush/pull/941) by @dependabot[bot])
 
 
 ## 💬 Uncategorized
