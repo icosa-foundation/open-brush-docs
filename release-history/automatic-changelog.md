@@ -1,6 +1,6 @@
 # Changelog since v2.10
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...a97737fe4875053371b59efdb3b2766d3fe52d26)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...a88c4b94aadb6c6e278fe0b57e496d74b371d7a1)
 
 ## 🚀 Features
 
@@ -157,6 +157,8 @@
 ## 💬 Uncategorized
 
 - Fix various issues related to additive loading ([PR #889](https://github.com/icosa-foundation/open-brush/pull/889) by @andybak)
+
+- Update references from Tilt Brush to Open Brush ([PR #943](https://github.com/icosa-foundation/open-brush/pull/943) by @LakesideMiners)
 
 
 
