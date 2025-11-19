@@ -1,6 +1,6 @@
 # Changelog since v2.10
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...a88c4b94aadb6c6e278fe0b57e496d74b371d7a1)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...a7ad066e2affea21ea551651b854f64717cb0481)
 
 ## 🚀 Features
 
@@ -33,6 +33,8 @@
 - Obj import improvements ([PR #928](https://github.com/icosa-foundation/open-brush/pull/928) by @andybak)
 
 - Selective snap angle axes ([PR #930](https://github.com/icosa-foundation/open-brush/pull/930) by @andybak)
+
+- Send triangle count to Icosa on upload ([PR #945](https://github.com/icosa-foundation/open-brush/pull/945) by @andybak)
 
 
 ## 🐛 Fixes
