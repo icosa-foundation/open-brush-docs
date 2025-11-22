@@ -1,6 +1,6 @@
 # Changelog since v2.10
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...a7ad066e2affea21ea551651b854f64717cb0481)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...ffb69d0688065342cee3a32b1107557eb8b4bff5)
 
 ## 🚀 Features
 
@@ -96,6 +96,8 @@
 - export filenames should match the same rules that Django uses ([PR #936](https://github.com/icosa-foundation/open-brush/pull/936) by @andybak)
 
 - Add the same new metadata extras that we add to the UnityGLTF export ([PR #938](https://github.com/icosa-foundation/open-brush/pull/938) by @andybak)
+
+- Fix obj import via lua or HTTP API ([PR #948](https://github.com/icosa-foundation/open-brush/pull/948) by @andybak)
 
 
 ## 🛠️ Infrastructure
