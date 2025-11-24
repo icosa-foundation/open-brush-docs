@@ -1,6 +1,6 @@
 # Changelog since v2.10
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...482dbb890bd6e4bebae23fce7e7bbd1c2a338279)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...1904de37c8a5fff7fc4a889901f08f073e96447c)
 
 ## 🚀 Features
 
@@ -100,6 +100,8 @@
 - Add the same new metadata extras that we add to the UnityGLTF export ([PR #938](https://github.com/icosa-foundation/open-brush/pull/938) by @andybak)
 
 - Fix obj import via lua or HTTP API ([PR #948](https://github.com/icosa-foundation/open-brush/pull/948) by @andybak)
+
+- Vox import and grid snap fixes ([PR #949](https://github.com/icosa-foundation/open-brush/pull/949) by @andybak)
 
 
 ## 🛠️ Infrastructure
