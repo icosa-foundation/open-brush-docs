@@ -1,6 +1,6 @@
 # Changelog since v2.10
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...caa9d29d4b0ce7655a32bdb9158c2ff15bb5574b)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...2a0256458326cf8be8c842c8944b0547ba57343d)
 
 ## 🚀 Features
 
@@ -102,6 +102,8 @@
 - Fix obj import via lua or HTTP API ([PR #948](https://github.com/icosa-foundation/open-brush/pull/948) by @andybak)
 
 - Vox import and grid snap fixes ([PR #949](https://github.com/icosa-foundation/open-brush/pull/949) by @andybak)
+
+- Fix some asset loading bugs ([PR #951](https://github.com/icosa-foundation/open-brush/pull/951) by @andybak)
 
 
 ## 🛠️ Infrastructure
