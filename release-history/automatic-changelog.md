@@ -1,6 +1,6 @@
 # Changelog since v2.10
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...1904de37c8a5fff7fc4a889901f08f073e96447c)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...caa9d29d4b0ce7655a32bdb9158c2ff15bb5574b)
 
 ## 🚀 Features
 
@@ -162,6 +162,8 @@
 - Bump mikepenz/release-changelog-builder-action from 5 to 6 in the all-actions-updates group ([PR #941](https://github.com/icosa-foundation/open-brush/pull/941) by @dependabot[bot])
 
 - Bump actions/checkout from 5 to 6 in the all-actions-updates group ([PR #946](https://github.com/icosa-foundation/open-brush/pull/946) by @dependabot[bot])
+
+- Bump the all-actions-updates group with 2 updates ([PR #950](https://github.com/icosa-foundation/open-brush/pull/950) by @dependabot[bot])
 
 
 ## 💬 Uncategorized
