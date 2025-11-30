@@ -1,6 +1,6 @@
 # Changelog since v2.10
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...03b01d777a514507420723d04ffa754da2175f43)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...5ab8a8dbcdecc7ec4314acc9aaaf6b42f16bafec)
 
 ## 🚀 Features
 
@@ -108,6 +108,8 @@
 - Fix some asset loading bugs ([PR #951](https://github.com/icosa-foundation/open-brush/pull/951) by @andybak)
 
 - Fix some UI descrepancies ([PR #955](https://github.com/icosa-foundation/open-brush/pull/955) by @andybak)
+
+- Various svg bugs ([PR #954](https://github.com/icosa-foundation/open-brush/pull/954) by @andybak)
 
 
 ## 🛠️ Infrastructure
