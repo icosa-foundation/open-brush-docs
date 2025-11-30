@@ -1,6 +1,6 @@
 # Changelog since v2.10
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...2a0256458326cf8be8c842c8944b0547ba57343d)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...de21e5e59853a04ba424a0730afd80b2969fa01c)
 
 ## 🚀 Features
 
@@ -37,6 +37,8 @@
 - Send triangle count to Icosa on upload ([PR #945](https://github.com/icosa-foundation/open-brush/pull/945) by @andybak)
 
 - Vox import support ([PR #947](https://github.com/icosa-foundation/open-brush/pull/947) by @andybak)
+
+- Local Blocks model loading ([PR #953](https://github.com/icosa-foundation/open-brush/pull/953) by @andybak)
 
 
 ## 🐛 Fixes
