@@ -1,6 +1,6 @@
 # Changelog since v2.10
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...0ea1cb9c34ae814e4b944ae7887d153ec19426ba)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...dec3d9be8e7b9c1264e5069e1f9da69f302e2f21)
 
 ## 🚀 Features
 
@@ -114,6 +114,8 @@
 - Fix undo/redo when loading saved strokes ([PR #956](https://github.com/icosa-foundation/open-brush/pull/956) by @andybak)
 
 - Missing images prevented sketches from loading ([PR #957](https://github.com/icosa-foundation/open-brush/pull/957) by @andybak)
+
+- Fix loading selected strokes on Android ([PR #958](https://github.com/icosa-foundation/open-brush/pull/958) by @andybak)
 
 
 ## 🛠️ Infrastructure
