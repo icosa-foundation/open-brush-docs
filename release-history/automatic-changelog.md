@@ -1,6 +1,6 @@
 # Changelog since v2.10
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...3f326e9edd65ffe6dc9335f001d86b463424b59f)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...0ea1cb9c34ae814e4b944ae7887d153ec19426ba)
 
 ## 🚀 Features
 
@@ -112,6 +112,8 @@
 - Various svg bugs ([PR #954](https://github.com/icosa-foundation/open-brush/pull/954) by @andybak)
 
 - Fix undo/redo when loading saved strokes ([PR #956](https://github.com/icosa-foundation/open-brush/pull/956) by @andybak)
+
+- Missing images prevented sketches from loading ([PR #957](https://github.com/icosa-foundation/open-brush/pull/957) by @andybak)
 
 
 ## 🛠️ Infrastructure
