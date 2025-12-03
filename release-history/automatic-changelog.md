@@ -1,6 +1,6 @@
 # Changelog since v2.10
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...dec3d9be8e7b9c1264e5069e1f9da69f302e2f21)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...0e08251ca80a13beece58b8c314a52bea94ece64)
 
 ## 🚀 Features
 
@@ -116,6 +116,8 @@
 - Missing images prevented sketches from loading ([PR #957](https://github.com/icosa-foundation/open-brush/pull/957) by @andybak)
 
 - Fix loading selected strokes on Android ([PR #958](https://github.com/icosa-foundation/open-brush/pull/958) by @andybak)
+
+- Fix issue where model folder was merging contents of it's children ([PR #959](https://github.com/icosa-foundation/open-brush/pull/959) by @andybak)
 
 
 ## 🛠️ Infrastructure
