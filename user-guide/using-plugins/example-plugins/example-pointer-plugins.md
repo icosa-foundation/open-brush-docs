@@ -71,8 +71,6 @@ Similar to \[LaserBeam]\(example-pointer-plugins.md#laserbeam) except that you c
 
 ### Oscilloscope
 
-<div align="left"><figure><img src="../../../.gitbook/assets/pointer-oscilloscope.gif" alt="" width="375"><figcaption></figcaption></figure></div>
-
 Control your pointer with multiple waveforms to create patterns
 
 #### Parameters

@@ -49,7 +49,7 @@ To try out newer features, you can open up the Labs panel. Here you will find so
 
 ### Switch the desktop view to a spectator camera
 
-<div align="left"><figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (9) (3).png" alt=""><figcaption></figcaption></figure></div>
 
 ### Use [plugins ](using-plugins/)or run [API scripts](open-brush-api/)
 

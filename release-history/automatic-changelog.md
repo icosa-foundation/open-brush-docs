@@ -1,194 +1,166 @@
-# Changelog since v2.10
+---
+description: (due for release mid-December 2025)
+---
+
+# v2.13 "Lucky Number"
+
+## Plugin Framework
+
+<figure><img src="../.gitbook/assets/001 Plugins.png" alt=""><figcaption></figcaption></figure>
+
+Possibly our most powerful new feature ever and several years in the making.
+
+[Read more](../user-guide/using-plugins/)
+
+## Splitting Imported 3D Models
+
+<figure><img src="../.gitbook/assets/002 Break Apart.png" alt=""><figcaption></figcaption></figure>
+
+Using imported 3D models to construct or enhance your sketches is incredibly useful but often 3D models contain multiple elements and those elements are not easily separated. We've added the ability to break apart imported models - even if the model was built as a single mesh. We check for connected parts and allow you to break apart any elements that are visually separate.
+
+## Saved Stroke Gallery
+
+<figure><img src="../.gitbook/assets/003 Save Selected.png" alt=""><figcaption></figcaption></figure>
+
+We previously had a feature that allowed you to export selected parts of your sketch as 3d models. This had several drawbacks: it was PC-only, brush strokes ceased to be editable or selectable and their appearance often changed due to the conversion process.
+
+We've now implemented the ability to save any selected brush strokes without converting them into a 3d mesh. Now when they are added back to your scene they are grouped strokes and can be ungrouped, re-colored, re-brushed and anything else you can do with regular brush strokes.
+
+## VOX File Import
+
+<figure><img src="../.gitbook/assets/004 Vox Import.png" alt=""><figcaption></figcaption></figure>
+
+The Magicavoxel .vox format is the standard file format for models created in a wide range of voxel editing apps. You can now import them like you can other 3d model formats and construct entire scenes from them. if you want them to remain aligned to their original grid then set grid snap to 0.1 and angle snap to 90 before importing.
+
+## Publish Worlds to Viverse
+
+<figure><img src="../.gitbook/assets/005 Viverse.png" alt=""><figcaption></figcaption></figure>
+
+Viverse is a web-
+
+## Import Directly From Open Blocks
+
+<figure><img src="../.gitbook/assets/006 Blocks import.png" alt=""><figcaption></figcaption></figure>
+
+Our sibling application [Open Blocks](https://openblocks.app/) is an incredibly intuitive low-poly 3d modelling app for PC and standalone VR devices. If you've installed it then any models you save locally can easily be imported via the standard 3D model library browser.
+
+## Camera Path Rendering on All Devices
+
+<figure><img src="../.gitbook/assets/007 Render Video as Stills.png" alt=""><figcaption></figcaption></figure>
+
+Camera paths are a powerful way to render a standard or 360 video fly-through of your creations. However we only support rendering video directly on desktop (PC or Mac) and it was fiddly to copy sketches off standalone headsets such as the Quest and then render videos using the generated scripts. \
+\
+We've now made the process easier. You can now render the video frames directly on devices that don't support generating video files directly. These frames can be converted into a regular video in multiple ways - uploading to a web service, importing into a video editing app etc.
+
+## View-only Mode Improvements
+
+<figure><img src="../.gitbook/assets/009 View Mode Improvements.png" alt=""><figcaption></figcaption></figure>
+
+Not enough people realise that Open Brush runs as sketch viewer on all Mac, PC, Android devices even when those devices have no VR support. This release has improved the navigation controls. Touch support on phones is more intuitive and standard gamepads should work as expected. Try installing from Steam on Steam Deck or similar handheld devices.
+
+Furthermore you can now browse more sample sketches which are loaded directly from the [Icosa Gallery](https://icosa.gallery/). Non-VR devices also support interacting with Open Brush via the [Web API](../user-guide/open-brush-api/) or [monoscopic mode](../user-guide/monoscopic-mode.md).
+
+## Full Change Log:
 
 [Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...0e08251ca80a13beece58b8c314a52bea94ece64)
 
-## 🚀 Features
-
-- Plugin scripting ([PR #699](https://github.com/icosa-foundation/open-brush/pull/699) by @andybak)
-
-- Enable axis locking for guides ([PR #856](https://github.com/icosa-foundation/open-brush/pull/856) by @andybak)
-
-- Icosa Gallery Integration ([PR #865](https://github.com/icosa-foundation/open-brush/pull/865) by @andybak)
-
-- Increase the default and max complexity for Icosa models ([PR #868](https://github.com/icosa-foundation/open-brush/pull/868) by @andybak)
-
-- UI tweaks ([PR #877](https://github.com/icosa-foundation/open-brush/pull/877) by @andybak)
-
-- Mesh splitting ([PR #880](https://github.com/icosa-foundation/open-brush/pull/880) by @andybak)
-
-- Harmonize panels between PC and mobile ([PR #885](https://github.com/icosa-foundation/open-brush/pull/885) by @andybak)
-
-- Non VR mode improvements ([PR #888](https://github.com/icosa-foundation/open-brush/pull/888) by @andybak)
-
-- Save selected strokes ([PR #711](https://github.com/icosa-foundation/open-brush/pull/711) by @andybak)
-
-- Still frame export ([PR #893](https://github.com/icosa-foundation/open-brush/pull/893) by @andybak)
-
-- Allow symmetry modes to affect Tool Plugin output ([PR #897](https://github.com/icosa-foundation/open-brush/pull/897) by @andybak)
-
-- Better saved strokes ux ([PR #912](https://github.com/icosa-foundation/open-brush/pull/912) by @andybak)
-
-- Various small plugin scripting improvements ([PR #916](https://github.com/icosa-foundation/open-brush/pull/916) by @andybak)
-
-- Obj import improvements ([PR #928](https://github.com/icosa-foundation/open-brush/pull/928) by @andybak)
-
-- Selective snap angle axes ([PR #930](https://github.com/icosa-foundation/open-brush/pull/930) by @andybak)
-
-- Send triangle count to Icosa on upload ([PR #945](https://github.com/icosa-foundation/open-brush/pull/945) by @andybak)
-
-- Vox import support ([PR #947](https://github.com/icosa-foundation/open-brush/pull/947) by @andybak)
-
-- Local Blocks model loading ([PR #953](https://github.com/icosa-foundation/open-brush/pull/953) by @andybak)
-
-
-## 🐛 Fixes
-
-- Fix/plugin merge fixes ([PR #848](https://github.com/icosa-foundation/open-brush/pull/848) by @andybak)
-
-- Remove old "not supported" code that sneaked back in with plugin merge ([PR #849](https://github.com/icosa-foundation/open-brush/pull/849) by @andybak)
-
-- Prevent error loading image widgets from old sketches ([PR #853](https://github.com/icosa-foundation/open-brush/pull/853) by @andybak)
-
-- Fix bug where the layers panel doesn't init if it's not open when a sketch is loaded ([PR #854](https://github.com/icosa-foundation/open-brush/pull/854) by @andybak)
-
-- Fix cloning widgets and strokes to multiple symmetry targets ([PR #855](https://github.com/icosa-foundation/open-brush/pull/855) by @andybak)
-
-- Minor plugin scripting fixes ([PR #863](https://github.com/icosa-foundation/open-brush/pull/863) by @andybak)
-
-- Fix bug where the sketch dropdown was empty after viewing a sketch ([PR #867](https://github.com/icosa-foundation/open-brush/pull/867) by @andybak)
-
-- Blocks Icosa obj support ([PR #870](https://github.com/icosa-foundation/open-brush/pull/870) by @andybak)
-
-- Use indices rather than InstanceId to ensure unique names that persist across sessions ([PR #878](https://github.com/icosa-foundation/open-brush/pull/878) by @andybak)
-
-- Split models not model widgets ([PR #881](https://github.com/icosa-foundation/open-brush/pull/881) by @andybak)
-
-- Partial fix for "Smoke" and WIP support for baking more than just vertex position ([PR #883](https://github.com/icosa-foundation/open-brush/pull/883) by @andybak)
-
-- Ignore material instance naming when matching brushes ([PR #884](https://github.com/icosa-foundation/open-brush/pull/884) by @andybak)
-
-- Saved Strokes Quest Bugfixes ([PR #892](https://github.com/icosa-foundation/open-brush/pull/892) by @andybak)
-
-- PR 893 minor fixes ([PR #896](https://github.com/icosa-foundation/open-brush/pull/896) by @andybak)
-
-- Example media files copying issues ([PR #898](https://github.com/icosa-foundation/open-brush/pull/898) by @andybak)
-
-- GLTF files on android have no textures ([PR #899](https://github.com/icosa-foundation/open-brush/pull/899) by @andybak)
-
-- Restore animation behaviour for GLTF imports ([PR #903](https://github.com/icosa-foundation/open-brush/pull/903) by @andybak)
-
-- Fix animations not working due to node renaming for uniqueness ([PR #904](https://github.com/icosa-foundation/open-brush/pull/904) by @andybak)
-
-- Switch to legacy animation mode ([PR #911](https://github.com/icosa-foundation/open-brush/pull/911) by @andybak)
-
-- Fix coordinate space when calculating save icon for selected strokes ([PR #914](https://github.com/icosa-foundation/open-brush/pull/914) by @andybak)
-
-- More Saved Stroke Fixes ([PR #915](https://github.com/icosa-foundation/open-brush/pull/915) by @andybak)
-
-- Fix GLTF blend shape import ([PR #918](https://github.com/icosa-foundation/open-brush/pull/918) by @andybak)
-
-- Fix API brush smoothing logic ([PR #920](https://github.com/icosa-foundation/open-brush/pull/920) by @andybak)
-
-- Small plugin fixes and tweaks ([PR #921](https://github.com/icosa-foundation/open-brush/pull/921) by @andybak)
-
-- Fix icosa login success message ([PR #924](https://github.com/icosa-foundation/open-brush/pull/924) by @andybak)
-
-- Fix color issues with OpenXR over Meta Link ([PR #925](https://github.com/icosa-foundation/open-brush/pull/925) by @andybak)
-
-- Fixes for loading sketches with split up obj models  ([PR #932](https://github.com/icosa-foundation/open-brush/pull/932) by @andybak)
-
-- export filenames should match the same rules that Django uses ([PR #936](https://github.com/icosa-foundation/open-brush/pull/936) by @andybak)
-
-- Add the same new metadata extras that we add to the UnityGLTF export ([PR #938](https://github.com/icosa-foundation/open-brush/pull/938) by @andybak)
-
-- Fix obj import via lua or HTTP API ([PR #948](https://github.com/icosa-foundation/open-brush/pull/948) by @andybak)
-
-- Vox import and grid snap fixes ([PR #949](https://github.com/icosa-foundation/open-brush/pull/949) by @andybak)
-
-- Fix some asset loading bugs ([PR #951](https://github.com/icosa-foundation/open-brush/pull/951) by @andybak)
-
-- Fix some UI descrepancies ([PR #955](https://github.com/icosa-foundation/open-brush/pull/955) by @andybak)
-
-- Various svg bugs ([PR #954](https://github.com/icosa-foundation/open-brush/pull/954) by @andybak)
-
-- Fix undo/redo when loading saved strokes ([PR #956](https://github.com/icosa-foundation/open-brush/pull/956) by @andybak)
-
-- Missing images prevented sketches from loading ([PR #957](https://github.com/icosa-foundation/open-brush/pull/957) by @andybak)
-
-- Fix loading selected strokes on Android ([PR #958](https://github.com/icosa-foundation/open-brush/pull/958) by @andybak)
-
-- Fix issue where model folder was merging contents of it's children ([PR #959](https://github.com/icosa-foundation/open-brush/pull/959) by @andybak)
-
-
-## 🛠️ Infrastructure
-
-- Disable push of the Q1 build to Oculus (finally blocked by them) ([PR #850](https://github.com/icosa-foundation/open-brush/pull/850) by @mikeage)
-
-- Add support for periodically (monthly) rebuilding a PR ([PR #858](https://github.com/icosa-foundation/open-brush/pull/858) by @mikeage)
-
-- Fix broken workflow ([PR #859](https://github.com/icosa-foundation/open-brush/pull/859) by @mikeage)
-
-- Do not save caches from development builds ([PR #866](https://github.com/icosa-foundation/open-brush/pull/866) by @mikeage)
-
-- Only run the periodic rebuilds on the main repo, not on any forks ([PR #869](https://github.com/icosa-foundation/open-brush/pull/869) by @mikeage)
-
-- Add PICO 4 Ultra and PICO 4 Pro ([PR #874](https://github.com/icosa-foundation/open-brush/pull/874) by @mikeage)
-
-- Add gitleaks to pre-commit and update all hooks ([PR #875](https://github.com/icosa-foundation/open-brush/pull/875) by @mikeage)
-
-- Replace --version with --version_id ([PR #879](https://github.com/icosa-foundation/open-brush/pull/879) by @mikeage)
-
-- Remove periodic rebuild since it doesn't work if a workflow was originally run over 30 days ago ([PR #882](https://github.com/icosa-foundation/open-brush/pull/882) by @mikeage)
-
-- Add sleep before setting the release channel version for ArborXR ([PR #886](https://github.com/icosa-foundation/open-brush/pull/886) by @mikeage)
-
-- Add Mac (non-VR) releases to Itch ([PR #890](https://github.com/icosa-foundation/open-brush/pull/890) by @mikeage)
-
-- Disable LFS in wretry (fixes intermittent build failures at the beginning) ([PR #907](https://github.com/icosa-foundation/open-brush/pull/907) by @mikeage)
-
-- Fix ArborXR upload again (use the --wait option) ([PR #908](https://github.com/icosa-foundation/open-brush/pull/908) by @mikeage)
-
-- Fix builds from forks with just main (no tags) ([PR #902](https://github.com/icosa-foundation/open-brush/pull/902) by @mikeage)
-
-- Improve build resiliency ([PR #909](https://github.com/icosa-foundation/open-brush/pull/909) by @mikeage)
-
-- Fix spelling mistake in non-gnu style arg ([PR #910](https://github.com/icosa-foundation/open-brush/pull/910) by @mikeage)
-
-- Unity version bump ([PR #922](https://github.com/icosa-foundation/open-brush/pull/922) by @andybak)
-
-- Sync tags ([PR #923](https://github.com/icosa-foundation/open-brush/pull/923) by @mikeage)
-
-- Sync tags ([PR #929](https://github.com/icosa-foundation/open-brush/pull/929) by @mikeage)
-
-- Make Open Brush TEENS_AND_ADULTS on Quest  ([PR #934](https://github.com/icosa-foundation/open-brush/pull/934) by @mikeage)
-
-
-## 📦 Dependencies / Maintenance
-
-- Bump rexml from 3.3.9 to 3.4.2 in the bundler group across 1 directory ([PR #913](https://github.com/icosa-foundation/open-brush/pull/913) by @dependabot[bot])
-
-- Update Zapbox SDK to 0.5.0 ([PR #927](https://github.com/icosa-foundation/open-brush/pull/927) by @tangobravo)
-
-- Bump the all-actions-updates group with 7 updates ([PR #926](https://github.com/icosa-foundation/open-brush/pull/926) by @dependabot[bot])
-
-- Bump the all-actions-updates group with 2 updates ([PR #935](https://github.com/icosa-foundation/open-brush/pull/935) by @dependabot[bot])
-
-- Remove Meta packages from the generic Android OpenXR build ([PR #901](https://github.com/icosa-foundation/open-brush/pull/901) by @gfodor)
-
-- Bump mikepenz/release-changelog-builder-action from 5 to 6 in the all-actions-updates group ([PR #941](https://github.com/icosa-foundation/open-brush/pull/941) by @dependabot[bot])
-
-- Bump actions/checkout from 5 to 6 in the all-actions-updates group ([PR #946](https://github.com/icosa-foundation/open-brush/pull/946) by @dependabot[bot])
-
-- Bump the all-actions-updates group with 2 updates ([PR #950](https://github.com/icosa-foundation/open-brush/pull/950) by @dependabot[bot])
-
-
-## 💬 Uncategorized
-
-- Fix various issues related to additive loading ([PR #889](https://github.com/icosa-foundation/open-brush/pull/889) by @andybak)
-
-- Update references from Tilt Brush to Open Brush ([PR #943](https://github.com/icosa-foundation/open-brush/pull/943) by @LakesideMiners)
-
-
-
-
-
+### 🚀 Features
+
+* Plugin scripting ([PR #699](https://github.com/icosa-foundation/open-brush/pull/699) by @andybak)
+* Enable axis locking for guides ([PR #856](https://github.com/icosa-foundation/open-brush/pull/856) by @andybak)
+* Icosa Gallery Integration ([PR #865](https://github.com/icosa-foundation/open-brush/pull/865) by @andybak)
+* Increase the default and max complexity for Icosa models ([PR #868](https://github.com/icosa-foundation/open-brush/pull/868) by @andybak)
+* UI tweaks ([PR #877](https://github.com/icosa-foundation/open-brush/pull/877) by @andybak)
+* Mesh splitting ([PR #880](https://github.com/icosa-foundation/open-brush/pull/880) by @andybak)
+* Harmonize panels between PC and mobile ([PR #885](https://github.com/icosa-foundation/open-brush/pull/885) by @andybak)
+* Non VR mode improvements ([PR #888](https://github.com/icosa-foundation/open-brush/pull/888) by @andybak)
+* Save selected strokes ([PR #711](https://github.com/icosa-foundation/open-brush/pull/711) by @andybak)
+* Still frame export ([PR #893](https://github.com/icosa-foundation/open-brush/pull/893) by @andybak)
+* Allow symmetry modes to affect Tool Plugin output ([PR #897](https://github.com/icosa-foundation/open-brush/pull/897) by @andybak)
+* Better saved strokes ux ([PR #912](https://github.com/icosa-foundation/open-brush/pull/912) by @andybak)
+* Various small plugin scripting improvements ([PR #916](https://github.com/icosa-foundation/open-brush/pull/916) by @andybak)
+* Obj import improvements ([PR #928](https://github.com/icosa-foundation/open-brush/pull/928) by @andybak)
+* Selective snap angle axes ([PR #930](https://github.com/icosa-foundation/open-brush/pull/930) by @andybak)
+* Send triangle count to Icosa on upload ([PR #945](https://github.com/icosa-foundation/open-brush/pull/945) by @andybak)
+* Vox import support ([PR #947](https://github.com/icosa-foundation/open-brush/pull/947) by @andybak)
+* Local Blocks model loading ([PR #953](https://github.com/icosa-foundation/open-brush/pull/953) by @andybak)
+
+### 🐛 Fixes
+
+* Fix/plugin merge fixes ([PR #848](https://github.com/icosa-foundation/open-brush/pull/848) by @andybak)
+* Remove old "not supported" code that sneaked back in with plugin merge ([PR #849](https://github.com/icosa-foundation/open-brush/pull/849) by @andybak)
+* Prevent error loading image widgets from old sketches ([PR #853](https://github.com/icosa-foundation/open-brush/pull/853) by @andybak)
+* Fix bug where the layers panel doesn't init if it's not open when a sketch is loaded ([PR #854](https://github.com/icosa-foundation/open-brush/pull/854) by @andybak)
+* Fix cloning widgets and strokes to multiple symmetry targets ([PR #855](https://github.com/icosa-foundation/open-brush/pull/855) by @andybak)
+* Minor plugin scripting fixes ([PR #863](https://github.com/icosa-foundation/open-brush/pull/863) by @andybak)
+* Fix bug where the sketch dropdown was empty after viewing a sketch ([PR #867](https://github.com/icosa-foundation/open-brush/pull/867) by @andybak)
+* Blocks Icosa obj support ([PR #870](https://github.com/icosa-foundation/open-brush/pull/870) by @andybak)
+* Use indices rather than InstanceId to ensure unique names that persist across sessions ([PR #878](https://github.com/icosa-foundation/open-brush/pull/878) by @andybak)
+* Split models not model widgets ([PR #881](https://github.com/icosa-foundation/open-brush/pull/881) by @andybak)
+* Partial fix for "Smoke" and WIP support for baking more than just vertex position ([PR #883](https://github.com/icosa-foundation/open-brush/pull/883) by @andybak)
+* Ignore material instance naming when matching brushes ([PR #884](https://github.com/icosa-foundation/open-brush/pull/884) by @andybak)
+* Saved Strokes Quest Bugfixes ([PR #892](https://github.com/icosa-foundation/open-brush/pull/892) by @andybak)
+* PR 893 minor fixes ([PR #896](https://github.com/icosa-foundation/open-brush/pull/896) by @andybak)
+* Example media files copying issues ([PR #898](https://github.com/icosa-foundation/open-brush/pull/898) by @andybak)
+* GLTF files on android have no textures ([PR #899](https://github.com/icosa-foundation/open-brush/pull/899) by @andybak)
+* Restore animation behaviour for GLTF imports ([PR #903](https://github.com/icosa-foundation/open-brush/pull/903) by @andybak)
+* Fix animations not working due to node renaming for uniqueness ([PR #904](https://github.com/icosa-foundation/open-brush/pull/904) by @andybak)
+* Switch to legacy animation mode ([PR #911](https://github.com/icosa-foundation/open-brush/pull/911) by @andybak)
+* Fix coordinate space when calculating save icon for selected strokes ([PR #914](https://github.com/icosa-foundation/open-brush/pull/914) by @andybak)
+* More Saved Stroke Fixes ([PR #915](https://github.com/icosa-foundation/open-brush/pull/915) by @andybak)
+* Fix GLTF blend shape import ([PR #918](https://github.com/icosa-foundation/open-brush/pull/918) by @andybak)
+* Fix API brush smoothing logic ([PR #920](https://github.com/icosa-foundation/open-brush/pull/920) by @andybak)
+* Small plugin fixes and tweaks ([PR #921](https://github.com/icosa-foundation/open-brush/pull/921) by @andybak)
+* Fix icosa login success message ([PR #924](https://github.com/icosa-foundation/open-brush/pull/924) by @andybak)
+* Fix color issues with OpenXR over Meta Link ([PR #925](https://github.com/icosa-foundation/open-brush/pull/925) by @andybak)
+* Fixes for loading sketches with split up obj models ([PR #932](https://github.com/icosa-foundation/open-brush/pull/932) by @andybak)
+* export filenames should match the same rules that Django uses ([PR #936](https://github.com/icosa-foundation/open-brush/pull/936) by @andybak)
+* Add the same new metadata extras that we add to the UnityGLTF export ([PR #938](https://github.com/icosa-foundation/open-brush/pull/938) by @andybak)
+* Fix obj import via lua or HTTP API ([PR #948](https://github.com/icosa-foundation/open-brush/pull/948) by @andybak)
+* Vox import and grid snap fixes ([PR #949](https://github.com/icosa-foundation/open-brush/pull/949) by @andybak)
+* Fix some asset loading bugs ([PR #951](https://github.com/icosa-foundation/open-brush/pull/951) by @andybak)
+* Fix some UI descrepancies ([PR #955](https://github.com/icosa-foundation/open-brush/pull/955) by @andybak)
+* Various svg bugs ([PR #954](https://github.com/icosa-foundation/open-brush/pull/954) by @andybak)
+* Fix undo/redo when loading saved strokes ([PR #956](https://github.com/icosa-foundation/open-brush/pull/956) by @andybak)
+* Missing images prevented sketches from loading ([PR #957](https://github.com/icosa-foundation/open-brush/pull/957) by @andybak)
+* Fix loading selected strokes on Android ([PR #958](https://github.com/icosa-foundation/open-brush/pull/958) by @andybak)
+* Fix issue where model folder was merging contents of it's children ([PR #959](https://github.com/icosa-foundation/open-brush/pull/959) by @andybak)
+
+### 🛠️ Infrastructure
+
+* Disable push of the Q1 build to Oculus (finally blocked by them) ([PR #850](https://github.com/icosa-foundation/open-brush/pull/850) by @mikeage)
+* Add support for periodically (monthly) rebuilding a PR ([PR #858](https://github.com/icosa-foundation/open-brush/pull/858) by @mikeage)
+* Fix broken workflow ([PR #859](https://github.com/icosa-foundation/open-brush/pull/859) by @mikeage)
+* Do not save caches from development builds ([PR #866](https://github.com/icosa-foundation/open-brush/pull/866) by @mikeage)
+* Only run the periodic rebuilds on the main repo, not on any forks ([PR #869](https://github.com/icosa-foundation/open-brush/pull/869) by @mikeage)
+* Add PICO 4 Ultra and PICO 4 Pro ([PR #874](https://github.com/icosa-foundation/open-brush/pull/874) by @mikeage)
+* Add gitleaks to pre-commit and update all hooks ([PR #875](https://github.com/icosa-foundation/open-brush/pull/875) by @mikeage)
+* Replace --version with --version\_id ([PR #879](https://github.com/icosa-foundation/open-brush/pull/879) by @mikeage)
+* Remove periodic rebuild since it doesn't work if a workflow was originally run over 30 days ago ([PR #882](https://github.com/icosa-foundation/open-brush/pull/882) by @mikeage)
+* Add sleep before setting the release channel version for ArborXR ([PR #886](https://github.com/icosa-foundation/open-brush/pull/886) by @mikeage)
+* Add Mac (non-VR) releases to Itch ([PR #890](https://github.com/icosa-foundation/open-brush/pull/890) by @mikeage)
+* Disable LFS in wretry (fixes intermittent build failures at the beginning) ([PR #907](https://github.com/icosa-foundation/open-brush/pull/907) by @mikeage)
+* Fix ArborXR upload again (use the --wait option) ([PR #908](https://github.com/icosa-foundation/open-brush/pull/908) by @mikeage)
+* Fix builds from forks with just main (no tags) ([PR #902](https://github.com/icosa-foundation/open-brush/pull/902) by @mikeage)
+* Improve build resiliency ([PR #909](https://github.com/icosa-foundation/open-brush/pull/909) by @mikeage)
+* Fix spelling mistake in non-gnu style arg ([PR #910](https://github.com/icosa-foundation/open-brush/pull/910) by @mikeage)
+* Unity version bump ([PR #922](https://github.com/icosa-foundation/open-brush/pull/922) by @andybak)
+* Sync tags ([PR #923](https://github.com/icosa-foundation/open-brush/pull/923) by @mikeage)
+* Sync tags ([PR #929](https://github.com/icosa-foundation/open-brush/pull/929) by @mikeage)
+* Make Open Brush TEENS\_AND\_ADULTS on Quest ([PR #934](https://github.com/icosa-foundation/open-brush/pull/934) by @mikeage)
+
+### 📦 Dependencies / Maintenance
+
+* Bump rexml from 3.3.9 to 3.4.2 in the bundler group across 1 directory ([PR #913](https://github.com/icosa-foundation/open-brush/pull/913) by @dependabot\[bot])
+* Update Zapbox SDK to 0.5.0 ([PR #927](https://github.com/icosa-foundation/open-brush/pull/927) by @tangobravo)
+* Bump the all-actions-updates group with 7 updates ([PR #926](https://github.com/icosa-foundation/open-brush/pull/926) by @dependabot\[bot])
+* Bump the all-actions-updates group with 2 updates ([PR #935](https://github.com/icosa-foundation/open-brush/pull/935) by @dependabot\[bot])
+* Remove Meta packages from the generic Android OpenXR build ([PR #901](https://github.com/icosa-foundation/open-brush/pull/901) by @gfodor)
+* Bump mikepenz/release-changelog-builder-action from 5 to 6 in the all-actions-updates group ([PR #941](https://github.com/icosa-foundation/open-brush/pull/941) by @dependabot\[bot])
+* Bump actions/checkout from 5 to 6 in the all-actions-updates group ([PR #946](https://github.com/icosa-foundation/open-brush/pull/946) by @dependabot\[bot])
+* Bump the all-actions-updates group with 2 updates ([PR #950](https://github.com/icosa-foundation/open-brush/pull/950) by @dependabot\[bot])
+
+### 💬 Uncategorized
+
+* Fix various issues related to additive loading ([PR #889](https://github.com/icosa-foundation/open-brush/pull/889) by @andybak)
+* Update references from Tilt Brush to Open Brush ([PR #943](https://github.com/icosa-foundation/open-brush/pull/943) by @LakesideMiners)

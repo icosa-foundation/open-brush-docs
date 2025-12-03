@@ -2,15 +2,7 @@
 
 #### Status: Released in [v2.4](../../release-history/v2.4-prismatic.md)
 
-<div>
-
-<figure><img src="../../.gitbook/assets/image (36).png" alt="" width="397"><figcaption></figcaption></figure>
-
- 
-
-<figure><img src="../../.gitbook/assets/image (40).png" alt="" width="410"><figcaption></figcaption></figure>
-
-</div>
+<div><figure><img src="../../.gitbook/assets/image (36).png" alt="" width="397"><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/image (39) (1).png" alt="" width="410"><figcaption></figcaption></figure></div>
 
 ### What does it do?
 

@@ -12,22 +12,16 @@ The large central button opens the Sketchbook Panel.
 
 Around the outside are buttons for:
 
-1. Save Sketch\
-
+1. Save Sketch\\
 2. Upload Panel\
-   ![](<../../../.gitbook/assets/image (45).png>)\
-
+   ![](<../../../.gitbook/assets/image (45).png>)\\
 3. The 3 dots "more" button opens this:\
-   ![](<../../../.gitbook/assets/image (31).png>)\
+   ![](<../../../.gitbook/assets/image (30) (1).png>)\
    \
    A popup with:
    1. Tutorial
    2. [Labs Panel](labs-panel.md)
    3. [Settings Panel](settings.md)
-   4. (small button underneath) Reset Panels: resets all panels to their default position/visibility\
-
-4. Beginner/Advanced mode toggle\
-
-5. New Sketch\
-
-
+   4. (small button underneath) Reset Panels: resets all panels to their default position/visibility\\
+4. Beginner/Advanced mode toggle\\
+5. New Sketch\\

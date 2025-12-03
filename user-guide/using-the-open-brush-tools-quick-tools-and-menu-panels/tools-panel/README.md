@@ -9,12 +9,12 @@
     3. To disable the eraser, select the icon again.
 
     Note: To erase your last brush stroke quickly, you can also use Undo. To use Undo, press the left side of the palette controller’s disk. You can also use Undo if you accidentally erase a brush stroke.
-2. **Dropper Tool**. To select the brush and color used for a stroke or the color in a reference image:&#x20;
-   1. Position your controller on the brush stroke or the color in an image you want.&#x20;
+2. **Dropper Tool**. To select the brush and color used for a stroke or the color in a reference image:
+   1. Position your controller on the brush stroke or the color in an image you want.
    2. Press the trigger to confirm. Your brush type, color and size will be copied.
    3. To disable the dropper, click the icon again
 3. [Repaint Tool](../../repaint-tool.md)
-4.  **Camera  Tool**. Use Cameras to save your creation in various formats.
+4.  **Camera Tool**. Use Cameras to save your creation in various formats.
 
     1. Point your painting controller towards the palette and select Cameras.
     2. On your painting controller, swipe the thumbpad (HTC Vive) or thumbstick (Oculus Rift and Windows Mixed Reality) right or left to access the Camera options.
@@ -27,8 +27,7 @@
     Long-press the camera tool to access the camera settings:
 
     \
-    ![](<../../../.gitbook/assets/image (43).png>)\
-
+    ![](<../../../.gitbook/assets/image (43).png>)\\
 5.  **Teleport Tool**. To virtually hop to a different spot in your environment, use Teleport.
 
     1. Point your painting controller towards the palette and select Teleport.
@@ -49,14 +48,13 @@
 
     To select everything in a scene, long press on the Select button on the Tools panel and the Select All button will appear.
 
-    ### **Invert Selection** ![](../../../.gitbook/assets/16.png)
+    #### **Invert Selection** ![](../../../.gitbook/assets/16.png)
 
     To invert a selection that you have just made, long press on the Select button on the Tools panel and the Invert Selection button will appear.
 
-    ### Toggle Grouping for Selection ![](<../../../.gitbook/assets/image (6) (1).png>)
+    #### Toggle Grouping for Selection ![](<../../../.gitbook/assets/image (6) (1).png>)
 
-    Combines the currently selected strokes into a single group. They will move and scale as one. You can ungroup them easily by clicking again.\
-
+    Combines the currently selected strokes into a single group. They will move and scale as one. You can ungroup them easily by clicking again.\\
 7.  **Mirror Tool**. Use the mirror mode tool to paint symmetrically. To use the tool:
 
     1. Point your painting controller towards the palette and select Mirror Mode.
@@ -88,6 +86,3 @@ The following tools only appear in [Advanced Mode](../the-admin-panel/settings.m
 6. Join
 
 Additionally in Advanced Mode the Environment Panel button moves to the [Extras Panel](../extras-panel/)
-
-
-

@@ -2,7 +2,7 @@
 
 New features are usually developed on a separate branch of the project until they are ready to be merged into the current beta release. In most cases you can download builds of these branches and try them out yourself.
 
-**In the sidebar to the left** we list the major alternative versions that are currently available, explain their features and what state they are currently in.&#x20;
+**In the sidebar to the left** we list the major alternative versions that are currently available, explain their features and what state they are currently in.
 
 Some features are might spend months or years as separate builds. The person who started them might have got too busy to continue the work or they might just not be suitable in their current state. In most cases we will attempt to keep them up to date with the main release so they will have all the current beta release features _as well as_ the extra things they bring to the table.
 
@@ -10,8 +10,8 @@ Some features are might spend months or years as separate builds. The person who
 
 [List of changes in the current beta version](https://docs.openbrush.app/release-history/automatic-changelog)
 
-{% content-ref url="../release-history/automatic-changelog.md" %}
-[automatic-changelog.md](../release-history/automatic-changelog.md)
+{% content-ref url="../release-history/automatic-changelog-1.md" %}
+[automatic-changelog-1.md](../release-history/automatic-changelog-1.md)
 {% endcontent-ref %}
 
 Whenever any new change is added to Open Brush, before it's released to the various stores and sites, there is an engineering "pre-release" version available. If you'd like to help beta test new versions, you can get these builds as soon as the new code is added (generally within 20 minutes!). Windows (SteamVR) and Quest/Quest 2 versions are built automatically which you can get from the [Github releases page](https://github.com/icosa-foundation/open-brush/releases). Versions of the form "vX.Y.0" are official releases, whereas versions that do not end in .0 are made available for testing purposes only, with no guarantees as to their quality.

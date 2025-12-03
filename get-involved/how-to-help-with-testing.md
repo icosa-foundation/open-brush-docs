@@ -8,7 +8,7 @@ The beta version is _usually_ fairly solid but testing is invaluable - especiall
 \
 The best way to help test is to switch to using it instead of the normal version of Open Brush and to report any issues you find by posting to our [Support Forum](https://discord.com/channels/783806589991780412/1019733473797341225) on Discord (or if you need to chat before you're confident enough to report a bug, just post in the [General channel](https://discord.com/channels/783806589991780412/783806589991780415))
 
-To help you focus on testing the right things you can see a list of [changes and new features in the beta version here.](../release-history/automatic-changelog.md)
+To help you focus on testing the right things you can see a list of [changes and new features in the beta version here.](../release-history/automatic-changelog-1.md)
 
 ## Testing Pull Requests
 
