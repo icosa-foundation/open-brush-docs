@@ -10,8 +10,8 @@ Some features are might spend months or years as separate builds. The person who
 
 [List of changes in the current beta version](https://docs.openbrush.app/release-history/automatic-changelog)
 
-{% content-ref url="../release-history/automatic-changelog-1.md" %}
-[automatic-changelog-1.md](../release-history/automatic-changelog-1.md)
+{% content-ref url="../release-history/automatic-changelog.md" %}
+[automatic-changelog.md](../release-history/automatic-changelog.md)
 {% endcontent-ref %}
 
 Whenever any new change is added to Open Brush, before it's released to the various stores and sites, there is an engineering "pre-release" version available. If you'd like to help beta test new versions, you can get these builds as soon as the new code is added (generally within 20 minutes!). Windows (SteamVR) and Quest/Quest 2 versions are built automatically which you can get from the [Github releases page](https://github.com/icosa-foundation/open-brush/releases). Versions of the form "vX.Y.0" are official releases, whereas versions that do not end in .0 are made available for testing purposes only, with no guarantees as to their quality.

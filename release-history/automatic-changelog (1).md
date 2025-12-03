@@ -1,8 +1,70 @@
-# Current Beta Release Notes
+---
+description: (due for release mid-December 2025)
+---
+
+# v2.13 "Lucky Number"
+
+## Plugin Framework
+
+<figure><img src="../.gitbook/assets/001 Plugins.png" alt=""><figcaption></figcaption></figure>
+
+Possibly our most powerful new feature ever and several years in the making. Plugins are small lua scripts that can hook into Open Brush to modify how existing painting tools work or create entirely new tools. We've shipped an extensive range of examples that expand the creative palette you have available and serve as jumping off points for those of you that would like to create your own plugins and (hopefully) share them.
+
+[Read more](../user-guide/using-plugins/)
+
+## Splitting Imported 3D Models
+
+<figure><img src="../.gitbook/assets/002 Break Apart.png" alt=""><figcaption></figcaption></figure>
+
+Using imported 3D models to construct or enhance your sketches is incredibly useful but often 3D models contain multiple elements and those elements are not easily separated. We've added the ability to break apart imported models - even if the model was built as a single mesh. We check for connected parts and allow you to break apart any elements that are visually separate.
+
+## Saved Stroke Gallery
+
+<figure><img src="../.gitbook/assets/003 Save Selected.png" alt=""><figcaption></figcaption></figure>
+
+We previously had a feature that allowed you to export selected parts of your sketch as 3d models. This had several drawbacks: it was PC-only, brush strokes ceased to be editable or selectable and their appearance often changed due to the conversion process.
+
+We've now implemented the ability to save any selected brush strokes without converting them into a 3d mesh. Now when they are added back to your scene they are grouped strokes and can be ungrouped, re-colored, re-brushed and anything else you can do with regular brush strokes.
+
+## VOX File Import
+
+<figure><img src="../.gitbook/assets/004 Vox Import.png" alt=""><figcaption></figcaption></figure>
+
+The Magicavoxel .vox format is the standard file format for models created in a wide range of voxel editing apps. You can now import them like you can other 3d model formats and construct entire scenes from them. if you want them to remain aligned to their original grid then set grid snap to 0.1 and angle snap to 90 before importing.
+
+## Publish Worlds to Viverse
+
+<figure><img src="../.gitbook/assets/005 Viverse.png" alt=""><figcaption></figcaption></figure>
+
+You can now publish Open Brush sketches directly to Viverse with a couple of clicks. [Viverse](https://www.viverse.com/) is a platform that allows you to share 3D worlds on anything from phones and tablets, PC and Mac and on VR headset that has a web browser. Worlds can be made public and social allowing you to join other people in exploring immersive spaces.&#x20;
+
+## Import Directly From Open Blocks
+
+<figure><img src="../.gitbook/assets/006 Blocks import.png" alt=""><figcaption></figcaption></figure>
+
+Our sibling application [Open Blocks](https://openblocks.app/) is an incredibly intuitive low-poly 3d modelling app for PC and standalone VR devices. If you've installed it then any models you save locally can easily be imported via the standard 3D model library browser.
+
+## Camera Path Rendering on All Devices
+
+<figure><img src="../.gitbook/assets/007 Render Video as Stills.png" alt=""><figcaption></figcaption></figure>
+
+Camera paths are a powerful way to render a standard or 360 video fly-through of your creations. However we only support rendering video directly on desktop (PC or Mac) and it was fiddly to copy sketches off standalone headsets such as the Quest and then render videos using the generated scripts. \
+\
+We've now made the process easier. You can now render the video frames directly on devices that don't support generating video files directly. These frames can be converted into a regular video in multiple ways - uploading to a web service, importing into a video editing app etc.
+
+## View-only Mode Improvements
+
+<figure><img src="../.gitbook/assets/009 View Mode Improvements.png" alt=""><figcaption></figcaption></figure>
+
+Not enough people realise that Open Brush runs as sketch viewer on all Mac, PC, Android devices even when those devices have no VR support. This release has improved the navigation controls. Touch support on phones is more intuitive and standard gamepads should work as expected. Try installing from Steam on Steam Deck or similar handheld devices.
+
+Furthermore you can now browse more sample sketches which are loaded directly from the [Icosa Gallery](https://icosa.gallery/). Non-VR devices also support interacting with Open Brush via the [Web API](../user-guide/open-brush-api/) or [monoscopic mode](../user-guide/monoscopic-mode.md).
+
+## Full Change Log:
 
 [Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...0e08251ca80a13beece58b8c314a52bea94ece64)
 
-## 🚀 Features
+### 🚀 Features
 
 * Plugin scripting ([PR #699](https://github.com/icosa-foundation/open-brush/pull/699) by @andybak)
 * Enable axis locking for guides ([PR #856](https://github.com/icosa-foundation/open-brush/pull/856) by @andybak)
@@ -23,7 +85,7 @@
 * Vox import support ([PR #947](https://github.com/icosa-foundation/open-brush/pull/947) by @andybak)
 * Local Blocks model loading ([PR #953](https://github.com/icosa-foundation/open-brush/pull/953) by @andybak)
 
-## 🐛 Fixes
+### 🐛 Fixes
 
 * Fix/plugin merge fixes ([PR #848](https://github.com/icosa-foundation/open-brush/pull/848) by @andybak)
 * Remove old "not supported" code that sneaked back in with plugin merge ([PR #849](https://github.com/icosa-foundation/open-brush/pull/849) by @andybak)
@@ -64,7 +126,7 @@
 * Fix loading selected strokes on Android ([PR #958](https://github.com/icosa-foundation/open-brush/pull/958) by @andybak)
 * Fix issue where model folder was merging contents of it's children ([PR #959](https://github.com/icosa-foundation/open-brush/pull/959) by @andybak)
 
-## 🛠️ Infrastructure
+### 🛠️ Infrastructure
 
 * Disable push of the Q1 build to Oculus (finally blocked by them) ([PR #850](https://github.com/icosa-foundation/open-brush/pull/850) by @mikeage)
 * Add support for periodically (monthly) rebuilding a PR ([PR #858](https://github.com/icosa-foundation/open-brush/pull/858) by @mikeage)
@@ -87,7 +149,7 @@
 * Sync tags ([PR #929](https://github.com/icosa-foundation/open-brush/pull/929) by @mikeage)
 * Make Open Brush TEENS\_AND\_ADULTS on Quest ([PR #934](https://github.com/icosa-foundation/open-brush/pull/934) by @mikeage)
 
-## 📦 Dependencies / Maintenance
+### 📦 Dependencies / Maintenance
 
 * Bump rexml from 3.3.9 to 3.4.2 in the bundler group across 1 directory ([PR #913](https://github.com/icosa-foundation/open-brush/pull/913) by @dependabot\[bot])
 * Update Zapbox SDK to 0.5.0 ([PR #927](https://github.com/icosa-foundation/open-brush/pull/927) by @tangobravo)
@@ -98,7 +160,7 @@
 * Bump actions/checkout from 5 to 6 in the all-actions-updates group ([PR #946](https://github.com/icosa-foundation/open-brush/pull/946) by @dependabot\[bot])
 * Bump the all-actions-updates group with 2 updates ([PR #950](https://github.com/icosa-foundation/open-brush/pull/950) by @dependabot\[bot])
 
-## 💬 Uncategorized
+### 💬 Uncategorized
 
 * Fix various issues related to additive loading ([PR #889](https://github.com/icosa-foundation/open-brush/pull/889) by @andybak)
 * Update references from Tilt Brush to Open Brush ([PR #943](https://github.com/icosa-foundation/open-brush/pull/943) by @LakesideMiners)
