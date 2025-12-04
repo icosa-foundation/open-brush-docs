@@ -1,6 +1,6 @@
 # Changelog since v2.10
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...7a824093be3e95a5e9ce32d7223ce7deae4a3802)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...daefdc93064ebf073e7a4b675787a861b984c358)
 
 ## 🚀 Features
 
@@ -41,6 +41,8 @@
 - Local Blocks model loading ([PR #953](https://github.com/icosa-foundation/open-brush/pull/953) by @andybak)
 
 - Example saved strokes ([PR #960](https://github.com/icosa-foundation/open-brush/pull/960) by @andybak)
+
+- Viverse publish ([PR #944](https://github.com/icosa-foundation/open-brush/pull/944) by @andybak)
 
 
 ## 🐛 Fixes
