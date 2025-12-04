@@ -1,6 +1,6 @@
 # Changelog since v2.10
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...daefdc93064ebf073e7a4b675787a861b984c358)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...d5c55a58ab41bf0bf4f28c15c036cbd339ab56ed)
 
 ## 🚀 Features
 
@@ -43,6 +43,8 @@
 - Example saved strokes ([PR #960](https://github.com/icosa-foundation/open-brush/pull/960) by @andybak)
 
 - Viverse publish ([PR #944](https://github.com/icosa-foundation/open-brush/pull/944) by @andybak)
+
+- Whats New panel and Open Blocks promotional button ([PR #952](https://github.com/icosa-foundation/open-brush/pull/952) by @andybak)
 
 
 ## 🐛 Fixes
