@@ -1,6 +1,6 @@
 # Changelog since v2.10
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...d5c55a58ab41bf0bf4f28c15c036cbd339ab56ed)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...01be83cfacc9c9027993830aac017a4c33d2c351)
 
 ## 🚀 Features
 
@@ -193,6 +193,8 @@
 - Fix various issues related to additive loading ([PR #889](https://github.com/icosa-foundation/open-brush/pull/889) by @andybak)
 
 - Update references from Tilt Brush to Open Brush ([PR #943](https://github.com/icosa-foundation/open-brush/pull/943) by @LakesideMiners)
+
+- Change how notify the UI about new save strokes ([PR #961](https://github.com/icosa-foundation/open-brush/pull/961) by @andybak)
 
 
 
