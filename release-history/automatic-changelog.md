@@ -1,6 +1,6 @@
 # Changelog since v2.10
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...01be83cfacc9c9027993830aac017a4c33d2c351)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...0b533c75b8309b4f26eda3c5f99a8fdd6353732a)
 
 ## 🚀 Features
 
@@ -124,6 +124,8 @@
 - Fix loading selected strokes on Android ([PR #958](https://github.com/icosa-foundation/open-brush/pull/958) by @andybak)
 
 - Fix issue where model folder was merging contents of it's children ([PR #959](https://github.com/icosa-foundation/open-brush/pull/959) by @andybak)
+
+- What's new and Blocks panels should be available in beginner's mode ([PR #964](https://github.com/icosa-foundation/open-brush/pull/964) by @andybak)
 
 
 ## 🛠️ Infrastructure
