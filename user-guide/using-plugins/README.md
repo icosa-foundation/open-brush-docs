@@ -1,11 +1,5 @@
 # Plugins
 
-
-
-{% hint style="info" %}
-Plugins are currently only in the [beta release](../../alternate-and-experimental-builds/open-brush-beta-docs.md)
-{% endhint %}
-
 {% embed url="https://www.youtube.com/playlist?list=PL94EgLgEIJyIou6-PzO2vBTvcZQav2Ibq" %}
 
 You can open the Scripts Panel from a button on the [Labs Panel](../using-the-open-brush-tools-quick-tools-and-menu-panels/the-admin-panel/labs-panel.md)
@@ -14,7 +8,7 @@ You can open the Scripts Panel from a button on the [Labs Panel](../using-the-op
 
 We won't be using the buttons on the bottom row at the moment. These are related to the older [HTTP API Scripts](../open-brush-api/) which are are useful for controlling Open Brush remotely. However the new plugin scripts are much more powerful and can add new features and modify how Open Brush works interactively.
 
-The other four rows of buttons each relates to a different type of plugin. From the top down they are [Tool Plugins](./#tool-plugins), [Symmetry Plugins](./#symmetry-plugins), [Pointer Plugins](./#pointer-plugin) and [Background Plugins](./#background-plugins).&#x20;
+The other four rows of buttons each relates to a different type of plugin. From the top down they are [Tool Plugins](./#tool-plugins), [Symmetry Plugins](./#symmetry-plugins), [Pointer Plugins](./#pointer-plugin) and [Background Plugins](./#background-plugins).
 
 ## Understanding the different plugin types
 
@@ -48,13 +42,13 @@ Background Plugins have an extra button and work slightly differently in terms o
 
 ## Plugin Parameters
 
-&#x20;![](<../../.gitbook/assets/image (5) (1).png>)
+![](<../../.gitbook/assets/image (5) (1).png>)
 
 Plugins can define various parameters so you can easily change how they work without needing to edit the script. Each slider will show a tooltip when you hover over it.
 
 Drag the slider to change it's value. If you need more precision you can:
 
-While hovering you can&#x20;
+While hovering you can
 
 * Move the thumbstick on your brush controller left and right to change the value
 * Click the small arrows at either end to apply a set increment to the value

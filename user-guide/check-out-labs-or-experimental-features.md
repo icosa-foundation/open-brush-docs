@@ -27,7 +27,7 @@ To try out newer features, you can open up the Labs panel. Here you will find so
 
 <div align="left"><figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure></div>
 
-### Save Selected Strokes to use later
+### Save Selected Strokes to your Media Library
 
 <div align="left"><figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure></div>
 
