@@ -88,7 +88,7 @@ Radial copies of your stroke with optional color shifts
 
 ### PointSymSpin
 
-\[todo]
+Works like activating Multimirror but the extra pointers spin around your brush position
 
 ### Pole
 

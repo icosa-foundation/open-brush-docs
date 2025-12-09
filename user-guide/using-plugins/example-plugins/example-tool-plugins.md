@@ -32,7 +32,11 @@ Draws tiles that follow a hilly landscape as you hold the trigger.
 
 ### Platonic
 
-\[todo]
+Creates wireframe brushstrokes for any of the 5 Platonic solids (Tetrahedron, Cube, Octahedron, Dodecahedron, Icosahedron) 
+
+#### Parameters
+
+(todo)
 
 ### RandomAvatar
 
@@ -109,7 +113,11 @@ Draws a heart shape using an [SVG Path](https://developer.mozilla.org/en-US/docs
 
 ### TorusKnot
 
-\[todo]
+Draws a brush stroke forming a variety of interlocking knot shapes known as [Torus Knots](https://en.wikipedia.org/wiki/Torus_knot)
+
+#### Parameters
+
+(todo)
 
 ### VoxelLandscape
 
