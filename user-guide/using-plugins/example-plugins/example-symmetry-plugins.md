@@ -1,6 +1,6 @@
 # Example Symmetry Plugins
 
-### AlongStroke
+### StrokePoints
 
 <div align="left"><figure><img src="../../../.gitbook/assets/symmetry-alongstroke_compressed.gif" alt="" width="375"><figcaption></figcaption></figure></div>
 
@@ -95,6 +95,10 @@ Radial copies of your stroke with optional color shifts
 #### Parameters
 
 * **Copies:** The number of strokes to draw at once
+
+### PointSymSpin
+
+\[todo]
 
 ### Pole
 

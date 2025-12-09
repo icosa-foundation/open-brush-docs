@@ -59,7 +59,7 @@ The pointer moves around a circlular path with your current hand position as it'
 * **Speed:** The speed of the pointer
 * **Radius:** The size of the circle it moves around
 
-### Missile
+### Ballistic Missile
 
 <div align="left"><figure><img src="../../../.gitbook/assets/pointer-missile.gif" alt="" width="375"><figcaption></figcaption></figure></div>
 
@@ -159,6 +159,10 @@ The brush stroke moves in a circle but the radius increases the longer you keep 
 
 * **Speed:** Controls the tightness of the spiral via changing the rate at which the pointer rotates around the brush position
 * **Radius:** The overall size of the spiral
+
+### Spirograph
+
+Draw a spirograph pattern as you move your brush. Ignores your hand position and simply uses the distance you've moved.
 
 ### StringArt
 

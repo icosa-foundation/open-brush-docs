@@ -6,16 +6,6 @@
 
 Draws a circle centered on the position you first press the trigger with the radius and orientation controlled by where you release the trigger.
 
-### CircularPath
-
-{% embed url="https://www.youtube.com/watch?v=RGpsjA3hUCc" %}
-
-Similar to [Circle ](example-tool-plugins.md#circle)except it creates a camera path instead of a brush stroke
-
-#### Parameters
-
-* **Sides:** The circle is approximated by a polygon. This controls the number of sides.
-
 ### Cube
 
 <div align="left"><figure><img src="../../../.gitbook/assets/tool-cube_compressed.gif" alt="" width="375"><figcaption></figcaption></figure></div>
@@ -40,15 +30,15 @@ Draws tiles that follow a hilly landscape as you hold the trigger.
 * **Offset:** The distance from the floor to position the landscape
 * **Grid Size:** The size of the grid used. Bigger values are more "low poly"
 
+### Platonic
+
+\[todo]
+
 ### RandomAvatar
 
 {% embed url="https://www.youtube.com/watch?v=S9TzdMAbAbU" %}
 
 Calls an API to generate a random SVG icon using the [MultiAvatar ](https://multiavatar.com/)library
-
-### RandomIcon
-
-Calls an API to generate a random SVG icon using the [Iconify ](https://iconify.design/docs/api/)library
 
 ### Rays
 
@@ -59,12 +49,6 @@ Draws lines from the position you start drawing to your current position.
 #### Parameters
 
 * **Spacing:** How often to draw a new stroke
-
-### ~~ReplayStroke~~
-
-_(Currently removed while I fix a bug)_
-
-Instantly draws a brush stroke based on the path of the last brush stroke you drew
 
 ### ScatterCubes
 
@@ -122,6 +106,10 @@ Draws a heart shape using an [SVG Path](https://developer.mozilla.org/en-US/docs
 #### Parameters
 
 * **Point Spacing:**
+
+### TorusKnot
+
+\[todo]
 
 ### VoxelLandscape
 
