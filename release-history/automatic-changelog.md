@@ -73,6 +73,8 @@
 
 - Ignore material instance naming when matching brushes ([PR #884](https://github.com/icosa-foundation/open-brush/pull/884) by @andybak)
 
+- Fix various issues related to additive loading ([PR #889](https://github.com/icosa-foundation/open-brush/pull/889) by @andybak)
+
 - Saved Strokes Quest Bugfixes ([PR #892](https://github.com/icosa-foundation/open-brush/pull/892) by @andybak)
 
 - PR 893 minor fixes ([PR #896](https://github.com/icosa-foundation/open-brush/pull/896) by @andybak)
@@ -124,6 +126,8 @@
 - Fix loading selected strokes on Android ([PR #958](https://github.com/icosa-foundation/open-brush/pull/958) by @andybak)
 
 - Fix issue where model folder was merging contents of it's children ([PR #959](https://github.com/icosa-foundation/open-brush/pull/959) by @andybak)
+
+- Change how notify the UI about new save strokes ([PR #961](https://github.com/icosa-foundation/open-brush/pull/961) by @andybak)
 
 - What's new and Blocks panels should be available in beginner's mode ([PR #964](https://github.com/icosa-foundation/open-brush/pull/964) by @andybak)
 
@@ -194,11 +198,7 @@
 
 ## 💬 Uncategorized
 
-- Fix various issues related to additive loading ([PR #889](https://github.com/icosa-foundation/open-brush/pull/889) by @andybak)
-
 - Update references from Tilt Brush to Open Brush ([PR #943](https://github.com/icosa-foundation/open-brush/pull/943) by @LakesideMiners)
-
-- Change how notify the UI about new save strokes ([PR #961](https://github.com/icosa-foundation/open-brush/pull/961) by @andybak)
 
 
 
