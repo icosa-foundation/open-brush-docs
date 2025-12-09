@@ -90,6 +90,10 @@ Radial copies of your stroke with optional color shifts
 
 Works like activating Multimirror but the extra pointers spin around your brush position
 
+#### Parameters
+
+(todo)
+
 ### Pole
 
 {% embed url="https://www.youtube.com/watch?v=7YxjNvCY8ak" %}
