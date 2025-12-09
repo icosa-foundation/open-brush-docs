@@ -1,5 +1,15 @@
 # Example Pointer Plugins
 
+### Ballistic Missile
+
+<div align="left"><figure><img src="../../../.gitbook/assets/pointer-missile.gif" alt="" width="375"><figcaption></figcaption></figure></div>
+
+Launches a line from your brush which you can steer. Similar to \[LaserBeam]\(example-pointer-plugins.md#laserbeam) except that you can steer the brush stroke as it moves.
+
+#### Parameters
+
+* **Speed:** The speed of the missile
+
 ### Dashes
 
 <div align="left"><img src="../../../.gitbook/assets/image (9) (1).png" alt="" width="375"></div>
@@ -58,16 +68,6 @@ The pointer moves around a circlular path with your current hand position as it'
 
 * **Speed:** The speed of the pointer
 * **Radius:** The size of the circle it moves around
-
-### Ballistic Missile
-
-<div align="left"><figure><img src="../../../.gitbook/assets/pointer-missile.gif" alt="" width="375"><figcaption></figcaption></figure></div>
-
-Similar to \[LaserBeam]\(example-pointer-plugins.md#laserbeam) except that you can steer the brush stroke as it moves.
-
-#### Parameters
-
-* **Speed:** The speed of the missile
 
 ### Oscilloscope
 

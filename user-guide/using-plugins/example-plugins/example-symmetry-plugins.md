@@ -1,15 +1,5 @@
 # Example Symmetry Plugins
 
-### StrokePoints
-
-<div align="left"><figure><img src="../../../.gitbook/assets/symmetry-alongstroke_compressed.gif" alt="" width="375"><figcaption></figcaption></figure></div>
-
-The previous stroke you drew is used as a template and multiple copies of the pointer are spread along it as you draw
-
-#### Parameters
-
-* **Point Spacing:** The distance to space out the copies along the stroke
-
 ### AutoLathe
 
 <div align="left"><figure><img src="../../../.gitbook/assets/symmetry-autolathe_compressed.gif" alt="" width="375"><figcaption></figcaption></figure></div>
@@ -145,6 +135,16 @@ Multiple copies of your brush spinning around your actual brush position
 * **Copies:** The number of strokes to draw at once
 * **Speed:** How fast the extra pointers are rotating
 * **Radius:** The radius of the circle they are rotating around
+
+### StrokePoints
+
+<div align="left"><figure><img src="../../../.gitbook/assets/symmetry-alongstroke_compressed.gif" alt="" width="375"><figcaption></figcaption></figure></div>
+
+The previous stroke you drew is used as a template and multiple copies of the pointer are spread along it as you draw
+
+#### Parameters
+
+* **Point Spacing:** The distance to space out the copies along the stroke
 
 ### SuperEllipseAround
 
