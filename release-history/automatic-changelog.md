@@ -1,6 +1,6 @@
 # Changelog since v2.10
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...0b533c75b8309b4f26eda3c5f99a8fdd6353732a)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.10...00e2e8817e08c6f90a37a5f8a13974bd569a5331)
 
 ## 🚀 Features
 
@@ -126,6 +126,8 @@
 - Fix issue where model folder was merging contents of it's children ([PR #959](https://github.com/icosa-foundation/open-brush/pull/959) by @andybak)
 
 - What's new and Blocks panels should be available in beginner's mode ([PR #964](https://github.com/icosa-foundation/open-brush/pull/964) by @andybak)
+
+- Various viverse fixes ([PR #963](https://github.com/icosa-foundation/open-brush/pull/963) by @andybak)
 
 
 ## 🛠️ Infrastructure
