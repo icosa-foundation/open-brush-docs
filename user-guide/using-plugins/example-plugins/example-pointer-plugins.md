@@ -4,7 +4,7 @@
 
 <div align="left"><figure><img src="../../../.gitbook/assets/pointer-missile.gif" alt="" width="375"><figcaption></figcaption></figure></div>
 
-Launches a line from your brush which you can steer. Similar to \[LaserBeam]\(example-pointer-plugins.md#laserbeam) except that you can steer the brush stroke as it moves.
+Launches a line from your brush which you can steer. Similar to [LaserBeam](example-pointer-plugins.md#laserbeam) except that you can steer the brush stroke as it moves.
 
 #### Parameters
 
