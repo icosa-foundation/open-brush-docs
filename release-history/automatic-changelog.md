@@ -1,10 +1,10 @@
-# Changelog since v2.14
+# Changelog since v2.15
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.14...32ec8ab0b5281e9e6a944b71b9357374c850fbf4)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.15...a8c6f57340e308e520ddcbef07c102fbd8d25b66)
 
 ## 🐛 Fixes
 
-- Better vive publish url and avatar fix ([PR #966](https://github.com/icosa-foundation/open-brush/pull/966) by @andybak)
+- Saved stroke thumbnail fixes ([PR #967](https://github.com/icosa-foundation/open-brush/pull/967) by @andybak)
 
 
 
