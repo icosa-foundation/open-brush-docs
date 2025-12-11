@@ -117,6 +117,7 @@
   * [Open Brush AsCanvas Notes](developer-notes/open-brush-ascanvas-notes.md)
   * [Unity Versions](developer-notes/unity-versions.md)
 * [Release History](release-history.md)
+  * [v2.14-v2.17 (Maintenance)](release-history/v2.14-etc.md)
   * [v2.13 "Lucky Number"](release-history/v2.13.md)
   * [v2.12 (Maintenance)](<release-history/v2.9 (1).md>)
   * [v2.11 (Maintenance)](release-history/v2.9-1.md)
