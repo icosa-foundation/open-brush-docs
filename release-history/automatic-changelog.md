@@ -1,10 +1,10 @@
-# Changelog since v2.16
+# Changelog since v2.17
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.16...460248c7f68e2770ac8ab39665304e35d213b987)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.17...22462803757f036833d39a840f05f268c2391337)
 
-## 🐛 Fixes
+## 📦 Dependencies / Maintenance
 
-- Avoid using stroke playback system for loading saved strokes ([PR #968](https://github.com/icosa-foundation/open-brush/pull/968) by @andybak)
+- Bump actions/cache from 4 to 5 in the all-actions-updates group ([PR #971](https://github.com/icosa-foundation/open-brush/pull/971) by @dependabot[bot])
 
 
 
