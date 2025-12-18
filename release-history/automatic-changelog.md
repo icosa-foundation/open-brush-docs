@@ -1,6 +1,11 @@
 # Changelog since v2.18
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.18...db9a124b142e89afebfdb7ce6422ac3857660bb5)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.18...1f590b6ba7679d503a73a084154904e99c83bc46)
+
+## 🐛 Fixes
+
+- GLTF Export fixes ([PR #974](https://github.com/icosa-foundation/open-brush/pull/974) by @andybak)
+
 
 ## 📦 Dependencies / Maintenance
 
