@@ -1,15 +1,10 @@
-# Changelog since v2.18
+# Changelog since v2.19
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.18...1f590b6ba7679d503a73a084154904e99c83bc46)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.19...f331665bd0760d694f5b5508fa949ea37ec41bce)
 
 ## 🐛 Fixes
 
-- GLTF Export fixes ([PR #974](https://github.com/icosa-foundation/open-brush/pull/974) by @andybak)
-
-
-## 📦 Dependencies / Maintenance
-
-- Bump the all-actions-updates group with 2 updates ([PR #973](https://github.com/icosa-foundation/open-brush/pull/973) by @dependabot[bot])
+- Viverse shader fixes ([PR #976](https://github.com/icosa-foundation/open-brush/pull/976) by @andybak)
 
 
 
