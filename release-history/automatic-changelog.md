@@ -1,6 +1,6 @@
 # Changelog since v2.19
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.19...d806650f593957c28bee581156c9051b6379eaf6)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.19...f3ecd7fe99c6d30c4a8fb126295f2b4d5afb3206)
 
 ## 🐛 Fixes
 
@@ -9,6 +9,8 @@
 - Alpha to coverage bugfix ([PR #978](https://github.com/icosa-foundation/open-brush/pull/978) by @andybak)
 
 - PR978 but done right this time ([PR #979](https://github.com/icosa-foundation/open-brush/pull/979) by @andybak)
+
+- Force AR to off for Viverse web viewer ([PR #981](https://github.com/icosa-foundation/open-brush/pull/981) by @andybak)
 
 
 ## 💬 Uncategorized
