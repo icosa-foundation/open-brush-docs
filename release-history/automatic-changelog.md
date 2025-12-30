@@ -1,6 +1,6 @@
 # Changelog since v2.19
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.19...f3ecd7fe99c6d30c4a8fb126295f2b4d5afb3206)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.19...1a42367159e557987340d3666e1bbf51425e05cb)
 
 ## 🐛 Fixes
 
@@ -11,6 +11,8 @@
 - PR978 but done right this time ([PR #979](https://github.com/icosa-foundation/open-brush/pull/979) by @andybak)
 
 - Force AR to off for Viverse web viewer ([PR #981](https://github.com/icosa-foundation/open-brush/pull/981) by @andybak)
+
+- Ensure permissions dialogue is shown even if the user manages to dismiss it ([PR #980](https://github.com/icosa-foundation/open-brush/pull/980) by @andybak)
 
 
 ## 💬 Uncategorized
