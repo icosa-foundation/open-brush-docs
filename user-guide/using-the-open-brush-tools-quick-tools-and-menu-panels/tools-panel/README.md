@@ -22,7 +22,7 @@
     4. You can then share photos, videos, and GIFs or your artwork online.
     5. PC users can record still images, animated GIFs or video. The Quest only supports still images and GIFs.
 
-    For better quality you can record [re-render videos offline](../../exporting-videos.md).\
+    For better quality you can record [re-render videos offline](../../exporting-videos/).\
     \
     Long-press the camera tool to access the camera settings:
 
@@ -48,11 +48,11 @@
 
     To select everything in a scene, long press on the Select button on the Tools panel and the Select All button will appear.
 
-    #### **Invert Selection** ![](../../../.gitbook/assets/16.png)
+    **Invert Selection** ![](../../../.gitbook/assets/16.png)
 
     To invert a selection that you have just made, long press on the Select button on the Tools panel and the Invert Selection button will appear.
 
-    #### Toggle Grouping for Selection ![](<../../../.gitbook/assets/image (6) (1).png>)
+    **Toggle Grouping for Selection** ![](<../../../.gitbook/assets/image (6) (1).png>)
 
     Combines the currently selected strokes into a single group. They will move and scale as one. You can ungroup them easily by clicking again.\\
 7.  **Mirror Tool**. Use the mirror mode tool to paint symmetrically. To use the tool:
