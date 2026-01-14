@@ -1,6 +1,11 @@
 # Changelog since v2.20
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.20...e2ee250f569df3cb62d95b6ce1d4a7b48cc683f3)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.20...5df3654df5695f6a75bc6a3ba9604adf14321e3a)
+
+## 🐛 Fixes
+
+- Better additive loading ([PR #969](https://github.com/icosa-foundation/open-brush/pull/969) by @andybak)
+
 
 ## 📦 Dependencies / Maintenance
 
