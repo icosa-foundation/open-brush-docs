@@ -18,7 +18,7 @@
 
 ## Developing and Testing Without a VR Headset
 
-It’s often quicker while developing to avoid jumping in and out of VR. [Monoscopic mode](https://docs.openbrush.app/user-guide/monoscopic-mode#activating-monoscopic-mode) is very useful for this.
+It’s often quicker while developing to avoid jumping in and out of VR. [Monoscopic mode](../user-guide/monoscopic-mode.md#activating-monoscopic-mode) is very useful for this.
 
 1.  Under "Flags" set EnableMonoscopicMode to true in your [Open Brush Config file](../user-guide/the-open-brush-config-file.md)
 

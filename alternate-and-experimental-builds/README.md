@@ -8,7 +8,7 @@ Some features are might spend months or years as separate builds. The person who
 
 ## Beta Release
 
-[List of changes in the current beta version](https://docs.openbrush.app/release-history/automatic-changelog)
+[List of changes in the current beta version](../release-history/automatic-changelog.md)
 
 {% content-ref url="../release-history/automatic-changelog.md" %}
 [automatic-changelog.md](../release-history/automatic-changelog.md)

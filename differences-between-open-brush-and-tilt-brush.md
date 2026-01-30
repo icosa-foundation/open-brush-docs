@@ -70,7 +70,7 @@ This section only lists features currently in the main release. There is also a 
 ### Sharing & Publishing
 
 * [Publish to Viverse](release-history/v2.13.md#publish-worlds-to-viverse) - Share sketches directly to Viverse 3D worlds
-* [Icosa Gallery uploads](https://beta.icosa.gallery)
+* [Icosa Gallery uploads](https://icosa.gallery)
 * [Icosa Gallery Integration](user-guide/saving-and-sharing-your-open-brush-sketches.md#icosa-gallery-integration) - Browse and load sample sketches directly from Icosa Gallery
 
 ### User Interface

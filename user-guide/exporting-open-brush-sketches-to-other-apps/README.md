@@ -54,7 +54,7 @@ We are working with Sketchfab to have Open Brush import correctly, but if the st
 To upload your work to Styly, you'll need to remove all traces of the audio-reactivity scripts in the Open Brush toolkit.
 
 1. Follow the instructions for setting up Styly in Unity here: [https://styly.cc/manual/unity-asset-uploader/](https://styly.cc/manual/unity-asset-uploader/) but stop when you get to the section about half-way through headed "Upload from Unity to STYLY"
-2. Download the Open Brush Unity SDK unitypackage as described here: [https://docs.openbrush.app/user-guide/open-brush-unity-sdk](https://docs.openbrush.app/user-guide/open-brush-unity-sdk)
+2. Download the Open Brush Unity SDK unitypackage as described here: [Open Brush Unity SDK](../open-brush-unity-sdk.md)
 3. Delete the following folders from your Unity project window:
    1. ThirdParty/CSCore
    2. ThirdParty/Reaktion
