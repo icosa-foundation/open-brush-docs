@@ -20,6 +20,8 @@ Click this icon to open the Media Library:
 3. Go to the Menu panel (below your palette) and select **"More Options..."** **>** **Labs > Local Media Library > Local Images**.
 4. Switch between selecting images and models using the icons in the top left.
 
+You can organize your media files into folders. See [Folder Navigation](folder-navigation.md) for more information.
+
 #### **Add a 3D model**
 
 1. Copy any [supported](importing-images-videos-3d-models.md#supported-file-formats) 3d file to Documents/Open Brush/Media Library/Models.
@@ -28,9 +30,30 @@ Click this icon to open the Media Library:
 4. Switch between selecting images and models using the icons in the top left.
 5. See "Supported Formats" below to see which file types you can use.
 
+You can organize your media files into folders. See [Folder Navigation](folder-navigation.md) for more information.
+
 ### Supported File Formats
 
-<table><thead><tr><th width="140">Type</th><th>Format</th><th>Notes</th></tr></thead><tbody><tr><td>Images</td><td>PNG</td><td></td></tr><tr><td></td><td>JPEG</td><td></td></tr><tr><td></td><td>SVG</td><td>(SVGs can be imported either as images or as a mesh)</td></tr><tr><td></td><td>HDR</td><td></td></tr><tr><td>Video</td><td>MP4</td><td>See notes below.</td></tr><tr><td></td><td>MKV</td><td>See notes below.</td></tr><tr><td></td><td>MOV</td><td>See notes below.</td></tr><tr><td></td><td>WEBM</td><td>See notes below. Must use VP8 codec. Supports transparency on Windows only.</td></tr><tr><td>3d Models</td><td>GLTF/GLB</td><td></td></tr><tr><td></td><td>OBJ</td><td></td></tr><tr><td></td><td>FBX</td><td>PC/Mac only.</td></tr><tr><td></td><td>USD</td><td>PC/Mac only. Support is rather outdated and experimental</td></tr><tr><td></td><td>PLY</td><td>Point clouds only. Binary little-endian format.</td></tr><tr><td></td><td>SVG</td><td>(SVGs can be imported either as images or as a mesh)</td></tr></tbody></table>
+<table><thead><tr><th width="140">Type</th><th>Format</th><th>Notes</th></tr></thead><tbody><tr><td>Images</td><td>PNG</td><td></td></tr><tr><td></td><td>JPEG</td><td></td></tr><tr><td></td><td>SVG</td><td>(SVGs can be imported either as images or as a mesh)</td></tr><tr><td></td><td>HDR</td><td></td></tr><tr><td>Video</td><td>MP4</td><td>See notes below.</td></tr><tr><td></td><td>MKV</td><td>See notes below.</td></tr><tr><td></td><td>MOV</td><td>See notes below.</td></tr><tr><td></td><td>WEBM</td><td>See notes below. Must use VP8 codec. Supports transparency on Windows only.</td></tr><tr><td>3d Models</td><td>GLTF/GLB</td><td></td></tr><tr><td></td><td>OBJ</td><td></td></tr><tr><td></td><td>FBX</td><td>PC/Mac only.</td></tr><tr><td></td><td>USD</td><td>PC/Mac only. Support is rather outdated and experimental</td></tr><tr><td></td><td>PLY</td><td>Point clouds only. Binary little-endian format.</td></tr><tr><td></td><td>SVG</td><td>(SVGs can be imported either as images or as a mesh)</td></tr><tr><td></td><td>VOX</td><td>Magicavoxel format for voxel models</td></tr></tbody></table>
+
+## WebM Video Import
+
+WebM is a video format that supports transparency (alpha channel), allowing you to import videos with transparent backgrounds. This is particularly useful for effects, animated sprites, or reference footage.
+
+**Requirements:**
+- Must use VP8 codec
+- Transparency is currently only supported on Windows
+- Place .webm files in Documents/Open Brush/Media Library/Videos
+
+## Point Cloud Import
+
+You can import point cloud data in PLY format (binary little-endian). Point clouds are useful for:
+- Importing 3D scanned data
+- Working with photogrammetry outputs
+- Creating particle-like effects
+- Reference data from LiDAR scans
+
+Place .ply files in Documents/Open Brush/Media Library/Models and they will appear in the model browser.
 
 {% hint style="info" %}
 Video support varies across OS and hardware versions. See:\

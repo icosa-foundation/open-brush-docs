@@ -12,10 +12,25 @@ The Settings Panel can be opened from a button on the [Admin Panel](./).
 2. Second row of buttons (Left to right):\
    i. Autosimplify\
    ii. Experimental Mode: Toggles [Experimental Mode](../../experimental-mode.md) on or off next time you open the app\
-   iii. Swap Hands: Swaps the brush between the left and right hands\
+   iii. Swap Hands: Swaps the brush between the left and right hands. See [Switching Hands](../../switching-hands.md) for more information.\
    iv. Reset First Use: If you click this then next time you launch Open Brush you will get the short tutorial you saw when you ran it the first time. Also turns off [Experimental Mode](../../experimental-mode.md) and switches back to Beginners Mode where most of the tools are hidden.
 3. Pointer Angle: This changes the angle the brush pointer is at. Find a settings you feel comfortable with.
 4. Quality
 5. Simplification
 6. Current Sketch Cost
 7. Super Secret Hidden Buttons: Absolutely nothing happens if you click here.
+
+## Reset to "First Time"
+
+The "Reset First Use" button returns Open Brush to its initial state as if you're running it for the first time:
+
+- Restarts the introductory tutorial on next launch
+- Resets to Beginner Mode (hides advanced tools)
+- Turns off Experimental Mode
+- Resets all preferences to defaults
+
+This is useful for:
+- Showing Open Brush to new users
+- Teaching others how to use Open Brush
+- Troubleshooting by returning to a known state
+- Resetting after experimenting with settings

@@ -11,6 +11,10 @@ While painting, you can save your sketch to avoid losing changes.
 3. Your sketch is now added to your Sketchbook.
 4. Your sketch file is saved to your computer at **Documents/Open Brush/Sketches**.
 
+You can rename your sketches using the [XR Keyboard](xr-keyboard.md) when browsing them in the Sketchbook.
+
+You can also combine multiple sketches into one. See [Merging Sketches](merging-sketches.md) for more information.
+
 ### **Trouble saving sketches**
 
 If you're having issues saving your sketch, check that you have administration privileges on your machine. Antivirus software can also sometimes interfere with the ability to save sketches.
@@ -18,6 +22,28 @@ If you're having issues saving your sketch, check that you have administration p
 ### **Sharing your Open Brush sketches**
 
 To share your creations outside of Open Brush, click **Upload** ![](../.gitbook/assets/23.png) to publish your sketch to [Icosa](https://beta.icosa.gallery/). Once you have published your sketch, you can share the link to your sketch on social networks like Facebook, Twitter, and Google+.
+
+## Icosa Gallery Integration
+
+Open Brush has built-in integration with [Icosa Gallery](https://icosa.gallery), allowing you to:
+
+### Browse and Load Sketches
+
+From within Open Brush, you can browse the Icosa Gallery and load sample sketches directly into VR:
+1. Open the sketch browser
+2. Navigate to the Icosa Gallery tab
+3. Browse featured and popular sketches
+4. Select a sketch to download and open it
+
+This is a great way to:
+- Explore what other artists have created
+- Learn new techniques by examining others' work
+- Find inspiration for your own creations
+- Use sketches as starting points for remixes
+
+### Upload Your Sketches
+
+You can upload your sketches directly to Icosa Gallery from within Open Brush to share with the community and preserve your work online.
 
 ### **Save in various file formats using Cameras**
 

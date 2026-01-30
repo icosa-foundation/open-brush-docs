@@ -7,6 +7,10 @@
 
 Note: You can switch which hand is your painting controller and which is your palette controller by tapping the bottoms of the two controllers together. This is great to use if a right and left handed person are sharing controllers.
 
+### **Alternative Input Devices**
+
+For enhanced precision and pressure-sensitive painting, you can use the [Logitech MX Ink](logitech-mx-ink.md) stylus, which provides a pen-like experience with natural pressure control.
+
 ### **Using the palette**
 
 ![](<../.gitbook/assets/image (3) (1) (1) (1).png>)

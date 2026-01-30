@@ -50,6 +50,20 @@ The Recolor button on the Tools Panel has been replaced with "Repaint". When you
 
 Any combination of these 4 options can be selected at any time. If you choose "jitter" then set your chosen amount of jitter using the button with the dice icon at the bottom of the Color Picker Panel
 
+## Repaint Selection
+
+Instead of repainting strokes one at a time, you can select multiple strokes and apply repaint operations to all of them at once:
+
+1. Use the selection tool to select the strokes you want to modify
+2. Activate the Repaint tool with your desired settings (Recolor, Resize, Rebrush, or Jitter)
+3. The selected strokes will all be repainted with the current settings
+
+This is particularly useful for:
+- Changing the color scheme of multiple strokes at once
+- Applying consistent size changes to a group of strokes
+- Converting multiple strokes to a different brush type
+- Adding jitter variation to duplicated elements
+
 ### Can I see it in action?
 
 {% embed url="https://youtu.be/mScGKQke4QA" %}
