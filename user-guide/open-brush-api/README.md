@@ -8,7 +8,7 @@ It even works on computers that don't support VR. You can create Tilt Brush sket
 
 Example of a script that uses a web form for input:
 
-![](../../.gitbook/assets/buildings\_ui.png)
+![](../../.gitbook/assets/buildings_ui.png)
 
 Example output from the form shown above:
 

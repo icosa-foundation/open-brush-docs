@@ -15,9 +15,9 @@ See the new [3D Shapes](../3d-shapes.md) feature instead!
 
 ### What does it do?
 
-![Polyhedra Tool](../../.gitbook/assets/polyhedra\_tool.png)
+![Polyhedra Tool](../../.gitbook/assets/polyhedra_tool.png)
 
-![Custom Symmetry](../../.gitbook/assets/custom\_symmetry.png)
+![Custom Symmetry](../../.gitbook/assets/custom_symmetry.png)
 
 Mainly two related things:
 
