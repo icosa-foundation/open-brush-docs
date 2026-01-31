@@ -8,7 +8,7 @@ NOTE: Not all Tilt Brush brushes will export (e.g. particle brushes) The most re
 
 * **NOTE:** Tilt Brush’s settings exports the FBX as an ASCII model. Blender won’t accept it, and you’ll receive an error message in Blender: "ASCII FBX files are not supported"\
 
-* To change the Tilt Brush FBX configuration from ASCII to Binary, follow these instructions to **set up your Tilt Brush.cfg file:** [https://docs.google.com/document/d/11ZsHozYn9FnWG7y3s3WAyKIACfbfwb4PbaS8cZ\_xjvo/preview#heading=h.g9ac8b39hgn0](https://docs.google.com/document/d/11ZsHozYn9FnWG7y3s3WAyKIACfbfwb4PbaS8cZ\_xjvo/preview#heading=h.g9ac8b39hgn0)\
+* To change the Tilt Brush FBX configuration from ASCII to Binary, follow these instructions to **set up your Tilt Brush.cfg file:** [https://docs.google.com/document/d/11ZsHozYn9FnWG7y3s3WAyKIACfbfwb4PbaS8cZ_xjvo/preview#heading=h.g9ac8b39hgn0](https://docs.google.com/document/d/11ZsHozYn9FnWG7y3s3WAyKIACfbfwb4PbaS8cZ_xjvo/preview#heading=h.g9ac8b39hgn0)\
 
 * Add this CFG setting if it's not already there:
 
@@ -59,4 +59,5 @@ This helps merge vertices that are close together, and saves on polys
 
 
 
-      _Docs contributed by_ [_Estella Tse_](https://www.estellatse.com/)_. Additional thanks to_ [_Jose Andres Rosero_](https://twitter.com/never\_render)
+      _Docs contributed by_ [_Estella Tse_](https://www.estellatse.com/)_. Additional thanks to_ [_Jose Andres Rosero_](https://twitter.com/never_render)
+

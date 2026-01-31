@@ -44,7 +44,7 @@ The system requirements for running Open Brush are the same system requirements 
 
 ### **For a quick tutorial**
 
-1. Make sure you are in [Advanced Mode](https://support.google.com/tiltbrush/answer/6389712?hl=en\&ref_topic=7074683).
+1. Make sure you are in [Advanced Mode](https://support.google.com/tiltbrush/answer/6389712?hl=en&ref_topic=7074683).
 2. On your palette, go to **Tools >** **More** > **Tips ‘N Tricks.**
 3. This will run you through an overview of your Open Brush controllers and where the various buttons are.
 
@@ -55,3 +55,4 @@ Note that left handed users can switch the left and right controllers by tapping
 When you run Open Brush for the very first time, you'll be shown an introductory tutorial teaching you how to paint and use the palette.
 
 Every time the app is started after that initial run, your palette hand will by default open to the Sketchbook. In the Sketchbook, you can choose between viewing some featured sketches by the community and your own saved sketches. You can also choose to start a new sketch.
+

@@ -20,7 +20,7 @@ On the Reference Images Panel, click any thumbnail to load the image. After it l
 
 ### **Adding more images**
 
-To add more images to the Reference Images Panel, you need to connect your Oculus Quest to a PC. Use [these steps](https://support.oculus.com/855551644803876/#faq\_2255729571307786) to learn how to do that.
+To add more images to the Reference Images Panel, you need to connect your Oculus Quest to a PC. Use [these steps](https://support.oculus.com/855551644803876/#faq_2255729571307786) to learn how to do that.
 
 1. Once connected to a PC, look for, 'Quest' in Windows Explorer. Click this.
 2. Navigate to '..Quest\Internal shared storage\Open Brush\Media Library\Images\\'
@@ -33,4 +33,5 @@ Images take up video memory inside Open Brush and including too many will cause 
 1. Only .jpg and .png file types.
 2. Max image file size is 10Mb.
 3. Max image dimension (height and width) is 1024.
+
 

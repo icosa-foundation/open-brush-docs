@@ -415,7 +415,7 @@ Also inside the zip is "metadata.json", the metadata for the sketch in json form
   * Contains Reference Image Panel, Pin Tool, Export, and experimental Cameras.
 * Added Reference Image support.
   * Requires connecting your Quest to a PC and side loading images into a Tilt Brush folder. Some restrictions apply.
-  * See the [Help Center](https://support.google.com/tiltbrush/answer/9427219?hl=en\&ref\_topic=7074683) for a more detailed explanation of how to use Reference Images.
+  * See the [Help Center](https://support.google.com/tiltbrush/answer/9427219?hl=en&ref_topic=7074683) for a more detailed explanation of how to use Reference Images.
 * Added Export to .glb1 (binary glTF).
   * Updated Tilt Brush Toolkit to support .glb1 import.
   * Previously, Reference Images would appear in the export as as empty transform nodes. They are now included in the export.
@@ -654,7 +654,7 @@ Also inside the zip is "metadata.json", the metadata for the sketch in json form
   * A previously saved sketch can be saved over with Save, or copied to a new file with Save New.
   * Honestly, it works like every application ever and exactly as you’d expect.
 * Added Disaster Recovery functionality
-  * Active sketch is periodically backed up to **C:\Users\\**\<username>**\Documents\Tilt Brush\Sketches\Autosave** folder. [More info](https://docs.google.com/document/d/1UnXLNrIV5z-bfHilWh1--vdN\_-MY9BdLg5fcs9xlpDU/edit#heading=h.fti7q68lns72).
+  * Active sketch is periodically backed up to **C:\Users\\**\<username>**\Documents\Tilt Brush\Sketches\Autosave** folder. [More info](https://docs.google.com/document/d/1UnXLNrIV5z-bfHilWh1--vdN_-MY9BdLg5fcs9xlpDU/edit#heading=h.fti7q68lns72).
 * Increased performance of particle brushes.
 * Greatly increased performance of Eraser and Brush Picker.
 * Fix material leaking bug which caused large hitches after long periods of usage.
@@ -916,7 +916,7 @@ Also inside the zip is "metadata.json", the metadata for the sketch in json form
   * _Caution!_ Extra large images, such as 4k, may cause performance hitches in Tilt Brush.
 * Export
   * Exports current scene's metadata and 3D geometry to a json file in **Documents/Tilt Brush/Exports**.
-  * Tilt Brush ships with sample [Python 2.7](https://www.python.org/download/releases/2.7/) scripts to convert the .json to .obj and .fbx formats. These scripts are in the **Support/bin** folder, which is next to TiltBrush.exe. The fbx conversion also requires the [Autodesk FBX Python SDK](http://images.autodesk.com/adsk/files/fbx20151\_fbxpythonsdk\_win.exe). To find TiltBrush.exe from Steam, right-click "Tilt Brush" → Properties → Local Files → Browse Local Files...
+  * Tilt Brush ships with sample [Python 2.7](https://www.python.org/download/releases/2.7/) scripts to convert the .json to .obj and .fbx formats. These scripts are in the **Support/bin** folder, which is next to TiltBrush.exe. The fbx conversion also requires the [Autodesk FBX Python SDK](http://images.autodesk.com/adsk/files/fbx20151_fbxpythonsdk_win.exe). To find TiltBrush.exe from Steam, right-click "Tilt Brush" → Properties → Local Files → Browse Local Files...
   *   Example script usage:
 
       python convert\_to\_fbx.py "c:\Users\\_username_\Documents\Tilt Brush\Exports\Untitled\_1.json"
@@ -962,3 +962,4 @@ Note: [How to get an OAuth key for Twitch.](http://help.twitch.tv/customer/porta
 
 *
   * [How to use the Tilt Brush config file.](broken-reference/)
+

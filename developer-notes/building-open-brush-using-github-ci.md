@@ -26,7 +26,7 @@ Pre-release builds and release builds will automatically be uploaded to Oculus f
 
 All pre-release builds are pushed to Steam, although Steam does not support updating the main release channel automatically upon formal builds. When a formal build is released, it will also be pushed as a pre-release; it should be promoted manually at https://partner.steamgames.com/apps/builds/1634870
 
-To set up builds, first, create a new user for Steam with limited permissions. See https://partner.steamgames.com/doc/sdk/uploading#Build\_Account for details. Note that multiple users can be created with the same email address. Do NOT connect this user to the mobile steam guard; it should only use email based OTPs.
+To set up builds, first, create a new user for Steam with limited permissions. See https://partner.steamgames.com/doc/sdk/uploading#Build_Account for details. Note that multiple users can be created with the same email address. Do NOT connect this user to the mobile steam guard; it should only use email based OTPs.
 
 After the user is created, create two github secrets: `STEAM_USERNAME` and `STEAM_PASSWORD`.
 
@@ -47,3 +47,4 @@ If, at any point, Steam starts rejecting logins and sending a new OTP by email, 
 Both pre-release and release builds are pushed to Itch. The channel names are `<os>-beta` and `<os>-beta-experimental` for pre-release builds, and `<os>-release` and `<os>-release-experimental`.
 
 To enable this, create a secret named `BUTLER_CREDENTIALS` with a valid API key from Itch.
+

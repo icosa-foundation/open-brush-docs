@@ -16,7 +16,7 @@ Commands are query string parameters. Like this: command.name=parameters
 
 Separate multiple commands with: **&**&#x20;
 
-Example:[ http://localhost:40074/api/v1?brush.turn.y=45\&brush.draw=1](http://localhost:40074/api/v1?brush.turn.y=45\&brush.draw=1)
+Example:[ http://localhost:40074/api/v1?brush.turn.y=45&brush.draw=1](http://localhost:40074/api/v1?brush.turn.y=45&brush.draw=1)
 
 If you want to send a lot of commands or especially long commands (complex paths etc) then you can just http POST instead of GET. The commands should be form-encoded in the body of the request (exactly as if you submitted a html form with the form name as the command name and the form value as the command parameters)
 
@@ -1196,3 +1196,4 @@ Applies the current snap grid to all selected objects
 **selection.align** (string axis, string alignBy) [Try it](http://localhost:40074/api/v1?/api/v1?selection.align=x,center)
 
 Aligns all selected objects to the given axis using their minimum, center or maximum points
+

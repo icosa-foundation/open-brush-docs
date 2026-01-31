@@ -4,8 +4,8 @@
 
 ## Download
 
-* [O~~culus Quest 1~~](https://nightly.link/icosa-foundation/open-brush/workflows/build/feature%2Fplugin-scripting/Oculus%20Quest%20\(2%2B\).zip)
-* [~~Oculus Quest 2 or 3~~](https://nightly.link/icosa-foundation/open-brush/workflows/build/feature%2Fplugin-scripting/Oculus%20Quest%20\(2%2B\).zip)
+* [O~~culus Quest 1~~](https://nightly.link/icosa-foundation/open-brush/workflows/build/feature%2Fplugin-scripting/Oculus%20Quest%20%282%2B%29.zip)
+* [~~Oculus Quest 2 or 3~~](https://nightly.link/icosa-foundation/open-brush/workflows/build/feature%2Fplugin-scripting/Oculus%20Quest%20%282%2B%29.zip)
 * [~~Oculus PC VR~~ ](https://nightly.link/icosa-foundation/open-brush/workflows/build/feature%2Fplugin-scripting/Windows%20Rift.zip)~~(Rift, Quest via Link cable...)~~
 * [~~SteamVR and other PC VR~~](https://nightly.link/icosa-foundation/open-brush/workflows/build/feature%2Fplugin-scripting/Windows%20OpenXR.zip)~~(Vive, Index, Reverb...)~~
 * [~~Other Builds~~](https://nightly.link/icosa-foundation/open-brush/workflows/build/feature%2Fplugin-scripting) ~~(Pico, Pimax etc)~~
@@ -44,3 +44,4 @@ Come over to the [Open Brush Discord](https://discord.openbrush.app) and chat to
 ### Can I see it in action?
 
 {% embed url="https://www.youtube.com/watch?v=7YxjNvCY8ak" %}
+

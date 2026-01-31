@@ -17,7 +17,7 @@ It's an attempt to provide a runtime UI for Tim Aidley's "User Brushes" feature:
 
 See:
 
-* [https://docs.google.com/document/d/1tEGN6OjAI7DSIeqWwfdPOAH\_APv-33cOEwz\_gDdVVe8/edit](https://docs.google.com/document/d/1tEGN6OjAI7DSIeqWwfdPOAH\_APv-33cOEwz\_gDdVVe8/edit)
+* [https://docs.google.com/document/d/1tEGN6OjAI7DSIeqWwfdPOAH_APv-33cOEwz_gDdVVe8/edit](https://docs.google.com/document/d/1tEGN6OjAI7DSIeqWwfdPOAH_APv-33cOEwz_gDdVVe8/edit)
 * [https://github.com/TimAidley/open-brush/blob/features/simple-brushes/Docs/UserBrushes.md](https://github.com/TimAidley/open-brush/blob/features/simple-brushes/Docs/UserBrushes.md)
 
 Currently it:
@@ -52,3 +52,4 @@ I made a quick video showing an early stage example:
 {% embed url="https://www.youtube.com/watch?v=BWCpKSLiWKE" %}
 
 {% embed url="https://www.youtube.com/watch?time_continue=7&v=G3LN3OEPqKQ&feature=emb_logo" %}
+

@@ -20,16 +20,16 @@ There’s some really useful info in the last [_**TIlt Brush release notes**_](u
 ## Developer Resources:
 
 * [Developer Notes](developer-notes/)
-* [Open Brush Feature Tracking](https://docs.google.com/spreadsheets/d/1MNqrgnUdM-g5qbW\_-rWgnLqqK2WJSSb51y4NTq-ooh0/edit?usp=sharing) (known forks and features)
+* [Open Brush Feature Tracking](https://docs.google.com/spreadsheets/d/1MNqrgnUdM-g5qbW_-rWgnLqqK2WJSSb51y4NTq-ooh0/edit?usp=sharing) (known forks and features)
 
 ## Other Resources
 
-* A good explanation for non technical people about “Open Source and Tilt Brush”: [Shameless Mayhem - Teaching Tilt Brush: Going Open Source](https://www.youtube.com/watch?v=LNFl\_G1OXIw)
+* A good explanation for non technical people about “Open Source and Tilt Brush”: [Shameless Mayhem - Teaching Tilt Brush: Going Open Source](https://www.youtube.com/watch?v=LNFl_G1OXIw)
 * Unity Downloads:
   * [Download Unity - Personal Use](https://store.unity.com/download?ref=personal)
   * [Download Unity - Business Use](https://store.unity.com/#plans-business)
 * Our Discord Bots: [Time Zone Conversion](https://top.gg/bot/471091072546766849) Bot
-* [Open Tilt Brush Documentation](https://docs.google.com/spreadsheets/d/1exi7irQ35e8A9LZ6-ujVpLCF\_vwBRclM1-iHBYenwBs/edit#gid=0) (big list of tutorials, tweets, videos, ideas etc)
+* [Open Tilt Brush Documentation](https://docs.google.com/spreadsheets/d/1exi7irQ35e8A9LZ6-ujVpLCF_vwBRclM1-iHBYenwBs/edit#gid=0) (big list of tutorials, tweets, videos, ideas etc)
 * [Open Brush Trello](https://trello.com/b/jItetqYe/open-brush)
 * [@andybak's personal open brush trello](https://trello.com/b/KYdM1ffh/open-brush-experimental-features)
 
@@ -41,13 +41,13 @@ Custom brushes, new features and multiplayer interaction social posts.
 | ----------- | ----------------- | ----------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------- |
 | 1-28-2021   | PunktVR           | Twitter           | [https://twitter.com/punktvr/status/1354842220361297920](https://twitter.com/punktvr/status/1354842220361297920)                                                                                                                               | Dandelion Brush                     |
 | 1-28-2021   | PunktVR           | Twitter           | [https://twitter.com/punktvr/status/1354900422503362561](https://twitter.com/punktvr/status/1354900422503362561)                                                                                                                               | Lacey Leaf Brush                    |
-| 1-29-2021   | Open Brush        | Youtube           | [https://www.youtube.com/watch?v=Y\_9-cof7js4\&feature=emb\_logo](https://www.youtube.com/watch?v=Y\_9-cof7js4\&feature=emb\_logo)                                                                                                             | Experimental Brushes display        |
+| 1-29-2021   | Open Brush        | Youtube           | [https://www.youtube.com/watch?v=Y_9-cof7js4&feature=emb_logo](https://www.youtube.com/watch?v=Y_9-cof7js4&feature=emb_logo)                                                                                                             | Experimental Brushes display        |
 | 1-28-2021   | Andybak / Cabbibo | Twitter / itch.io | <p><a href="https://twitter.com/andybak/status/1354865232871632896">https://twitter.com/andybak/status/1354865232871632896</a></p><p>Using <a href="https://cabbibo.itch.io/fantasy-crystals">https://cabbibo.itch.io/fantasy-crystals</a></p> | Crystal shaders                     |
 | 1-29-2021   | M2                | Twitter           | [https://twitter.com/msub2official/status/1355069506230636548](https://twitter.com/msub2official/status/1355069506230636548)                                                                                                                   | WebXR version called - Silk Brush   |
 | 1-29-2021   | PatrickHackett    | Twitter           | [https://twitter.com/phacktweets/status/1355206906441129992](https://twitter.com/phacktweets/status/1355206906441129992)                                                                                                                       | Youtube Brush                       |
 | 2-1-2021    | SabbyLife         | Youtube           | <p><a href="https://www.youtube.com/watch?v=fMRLZS5cMRc">https://www.youtube.com/watch?v=fMRLZS5cMRc</a><br><a href="https://youtu.be/xgv88VY6-1s">https://youtu.be/xgv88VY6-1s</a></p>                                                        | Hearts, Jelly Brush, & Seed Brushes |
 
-A big list of random stuff here: [https://docs.google.com/spreadsheets/d/1exi7irQ35e8A9LZ6-ujVpLCF\_vwBRclM1-iHBYenwBs/edit#gid=0](https://docs.google.com/spreadsheets/d/1exi7irQ35e8A9LZ6-ujVpLCF\_vwBRclM1-iHBYenwBs/edit#gid=0)
+A big list of random stuff here: [https://docs.google.com/spreadsheets/d/1exi7irQ35e8A9LZ6-ujVpLCF_vwBRclM1-iHBYenwBs/edit#gid=0](https://docs.google.com/spreadsheets/d/1exi7irQ35e8A9LZ6-ujVpLCF_vwBRclM1-iHBYenwBs/edit#gid=0)
 
 ## Usage & Policy Guidelines
 
@@ -57,11 +57,11 @@ A big list of random stuff here: [https://docs.google.com/spreadsheets/d/1exi7ir
 
 _Google - Tilt Brush_
 
-[Tilt Brush Brand - Open Source Code](https://github.com/googlevr/tilt-brush/blob/master/BRAND\_GUIDELINES.md) Guidelines
+[Tilt Brush Brand - Open Source Code](https://github.com/googlevr/tilt-brush/blob/master/BRAND_GUIDELINES.md) Guidelines
 
 [Tilt Brush Open Source Code](https://github.com/googlevr/tilt-brush)
 
-[Tilt Brush Brand Guidelines](https://support.google.com/tiltbrush/answer/7203483?hl=en\&ref\_topic=7074683) under [(EULA License)](https://store.steampowered.com/eula/327140\_eula\_0)
+[Tilt Brush Brand Guidelines](https://support.google.com/tiltbrush/answer/7203483?hl=en&ref_topic=7074683) under [(EULA License)](https://store.steampowered.com/eula/327140_eula_0)
 
 [Tilt Brush Media Kit](https://drive.google.com/drive/folders/0B-FOlsWp-DWJV2JrVnJOSlpIQlk)
 
@@ -72,3 +72,4 @@ _Google - Tilt Brush_
 Make a donation
 
 [https://opencollective.com/icosa](https://opencollective.com/icosa)
+

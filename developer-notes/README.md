@@ -13,8 +13,8 @@
 **Spreadsheets with some useful info:**
 
 * [Open Brush: Brushes, Materials and Shaders](https://docs.google.com/spreadsheets/d/12fHPnMNhpGGdR1mzFeCjXbg1Nv1PO1LZGcHwgp3S1Og/edit#gid=0)
-* [Open Brush: Panels, Popups and UI Classes](https://docs.google.com/spreadsheets/d/1G0drrmswg4rs46wUQ2iDw\_vP8sLEy99p-CXyDTihCiE/edit#gid=1192181253)
-* [Open Brush: Keyboard Controls and VR Input](https://docs.google.com/spreadsheets/d/1D7vIerfSz1vtyDS\_dPdvHiANluEr60VFrxhzE7ZbfAU/edit#gid=1073965238)
+* [Open Brush: Panels, Popups and UI Classes](https://docs.google.com/spreadsheets/d/1G0drrmswg4rs46wUQ2iDw_vP8sLEy99p-CXyDTihCiE/edit#gid=1192181253)
+* [Open Brush: Keyboard Controls and VR Input](https://docs.google.com/spreadsheets/d/1D7vIerfSz1vtyDS_dPdvHiANluEr60VFrxhzE7ZbfAU/edit#gid=1073965238)
 
 ## Developing and Testing Without a VR Headset
 
@@ -54,7 +54,7 @@ public enum FoobarType
 }
 ```
 
-Now the only problem is to ensure you use numbers that other branches haven’t already used. We’ve settled on a simple low tech solution for now. Just go to this Google Sheet and reserve a block of 1000[: **Open Brush enum reservations**](https://docs.google.com/spreadsheets/d/17OOrxFgrA8COwxAinj9e7r2zwcKxLP4J306c5woZooc/edit?usp=drive\_web\&ouid=105817942650117193176)\*\*\*\*
+Now the only problem is to ensure you use numbers that other branches haven’t already used. We’ve settled on a simple low tech solution for now. Just go to this Google Sheet and reserve a block of 1000[: **Open Brush enum reservations**](https://docs.google.com/spreadsheets/d/17OOrxFgrA8COwxAinj9e7r2zwcKxLP4J306c5woZooc/edit?usp=drive_web&ouid=105817942650117193176)\*\*\*\*
 
 ### **Important Enums**
 
@@ -152,7 +152,7 @@ Answer: See SketchControlScript.**UpdateGrab\_ContinuesTwoHands** and implement 
 
 ## Button Scripts
 
-(Also see [Open Brush: Panels, Popups and UI Classes](https://docs.google.com/spreadsheets/d/1G0drrmswg4rs46wUQ2iDw\_vP8sLEy99p-CXyDTihCiE))
+(Also see [Open Brush: Panels, Popups and UI Classes](https://docs.google.com/spreadsheets/d/1G0drrmswg4rs46wUQ2iDw_vP8sLEy99p-CXyDTihCiE))
 
 * **ActionButton :** BaseButton\
   Triggers a UnityEvent assigned in the inspector.
@@ -627,3 +627,4 @@ we could have the smaller taxonomy to help partial implementations - but any pro
 1pldToday at 9:17 PM
 
 Totally; the fallback could be specified as a guid too. I thought that a higher-level approach might be easier for brush authors -- it's the difference between an extra kind-of-inscrutable guid field in the brush descriptor, vs a dropdown saying "brush type"
+
