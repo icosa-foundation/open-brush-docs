@@ -2,7 +2,7 @@
 
 ## Turning on Experimental Brushes
 
-![](<../.gitbook/assets/image (4) (1) (2).png>)
+![](<../.gitbook/assets/image-061.png>)
 
 Simply open up the Settings Panel and click the button.
 

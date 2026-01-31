@@ -4,7 +4,7 @@
 
 You can open the Scripts Panel from a button on the [Labs Panel](../using-the-open-brush-tools-quick-tools-and-menu-panels/the-admin-panel/labs-panel.md)
 
-![](<../../.gitbook/assets/image (1) (3).png>)
+![](<../../.gitbook/assets/image-012.png>)
 
 We won't be using the buttons on the bottom row at the moment. These are related to the older [HTTP API Scripts](../open-brush-api/) which are are useful for controlling Open Brush remotely. However the new plugin scripts are much more powerful and can add new features and modify how Open Brush works interactively.
 
@@ -42,7 +42,7 @@ Background Plugins have an extra button and work slightly differently in terms o
 
 ## Plugin Parameters
 
-![](<../../.gitbook/assets/image (5) (1).png>)
+![](<../../.gitbook/assets/image-068.png>)
 
 Plugins can define various parameters so you can easily change how they work without needing to edit the script. Each slider will show a tooltip when you hover over it.
 

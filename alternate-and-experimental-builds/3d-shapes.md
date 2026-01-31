@@ -27,7 +27,7 @@ Download a build for your headset from the link above and unzip it. You can run 
 
 ### How do I use the 3D Shapes tool?
 
-![](<../.gitbook/assets/image (15) (2).png>)
+![](<../.gitbook/assets/image-032.png>)
 
 1. (Make sure you've switch off beginner mode) Find the "Experimental Tools" panel which is usually attached to your wand.
 2. There will be a new icon at the bottom that looks like a wireframe cube. Click that to activate the 3D shape tool.
@@ -87,13 +87,13 @@ This opens a new panel that gives you access to the powerful underlying procedur
 
 ### Using the Shape Designer
 
-![The "Generate" panel showing the main shape categories](<../.gitbook/assets/image (13) (2).png>)
+![The "Generate" panel showing the main shape categories](<../.gitbook/assets/image-025.png>)
 
-![The "Modify" panel showing 3 modifiers applied to the shape.](<../.gitbook/assets/image (14) (2).png>)
+![The "Modify" panel showing 3 modifiers applied to the shape.](<../.gitbook/assets/image-029.png>)
 
-![The "Appearance" panel showing color and material options.](<../.gitbook/assets/image (18).png>)
+![The "Appearance" panel showing color and material options.](<../.gitbook/assets/image-037.png>)
 
-![The "Presets" popup where you can save the shapes you've created.](<../.gitbook/assets/image (16).png>)
+![The "Presets" popup where you can save the shapes you've created.](<../.gitbook/assets/image-034.png>)
 
 (docs coming soon)
 

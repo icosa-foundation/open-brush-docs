@@ -36,7 +36,7 @@ For the first 7 point symmetry types, the slider controls how many copies are ar
 
 #### 2. Wallpaper Symmetry
 
-![](<../.gitbook/assets/image (1) (1) (2) (1).png>)
+![](<../.gitbook/assets/image-006.png>)
 
 Wallpaper symmetry repeats your strokes in various types grid pattern - reflecting or rotating in specific ways. You can create wallpaper, floor tiles crystal lattices or any other repeating patterns.
 
@@ -44,7 +44,7 @@ For all symmetry types you have control over the number of copies in x and y dir
 
 #### 3. Options
 
-![](<../.gitbook/assets/image (7) (3).png>)
+![](<../.gitbook/assets/image-087.png>)
 
 This screen allows you to vary the colour of each stroke based on waveforms of your choosing. Colors can cycle based on hue, saturation or brightness and the amount, frequency and type of the variance can be precisely controlled.
 

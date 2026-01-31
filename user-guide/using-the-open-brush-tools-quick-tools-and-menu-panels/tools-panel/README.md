@@ -27,7 +27,7 @@
     Long-press the camera tool to access the camera settings:
 
     \
-    ![](<../../../.gitbook/assets/image (43).png>)\\
+    ![](<../../../.gitbook/assets/image-064.png>)\\
 5.  **Teleport Tool**. To virtually hop to a different spot in your environment, use Teleport.
 
     1. Point your painting controller towards the palette and select Teleport.
@@ -44,15 +44,15 @@
 
     **Selection Tray Buttons:**\
     \
-    **Select All** ![](../../../.gitbook/assets/15.png)
+    **Select All** ![](../../../.gitbook/assets/image-127.png)
 
     To select everything in a scene, long press on the Select button on the Tools panel and the Select All button will appear.
 
-    **Invert Selection** ![](../../../.gitbook/assets/16.png)
+    **Invert Selection** ![](../../../.gitbook/assets/image-128.png)
 
     To invert a selection that you have just made, long press on the Select button on the Tools panel and the Invert Selection button will appear.
 
-    **Toggle Grouping for Selection** ![](<../../../.gitbook/assets/image (6) (1).png>)
+    **Toggle Grouping for Selection** ![](<../../../.gitbook/assets/image-074.png>)
 
     Combines the currently selected strokes into a single group. They will move and scale as one. You can ungroup them easily by clicking again.\\
 7.  **Mirror Tool**. Use the mirror mode tool to paint symmetrically. To use the tool:
@@ -65,7 +65,7 @@
     If you long-press the mirror tool you get the following options:
 
     \
-    ![](<../../../.gitbook/assets/image (44).png>)\
+    ![](<../../../.gitbook/assets/image-065.png>)\
     \
     The second button is the Mirror Recall button. This will recall a Mirror that is out of reach.\
     <mark style="color:blue;">(If you like the mirror - you might want to check out the multi-mirror )</mark>

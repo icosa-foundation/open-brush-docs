@@ -30,7 +30,7 @@ This slider controls how much the stroke size varies from stroke to stroke. All 
 
 #### Jitter Positions
 
-![](<../.gitbook/assets/image (12) (1) (1) (1) (1) (1).png>)
+![](<../.gitbook/assets/image-017.png>)
 
 This slider controls how much randomness is applied to each point on a brush stroke. . All the way to the left behaves normally. As you move the slider more to the right, each point of the stroke will be randomly shifted from it's usual position. At higher settings and with some brushes this will cause the brush stroke to actually split and form multiple small strokes.
 
@@ -68,4 +68,4 @@ This is particularly useful for:
 
 {% embed url="https://youtu.be/mScGKQke4QA" %}
 
-![Hull brush drawn with the Polyhedra tool with color and position jitter added](<../.gitbook/assets/image (11) (1) (1) (1).png>)
+![Hull brush drawn with the Polyhedra tool with color and position jitter added](<../.gitbook/assets/image-014.png>)

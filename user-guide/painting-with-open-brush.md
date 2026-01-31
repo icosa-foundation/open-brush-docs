@@ -13,7 +13,7 @@ For enhanced precision and pressure-sensitive painting, you can use the [Logitec
 
 ### **Using the palette**
 
-![](<../.gitbook/assets/image (3) (1) (1) (1).png>)
+![](<../.gitbook/assets/image-049.png>)
 
 1. On your palette controller, use your thumb to swipe left or right across the thumbpad (HTC Vive) or thumbstick (Oculus Rift and Windows Mixed Reality).
 2. This will allow you to rotate between the three faces of the palette.

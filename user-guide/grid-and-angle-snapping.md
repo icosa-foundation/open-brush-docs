@@ -14,13 +14,13 @@ Drawing along straight x, y or z lines. Building regular structures up by making
 
 ### How do I use it?
 
-![](../.gitbook/assets/Ws4OtCzR34.png)
+![](../.gitbook/assets/ws4otczr34.png)
 
 <div align="left"><figure><img src="../.gitbook/assets/image (1) (1) (4) (1).png" alt="" width="71"><figcaption></figcaption></figure></div>
 
 Click the button shown above on the [Extras Panel](using-the-open-brush-tools-quick-tools-and-menu-panels/extras-panel/) to open the new Snap Settings panel:
 
-![C](../.gitbook/assets/hrQS2eaDoU.png)
+![C](../.gitbook/assets/hrqs2eadou.png)
 
 Click the Snap Angle or Snap Grid buttons to cycle through angles and grid sizes.
 

@@ -34,7 +34,7 @@ This helps merge vertices that are close together, and saves on polys
 
 * In the pop-up menu for Decimate, enter the ratio of how much to decimate. I entered 0.25.\
   ([https://drive.google.com/file/d/1qSM1ss9mMXxbh689WwgDVJP8ZIxPjGkE/view?usp=sharing](https://drive.google.com/file/d/1qSM1ss9mMXxbh689WwgDVJP8ZIxPjGkE/view?usp=sharing))\
-  ![](../../.gitbook/assets/2.jpeg)\
+  ![](../../.gitbook/assets/image-130.jpg)\
 
 * Export the FBX
 
@@ -55,7 +55,7 @@ This helps merge vertices that are close together, and saves on polys
 
   *   For the Base Texture, check to enable, add the Tilt Brush texture here
 
-      ![](../../.gitbook/assets/3.jpeg)
+      ![](../../.gitbook/assets/image-137.jpg)
 
 
 

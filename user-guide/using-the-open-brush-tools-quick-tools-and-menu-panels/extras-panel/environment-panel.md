@@ -1,3 +1,3 @@
 # Environment Panel
 
-![](<../../../.gitbook/assets/image (32).png>)
+![](<../../../.gitbook/assets/image-054.png>)

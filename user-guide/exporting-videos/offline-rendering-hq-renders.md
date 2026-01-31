@@ -27,7 +27,7 @@ Untitled_13_00.HQ_Render.bat
 
 Double-click the `.bat`. Pick an option from the menu.
 
-![](<../../.gitbook/assets/1 (1).png>)
+![](<../../.gitbook/assets/image-125.png>)
 
 Open Brush will:
 

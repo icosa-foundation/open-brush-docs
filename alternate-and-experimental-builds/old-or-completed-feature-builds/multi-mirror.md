@@ -2,9 +2,9 @@
 
 #### Status: Released in [v2.4](../../release-history/v2.4-prismatic.md)
 
-![](<../../.gitbook/assets/image (14) (1).png>) ![](<../../.gitbook/assets/image (2) (3).png>)
+![](<../../.gitbook/assets/image-028.png>) ![](<../../.gitbook/assets/image-041.png>)
 
-![](<../../.gitbook/assets/image (2) (4).png>) ![](<../../.gitbook/assets/image (7) (4).png>)
+![](<../../.gitbook/assets/image-042.png>) ![](<../../.gitbook/assets/image-088.png>)
 
 ### What does it do?
 
@@ -30,7 +30,7 @@ Download a build for your headset from the link above and unzip it. You can run 
 
 Hold down the mirror button on the Experimental Panel for a second or two:
 
-![](<../../.gitbook/assets/image (9) (1) (2).png>)
+![](<../../.gitbook/assets/image-096.png>)
 
 This will bring up the Symmetry settings panel which contains three tabs:
 
@@ -44,7 +44,7 @@ For the first 7 point symmetry types, the slider controls how many copies are ar
 
 #### Wallpaper Symmetry
 
-![](<../../.gitbook/assets/image (1) (1) (2) (1).png>)
+![](<../../.gitbook/assets/image-006.png>)
 
 Wallpaper symmetry repeats your strokes in various types grid pattern - reflecting or rotating in specific ways. You can create wallpaper, floor tiles crystal lattices or any other repeating patterns.
 
@@ -52,7 +52,7 @@ For all symmetry types you have control over the number of copies in x and y dir
 
 #### Options
 
-![](<../../.gitbook/assets/image (7) (3).png>)
+![](<../../.gitbook/assets/image-087.png>)
 
 This screen allows you to vary the colour of each stroke based on waveforms of your choosing. Colors can cycle based on hue, saturation or brightness and the amount, frequency and type of the variance can be precisely controlled.
 

@@ -14,9 +14,9 @@ Around the outside are buttons for:
 
 1. Save Sketch\\
 2. Upload Panel\
-   ![](<../../../.gitbook/assets/image (45).png>)\\
+   ![](<../../../.gitbook/assets/image-066.png>)\\
 3. The 3 dots "more" button opens this:\
-   ![](<../../../.gitbook/assets/image (30) (1).png>)\
+   ![](<../../../.gitbook/assets/image-053.png>)\
    \
    A popup with:
    1. Tutorial

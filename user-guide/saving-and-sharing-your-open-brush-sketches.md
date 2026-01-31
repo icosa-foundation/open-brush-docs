@@ -6,7 +6,7 @@ When you are finished with your 3D creation, you can save your Open Brush sketch
 
 While painting, you can save your sketch to avoid losing changes.
 
-1. Navigate to the Tools panel in the palette, and select the **Save** icon: ![](../.gitbook/assets/22.png)
+1. Navigate to the Tools panel in the palette, and select the **Save** icon: ![](../.gitbook/assets/image-134.png)
 2. Take a snapshot of your sketch to use as a thumbnail image.
 3. Your sketch is now added to your Sketchbook.
 4. Your sketch file is saved to your computer at **Documents/Open Brush/Sketches**.
@@ -21,7 +21,7 @@ If you're having issues saving your sketch, check that you have administration p
 
 ### **Sharing your Open Brush sketches**
 
-To share your creations outside of Open Brush, click **Upload** ![](../.gitbook/assets/23.png) to publish your sketch to [Icosa](https://beta.icosa.gallery/). Once you have published your sketch, you can share the link to your sketch on social networks like Facebook, Twitter, and Google+.
+To share your creations outside of Open Brush, click **Upload** ![](../.gitbook/assets/image-135.png) to publish your sketch to [Icosa](https://beta.icosa.gallery/). Once you have published your sketch, you can share the link to your sketch on social networks like Facebook, Twitter, and Google+.
 
 ## Icosa Gallery Integration
 

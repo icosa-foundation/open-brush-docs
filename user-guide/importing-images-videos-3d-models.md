@@ -7,7 +7,7 @@ eIf you want to see an image or 3D model while you paint in Open Brush, you can 
 3. On your paint palette, swipe to the Tools panel and select More.
 4. Select **Labs** to open the [Labs Panel](using-the-open-brush-tools-quick-tools-and-menu-panels/the-admin-panel/labs-panel.md)
 
-![](<../.gitbook/assets/image (9) (2).png>)
+![](<../.gitbook/assets/image-098.png>)
 
 Click this icon to open the Media Library:
 
