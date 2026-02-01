@@ -57,9 +57,54 @@ function Main()
 end
 ```
 
-Here we have defined two widgets. Both are floats (rather than integers) and we have defined a minimum, a maximum and a default value. You can set the ltext abel that appears when you hover over each slider.
+Here we have defined two widgets. Both are floats (rather than integers) and we have defined a minimum, a maximum and a default value. You can set the text label that appears when you hover over each slider.
 
 The name of each widget (here "speed" and "radius") are then available to the script as variables.
+
+#### Available Parameter Types
+
+The following parameter types are available for use in your plugins:
+
+**Float and Integer Sliders**
+
+```lua
+Parameters = {
+    floatValue={label="Choose Value", type="float", min=0, max=1, default=0.5},
+    intValue={label="Pick a Number", type="int", min=1, max=8, default=4},
+}
+```
+
+**Color Picker**
+
+```lua
+Parameters = {
+    color={label="Choose Color", type="color", default=Color.red},
+}
+```
+
+**Toggle/Checkbox**
+
+```lua
+Parameters = {
+    toggle={label="Toggle Something", type="toggle", default=false},
+}
+```
+
+**Text Input**
+
+```lua
+Parameters = {
+    text={label="Enter Some Text", type="text", default="hello"},
+}
+```
+
+**List/Dropdown**
+
+```lua
+Parameters = {
+    list={label="Choose Option", type="list", items={"Cats", "Dogs", "Bird", "Fishes"}, default="Fishes"},
+}
+```
 
 ### Coordinate Spaces
 
