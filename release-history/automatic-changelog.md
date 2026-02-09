@@ -1,6 +1,6 @@
 # Changelog since v2.20
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.20...c0f63278a64935d95dad787af2be9e23290e382a)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.20...d3737c62b17bb2012b13440826a80e38d9495378)
 
 ## 🚀 Features
 
@@ -20,6 +20,8 @@
 ## 💬 Uncategorized
 
 - Fix some publish/export bugs ([PR #992](https://github.com/icosa-foundation/open-brush/pull/992) by @andybak)
+
+- More publish fixes ([PR #993](https://github.com/icosa-foundation/open-brush/pull/993) by @andybak)
 
 
 
