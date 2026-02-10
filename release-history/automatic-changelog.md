@@ -1,6 +1,6 @@
 # Changelog since v2.21
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.21...fc7686026f2bd0cfc44255838c3dc0e60fe38aa6)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.21...1178e7125ff1a6e62717fb8e05ae7ccfb7ca5f36)
 
 ## 🛠️ Infrastructure
 
@@ -19,6 +19,8 @@
 - Fix some brush export bugs ([PR #996](https://github.com/icosa-foundation/open-brush/pull/996) by @andybak)
 
 - Switch to xcode 26.2 / ios 26.2 ([PR #997](https://github.com/icosa-foundation/open-brush/pull/997) by @mikeage)
+
+- Fix missing 26.2 iOS ([PR #999](https://github.com/icosa-foundation/open-brush/pull/999) by @mikeage)
 
 
 
