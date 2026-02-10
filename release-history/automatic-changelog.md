@@ -1,6 +1,6 @@
 # Changelog since v2.21
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.21...a12a708bfadb144d41d283659a5e001800975882)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.21...8d0eee8222f2f9b700360135725347df15a59fa1)
 
 ## 🛠️ Infrastructure
 
@@ -15,6 +15,8 @@
 ## 💬 Uncategorized
 
 - Replace pre-commit with prek (and update pre-commit-config) ([PR #990](https://github.com/icosa-foundation/open-brush/pull/990) by @mikeage)
+
+- Fix some brush export bugs ([PR #996](https://github.com/icosa-foundation/open-brush/pull/996) by @andybak)
 
 
 
