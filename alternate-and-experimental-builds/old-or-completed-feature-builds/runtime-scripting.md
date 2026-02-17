@@ -1,17 +1,8 @@
 # Feature: Plugin Scripting
 
-#### Status: Experimental but lots of fun to play with.
+#### <mark style="color:red;background-color:red;">**THIS BRANCH HAS BEEN RELEASED AND IS PART OF THE REGULAR VERSION OF OPEN BRUSH**</mark>
 
-## Download
-
-* [O~~culus Quest 1~~](https://nightly.link/icosa-foundation/open-brush/workflows/build/feature%2Fplugin-scripting/Oculus%20Quest%20%282%2B%29.zip)
-* [~~Oculus Quest 2 or 3~~](https://nightly.link/icosa-foundation/open-brush/workflows/build/feature%2Fplugin-scripting/Oculus%20Quest%20%282%2B%29.zip)
-* [~~Oculus PC VR~~ ](https://nightly.link/icosa-foundation/open-brush/workflows/build/feature%2Fplugin-scripting/Windows%20Rift.zip)~~(Rift, Quest via Link cable...)~~
-* [~~SteamVR and other PC VR~~](https://nightly.link/icosa-foundation/open-brush/workflows/build/feature%2Fplugin-scripting/Windows%20OpenXR.zip)~~(Vive, Index, Reverb...)~~
-* [~~Other Builds~~](https://nightly.link/icosa-foundation/open-brush/workflows/build/feature%2Fplugin-scripting) ~~(Pico, Pimax etc)~~
-* [~~Code~~](https://github.com/icosa-foundation/open-brush/tree/feature/plugin-scripting)
-
-Now included in the current [beta version](../open-brush-beta-docs.md)
+#### Status: Released
 
 ### What does it do?
 
@@ -23,7 +14,7 @@ Changing the way Open Brush responds to user actions. Adding new mirror modes or
 
 ### How do I install it?
 
-[Download](runtime-scripting.md#download) a build for your headset from the link above and unzip it. You can run the Windows exe directly. To install the Quest apk use SideQuest: [https://uploadvr.com/sideloading-quest-how-to/](https://uploadvr.com/sideloading-quest-how-to/)
+This is now part of the regular release of Open Brush
 
 ### How do I use it?
 
@@ -44,4 +35,3 @@ Come over to the [Open Brush Discord](https://discord.openbrush.app) and chat to
 ### Can I see it in action?
 
 {% embed url="https://www.youtube.com/watch?v=7YxjNvCY8ak" %}
-

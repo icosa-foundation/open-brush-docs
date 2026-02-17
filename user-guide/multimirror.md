@@ -28,15 +28,13 @@ When it is active you can access multi mirror settings by clicking and holding t
 
 #### 1. Point Symmetry
 
-<figure><img src="../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
-
 Point symmetry creates copies arranged around the center of the mirror widget. Each icon selects one of the 14 different types of symmetry. This is the symmetry of molecules and polyhedra. It can create shapes such as stars, explosions, vases, octopi or plants and flowers.
 
 For the first 7 point symmetry types, the slider controls how many copies are arranged around the center axis. (The other 7 types are based on tetrahedra, cubes and icosohedron and have a fixed number of copies)
 
 #### 2. Wallpaper Symmetry
 
-![](<../.gitbook/assets/image-006.png>)
+![](../.gitbook/assets/image-006.png)
 
 Wallpaper symmetry repeats your strokes in various types grid pattern - reflecting or rotating in specific ways. You can create wallpaper, floor tiles crystal lattices or any other repeating patterns.
 
@@ -44,13 +42,11 @@ For all symmetry types you have control over the number of copies in x and y dir
 
 #### 3. Options
 
-![](<../.gitbook/assets/image-087.png>)
+![](../.gitbook/assets/image-087.png)
 
 This screen allows you to vary the colour of each stroke based on waveforms of your choosing. Colors can cycle based on hue, saturation or brightness and the amount, frequency and type of the variance can be precisely controlled.
 
 ### Creating Patterns From Existing Brush Strokes
-
-<figure><img src="../.gitbook/assets/image (64).png" alt=""><figcaption></figcaption></figure>
 
 You can also create symmetrical copies from existing strokes. Simple select the strokes you want to use and duplicate them in the same way you do without the mirror (Press the secondary button on the controller you paint with)
 
@@ -59,8 +55,6 @@ This is buggy in the release version but fixed on the [current beta](../alternat
 {% endhint %}
 
 ### Creating Symmetrical Patterns from Imported Objects
-
-<figure><img src="../.gitbook/assets/image (63).png" alt=""><figcaption></figcaption></figure>
 
 As well as duplicating brush strokes, if you have [imported some media](using-reference-images-on-oculus-quest.md) such as images, video or 3D objects then you can select those and create copies that follow the current symmetry settings.
 
@@ -80,9 +74,3 @@ Some early experiments with spinning mirrors
 {% embed url="https://youtu.be/VxVjkV_CkFs" %}
 Another early test of the feature
 {% endembed %}
-
-<div><img src="../.gitbook/assets/image (2) (3).png" alt=""> <figure><img src="../.gitbook/assets/image (66).png" alt=""><figcaption></figcaption></figure></div>
-
-<div><img src="../.gitbook/assets/image (7) (4).png" alt=""> <figure><img src="../.gitbook/assets/image (65).png" alt=""><figcaption></figcaption></figure></div>
-
-<div><figure><img src="../.gitbook/assets/Untitled_1_00.png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Untitled_2_00.png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Untitled_6_00.png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Untitled_5_00.png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Untitled_9_00.png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Untitled_117_00.png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Untitled_118_01 (1).png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Untitled_127_00.png" alt=""><figcaption></figcaption></figure></div>

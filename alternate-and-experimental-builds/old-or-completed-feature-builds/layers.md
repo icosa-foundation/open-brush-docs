@@ -1,5 +1,7 @@
 # Feature: Layers
 
+#### <mark style="color:red;background-color:red;">**THIS BRANCH HAS BEEN RELEASED AND IS PART OF THE REGULAR VERSION OF OPEN BRUSH**</mark>
+
 #### Status: Released in [v2.0](../../release-history/v2.0-xr-update.md)
 
 ### What does it do?
@@ -10,7 +12,7 @@ Organize your sketch into layers that can be turned on and off separately. Expor
 
 ### How do I install it?
 
-Download a build for your headset from the link above and unzip it. You can run the Windows exe directly. To install the Quest apk use SideQuest: [https://uploadvr.com/sideloading-quest-how-to](https://uploadvr.com/sideloading-quest-how-to/)
+This is now part of the regular release of Open Brush
 
 ## How do I get help
 

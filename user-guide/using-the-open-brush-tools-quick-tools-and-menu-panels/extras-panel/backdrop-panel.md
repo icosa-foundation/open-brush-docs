@@ -1,6 +1,6 @@
 # Backdrop Panel
 
-<figure><img src="../../../.gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image-047.png" alt=""><figcaption></figcaption></figure>
 
 Use Backdrop to modify your scene's backdrop color gradient and fog.
 

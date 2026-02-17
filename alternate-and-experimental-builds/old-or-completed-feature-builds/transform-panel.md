@@ -1,8 +1,10 @@
 # Feature: Transform Panel and Snap Enhancements
 
+#### <mark style="color:red;background-color:red;">**THIS BRANCH HAS BEEN RELEASED AND IS PART OF THE REGULAR VERSION OF OPEN BRUSH**</mark>
+
 #### Status: Released in [v2.4](../../release-history/v2.4-prismatic.md)
 
-<div><figure><img src="../../.gitbook/assets/image (36).png" alt="" width="397"><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/image (39) (1).png" alt="" width="410"><figcaption></figcaption></figure></div>
+<div><figure><img src="../../.gitbook/assets/image-056.png" alt="" width="397"><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/image-058 (1).png" alt="" width="410"><figcaption></figcaption></figure></div>
 
 ### What does it do?
 
@@ -27,22 +29,14 @@ Creating regular arrangements of strokes or precisely positioning/orientating pa
 
 ### How do I install it?
 
-Download a build for your headset from the link above and unzip it. You can run the Windows exe directly. To install the Quest apk use SideQuest: [https://uploadvr.com/sideloading-quest-how-to/](https://uploadvr.com/sideloading-quest-how-to/)
+This is now part of the regular release of Open Brush
 
 ### Where do I find the new Transform Panel?
 
 It should appear automatically.
-
-### Known Issues
-
-(To do)
 
 ## How do I get help
 
 Come over to the Open Brush Discord: [https://discord.openbrush.app](https://discord.openbrush.app) and chat to me ( andybak#5425 ).
 
 I'm on UK time but I check in fairly regularly.
-
-### Can I see it in action?
-
-(To do)

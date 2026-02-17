@@ -7,11 +7,11 @@ eIf you want to see an image or 3D model while you paint in Open Brush, you can 
 3. On your paint palette, swipe to the Tools panel and select More.
 4. Select **Labs** to open the [Labs Panel](using-the-open-brush-tools-quick-tools-and-menu-panels/the-admin-panel/labs-panel.md)
 
-![](<../.gitbook/assets/image-098.png>)
+![](../.gitbook/assets/image-098.png)
 
 Click this icon to open the Media Library:
 
-### <img src="../.gitbook/assets/image (8) (1) (1).png" alt="" data-size="original">
+###
 
 #### **Add an image or video clip**
 
@@ -41,17 +41,19 @@ You can organize your media files into folders. See [Folder Navigation](folder-n
 WebM is a video format that supports transparency (alpha channel), allowing you to import videos with transparent backgrounds. This is particularly useful for effects, animated sprites, or reference footage.
 
 **Requirements:**
-- Must use VP8 codec
-- Transparency is currently only supported on Windows
-- Place .webm files in Documents/Open Brush/Media Library/Videos
+
+* Must use VP8 codec
+* Transparency is currently only supported on Windows
+* Place .webm files in Documents/Open Brush/Media Library/Videos
 
 ## Point Cloud Import
 
 You can import point cloud data in PLY format (binary little-endian). Point clouds are useful for:
-- Importing 3D scanned data
-- Working with photogrammetry outputs
-- Creating particle-like effects
-- Reference data from LiDAR scans
+
+* Importing 3D scanned data
+* Working with photogrammetry outputs
+* Creating particle-like effects
+* Reference data from LiDAR scans
 
 Place .ply files in Documents/Open Brush/Media Library/Models and they will appear in the model browser.
 

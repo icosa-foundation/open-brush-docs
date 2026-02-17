@@ -12,7 +12,7 @@ Launches a line from your brush which you can steer. Similar to [LaserBeam](exam
 
 ### Dashes
 
-<div align="left"><img src="../../../.gitbook/assets/image (9) (1).png" alt="" width="375"></div>
+<div align="left"><img src="../../../.gitbook/assets/image-097.png" alt="" width="375"></div>
 
 Stops and restarts the stroke at regular intervals as you draw resulting in a dashed line.
 

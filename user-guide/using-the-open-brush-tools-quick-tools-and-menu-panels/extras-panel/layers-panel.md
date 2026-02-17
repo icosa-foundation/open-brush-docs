@@ -1,6 +1,6 @@
 # Layers Panel
 
-<figure><img src="../../../.gitbook/assets/image (68).png" alt="" width="338"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image-083.png" alt="" width="338"><figcaption></figcaption></figure>
 
 The Layers Panel allows you to organize your sketch into separate layers, making it easier to manage complex scenes.
 

@@ -44,9 +44,9 @@ In Advanced mode, the camera icon has a sub-menu. You’ll see a small triangle 
 
 Click and hold to open the sub-menu. Then choose **Camera Options**.
 
-<figure><img src="../../.gitbook/assets/Cameras Icon in advanced mode with triangle.png" alt=""><figcaption><p>The Cameras icon in Advanced mode has a sub-menu.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/cameras-icon-in-advanced-mode-with-triangle.png" alt=""><figcaption><p>The Cameras icon in Advanced mode has a sub-menu.</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/Camera Options.png" alt=""><figcaption><p>Camera Options is inside the Cameras sub-menu.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/camera-options.png" alt=""><figcaption><p>Camera Options is inside the Cameras sub-menu.</p></figcaption></figure>
 
 In **Camera Options**, you can:
 
@@ -54,19 +54,19 @@ In **Camera Options**, you can:
 * Adjust field of view (FOV) and smoothing.
 * Toggle post effects.
 
-<figure><img src="../../.gitbook/assets/Camera Options tools.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/camera-options-tools.png" alt=""><figcaption></figcaption></figure>
 
 #### FOV examples
 
 These examples show FOV set to 140, 70, and 10. The first image has the watermark enabled.
 
-<figure><img src="../../.gitbook/assets/FOV 140 Watermark On.jpg" alt=""><figcaption><p>FOV 140 (wide angle), watermark on</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/fov-140-watermark-on.jpg" alt=""><figcaption><p>FOV 140 (wide angle), watermark on</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/FOV 140 Watermark Off.jpg" alt=""><figcaption><p>FOV 140, watermark off</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/fov-140-watermark-off.jpg" alt=""><figcaption><p>FOV 140, watermark off</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/FOV 70.jpg" alt=""><figcaption><p>FOV 70</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/fov-70.jpg" alt=""><figcaption><p>FOV 70</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/FOV 10.jpg" alt=""><figcaption><p>FOV 10</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/fov-10.jpg" alt=""><figcaption><p>FOV 10</p></figcaption></figure>
 
 ### Demo video
 

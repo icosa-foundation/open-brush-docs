@@ -1,8 +1,10 @@
 # Feature: Improved Import/Export
 
+#### <mark style="color:red;background-color:red;">**THIS BRANCH HAS BEEN RELEASED AND IS PART OF THE REGULAR VERSION OF OPEN BRUSH**</mark>
+
 Status: Released in [v2.8](../../release-history/v2.8.md)
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image-010.png" alt=""><figcaption></figcaption></figure>
 
 ### What does it do?
 
@@ -10,7 +12,7 @@ Adds new optional GLTF import and export workflows. Allow import of lights, brea
 
 ### How do I install it?
 
-Download a build for your headset from the link above and unzip it. You can run the Windows exe directly. To install the Quest apk use SideQuest: [https://uploadvr.com/sideloading-quest-how-to/](https://uploadvr.com/sideloading-quest-how-to/)
+This is now part of the regular release of Open Brush
 
 ### How do I use it?
 

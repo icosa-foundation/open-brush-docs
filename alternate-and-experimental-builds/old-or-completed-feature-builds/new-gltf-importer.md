@@ -1,6 +1,8 @@
 # Feature: Improved GLTF Importer
 
-#### Status: This feature has now been merged into the main release
+#### <mark style="color:red;background-color:red;">**THIS BRANCH HAS BEEN RELEASED AND IS PART OF THE REGULAR VERSION OF OPEN BRUSH**</mark>
+
+#### Status: Released
 
 ## Download
 
@@ -16,7 +18,7 @@ Importing a wide range of GLTF files into Open Brush including animated models.
 
 ### How do I install it?
 
-Download a build for your headset from the link above and unzip it. You can run the Windows exe directly. To install the Quest apk use SideQuest: [https://uploadvr.com/sideloading-quest-how-to/](https://uploadvr.com/sideloading-quest-how-to/)
+This is now part of the regular release of Open Brush
 
 ### How do I use it?
 
@@ -24,8 +26,6 @@ Just import gltf models as you normally would.
 
 ### Known Issues
 
-* When you load a sketch containing GLTF models, the models do not appear. The workaround is to open the sketch a second time.
-* Some models are improperly sized in the 3D model panel and obscure other models.
 * There's no way to control the animation for animated models and selecting them can sometimes be tricky.
 
 ## How do I get help

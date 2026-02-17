@@ -1,6 +1,6 @@
 # Lights Panel
 
-<figure><img src="../../../.gitbook/assets/image (67).png" alt="" width="338"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image-082.png" alt="" width="338"><figcaption></figcaption></figure>
 
 Use Lights to modify your scene's primary and secondary lighting colors and positioning.
 

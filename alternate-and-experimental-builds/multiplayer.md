@@ -1,15 +1,8 @@
 # Feature: Multiplayer
 
+#### <mark style="color:red;background-color:red;">**THIS BRANCH HAS BEEN RELEASED AND IS PART OF THE REGULAR VERSION OF OPEN BRUSH**</mark>
+
 #### Status: Released in [v2.10](../release-history/v2.10.md)
-
-## Download
-
-* [~~Oculus Quest 1~~](https://nightly.link/icosa-foundation/open-brush/workflows/build/multiplayer%2Fui/Oculus%20Quest%20%282%2B%29.zip)
-* [~~Oculus Quest 2 or 3~~](https://nightly.link/icosa-foundation/open-brush/workflows/build/multiplayer%2Fui/Oculus%20Quest%20%282%2B%29.zip)
-* [~~Oculus PC VR~~](https://nightly.link/icosa-foundation/open-brush/workflows/build/multiplayer%2Fui/Windows%20Rift.zip)~~(Rift, Quest via Link cable...)~~
-* [~~SteamVR and other PC VR~~](https://nightly.link/icosa-foundation/open-brush/workflows/build/multiplayer%2Fui/Windows%20OpenXR.zip)~~(Vive, Index, Reverb...)~~
-* [~~Other Builds~~](https://nightly.link/icosa-foundation/open-brush/workflows/build/multiplayer%2Fui) ~~(Pico, Pimax etc)~~
-* [~~Code~~](https://github.com/icosa-foundation/open-brush/tree/multiplayer/ui)
 
 ### What does it do?
 
@@ -21,7 +14,7 @@ Collaborate on a sketch or invite people to watch you create.
 
 ### How do I install it?
 
-Download a build for your headset from the link above and unzip it. You can run the Windows exe directly. To install the Quest apk use SideQuest: [https://uploadvr.com/sideloading-quest-how-to/](https://uploadvr.com/sideloading-quest-how-to/)
+This is now part of the regular release of Open Brush
 
 ### How do I use it?
 
@@ -43,4 +36,3 @@ Come over to the [Open Brush Discord](https://discord.openbrush.app) and chat to
 ### Can I see it in action?
 
 TODO
-

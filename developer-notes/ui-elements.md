@@ -24,13 +24,11 @@ An alternative to popups. Some tool buttons when active will reveal a "mini pane
 
 ## Widgets
 
-These are interactable objects within the scene. The simplest examples are imported images and 3d models which can be resized and moved. More complex widgets can contain UI elements of their own - for example, the camera path tool has widgets for each control point.&#x20;
+These are interactable objects within the scene. The simplest examples are imported images and 3d models which can be resized and moved. More complex widgets can contain UI elements of their own - for example, the camera path tool has widgets for each control point.
 
 ### GrabWidget
 
-This is the base widget that all other widgets inherit from.&#x20;
-
-
+This is the base widget that all other widgets inherit from.
 
 ### ModelWidget
 
@@ -49,7 +47,7 @@ Importing this car 3d model from Blender into Open Brush:
 
 Results in this kind of GameObject hierarchy in Unity:
 
-<figure><img src="../.gitbook/assets/s1ills5g.bmp" alt=""><figcaption></figcaption></figure>
+<figure><img src="/broken/files/wljjXZV8716QPu0FteVq" alt=""><figcaption></figcaption></figure>
 
 ### LightWidget
 
@@ -98,6 +96,3 @@ Sliders can be used to choose a value (either a continuous or discrete value) wi
 ###
 
 ###
-
-
-

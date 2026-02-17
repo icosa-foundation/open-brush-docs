@@ -6,7 +6,7 @@ This page has been update to reflect changes in the current [beta version](../al
 
 ## Desktop Mode
 
-<figure><img src="../.gitbook/assets/image (61).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image-076.png" alt=""><figcaption></figcaption></figure>
 
 If you launch Open Brush without a headset attached (platforms where we don't currently have VR support), the app will start in "Sketch Viewer Mode" where you can load any of the available sketches and navigate around with the keyboard and mouse or the touchscreen.
 
@@ -36,7 +36,7 @@ Another great use case for Desktop Mode is in conjunction with either or both th
 
 In fact - we've included a script designed to show how you can control and configure Open Brush and trigger plugins from your browser. Just open [http://localhost:40074/examplescripts/remotecontrol.html](http://localhost:40074/examplescripts/remotecontrol.html) while Open Brush is running. (this also works in VR but is especially useful in desktop mode)
 
-<figure><img src="../.gitbook/assets/image (62).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image-077.png" alt=""><figcaption></figcaption></figure>
 
 ## Monoscopic Mode
 

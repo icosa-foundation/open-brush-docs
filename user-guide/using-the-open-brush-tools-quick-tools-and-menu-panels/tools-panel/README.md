@@ -1,7 +1,5 @@
 # Tools Panel
 
-<figure><img src="../../../.gitbook/assets/image (37).png" alt=""><figcaption></figcaption></figure>
-
 1.  **Eraser Tool**. You can use the eraser tool to erase entire brush strokes. To select the tool:
 
     1. Point your painting controller towards the palette and select the eraser .
@@ -27,7 +25,7 @@
     Long-press the camera tool to access the camera settings:
 
     \
-    ![](<../../../.gitbook/assets/image-064.png>)\\
+    ![](../../../.gitbook/assets/image-064.png)\\
 5.  **Teleport Tool**. To virtually hop to a different spot in your environment, use Teleport.
 
     1. Point your painting controller towards the palette and select Teleport.
@@ -52,7 +50,7 @@
 
     To invert a selection that you have just made, long press on the Select button on the Tools panel and the Invert Selection button will appear.
 
-    **Toggle Grouping for Selection** ![](<../../../.gitbook/assets/image-074.png>)
+    **Toggle Grouping for Selection** ![](../../../.gitbook/assets/image-074.png)
 
     Combines the currently selected strokes into a single group. They will move and scale as one. You can ungroup them easily by clicking again.\\
 7.  **Mirror Tool**. Use the mirror mode tool to paint symmetrically. To use the tool:
@@ -65,23 +63,24 @@
     If you long-press the mirror tool you get the following options:
 
     \
-    ![](<../../../.gitbook/assets/image-065.png>)\
+    ![](../../../.gitbook/assets/image-065.png)\
     \
     The second button is the Mirror Recall button. This will recall a Mirror that is out of reach.\
     <mark style="color:blue;">(If you like the mirror - you might want to check out the multi-mirror )</mark>
 8. **Straight Edge Tool**. Use the straight edge tool to paint in straight lines between two points.
-9. **Fly Tool**. The Fly tool allows you to navigate through your sketch smoothly, similar to flying in a video game. This is particularly useful for:
-   - Navigating large, complex sketches
-   - Moving through tight spaces
-   - Exploring your creation from different angles
-   - Getting to hard-to-reach areas
+9.  **Fly Tool**. The Fly tool allows you to navigate through your sketch smoothly, similar to flying in a video game. This is particularly useful for:
 
-   To use the Fly tool:
-   1. Select the Fly tool from the Tools panel (Advanced Mode only)
-   2. Point your controller in the direction you want to move
-   3. Hold the trigger to fly in that direction
-   4. Release to stop
+    * Navigating large, complex sketches
+    * Moving through tight spaces
+    * Exploring your creation from different angles
+    * Getting to hard-to-reach areas
 
+    To use the Fly tool:
+
+    1. Select the Fly tool from the Tools panel (Advanced Mode only)
+    2. Point your controller in the direction you want to move
+    3. Hold the trigger to fly in that direction
+    4. Release to stop
 10. **Snip Tool** (currently [beta only](../../../alternate-and-experimental-builds/open-brush-beta-docs.md))
 11. **Join Tool** (currently [beta only](../../../alternate-and-experimental-builds/open-brush-beta-docs.md))
 

@@ -2,7 +2,7 @@
 
 Pointer Plugins can modify the pointer position and/or rotation every frame. You can get the current position and rotation so you can simply add an offset to those - or you could create an entirely new position or rotation based on any of the other context variables that are available to the script.
 
-Name a Pointer Script with the prefix "PointerScript". For example: _PointerScript.MyPlugin.lua_&#x20;
+Name a Pointer Script with the prefix "PointerScript". For example: _PointerScript.MyPlugin.lua_
 
 Assuming your script is valid (i.e. it has no syntax errors) then giving it a valid prefix is all you need for it to appear in the Scripts Panel.
 
@@ -55,7 +55,7 @@ this is a vector with:
 **y is 1** (a shift of 1 in the up direction)\
 **z is 0** (meaning "no change in the forward/back direction")
 
-So - this plugin tells Open Brush "the user's pointer should be moved up by 1 unit from whereever they are painting".  If you try it you should see your pointer is about 10cm above wherever you move your brush hand.
+So - this plugin tells Open Brush "the user's pointer should be moved up by 1 unit from whereever they are painting". If you try it you should see your pointer is about 10cm above wherever you move your brush hand.
 
 So this is not very useful - but we at least we can see we are changing _something_ now.
 
@@ -86,15 +86,15 @@ function Main()
 end
 ```
 
-If you've done any programming or scripting before, you should recognise what we've done here. "y" is a variable. We chose "y" as the variable name but we could call it anything we want.&#x20;
+If you've done any programming or scripting before, you should recognise what we've done here. "y" is a variable. We chose "y" as the variable name but we could call it anything we want.
 
-We've assigned a value to "y" which is the result of calculating a [waveform shaped like a triangle](https://en.wikipedia.org/wiki/Triangle_wave)&#x20;
+We've assigned a value to "y" which is the result of calculating a [waveform shaped like a triangle](https://en.wikipedia.org/wiki/Triangle_wave)
 
 The output of the Waveform:Triangle method takes two parameters as input time and frequency. It returns a value that varies between -1 and +1. If you've configured your editor as explained in [Getting Started](getting-started.md) then you should have seen a hint pop up when you typed the first open bracket:
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image-005.png" alt=""><figcaption></figcaption></figure>
 
-So we now have a plugin that moves the pointer up and down over time. You can change the second parameter to control the speed.&#x20;
+So we now have a plugin that moves the pointer up and down over time. You can change the second parameter to control the speed.
 
 Let's go one step further - allow the user the control the speed without needing to edit the plugin script:
 
