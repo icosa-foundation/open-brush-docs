@@ -1,6 +1,6 @@
 # Changelog since v2.21
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.21...1e13d80c7cc0c2d6a7885d29091e2f70379c2291)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.21...652846011574b3a65fd3eb973aa052a045117bae)
 
 ## 🚀 Features
 
@@ -26,6 +26,11 @@
 ## 📦 Dependencies / Maintenance
 
 - Bump the all-actions-updates group across 1 directory with 2 updates ([PR #991](https://github.com/icosa-foundation/open-brush/pull/991) by @dependabot[bot])
+
+
+## 💬 Uncategorized
+
+- Viverse competition launch ([PR #1003](https://github.com/icosa-foundation/open-brush/pull/1003) by @andybak)
 
 
 
