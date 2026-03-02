@@ -1,6 +1,6 @@
 # Changelog since v2.21
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.21...652846011574b3a65fd3eb973aa052a045117bae)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.21...760e0d4bdd127100584275d521d6bd2cf104779f)
 
 ## 🚀 Features
 
@@ -31,6 +31,8 @@
 ## 💬 Uncategorized
 
 - Viverse competition launch ([PR #1003](https://github.com/icosa-foundation/open-brush/pull/1003) by @andybak)
+
+- Update viverse viewer intro graphic ([PR #1005](https://github.com/icosa-foundation/open-brush/pull/1005) by @andybak)
 
 
 
