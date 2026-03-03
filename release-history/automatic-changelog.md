@@ -1,10 +1,10 @@
-# Changelog since v2.22
+# Changelog since v2.23
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.22...fc5f3b824fb19857631128428a4957d1954b3c97)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.23...8255e1aeff348db9a32756972a5f56664832deef)
 
-## 💬 Uncategorized
+## 📦 Dependencies / Maintenance
 
-- Viverse competition launch part II ([PR #1004](https://github.com/icosa-foundation/open-brush/pull/1004) by @andybak)
+- Bump the all-actions-updates group with 2 updates ([PR #1002](https://github.com/icosa-foundation/open-brush/pull/1002) by @dependabot[bot])
 
 
 
