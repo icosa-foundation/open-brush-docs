@@ -1,6 +1,6 @@
 # Changelog since v2.23
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.23...226ecd2bc42340cc14cf5158d3492f664a5a9e30)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.23...1983670ea1fbd736b2a326735a38fe2e676c7d9c)
 
 ## 📦 Dependencies / Maintenance
 
@@ -10,6 +10,8 @@
 ## 💬 Uncategorized
 
 - Viverse HTML background color to black to mitigate alpha2coverage issues ([PR #1007](https://github.com/icosa-foundation/open-brush/pull/1007) by @andybak)
+
+- Assorted Viverse tweaks ([PR #1008](https://github.com/icosa-foundation/open-brush/pull/1008) by @andybak)
 
 
 
