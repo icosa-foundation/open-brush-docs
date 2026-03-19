@@ -1,6 +1,11 @@
 # Changelog since v2.24
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.24...c945a31a9b0df1a6c124fee75bd30b37ad35bf4d)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.24...fc9d26ac257294bdcf7a08b8ba17112c9221683a)
+
+## 🐛 Fixes
+
+- Offline rendering fails if ODS prefab is active at start ([PR #1012](https://github.com/icosa-foundation/open-brush/pull/1012) by @andybak)
+
 
 ## 🛠️ Infrastructure
 
@@ -13,10 +18,7 @@
 
 - Bump the all-actions-updates group across 1 directory with 3 updates ([PR #1013](https://github.com/icosa-foundation/open-brush/pull/1013) by @dependabot[bot])
 
-
-## 💬 Uncategorized
-
-- Offline rendering fails if ODS prefab is active at start ([PR #1012](https://github.com/icosa-foundation/open-brush/pull/1012) by @andybak)
+- Bump json from 2.19.1 to 2.19.2 in the bundler group across 1 directory ([PR #1016](https://github.com/icosa-foundation/open-brush/pull/1016) by @dependabot[bot])
 
 
 
