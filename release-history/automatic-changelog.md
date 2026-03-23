@@ -1,6 +1,6 @@
 # Changelog since v2.24
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.24...fc9d26ac257294bdcf7a08b8ba17112c9221683a)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.24...9d6b38b9b325b20e3a954dcb2eb7e7744aa5c0b6)
 
 ## 🐛 Fixes
 
@@ -19,6 +19,8 @@
 - Bump the all-actions-updates group across 1 directory with 3 updates ([PR #1013](https://github.com/icosa-foundation/open-brush/pull/1013) by @dependabot[bot])
 
 - Bump json from 2.19.1 to 2.19.2 in the bundler group across 1 directory ([PR #1016](https://github.com/icosa-foundation/open-brush/pull/1016) by @dependabot[bot])
+
+- Bump CyberAndrii/setup-steamcmd from 1.2.0 to 1.3.0 in the all-actions-updates group ([PR #1017](https://github.com/icosa-foundation/open-brush/pull/1017) by @dependabot[bot])
 
 
 
