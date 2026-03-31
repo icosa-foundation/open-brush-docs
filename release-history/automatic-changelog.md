@@ -1,6 +1,6 @@
 # Changelog since v2.24
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.24...9d6b38b9b325b20e3a954dcb2eb7e7744aa5c0b6)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.24...5505e9e45438cb050f81a449aaf34fb9444e0222)
 
 ## 🐛 Fixes
 
@@ -21,6 +21,11 @@
 - Bump json from 2.19.1 to 2.19.2 in the bundler group across 1 directory ([PR #1016](https://github.com/icosa-foundation/open-brush/pull/1016) by @dependabot[bot])
 
 - Bump CyberAndrii/setup-steamcmd from 1.2.0 to 1.3.0 in the all-actions-updates group ([PR #1017](https://github.com/icosa-foundation/open-brush/pull/1017) by @dependabot[bot])
+
+
+## 💬 Uncategorized
+
+- Viverse tweaks 4 ([PR #1018](https://github.com/icosa-foundation/open-brush/pull/1018) by @andybak)
 
 
 
