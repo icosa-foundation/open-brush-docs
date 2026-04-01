@@ -1,31 +1,10 @@
-# Changelog since v2.24
+# Changelog since v2.25
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.24...5505e9e45438cb050f81a449aaf34fb9444e0222)
-
-## 🐛 Fixes
-
-- Offline rendering fails if ODS prefab is active at start ([PR #1012](https://github.com/icosa-foundation/open-brush/pull/1012) by @andybak)
-
-
-## 🛠️ Infrastructure
-
-- Fix: update gemfile to use latest fastlane ([PR #1011](https://github.com/icosa-foundation/open-brush/pull/1011) by @mikeskydev)
-
-
-## 📦 Dependencies / Maintenance
-
-- Fix: update gemfile to use latest fastlane ([PR #1011](https://github.com/icosa-foundation/open-brush/pull/1011) by @mikeskydev)
-
-- Bump the all-actions-updates group across 1 directory with 3 updates ([PR #1013](https://github.com/icosa-foundation/open-brush/pull/1013) by @dependabot[bot])
-
-- Bump json from 2.19.1 to 2.19.2 in the bundler group across 1 directory ([PR #1016](https://github.com/icosa-foundation/open-brush/pull/1016) by @dependabot[bot])
-
-- Bump CyberAndrii/setup-steamcmd from 1.2.0 to 1.3.0 in the all-actions-updates group ([PR #1017](https://github.com/icosa-foundation/open-brush/pull/1017) by @dependabot[bot])
-
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.25...4328718464a868d2d7a9c2030cea12680e7bab55)
 
 ## 💬 Uncategorized
 
-- Viverse tweaks 4 ([PR #1018](https://github.com/icosa-foundation/open-brush/pull/1018) by @andybak)
+-  Viverse tweaks 5 ([PR #1019](https://github.com/icosa-foundation/open-brush/pull/1019) by @andybak)
 
 
 
