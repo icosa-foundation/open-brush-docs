@@ -1,6 +1,6 @@
 # Changelog since v2.25
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.25...a65190c7ae6f4fee557bc80455902d3ae2cf21f7)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.25...b0374660b4cd9ba7aa69dd470cae644c95b14916)
 
 ## 🚀 Features
 
@@ -17,6 +17,11 @@
 ## 📦 Dependencies / Maintenance
 
 - Bump addressable from 2.8.9 to 2.9.0 in the bundler group across 1 directory ([PR #1030](https://github.com/icosa-foundation/open-brush/pull/1030) by @dependabot[bot])
+
+
+## 💬 Uncategorized
+
+- Viverse tweaks 7 ([PR #1034](https://github.com/icosa-foundation/open-brush/pull/1034) by @andybak)
 
 
 
