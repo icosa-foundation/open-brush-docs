@@ -1,6 +1,6 @@
 # Changelog since v2.25
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.25...6319e1df2b374c06ccc8b002540e0eac5444918b)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.25...afeb597f215732de92eddadaa9abe0cb6e3eafa2)
 
 ## 🚀 Features
 
@@ -24,6 +24,8 @@
 - Viverse tweaks 7 ([PR #1034](https://github.com/icosa-foundation/open-brush/pull/1034) by @andybak)
 
 - Viverse tweaks 8 ([PR #1036](https://github.com/icosa-foundation/open-brush/pull/1036) by @andybak)
+
+- Viverse tweaks 9 ([PR #1037](https://github.com/icosa-foundation/open-brush/pull/1037) by @andybak)
 
 
 
