@@ -15,6 +15,12 @@ You can rename your sketches using the [XR Keyboard](xr-keyboard.md) when browsi
 
 You can also combine multiple sketches into one. See [Merging Sketches](merging-sketches.md) for more information.
 
+### Organizing your sketches
+
+If you are using Open Brush on a PC or have copied your sketch files to a PC from a headset then you will find it useful to install the Windows Explorer Thumbnail Extension so you can see the thumbnails for each sketch in Windows Explorer. You can install this from Itch.io (it's the last download in the list) \
+\
+[https://openbrush.itch.io/openbrush](https://openbrush.itch.io/openbrush)
+
 ### **Trouble saving sketches**
 
 If you're having issues saving your sketch, check that you have administration privileges on your machine. Antivirus software can also sometimes interfere with the ability to save sketches.
@@ -30,16 +36,18 @@ Open Brush has built-in integration with [Icosa Gallery](https://icosa.gallery),
 ### Browse and Load Sketches
 
 From within Open Brush, you can browse the Icosa Gallery and load sample sketches directly into VR:
+
 1. Open the sketch browser
 2. Navigate to the Icosa Gallery tab
 3. Browse featured and popular sketches
 4. Select a sketch to download and open it
 
 This is a great way to:
-- Explore what other artists have created
-- Learn new techniques by examining others' work
-- Find inspiration for your own creations
-- Use sketches as starting points for remixes
+
+* Explore what other artists have created
+* Learn new techniques by examining others' work
+* Find inspiration for your own creations
+* Use sketches as starting points for remixes
 
 ### Upload Your Sketches
 
