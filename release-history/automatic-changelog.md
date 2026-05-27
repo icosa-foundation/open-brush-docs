@@ -1,6 +1,6 @@
 # Changelog since v2.26
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.26...0742cab7e95a4f0c44abc5ae68b82e1f597e8b0d)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.26...334ffe159a9d42f47fc4a8c4e6c4d1231f9f3024)
 
 ## 🚀 Features
 
@@ -19,6 +19,8 @@
 - Prevent quicksnap from overriding duplicate button action ([PR #1041](https://github.com/icosa-foundation/open-brush/pull/1041) by @andybak)
 
 - Fix snap for non-identity scene transform ([PR #1042](https://github.com/icosa-foundation/open-brush/pull/1042) by @andybak)
+
+- Update Gemfile.lock (update fastlane, fix jwt CVE) ([PR #1047](https://github.com/icosa-foundation/open-brush/pull/1047) by @mikeage)
 
 
 
