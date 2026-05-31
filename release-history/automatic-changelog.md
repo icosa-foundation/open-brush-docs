@@ -1,6 +1,6 @@
 # Changelog since v2.26
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.26...334ffe159a9d42f47fc4a8c4e6c4d1231f9f3024)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.26...25752a9453a607d69da0b920c79f17ad614e0343)
 
 ## 🚀 Features
 
@@ -10,6 +10,8 @@
 ## 📦 Dependencies / Maintenance
 
 - Bump softprops/action-gh-release from 2 to 3 in the all-actions-updates group across 1 directory ([PR #1035](https://github.com/icosa-foundation/open-brush/pull/1035) by @dependabot[bot])
+
+- Bump actions/setup-dotnet from 5.2.0 to 5.3.0 in the all-actions-updates group ([PR #1048](https://github.com/icosa-foundation/open-brush/pull/1048) by @dependabot[bot])
 
 
 ## 💬 Uncategorized
