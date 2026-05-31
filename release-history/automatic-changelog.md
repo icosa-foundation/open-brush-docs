@@ -1,10 +1,15 @@
 # Changelog since v2.26
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.26...25752a9453a607d69da0b920c79f17ad614e0343)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.26...9cbb705f56408015bf5b30d089fc0ed2ef038813)
 
 ## 🚀 Features
 
 - Restore Icosa Gallery integration ([PR #987](https://github.com/icosa-foundation/open-brush/pull/987) by @andybak)
+
+
+## 🛠️ Infrastructure
+
+- Force Mac workers to use macos-26  ([PR #1050](https://github.com/icosa-foundation/open-brush/pull/1050) by @mikeage)
 
 
 ## 📦 Dependencies / Maintenance
