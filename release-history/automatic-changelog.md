@@ -1,6 +1,6 @@
 # Changelog since v2.26
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.26...9cbb705f56408015bf5b30d089fc0ed2ef038813)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.26...c4a7c65edc08af3b742d7565cda1d96e1a6dec0a)
 
 ## 🚀 Features
 
@@ -10,6 +10,8 @@
 ## 🛠️ Infrastructure
 
 - Force Mac workers to use macos-26  ([PR #1050](https://github.com/icosa-foundation/open-brush/pull/1050) by @mikeage)
+
+- Force all MacOS jobs to run on macos-26 instead of -latest (forgot one) ([PR #1051](https://github.com/icosa-foundation/open-brush/pull/1051) by @mikeage)
 
 
 ## 📦 Dependencies / Maintenance
