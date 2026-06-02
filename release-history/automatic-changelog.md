@@ -1,10 +1,12 @@
 # Changelog since v2.26
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.26...d86ee5fc8c2e6aabb353d770a05440d79a6dc0b9)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.26...8b39b146a12c3ed214f23c761ec0f478f328b3c9)
 
 ## 🚀 Features
 
 - Restore Icosa Gallery integration ([PR #987](https://github.com/icosa-foundation/open-brush/pull/987) by @andybak)
+
+- Icosa Gallery Launch ([PR #1052](https://github.com/icosa-foundation/open-brush/pull/1052) by @andybak)
 
 
 ## 🐛 Fixes
