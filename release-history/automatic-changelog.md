@@ -1,6 +1,6 @@
 # Changelog since v2.26
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.26...8b39b146a12c3ed214f23c761ec0f478f328b3c9)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.26...e22fda670ffe5af3e5f6c9ec33797f5c4b56d11d)
 
 ## 🚀 Features
 
@@ -37,6 +37,8 @@
 - Fix snap for non-identity scene transform ([PR #1042](https://github.com/icosa-foundation/open-brush/pull/1042) by @andybak)
 
 - Update Gemfile.lock (update fastlane, fix jwt CVE) ([PR #1047](https://github.com/icosa-foundation/open-brush/pull/1047) by @mikeage)
+
+- Icosa fixes ([PR #1054](https://github.com/icosa-foundation/open-brush/pull/1054) by @andybak)
 
 
 
