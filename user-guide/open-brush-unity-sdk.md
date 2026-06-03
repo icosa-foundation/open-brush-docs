@@ -94,7 +94,7 @@ You can make the brushes wiggle to the audio in your scene:
 
 If the brushes aren’t moving, you can select the prefab in Play mode to visualize the audio data the shaders are receiving:
 
-![](<../.gitbook/assets/image-100 (1).gif>)
+![](../.gitbook/assets/image-100.gif)
 
 ### Bloom <a href="#id-7ljsa6ylg4rb" id="id-7ljsa6ylg4rb"></a>
 

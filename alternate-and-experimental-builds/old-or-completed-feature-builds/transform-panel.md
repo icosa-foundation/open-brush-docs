@@ -4,7 +4,7 @@
 
 #### Status: Released in [v2.4](../../release-history/v2.4-prismatic.md)
 
-<div><figure><img src="../../.gitbook/assets/image-056.png" alt="" width="397"><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/image-058 (1).png" alt="" width="410"><figcaption></figcaption></figure></div>
+<div><figure><img src="../../.gitbook/assets/image-056.png" alt="" width="397"><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/image-058.png" alt="" width="410"><figcaption></figcaption></figure></div>
 
 ### What does it do?
 

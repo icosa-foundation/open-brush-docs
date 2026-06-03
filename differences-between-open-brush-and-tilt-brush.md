@@ -11,8 +11,8 @@ This section only lists features currently in the main release. There is also a 
 
 ### Import & Export
 
-* [VOX File Import](release-history/v2.13.md#vox-file-import) - Import Magicavoxel .vox format files
-* [Open Blocks Model Import](release-history/v2.13.md#import-open-blocks-models) - Import models from the sibling app Open Blocks
+* [VOX File Import](release-history/v2.29.md#vox-file-import) - Import Magicavoxel .vox format files
+* [Open Blocks Model Import](release-history/v2.29.md#import-open-blocks-models) - Import models from the sibling app Open Blocks
 * [New GLTF Importer](user-guide/importing-images-videos-3d-models.md) - Based on GLTFast with support for animated 3D models
 * [SVG Import](user-guide/importing-images-videos-3d-models.md) - Import SVG files as images or 3D meshes
 * [Point Cloud Import](user-guide/importing-images-videos-3d-models.md#point-cloud-import)
@@ -20,7 +20,7 @@ This section only lists features currently in the main release. There is also a 
 * [WebM Video Import](user-guide/importing-images-videos-3d-models.md#webm-video-import)
 * [LATK export](https://lightningartist.org)
 * [Folder Navigation UI](user-guide/folder-navigation.md) - Better organization of imported media
-* [Splitting 3D Models](release-history/v2.13.md#splitting-3d-models) - Break apart imported models into separate components
+* [Splitting 3D Models](release-history/v2.29.md#splitting-3d-models) - Break apart imported models into separate components
 
 ### Painting & Drawing Tools
 
@@ -63,13 +63,13 @@ This section only lists features currently in the main release. There is also a 
 
 * [Advanced Camera Tool](user-guide/exporting-videos/camera-tool-gifs-snapshots-video.md)
 * [Camera Paths on All Headsets](user-guide/exporting-videos/camera-paths-tool.md) - Create and edit camera paths on standalone devices
-* [Camera Path Rendering on All Devices](release-history/v2.13.md#camera-path-rendering-on-all-devices) - Render video frames on standalone headsets
+* [Camera Path Rendering on All Devices](release-history/v2.29.md#camera-path-rendering-on-all-devices) - Render video frames on standalone headsets
 * [Render Video on Any Computer](release-history/v2.4-prismatic.md#render-video-on-any-computer) - Use ffmpeg on Mac and PC to render videos
 * [Webcam Viewer](release-history/v2.4-prismatic.md#webcam-viewer) - View webcam feed while working (PC VR only)
 
 ### Sharing & Publishing
 
-* [Publish to Viverse](release-history/v2.13.md#publish-worlds-to-viverse) - Share sketches directly to Viverse 3D worlds
+* [Publish to Viverse](release-history/v2.29.md#publish-worlds-to-viverse) - Share sketches directly to Viverse 3D worlds
 * [Icosa Gallery uploads](https://icosa.gallery)
 * [Icosa Gallery Integration](user-guide/saving-and-sharing-your-open-brush-sketches.md#icosa-gallery-integration) - Browse and load sample sketches directly from Icosa Gallery
 
@@ -87,7 +87,7 @@ This section only lists features currently in the main release. There is also a 
 * [Audio Reactive Mode for Quest](release-history/v2.4-prismatic.md#audio-reactive-mode-for-quest) - Brushes animate to imported audio
 * [Monoscopic Mode](user-guide/monoscopic-mode.md) - Run on non-VR devices
 * [Flatscreen View Mode](release-history/v2.4-prismatic.md#flatscreen-view-mode) - Navigate sketches with keyboard, touch, or gamepad
-* [Enhanced View-only Mode](release-history/v2.13.md#view-only-mode-improvements) - Improved navigation on non-VR devices with gamepad and touch support
+* [Enhanced View-only Mode](release-history/v2.29.md#view-only-mode-improvements) - Improved navigation on non-VR devices with gamepad and touch support
 * [Passthrough Mode with Room Scale](release-history/v2.4-prismatic.md#passthrough-room-scale) - Stable scene orientation relative to real space
 
 ### Multiplayer & Collaboration
@@ -103,4 +103,3 @@ This section only lists features currently in the main release. There is also a 
 * [Precise slider control using thumb stick](user-guide/platform-and-device-support.md#precise-slider-control)
 
 Bear in mind this gives a misleading impression of the amount of work that has been put in. There's been a ton of effort on things that don't result in user-visible features but will help ease future development. Special props to [@mikeage](https://github.com/mikeage) for the amazing automated build system.
-
