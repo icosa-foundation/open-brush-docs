@@ -1,6 +1,11 @@
 # Changelog since v2.29
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.29...1bc94656509647c3dc5d39daf6ac13c51f4c7852)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.29...92b07ac3cf77d8db4da792d282eec7f3b297cf61)
+
+## 🚀 Features
+
+- Add Explorer thumbnails extension installer for Steam ([PR #1040](https://github.com/icosa-foundation/open-brush/pull/1040) by @andybak)
+
 
 ## 🛠️ Infrastructure
 
