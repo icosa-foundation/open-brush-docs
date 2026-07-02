@@ -1,12 +1,14 @@
 # Changelog since v2.29
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.29...96fff3d582000881e3d543cbbc86734568b8f08e)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.29...f64f9daec76270042aa46c0f8a5b9db09d877ae9)
 
 ## 🚀 Features
 
 - Add Explorer thumbnails extension installer for Steam ([PR #1040](https://github.com/icosa-foundation/open-brush/pull/1040) by @andybak)
 
 - 8K Panorama support ([PR #1031](https://github.com/icosa-foundation/open-brush/pull/1031) by @andybak)
+
+- Support passthrough in multiplayer ([PR #1079](https://github.com/icosa-foundation/open-brush/pull/1079) by @andybak)
 
 
 ## 🐛 Fixes
