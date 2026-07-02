@@ -1,6 +1,6 @@
 # Changelog since v2.29
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.29...f64f9daec76270042aa46c0f8a5b9db09d877ae9)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.29...37fb2a8f647dcca072be636629c2a657e7321ec9)
 
 ## 🚀 Features
 
@@ -16,6 +16,8 @@
 - Fix ODS compile with explicit texture cap ([PR #1063](https://github.com/icosa-foundation/open-brush/pull/1063) by @andybak)
 
 - Fix layer undo bugs ([PR #1077](https://github.com/icosa-foundation/open-brush/pull/1077) by @andybak)
+
+- Fix small git annoyances ([PR #1070](https://github.com/icosa-foundation/open-brush/pull/1070) by @andybak)
 
 
 ## 🛠️ Infrastructure
