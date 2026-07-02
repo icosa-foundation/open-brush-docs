@@ -1,6 +1,6 @@
 # Changelog since v2.29
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.29...37fb2a8f647dcca072be636629c2a657e7321ec9)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.29...fdd6fb33baa9069fc5cb25d73715d672fbe9826c)
 
 ## 🚀 Features
 
@@ -9,6 +9,8 @@
 - 8K Panorama support ([PR #1031](https://github.com/icosa-foundation/open-brush/pull/1031) by @andybak)
 
 - Support passthrough in multiplayer ([PR #1079](https://github.com/icosa-foundation/open-brush/pull/1079) by @andybak)
+
+- Small brush fixes and tweaks ([PR #1080](https://github.com/icosa-foundation/open-brush/pull/1080) by @andybak)
 
 
 ## 🐛 Fixes
