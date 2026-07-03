@@ -1,6 +1,6 @@
 # Changelog since v2.29
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.29...fdd6fb33baa9069fc5cb25d73715d672fbe9826c)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.29...cb6c8fc80298d9804b37edc0d214256c930d355f)
 
 ## 🚀 Features
 
@@ -36,6 +36,11 @@
 - Bump actions/setup-dotnet from 5.3.0 to 5.4.0 in the all-actions-updates group ([PR #1074](https://github.com/icosa-foundation/open-brush/pull/1074) by @dependabot[bot])
 
 - Bump faraday from 1.10.5 to 1.10.6 in the bundler group across 1 directory ([PR #1075](https://github.com/icosa-foundation/open-brush/pull/1075) by @dependabot[bot])
+
+
+## 💬 Uncategorized
+
+- Improve View mode, more build targets ([PR #1068](https://github.com/icosa-foundation/open-brush/pull/1068) by @andybak)
 
 
 
