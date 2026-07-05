@@ -1,6 +1,6 @@
 # Changelog since v2.29
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.29...cb6c8fc80298d9804b37edc0d214256c930d355f)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.29...e1254cf807e7b838f44fe678f3f5f3620bc8a385)
 
 ## 🚀 Features
 
@@ -20,6 +20,8 @@
 - Fix layer undo bugs ([PR #1077](https://github.com/icosa-foundation/open-brush/pull/1077) by @andybak)
 
 - Fix small git annoyances ([PR #1070](https://github.com/icosa-foundation/open-brush/pull/1070) by @andybak)
+
+- Allow overriding Android SDK version per build (Meta requires 34, Google requires 35) ([PR #1082](https://github.com/icosa-foundation/open-brush/pull/1082) by @andybak)
 
 
 ## 🛠️ Infrastructure
