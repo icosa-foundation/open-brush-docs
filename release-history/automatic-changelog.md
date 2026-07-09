@@ -1,6 +1,6 @@
 # Changelog since v2.29
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.29...cb56699e2e93b17f32cb0e69fb024ea953aae410)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.29...50603e01dd0981387f792fd921016d347ee29b19)
 
 ## 🚀 Features
 
@@ -31,6 +31,8 @@
 - Steam Android publishing ([PR #1060](https://github.com/icosa-foundation/open-brush/pull/1060) by @andybak)
 
 - Fix Steam Android CI typo ([PR #1061](https://github.com/icosa-foundation/open-brush/pull/1061) by @andybak)
+
+- Avoid automatic Google Play review submission ([PR #1088](https://github.com/icosa-foundation/open-brush/pull/1088) by @andybak)
 
 
 ## 📦 Dependencies / Maintenance
