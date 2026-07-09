@@ -1,6 +1,6 @@
 # Changelog since v2.29
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.29...e1254cf807e7b838f44fe678f3f5f3620bc8a385)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.29...cb56699e2e93b17f32cb0e69fb024ea953aae410)
 
 ## 🚀 Features
 
@@ -22,6 +22,8 @@
 - Fix small git annoyances ([PR #1070](https://github.com/icosa-foundation/open-brush/pull/1070) by @andybak)
 
 - Allow overriding Android SDK version per build (Meta requires 34, Google requires 35) ([PR #1082](https://github.com/icosa-foundation/open-brush/pull/1082) by @andybak)
+
+- Small brush fixes ([PR #1084](https://github.com/icosa-foundation/open-brush/pull/1084) by @andybak)
 
 
 ## 🛠️ Infrastructure
