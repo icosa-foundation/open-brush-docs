@@ -1,6 +1,6 @@
 # Changelog since v2.29
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.29...50603e01dd0981387f792fd921016d347ee29b19)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.29...046069adbda05973fda974745ccec19afbfbde6a)
 
 ## 🚀 Features
 
@@ -11,6 +11,8 @@
 - Support passthrough in multiplayer ([PR #1079](https://github.com/icosa-foundation/open-brush/pull/1079) by @andybak)
 
 - Small brush fixes and tweaks ([PR #1080](https://github.com/icosa-foundation/open-brush/pull/1080) by @andybak)
+
+- Camera path from fly tool ([PR #1028](https://github.com/icosa-foundation/open-brush/pull/1028) by @andybak)
 
 
 ## 🐛 Fixes
@@ -24,6 +26,8 @@
 - Allow overriding Android SDK version per build (Meta requires 34, Google requires 35) ([PR #1082](https://github.com/icosa-foundation/open-brush/pull/1082) by @andybak)
 
 - Small brush fixes ([PR #1084](https://github.com/icosa-foundation/open-brush/pull/1084) by @andybak)
+
+- The right way to avoid automated review submission ([PR #1089](https://github.com/icosa-foundation/open-brush/pull/1089) by @andybak)
 
 
 ## 🛠️ Infrastructure
