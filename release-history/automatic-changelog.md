@@ -1,6 +1,6 @@
 # Changelog since v2.29
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.29...046069adbda05973fda974745ccec19afbfbde6a)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.29...4786d55ad398bfc957d8e8eb26438920026aeaf6)
 
 ## 🚀 Features
 
@@ -28,6 +28,8 @@
 - Small brush fixes ([PR #1084](https://github.com/icosa-foundation/open-brush/pull/1084) by @andybak)
 
 - The right way to avoid automated review submission ([PR #1089](https://github.com/icosa-foundation/open-brush/pull/1089) by @andybak)
+
+- Restore internal Google Play prerelease status ([PR #1090](https://github.com/icosa-foundation/open-brush/pull/1090) by @andybak)
 
 
 ## 🛠️ Infrastructure
