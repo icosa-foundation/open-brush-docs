@@ -1,6 +1,6 @@
 # Changelog since v2.29
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.29...092ac5bd3a7017b09ac450049832a68e5aba8159)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.29...1922ed2525594029570f14de0c942f31fa0e3352)
 
 ## 🚀 Features
 
@@ -32,6 +32,8 @@
 - Restore internal Google Play prerelease status ([PR #1090](https://github.com/icosa-foundation/open-brush/pull/1090) by @andybak)
 
 - Only show Meta XR prompt for Android build targets ([PR #1092](https://github.com/icosa-foundation/open-brush/pull/1092) by @andybak)
+
+- Fix camera path rotation and FOV export ([PR #1096](https://github.com/icosa-foundation/open-brush/pull/1096) by @andybak)
 
 
 ## 🛠️ Infrastructure
