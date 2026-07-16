@@ -1,6 +1,6 @@
 # Changelog since v2.29
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.29...a3e4043e4f8f8deb783acffc80340184b15a4757)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.29...092ac5bd3a7017b09ac450049832a68e5aba8159)
 
 ## 🚀 Features
 
@@ -30,6 +30,8 @@
 - The right way to avoid automated review submission ([PR #1089](https://github.com/icosa-foundation/open-brush/pull/1089) by @andybak)
 
 - Restore internal Google Play prerelease status ([PR #1090](https://github.com/icosa-foundation/open-brush/pull/1090) by @andybak)
+
+- Only show Meta XR prompt for Android build targets ([PR #1092](https://github.com/icosa-foundation/open-brush/pull/1092) by @andybak)
 
 
 ## 🛠️ Infrastructure
