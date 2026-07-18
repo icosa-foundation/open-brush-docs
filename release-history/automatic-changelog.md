@@ -1,6 +1,6 @@
 # Changelog since v2.29
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.29...1922ed2525594029570f14de0c942f31fa0e3352)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.29...cfaaa8a47e59181f85f932fbdb1caf505421730d)
 
 ## 🚀 Features
 
@@ -34,6 +34,8 @@
 - Only show Meta XR prompt for Android build targets ([PR #1092](https://github.com/icosa-foundation/open-brush/pull/1092) by @andybak)
 
 - Fix camera path rotation and FOV export ([PR #1096](https://github.com/icosa-foundation/open-brush/pull/1096) by @andybak)
+
+- Switch Photon to use default ports ([PR #1098](https://github.com/icosa-foundation/open-brush/pull/1098) by @andybak)
 
 
 ## 🛠️ Infrastructure
