@@ -1,6 +1,6 @@
 # Changelog since v2.29
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.29...38910575ed1a7652137d16ba1fe2f4608c7a3db2)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.29...2be3d0baf5207b4ab8f1a5605679edce57493b44)
 
 ## 🚀 Features
 
@@ -38,6 +38,8 @@
 - Switch Photon to use default ports ([PR #1098](https://github.com/icosa-foundation/open-brush/pull/1098) by @andybak)
 
 - Fix layer inconsistencies ([PR #1087](https://github.com/icosa-foundation/open-brush/pull/1087) by @andybak)
+
+- _TB_TIMESTAMP generation for newglb ([PR #1097](https://github.com/icosa-foundation/open-brush/pull/1097) by @andybak)
 
 
 ## 🛠️ Infrastructure
