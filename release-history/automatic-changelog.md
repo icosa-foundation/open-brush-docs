@@ -1,6 +1,6 @@
 # Changelog since v2.29
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.29...cfaaa8a47e59181f85f932fbdb1caf505421730d)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.29...38910575ed1a7652137d16ba1fe2f4608c7a3db2)
 
 ## 🚀 Features
 
@@ -36,6 +36,8 @@
 - Fix camera path rotation and FOV export ([PR #1096](https://github.com/icosa-foundation/open-brush/pull/1096) by @andybak)
 
 - Switch Photon to use default ports ([PR #1098](https://github.com/icosa-foundation/open-brush/pull/1098) by @andybak)
+
+- Fix layer inconsistencies ([PR #1087](https://github.com/icosa-foundation/open-brush/pull/1087) by @andybak)
 
 
 ## 🛠️ Infrastructure
