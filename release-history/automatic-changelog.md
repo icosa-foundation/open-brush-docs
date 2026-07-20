@@ -1,6 +1,6 @@
 # Changelog since v2.29
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.29...2be3d0baf5207b4ab8f1a5605679edce57493b44)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.29...13fdaf140c9e2230996e31d162bf5583e53b9077)
 
 ## 🚀 Features
 
@@ -60,6 +60,8 @@
 - Bump faraday from 1.10.5 to 1.10.6 in the bundler group across 1 directory ([PR #1075](https://github.com/icosa-foundation/open-brush/pull/1075) by @dependabot[bot])
 
 - Bump the all-actions-updates group with 2 updates ([PR #1093](https://github.com/icosa-foundation/open-brush/pull/1093) by @dependabot[bot])
+
+- Bump actions/setup-python from 6.3.0 to 7.0.0 in the all-actions-updates group ([PR #1101](https://github.com/icosa-foundation/open-brush/pull/1101) by @dependabot[bot])
 
 
 ## 💬 Uncategorized
