@@ -1,6 +1,6 @@
 # Changelog since v2.29
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.29...13fdaf140c9e2230996e31d162bf5583e53b9077)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.29...efc19b449fd1e291428e7cdca9b299f11ae1b61c)
 
 ## 🚀 Features
 
@@ -11,6 +11,8 @@
 - Support passthrough in multiplayer ([PR #1079](https://github.com/icosa-foundation/open-brush/pull/1079) by @andybak)
 
 - Small brush fixes and tweaks ([PR #1080](https://github.com/icosa-foundation/open-brush/pull/1080) by @andybak)
+
+- Improve View mode, more build targets ([PR #1068](https://github.com/icosa-foundation/open-brush/pull/1068) by @andybak)
 
 - Camera path from fly tool ([PR #1028](https://github.com/icosa-foundation/open-brush/pull/1028) by @andybak)
 
@@ -41,6 +43,8 @@
 
 - _TB_TIMESTAMP generation for newglb ([PR #1097](https://github.com/icosa-foundation/open-brush/pull/1097) by @andybak)
 
+- Detect Google Play review state before upload ([PR #1091](https://github.com/icosa-foundation/open-brush/pull/1091) by @andybak)
+
 
 ## 🛠️ Infrastructure
 
@@ -62,11 +66,6 @@
 - Bump the all-actions-updates group with 2 updates ([PR #1093](https://github.com/icosa-foundation/open-brush/pull/1093) by @dependabot[bot])
 
 - Bump actions/setup-python from 6.3.0 to 7.0.0 in the all-actions-updates group ([PR #1101](https://github.com/icosa-foundation/open-brush/pull/1101) by @dependabot[bot])
-
-
-## 💬 Uncategorized
-
-- Improve View mode, more build targets ([PR #1068](https://github.com/icosa-foundation/open-brush/pull/1068) by @andybak)
 
 
 
