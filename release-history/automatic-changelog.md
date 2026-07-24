@@ -1,6 +1,6 @@
 # Changelog since v2.29
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.29...ead4d293eb277c0989571a80d8a6133351cc2851)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.29...776b3772ed72f29cae3b0e832e071a76bc61bf1c)
 
 ## 🚀 Features
 
