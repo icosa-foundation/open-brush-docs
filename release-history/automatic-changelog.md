@@ -1,10 +1,12 @@
 # Changelog since v2.30
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.30...3a65e17c019205fc61f0332e131bacfe632b72b8)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.30...941bfa5dcfbff50f252fe3b439f263d095df795d)
 
 ## 🐛 Fixes
 
 - Only broadcast MoveWidgetCommand when final ([PR #851](https://github.com/icosa-foundation/open-brush/pull/851) by @andybak)
+
+- Fix export crash ([PR #1062](https://github.com/icosa-foundation/open-brush/pull/1062) by @andybak)
 
 
 ## 📦 Dependencies / Maintenance
