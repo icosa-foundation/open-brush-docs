@@ -63,6 +63,7 @@
     * [Plugin API Scripting Reference](https://icosa.gitbook.io/open-brush-plugin-scripting-docs/)
   * [Open Brush Unity SDK](user-guide/open-brush-unity-sdk.md)
   * [Open Brush API](user-guide/open-brush-api/README.md)
+    * [Receiving strokes in another app](user-guide/open-brush-api/receiving-strokes.md)
     * [Retrieving a preview image](user-guide/open-brush-api/retrieving-a-preview-image.md)
     * [API Commands List](user-guide/open-brush-api/api-commands.md)
   * [Cameras and Video Export](user-guide/exporting-videos/README.md)

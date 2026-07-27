@@ -130,6 +130,12 @@ xmlHttp.send(null);
 
 Any language that can send http requests should work.
 
+### How can another app receive new strokes?
+
+Open Brush can tell another app whenever you finish a brush stroke. It can either send the information straight away or wait for the other app to ask for it.
+
+See [Receiving strokes in another app](receiving-strokes.md) for help choosing the right option and instructions for setting it up.
+
 ### Known Issues with the API
 
 Currently the brush 'cursor' (or the 'turtle' if you want to think of this as a kind of LOGO system) doesn't store it's full rotation - only it's bearing.
