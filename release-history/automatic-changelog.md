@@ -1,6 +1,6 @@
 # Changelog since v2.30
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.30...c53d5613c1eea5538f86890856d38caa2a569406)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.30...3e492ecd5fb7d3467d6212f75584ec394f46fecb)
 
 ## 🐛 Fixes
 
@@ -14,6 +14,11 @@
 ## 📦 Dependencies / Maintenance
 
 - Bump excon from 0.112.0 to 1.5.0 in the bundler group across 1 directory ([PR #1104](https://github.com/icosa-foundation/open-brush/pull/1104) by @dependabot[bot])
+
+
+## 💬 Uncategorized
+
+- Better Steam Frame support  ([PR #1064](https://github.com/icosa-foundation/open-brush/pull/1064) by @andybak)
 
 
 
