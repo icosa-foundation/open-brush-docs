@@ -1,6 +1,11 @@
 # Changelog since v2.30
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.30...3e492ecd5fb7d3467d6212f75584ec394f46fecb)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.30...e40a1d35001554562e012676885857ba49a71f7e)
+
+## 🚀 Features
+
+- Better camera Path API ([PR #1067](https://github.com/icosa-foundation/open-brush/pull/1067) by @andybak)
+
 
 ## 🐛 Fixes
 
