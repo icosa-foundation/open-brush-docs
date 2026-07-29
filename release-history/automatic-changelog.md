@@ -1,6 +1,6 @@
 # Changelog since v2.30
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.30...e40a1d35001554562e012676885857ba49a71f7e)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.30...dc362b88c63391c57fa1aea7dfffb72dacf42912)
 
 ## 🚀 Features
 
@@ -14,6 +14,8 @@
 - Fix export crash ([PR #1062](https://github.com/icosa-foundation/open-brush/pull/1062) by @andybak)
 
 - Make video library path handling robust to paths outside the library ([PR #1115](https://github.com/icosa-foundation/open-brush/pull/1115) by @andybak)
+
+- Fix widget drift bug ([PR #1125](https://github.com/icosa-foundation/open-brush/pull/1125) by @andybak)
 
 
 ## 📦 Dependencies / Maintenance
