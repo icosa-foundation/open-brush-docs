@@ -1,6 +1,6 @@
 # Changelog since v2.30
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.30...dc362b88c63391c57fa1aea7dfffb72dacf42912)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.30...f91b5389dd39bf35c71bb09c5c4a89714c2bc915)
 
 ## 🚀 Features
 
@@ -16,6 +16,11 @@
 - Make video library path handling robust to paths outside the library ([PR #1115](https://github.com/icosa-foundation/open-brush/pull/1115) by @andybak)
 
 - Fix widget drift bug ([PR #1125](https://github.com/icosa-foundation/open-brush/pull/1125) by @andybak)
+
+
+## 🛠️ Infrastructure
+
+- Fix upload issues; Rift failing and Pico 3 not supported ([PR #1127](https://github.com/icosa-foundation/open-brush/pull/1127) by @mikeage)
 
 
 ## 📦 Dependencies / Maintenance
