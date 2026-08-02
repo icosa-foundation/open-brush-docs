@@ -1,6 +1,6 @@
 # Changelog since v2.30
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.30...1de77c089ccc853d962c5c12bc1826ae673c4f0b)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.30...203a8443ef2cb1cd257ed3b9c479d81248bfb218)
 
 ## 🚀 Features
 
@@ -9,6 +9,8 @@
 - Camera path by drawing ([PR #1110](https://github.com/icosa-foundation/open-brush/pull/1110) by @andybak)
 
 - Portals and Gaussian Capture via new Shape Widgets ([PR #1014](https://github.com/icosa-foundation/open-brush/pull/1014) by @andybak)
+
+- Multicam 360 and depth ([PR #1023](https://github.com/icosa-foundation/open-brush/pull/1023) by @andybak)
 
 
 ## 🐛 Fixes
