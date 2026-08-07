@@ -1,6 +1,6 @@
 # Changelog since v2.30
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.30...21973c413cdb4c550cdeef194dd4b44384ca6718)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.30...9d48480ac55cb1405a58abb229971ceb34807c8e)
 
 ## 🚀 Features
 
@@ -38,6 +38,8 @@
 ## 📦 Dependencies / Maintenance
 
 - Bump excon from 0.112.0 to 1.5.0 in the bundler group across 1 directory ([PR #1104](https://github.com/icosa-foundation/open-brush/pull/1104) by @dependabot[bot])
+
+- Bump json from 2.19.5 to 2.19.9 in the bundler group across 1 directory ([PR #1128](https://github.com/icosa-foundation/open-brush/pull/1128) by @dependabot[bot])
 
 
 ## 💬 Uncategorized
