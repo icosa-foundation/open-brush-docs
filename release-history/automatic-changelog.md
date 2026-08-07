@@ -1,6 +1,6 @@
 # Changelog since v2.30
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.30...203a8443ef2cb1cd257ed3b9c479d81248bfb218)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.30...1190963b69924847b83cc169f008e8f058a6b5af)
 
 ## 🚀 Features
 
@@ -24,6 +24,8 @@
 - Fix widget drift bug ([PR #1125](https://github.com/icosa-foundation/open-brush/pull/1125) by @andybak)
 
 - UI tweaks ([PR #1129](https://github.com/icosa-foundation/open-brush/pull/1129) by @andybak)
+
+- Fix splat capture paths ([PR #1132](https://github.com/icosa-foundation/open-brush/pull/1132) by @andybak)
 
 
 ## 🛠️ Infrastructure
