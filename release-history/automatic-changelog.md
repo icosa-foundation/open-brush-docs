@@ -1,6 +1,6 @@
 # Changelog since v2.30
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.30...1190963b69924847b83cc169f008e8f058a6b5af)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.30...21973c413cdb4c550cdeef194dd4b44384ca6718)
 
 ## 🚀 Features
 
@@ -26,6 +26,8 @@
 - UI tweaks ([PR #1129](https://github.com/icosa-foundation/open-brush/pull/1129) by @andybak)
 
 - Fix splat capture paths ([PR #1132](https://github.com/icosa-foundation/open-brush/pull/1132) by @andybak)
+
+- Fix view-only mode issues ([PR #1133](https://github.com/icosa-foundation/open-brush/pull/1133) by @andybak)
 
 
 ## 🛠️ Infrastructure
