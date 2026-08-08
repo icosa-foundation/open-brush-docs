@@ -1,6 +1,6 @@
 # Changelog since v2.30
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.30...9d48480ac55cb1405a58abb229971ceb34807c8e)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.30...8df72ba15182861db00a40420d0d302ffb17dbaa)
 
 ## 🚀 Features
 
@@ -33,6 +33,8 @@
 ## 🛠️ Infrastructure
 
 - Fix upload issues; Rift failing and Pico 3 not supported ([PR #1127](https://github.com/icosa-foundation/open-brush/pull/1127) by @mikeage)
+
+- Switch iOS MinimumOSVersion to 15.0 as per ITMS-90068 ([PR #1134](https://github.com/icosa-foundation/open-brush/pull/1134) by @mikeage)
 
 
 ## 📦 Dependencies / Maintenance
