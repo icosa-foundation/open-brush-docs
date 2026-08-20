@@ -1,6 +1,6 @@
 # Changelog since v2.30
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.30...8df72ba15182861db00a40420d0d302ffb17dbaa)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.30...4373b53d6bb23363e351005831cd471b6b709619)
 
 ## 🚀 Features
 
@@ -28,6 +28,8 @@
 - Fix splat capture paths ([PR #1132](https://github.com/icosa-foundation/open-brush/pull/1132) by @andybak)
 
 - Fix view-only mode issues ([PR #1133](https://github.com/icosa-foundation/open-brush/pull/1133) by @andybak)
+
+- Steam Frame fixes ([PR #1138](https://github.com/icosa-foundation/open-brush/pull/1138) by @andybak)
 
 
 ## 🛠️ Infrastructure
