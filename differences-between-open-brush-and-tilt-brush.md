@@ -16,9 +16,9 @@ This section only lists features currently in the main release. There is also a 
 * [Open Blocks Model Import](release-history/v2.13.md#import-open-blocks-models) - Import models from the sibling app Open Blocks
 * [New GLTF Importer](user-guide/importing-images-videos-3d-models.md) - Based on GLTFast with support for animated 3D models
 * [SVG Import](user-guide/importing-images-videos-3d-models.md) - Import SVG files as images or 3D meshes
-* [Point Cloud Import](user-guide/importing-images-videos-3d-models.md#point-cloud-import)
+* [Point Cloud Import](user-guide/importing-images-videos-3d-models.md#point-clouds)
 * [360 Panorama Backgrounds](release-history/v2.4-prismatic.md#360-panorama-background-import) - Import jpeg, png, and HDR panoramas (including stereoscopic)
-* [WebM Video Import](user-guide/importing-images-videos-3d-models.md#webm-video-import)
+* [WebM Video Import](user-guide/importing-images-videos-3d-models.md#webm-video)
 * [LATK export](https://lightningartist.org)
 * [Folder Navigation UI](user-guide/folder-navigation.md) - Better organization of imported media
 * [Splitting 3D Models](release-history/v2.13.md#splitting-3d-models) - Break apart imported models into separate components
@@ -51,11 +51,11 @@ This section only lists features currently in the main release. There is also a 
 * [Selection/Erase Filter](user-guide/selection-erase-filter.md)
 * [Full Selection Tools on Quest/Standalone VR](user-guide/using-the-open-brush-tools-quick-tools-and-menu-panels/tools-panel/selection-options.md#selection-tools-on-queststandalone-vr) - "Select All" and "Invert Selection" now available
 * [Erase Media Widgets](user-guide/using-the-open-brush-tools-quick-tools-and-menu-panels/tools-panel/selection-options.md#erase-media-widgets) - Use the erase tool on images, videos, and 3D models
-* [Snip/Join Strokes](alternate-and-experimental-builds/old-or-completed-feature-builds/snip-tool.md)
+* [Snip/Join Strokes](user-guide/using-the-open-brush-tools-quick-tools-and-menu-panels/tools-panel/README.md)
 
 ### Organization & File Management
 
-* [Layers](alternate-and-experimental-builds/old-or-completed-feature-builds/layers.md)
+* [Layers](user-guide/using-the-open-brush-tools-quick-tools-and-menu-panels/extras-panel/layers-panel.md)
 * [Saved Stroke Gallery](user-guide/importing-images-videos-3d-models.md) - Save and reuse selections of brush strokes
 * [Merging Sketches](user-guide/merging-sketches.md)
 * [Hiding Brushes with Brush Tags](user-guide/brushes/hiding-brushes-with-brush-tags.md)

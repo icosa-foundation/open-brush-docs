@@ -22,17 +22,21 @@ When this option is turned on, recolor and resize will add random variations bas
 
 ### Jitter Improvements
 
-In addition to the Repaint Tool, this build adds some new features to the existing "Color Jitter" settings on the Color picker (the Dice icon near the bottom)
+Open the Jitter settings from the dice button near the bottom of the colour picker. These settings affect new strokes and can also be applied by the Repaint tool.
+
+#### Colour Jitter
+
+The Hue, Saturation and Value sliders control how much those colour components can vary from one stroke to the next. A value at the far left adds no variation; increasing a slider widens the random range around the selected colour.
 
 #### Jitter Brush Size
 
-This slider controls how much the stroke size varies from stroke to stroke. All the way to the left behaves normally. As you move the slider more to the right, each stroke will have more randomness applied to it's stroke size.
+This slider controls how much the stroke size varies from stroke to stroke. The far-left position adds no variation; moving it right increases the random size range.
 
 #### Jitter Positions
 
 ![](<../.gitbook/assets/image-017.png>)
 
-This slider controls how much randomness is applied to each point on a brush stroke. . All the way to the left behaves normally. As you move the slider more to the right, each point of the stroke will be randomly shifted from it's usual position. At higher settings and with some brushes this will cause the brush stroke to actually split and form multiple small strokes.
+This slider controls how much randomness is applied to each point on a brush stroke. The far-left position adds no variation; moving it right shifts points farther from their usual positions. At higher settings, some brushes appear to split into multiple small strokes.
 
 ### Things to try
 

@@ -81,8 +81,8 @@
     2. Point your controller in the direction you want to move
     3. Hold the trigger to fly in that direction
     4. Release to stop
-10. **Snip Tool** (currently [beta only](../../../alternate-and-experimental-builds/open-brush-beta-docs.md))
-11. **Join Tool** (currently [beta only](../../../alternate-and-experimental-builds/open-brush-beta-docs.md))
+10. **Snip Tool** cuts one stroke into two strokes at the nearest control point. Activate Snip, touch the stroke at the intended cut and press the trigger. Cuts at the first or last control point have no effect.
+11. **Join Tool** combines two strokes. Activate Join, hold the trigger while touching the first stroke, then touch the second stroke before releasing. Open Brush connects the nearest pair of stroke ends; the resulting stroke uses the first stroke's properties.
 
 #### Differences in Beginners vs Advanced modes
 

@@ -77,6 +77,16 @@ Open Brush also searches the local model library created by [Open Blocks](https:
 
 Open Blocks stores each offline model in its own folder. Open Brush presents those models through the same folder browser used for other local models.
 
+## Add a model from Icosa Gallery
+
+The Icosa Gallery model browser lets you add community models without downloading files manually:
+
+1. Switch to **Advanced Mode** and open the **Extras** panel.
+2. Select **Icosa Gallery**.
+3. Browse the available models and select a thumbnail to add it to the active layer.
+
+Signed-in users can also browse models they have liked. An imported Icosa model behaves like other model widgets, so it can be moved, resized, pinned, selected or removed.
+
 ### Point clouds
 
 Open Brush imports binary little-endian PLY point clouds. Copy them to `Documents/Open Brush/Media Library/Models` and open the Local Models tab.
