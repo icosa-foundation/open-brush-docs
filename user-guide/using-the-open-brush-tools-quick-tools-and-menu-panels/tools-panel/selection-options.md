@@ -27,4 +27,6 @@ You can move selected strokes to a specific layer using the layer controls. This
 
 ## Erase Media Widgets
 
-The erase tool can now delete imported media (images, videos, and 3D models) in addition to brush strokes. Simply activate the eraser and touch any media widget to remove it from your sketch. This provides a faster alternative to using the grip button flick gesture to delete widgets.
+The Eraser can delete imported media (images, videos and 3D models) in addition to brush strokes. Activate the Eraser and touch a media widget to remove it from the sketch. This provides a faster alternative to using the Grip-button flick gesture.
+
+Pinned media widgets are protected from the Eraser. Unpin the widget before trying to erase it.

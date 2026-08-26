@@ -1,6 +1,6 @@
 # Experimental Brushes
 
-This is a list of the brushes that are only available in any "Experimental Mode" Builds:&#x20;
+These brushes appear in the Brushes panel when you turn on [Experimental Mode](../experimental-mode.md). You can switch them on or off while Open Brush is running; a separate Experimental Mode build is no longer required.
 
 | Brush Name             | Notes                                                                                                                     |
 | ---------------------- | ------------------------------------------------------------------------------------------------------------------------- |
@@ -20,7 +20,7 @@ This is a list of the brushes that are only available in any "Experimental Mode"
 | Charcoal               |                                                                                                                           |
 | Digital                |                                                                                                                           |
 | Double Flat            |                                                                                                                           |
-| Drafting               | Use with the "[Toggle Drafting Mode](../../alternate-and-experimental-builds/main-experimental-build.md#drafting)" button |
+| Drafting               | Use with the [Drafting Lines visibility control](../check-out-labs-or-experimental-features.md#hide-or-show-draft-brush-strokes) on the Labs panel |
 | Dry Brush              |                                                                                                                           |
 | Duct Tape (Geometry)   |                                                                                                                           |
 | Fairy                  |                                                                                                                           |

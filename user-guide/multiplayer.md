@@ -12,10 +12,28 @@ Multiplayer lets several people paint in the same Open Brush sketch. You can col
 2. Enter a nickname.
 3. Enter a room name, or keep the generated name.
 4. Choose the room options and maximum number of participants.
-5. Create the room, then share its name with the people you want to invite.
-6. Other participants enter the same room name and select **Join**.
+5. Join the room. If the name is not already in use, Open Brush creates it and makes you the room owner.
+6. Share the room name with the people you want to invite. They enter the same name and join it.
 
-Rooms can contain up to 12 people. Everyone should use the same Open Brush version to avoid feature or sketch-format differences.
+Room names and nicknames are remembered for the next session. Rooms can contain between 2 and 12 people, with a default maximum of 4. Everyone should use the same Open Brush version to avoid feature or sketch-format differences.
+
+## Voice chat
+
+Multiplayer includes spatial voice chat, so another participant's voice appears to come from their position in the room. Open Brush needs microphone permission to transmit your voice.
+
+Use **Manage Room** while connected to see the participant list. You can mute an individual participant for yourself without changing what anyone else hears. The room owner can also make the whole room silent or mute a participant for everyone.
+
+## Manage a room
+
+The participant who creates a room becomes its owner. Open **Manage Room** from the Multiplayer panel to view the participant list and room controls.
+
+1. **Mute for me** silences a participant only on your device.
+2. **View only** prevents a participant from editing while still allowing them to watch.
+3. **Mute for everyone** prevents a participant's voice from being heard throughout the room.
+4. **Kick User** removes a participant from the room.
+5. **Transfer room ownership** gives the selected participant the owner controls.
+
+The room owner can apply view-only or voice settings to the whole room. Controls that affect other participants are available only to the owner.
 
 ## Passthrough rooms
 

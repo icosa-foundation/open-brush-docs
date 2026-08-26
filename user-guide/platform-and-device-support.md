@@ -17,7 +17,7 @@ Open Brush works on many more devices than Tilt Brush, including:
 - Any OpenXR-compatible PC VR headset
 
 ### Standalone VR
-- Meta Quest 1, 2, 3, and Pro
+- Meta Quest 1, 2, 3, 3S, and Pro
 - Pico Neo 3, 4, and 4 Pro
 - Pico 4 Ultra
 - Steam Frame
@@ -37,6 +37,14 @@ To use it:
 This allows you to blend your VR creations with the real world, creating unique mixed reality artwork.
 
 Passthrough can also be used in [multiplayer rooms](multiplayer.md#passthrough-rooms). Each participant sees their own camera view behind the shared Open Brush scene.
+
+### Logitech MX Ink
+
+Open Brush supports the [Logitech MX Ink](logitech-mx-ink.md) stylus on Meta Quest 2, 3 and 3S. It provides pressure-sensitive painting and can be used alongside the regular Touch controllers.
+
+### Zapbox
+
+The Zapbox build uses tracked Zapbox controller models and laser pointers for interacting with the Open Brush interface. Its first-use tutorial includes the Zapbox controls.
 
 ### Steam Frame
 

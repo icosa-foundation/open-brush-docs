@@ -1,86 +1,43 @@
-# Logitech MX Ink Integration
+# Logitech MX Ink
 
-Open Brush supports the Logitech MX Ink, a precision stylus designed for VR/XR content creation. The MX Ink provides a familiar pen-like input method with enhanced precision and pressure sensitivity.
+Open Brush supports the [Logitech MX Ink](https://www.logitech.com/en-us/products/vr/mx-ink-mr-stylus.914-000085.html), a pressure-sensitive tracked stylus for Meta Quest.
 
-## What is the Logitech MX Ink?
+## Requirements
 
-The [Logitech MX Ink](https://www.logitech.com/en-us/products/vr/mx-ink.html) is a VR stylus that offers:
+1. A Meta Quest 2, Quest 3 or Quest 3S.
+2. Meta Quest OS v69 or later.
+3. An MX Ink paired through the Meta Quest mobile app.
+4. A current Meta Quest build of Open Brush.
 
-* **Pressure sensitivity** - Variable pressure detection for natural brush control
-* **Precision tip** - Fine point for detailed work
-* **Ergonomic design** - Comfortable grip for extended creative sessions
-* **Haptic feedback** - Tactile response when painting and interacting
-* **Multi-platform support** - Compatible with Meta Quest and other VR platforms
+MX Ink is not supported by Logitech on Quest Pro or non-Meta headsets. One MX Ink can be paired alongside the Touch controllers.
 
-## Features in Open Brush
+## Set up the stylus
 
-When using the MX Ink with Open Brush, you get:
+1. Pair MX Ink with the headset by following Logitech's instructions in the Meta Quest mobile app.
+2. In the headset's **Settings**, choose whether the stylus is used in the left or right hand.
+3. Adjust the tip and pressure-button curves or button preferences in Meta Settings if required.
+4. Start Open Brush. It detects the paired stylus automatically and displays the MX Ink model in place of the corresponding Touch controller.
 
-### Pressure-Sensitive Painting
+These are headset-level settings. Open Brush does not provide a separate pressure-curve or button-remapping page for MX Ink.
 
-* Brush size and opacity can respond to how hard you press
-* Natural variation in stroke width and intensity
-* More expressive and nuanced drawing control
-* Works with compatible Open Brush brushes
+## Paint and interact
 
-### Enhanced Precision
+Press the tip against a physical surface or hold the pressure-sensitive middle button to paint in the air. Open Brush records the pressure value, allowing compatible brushes to vary stroke size or opacity.
 
-* Fine detail work and intricate patterns
-* Better control for technical drawing and precision work
-* Improved accuracy for small-scale elements
+The front button acts like the Grip input for grabbing and manipulating objects. The back button maps to the normal primary controller action. A brush-size slider appears on the Brushes panel while MX Ink is active because the stylus does not have a thumbstick.
 
-### Familiar Input Method
-
-* Pen-like grip feels natural for artists
-* Easier transition from traditional or digital 2D art
-* Reduced fatigue compared to controller painting
-
-## How to use it
-
-1. **Pair your MX Ink** with your VR headset following Logitech's instructions
-2. **Launch Open Brush** - The MX Ink should be automatically detected
-3. **Start painting** - Use the stylus tip to draw, with pressure controlling brush properties
-4. **Buttons** - The MX Ink buttons can be configured for common Open Brush functions:
-   * Quick color selection
-   * Brush size adjustment
-   * Undo/redo
-   * Tool switching
-
-## Configuration
-
-You can customize MX Ink behavior in:
-
-* **Open Brush Settings** - Adjust pressure sensitivity curves
-* **Logitech software** - Configure button mappings and device settings
-* **Per-brush settings** - Some brushes may have specific MX Ink parameters
-
-## Supported headsets
-
-The MX Ink works with Open Brush on:
-
-* Meta Quest 2
-* Meta Quest 3
-* Meta Quest Pro
-* Other compatible VR/XR platforms (check Logitech's compatibility list)
-
-## Tips for best results
-
-* **Pressure calibration** - Adjust pressure sensitivity to match your drawing style
-* **Grip position** - Hold the stylus naturally; don't grip too tightly
-* **Rest your hand** - Use your other hand or a surface for stability during detail work
-* **Combine with controllers** - Keep a controller handy for navigation and menu interaction
-* **Experiment with brushes** - Try different brushes to find which work best with pressure input
+You can continue using the other Touch controller for navigation, palette controls and two-handed interactions. The stylus provides haptic feedback for supported presses.
 
 ## Troubleshooting
 
-* **Stylus not detected** - Ensure it's paired properly and firmware is updated
-* **Pressure not working** - Check Open Brush settings and ensure pressure-sensitive brushes are selected
-* **Connection issues** - Restart Open Brush or re-pair the device
-* **Button mapping issues** - Reset to default settings or reconfigure in Logitech software
+1. If Open Brush shows a Touch controller instead of the stylus, confirm that MX Ink is paired, awake and assigned to the intended hand in Meta Settings.
+2. If pressure does not respond as expected, adjust the tip and pressure-button curves in Meta Settings.
+3. If the stylus is paired but unavailable, confirm that the headset is running Meta Quest OS v69 or later, then restart Open Brush.
+4. If a particular brush shows little pressure variation, try another brush; pressure response depends on the brush's size and opacity settings.
 
 ## See also
 
-* [Painting with Open Brush](painting-with-open-brush.md)
-* [Brushes](brushes/)
-* [Open Brush config file](the-open-brush-config-file.md) - Advanced configuration options
-* [Release notes v2.10](../release-history/v2.10.md) - When MX Ink support was added
+1. [Painting with Open Brush](painting-with-open-brush.md)
+2. [Brushes](brushes/)
+3. [Platform and Device Support](platform-and-device-support.md)
+4. [Release notes for v2.10](../release-history/v2.10.md)

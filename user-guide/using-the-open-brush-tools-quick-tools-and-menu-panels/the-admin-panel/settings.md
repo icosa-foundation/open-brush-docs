@@ -11,7 +11,7 @@ The Settings Panel can be opened from a button on the [Admin Panel](./).
    iv. Ruler
 2. Second row of buttons (Left to right):\
    i. Autosimplify\
-   ii. Experimental Mode: Toggles [Experimental Mode](../../experimental-mode.md) on or off next time you open the app\
+   ii. Experimental Mode: Shows or hides [Experimental Brushes](../../experimental-mode.md) immediately; no restart is required\
    iii. Swap Hands: Swaps the brush between the left and right hands. See [Switching Hands](../../switching-hands.md) for more information.\
    iv. Reset First Use: If you click this then next time you launch Open Brush you will get the short tutorial you saw when you ran it the first time. Also turns off [Experimental Mode](../../experimental-mode.md) and switches back to Beginners Mode where most of the tools are hidden.
 3. Pointer Angle: This changes the angle the brush pointer is at. Find a settings you feel comfortable with.
