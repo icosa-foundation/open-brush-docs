@@ -86,3 +86,32 @@ Some things to note here:
    You should have come across similar constructs in other scripting languages. Any lua tutorial will explain some small differences with lua loops but in general they should behave as you would expect.
 3. `angleStep`is always 36 in this case but if you wanted to,`copies` could be a slider that the user sets so we calculate how many degrees to add to the angle for each copy of the pointer.
 4. You don't have to calculate the position of each pointer around the circle. This is done automatically for you. The final position is calculated based on the symmetry widget's transform and the rotation value you return for each pointer. This saves you from having to do some pretty gnarly maths yourself in symmetry plugins.
+
+## Advanced symmetry control
+
+### Control individual pointers
+
+The transforms returned by a Symmetry Plugin define its pointers in order. Pointer-control methods use zero-based indices, so index `0` controls the first returned transform.
+
+1. `Symmetry:StartPointer(index)` forces a pointer to paint.
+2. `Symmetry:StopPointer(index)` prevents a pointer from painting.
+3. `Symmetry:ForcePointerNewStroke(index)` ends the pointer's current stroke and starts a new one if the pointer is still painting.
+4. `Symmetry:SetPointerPaintMode(index, SymmetryPointerPaintMode.Inherit)` returns a pointer to the normal painting state. You can also pass `ForcedOn` or `ForcedOff` to control it explicitly.
+5. `Symmetry:GetPointerPaintMode(index)` gets one pointer's current mode, while `Symmetry:GetPointerPaintModes()` gets the modes for all pointers.
+
+For example, this disables the second pointer and later returns it to normal control:
+
+```lua
+Symmetry:StopPointer(1)
+Symmetry:SetPointerPaintMode(1, SymmetryPointerPaintMode.Inherit)
+```
+
+### Apply symmetry to a path
+
+`Symmetry:ApplyToPath(path)` applies the active symmetry settings to a `Path` and returns the resulting `PathList`:
+
+```lua
+local copies = Symmetry:ApplyToPath(path)
+```
+
+This is useful when a plugin needs the same transformed paths that Open Brush would use for the current mirror or multi-mirror settings. If no symmetry is active, the returned list contains the original path.

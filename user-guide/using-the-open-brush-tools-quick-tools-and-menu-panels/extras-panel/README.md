@@ -11,3 +11,5 @@
 7. [Snap Settings Panel](snap-settings-panel.md)
 8. [Transform Panel](transform-panel.md)
 9. [Layers Panel](layers-panel.md)
+10. [Icosa Gallery model browser](../../../alternate-and-experimental-builds/old-or-completed-feature-builds/icosa-gallery-support.md)
+11. [Plugins and Scripts](../../using-plugins/)

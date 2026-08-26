@@ -5,22 +5,25 @@ description: Current limitations and the best workarounds.
 # Quest and other standalone headsets
 
 {% hint style="info" %}
-Standalone headsets (Quest, etc.) can’t currently export video directly inside Open Brush. The workaround depends on what you’re trying to record.
+Standalone headsets (Quest, etc.) cannot encode a video file directly inside Open Brush. Camera Paths can instead render a numbered still-frame sequence that you compile into a video afterward.
 {% endhint %}
 
 ### Option 1: Render frames on Quest, then compile
 
-This option shipped near the end of 2025.
+This workflow was added in Open Brush v2.13.
 
-You can render camera paths directly on Quest. The output is a folder of frames.
+1. Create or select a [Camera Path](camera-paths-tool.md).
+2. Select **Record Path** and wait for the camera to complete the route.
+3. Open the Open Brush `Videos` directory on the headset.
+4. Copy the `<recording-name>_frames` folder and the matching `<recording-name>_sequence.txt` file to a computer.
+5. Open the sequence text file to see its frame rate, resolution and an example [ffmpeg](https://ffmpeg.org/) command.
+6. Run that command from the frames folder, or import the numbered images into a video editor as an image sequence.
 
-You then compile frames into a video. We generate a helper script for [ffmpeg](https://ffmpeg.org/).
+The frame sequence contains images only; it does not contain an audio track. Open Brush uses JPG frames by default. You can change the image format or force the same workflow on desktop in [Video settings](video-settings-open-brush.cfg.md#frame-sequence-rendering).
 
 ### Option 2: Draw the camera path on Quest, render on a computer
 
-Quest builds have the Camera Paths tool. The **record** button is disabled.
-
-But paths are saved with the sketch. Copy the sketch to a PC or Mac and render there.
+Camera paths are saved with the sketch. If you want Open Brush to create the encoded video file, copy the sketch to a PC or Mac and render it there.
 
 The computer does **not** need VR hardware. You can run Open Brush without a headset.
 

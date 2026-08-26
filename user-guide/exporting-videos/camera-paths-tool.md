@@ -58,7 +58,9 @@ Deletes the entire selected path.
 
 #### Record Path
 
-Renders a video by moving the camera through the full path. The output video appears in `Documents/Open Brush/Videos`.
+Renders the view while moving the camera through the full path. On desktop, the output video appears in `Documents/Open Brush/Videos`.
+
+On standalone headsets, which do not bundle a video encoder, Open Brush writes numbered images to a `<recording-name>_frames` folder and creates a matching `<recording-name>_sequence.txt` file with the capture settings and an example ffmpeg command. See [Quest and other standalone headsets](quest-and-other-standalone-headsets.md#option-1-render-frames-on-quest-then-compile).
 
 Recording cannot be paused. Cancel by clicking the **X** on the brush controller while recording.
 

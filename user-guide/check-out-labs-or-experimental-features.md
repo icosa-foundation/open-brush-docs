@@ -2,10 +2,6 @@
 
 <figure><img src="../.gitbook/assets/image-013.png" alt=""><figcaption></figcaption></figure>
 
-{% hint style="info" %}
-This page isn't up to date at the moment
-{% endhint %}
-
 To try out newer features, you can open up the Labs panel. Here you will find some of the latest additions to Open Brush.
 
 (If you're really interested in cutting edge features then you might also want to look at installing [alternate or experimental builds](../alternate-and-experimental-builds/).)
@@ -31,7 +27,7 @@ Add capture-volume widgets and export images, camera poses and sparse point data
 
 <div align="left"><figure><img src="../.gitbook/assets/image-026.png" alt=""><figcaption></figcaption></figure></div>
 
-### Save Selected Strokes to your Media Library
+### [Save Selected Strokes to your Media Library](importing-images-videos-3d-models.md#save-and-reuse-selected-strokes)
 
 <div align="left"><figure><img src="../.gitbook/assets/image-052.png" alt=""><figcaption></figcaption></figure></div>
 
@@ -47,16 +43,10 @@ Add capture-volume widgets and export images, camera poses and sparse point data
 
 <div align="left"><figure><img src="../.gitbook/assets/image-021.png" alt=""><figcaption></figcaption></figure></div>
 
-### [Browse and Import 3d models from the Icosa Gallery](../alternate-and-experimental-builds/old-or-completed-feature-builds/icosa-gallery-support.md)
-
-<div align="left"><figure><img src="../.gitbook/assets/image-089.png" alt=""><figcaption></figcaption></figure></div>
-
 ### Switch the desktop view to a spectator camera
 
 <div align="left"><figure><img src="../.gitbook/assets/image-099.png" alt=""><figcaption></figcaption></figure></div>
 
-### Use [plugins ](using-plugins/)or run [API scripts](open-brush-api/)
-
-<div align="left"><figure><img src="../.gitbook/assets/image-094.png" alt=""><figcaption></figcaption></figure></div>
-
 ***
+
+The Icosa Gallery model browser and [Plugins and Scripts](using-plugins/) are on the [Extras panel](using-the-open-brush-tools-quick-tools-and-menu-panels/extras-panel/), rather than the Labs panel.

@@ -2,7 +2,7 @@
 
 {% embed url="https://www.youtube.com/playlist?list=PL94EgLgEIJyIou6-PzO2vBTvcZQav2Ibq" %}
 
-You can open the Scripts Panel from a button on the [Labs Panel](../using-the-open-brush-tools-quick-tools-and-menu-panels/the-admin-panel/labs-panel.md)
+You can open the Scripts panel from the **Plugins and Scripts** button on the [Extras Panel](../using-the-open-brush-tools-quick-tools-and-menu-panels/extras-panel/).
 
 ![](<../../.gitbook/assets/image-012.png>)
 

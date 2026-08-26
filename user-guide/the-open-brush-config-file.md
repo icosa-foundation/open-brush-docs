@@ -28,7 +28,8 @@ Example of an empty _Open Brush.cfg:_
    },
    "Export":{
       
-   }
+   },
+   "Sharing":{}
 }
 ```
 
@@ -73,6 +74,10 @@ Sample contents of a _Open Brush.cfg_ with various fields filled in:
       "ExportBinaryFbx":true,
       "ExportFbxVersion":"FBX201400",
       "ExportStrokeTimestamp":true
+   },
+   "Sharing":{
+      "IcosaApiRoot":"https://api.icosa.gallery/v1",
+      "IcosaHomePage":"https://icosa.gallery"
    }
 }
 ```
@@ -114,6 +119,13 @@ Sample contents of a _Open Brush.cfg_ with various fields filled in:
 #### "Import" Section
 
 See [Importing Images, Videos and 3D Models](importing-images-videos-3d-models.md)
+
+#### "Sharing" Section
+
+1. **IcosaApiRoot:** The root URL of the Icosa-compatible API. The default is `https://api.icosa.gallery/v1`.
+2. **IcosaHomePage:** The matching gallery website used for links opened by Open Brush. The default is `https://icosa.gallery`.
+
+Most users should leave these settings out of the config file and use the defaults. Set both values only when connecting Open Brush to another compatible Icosa Gallery instance.
 
 #### "Export" Section
 

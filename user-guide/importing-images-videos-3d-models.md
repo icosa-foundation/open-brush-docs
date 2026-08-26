@@ -1,78 +1,107 @@
 # Importing Images, Videos and 3D Models
 
-eIf you want to see an image or 3D model while you paint in Open Brush, you can add it to your scene. You can move, change, or delete reference images.
+The Media Library lets you place reference images, videos, 3D models and reusable groups of brush strokes in a sketch.
 
-1. Make sure you are in Advanced Mode.
-2. Below your palette, go to the Menu panel and select "**More Options...**".
-3. On your paint palette, swipe to the Tools panel and select More.
-4. Select **Labs** to open the [Labs Panel](using-the-open-brush-tools-quick-tools-and-menu-panels/the-admin-panel/labs-panel.md)
+## Open the Media Library
 
-![](../.gitbook/assets/image-098.png)
+1. Switch to **Advanced Mode**.
+2. Open the **Extras** panel.
+3. Select **Local Media Library**.
+4. Use the tabs at the top of the library to switch between images, videos, models and saved strokes.
 
-Click this icon to open the Media Library:
+<figure><img src="../.gitbook/assets/image-098.png" alt=""><figcaption></figcaption></figure>
 
-###
+You can organize imported media into subfolders. See [Folder Navigation](folder-navigation.md) for details.
 
-#### **Add an image or video clip**
+## Add an image or video
 
-1. Copy a PNG or JPG file to Documents/Open Brush/Media Library/Images or a video file to Documents/Open Brush/Media Library/Videos
-2. In Open Brush, make sure you are in [Advanced Mode](using-the-open-brush-tools-quick-tools-and-menu-panels/tool-panels.md).
-3. Go to the Menu panel (below your palette) and select **"More Options..."** **>** **Labs > Local Media Library > Local Images**.
-4. Switch between selecting images and models using the icons in the top left.
+1. Copy images to `Documents/Open Brush/Media Library/Images` or videos to `Documents/Open Brush/Media Library/Videos`.
+2. Open the Media Library and choose **Local Images** or **Local Videos**.
+3. Select a thumbnail to add that item to the sketch.
 
-You can organize your media files into folders. See [Folder Navigation](folder-navigation.md) for more information.
+## Add a 3D model
 
-#### **Add a 3D model**
+1. Copy a supported 3D file to `Documents/Open Brush/Media Library/Models`.
+2. Open the Media Library and choose **Local Models**.
+3. Select a thumbnail to add that model to the sketch.
 
-1. Copy any [supported](importing-images-videos-3d-models.md#supported-file-formats) 3d file to Documents/Open Brush/Media Library/Models.
-2. In Open Brush, make sure you are in Advanced Mode. On the Quest you also need to switch Experimental Mode on in the settings.
-3. Go to the Menu panel (below your palette) and select **"More Options..."** **> Labs > Local Media Library > Local Models**.
-4. Switch between selecting images and models using the icons in the top left.
-5. See "Supported Formats" below to see which file types you can use.
+On standalone headsets, model importing may need to be enabled in **Settings > Experimental**. Large or complex models can take time to load and may affect performance.
 
-You can organize your media files into folders. See [Folder Navigation](folder-navigation.md) for more information.
+## Supported file formats
 
-### Supported File Formats
+| Type | Format | Notes |
+| --- | --- | --- |
+| Images | PNG, JPEG, HDR |  |
+| Images or 3D models | SVG | SVG files can be imported as either images or meshes. |
+| Video | MP4, MKV, MOV | Support depends on the operating system and installed codecs. |
+| Video | WEBM | Must use the VP8 codec. Transparency is supported on Windows only. |
+| 3D models | GLTF, GLB, OBJ | Supported on desktop and standalone devices. |
+| 3D models | FBX | PC and Mac only. |
+| 3D models | USD | PC and Mac only; support is experimental and uses an older importer. |
+| 3D models | PLY | Binary little-endian point clouds only. |
+| 3D models | VOX | MagicaVoxel voxel models. |
 
-<table><thead><tr><th width="140">Type</th><th>Format</th><th>Notes</th></tr></thead><tbody><tr><td>Images</td><td>PNG</td><td></td></tr><tr><td></td><td>JPEG</td><td></td></tr><tr><td></td><td>SVG</td><td>(SVGs can be imported either as images or as a mesh)</td></tr><tr><td></td><td>HDR</td><td></td></tr><tr><td>Video</td><td>MP4</td><td>See notes below.</td></tr><tr><td></td><td>MKV</td><td>See notes below.</td></tr><tr><td></td><td>MOV</td><td>See notes below.</td></tr><tr><td></td><td>WEBM</td><td>See notes below. Must use VP8 codec. Supports transparency on Windows only.</td></tr><tr><td>3d Models</td><td>GLTF/GLB</td><td></td></tr><tr><td></td><td>OBJ</td><td></td></tr><tr><td></td><td>FBX</td><td>PC/Mac only.</td></tr><tr><td></td><td>USD</td><td>PC/Mac only. Support is rather outdated and experimental</td></tr><tr><td></td><td>PLY</td><td>Point clouds only. Binary little-endian format.</td></tr><tr><td></td><td>SVG</td><td>(SVGs can be imported either as images or as a mesh)</td></tr><tr><td></td><td>VOX</td><td>Magicavoxel format for voxel models</td></tr></tbody></table>
+### VOX models
 
-## WebM Video Import
+Open Brush imports MagicaVoxel `.vox` files through the Local Models tab. To keep a voxel model aligned to its original grid, set position snapping to `0.1` and rotation snapping to `90` before placing it. See [Grid and Angle Snapping](grid-and-angle-snapping.md).
 
-WebM is a video format that supports transparency (alpha channel), allowing you to import videos with transparent backgrounds. This is particularly useful for effects, animated sprites, or reference footage.
+### OBJ models
 
-**Requirements:**
+The OBJ importer triangulates polygon faces, including faces with more than four vertices. Keep the matching `.mtl` file and texture files beside the OBJ file, preserving any relative paths used by the material file.
 
-* Must use VP8 codec
-* Transparency is currently only supported on Windows
-* Place .webm files in Documents/Open Brush/Media Library/Videos
+### Open Blocks models
 
-## Point Cloud Import
+Open Brush also searches the local model library created by [Open Blocks](https://openblocks.app/). Models saved locally in Open Blocks appear in the Local Models browser without needing to be copied into the Open Brush Models folder.
 
-You can import point cloud data in PLY format (binary little-endian). Point clouds are useful for:
+Open Blocks stores each offline model in its own folder. Open Brush presents those models through the same folder browser used for other local models.
 
-* Importing 3D scanned data
-* Working with photogrammetry outputs
-* Creating particle-like effects
-* Reference data from LiDAR scans
+### Point clouds
 
-Place .ply files in Documents/Open Brush/Media Library/Models and they will appear in the model browser.
+Open Brush imports binary little-endian PLY point clouds. Copy them to `Documents/Open Brush/Media Library/Models` and open the Local Models tab.
+
+### WebM video
+
+WebM supports transparent backgrounds, which is useful for effects, animated sprites and reference footage. The file must use the VP8 codec. Transparency is currently supported on Windows only.
 
 {% hint style="info" %}
-Video support varies across OS and hardware versions. See:\
-\
-[https://learn.microsoft.com/en-us/windows/win32/medfound/supported-media-formats-in-media-foundation#video-codecs](https://learn.microsoft.com/en-us/windows/win32/medfound/supported-media-formats-in-media-foundation#video-codecs)\
-\
-[https://learn.microsoft.com/en-us/windows/win32/medfound/supported-media-formats-in-media-foundation#video-codecs](https://learn.microsoft.com/en-us/windows/win32/medfound/supported-media-formats-in-media-foundation#video-codecs)\
-\
-for more detailed information.
+Video support varies by operating system and hardware. Windows codec support is documented in [Microsoft's Media Foundation format reference](https://learn.microsoft.com/en-us/windows/win32/medfound/supported-media-formats-in-media-foundation#video-codecs).
 {% endhint %}
 
-### **Interacting with Imported Objects**
+## Split a 3D model into separate parts
 
-**Move an image or model:** Position your controller on the image, press and hold a grip button on the side of your controller. Then, drag the image to the new location and release the grip button.
+Open Brush can break an imported model into separate widgets. It first separates model nodes and can continue splitting a single mesh into disconnected pieces.
 
-**Resize an image or model:** With your controllers near the image or model, press and hold both grip buttons. Then, move the controllers farther apart or closer together.
+1. Select one imported 3D model with the Selection tool.
+2. Use the **Break Apart** control in the selection options. This occupies the same control used to group regular selections when the selected model can be split.
+3. Confirm **Split Mesh**.
+4. Repeat the operation on a resulting part if it contains more disconnected pieces.
 
-**Pin an image or model:** While holding your selection with the grip, pull the trigger to pin. Alternatively, you can use the Pin tool to pin images, models, or guides.
+Splitting a complex mesh may take time. Save the sketch before splitting a large model. Split parts retain their material assignments, and the operation is undoable.
 
-**Remove an image or model:** With your controller near the reference image, press and hold a grip button. Then, flick the controller away from your body and release the grip button. You can also use the [eraser tool](using-the-open-brush-tools-quick-tools-and-menu-panels/tools-panel/).
+## Save and reuse selected strokes
+
+The Saved Stroke Gallery stores selected brush strokes as `.tilt` files. Unlike exporting a selection as a 3D model, this keeps the strokes editable: after loading them you can ungroup, recolor, rebrush and edit them normally.
+
+### Save a selection
+
+1. Use the Selection tool to select the strokes you want to reuse.
+2. Open **More Options... > Labs**.
+3. Select **Save Selected Strokes**.
+4. Open **Extras > Local Media Library > Saved Strokes** to see the new item.
+
+Saved-stroke files are stored in `Documents/Open Brush/Media Library/Saved Strokes`. A new installation also includes several example items.
+
+### Add saved strokes to a sketch
+
+1. Open **Extras > Local Media Library > Saved Strokes**.
+2. Select an item from the gallery.
+3. Open Brush places the strokes in the active layer, groups them and selects the new group so you can position it immediately.
+
+Loading a saved-stroke item is undoable. Ungroup it if you want to edit individual strokes.
+
+## Move, resize, pin or remove imported objects
+
+1. **Move:** Hold a Grip button while pointing at an image, video or model, move it, then release the Grip button.
+2. **Resize:** Hold both Grip buttons near the object and move the controllers closer together or farther apart.
+3. **Pin:** While holding the object with Grip, pull the trigger. You can also use the Pin tool.
+4. **Remove:** Grab the object, flick it away and release, or touch it with the Eraser tool.

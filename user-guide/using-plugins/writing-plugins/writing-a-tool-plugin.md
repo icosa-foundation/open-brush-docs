@@ -6,6 +6,12 @@ To create a Tool Plugin name your script with the prefix "ToolScript". For examp
 
 Tool Scripts should usually return a list of transforms. If they do then this defines an entire brush stroke that is then created for you.
 
+## Tool Plugins and symmetry
+
+Brush strokes returned by a Tool Plugin are affected by the active symmetry mode. This lets the same generated shape pass through Open Brush's regular mirror or multi-mirror transformation without the plugin having to calculate those copies itself.
+
+If you only want the path returned by the script, turn symmetry off before running the Tool Plugin. If you want scripted symmetry behavior as well, combine the Tool Plugin with a [Symmetry Plugin](writing-a-symmetry-plugin.md).
+
 We previously started by showing the simplest possible plugin script - one that does nothing. Because a tool plugin does nothing by default that would be an empty file! But let's put a bit of scaffolding in so you have a starting point for a plugin that actually does _something._
 
 ```lua

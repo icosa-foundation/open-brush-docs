@@ -13,7 +13,8 @@ Around the outside are buttons for:
 1. Save Sketch\\
 2. Upload Panel\
    ![](../../../.gitbook/assets/image-066.png)\\
-3. The 3 dots "more" button opens this:\
+3. **What's New**, which shows recent features and announcements. The button is highlighted when unread items are available.\\
+4. The 3 dots "more" button opens this:\
    ![](../../../.gitbook/assets/image-053.png)\
    \
    A popup with:
@@ -22,5 +23,5 @@ Around the outside are buttons for:
    3. [Settings Panel](settings.md)
    4. **Install .tilt thumbnail support** on Windows Steam builds
    5. (small button underneath) Reset Panels: resets all panels to their default position/visibility\\
-4. Beginner/Advanced mode toggle\\
-5. New Sketch\\
+5. Beginner/Advanced mode toggle\\
+6. New Sketch\\

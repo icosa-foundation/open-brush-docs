@@ -5,6 +5,8 @@
 * Use the sphere, cube, and pill guides to create perfect shapes.
 * Guides are moved and scaled similar to other widgets, using the Grip buttons.
 
+Guides also respect the position and rotation locks on the [Transform Panel](transform-panel.md). Lock one or more axes when you need to reposition a guide without changing its height, orientation or alignment on the locked axes.
+
 ## Guide Types
 
 Open Brush includes several types of guides:

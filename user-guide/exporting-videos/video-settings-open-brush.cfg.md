@@ -21,6 +21,8 @@ This is an example snippet showing the fields that affect capture and rendering:
     "CameraSmoothing": 0.98,
     "Encoder": "h.264",
     "SaveCameraPath": true,
+    "ForceFrameSequenceRender": false,
+    "UsePngForFrameSequence": false,
     "FOV": 129
   },
   "Flags": {
@@ -58,6 +60,17 @@ For example:
 ```
 
 See the [360° / ODS video workflow](360-ods-video-workflow.md) for the complete process.
+
+### Frame-sequence rendering
+
+Standalone builds automatically save Camera Path renders as numbered still images because they do not include a video encoder. Two `Video` settings control this workflow:
+
+1. `ForceFrameSequenceRender` makes desktop builds write a frame sequence instead of an encoded video when set to `true`.
+2. `UsePngForFrameSequence` uses lossless PNG frames when set to `true`. The default value, `false`, uses JPG frames and requires less storage.
+
+Each render creates a `<recording-name>_frames` folder and a matching `<recording-name>_sequence.txt` file in the Open Brush `Videos` directory. The text file records the frame rate, resolution and an example ffmpeg command.
+
+See [Quest and other standalone headsets](quest-and-other-standalone-headsets.md#option-1-render-frames-on-quest-then-compile) for the complete workflow.
 
 ### When to use offline rendering
 

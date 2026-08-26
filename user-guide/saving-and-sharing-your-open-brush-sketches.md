@@ -1,6 +1,6 @@
 # Saving and sharing your Open Brush sketches
 
-When you are finished with your 3D creation, you can save your Open Brush sketch to your computer, or share it to [Icosa](https://beta.icosa.gallery/) or [Sketchfab](https://sketchfab.com). You can also take snapshot, GIFs or videos of your art to send to friends or post online.
+When you are finished with your 3D creation, you can save the sketch on your device or publish it to [Icosa Gallery](https://icosa.gallery/), [Sketchfab](https://sketchfab.com) or [Viverse](https://www.viverse.com/). You can also capture snapshots, GIFs and videos to share elsewhere.
 
 ### **Saving a sketch**
 
@@ -33,7 +33,7 @@ If you're having issues saving your sketch, check that you have administration p
 
 ### **Sharing your Open Brush sketches**
 
-To share your creations outside of Open Brush, click **Upload** ![](../.gitbook/assets/image-135.png) to publish your sketch to [Icosa](https://beta.icosa.gallery/). Once you have published your sketch, you can share the link to your sketch on social networks like Facebook, Twitter, and Google+.
+To share your creation outside Open Brush, select **Upload** ![](../.gitbook/assets/image-135.png), choose a service and follow its sign-in and confirmation steps. When the upload finishes, Open Brush can open the published item in a browser.
 
 ## Icosa Gallery Integration
 
@@ -59,7 +59,24 @@ This is a great way to:
 
 You can upload your sketches directly to Icosa Gallery from within Open Brush to share with the community and preserve your work online.
 
+Open Brush includes the exported triangle count with an Icosa upload. Icosa uses this information to estimate the complexity of an item before another user downloads it; you do not need to enter it manually.
+
 You can also add [portals](portals.md) that link the current scene to a sketch in the Curated or Liked sections of the Icosa Gallery.
+
+Advanced users running a compatible gallery instance can change the Icosa API and website roots in the [Sharing section of `Open Brush.cfg`](the-open-brush-config-file.md#sharing-section).
+
+## Publish to Viverse Worlds
+
+Open Brush can package a sketch as a browser-based world and publish it directly to Viverse.
+
+1. Save the sketch.
+2. Select **Upload** on the Admin panel.
+3. Choose **Viverse**.
+4. If prompted, sign in to a Vive account in the browser and return to Open Brush.
+5. Confirm the upload and wait for Open Brush to finish exporting and publishing the world.
+6. Use the completion link or **View Last Upload** to open the world.
+
+Imported Media Library content may not be included in every publishing format. Read the warning shown by the Upload panel before continuing and check the published world after upload.
 
 ### **Save in various file formats using Cameras**
 
@@ -103,4 +120,4 @@ For more information see [Exporting Open Brush Sketches to Other Apps](exporting
 
 ### **Create a 360 video**
 
-To create a 360 video, follow the [instructions here](exporting-videos/#exporting-360-videos-offline-video-rendering). Note: this is an advanced feature, and requires some working knowledge of the command line.
+To create a 360 video, follow the [360° / ODS video workflow](exporting-videos/360-ods-video-workflow.md). This is an advanced feature and requires some familiarity with the command line.
