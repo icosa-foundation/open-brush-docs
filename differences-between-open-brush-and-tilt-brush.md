@@ -2,7 +2,7 @@
 
 ## Features Added to Open Brush
 
-This section only lists features currently in the main release. There is also a [beta version ](alternate-and-experimental-builds/open-brush-beta-docs.md)with new features. There's also plenty more stuff in [experimental and alternate builds](alternate-and-experimental-builds/).
+This section only lists features currently in the main release. There is also a [beta version](alternate-and-experimental-builds/open-brush-beta-docs.md) with new features, plus more work being tested in [experimental and alternate builds](alternate-and-experimental-builds/).
 
 ### Scripting & Extensibility
 
@@ -14,7 +14,8 @@ This section only lists features currently in the main release. There is also a 
 
 * [VOX File Import](release-history/v2.13.md#vox-file-import) - Import Magicavoxel .vox format files
 * [Open Blocks Model Import](release-history/v2.13.md#import-open-blocks-models) - Import models from the sibling app Open Blocks
-* [New GLTF Importer](user-guide/importing-images-videos-3d-models.md) - Based on GLTFast with support for animated 3D models
+* [GLTF and GLB Model Import](user-guide/importing-images-videos-3d-models.md#gltf-and-glb-models) - Import scene hierarchies, materials, lights and animations using UnityGLTF, with a legacy importer as a fallback
+* [Icosa Gallery Model Import](user-guide/importing-images-videos-3d-models.md#add-a-model-from-icosa-gallery) - Browse and add community models from inside Open Brush
 * [SVG Import](user-guide/importing-images-videos-3d-models.md) - Import SVG files as images or 3D meshes
 * [Point Cloud Import](user-guide/importing-images-videos-3d-models.md#point-clouds)
 * [360 Panorama Backgrounds](release-history/v2.4-prismatic.md#360-panorama-background-import) - Import jpeg, png, and HDR panoramas (including stereoscopic)
@@ -76,8 +77,7 @@ This section only lists features currently in the main release. There is also a 
 ### Sharing & Publishing
 
 * [Publish to Viverse](release-history/v2.13.md#publish-worlds-to-viverse) - Share sketches directly to Viverse 3D worlds
-* [Icosa Gallery uploads](https://icosa.gallery)
-* [Icosa Gallery Integration](user-guide/saving-and-sharing-your-open-brush-sketches.md#icosa-gallery-integration) - Browse and load sample sketches directly from Icosa Gallery
+* [Icosa Gallery Integration](user-guide/saving-and-sharing-your-open-brush-sketches.md#icosa-gallery-integration) - Browse and load community sketches or publish your own work
 * [Portals Between Sketches](user-guide/portals.md) - Link one sketch to another Icosa Gallery sketch
 
 ### User Interface
@@ -92,9 +92,8 @@ This section only lists features currently in the main release. There is also a 
 * [Support for More Headsets](user-guide/platform-and-device-support.md#supported-headsets) - Pico, Zapbox, and other OpenXR devices
 * [Quest 1 Support](release-history/v2.4-prismatic.md#quest-1-support-is-back) - Full selection tool support restored
 * [Audio Reactive Mode for Quest](release-history/v2.4-prismatic.md#audio-reactive-mode-for-quest) - Brushes animate to imported audio
-* [Monoscopic Mode](user-guide/monoscopic-mode.md) - Run on non-VR devices
-* [Flatscreen View Mode](release-history/v2.4-prismatic.md#flatscreen-view-mode) - Navigate sketches with keyboard, touch, or gamepad
-* [Enhanced View-only Mode](user-guide/monoscopic-mode.md#view-only-mode) - Browse local and Icosa sketches with mouse, keyboard or touch controls
+* [View-only Mode](user-guide/monoscopic-mode.md#view-only-mode) - Browse local and Icosa sketches with mouse, keyboard, gamepad or touch controls
+* [Monoscopic Painting Mode](user-guide/monoscopic-mode.md#monoscopic-mode) - Access painting tools on a non-VR display
 * [Passthrough Mode with Room Scale](release-history/v2.4-prismatic.md#passthrough-room-scale) - Stable scene orientation relative to real space
 * [Steam Frame Support](user-guide/platform-and-device-support.md#steam-frame) - Native controller input, models and Steam overlay links
 
