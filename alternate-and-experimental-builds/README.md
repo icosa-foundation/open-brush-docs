@@ -44,10 +44,6 @@ You can download these builds to try out new features. Sometimes the sketches yo
 [brush-editing.md](brush-editing.md)
 {% endcontent-ref %}
 
-{% content-ref url="old-or-completed-feature-builds/new-monoscopic-mode.md" %}
-[new-monoscopic-mode.md](old-or-completed-feature-builds/new-monoscopic-mode.md)
-{% endcontent-ref %}
-
 {% content-ref url="old-or-completed-feature-builds/" %}
 [old-or-completed-feature-builds](old-or-completed-feature-builds/)
 {% endcontent-ref %}

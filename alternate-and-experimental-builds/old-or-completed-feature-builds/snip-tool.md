@@ -1,13 +1,5 @@
-# Feature: Snip Tool
-
-#### <mark style="color:red;background-color:red;">**THIS BRANCH HAS BEEN RELEASED AND IS PART OF THE REGULAR VERSION OF OPEN BRUSH**</mark>
+# Feature: Snip and Join Tools
 
 #### Status: Released in [v2.0](../../release-history/v2.0-xr-update.md)
 
-### What does it do?
-
-![](../../.gitbook/assets/image-011.png)
-
-{% embed url="https://twitter.com/andybak/status/1488929073288163332?s=20&t=T74T-QeYnZna7cKASXBGgg" %}
-
-It allows you to cut strokes so they behave as if they were separate strokes.
+This page is retained as a record of the original experimental build. For current instructions on cutting one stroke or joining two strokes, see the [Tools panel guide](../../user-guide/using-the-open-brush-tools-quick-tools-and-menu-panels/tools-panel/README.md).
