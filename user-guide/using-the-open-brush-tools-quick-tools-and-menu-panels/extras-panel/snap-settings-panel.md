@@ -20,6 +20,10 @@ This is useful for creating rows, columns, or planes of duplicated objects while
 
 Use the position-axis buttons with the grid interval and the rotation-axis buttons with the angle interval. Axis snapping is different from the [Transform Panel's axis locks](transform-panel.md): snapping rounds movement or rotation to increments, while a lock prevents that component from changing.
 
+### Apply snapping to a selection
+
+Snapping also works after objects have been placed. Select the strokes or media you want to adjust, then use the panel's position or rotation action to apply the current grid or angle settings to the selection. Position snapping respects the enabled position axes. Rotation snapping applies to widgets; brush strokes do not have an independent rotation to snap.
+
 ### Snap to Guides
 
 When you have guides active in your scene, you can enable snapping to align selections and brush strokes to guide surfaces. This works with:

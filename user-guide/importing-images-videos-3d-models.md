@@ -53,6 +53,16 @@ On standalone headsets, model importing may need to be enabled in **Settings > E
 | 3D models | PLY | Binary little-endian point clouds only. |
 | 3D models | VOX | MagicaVoxel voxel models. |
 
+### GLTF and GLB models
+
+GLTF and GLB are the preferred formats for portable 3D scenes. Open Brush's current importer supports scene hierarchies, materials, lights and animations, with a legacy importer used as a fallback when the primary import fails.
+
+When an imported file contains animation clips, Open Brush starts one clip automatically. Animation controls and choosing between several clips are not currently exposed in the Media Library.
+
+### SVG files
+
+Copy an `.svg` file to `Documents/Open Brush/Media Library/Images` to use it as a flat reference image, or to `Documents/Open Brush/Media Library/Models` to import its shapes as a 3D mesh. SVG reference images are rasterized when a sketch is exported to a format that cannot retain the SVG texture directly.
+
 ### VOX models
 
 Open Brush imports MagicaVoxel `.vox` files through the Local Models tab. To keep a voxel model aligned to its original grid, set position snapping to `0.1` and rotation snapping to `90` before placing it. See [Grid and Angle Snapping](grid-and-angle-snapping.md).

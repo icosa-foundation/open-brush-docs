@@ -20,7 +20,7 @@ Example:[ http://localhost:40074/api/v1?brush.turn.y=45&brush.draw=1](http://loc
 
 If you want to send a lot of commands or especially long commands (complex paths etc) then you can just http POST instead of GET. The commands should be form-encoded in the body of the request (exactly as if you submitted a html form with the form name as the command name and the form value as the command parameters)
 
-You can also send multiple requests although because of the nature of http, these can sometimes arrive in a different order to how yousent them. We will soon support websockets which should be a better way to send realtime streams of commands.
+Separate HTTP requests can arrive in a different order. For ordered real-time streams, use the [WebSocket endpoint](README.md#websocket-commands) on port `40075`.
 
 ### Command List
 

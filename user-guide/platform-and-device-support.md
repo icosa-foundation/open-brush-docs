@@ -25,6 +25,10 @@ Open Brush works on many more devices than Tilt Brush, including:
 
 ## Platform-Specific Features
 
+### Meta Quest
+
+The dedicated Quest build is the usual choice because it includes Meta-specific features such as passthrough. The generic Android OpenXR APK can also run on Quest through the standard OpenXR loader, but it does not include every feature provided by the dedicated Quest build.
+
 ### Passthrough Hull Brush
 
 On supported Meta Quest and Zapbox builds, the experimental Passthrough Hull brush reveals the device's camera view through the area covered by a stroke.
@@ -38,6 +42,17 @@ The brush only works in the Passthrough environment. Its depth interaction is li
 
 Passthrough can also be used in [multiplayer rooms](multiplayer.md#passthrough-rooms). Each participant sees their own camera view behind the shared Open Brush scene.
 
+#### Passthrough scene alignment
+
+Open Brush locks scene movement by default when you enter the Passthrough environment so an accidental world-grab does not move the sketch away from the physical surroundings.
+
+Open the Environment popup while Passthrough is selected to use its scene controls:
+
+1. **Lock Scene Transform** prevents or allows world-grab movement.
+2. **Reset Scene Transform** restores the scene's original position, rotation and scale.
+
+Locking the transform only prevents movement inside Open Brush. Headset tracking and room setup still determine how accurately virtual content remains aligned with the physical space.
+
 #### Passthrough boundary behaviour
 
 On supported Meta Quest builds, Open Brush asks the headset to suppress its boundary display while the Passthrough environment is active and restores the normal boundary behaviour after leaving that environment. Passthrough does not remove the need to keep the physical play area clear.
@@ -45,6 +60,8 @@ On supported Meta Quest builds, Open Brush asks the headset to suppress its boun
 ### Pico
 
 Open Brush is available from the [Pico Store](https://store-global.picoxr.com/global/detail/1/7246792261630050310). Formal GitHub releases also provide a Pico APK and a generic Android OpenXR APK; the generic OpenXR build can run on Pico without installing a custom OpenXR loader.
+
+The separate Chinese Pico build omits cloud-account sign-in services that are unavailable in that region.
 
 ### Logitech MX Ink
 
@@ -66,16 +83,13 @@ Mixed Reality Capture (MRC) on Oculus/Meta headsets has been improved with vario
 
 ## Precise Slider Control
 
-On all platforms, you can use the thumbstick for fine control when adjusting sliders:
+Supported advanced sliders can be adjusted without trying to hit an exact point on the slider:
 
-- **Normal movement**: Swipe or move the thumbstick for regular slider adjustment
-- **Precise control**: Hold the thumbstick in position for slower, more precise adjustments
-- Works on brush size, color values, and all other slider controls
+1. Point at the slider so it has focus.
+2. Move the painting controller's thumbstick left or right to decrease or increase the value in small steps.
+3. Read the temporary value indicator on the controller model, then return the stick to its centre.
 
-This is particularly useful for:
-- Fine-tuning exact color values
-- Setting precise brush sizes
-- Adjusting settings that need careful calibration
+This is used by advanced option panels such as Multi Mirror and plugin parameters. It does not replace the normal pointing and trigger-drag interaction on sliders that do not support thumbstick adjustment.
 
 ## See Also
 

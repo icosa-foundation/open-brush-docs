@@ -39,6 +39,15 @@ Add capture-volume widgets and export images, camera poses and sparse point data
 
 <div align="left"><figure><img src="../.gitbook/assets/image-075.png" alt=""><figcaption></figcaption></figure></div>
 
+The Webcam panel is available in desktop builds. It is not available on standalone Android or iOS headsets.
+
+1. Connect the webcam or configure a virtual camera such as OBS Virtual Camera before opening the panel.
+2. Open **More Options > Labs > Webcam**.
+3. Allow camera access if the operating system asks for permission.
+4. Use the previous and next buttons to switch between detected camera devices. The active device name appears on the panel.
+
+Open Brush displays the feed for reference; it does not add the webcam image to the sketch or to exported 3D files.
+
 ### Use the "Pin" tool
 
 <div align="left"><figure><img src="../.gitbook/assets/image-021.png" alt=""><figcaption></figcaption></figure></div>

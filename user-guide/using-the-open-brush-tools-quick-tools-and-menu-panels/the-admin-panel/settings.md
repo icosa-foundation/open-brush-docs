@@ -20,6 +20,12 @@ The Settings Panel can be opened from a button on the [Admin Panel](./).
 6. Current Sketch Cost
 7. Super Secret Hidden Buttons: Absolutely nothing happens if you click here.
 
+## Change language
+
+Select **Language** on the Settings panel, then choose a language from the popup. The interface changes immediately and Open Brush remembers the selection.
+
+Open Brush includes English, French, Spanish, German, Simplified Chinese, Japanese and Korean. Controller hints for Windows Mixed Reality, Pico, Valve Index and Vive use the selected interface language where translations are available.
+
 ## Reset to "First Time"
 
 The "Reset First Use" button returns Open Brush to its initial state as if you're running it for the first time:

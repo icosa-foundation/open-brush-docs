@@ -64,6 +64,7 @@ Sample contents of a _Open Brush.cfg_ with various fields filled in:
       "FOV":80,
       "DisableAudio":false,
       "UnlockScale":false,
+      "LargeMeshSupport":false,
       "AdvancedKeyboardShortcuts":false,
       "SkipIntro":true,
       "EnableMonoscopicMode":false,
@@ -115,6 +116,7 @@ Sample contents of a _Open Brush.cfg_ with various fields filled in:
 11. **EnableMonoscopicMode**: (true | false) See [Using Open Brush without a VR headset](monoscopic-mode.md)
 12. **DisableXrMode**: (true | false) See [Using Open Brush without a VR headset](monoscopic-mode.md)
 13. **ForceViewOnly**: (true | false) Hides editing tools and keeps Open Brush in View-only mode. Combine it with `DisableXrMode` to force the flat-screen sketch viewer even when XR hardware is available.
+14. **LargeMeshSupport**: (true | false) Allows Open Brush's internal and exported meshes to use 32-bit indices instead of the default smaller batches. This can avoid splitting very large meshes at the cost of higher memory use and reduced compatibility with software that only supports 16-bit mesh indices. It defaults to false.
 
 #### "Import" Section
 

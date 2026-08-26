@@ -23,7 +23,13 @@ Inverts your current selection - everything that was selected becomes unselected
 
 ## Move Selection to Layer
 
-You can move selected strokes to a specific layer using the layer controls. This helps organize your sketch by grouping related elements together.
+You can move selected strokes and media widgets to the active layer:
+
+1. Select the items you want to move.
+2. Open the Layers panel and make the destination layer active.
+3. Select **Move Selection to Current Layer**.
+
+This changes the layer of the existing items. Use **Copy Selection to Current Layer** when you want duplicates on the active layer instead.
 
 ## Erase Media Widgets
 

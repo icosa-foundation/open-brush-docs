@@ -98,7 +98,6 @@ The file Scripts/InputManager.cs lists all the keyboard controls. Also see [Open
 | Undo                | Z            |                                                                                             |
 | Redo                | X            |                                                                                             |
 | SaveNew             | S            |                                                                                             |
-| ExportAll           | A            |                                                                                             |
 | ViewOnly            | H            | Doesn't disable drawing. Just hidesUI                                                       |
 | PreviousTool        | LeftArrow    | 5 tools are available: sketch surface, brush selection, color selection, BrushNColor, Erase |
 | NextTool            | RightArrow   |                                                                                             |

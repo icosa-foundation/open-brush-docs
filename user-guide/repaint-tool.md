@@ -54,15 +54,17 @@ Any combination of these 4 options can be selected at any time. If you choose "j
 
 Instead of repainting strokes one at a time, you can select multiple strokes and apply repaint operations to all of them at once:
 
-1. Use the selection tool to select the strokes you want to modify
-2. Activate the Repaint tool with your desired settings (Recolor, Resize, Rebrush, or Jitter)
-3. The selected strokes will all be repainted with the current settings
+1. Use the Selection tool to select the strokes you want to modify.
+2. Open the Repaint options and enable the operations you want: Recolor, Resize, Rebrush or Jitter.
+3. Choose the new colour, brush and size, and configure jitter if required.
+4. Select **Repaint Selected** on the selection controls to apply those settings to every selected stroke.
 
 This is particularly useful for:
-- Changing the color scheme of multiple strokes at once
-- Applying consistent size changes to a group of strokes
-- Converting multiple strokes to a different brush type
-- Adding jitter variation to duplicated elements
+
+1. Changing the colour scheme of multiple strokes at once.
+2. Applying consistent size changes to a group of strokes.
+3. Converting multiple strokes to a different brush type.
+4. Adding jitter variation to duplicated elements.
 
 ### Can I see it in action?
 

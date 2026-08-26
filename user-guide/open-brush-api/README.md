@@ -48,15 +48,15 @@ viewonly.toggle
 
 This will load a sketch from your Sketch folder called "startup.tilt", switch to fly tool and turn on "viewonly" mode which disables all the panels. If you want to try this you can either rename one of your sketches to "startup.tilt" or you can change the first line in the script above. As long as the first line matches the name of a file in your Sketches folder then it should work.
 
-If you want to distribute a sketch without people having access to the original .tilt file then you could change this slightly. Instead of loading a sketch, load an exported version of your sketch. For example, export your sketch and rename it to mysketch.glb. Place it in your Media Libary/Models folder and use this startup script:
+If you want to distribute a sketch without people having access to the original .tilt file then you could change this slightly. Instead of loading a sketch, load an exported version of your sketch. For example, export your sketch and rename it to `mysketch.glb`. Place it in `Documents/Open Brush/Media Library/Models` and use this startup script:
 
 ```
-import.model=mysketch.glb
+model.import=mysketch.glb
 tool.fly
 viewonly.toggle
 ```
 
-Voila - a way to let people fly around your sketches without being able to modify them.
+This lets people fly around the exported version without access to the editable `.tilt` sketch.
 
 ### How do I configure it
 
@@ -75,7 +75,7 @@ These two settings are for security and default to "false" but you may want to s
 
 **You should do this if you're on a private network.** Disable it or configure a firewall to restrict access to known devices if you plan to use Open Brush on public Wifi such as at an event or show.
 
-EnableApiRemoteCalls - by default the API only accept commands from the same machine that is running Open Brush. Set this to true to allow API commands to be sent from other computers. In most cases this will only be machines on the same local network. You will need to configure your router to accept connections on port 40074 if you want to accept commands from remote devices as well. Apps such as ngrok or localtunnel can make this simpler to set up.
+EnableApiRemoteCalls - by default the API only accepts commands from the same machine that is running Open Brush. Set this to true to allow API commands to be sent from other computers. In most cases this will only be machines on the same local network. Configure your network to accept port `40074` for HTTP requests and port `40075` for WebSocket connections. Apps such as ngrok or localtunnel can make this simpler to set up.
 
 EnableApiCorsHeaders: By default browsers are blocked from sending commands via javascript to another domain. Setting this to true will relax that restriction.
 
@@ -125,6 +125,20 @@ var xmlHttp = new XMLHttpRequest();
 xmlHttp.open('GET',  '/api/v1?brush.type=ink', false);
 xmlHttp.send(null);
 ```
+
+### WebSocket commands
+
+For ordered streams of commands, connect to `ws://127.0.0.1:40075/api/v1`. Send commands in the same form used by the HTTP API, joining multiple commands with `&`:
+
+```javascript
+const socket = new WebSocket("ws://127.0.0.1:40075/api/v1");
+
+socket.addEventListener("open", () => {
+  socket.send("color.set.html=blue&brush.type=ink&brush.draw=1");
+});
+```
+
+While Open Brush is running, open [the bundled WebSocket example](http://localhost:40074/examplescripts/websockets_test.html) for a complete interactive example. Replace `127.0.0.1` with the Open Brush device's address when connecting from another device, and review the remote-access security settings above first.
 
 ### How about other languages?
 

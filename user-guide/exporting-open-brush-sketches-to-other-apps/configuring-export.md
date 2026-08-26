@@ -30,24 +30,14 @@ We've changed how export in general is configured. Previously all supported form
 * **ExportStrokeTimestamp:** (true | false) This will put timing information into texcoord2 for all GLB exports. Timestamps are a vec3: x,y = the earliest/latest timestamp in the stroke which contains that vertex. z = the timestamp for that vertex. This setting defaults to true but can be disabled to reduce file size.
 * **ExportStrokeMetadata**: includes extra information with each stroke that might be useful to developers writing their own importers
 
-## JSON Exports Include Sketch Metadata
+## JSON exports include sketch metadata
 
-When you export to JSON format, Open Brush now includes additional metadata about your sketch:
+Enabling the `json` format writes two files:
 
-- Sketch creation date and modification time
-- Author information (if configured)
-- Sketch title and description
-- Stroke count and complexity metrics
-- Brush types used
-- Camera information
+1. `<sketch-name>.json` contains the raw exported brush-stroke data.
+2. `<sketch-name>.metadata.json` contains the scene metadata normally stored inside the `.tilt` file.
 
-This metadata is useful for:
-- Cataloging and organizing exported sketches
-- Analyzing sketch complexity and composition
-- Building tools that process Open Brush exports
-- Archiving and documentation purposes
-
-The JSON export provides a complete data representation of your sketch that can be parsed by external tools and scripts.
+The metadata can include the author, environment and custom lighting, imported models and media, guides, colour palette, scene transform, camera paths, layers, application version and other scene features. It complements the raw stroke JSON rather than duplicating it.
 
 * **KeepStrokes**: Each stroke will be exported as a separate mesh rather than grouped by brush type (export will take longer and may fail on complex scenes)
 * **KeepGroups**: Maintains groups on export (export will take longer and may fail on complex scenes)

@@ -14,7 +14,7 @@ Set `"SaveCameraPath": true` in your config. See [The Open Brush config file](..
 
 ### What files you get
 
-When you record a video with `SaveCameraPath` enabled, Open Brush writes extra files. On Windows, you’ll see a batch file next to the video in `Documents\Open Brush\Videos`.
+When you record a video with `SaveCameraPath` enabled, Open Brush writes extra files. On Windows, you’ll see a batch file next to the video in `Documents\Open Brush\Videos`. On macOS, the equivalent file has a `.HQ_Render.sh` suffix.
 
 Example:
 
@@ -37,6 +37,16 @@ Open Brush will:
 4. Exit
 
 Higher quality settings can make the framerate choppy. Don’t wear the headset during the render.
+
+### Re-render using the macOS script
+
+1. Quit Open Brush.
+2. Open Terminal.
+3. Type `bash `, including the trailing space.
+4. Drag the generated `.HQ_Render.sh` file from the Open Brush `Videos` folder into Terminal and press Return.
+5. Choose a resolution and frame-rate option from the menu.
+
+The macOS build includes the ffmpeg executable used by the script. If macOS blocks the app or script, allow it in **System Settings > Privacy & Security**, then retry.
 
 #### “No Quick Load” option
 
