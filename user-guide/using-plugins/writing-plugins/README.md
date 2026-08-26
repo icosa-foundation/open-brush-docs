@@ -106,6 +106,16 @@ Parameters = {
 }
 ```
 
+**Image Selector**
+
+```lua
+Parameters = {
+    image={label="Choose an Image", type="image", items={"OpenBrushLogo.png", "TiltBrushLogo.png"}, default="OpenBrushLogo.png"},
+}
+```
+
+For the image selector, `items` is a table of image filenames and `default` is the filename selected initially.
+
 ### Coordinate Spaces
 
 By default each script type works relative to an origin and has a rotation that makes sense for each of the three types. Pointer and Tool Scripts are relative to the user's brush hand and Symmetry Scripts are relative to the Symmetry Widget.
