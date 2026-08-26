@@ -17,8 +17,13 @@ Open Brush accepts the following command line arguments:
 * --exportPath \(defaults to \[Open Brush folder\]/Exports
 * -batchmode / -nographics
 * --renderCameraPath
+* --EnableMonoscopicMode
+* --DisableXrMode
+* --ForceViewOnly
 * \(filename of .tilt file in Sketches folder to load automatically\)
 * \(Any valid user config setting and value\)
+
+`--DisableXrMode` starts Open Brush without XR. Add `--ForceViewOnly` to keep editing tools hidden and use the flat-screen sketch viewer. `--EnableMonoscopicMode` starts the non-VR painting and debugging interface instead. See [Using Open Brush without a VR headset](monoscopic-mode.md) for the difference between the modes.
 
 
 

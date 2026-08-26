@@ -10,13 +10,27 @@ Once you start recording a path, other tools are locked. If you cancel mid-recor
 
 <figure><img src="../../.gitbook/assets/the-camera-paths-tools.png" alt=""><figcaption><p>The Camera Paths tool opens a dedicated panel.</p></figcaption></figure>
 
-### Create your first path
+### Create a path
 
-If you have no paths yet, you’ll only see **Add New Path**.
+If you have no paths yet, select **Add New Path**. You can then create the path in one of three ways.
 
 <figure><img src="../../.gitbook/assets/cp-new-path-tool.png" alt=""><figcaption><p>Create a path first. Other tools unlock after that.</p></figcaption></figure>
 
-Create a path with 2+ anchor points.
+#### Place anchor points
+
+Select **Add Anchor Point**, then place at least two points. Add more points to shape the route. Use the direction, speed and FOV tools after creating the path to control how the camera moves along it.
+
+#### Record a flight
+
+Select **By Flying** to switch to the Fly tool and begin recording. Fly through the sketch along the route you want, then select **Stop Recording Flight**. Open Brush turns the recorded movement into an editable camera path.
+
+This is useful when it is easier to perform the camera move than construct it one point at a time. Open Brush simplifies the recording into a manageable number of path knots, so the result may not reproduce every small movement.
+
+#### Draw a path
+
+Select **Draw Camera Path**, hold the trigger and draw the route through the scene. Release the trigger to create the path. The camera initially looks in the direction of travel and remains level with the world horizon.
+
+Drawing creates a new path rather than extending the currently selected path. You can edit the resulting anchors, direction, speed and FOV in the same way as any other camera path.
 
 After that, you’ll see the full set of tools:
 

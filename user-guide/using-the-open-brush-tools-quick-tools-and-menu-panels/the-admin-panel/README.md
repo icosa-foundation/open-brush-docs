@@ -20,6 +20,7 @@ Around the outside are buttons for:
    1. Tutorial
    2. [Labs Panel](labs-panel.md)
    3. [Settings Panel](settings.md)
-   4. (small button underneath) Reset Panels: resets all panels to their default position/visibility\\
+   4. **Install .tilt thumbnail support** on Windows Steam builds
+   5. (small button underneath) Reset Panels: resets all panels to their default position/visibility\\
 4. Beginner/Advanced mode toggle\\
 5. New Sketch\\

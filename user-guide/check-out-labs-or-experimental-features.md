@@ -19,6 +19,10 @@ To try out newer features, you can open up the Labs panel. Here you will find so
 
 ## Labs Features:
 
+### [Gaussian Splat Pose Capture](exporting-videos/gaussian-capture.md)
+
+Add capture-volume widgets and export images, camera poses and sparse point data for Gaussian splat training.
+
 ### [**Multi Mirror**](multimirror.md)
 
 <div align="left"><figure><img src="../.gitbook/assets/image-030.png" alt=""><figcaption></figcaption></figure></div>

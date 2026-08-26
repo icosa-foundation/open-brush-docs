@@ -6,9 +6,10 @@ Quest and other standalone headset users: exporting video _from inside Open Brus
 
 ### Quick navigation
 
-* [Camera tool (GIFs, snapshots, video)](camera-tool-gifs-snapshots-video.md)
+* [Camera tool (GIFs, 360° and depth snapshots, video)](camera-tool-gifs-snapshots-video.md)
 * [Spectator Camera](spectator-camera-desktop-view.md)
 * [Camera Paths tools](camera-paths-tool.md)
+* [Gaussian Capture](gaussian-capture.md)
 * [Video settings (Open Brush.cfg)](video-settings-open-brush.cfg.md)
 * [Offline rendering (HQ renders)](offline-rendering-hq-renders.md)
 * [360° / ODS video workflow](360-ods-video-workflow.md)

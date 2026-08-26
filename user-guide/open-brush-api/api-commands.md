@@ -25,8 +25,25 @@ You can also send multiple requests although because of the nature of http, thes
 ### Command List
 
 {% hint style="info" %}
-Correct for beta version as of Oct 21 2025)
+Updated for v2.31. The live command list served by Open Brush remains authoritative.
 {% endhint %}
+
+<a id="app.snapshot"></a>
+
+**app.snapshot** (Vector3 position, Vector3 direction, string filename, int width, int height)
+
+Takes a colour snapshot from the supplied camera position and Euler-angle direction. It also saves normalized PNG, 16-bit PNG and EXR depth sidecars, depth metadata JSON, and a normals PNG in `Documents/Open Brush/Snapshots`.
+
+Width and height must each be between 1 and 8192 pixels.
+
+Example:
+
+```text
+http://localhost:40074/api/v1?app.snapshot=0,10,0,0,45,45,capture.png,1024,768
+```
+
+This creates `capture.png`, `capture_depth.png`, `capture_depth16.png`, `capture_depth.exr`, `capture_depth.json` and `capture_normals.png`.
+
 
 **listenfor.strokes** (string url) [Try it](http://localhost:40074/api/v1?/api/v1?listenfor.strokes=http://localhost:8000/)
 

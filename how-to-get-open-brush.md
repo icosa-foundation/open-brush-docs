@@ -17,6 +17,10 @@ Only the main official release is available on most of the links below. If you w
 [SideQuest](https://sidequestvr.com/app/2852/open-brush)  
 [Itch.io](https://openbrush.itch.io/openbrush)
 
+## Steam Frame
+
+Install Open Brush from [Steam](https://store.steampowered.com/app/1634870/Open_Brush/) on Steam Frame. The Steam Frame build and controller support are selected automatically on the headset.
+
 ## Linux
 
 [Itch.io](https://openbrush.itch.io/openbrush)

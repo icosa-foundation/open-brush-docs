@@ -66,7 +66,8 @@ Sample contents of a _Open Brush.cfg_ with various fields filled in:
       "AdvancedKeyboardShortcuts":false,
       "SkipIntro":true,
       "EnableMonoscopicMode":false,
-      "DisableXrMode":false
+      "DisableXrMode":false,
+      "ForceViewOnly":false
    },
    "Export":{
       "ExportBinaryFbx":true,
@@ -92,6 +93,7 @@ Sample contents of a _Open Brush.cfg_ with various fields filled in:
 #### "Video" Section
 
 * **Encoder**: (h.264) This setting specifies the video codec used for encoding exported videos. Currently, the only supported codec is h.264.
+* **OfflineResolution**: Controls offline rendering resolution. ODS panorama widths from 640 to 8000 pixels are supported. See [Video settings](exporting-videos/video-settings-open-brush.cfg.md#offline-panorama-resolution).
 
 #### "Flags" Section
 
@@ -107,10 +109,11 @@ Sample contents of a _Open Brush.cfg_ with various fields filled in:
 10. **SkipIntro**: (true | false) Skips the intro scene that appears when Open Brush finishes loading
 11. **EnableMonoscopicMode**: (true | false) See [Using Open Brush without a VR headset](monoscopic-mode.md)
 12. **DisableXrMode**: (true | false) See [Using Open Brush without a VR headset](monoscopic-mode.md)
+13. **ForceViewOnly**: (true | false) Hides editing tools and keeps Open Brush in View-only mode. Combine it with `DisableXrMode` to force the flat-screen sketch viewer even when XR hardware is available.
 
 #### "Import" Section
 
-See [Configuring Import](importing-images-videos-3d-models.md#enabling-the-new-gltf-importer)
+See [Importing Images, Videos and 3D Models](importing-images-videos-3d-models.md)
 
 #### "Export" Section
 

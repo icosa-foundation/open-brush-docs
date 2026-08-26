@@ -1,14 +1,18 @@
 ---
-description: Auto-GIF, 5-second GIF, snapshots, and handheld video capture.
+description: Auto-GIF, 5-second GIF, conventional, 360° and depth snapshots, and handheld video capture.
 ---
 
 # Camera tool (GIFs, snapshots, video)
 
-Open Brush has a handheld camera tool for quick captures. You use it for GIFs, snapshots, and (on PC VR) video.
+Open Brush has a handheld camera tool for quick captures. You use it for GIFs, conventional or 360° snapshots, depth captures, and (on PC VR) video.
 
 ### Where captures are saved
 
-Videos and GIFs created with the Camera tool are saved to:
+Snapshots and depth captures are saved to:
+
+* `Documents/Open Brush/Snapshots`
+
+Videos and GIFs are saved to:
 
 * `Documents/Open Brush/Videos`
 
@@ -21,7 +25,9 @@ The options are:
 1. Auto-Gif
 2. 5 Second Gif
 3. Snapshot
-4. Video (not present in some versions of Open Brush)
+4. 360 Snapshot
+5. Depth
+6. Video (not present on every platform)
 
 You control the camera like a handheld device.
 
@@ -37,6 +43,29 @@ Hold the trigger for five seconds. You can release and pull again to stop/start 
 Pull the trigger to start. Pull again to stop.
 
 This is true handheld capture. You control camera direction, speed, and orientation.
+
+#### 360 Snapshot
+
+Pull the trigger to create a stereoscopic 360° ODS image from the camera's position. The output is a square PNG with `_360` in its filename and uses the configured `SnapshotWidth`. Capturing takes longer than a conventional snapshot; keep the camera and scene still until it completes.
+
+#### Depth
+
+Pull the trigger to save a colour image and several depth sidecar files with the same base filename:
+
+| Suffix | Contents |
+| --- | --- |
+| `_depth.png` | Viewable normalized depth; nearer pixels are lighter. |
+| `_depth16.png` | 16-bit linear depth suitable for image-processing tools. |
+| `_depth.exr` | 32-bit floating-point linear depth in metres. |
+| `_depth.json` | Dimensions, clipping planes, FOV and encoding information needed to interpret the depth files. |
+
+Pixels where no geometry was rendered use the invalid value documented in the JSON metadata. Post-processing and the watermark are disabled for the depth data.
+
+Depth captures are limited to 8,192 pixels on their largest side. If the configured snapshot dimensions are larger, Open Brush scales them down while preserving the aspect ratio.
+
+### Automated colour, depth and normal capture
+
+The HTTP API's `app.snapshot` command captures a colour image, depth sidecars and a `_normals.png` image from an explicit camera pose. See the [API Commands List](../open-brush-api/api-commands.md#app.snapshot) for its parameters and an example.
 
 ### Advanced mode (Camera Options)
 

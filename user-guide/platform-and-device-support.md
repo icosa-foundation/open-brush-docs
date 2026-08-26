@@ -20,6 +20,7 @@ Open Brush works on many more devices than Tilt Brush, including:
 - Meta Quest 1, 2, 3, and Pro
 - Pico Neo 3, 4, and 4 Pro
 - Pico 4 Ultra
+- Steam Frame
 - Zapbox (mixed reality on mobile devices)
 
 ## Platform-Specific Features
@@ -34,6 +35,14 @@ To use it:
 3. Look for passthrough options in the brush settings
 
 This allows you to blend your VR creations with the real world, creating unique mixed reality artwork.
+
+Passthrough can also be used in [multiplayer rooms](multiplayer.md#passthrough-rooms). Each participant sees their own camera view behind the shared Open Brush scene.
+
+### Steam Frame
+
+The Steam Frame build includes a native interaction profile, controller models and button highlighting for the Steam Frame controllers. Open Brush selects this profile automatically; no controller binding setup is normally required.
+
+Web links opened inside Open Brush use the Steam overlay browser on Steam Frame. This includes forwarding for Open Brush's local API and device-login pages. If a link does not open, make sure the Steam overlay is enabled and retry it from Open Brush.
 
 ### Oculus MRC Fixes
 
@@ -55,4 +64,5 @@ This is particularly useful for:
 ## See Also
 
 - [Monoscopic Mode](monoscopic-mode.md) - Running Open Brush on non-VR devices
+- [Multiplayer](multiplayer.md) - Shared painting, passthrough rooms and colocation
 - [Settings Panel](using-the-open-brush-tools-quick-tools-and-menu-panels/the-admin-panel/settings.md)

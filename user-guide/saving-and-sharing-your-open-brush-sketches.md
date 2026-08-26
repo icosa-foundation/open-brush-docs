@@ -17,9 +17,15 @@ You can also combine multiple sketches into one. See [Merging Sketches](merging-
 
 ### Organizing your sketches
 
-If you are using Open Brush on a PC or have copied your sketch files to a PC from a headset then you will find it useful to install the Windows Explorer Thumbnail Extension so you can see the thumbnails for each sketch in Windows Explorer. You can install this from Itch.io (it's the last download in the list) \
-\
-[https://openbrush.itch.io/openbrush](https://openbrush.itch.io/openbrush)
+On Windows, the Open Brush thumbnail extension shows each `.tilt` sketch's saved thumbnail in File Explorer.
+
+If you installed Open Brush through Steam on Windows:
+
+1. Open **More Options** in Open Brush.
+2. Select **Install .tilt thumbnail support**.
+3. Remove the headset and run `TiltThumbs-Installer.exe` from the folder that opens.
+
+For other Windows installations, download the thumbnail extension from the [Open Brush downloads on Itch.io](https://openbrush.itch.io/openbrush). It is listed separately from the application downloads.
 
 ### **Trouble saving sketches**
 
@@ -52,6 +58,8 @@ This is a great way to:
 ### Upload Your Sketches
 
 You can upload your sketches directly to Icosa Gallery from within Open Brush to share with the community and preserve your work online.
+
+You can also add [portals](portals.md) that link the current scene to a sketch in the Curated or Liked sections of the Icosa Gallery.
 
 ### **Save in various file formats using Cameras**
 

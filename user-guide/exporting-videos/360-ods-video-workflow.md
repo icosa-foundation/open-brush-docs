@@ -12,6 +12,20 @@ You’ll typically:
 2. Re-render offline at high quality.
 3. Inject 360 metadata for YouTube.
 
+### Choose the output resolution
+
+ODS renders default to `4096` pixels wide. To request a different width, add `OfflineResolution` to the `Video` section of your [Open Brush config file](../the-open-brush-config-file.md). Supported values range from `640` to `8000` pixels.
+
+```json
+{
+  "Video": {
+    "OfflineResolution": 8000
+  }
+}
+```
+
+The preview render stays at `1024` pixels regardless of this setting. Higher resolutions use more GPU memory and take longer to render, so test the camera path at a lower resolution first.
+
 ### Fix clipping by changing eyeScale
 
 On ODS renders, you may see:
