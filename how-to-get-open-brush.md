@@ -17,6 +17,13 @@ Only the main official release is available on most of the links below. If you w
 [SideQuest](https://sidequestvr.com/app/2852/open-brush)  
 [Itch.io](https://openbrush.itch.io/openbrush)
 
+## Pico
+
+1. [Pico Store](https://store-global.picoxr.com/global/detail/1/7246792261630050310)
+2. [GitHub releases](https://github.com/icosa-foundation/open-brush/releases/latest)
+
+GitHub releases include a Pico APK and a generic Android OpenXR APK that can also run on Pico headsets. The Pico Store build is the usual choice for most users.
+
 ## Steam Frame
 
 Install Open Brush from [Steam](https://store.steampowered.com/app/1634870/Open_Brush/) on Steam Frame. The Steam Frame build and controller support are selected automatically on the headset.

@@ -28,6 +28,12 @@ To change the width of your brush strokes:
 1. On your painting controller, slide your thumb left or right along the thumbpad (HTC Vive) or toggle the thumbstick left or right (Oculus Rift and Windows Mixed Reality).
 2. Sliding or toggling left will make the brush stroke finer. Sliding or toggling right will make the brush stroke larger.
 
+### Straightedge shape gesture
+
+The Straightedge can create lines, circles and spheres. With the Straightedge active, hold the trigger and move the brush controller in a sufficiently large closed loop. When Open Brush recognizes the gesture, it discards the gesture stroke and changes the Straightedge shape in this order: **Line → Circle → Sphere → Line**.
+
+Repeat the loop gesture until the shape you want is active, then continue drawing. Sphere generation works on standalone/mobile builds as well as desktop VR.
+
 ### **Undo & Redo shortcuts**
 
 If you would like to undo or redo brush strokes you have just made, you can use Undo and Redo in the Tools Panel (in Beginner Mode) or these shortcuts (in Beginner or Advanced Mode):

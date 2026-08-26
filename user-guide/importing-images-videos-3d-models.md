@@ -19,6 +19,18 @@ You can organize imported media into subfolders. See [Folder Navigation](folder-
 2. Open the Media Library and choose **Local Images** or **Local Videos**.
 3. Select a thumbnail to add that item to the sketch.
 
+## Use a 360 background image
+
+Panoramic background images replace the environment sky rather than appearing as movable image widgets.
+
+1. Copy a JPEG, PNG or HDR panorama to `Documents/Open Brush/Media Library/BackgroundImages`.
+2. Open **Extras > Local Media Library** and select **Background Images**.
+3. Select a thumbnail to apply the panorama to the scene.
+
+The thumbnail is rendered on a preview sphere so you can see how the panorama wraps before selecting it. A 2:1 equirectangular image is treated as monoscopic. A 1:1 image is treated as an over-under stereoscopic panorama, with one eye's view above the other.
+
+Background-image folders and subfolders can be browsed with the same [Folder Navigation](folder-navigation.md) controls as other local media.
+
 ## Add a 3D model
 
 1. Copy a supported 3D file to `Documents/Open Brush/Media Library/Models`.

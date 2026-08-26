@@ -3,6 +3,7 @@
 We've changed how export in general is configured. Previously all supported formats were exported whether you needed them or not. Some were pretty slow for large scenes (STL - looking at you) and you probably only needed a couple of them. Now you can choose which are available using the config file:
 
 ```json
+{
   "Export": {
     "ExportBinaryFbx": true,
     "ExportFbxVersion": "FBX201400",
@@ -20,10 +21,12 @@ We've changed how export in general is configured. Previously all supported form
       "usd": true,
       "wrl": false
     }
+  }
+}
 ```
 
-* **ExportBinaryFbx**: This setting specifies the version of the FBX file format to be used when exporting 3D models. Users can choose from FBX201600, FBX201400, FBX201300, FBX2012, or FBX201100. If not specified in the config file, the default version is FBX201400. If users experience issues importing the FBX file into older software, they may need to select an older version.
-* **ExportFbxVersion**: Controls whether exported FBX files will be in binary format. When set to true, binary FBX files will be exported; when set to false, ASCII FBX files will be exported.
+* **ExportBinaryFbx**: Controls whether exported FBX files use binary or ASCII encoding. `true` selects binary FBX; `false` selects ASCII FBX.
+* **ExportFbxVersion**: Selects the FBX format version. Supported values are `FBX201600`, `FBX201400`, `FBX201300`, `FBX2012` and `FBX201100`. The default is `FBX201400`; try an older version when importing into older software.
 * **ExportStrokeTimestamp:** (true | false) This will put timing information into texcoord2 for all GLB exports. Timestamps are a vec3: x,y = the earliest/latest timestamp in the stroke which contains that vertex. z = the timestamp for that vertex. This setting defaults to true but can be disabled to reduce file size.
 * **ExportStrokeMetadata**: includes extra information with each stroke that might be useful to developers writing their own importers
 
@@ -48,7 +51,7 @@ The JSON export provides a complete data representation of your sketch that can 
 
 * **KeepStrokes**: Each stroke will be exported as a separate mesh rather than grouped by brush type (export will take longer and may fail on complex scenes)
 * **KeepGroups**: Maintains groups on export (export will take longer and may fail on complex scenes)
-* **Formats**: Each item in here corresponds to an existing export format except for "newglb". This is also a glb file but we use the new export code to generate it.
+* **Formats**: Each key enables or disables that export format. `glb` uses the legacy Open Brush exporter; `newglb` uses the newer UnityGLTF scene-hierarchy exporter.
 
 Note that formats not supported on your platform will be ignored. See below for platform support.
 

@@ -27,16 +27,24 @@ Open Brush works on many more devices than Tilt Brush, including:
 
 ### Passthrough Hull Brush
 
-On headsets that support passthrough (Meta Quest, Pico), you can use the Passthrough Hull Brush to paint with passthrough effects. This brush shows the real world through your painted strokes, creating mixed reality effects.
+On supported Meta Quest and Zapbox builds, the experimental Passthrough Hull brush reveals the device's camera view through the area covered by a stroke.
 
-To use it:
-1. Enable passthrough mode in your headset settings or Open Brush
-2. Select the Hull brush or compatible brush
-3. Look for passthrough options in the brush settings
+1. Turn on [Experimental Brushes](experimental-mode.md).
+2. Select the **Passthrough** environment in Open Brush.
+3. Choose **Passthrough Hull** from the Brushes panel.
+4. Paint the areas where you want the camera view to show through.
 
-This allows you to blend your VR creations with the real world, creating unique mixed reality artwork.
+The brush only works in the Passthrough environment. Its depth interaction is limited: it can reveal passthrough through other brush geometry behind the stroke and may not compose as expected with transparent strokes.
 
 Passthrough can also be used in [multiplayer rooms](multiplayer.md#passthrough-rooms). Each participant sees their own camera view behind the shared Open Brush scene.
+
+#### Passthrough boundary behaviour
+
+On supported Meta Quest builds, Open Brush asks the headset to suppress its boundary display while the Passthrough environment is active and restores the normal boundary behaviour after leaving that environment. Passthrough does not remove the need to keep the physical play area clear.
+
+### Pico
+
+Open Brush is available from the [Pico Store](https://store-global.picoxr.com/global/detail/1/7246792261630050310). Formal GitHub releases also provide a Pico APK and a generic Android OpenXR APK; the generic OpenXR build can run on Pico without installing a custom OpenXR loader.
 
 ### Logitech MX Ink
 
