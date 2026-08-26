@@ -8,11 +8,12 @@ This section only lists features currently in the main release. There is also a 
 
 * [Plugin Scripting](user-guide/using-plugins/) - Create custom tools and modify painting behavior with Lua scripts
 * [Scripting API](user-guide/open-brush-api/) - WebSocket and HTTP API support
+* [Camera Paths from Plugins](user-guide/using-plugins/writing-plugins/camera-paths.md) - Create, edit, sample and render camera paths with Lua
 
 ### Import & Export
 
-* [VOX File Import](release-history/v2.29.md#vox-file-import) - Import Magicavoxel .vox format files
-* [Open Blocks Model Import](release-history/v2.29.md#import-open-blocks-models) - Import models from the sibling app Open Blocks
+* [VOX File Import](release-history/v2.13.md#vox-file-import) - Import Magicavoxel .vox format files
+* [Open Blocks Model Import](release-history/v2.13.md#import-open-blocks-models) - Import models from the sibling app Open Blocks
 * [New GLTF Importer](user-guide/importing-images-videos-3d-models.md) - Based on GLTFast with support for animated 3D models
 * [SVG Import](user-guide/importing-images-videos-3d-models.md) - Import SVG files as images or 3D meshes
 * [Point Cloud Import](user-guide/importing-images-videos-3d-models.md#point-cloud-import)
@@ -20,7 +21,8 @@ This section only lists features currently in the main release. There is also a 
 * [WebM Video Import](user-guide/importing-images-videos-3d-models.md#webm-video-import)
 * [LATK export](https://lightningartist.org)
 * [Folder Navigation UI](user-guide/folder-navigation.md) - Better organization of imported media
-* [Splitting 3D Models](release-history/v2.29.md#splitting-3d-models) - Break apart imported models into separate components
+* [Splitting 3D Models](release-history/v2.13.md#splitting-3d-models) - Break apart imported models into separate components
+* [Gaussian Capture](user-guide/exporting-videos/gaussian-capture.md) - Generate images and camera data for Gaussian splat training
 
 ### Painting & Drawing Tools
 
@@ -58,20 +60,25 @@ This section only lists features currently in the main release. There is also a 
 * [Merging Sketches](user-guide/merging-sketches.md)
 * [Hiding Brushes with Brush Tags](user-guide/brushes/hiding-brushes-with-brush-tags.md)
 * [Move selection to current layer](user-guide/using-the-open-brush-tools-quick-tools-and-menu-panels/tools-panel/selection-options.md#move-selection-to-layer)
+* [Windows Explorer Sketch Thumbnails](user-guide/saving-and-sharing-your-open-brush-sketches.md#organizing-your-sketches) - Browse `.tilt` files with preview thumbnails
 
 ### Video & Camera
 
 * [Advanced Camera Tool](user-guide/exporting-videos/camera-tool-gifs-snapshots-video.md)
 * [Camera Paths on All Headsets](user-guide/exporting-videos/camera-paths-tool.md) - Create and edit camera paths on standalone devices
-* [Camera Path Rendering on All Devices](release-history/v2.29.md#camera-path-rendering-on-all-devices) - Render video frames on standalone headsets
+* [Camera Paths by Flying or Drawing](user-guide/exporting-videos/camera-paths-tool.md#create-a-path) - Perform or draw a route and convert it to an editable path
+* [360° and Depth Snapshots](user-guide/exporting-videos/camera-tool-gifs-snapshots-video.md#360-snapshot) - Capture ODS panoramas and technical depth files
+* [8K ODS Panorama Rendering](user-guide/exporting-videos/360-ods-video-workflow.md#choose-the-output-resolution) - Render offline panoramas up to 8,000 pixels wide
+* [Camera Path Rendering on All Devices](release-history/v2.13.md#camera-path-rendering-on-all-devices) - Render video frames on standalone headsets
 * [Render Video on Any Computer](release-history/v2.4-prismatic.md#render-video-on-any-computer) - Use ffmpeg on Mac and PC to render videos
 * [Webcam Viewer](release-history/v2.4-prismatic.md#webcam-viewer) - View webcam feed while working (PC VR only)
 
 ### Sharing & Publishing
 
-* [Publish to Viverse](release-history/v2.29.md#publish-worlds-to-viverse) - Share sketches directly to Viverse 3D worlds
+* [Publish to Viverse](release-history/v2.13.md#publish-worlds-to-viverse) - Share sketches directly to Viverse 3D worlds
 * [Icosa Gallery uploads](https://icosa.gallery)
 * [Icosa Gallery Integration](user-guide/saving-and-sharing-your-open-brush-sketches.md#icosa-gallery-integration) - Browse and load sample sketches directly from Icosa Gallery
+* [Portals Between Sketches](user-guide/portals.md) - Link one sketch to another Icosa Gallery sketch
 
 ### User Interface
 
@@ -87,12 +94,15 @@ This section only lists features currently in the main release. There is also a 
 * [Audio Reactive Mode for Quest](release-history/v2.4-prismatic.md#audio-reactive-mode-for-quest) - Brushes animate to imported audio
 * [Monoscopic Mode](user-guide/monoscopic-mode.md) - Run on non-VR devices
 * [Flatscreen View Mode](release-history/v2.4-prismatic.md#flatscreen-view-mode) - Navigate sketches with keyboard, touch, or gamepad
-* [Enhanced View-only Mode](release-history/v2.29.md#view-only-mode-improvements) - Improved navigation on non-VR devices with gamepad and touch support
+* [Enhanced View-only Mode](user-guide/monoscopic-mode.md#view-only-mode) - Browse local and Icosa sketches with mouse, keyboard or touch controls
 * [Passthrough Mode with Room Scale](release-history/v2.4-prismatic.md#passthrough-room-scale) - Stable scene orientation relative to real space
+* [Steam Frame Support](user-guide/platform-and-device-support.md#steam-frame) - Native controller input, models and Steam overlay links
 
 ### Multiplayer & Collaboration
 
-* [Multiplayer Support](alternate-and-experimental-builds/multiplayer.md) - Collaborative sketching with multiple users
+* [Multiplayer Support](user-guide/multiplayer.md) - Collaborative sketching with multiple users
+* [Passthrough Multiplayer](user-guide/multiplayer.md#passthrough-rooms) - Paint together over each participant's real surroundings
+* [Manual Colocation](user-guide/manual-colocation.md) - Align several headsets sharing the same physical room
 
 ### Other Features & Improvements
 
