@@ -92,7 +92,7 @@ This section only lists features currently in the main release. There is also a 
 * [Support for More Headsets](user-guide/platform-and-device-support.md#supported-headsets) - Pico, Zapbox, and other OpenXR devices
 * [Quest 1 Support](release-history/v2.4-prismatic.md#quest-1-support-is-back) - Full selection tool support restored
 * [Audio Reactive Mode for Quest](release-history/v2.4-prismatic.md#audio-reactive-mode-for-quest) - Brushes animate to imported audio
-* [View-only Mode](user-guide/monoscopic-mode.md#view-only-mode) - Browse local and Icosa sketches with mouse, keyboard, gamepad or touch controls
+* [View-only Mode](user-guide/view-only-mode.md) - Explore sketches in VR or on a flat screen without exposing painting and editing tools
 * [Monoscopic Painting Mode](user-guide/monoscopic-mode.md#monoscopic-mode) - Access painting tools on a non-VR display
 * [Passthrough Mode with Room Scale](release-history/v2.4-prismatic.md#passthrough-room-scale) - Stable scene orientation relative to real space
 * [Steam Frame Support](user-guide/platform-and-device-support.md#steam-frame) - Native controller input, models and Steam overlay links

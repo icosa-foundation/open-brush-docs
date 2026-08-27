@@ -113,9 +113,9 @@ Sample contents of a _Open Brush.cfg_ with various fields filled in:
 8. **DisableAudio**: (true | false) This setting allows users to disable audio playback within Open Brush. When set to true, audio playback will be disabled; when set to false, audio playback will function as normal.
 9. **AdvancedKeyboardShortcuts**: (true | false) Enables some extra keyboard shortcuts that were previously available in [Experimental Mode](experimental-mode.md)
 10. **SkipIntro**: (true | false) Skips the intro scene that appears when Open Brush finishes loading
-11. **EnableMonoscopicMode**: (true | false) See [Using Open Brush without a VR headset](monoscopic-mode.md)
-12. **DisableXrMode**: (true | false) See [Using Open Brush without a VR headset](monoscopic-mode.md)
-13. **ForceViewOnly**: (true | false) Hides editing tools and keeps Open Brush in View-only mode. Combine it with `DisableXrMode` to force the flat-screen sketch viewer even when XR hardware is available.
+11. **EnableMonoscopicMode**: (true | false) Enables the non-VR painting and debugging interface. See [Monoscopic Mode](monoscopic-mode.md).
+12. **DisableXrMode**: (true | false) Starts Open Brush without XR. See [View-only Mode](view-only-mode.md#view-only-mode-non-xr-and-monoscopic-mode) and [Monoscopic Mode](monoscopic-mode.md).
+13. **ForceViewOnly**: (true | false) Hides painting and editing tools and enables the restricted viewer interface. It works with or without XR. See [View-only Mode](view-only-mode.md).
 14. **LargeMeshSupport**: (true | false) Allows Open Brush's internal and exported meshes to use 32-bit indices instead of the default smaller batches. This can avoid splitting very large meshes at the cost of higher memory use and reduced compatibility with software that only supports 16-bit mesh indices. It defaults to false.
 
 #### "Import" Section

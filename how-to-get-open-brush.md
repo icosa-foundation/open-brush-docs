@@ -34,5 +34,5 @@ Install Open Brush from [Steam](https://store.steampowered.com/app/1634870/Open_
 
 ## Mac
 
-There is no VR headset currently supported on the Mac but Open Brush does have some limited support for working as a [normal desktop app](user-guide/monoscopic-mode.md). 
+There is no VR headset currently supported on the Mac, but Open Brush can run as a [view-only desktop app](user-guide/view-only-mode.md) or use the specialist [Monoscopic painting interface](user-guide/monoscopic-mode.md).
 

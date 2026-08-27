@@ -46,7 +46,7 @@ tool.fly
 viewonly.toggle
 ```
 
-This will load a sketch from your Sketch folder called "startup.tilt", switch to fly tool and turn on "viewonly" mode which disables all the panels. If you want to try this you can either rename one of your sketches to "startup.tilt" or you can change the first line in the script above. As long as the first line matches the name of a file in your Sketches folder then it should work.
+This loads a sketch from your Sketches folder called `startup.tilt`, switches to the Fly tool and turns on [View-only Mode](../view-only-mode.md). View-only Mode replaces the painting and editing panels with the restricted viewer interface. To try it, either rename one of your sketches to `startup.tilt` or change the first line so it matches a file in your Sketches folder.
 
 If you want to distribute a sketch without people having access to the original .tilt file then you could change this slightly. Instead of loading a sketch, load an exported version of your sketch. For example, export your sketch and rename it to `mysketch.glb`. Place it in `Documents/Open Brush/Media Library/Models` and use this startup script:
 

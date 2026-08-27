@@ -93,6 +93,7 @@ This is used by advanced option panels such as Multi Mirror and plugin parameter
 
 ## See Also
 
+- [View-only Mode](view-only-mode.md) - Exploring sketches with editing tools hidden, in VR or on a flat screen
 - [Monoscopic Mode](monoscopic-mode.md) - Running Open Brush on non-VR devices
 - [Multiplayer](multiplayer.md) - Shared painting, passthrough rooms and colocation
 - [Settings Panel](using-the-open-brush-tools-quick-tools-and-menu-panels/the-admin-panel/settings.md)

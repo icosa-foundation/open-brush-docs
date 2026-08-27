@@ -35,6 +35,8 @@ The participant who creates a room becomes its owner. Open **Manage Room** from 
 
 The room owner can apply view-only or voice settings to the whole room. Controls that affect other participants are available only to the owner.
 
+This multiplayer permission applies only while participating in that room. It is separate from the application-wide [View-only Mode](view-only-mode.md), which replaces the normal editing interface for exhibitions, demonstrations and dedicated viewers.
+
 ## Passthrough rooms
 
 Multiplayer supports passthrough environments. Each participant sees the shared Open Brush content over their own headset's camera view; camera imagery is not sent to the other participants.
