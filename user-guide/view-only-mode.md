@@ -22,7 +22,23 @@ This makes it suitable for exhibitions, demonstrations, shared headsets and dedi
 
 ## Start Open Brush in View-only mode
 
-Dedicated viewer builds start in View-only mode automatically. With a regular desktop build, add `--ForceViewOnly` when launching Open Brush:
+### Start from Steam
+
+The simplest way to enter View-only mode on a computer is to use the launch mode provided by Steam:
+
+1. Select **Play** for Open Brush in Steam.
+2. Choose **View-only Mode** from the list of launch modes.
+3. Select **Play** again to start Open Brush.
+
+This starts the regular Steam installation with painting and editing tools hidden. No command-line or config-file changes are required.
+
+### Use a dedicated viewer build
+
+Dedicated viewer builds start in View-only mode automatically.
+
+### Use the command line
+
+With a regular desktop build, add `--ForceViewOnly` when launching Open Brush:
 
 ```text
 OpenBrush.exe --ForceViewOnly
