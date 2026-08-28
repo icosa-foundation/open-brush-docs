@@ -97,7 +97,7 @@ _Untitled\_13\_00.HQ\_Render.bat_
 
 Double-clicking the ".bat" batch file will give you several options for re-rendering your video:
 
-![](<../.gitbook/assets/image-125.png>)
+![](../.gitbook/assets/image-125.png)
 
 Press the number corresponding to the format you prefer. It will then launch Tilt Brush, which will reload your sketch and render the video. Once it is done, Tilt Brush will exit. As rendering at higher quality tends to affect the framerate, it is suggested that you do not wear your headset until this process completes.
 
@@ -154,7 +154,7 @@ Videos can be rendered ‘offline’ faster and at a much higher resolution and 
 14. Double click on .bat file
 15. If you run that batch file a command window will appear giving you several options for re-rendering your video:\
     \
-    ![](<../.gitbook/assets/image-129.png>)\
+    ![](../.gitbook/assets/image-129.png)\
     \
     Press a number to get whichever format you prefer. It will then launch Tilt Brush, which will reload your sketch, and re-render the video. Once it is done, Tilt Brush will exit. As rendering at higher quality tends to affect the framerate, it is suggested that you do not wear your headset while this process completes.
 16. Once the render is complete, it will pop open the “VRVideos” folder which should contain an video file with your stereo render.
@@ -162,7 +162,7 @@ Videos can be rendered ‘offline’ faster and at a much higher resolution and 
     \
     1\. [Download the 360° Video Metadata app](https://support.google.com/youtube/answer/6178631?hl=en) for [Mac](https://github.com/google/spatial-media/releases/download/v2.0/360.Video.Metadata.Tool.mac.zip) or [Windows](https://github.com/google/spatial-media/releases/tag/v2.0). The dialog should look like this:\
     \
-    ![](<../.gitbook/assets/image-136.png>) \
+    ![](../.gitbook/assets/image-136.png)\
     \
     2\. Unzip the file, then open the 360 Video Metadata app. If you're on a Mac, you may need to right-click the app and then click Open.\
     3\. Select the video file.\
@@ -175,7 +175,7 @@ Videos can be rendered ‘offline’ faster and at a much higher resolution and 
     2. Note that it takes YouTube some additional time to process 360 videos, until this process is finished, you may see the raw over/under and the “View in Cardboard” option will not be available.
     3. Once processing is done, you should see this icon when viewing the video on your phone, indicating that it’s ready to be viewed in VR:
 
-![](<../.gitbook/assets/image-139.png>)
+![](../.gitbook/assets/image-139.png)
 
 ### Tilt Brush Unity Shader Examples
 
@@ -400,7 +400,7 @@ Also inside the zip is "metadata.json", the metadata for the sketch in json form
       * x,y = the earliest/latest timestamp in the stroke which contains that vertex.
       * z = the timestamp for that vertex.
     * This can be disabled in the Tilt Brush config Export section with “ExportStrokeTimestamp”: false
-    * [How to use the Tilt Brush config file.](broken-reference/)
+    * [How to use the Tilt Brush config file.](https://github.com/icosa-gallery/open-brush-docs/blob/master/user-guide/broken-reference/README.md)
   * **glb, fbx**: Media Library models are now included in exports.
   * **glb, fbx**: Various quality of life improvements in the exported file.
 * New tool tip descriptions.
@@ -415,7 +415,7 @@ Also inside the zip is "metadata.json", the metadata for the sketch in json form
   * Contains Reference Image Panel, Pin Tool, Export, and experimental Cameras.
 * Added Reference Image support.
   * Requires connecting your Quest to a PC and side loading images into a Tilt Brush folder. Some restrictions apply.
-  * See the [Help Center](https://support.google.com/tiltbrush/answer/9427219?hl=en&ref_topic=7074683) for a more detailed explanation of how to use Reference Images.
+  * See the [Help Center](https://support.google.com/tiltbrush/answer/9427219?hl=en\&ref_topic=7074683) for a more detailed explanation of how to use Reference Images.
 * Added Export to .glb1 (binary glTF).
   * Updated Tilt Brush Toolkit to support .glb1 import.
   * Previously, Reference Images would appear in the export as as empty transform nodes. They are now included in the export.
@@ -479,7 +479,7 @@ Also inside the zip is "metadata.json", the metadata for the sketch in json form
 ```
 
 *
-  * [How to use the Tilt Brush config file.](broken-reference/)
+  * [How to use the Tilt Brush config file.](https://github.com/icosa-gallery/open-brush-docs/blob/master/user-guide/broken-reference/README.md)
 * Added a button in the Settings to link to the [Help Center](https://support.google.com/tiltbrush/).
 * Import and apply normal maps for .fbx models in Media Library.
 * Fix screen tearing bugs with video recording.
@@ -527,7 +527,7 @@ Also inside the zip is "metadata.json", the metadata for the sketch in json form
   * Located on the Settings Panel.
 * Pixar's Universal Scene Description (USD) is now exported when pressing ‘Export’ on the Labs Panel.
   * This new export includes geometry, models, brush curves, and stroke timing.
-* Support for [changing eye scale](broken-reference/) when rendering ODS 360 videos.
+* Support for [changing eye scale](https://github.com/icosa-gallery/open-brush-docs/blob/master/user-guide/broken-reference/README.md) when rendering ODS 360 videos.
   * You can now create a camera path with everything scaled down, and then scale the camera back up when doing an offline render.
 * General performance improvements.
   * Sped up rendering of UI.
@@ -551,7 +551,7 @@ Also inside the zip is "metadata.json", the metadata for the sketch in json form
 * Video Recording
   * 360 videos now render 5x as fast.
   * Added the option to use “h.264” encoder, see user config for details.
-  * Videos can now be rendered ‘offline’ at a higher resolution and framerate than feasible from inside Tilt Brush. See [Rendering ‘Offline’ Videos](broken-reference/).
+  * Videos can now be rendered ‘offline’ at a higher resolution and framerate than feasible from inside Tilt Brush. See [Rendering ‘Offline’ Videos](https://github.com/icosa-gallery/open-brush-docs/blob/master/user-guide/broken-reference/README.md).
 
 ### Version 14
 
@@ -691,7 +691,7 @@ Also inside the zip is "metadata.json", the metadata for the sketch in json form
 * Straightedge now shows the final stroke you’re painting.
 * Increased size range for a couple dozen brushes.
 * “DisableAudio” field added to the Tilt Brush.cfg.
-  * [How to use the Tilt Brush config file.](broken-reference/)
+  * [How to use the Tilt Brush config file.](https://github.com/icosa-gallery/open-brush-docs/blob/master/user-guide/broken-reference/README.md)
 * Change to save file naming.
 * Fixed bug where Tilt Brush would be unplayable when the Documents folder was moved or inaccessible due to virus detection software.
 * Minor improvements to models.
@@ -723,7 +723,7 @@ Also inside the zip is "metadata.json", the metadata for the sketch in json form
     * In the Pedestal environment, models and images snap to the pedestal.
 * Video Recorder Improvements
   * Video capture now records with audio.
-  * Ability to customize video resolution, FPS, container type in the Tilt Brush.cfg. [How to use the Tilt Brush config file.](broken-reference/)
+  * Ability to customize video resolution, FPS, container type in the Tilt Brush.cfg. [How to use the Tilt Brush config file.](https://github.com/icosa-gallery/open-brush-docs/blob/master/user-guide/broken-reference/README.md)
 * Misc. improvements
   * "Animal Ruler" shows relative size when using the scale feature.
   * Mirror position saved with sketch.
@@ -735,7 +735,7 @@ Also inside the zip is "metadata.json", the metadata for the sketch in json form
   * Updated SteamVR plugin to v1.1.1.
   * “Author” field added to the Tilt Brush.cfg.
     * When the Author field is set, all sketches created will have the author name embedded in saved .tilt files.
-    * [How to use the Tilt Brush config file.](broken-reference/)
+    * [How to use the Tilt Brush config file.](https://github.com/icosa-gallery/open-brush-docs/blob/master/user-guide/broken-reference/README.md)
   * Support scripts have moved to the [Tilt Brush Toolkit](https://github.com/googlevr/tilt-brush-toolkit).
 
 ### Version 7
@@ -781,17 +781,17 @@ Also inside the zip is "metadata.json", the metadata for the sketch in json form
 * Controller Swapping
   * Point the controllers away from each other and tap the bottoms to swap the palette and paint brush.
 * High resolution snapshot mode
-  * Added flag “HighResolutionSnapshots” to the Tilt Brush.cfg. [How to use the Tilt Brush config file.](broken-reference/)
+  * Added flag “HighResolutionSnapshots” to the Tilt Brush.cfg. [How to use the Tilt Brush config file.](https://github.com/icosa-gallery/open-brush-docs/blob/master/user-guide/broken-reference/README.md)
   * Setting the flag to true causes the Camera tool to take snapshots at 6x the default resolution (11,880 x 6,588px).
 * Exporting to Sketchfab
-  * Many important material properties are now preserved when exporting .fbx files and then uploading to Sketchfab. [Posting to Sketchfab.](broken-reference/)
+  * Many important material properties are now preserved when exporting .fbx files and then uploading to Sketchfab. [Posting to Sketchfab.](https://github.com/icosa-gallery/open-brush-docs/blob/master/user-guide/broken-reference/README.md)
 * Misc. improvements
   * More aggressive video camera stabilization.
   * Fire brush bloom effect fixed on “Future Desktop” settings.
   * Cleaned up the progress bar images, added info text during loading.
   * Added new tips to the Tips ‘N Tricks.
   * Changed video file extension to .mp4.
-  * Exports binary FBX by default, configurable in Tilt Brush.cfg. [How to use the Tilt Brush config file.](broken-reference/)
+  * Exports binary FBX by default, configurable in Tilt Brush.cfg. [How to use the Tilt Brush config file.](https://github.com/icosa-gallery/open-brush-docs/blob/master/user-guide/broken-reference/README.md)
   * Pressing the pad no longer activates teleport with Teleport Tool. Trigger only.
   * Teleport Tool boundaries are extended when the sketch has been resized.
   * Changed selection icon for Sketchbook to trash can.
@@ -827,7 +827,7 @@ Also inside the zip is "metadata.json", the metadata for the sketch in json form
   * Mirror can be reset by dragging it to the target above the center of the floor.
   * Mirror now snaps to vertical and horizontal planes.
 * Added Tips ‘N Tricks tutorial section, under “More” menu.
-* Export button now generates textured .fbx files. See the [Exporting Tilt Brush Sketches](broken-reference/) section below for more details.
+* Export button now generates textured .fbx files. See the [Exporting Tilt Brush Sketches](https://github.com/icosa-gallery/open-brush-docs/blob/master/user-guide/broken-reference/README.md) section below for more details.
 * Improved visual quality at all performance levels.
 * Unlit brushes made more efficient by using single-sided geometry.
 * Added progress bar when exporting or loading sketches.
@@ -868,7 +868,7 @@ Also inside the zip is "metadata.json", the metadata for the sketch in json form
 
 *
   * Note: [How to find your YouTube Channel ID.](https://support.google.com/youtube/answer/3250431)
-  * [How to use the Tilt Brush config file.](broken-reference/)
+  * [How to use the Tilt Brush config file.](https://github.com/icosa-gallery/open-brush-docs/blob/master/user-guide/broken-reference/README.md)
   * Use Grip button to move chat widget.
   * Use both Grip buttons to scale chat widget.
   * Toss the widget to dismiss it.
@@ -888,7 +888,7 @@ Also inside the zip is "metadata.json", the metadata for the sketch in json form
 
 *
   * Note: [How to get an OAuth key for Twitch.](https://twitchapps.com/tokengen/)
-  * [How to use the Tilt Brush config file.](broken-reference/)
+  * [How to use the Tilt Brush config file.](https://github.com/icosa-gallery/open-brush-docs/blob/master/user-guide/broken-reference/README.md)
   * Use Grip button to move chat widget.
   * Use both Grip buttons to scale chat widget.
   * Toss the widget to dismiss it.
@@ -945,7 +945,7 @@ Also inside the zip is "metadata.json", the metadata for the sketch in json form
 Note: [How to get an OAuth key for Twitch.](http://help.twitch.tv/customer/portal/articles/1302780-twitch-irc)
 
 *
-  * [How to use the Tilt Brush config file.](broken-reference/)
+  * [How to use the Tilt Brush config file.](https://github.com/icosa-gallery/open-brush-docs/blob/master/user-guide/broken-reference/README.md)
   * Use Grip button to move chat widget.
   * Use both Grip buttons to scale chat widget.
   * Toss the widget to dismiss it.
@@ -961,5 +961,4 @@ Note: [How to get an OAuth key for Twitch.](http://help.twitch.tv/customer/porta
 ```
 
 *
-  * [How to use the Tilt Brush config file.](broken-reference/)
-
+  * [How to use the Tilt Brush config file.](https://github.com/icosa-gallery/open-brush-docs/blob/master/user-guide/broken-reference/README.md)
