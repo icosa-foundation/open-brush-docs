@@ -35,7 +35,7 @@
   * [Saving and sharing your Open Brush sketches](user-guide/saving-and-sharing-your-open-brush-sketches.md)
   * [Portals Between Sketches](user-guide/portals.md)
   * [Multiplayer](user-guide/multiplayer.md)
-    * [Manual Colocation](user-guide/manual-colocation.md)
+    * [Multiplayer Colocation](user-guide/manual-colocation.md)
   * [Troubleshooting issues with Open Brush](user-guide/troubleshooting-issues-with-open-brush.md)
   * [Check out Labs features](user-guide/check-out-labs-or-experimental-features.md)
   * [Multi Mirror](user-guide/multimirror.md)

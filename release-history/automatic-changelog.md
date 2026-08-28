@@ -1,6 +1,6 @@
 # Changelog since v2.30
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.30...4373b53d6bb23363e351005831cd471b6b709619)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.30...369d7ce5119898a5c786f406480b47c800b3cdd7)
 
 ## 🚀 Features
 
@@ -31,6 +31,8 @@
 
 - Steam Frame fixes ([PR #1138](https://github.com/icosa-foundation/open-brush/pull/1138) by @andybak)
 
+- Fix guide api gaps ([PR #1141](https://github.com/icosa-foundation/open-brush/pull/1141) by @andybak)
+
 
 ## 🛠️ Infrastructure
 
@@ -51,6 +53,8 @@
 - Better Steam Frame support  ([PR #1064](https://github.com/icosa-foundation/open-brush/pull/1064) by @andybak)
 
 - Manual Colocation flow ([PR #1126](https://github.com/icosa-foundation/open-brush/pull/1126) by @andybak)
+
+- What's new panel updates ([PR #1142](https://github.com/icosa-foundation/open-brush/pull/1142) by @andybak)
 
 
 
