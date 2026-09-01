@@ -1,6 +1,6 @@
 # Changelog since v2.31
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.31...dc475847992993ece76acfe9a7d763317e248e7c)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.31...d9e73a82c035df7552c5831f19d520338454d19b)
 
 ## 🚀 Features
 
@@ -10,6 +10,8 @@
 ## 🐛 Fixes
 
 - Preserve locked scene pose for new sketches ([PR #1144](https://github.com/icosa-foundation/open-brush/pull/1144) by @andybak)
+
+- Add missing splat button to Mobile Labs Panel ([PR #1145](https://github.com/icosa-foundation/open-brush/pull/1145) by @andybak)
 
 
 
