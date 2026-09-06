@@ -6,7 +6,7 @@ One of the biggest bottlenecks that stops us releasing more features more quickl
 
 The beta version is _usually_ fairly solid but testing is invaluable - especially if you use Open Brush in depth (our testing is often from the perspective of a casual user) or you use a headset other than a Quest 2 (currently we do the bulk of our testing using Quest 2 via Link or standalone. Testing intesively on a wide range of headsets is a major chore).\
 \
-The best way to help test is to switch to using it instead of the normal version of Open Brush and to report any issues you find by posting to our [Support Forum](https://discord.com/channels/783806589991780412/1019733473797341225) on Discord (or if you need to chat before you're confident enough to report a bug, just post in the [General channel](https://discord.com/channels/783806589991780412/783806589991780415))
+The best way to help test is to switch to using it instead of the normal version of Open Brush and to tell us what you find in the [Open Brush Discord](https://discord.openbrush.app). You can report a bug, suggest an improvement, or simply describe how a new feature feels to use. If you are not sure whether something is worth reporting, please mention it anyway.
 
 To help you focus on testing the right things you can see a list of [changes and new features in the beta version here.](../release-history/automatic-changelog.md)
 
