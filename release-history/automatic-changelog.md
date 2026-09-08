@@ -1,6 +1,11 @@
 # Changelog since v2.32
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.32...7dd207625d03bf74ad2ea22e1ae62e15d6017120)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.32...74a440eec4d06536d4b9b2536c46eb21849bc46f)
+
+## 🛠️ Infrastructure
+
+- Fix builds after caches are available in Unity 6+ ([PR #1153](https://github.com/icosa-foundation/open-brush/pull/1153) by @mikeage)
+
 
 ## 💬 Uncategorized
 
