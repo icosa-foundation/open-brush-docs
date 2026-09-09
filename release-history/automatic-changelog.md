@@ -1,6 +1,11 @@
 # Changelog since v2.32
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.32...defd3bb97f1418e72e327d620d2346c9f5cad917)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.32...2a5eae866457e9d862872075139db199277e90a9)
+
+## 🚀 Features
+
+- Unity 6 Kitchen Sink ([PR #1069](https://github.com/icosa-foundation/open-brush/pull/1069) by @andybak)
+
 
 ## 🐛 Fixes
 
@@ -11,10 +16,7 @@
 
 - Fix builds after caches are available in Unity 6+ ([PR #1153](https://github.com/icosa-foundation/open-brush/pull/1153) by @mikeage)
 
-
-## 💬 Uncategorized
-
-- Unity 6 Kitchen Sink ([PR #1069](https://github.com/icosa-foundation/open-brush/pull/1069) by @andybak)
+- Fix publish jobs and some general build cleanup ([PR #1156](https://github.com/icosa-foundation/open-brush/pull/1156) by @mikeage)
 
 
 
