@@ -1,10 +1,12 @@
 # Changelog since v2.32
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.32...bc872d532b9ad8b6f8c7bb64ad8a645051d0261d)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.32...ed8c789ec30eedb10b3b0a86a1e55fe7018a1d83)
 
 ## 🚀 Features
 
 - Unity 6 Kitchen Sink ([PR #1069](https://github.com/icosa-foundation/open-brush/pull/1069) by @andybak)
+
+- Default media files improvements ([PR #1155](https://github.com/icosa-foundation/open-brush/pull/1155) by @andybak)
 
 
 ## 🐛 Fixes
