@@ -1,6 +1,6 @@
 # Changelog since v2.32
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.32...0b85382de12c4850bbebecbafce3efa37ea69f57)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.32...b2fe7b5027cc1535db48904b82420a1d121146e8)
 
 ## 🚀 Features
 
@@ -12,6 +12,8 @@
 - Unity6 post merge fixes ([PR #1154](https://github.com/icosa-foundation/open-brush/pull/1154) by @andybak)
 
 - Unity 6 post-merge fixes 2 ([PR #1157](https://github.com/icosa-foundation/open-brush/pull/1157) by @andybak)
+
+- Fix guide settings panel ([PR #1161](https://github.com/icosa-foundation/open-brush/pull/1161) by @andybak)
 
 
 ## 🛠️ Infrastructure
