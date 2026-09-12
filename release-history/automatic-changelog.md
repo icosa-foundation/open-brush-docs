@@ -1,6 +1,6 @@
 # Changelog since v2.32
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.32...5d907f688b2a0cd34d8d35b746822cefa5c5bd4b)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.32...9c6293b093ae7994fff490b0edfe40150116ae55)
 
 ## 🚀 Features
 
@@ -20,6 +20,8 @@
 - Fix guide settings panel ([PR #1161](https://github.com/icosa-foundation/open-brush/pull/1161) by @andybak)
 
 - Fix export exceptions ([PR #1162](https://github.com/icosa-foundation/open-brush/pull/1162) by @andybak)
+
+- Fix tools affecting other layers ([PR #1163](https://github.com/icosa-foundation/open-brush/pull/1163) by @andybak)
 
 
 ## 🛠️ Infrastructure
