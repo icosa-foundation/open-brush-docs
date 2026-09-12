@@ -6,6 +6,70 @@ To create a Tool Plugin name your script with the prefix "ToolScript". For examp
 
 Tool Scripts should usually return a list of transforms. If they do then this defines an entire brush stroke that is then created for you.
 
+## Previewing the returned brush stroke
+
+By default, a Tool Plugin can display a simple mesh preview such as a cube, sphere or quad. If the path itself is the most useful preview, set `previewMode` to `"stroke"`:
+
+```lua
+Settings = {
+    description = "Draws a circle",
+    previewMode = "stroke"
+}
+
+local function buildCircle()
+    local points = Path:New()
+    for angle = 0, 360, 10 do
+        local position2d = Vector2:PointOnCircle(angle)
+        local rotation = Rotation:New(0, 0, angle * 180)
+        points:Insert(Transform:New(position2d:OnZ(), rotation))
+    end
+    points:Insert(points[0])
+    return points
+end
+
+function Main()
+    if Brush.triggerIsPressed or Brush.triggerReleasedThisFrame then
+        return buildCircle()
+    end
+end
+```
+
+While the trigger is held, Open Brush renders the returned path using the active brush. The preview is regenerated whenever `Main()` returns another path, then the most recent result is committed once when the trigger is released. Return the path while `Brush.triggerIsPressed` if you want the preview to follow the controller. Returning no path, an empty path or a path that cannot produce at least two brush control points clears the preview.
+
+The mode name is deliberately singular. If the script returns a `PathList`, `previewMode = "stroke"` previews only its first drawable path. `Tool.latestControlPoints` also refers only to this selected path. All paths in the result are still drawn when the trigger is released. The active symmetry mode is applied only when the result is committed, so symmetry copies are not shown in this live preview.
+
+The plural `previewMode = "strokes"` is reserved for future multipath preview support and is not currently available.
+
+The scale of each transform remains that control point's pressure. The overall size determined by the tool gesture is applied as the stroke's scale, so the preview uses the same pressure and scale values as the committed stroke.
+
+## Reading the generated control points
+
+Open Brush converts the single path selected by the latest Tool Plugin stroke preview into brush control points and exposes them through `Tool.latestControlPoints`. This is the most recently completed evaluation of the active Tool Plugin. It is empty when the plugin returns no drawable path.
+
+`Tool.latestControlPoints` is a `ControlPointList` with these members:
+
+* `count` - the number of control points
+* `[index]` - a zero-based control-point lookup
+* `items` - an enumerable collection of all control points
+
+Each `ControlPoint` provides:
+
+* `position` - its position as a `Vector3`
+* `rotation` - its orientation as a `Quaternion`
+* `pressure` - its pressure value
+* `timestampMs` - its timestamp in milliseconds
+
+`Tool.latestControlPointSpace` reports the coordinate space used by the list. Preview control points are currently returned in canvas space, even when the Tool Plugin returned a path in the default or pointer coordinate space.
+
+## Quick snap
+
+Tool Plugins support the same hold-to-snap control used when grabbing widgets. The lock icon on the brush controller identifies the context button:
+
+* If Snap Settings are off, hold the button to apply a temporary 90-degree rotation snap.
+* If angle or position snapping is already enabled in Snap Settings, hold the button to temporarily bypass those settings.
+
+Quick snap affects both the live preview and the stroke committed when the trigger is released.
+
 ## Tool Plugins and symmetry
 
 Brush strokes returned by a Tool Plugin are affected by the active symmetry mode. This lets the same generated shape pass through Open Brush's regular mirror or multi-mirror transformation without the plugin having to calculate those copies itself.
