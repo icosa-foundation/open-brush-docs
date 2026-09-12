@@ -2,14 +2,14 @@
 
 
 
-When you paint freehand in Open Brush, the application is constantly recording your hand's position and orientation. Therefore internally a stroke is defined as a list of transforms. Scale isn't used but the position and rotation are key in defining the shape of the resulting stroke.
+When you paint freehand in Open Brush, the application is constantly recording your hand's position, orientation and pressure. Therefore internally a stroke is defined as a list of transforms. Position and rotation define the shape of the stroke, while each transform's scale is used as the pressure at that control point.
 
 There are several situations when you might need to define a stroke when writing a plugin:
 
 1. The most common use-case is with Tool Plugins. The value you return from the Main() function in a Tool Plugin is drawn as a brush stroke
 2. You can paths explicitly using Path:Draw(), PathList:Draw() or the draw methods provided by classes such as SVG
 
-In both these cases you must define the path as a list of transforms. Both the position and rotation are used to define the shape of the stroke. It matches what happens when you draw a stroke by hand - at each point in time you control both the position of the brush and it's orientation. Orientation doesn't matter for all brushes (a tube brush looks much the same whatever the rotation of the brush controller at each point is) but other brushes such as flat stroke brushes do make use of the rotation values you provide.
+In both these cases you must define the path as a list of transforms. Position, rotation and scale correspond to the position, orientation and pressure recorded when you draw a stroke by hand. Orientation doesn't matter for all brushes (a tube brush looks much the same whatever the rotation of the brush controller at each point is) but other brushes such as flat stroke brushes do make use of the rotation values you provide. Pressure can affect width, density or other brush-specific behavior.
 
 In the simple case where you are returning a value from the Main function of a Tool Plugin, you can return a normal lua array (or "table" as they are also called) containing two or more Transform instances:
 
