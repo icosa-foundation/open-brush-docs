@@ -8,12 +8,12 @@ Tool Scripts should usually return a list of transforms. If they do then this de
 
 ## Previewing the returned brush stroke
 
-By default, a Tool Plugin can display a simple mesh preview such as a cube, sphere or quad. If the path itself is the most useful preview, set `previewMode` to `"stroke"`:
+By default, a Tool Plugin can display a simple mesh preview such as a cube, sphere or quad. If the path itself is the most useful preview, set `previewType` to `"stroke"`:
 
 ```lua
 Settings = {
     description = "Draws a circle",
-    previewMode = "stroke"
+    previewType = "stroke"
 }
 
 local function buildCircle()
@@ -36,9 +36,29 @@ end
 
 While the trigger is held, Open Brush renders the returned path using the active brush. The preview is regenerated whenever `Main()` returns another path, then the most recent result is committed once when the trigger is released. Return the path while `Brush.triggerIsPressed` if you want the preview to follow the controller. Returning no path, an empty path or a path that cannot produce at least two brush control points clears the preview.
 
-The mode name is deliberately singular. If the script returns a `PathList`, `previewMode = "stroke"` previews only its first drawable path. `Tool.latestControlPoints` also refers only to this selected path. All paths in the result are still drawn when the trigger is released. The active symmetry mode is applied only when the result is committed, so symmetry copies are not shown in this live preview.
+For expensive paths, `Tool.isPreview` lets the plugin generate a lower-resolution live path and retain its full resolution for the final stroke. It is `true` when `Main()` is generating a stroke preview and `false` when `Main()` runs on release to generate the path that will be committed:
 
-The plural `previewMode = "strokes"` is reserved for future multipath preview support and is not currently available.
+```lua
+local pointCount = Parameters.points
+if Tool.isPreview then
+    pointCount = Math:Min(pointCount, 200)
+end
+```
+
+Set `previewInterval` to limit how often Open Brush runs `Main()` and rebuilds the live preview. The value is a minimum interval in seconds. The initial preview runs immediately, skipped updates retain the previous preview, and the release execution is never throttled. If the setting is omitted or is not positive, preview generation continues every frame:
+
+```lua
+Settings = {
+    previewType = "stroke",
+    previewInterval = 0.1
+}
+```
+
+`previewInterval` applies only to `previewType = "stroke"`. It does not throttle Tool Scripts that use a mesh preview or scripts that intentionally emit output continuously.
+
+The preview type is deliberately singular. If the script returns a `PathList`, `previewType = "stroke"` previews only its first drawable path. `Tool.latestControlPoints` also refers only to this selected path. All paths in the result are still drawn when the trigger is released. The active symmetry mode is applied only when the result is committed, so symmetry copies are not shown in this live preview.
+
+The plural `previewType = "strokes"` is reserved for future multipath preview support and is not currently available.
 
 The scale of each transform remains that control point's pressure. The overall size determined by the tool gesture is applied as the stroke's scale, so the preview uses the same pressure and scale values as the committed stroke.
 
