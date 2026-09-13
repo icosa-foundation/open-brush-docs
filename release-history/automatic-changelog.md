@@ -1,6 +1,6 @@
 # Changelog since v2.32
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.32...1d8c12df695d1ec230f2544c3ffdadb5b744b936)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.32...a1a896243673c5d8eff0acf60e634ee7a5b67352)
 
 ## 🚀 Features
 
@@ -11,6 +11,8 @@
 - Crop strokes ([PR #984](https://github.com/icosa-foundation/open-brush/pull/984) by @andybak)
 
 - Tool plugin stroke preview ([PR #1022](https://github.com/icosa-foundation/open-brush/pull/1022) by @andybak)
+
+- Simple straight edge snapping ([PR #1151](https://github.com/icosa-foundation/open-brush/pull/1151) by @andybak)
 
 
 ## 🐛 Fixes
