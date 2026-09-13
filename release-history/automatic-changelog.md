@@ -1,6 +1,6 @@
 # Changelog since v2.32
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.32...2e9cce44040dc63a279353b318259a01ebb791ac)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.32...bcb5ced7427781b30dc91f4b027c2faa0d5aea57)
 
 ## 🚀 Features
 
@@ -15,6 +15,8 @@
 - Simple straight edge snapping ([PR #1151](https://github.com/icosa-foundation/open-brush/pull/1151) by @andybak)
 
 - Http api tests ([PR #1148](https://github.com/icosa-foundation/open-brush/pull/1148) by @andybak)
+
+- EXR import and better hdr image handling ([PR #1130](https://github.com/icosa-foundation/open-brush/pull/1130) by @andybak)
 
 
 ## 🐛 Fixes
