@@ -1,6 +1,6 @@
 # Changelog since v2.32
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.32...9c6293b093ae7994fff490b0edfe40150116ae55)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.32...1d8c12df695d1ec230f2544c3ffdadb5b744b936)
 
 ## 🚀 Features
 
@@ -9,6 +9,8 @@
 - Default media files improvements ([PR #1155](https://github.com/icosa-foundation/open-brush/pull/1155) by @andybak)
 
 - Crop strokes ([PR #984](https://github.com/icosa-foundation/open-brush/pull/984) by @andybak)
+
+- Tool plugin stroke preview ([PR #1022](https://github.com/icosa-foundation/open-brush/pull/1022) by @andybak)
 
 
 ## 🐛 Fixes
