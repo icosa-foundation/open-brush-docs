@@ -1,6 +1,6 @@
 # Changelog since v2.32
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.32...bcb5ced7427781b30dc91f4b027c2faa0d5aea57)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.32...a4aa8c4bffdea1779fbfd55f38b65121d92247d2)
 
 ## 🚀 Features
 
@@ -30,6 +30,8 @@
 - Fix export exceptions ([PR #1162](https://github.com/icosa-foundation/open-brush/pull/1162) by @andybak)
 
 - Fix tools affecting other layers ([PR #1163](https://github.com/icosa-foundation/open-brush/pull/1163) by @andybak)
+
+- Reject invalid ToolScript preview scales ([PR #1165](https://github.com/icosa-foundation/open-brush/pull/1165) by @andybak)
 
 
 ## 🛠️ Infrastructure
