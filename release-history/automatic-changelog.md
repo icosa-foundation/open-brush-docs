@@ -1,6 +1,6 @@
 # Changelog since v2.32
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.32...a4aa8c4bffdea1779fbfd55f38b65121d92247d2)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.32...c9328362b7d465e60d06f319655919acd8aee69a)
 
 ## 🚀 Features
 
@@ -17,6 +17,8 @@
 - Http api tests ([PR #1148](https://github.com/icosa-foundation/open-brush/pull/1148) by @andybak)
 
 - EXR import and better hdr image handling ([PR #1130](https://github.com/icosa-foundation/open-brush/pull/1130) by @andybak)
+
+- Splat capture camera path ([PR #1166](https://github.com/icosa-foundation/open-brush/pull/1166) by @andybak)
 
 
 ## 🐛 Fixes
