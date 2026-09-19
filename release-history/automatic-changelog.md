@@ -1,6 +1,6 @@
 # Changelog since v2.32
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.32...c36ea2b1c981fa8be003965cf8bce75fbe704a9b)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.32...5781505d0bca7b8e80404aa513ad1450dcd9a19d)
 
 ## 🚀 Features
 
@@ -36,6 +36,8 @@
 - Reject invalid ToolScript preview scales ([PR #1165](https://github.com/icosa-foundation/open-brush/pull/1165) by @andybak)
 
 - Fix non-vr black screen ([PR #1170](https://github.com/icosa-foundation/open-brush/pull/1170) by @andybak)
+
+- Upstream catalog fixes from SAF branch ([PR #1168](https://github.com/icosa-foundation/open-brush/pull/1168) by @andybak)
 
 
 ## 🛠️ Infrastructure
