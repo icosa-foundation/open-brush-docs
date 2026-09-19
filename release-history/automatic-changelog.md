@@ -1,6 +1,6 @@
 # Changelog since v2.32
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.32...c9328362b7d465e60d06f319655919acd8aee69a)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.32...d91f682fe8ef06ac44056bb3ce0abe202f3c87a9)
 
 ## 🚀 Features
 
@@ -41,6 +41,11 @@
 - Fix builds after caches are available in Unity 6+ ([PR #1153](https://github.com/icosa-foundation/open-brush/pull/1153) by @mikeage)
 
 - Fix publish jobs and some general build cleanup ([PR #1156](https://github.com/icosa-foundation/open-brush/pull/1156) by @mikeage)
+
+
+## 📦 Dependencies / Maintenance
+
+- Update imm plugin ([PR #1167](https://github.com/icosa-foundation/open-brush/pull/1167) by @andybak)
 
 
 ## 💬 Uncategorized
