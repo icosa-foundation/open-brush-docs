@@ -1,6 +1,6 @@
 # Changelog since v2.32
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.32...5781505d0bca7b8e80404aa513ad1450dcd9a19d)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.32...93125a73785bc834ef2f5b0c0287199561ed1e8b)
 
 ## 🚀 Features
 
@@ -19,6 +19,8 @@
 - EXR import and better hdr image handling ([PR #1130](https://github.com/icosa-foundation/open-brush/pull/1130) by @andybak)
 
 - Splat capture camera path ([PR #1166](https://github.com/icosa-foundation/open-brush/pull/1166) by @andybak)
+
+- Add pinch dolly navigation for touchscreen viewer ([PR #1171](https://github.com/icosa-foundation/open-brush/pull/1171) by @andybak)
 
 
 ## 🐛 Fixes
