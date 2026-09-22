@@ -1,6 +1,6 @@
 # Changelog since v2.32
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.32...93125a73785bc834ef2f5b0c0287199561ed1e8b)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.32...4dd89f9eb23b4ed08d687ef8db6fca3d0664c741)
 
 ## 🚀 Features
 
@@ -57,6 +57,8 @@
 ## 💬 Uncategorized
 
 - Put UNITY_LIBRARY_CACHE_PATHS in the proper step ([PR #1160](https://github.com/icosa-foundation/open-brush/pull/1160) by @mikeage)
+
+- Build and publish non-XR Apple viewer apps ([PR #1169](https://github.com/icosa-foundation/open-brush/pull/1169) by @andybak)
 
 
 
