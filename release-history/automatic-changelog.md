@@ -1,6 +1,6 @@
 # Changelog since v2.32
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.32...4dd89f9eb23b4ed08d687ef8db6fca3d0664c741)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.32...655ab8b0528009e5c5d53426c255bcd17fc4421a)
 
 ## 🚀 Features
 
@@ -40,6 +40,8 @@
 - Fix non-vr black screen ([PR #1170](https://github.com/icosa-foundation/open-brush/pull/1170) by @andybak)
 
 - Upstream catalog fixes from SAF branch ([PR #1168](https://github.com/icosa-foundation/open-brush/pull/1168) by @andybak)
+
+- Fix macOS plugin bundle identifiers before signing ([PR #1176](https://github.com/icosa-foundation/open-brush/pull/1176) by @andybak)
 
 
 ## 🛠️ Infrastructure
