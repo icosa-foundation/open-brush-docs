@@ -1,6 +1,6 @@
 # Changelog since v2.32
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.32...655ab8b0528009e5c5d53426c255bcd17fc4421a)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.32...94abcac19abe2822ed9b0d41503a1fb300c46e55)
 
 ## 🚀 Features
 
@@ -21,6 +21,10 @@
 - Splat capture camera path ([PR #1166](https://github.com/icosa-foundation/open-brush/pull/1166) by @andybak)
 
 - Add pinch dolly navigation for touchscreen viewer ([PR #1171](https://github.com/icosa-foundation/open-brush/pull/1171) by @andybak)
+
+- Build and publish non-XR Apple viewer apps ([PR #1169](https://github.com/icosa-foundation/open-brush/pull/1169) by @andybak)
+
+- Expose bloom amount and threshold in user config ([PR #1177](https://github.com/icosa-foundation/open-brush/pull/1177) by @andybak)
 
 
 ## 🐛 Fixes
@@ -59,8 +63,6 @@
 ## 💬 Uncategorized
 
 - Put UNITY_LIBRARY_CACHE_PATHS in the proper step ([PR #1160](https://github.com/icosa-foundation/open-brush/pull/1160) by @mikeage)
-
-- Build and publish non-XR Apple viewer apps ([PR #1169](https://github.com/icosa-foundation/open-brush/pull/1169) by @andybak)
 
 
 
