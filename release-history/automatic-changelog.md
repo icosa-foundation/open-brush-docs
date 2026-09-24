@@ -1,6 +1,6 @@
 # Changelog since v2.32
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.32...404d9a9a88d905b702a29948663bfadb3e5b574c)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.32...baaa0054062327fe721a3144647e80f01feaa80c)
 
 ## 🚀 Features
 
@@ -25,6 +25,8 @@
 - Build and publish non-XR Apple viewer apps ([PR #1169](https://github.com/icosa-foundation/open-brush/pull/1169) by @andybak)
 
 - Expose bloom amount and threshold in user config ([PR #1177](https://github.com/icosa-foundation/open-brush/pull/1177) by @andybak)
+
+- 3D stroke filling ([PR #1174](https://github.com/icosa-foundation/open-brush/pull/1174) by @andybak)
 
 
 ## 🐛 Fixes
