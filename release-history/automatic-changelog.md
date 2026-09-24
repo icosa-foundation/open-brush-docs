@@ -1,6 +1,6 @@
 # Changelog since v2.32
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.32...94abcac19abe2822ed9b0d41503a1fb300c46e55)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.32...404d9a9a88d905b702a29948663bfadb3e5b574c)
 
 ## 🚀 Features
 
@@ -46,6 +46,8 @@
 - Upstream catalog fixes from SAF branch ([PR #1168](https://github.com/icosa-foundation/open-brush/pull/1168) by @andybak)
 
 - Fix macOS plugin bundle identifiers before signing ([PR #1176](https://github.com/icosa-foundation/open-brush/pull/1176) by @andybak)
+
+- Fix atlas issues ([PR #1178](https://github.com/icosa-foundation/open-brush/pull/1178) by @andybak)
 
 
 ## 🛠️ Infrastructure
