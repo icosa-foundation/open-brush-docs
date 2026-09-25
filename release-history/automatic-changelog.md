@@ -1,6 +1,6 @@
 # Changelog since v2.32
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.32...baaa0054062327fe721a3144647e80f01feaa80c)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.32...6c72f7c6e6f4a68d4bef3ccaa7607ee5a4fe3aec)
 
 ## 🚀 Features
 
@@ -27,6 +27,8 @@
 - Expose bloom amount and threshold in user config ([PR #1177](https://github.com/icosa-foundation/open-brush/pull/1177) by @andybak)
 
 - 3D stroke filling ([PR #1174](https://github.com/icosa-foundation/open-brush/pull/1174) by @andybak)
+
+- Darken brush ([PR #1021](https://github.com/icosa-foundation/open-brush/pull/1021) by @andybak)
 
 
 ## 🐛 Fixes
