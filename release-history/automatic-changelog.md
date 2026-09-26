@@ -1,6 +1,6 @@
 # Changelog since v2.32
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.32...8677cf52d1a2f200b1abe484a7896ca73d787ffa)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.32...56acbce831c7e9f257bfee9e21853da99773787b)
 
 ## 🚀 Features
 
@@ -54,6 +54,8 @@
 - Fix atlas issues ([PR #1178](https://github.com/icosa-foundation/open-brush/pull/1178) by @andybak)
 
 - Shader passthrough fixes ([PR #1180](https://github.com/icosa-foundation/open-brush/pull/1180) by @andybak)
+
+- Revert explicit sample coverage in UnlitA2CVertexColor shader ([PR #1182](https://github.com/icosa-foundation/open-brush/pull/1182) by @andybak)
 
 
 ## 🛠️ Infrastructure
