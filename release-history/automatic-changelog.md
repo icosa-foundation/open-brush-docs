@@ -1,6 +1,6 @@
 # Changelog since v2.32
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.32...6c72f7c6e6f4a68d4bef3ccaa7607ee5a4fe3aec)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.32...8677cf52d1a2f200b1abe484a7896ca73d787ffa)
 
 ## 🚀 Features
 
@@ -52,6 +52,8 @@
 - Fix macOS plugin bundle identifiers before signing ([PR #1176](https://github.com/icosa-foundation/open-brush/pull/1176) by @andybak)
 
 - Fix atlas issues ([PR #1178](https://github.com/icosa-foundation/open-brush/pull/1178) by @andybak)
+
+- Shader passthrough fixes ([PR #1180](https://github.com/icosa-foundation/open-brush/pull/1180) by @andybak)
 
 
 ## 🛠️ Infrastructure
