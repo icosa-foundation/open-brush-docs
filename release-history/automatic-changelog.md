@@ -1,6 +1,6 @@
 # Changelog since v2.32
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.32...56acbce831c7e9f257bfee9e21853da99773787b)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.32...fce76ec89adc5f3fd02292d2935b7b6ea40a366d)
 
 ## 🚀 Features
 
@@ -56,6 +56,8 @@
 - Shader passthrough fixes ([PR #1180](https://github.com/icosa-foundation/open-brush/pull/1180) by @andybak)
 
 - Revert explicit sample coverage in UnlitA2CVertexColor shader ([PR #1182](https://github.com/icosa-foundation/open-brush/pull/1182) by @andybak)
+
+- Fix some MSAA and A2C issues ([PR #1181](https://github.com/icosa-foundation/open-brush/pull/1181) by @andybak)
 
 
 ## 🛠️ Infrastructure
