@@ -1,6 +1,6 @@
 # Changelog since v2.32
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.32...fce76ec89adc5f3fd02292d2935b7b6ea40a366d)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.32...140b2e73dd91280ee36ea69db7e1d124b4123370)
 
 ## 🚀 Features
 
@@ -29,6 +29,8 @@
 - 3D stroke filling ([PR #1174](https://github.com/icosa-foundation/open-brush/pull/1174) by @andybak)
 
 - Darken brush ([PR #1021](https://github.com/icosa-foundation/open-brush/pull/1021) by @andybak)
+
+- Membrane brush variant with outlines ([PR #1184](https://github.com/icosa-foundation/open-brush/pull/1184) by @andybak)
 
 
 ## 🐛 Fixes
