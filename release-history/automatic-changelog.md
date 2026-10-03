@@ -1,6 +1,6 @@
 # Changelog since v2.32
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.32...140b2e73dd91280ee36ea69db7e1d124b4123370)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.32...634b11bbf4ee341678d9eeb5828100f6e7028a5a)
 
 ## 🚀 Features
 
@@ -31,6 +31,8 @@
 - Darken brush ([PR #1021](https://github.com/icosa-foundation/open-brush/pull/1021) by @andybak)
 
 - Membrane brush variant with outlines ([PR #1184](https://github.com/icosa-foundation/open-brush/pull/1184) by @andybak)
+
+- Symmetry plugin versions of old parent brushes ([PR #1183](https://github.com/icosa-foundation/open-brush/pull/1183) by @andybak)
 
 
 ## 🐛 Fixes
