@@ -1,6 +1,6 @@
 # Changelog since v2.32
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.32...634b11bbf4ee341678d9eeb5828100f6e7028a5a)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.32...bc2ca7680b8a94f67257eca5a230fb9466fb0136)
 
 ## 🚀 Features
 
@@ -33,6 +33,8 @@
 - Membrane brush variant with outlines ([PR #1184](https://github.com/icosa-foundation/open-brush/pull/1184) by @andybak)
 
 - Symmetry plugin versions of old parent brushes ([PR #1183](https://github.com/icosa-foundation/open-brush/pull/1183) by @andybak)
+
+- Better video rendering quality and configurability ([PR #1185](https://github.com/icosa-foundation/open-brush/pull/1185) by @andybak)
 
 
 ## 🐛 Fixes
