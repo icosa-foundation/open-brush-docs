@@ -1,6 +1,6 @@
 # Changelog since v2.32
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.32...bc2ca7680b8a94f67257eca5a230fb9466fb0136)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.32...186b53e24ab14ac46f2f80564eb7242c7dca0cdb)
 
 ## 🚀 Features
 
@@ -64,6 +64,8 @@
 - Revert explicit sample coverage in UnlitA2CVertexColor shader ([PR #1182](https://github.com/icosa-foundation/open-brush/pull/1182) by @andybak)
 
 - Fix some MSAA and A2C issues ([PR #1181](https://github.com/icosa-foundation/open-brush/pull/1181) by @andybak)
+
+- Restore OpenGL ES 3 on Pico, whose Vulkan driver crashes ([PR #1188](https://github.com/icosa-foundation/open-brush/pull/1188) by @ThorstenHackbarth)
 
 
 ## 🛠️ Infrastructure
