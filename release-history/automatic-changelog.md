@@ -1,6 +1,6 @@
 # Changelog since v2.32
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.32...b205225d83d565beaba6aabf0a63144ec2267d92)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.32...57ed0bfffbeea114fb0261ffa87294bf607a3b6a)
 
 ## 🚀 Features
 
@@ -68,6 +68,8 @@
 - Restore OpenGL ES 3 on Pico, whose Vulkan driver crashes ([PR #1188](https://github.com/icosa-foundation/open-brush/pull/1188) by @ThorstenHackbarth)
 
 - Fix gltf shader stripping again ([PR #1187](https://github.com/icosa-foundation/open-brush/pull/1187) by @andybak)
+
+- Fix offline render unicode bugs ([PR #1186](https://github.com/icosa-foundation/open-brush/pull/1186) by @andybak)
 
 
 ## 🛠️ Infrastructure
