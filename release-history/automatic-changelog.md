@@ -1,6 +1,6 @@
 # Changelog since v2.32
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.32...61d1adb906861c9aa9c31e19aa2e8c7c209c0249)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.32...80eab58414f2ea4886bce716c0a691fe8021b3e8)
 
 ## 🚀 Features
 
@@ -76,6 +76,8 @@
 - Restore missing post-processing ([PR #1189](https://github.com/icosa-foundation/open-brush/pull/1189) by @andybak)
 
 - Various beta fixes ([PR #1194](https://github.com/icosa-foundation/open-brush/pull/1194) by @andybak)
+
+- Remove unnecessary Play device requirements for AndroidXR builds ([PR #1195](https://github.com/icosa-foundation/open-brush/pull/1195) by @andybak)
 
 
 ## 🛠️ Infrastructure
