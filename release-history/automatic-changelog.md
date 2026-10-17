@@ -1,6 +1,6 @@
 # Changelog since v2.32
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.32...578a7b047a3f191d633b1e57526d29bcd836f83b)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.32...ff1978122853625d997540f7cd69e3c7850056dd)
 
 ## 🚀 Features
 
@@ -72,6 +72,8 @@
 - Fix offline render unicode bugs ([PR #1186](https://github.com/icosa-foundation/open-brush/pull/1186) by @andybak)
 
 - Restore missing post-processing ([PR #1189](https://github.com/icosa-foundation/open-brush/pull/1189) by @andybak)
+
+- Various beta fixes ([PR #1194](https://github.com/icosa-foundation/open-brush/pull/1194) by @andybak)
 
 
 ## 🛠️ Infrastructure
