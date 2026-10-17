@@ -1,6 +1,6 @@
 # Changelog since v2.32
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.32...ff1978122853625d997540f7cd69e3c7850056dd)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.32...61d1adb906861c9aa9c31e19aa2e8c7c209c0249)
 
 ## 🚀 Features
 
@@ -35,6 +35,8 @@
 - Symmetry plugin versions of old parent brushes ([PR #1183](https://github.com/icosa-foundation/open-brush/pull/1183) by @andybak)
 
 - Better video rendering quality and configurability ([PR #1185](https://github.com/icosa-foundation/open-brush/pull/1185) by @andybak)
+
+- Integrate handtracking and Android Direct Storage SAF ([PR #1191](https://github.com/icosa-foundation/open-brush/pull/1191) by @andybak)
 
 
 ## 🐛 Fixes
