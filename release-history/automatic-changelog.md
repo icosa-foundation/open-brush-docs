@@ -1,6 +1,6 @@
 # Changelog since v2.32
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.32...5591ff1aad5288903e718752c522d54420ae6d1e)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.32...39b088aabf150d8a0b28667991c4ad39548c9ff3)
 
 ## 🚀 Features
 
@@ -80,6 +80,8 @@
 - Remove unnecessary Play device requirements for AndroidXR builds ([PR #1195](https://github.com/icosa-foundation/open-brush/pull/1195) by @andybak)
 
 - Handtracking bugfix round 1 ([PR #1198](https://github.com/icosa-foundation/open-brush/pull/1198) by @andybak)
+
+- Update Unity Tools package lock for brush fog fixes ([PR #1203](https://github.com/icosa-foundation/open-brush/pull/1203) by @andybak)
 
 
 ## 🛠️ Infrastructure
