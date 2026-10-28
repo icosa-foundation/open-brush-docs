@@ -1,6 +1,6 @@
 # Changelog since v2.32
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.32...d60634329b757ff9aacf0676fbf18e20157edd29)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.32...854431eda0978c2cfc624202d474a9cbc660e97f)
 
 ## 🚀 Features
 
@@ -86,6 +86,10 @@
 - Fix compositor quality switching bugs ([PR #1214](https://github.com/icosa-foundation/open-brush/pull/1214) by @andybak)
 
 - Fix passthrough selection bug on Quest ([PR #1216](https://github.com/icosa-foundation/open-brush/pull/1216) by @andybak)
+
+- Android launcher icon ([PR #1218](https://github.com/icosa-foundation/open-brush/pull/1218) by @andybak)
+
+- Fix mobile widget selection highlights ([PR #1217](https://github.com/icosa-foundation/open-brush/pull/1217) by @andybak)
 
 
 ## 🛠️ Infrastructure
