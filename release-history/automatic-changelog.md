@@ -1,6 +1,6 @@
 # Changelog since v2.32
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.32...39b088aabf150d8a0b28667991c4ad39548c9ff3)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.32...42b0c057fca8bd614715131e6267d8b90bc80a0d)
 
 ## 🚀 Features
 
@@ -83,6 +83,8 @@
 
 - Update Unity Tools package lock for brush fog fixes ([PR #1203](https://github.com/icosa-foundation/open-brush/pull/1203) by @andybak)
 
+- Fix compositor quality switching bugs ([PR #1214](https://github.com/icosa-foundation/open-brush/pull/1214) by @andybak)
+
 
 ## 🛠️ Infrastructure
 
@@ -99,6 +101,8 @@
 ## 💬 Uncategorized
 
 - Put UNITY_LIBRARY_CACHE_PATHS in the proper step ([PR #1160](https://github.com/icosa-foundation/open-brush/pull/1160) by @mikeage)
+
+- Integration branch for the PRs that will be merged soon ([PR #1212](https://github.com/icosa-foundation/open-brush/pull/1212) by @andybak)
 
 
 
