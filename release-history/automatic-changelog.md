@@ -1,6 +1,6 @@
 # Changelog since v2.32
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.32...854431eda0978c2cfc624202d474a9cbc660e97f)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.32...bd6f6b3536e2e96e54977c0bb7e3ede4e37475fb)
 
 ## 🚀 Features
 
@@ -91,12 +91,16 @@
 
 - Fix mobile widget selection highlights ([PR #1217](https://github.com/icosa-foundation/open-brush/pull/1217) by @andybak)
 
+- Fix Android page size ([PR #1219](https://github.com/icosa-foundation/open-brush/pull/1219) by @andybak)
+
 
 ## 🛠️ Infrastructure
 
 - Fix builds after caches are available in Unity 6+ ([PR #1153](https://github.com/icosa-foundation/open-brush/pull/1153) by @mikeage)
 
 - Fix publish jobs and some general build cleanup ([PR #1156](https://github.com/icosa-foundation/open-brush/pull/1156) by @mikeage)
+
+- Separate 2d builds for Android Viewer ([PR #1220](https://github.com/icosa-foundation/open-brush/pull/1220) by @andybak)
 
 
 ## 📦 Dependencies / Maintenance
