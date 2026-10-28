@@ -1,6 +1,6 @@
 # Changelog since v2.32
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.32...42b0c057fca8bd614715131e6267d8b90bc80a0d)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.32...d60634329b757ff9aacf0676fbf18e20157edd29)
 
 ## 🚀 Features
 
@@ -84,6 +84,8 @@
 - Update Unity Tools package lock for brush fog fixes ([PR #1203](https://github.com/icosa-foundation/open-brush/pull/1203) by @andybak)
 
 - Fix compositor quality switching bugs ([PR #1214](https://github.com/icosa-foundation/open-brush/pull/1214) by @andybak)
+
+- Fix passthrough selection bug on Quest ([PR #1216](https://github.com/icosa-foundation/open-brush/pull/1216) by @andybak)
 
 
 ## 🛠️ Infrastructure
