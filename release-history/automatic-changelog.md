@@ -1,6 +1,6 @@
 # Changelog since v2.32
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.32...bd6f6b3536e2e96e54977c0bb7e3ede4e37475fb)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.32...ccb780f5bb16e2381d76d10245669a4c2b68a1b1)
 
 ## 🚀 Features
 
@@ -92,6 +92,8 @@
 - Fix mobile widget selection highlights ([PR #1217](https://github.com/icosa-foundation/open-brush/pull/1217) by @andybak)
 
 - Fix Android page size ([PR #1219](https://github.com/icosa-foundation/open-brush/pull/1219) by @andybak)
+
+- Fix Steam Frame dynamic quality corruption ([PR #1221](https://github.com/icosa-foundation/open-brush/pull/1221) by @andybak)
 
 
 ## 🛠️ Infrastructure
