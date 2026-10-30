@@ -1,6 +1,6 @@
 # Changelog since v2.32
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.32...ccb780f5bb16e2381d76d10245669a4c2b68a1b1)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.32...6f26dd887761f1752f3a7d9d36b682d199c34638)
 
 ## 🚀 Features
 
@@ -37,6 +37,8 @@
 - Better video rendering quality and configurability ([PR #1185](https://github.com/icosa-foundation/open-brush/pull/1185) by @andybak)
 
 - Integrate handtracking and Android Direct Storage SAF ([PR #1191](https://github.com/icosa-foundation/open-brush/pull/1191) by @andybak)
+
+- Play Store CI publish update ([PR #1223](https://github.com/icosa-foundation/open-brush/pull/1223) by @andybak)
 
 
 ## 🐛 Fixes
