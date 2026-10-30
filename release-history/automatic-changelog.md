@@ -1,6 +1,6 @@
 # Changelog since v2.32
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.32...6f26dd887761f1752f3a7d9d36b682d199c34638)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.32...b088f60c7c2b123f524b0184a92e5e0185f6b49d)
 
 ## 🚀 Features
 
@@ -96,6 +96,8 @@
 - Fix Android page size ([PR #1219](https://github.com/icosa-foundation/open-brush/pull/1219) by @andybak)
 
 - Fix Steam Frame dynamic quality corruption ([PR #1221](https://github.com/icosa-foundation/open-brush/pull/1221) by @andybak)
+
+- Fix publish errors ([PR #1224](https://github.com/icosa-foundation/open-brush/pull/1224) by @andybak)
 
 
 ## 🛠️ Infrastructure
