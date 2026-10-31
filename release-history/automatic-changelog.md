@@ -1,6 +1,6 @@
 # Changelog since v2.32
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.32...b088f60c7c2b123f524b0184a92e5e0185f6b49d)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.32...fbf0529cfee8f384030b4b32ffcfe4bd6e879bee)
 
 ## 🚀 Features
 
@@ -98,6 +98,8 @@
 - Fix Steam Frame dynamic quality corruption ([PR #1221](https://github.com/icosa-foundation/open-brush/pull/1221) by @andybak)
 
 - Fix publish errors ([PR #1224](https://github.com/icosa-foundation/open-brush/pull/1224) by @andybak)
+
+- Fix brush descriptor startup errors ([PR #1222](https://github.com/icosa-foundation/open-brush/pull/1222) by @andybak)
 
 
 ## 🛠️ Infrastructure
