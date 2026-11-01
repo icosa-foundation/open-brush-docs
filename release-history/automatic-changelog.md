@@ -1,6 +1,6 @@
 # Changelog since v2.32
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.32...fbf0529cfee8f384030b4b32ffcfe4bd6e879bee)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.32...4c42a547f0f167c15d385590c9b0cd9dcd2dbf5d)
 
 ## 🚀 Features
 
@@ -100,6 +100,10 @@
 - Fix publish errors ([PR #1224](https://github.com/icosa-foundation/open-brush/pull/1224) by @andybak)
 
 - Fix brush descriptor startup errors ([PR #1222](https://github.com/icosa-foundation/open-brush/pull/1222) by @andybak)
+
+- Fix git churn ([PR #1226](https://github.com/icosa-foundation/open-brush/pull/1226) by @andybak)
+
+- Exclude widget metadata from saved-stroke snapshots ([PR #1225](https://github.com/icosa-foundation/open-brush/pull/1225) by @andybak)
 
 
 ## 🛠️ Infrastructure
