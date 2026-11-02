@@ -1,6 +1,6 @@
 # Changelog since v2.32
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.32...4c42a547f0f167c15d385590c9b0cd9dcd2dbf5d)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.32...6996c28dabda6ce7ff2b4728767ff99484445162)
 
 ## 🚀 Features
 
@@ -104,6 +104,8 @@
 - Fix git churn ([PR #1226](https://github.com/icosa-foundation/open-brush/pull/1226) by @andybak)
 
 - Exclude widget metadata from saved-stroke snapshots ([PR #1225](https://github.com/icosa-foundation/open-brush/pull/1225) by @andybak)
+
+- Fix hand grab hysteresis ([PR #1228](https://github.com/icosa-foundation/open-brush/pull/1228) by @andybak)
 
 
 ## 🛠️ Infrastructure
