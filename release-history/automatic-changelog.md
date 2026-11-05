@@ -1,6 +1,6 @@
 # Changelog since v2.32
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.32...6996c28dabda6ce7ff2b4728767ff99484445162)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.32...2d908c999bfe3deba12cbe588a656664cd15e21c)
 
 ## 🚀 Features
 
@@ -106,6 +106,8 @@
 - Exclude widget metadata from saved-stroke snapshots ([PR #1225](https://github.com/icosa-foundation/open-brush/pull/1225) by @andybak)
 
 - Fix hand grab hysteresis ([PR #1228](https://github.com/icosa-foundation/open-brush/pull/1228) by @andybak)
+
+- Keep SAF durability checks from blocking picker dismissal ([PR #1229](https://github.com/icosa-foundation/open-brush/pull/1229) by @andybak)
 
 
 ## 🛠️ Infrastructure
