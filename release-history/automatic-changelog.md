@@ -1,6 +1,6 @@
 # Changelog since v2.32
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.32...2d908c999bfe3deba12cbe588a656664cd15e21c)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.32...e84f51fbafd82cd1053e27916b40513617b8439d)
 
 ## 🚀 Features
 
@@ -122,6 +122,8 @@
 ## 📦 Dependencies / Maintenance
 
 - Update imm plugin ([PR #1167](https://github.com/icosa-foundation/open-brush/pull/1167) by @andybak)
+
+- Bump the all-actions-updates group across 1 directory with 2 updates ([PR #1230](https://github.com/icosa-foundation/open-brush/pull/1230) by @dependabot[bot])
 
 
 ## 💬 Uncategorized
