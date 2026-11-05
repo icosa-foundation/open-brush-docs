@@ -1,6 +1,6 @@
 # Changelog since v2.32
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.32...e84f51fbafd82cd1053e27916b40513617b8439d)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.32...1db9e747c3696abdd66fd4e9b1b10bb5d4a19795)
 
 ## 🚀 Features
 
@@ -108,6 +108,8 @@
 - Fix hand grab hysteresis ([PR #1228](https://github.com/icosa-foundation/open-brush/pull/1228) by @andybak)
 
 - Keep SAF durability checks from blocking picker dismissal ([PR #1229](https://github.com/icosa-foundation/open-brush/pull/1229) by @andybak)
+
+- Fix pinch/grab precedence ([PR #1231](https://github.com/icosa-foundation/open-brush/pull/1231) by @andybak)
 
 
 ## 🛠️ Infrastructure
