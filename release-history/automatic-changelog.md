@@ -1,6 +1,6 @@
 # Changelog since v2.32
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.32...1db9e747c3696abdd66fd4e9b1b10bb5d4a19795)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.32...1497b890ce781fe9986729c72a06b82039d1ec4d)
 
 ## 🚀 Features
 
@@ -110,6 +110,8 @@
 - Keep SAF durability checks from blocking picker dismissal ([PR #1229](https://github.com/icosa-foundation/open-brush/pull/1229) by @andybak)
 
 - Fix pinch/grab precedence ([PR #1231](https://github.com/icosa-foundation/open-brush/pull/1231) by @andybak)
+
+- Cherrypick various small fixes from in-progress branches ([PR #1233](https://github.com/icosa-foundation/open-brush/pull/1233) by @andybak)
 
 
 ## 🛠️ Infrastructure
