@@ -1,6 +1,6 @@
 # Changelog since v2.32
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.32...1497b890ce781fe9986729c72a06b82039d1ec4d)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.32...04e6f4833302c3080fa2fd3a49dd48cd9ebbb68d)
 
 ## 🚀 Features
 
@@ -39,6 +39,8 @@
 - Integrate handtracking and Android Direct Storage SAF ([PR #1191](https://github.com/icosa-foundation/open-brush/pull/1191) by @andybak)
 
 - Play Store CI publish update ([PR #1223](https://github.com/icosa-foundation/open-brush/pull/1223) by @andybak)
+
+- Voxel editing ([PR #1024](https://github.com/icosa-foundation/open-brush/pull/1024) by @andybak)
 
 
 ## 🐛 Fixes
