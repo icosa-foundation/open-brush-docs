@@ -1,6 +1,6 @@
 # Changelog since v2.32
 
-[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.32...04e6f4833302c3080fa2fd3a49dd48cd9ebbb68d)
+[Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.32...9b20051bfe1c7cf3e0d32badaa4868c2fef3d27d)
 
 ## 🚀 Features
 
@@ -41,6 +41,8 @@
 - Play Store CI publish update ([PR #1223](https://github.com/icosa-foundation/open-brush/pull/1223) by @andybak)
 
 - Voxel editing ([PR #1024](https://github.com/icosa-foundation/open-brush/pull/1024) by @andybak)
+
+- Symmetry stroke linking ([PR #1175](https://github.com/icosa-foundation/open-brush/pull/1175) by @andybak)
 
 
 ## 🐛 Fixes
