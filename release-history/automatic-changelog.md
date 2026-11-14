@@ -2,8 +2,6 @@
 
 [Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.32...9b20051bfe1c7cf3e0d32badaa4868c2fef3d27d)
 
-Changes on main since v2.32, including changes brought in through integration branches. Some source PRs closed before v2.32 but first reached main during this beta period.
-
 ## 🚀 Features
 
 - Upgrade to Unity 6, URP and OpenXR ([PR #1046](https://github.com/icosa-foundation/open-brush/pull/1046) by @andybak)
