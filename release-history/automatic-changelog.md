@@ -2,13 +2,25 @@
 
 [Full release details](https://github.com/icosa-foundation/open-brush/compare/v2.32...9b20051bfe1c7cf3e0d32badaa4868c2fef3d27d)
 
+Changes on main since v2.32, including changes brought in through integration branches. Some source PRs closed before v2.32 but first reached main during this beta period.
+
 ## 🚀 Features
 
-- Unity 6 Kitchen Sink ([PR #1069](https://github.com/icosa-foundation/open-brush/pull/1069) by @andybak)
+- Upgrade to Unity 6, URP and OpenXR ([PR #1046](https://github.com/icosa-foundation/open-brush/pull/1046) by @andybak)
+
+- Hand tracking and hand-based interface interaction ([PR #1136](https://github.com/icosa-foundation/open-brush/pull/1136) by @andybak)
+
+- Reworked Push Pull sculpting with Attract/Repel behavior ([PR #1140](https://github.com/icosa-foundation/open-brush/pull/1140) by @andybak)
+
+- Increase Quest sketch complexity limits ([PR #1108](https://github.com/icosa-foundation/open-brush/pull/1108) by @andybak)
+
+- Configurable Gaussian splat rendering and import settings ([PR #1158](https://github.com/icosa-foundation/open-brush/pull/1158) by @andybak)
 
 - Default media files improvements ([PR #1155](https://github.com/icosa-foundation/open-brush/pull/1155) by @andybak)
 
 - Crop strokes ([PR #984](https://github.com/icosa-foundation/open-brush/pull/984) by @andybak)
+
+- VR JPEG 360 image import, including spatial audio ([PR #1112](https://github.com/icosa-foundation/open-brush/pull/1112) by @andybak)
 
 - Tool plugin stroke preview ([PR #1022](https://github.com/icosa-foundation/open-brush/pull/1022) by @andybak)
 
@@ -36,13 +48,30 @@
 
 - Better video rendering quality and configurability ([PR #1185](https://github.com/icosa-foundation/open-brush/pull/1185) by @andybak)
 
-- Integrate handtracking and Android Direct Storage SAF ([PR #1191](https://github.com/icosa-foundation/open-brush/pull/1191) by @andybak)
+- Android direct storage and folder access for Google Play builds ([PR #1190](https://github.com/icosa-foundation/open-brush/pull/1190) by @andybak)
+
+- Gaussian capture exports with COLMAP directories and optional depth TIFFs ([PR #1197](https://github.com/icosa-foundation/open-brush/pull/1197) by @andybak)
+
+- Broader Android XR passthrough support and alpha-blend passthrough ([PR #1199](https://github.com/icosa-foundation/open-brush/pull/1199) by @andybak)
+
+- Hand tracking on Quest and generic OpenXR Android, with switching between hands and controllers ([PR #1200](https://github.com/icosa-foundation/open-brush/pull/1200) by @andybak)
+
+- Optional handheld AR navigation on Android and iOS ([PR #1201](https://github.com/icosa-foundation/open-brush/pull/1201) by @andybak)
+
+- Android Viewer startup without SAF folder permission, with bundled example sketches ([PR #1211](https://github.com/icosa-foundation/open-brush/pull/1211) by @andybak)
+
+- Brush mesh performance improvements for selection, visibility changes and export ([PR #1209](https://github.com/icosa-foundation/open-brush/pull/1209) by @andybak)
 
 - Play Store CI publish update ([PR #1223](https://github.com/icosa-foundation/open-brush/pull/1223) by @andybak)
 
 - Voxel editing ([PR #1024](https://github.com/icosa-foundation/open-brush/pull/1024) by @andybak)
 
 - Symmetry stroke linking ([PR #1175](https://github.com/icosa-foundation/open-brush/pull/1175) by @andybak)
+
+
+## 🎨 UI / UX
+
+- Fill translation gaps and clarify interface labels ([PR #1207](https://github.com/icosa-foundation/open-brush/pull/1207) by @andybak)
 
 
 ## 🐛 Fixes
@@ -89,6 +118,8 @@
 
 - Update Unity Tools package lock for brush fog fixes ([PR #1203](https://github.com/icosa-foundation/open-brush/pull/1203) by @andybak)
 
+- Restore brush shadows and shadow quality after the URP migration ([PR #1206](https://github.com/icosa-foundation/open-brush/pull/1206) by @andybak)
+
 - Fix compositor quality switching bugs ([PR #1214](https://github.com/icosa-foundation/open-brush/pull/1214) by @andybak)
 
 - Fix passthrough selection bug on Quest ([PR #1216](https://github.com/icosa-foundation/open-brush/pull/1216) by @andybak)
@@ -124,12 +155,18 @@
 
 - Fix publish jobs and some general build cleanup ([PR #1156](https://github.com/icosa-foundation/open-brush/pull/1156) by @mikeage)
 
+- Reduce local build clutter and restore temporary settings after builds ([PR #1193](https://github.com/icosa-foundation/open-brush/pull/1193) by @andybak)
+
 - Separate 2d builds for Android Viewer ([PR #1220](https://github.com/icosa-foundation/open-brush/pull/1220) by @andybak)
 
 
 ## 📦 Dependencies / Maintenance
 
+- Update the Android Quest artifact download action to v8 ([PR #1152](https://github.com/icosa-foundation/open-brush/pull/1152) by @dependabot[bot])
+
 - Update imm plugin ([PR #1167](https://github.com/icosa-foundation/open-brush/pull/1167) by @andybak)
+
+- Remove temporary debug logging and tracing ([PR #1208](https://github.com/icosa-foundation/open-brush/pull/1208) by @andybak)
 
 - Bump the all-actions-updates group across 1 directory with 2 updates ([PR #1230](https://github.com/icosa-foundation/open-brush/pull/1230) by @dependabot[bot])
 
@@ -137,10 +174,3 @@
 ## 💬 Uncategorized
 
 - Put UNITY_LIBRARY_CACHE_PATHS in the proper step ([PR #1160](https://github.com/icosa-foundation/open-brush/pull/1160) by @mikeage)
-
-- Integration branch for the PRs that will be merged soon ([PR #1212](https://github.com/icosa-foundation/open-brush/pull/1212) by @andybak)
-
-
-
-
-
